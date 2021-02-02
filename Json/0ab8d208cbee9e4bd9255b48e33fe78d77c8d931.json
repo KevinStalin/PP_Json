@@ -1,0 +1,1177 @@
+{
+    "paper_id": "0ab8d208cbee9e4bd9255b48e33fe78d77c8d931",
+    "metadata": {
+        "title": "Similarity Detection Pipeline for Crawling a Topic Related Fake News Corpus",
+        "authors": [
+            {
+                "first": "Inna",
+                "middle": [],
+                "last": "Vogel",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jeong-Eun",
+                "middle": [],
+                "last": "Choi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Meghana",
+                "middle": [],
+                "last": "Meghana",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Fake news detection is a challenging task aiming to reduce human time and effort to check the truthfulness of news. Automated approaches to combat fake news, however, are limited by the lack of labeled benchmark datasets, especially in languages other than English. Moreover, many publicly available corpora have specific limitations that make them difficult to use. To address this problem, our contribution is threefold. First, we propose a new, publicly available German topic related corpus for fake news detection. To the best of our knowledge, this is the first corpus of its kind. In this regard, we developed a pipeline for crawling similar news articles. As our third contribution, we conduct different learning experiments to detect fake news. The best performance was achieved using sentence level embeddings from SBERT in combination with a Bi-LSTM (\u03ba=0.88).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In a speech to the parliament, the German Chancellor Angela Merkel drew attention to the need for governments to combat bots, internet trolls and fake news 1 , saying they harm political discussion and can increase the power of populist extremism. Besides tarnishing the media sectors by swaying the public opinion and manipulating millions of people, fake news possess the power to push the stock price down, can crush reputations of corporations and topple political figures.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Most authors define fake news as intentionally and verifiable false information written to mislead readers (Giachanou et al., 2019a; Horne and Adali, 2017; Shu et al., 2017; Gimpel et al., 2020) . Such news are created for a variety of purposes, including financial and political gain (Shu et al., 2017) . The fake news articles used in this paper can be assigned to the news category propaganda as the authors seek to present parts of the facts, distort their relations and provide false conclusions to make the reader believe a certain political or social agenda (Rashkin et al., 2017; Vogel and Jiang, 2019) . However, it is important to note that the attempt to invalidate what is true can be both willing and unwilling as well as intended and unintended. In the case of propaganda fake news, we assume that the authors mistakenly belief the content to be true and the main purpose is not to intentionally mislead the readers. Thus, we define the term fake news as a journalistic publication which contains misinformation that is spread via print or online media. The content can be produced to deceive the readers from a biased or misinformed perspective. The process of producing false information can be thereby both intentional and unintentional.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 132,
+                    "text": "(Giachanou et al., 2019a;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 133,
+                    "end": 155,
+                    "text": "Horne and Adali, 2017;",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 156,
+                    "end": 173,
+                    "text": "Shu et al., 2017;",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 174,
+                    "end": 194,
+                    "text": "Gimpel et al., 2020)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 285,
+                    "end": 303,
+                    "text": "(Shu et al., 2017)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 565,
+                    "end": 587,
+                    "text": "(Rashkin et al., 2017;",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 588,
+                    "end": 610,
+                    "text": "Vogel and Jiang, 2019)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Manually determining the veracity of fake news is a challenging and costly task, usually requiring domain expertise and a careful analysis of claims. PolitiFact 2 , for example, takes three editors to judge whether a piece of news is true or not. New search directions on how technologies can contribute to facilitate the process of classification have been pursued. Nevertheless, machine learning approaches to combat fake news are limited by the lack of reliable labeled benchmark datasets, especially in languages other than English. A useful first step towards identifying fake news articles or finding controversies in texts is to understand what other news agencies do report about the same incidents. Therefore, in this paper, we investigate the topic of fake news detection for the German language. Our contribution is threefold. First, we introduce a new, publicly available topic related German fake news corpus C TRFakeNC 3 . To the best of our knowledge, this is the first corpus of its kind. Regarding our second contribution, we first collected manually corresponding true news to every given fake news from the GermanFakeNC 4 corpus C GFN . We then examined different document similarity approaches. LDA in combination with JensenShannon divergence [LDA+JSD] outperformed all other techniques. In order to augment the data, three major online newspapers were crawled by matching the named entities and keywords of each fake news article. Named entities are particularly suitable to compare the content of news, as they answer partly the five journalistic \"W's\" -Who? What? When? Where? and Why? After the crawling process with keyword extraction, [LDA+JSD] was applied for computing the similarity between two pairs of documents. Experiments show that our proposed similarity detection pipeline is able to obtain similar documents with consistent topics. Regarding our third contribution, we used C TRFakeNC to train different machine learning models to detect fake news. The best performance was achieved by applying sentence level embeddings from SBERT based on the pre-trained German BERT model in combination with a Bi-LSTM (Cohen's Kappa \u03ba = 0.88).",
+            "cite_spans": [
+                {
+                    "start": 1264,
+                    "end": 1273,
+                    "text": "[LDA+JSD]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1662,
+                    "end": 1671,
+                    "text": "[LDA+JSD]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The paper is organized as follows: After a review of related work, Section 3 details the construction of the publicly available C TRFakeNC corpus. Section 4 outlines the pipeline to automatically crawl topic related news with similarity detection techniques from the web. In Section 5, we introduce the fake news classification techniques and demonstrate that good results on detecting potentially misleading information can be achieved. The last Section 6 concludes this paper.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Datasets proposed for fake news detection have usually specific limitations that make them challenging to use. BuzzFeedNews 5 consists of Facebook posts rather than news articles collected from 9 news agencies. Potthast et al. (2018) enriched the dataset by adding the linked articles to the dataset. LIAR 6 is a recent benchmark dataset for fake news detection (Wang, 2017) containing mostly short statements, rather than the entire news content. Additionally, the claims were collected from different speakers and not news publishers, and may contain statements which are not fake news. Fever (Thorne et al., 2018) is similar to LIAR containing claims generated from Wikipedia labeled as \"Supported, Refuted or Not Enough Info\". BS Detector 7 is collected from a browser extension by searching the web from a list of links of unreliable domains. The news have not been validated by human experts. P\u00e9rez-Rosas et al. (2018) build a comparable corpora by collecting legitimate news from mainstream news websites (like ABCNews, CNN or Bloomberg) covering six domains (like sports and politics). To ensure the veracity of the news they were manually fact-checked by cross-referencing the information among different sources. The fake versions of the true news were generated by using Amazon Mechanical Turk (AMT). However, the falsifications are just imitations of fake news written by AMT workers' and do not reflect real-world fake news. Additionally, the articles are shorter then the true news. The second corpus proposed by the authors consists of celebrity news. The two datasets were used to train a linear SVM classifier. Using fivefold cross-validation, the authors report an Accuracy of 0.74 by training the model on different features such as n-grams, punctuation, readability index, psycholinguistic and syntax related features.",
+            "cite_spans": [
+                {
+                    "start": 211,
+                    "end": 233,
+                    "text": "Potthast et al. (2018)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 595,
+                    "end": 616,
+                    "text": "(Thorne et al., 2018)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 899,
+                    "end": 924,
+                    "text": "P\u00e9rez-Rosas et al. (2018)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Related Work"
+        },
+        {
+            "text": "In a recent study Giachanou et al. (2019b) proposed EmoCred, a neural network architecture which examines the role of emotional signals in credibility assessment. EmoCred is based on LSTM and takes as features word embeddings generated from fake statements and additionally a vector of emotional signals. The authors observed that EmoCred outperformed the LSTM baseline trained only on the text showing that emotional signals improve the performance of the model. Zhu et al. (2013a) used LDA to build a comparable bilingual corpora. The goal was to predict the topical structure of documents in different languages rather than a direct translation. The main steps involved to measure the topic distribution of the documents were: using TF-IDF to enhance the topic discrepancies among different documents, and calculating the similarity between the distributions using cosine similarity. The experiments were conducted on two datasets with document pairs in Chinese and English. The news texts corpus and the bilingual Wikipedia entry pairs were then merged together to train the LDA model. The experimental results showed that the matching algorithm is superior to existing algorithms.",
+            "cite_spans": [
+                {
+                    "start": 18,
+                    "end": 42,
+                    "text": "Giachanou et al. (2019b)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 464,
+                    "end": 482,
+                    "text": "Zhu et al. (2013a)",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Related Work"
+        },
+        {
+            "text": "To create the ground truth for our task, we use the German fake news corpus GermanFakeNC 8 (C GFN ) released by Vogel and Jiang (2019). Every article in the corpus was fact-checked claimby-claim with reports from authoritative sources such as statements from police authorities, scientific studies or legal texts. C GFN contains 490 news texts which were retrieved from 39 German alternative online media sources 9 . The news were collected between December 2015 and March 2018. Most of the articles are based on true information, but are mixed with false claims to make the reader believe a certain political or social agenda. According to Rashkin et al. (2017) this type of text is also known as propaganda.",
+            "cite_spans": [
+                {
+                    "start": 641,
+                    "end": 662,
+                    "text": "Rashkin et al. (2017)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data Augmentation"
+        },
+        {
+            "text": "We obtained from the authors their sources of verification and used the false statements to search the web for corresponding articles, which confirm the claims made by the authoritative sources. The ground truth of trustworthy news was obtained from a variety of German online news websites such as Frankfurter Allgemeine Zeitung, Berliner Zeitung or Die Welt 10 . Other sources were factfinder websites 11 or press portals, which inform the general public and especially journalists about statements, denials or events (for instance crimes reported by the police press office) 12 . Up to six true news per fake article were collected.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Augmentation"
+        },
+        {
+            "text": "By searching various online sources, we were able to match 234 (out of 490) fake news with the corresponding true news. There are several rea-8 Available at https://doi.org/10.5281/zenodo.3375714 9 E.g. www.allesroger.at, www.compact-online.de or www.rapefugees.net 10 www.faz.net/aktuell/, www.berliner-zeitung.de/, www.welt.de/ 11 https://www.tagesschau.de/thema/ faktenfinder/index.html 12 The dataset will be published online after the review process. sons why no valid press release can be found for some fake news:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Augmentation"
+        },
+        {
+            "text": "\u2022 Some false claims refer to wrong statistics (\"Statistics Austria assumes 175,000 immigrants per year\") and can be verified by a federal statistical office rather than a news article.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Augmentation"
+        },
+        {
+            "text": "\u2022 No crimes were committed, so neither the police nor the media could report about it.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Augmentation"
+        },
+        {
+            "text": "\u2022 False allegations that can neither be confirmed nor revised, for instance because the police investigations are still ongoing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Augmentation"
+        },
+        {
+            "text": "\u2022 Misquotations (for instance of legal texts) or wrong translations (e.g. wrong citation: \"In the name of Allah, the Almighty, the Merciful\", correct citation: \"In the name of Allah, most Gracious, most Merciful\").",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Augmentation"
+        },
+        {
+            "text": "In total, we retrieved 315 true news articles covering 234 falsifications. Legal texts, statistics, encyclopedias or scientific articles were not considered because they represent a different text type than the news texts our research is based on.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Augmentation"
+        },
+        {
+            "text": "Depending upon the problem, getting a precisely fit for a classifier may require large datasets. However, in many cases, labeled data is scarce and costly to obtain. Data augmentation is a common strategy for handling scarce data situations (Wong et al., 2016) for example by synthesizing new data from existing training data. Data augmentation techniques often involve deleting words, replacing them with synonyms or changing the word order (Wei and Zou, 2019) . Recent advances in text generation are opening new ways to address this task (Radford et al., 2018) . However, the aim of this work was to generate a reliable dataset covering real world scenarios. To enlarge C GFN , we developed a pipeline to automatically collect as many related news articles from the web as possible. The resulted skew in the dataset are intrinsic to the problem as the majority of news on the web are based on facts and not on misinformation. As Chawla et al. (2004) pointed out, the problem of imbalanced data is prevalent in applications like fraud and intrusion detection.",
+            "cite_spans": [
+                {
+                    "start": 241,
+                    "end": 260,
+                    "text": "(Wong et al., 2016)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 442,
+                    "end": 461,
+                    "text": "(Wei and Zou, 2019)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 541,
+                    "end": 563,
+                    "text": "(Radford et al., 2018)",
+                    "ref_id": null
+                },
+                {
+                    "start": 932,
+                    "end": 952,
+                    "text": "Chawla et al. (2004)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data Augmentation with Similarity Detection Techniques"
+        },
+        {
+            "text": "Source of Verification True News \"Mass media cover up of a Muslim terror attack on church.\"",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fake Statement"
+        },
+        {
+            "text": "According to a police spokesperson, investigations are conducted, but there are no indications of a Muslim terror attack.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fake Statement"
+        },
+        {
+            "text": "Rhein-Neckar-Zeitung: \"Fire in the bell tower of the Hildegard church. The police are looking for two suspects [...] .\" Mannheimer Morgen: \"Arson at the steeple of the Mannheim St. Hildegard church -witnesses wanted.\" ",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 116,
+                    "text": "[...]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Fake Statement"
+        },
+        {
+            "text": "To automatically collect related articles, we trained and evaluated different semantic similarity approaches, namely:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Similarity Detection Approaches"
+        },
+        {
+            "text": "The fake news and their corresponding true news presented in Chapter 3 were used to train and evaluate the proposed similarity techniques (on a 70/30 train test split). For each fake news, the dataset contains up to six true news. The goal of the algorithms was to place similar objects in a common cluster and dissimilar objects in distinct clusters. One popular notion of clusters is that the groups exhibit small distances between cluster members. Therefore, each technique applies a distance metric to calculate the relatedness among the documents. Evaluating the quality of the outcomes of clustering algorithms is a necessary, yet challenging task, for which a large number of evaluation techniques have been proposed. The most popular clustering evaluation measures are: Purity, Inverse Purity, and their harmonic mean F 1 -Score. However, as Amig et al. (2009) showed, BCubed is the sole measure to fulfill all four clustering conditions (Homogeneity, Completeness, Rag Bag and Clusters size versus quantity).",
+            "cite_spans": [
+                {
+                    "start": 850,
+                    "end": 868,
+                    "text": "Amig et al. (2009)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Similarity Detection Approaches"
+        },
+        {
+            "text": "BCubed builds on the traditional Information Retrieval triad of evaluation measures Precision, 13 Hugging Face' German pretrained Transformer Architecture Recall and F 1 -measure and was originally defined as an algorithm by Bagga and Baldwin (1998). Amig et al. (2009) The BCubed Recall is calculated by taking an object (o) and calculating the proportion of all objects of the same category in the cluster in relation to the total number of these objects in all clusters. Precision measures the proportion of correct objects in one cluster in comparison to the total number of objects in the same cluster. The overall BCubed Recall and Precision are the averaged Recall and Precision of all objects in the distribution. F 1 -Score is the harmonic mean between Precision and Recall.",
+            "cite_spans": [
+                {
+                    "start": 95,
+                    "end": 97,
+                    "text": "13",
+                    "ref_id": null
+                },
+                {
+                    "start": 251,
+                    "end": 269,
+                    "text": "Amig et al. (2009)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Similarity Detection Approaches"
+        },
+        {
+            "text": "As up to six semantically similar true news were retrieved for each fake news, the performance of the four similarity detection approaches was evaluated on detecting the top n most similar true news given a fake news article. The detected top n objects (excluding the fake news) form a cluster. Since Recall calculates the number of true positives (TP) in a cluster, we consider Recall suitable to measure the homogeneity and completeness of the cluster. The number of clusters and categories is predetermined, hence BCubed Recall was modified as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Similarity Detection Approaches"
+        },
+        {
+            "text": "Precision, on the other hand, calculates how many objects in the same cluster belong to its category. This measure is not suitable for our task as the top n objects in a cluster are determined a priori. Table  2 lists the performance results of the different similarity approaches where TP (True Positive) refers to a cluster if all true news with respect to a given fake news were detected. FN (False Negative) was assigned if none of the true news were grouped in the top n cluster. Figure 1 illustrates the calculation. The value P ar (Partially) is provided for the purpose of clarification and was assigned to clusters where just a part of the true news were rightly clustered in the top n. R denotes the modified BCubed Recall. Considering the top 6 most similar news articles in a cluster, the best performance was achieved by using spaCy's German pre-trained BERT embedding vectors in combination with the cosine similarity (R = 0.43). By clustering the top 10 most similar documents, LDA in combination with the JensenShannon divergence [LDA + JSD] outperformed all similarity metrics (R = 0.86) while [BERT + Cosine] improved slightly (R = 0.49). For further investigations and to build comparable corpora, we have therefore chosen [LDA + JSD]. LDA is a generative probabilistic model that represents the latent topics of a document as a Dirichlet distribution with a K 14 -dimensional variable 14 The number of requested latent topics to be extracted from the training corpus. (Zhu et al., 2013b) . Each document is considered as a distribution of different topics. And each topic is considered as a mixture over various topic probabilities and distribution of words (Blei et al., 2003) . We experimented with a variety of latent topic numbers K. The best results were achieved by acknowledging each document as a unique topic (in a total K = 234) from a range of 78 to 234.",
+            "cite_spans": [
+                {
+                    "start": 1405,
+                    "end": 1407,
+                    "text": "14",
+                    "ref_id": null
+                },
+                {
+                    "start": 1488,
+                    "end": 1507,
+                    "text": "(Zhu et al., 2013b)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1678,
+                    "end": 1697,
+                    "text": "(Blei et al., 2003)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 203,
+                    "end": 211,
+                    "text": "Table  2",
+                    "ref_id": null
+                },
+                {
+                    "start": 485,
+                    "end": 493,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Similarity Detection Approaches"
+        },
+        {
+            "text": "\u03b1 and \u03b2 are hyperparameters affecting sparsity of the per-document topic distribution (\u03b1) and per topic word-distribution (\u03b2). As news articles often only discuss one specific topic (or at least a few topics), it is usually the case that \u03b1 < 1. The topic-word density parameter \u03b2 determines the distribution of words per topic. The lower \u03b2, the less words per topic are considered. We used the default values for both parameters ( 1 /K) which means each article consists of few topics and each topic consists of few words.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Similarity Detection Approaches"
+        },
+        {
+            "text": "LDA is a bag-of-words model. Very frequent and rare words do not contribute to general topics and can impede the performance. Therefore, stopwords were removed by employing NLTK. During preprocessing the text was also cleaned of URLs, email addresses and punctuation. After tokenisation, the words were lemmatized to reduce the vocabulary size. The remaining 20,000 most common tokens (out of 55,221) were applied in the modeling approach. Sixteen training passes through the corpus with 300 documents (chunksize) each were performed through the training process.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Similarity Detection Approaches"
+        },
+        {
+            "text": "To calculate the similarity between documents, we employed the Jensen-Shannon divergence (JSD) which is a way to quantify the difference (or similarity) between two probability distributions. JSD is based on the Kullback-Leibler (KL) divergence and is calculated by taking the square root of the JensenShannon distance (Endres and Schindelin, 2003; Lin, 1991) . The smaller JSD, the more similar two documents are. For two discrete distributions P and Q, the Jensen-Shannon distance is defined as:",
+            "cite_spans": [
+                {
+                    "start": 319,
+                    "end": 348,
+                    "text": "(Endres and Schindelin, 2003;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 349,
+                    "end": 359,
+                    "text": "Lin, 1991)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Similarity Detection Approaches"
+        },
+        {
+            "text": "where M = 1 2 (P + Q), and D KL (P ||Q) = i P (i)log P (i) Q(i) is the Kullback-Leibler divergence (Tong and Zhang, 2016) . The KL divergence is used to calculate a normalized score that is sym- Table 2 : Evaluation of the Similarity Detection Techniques metrical, which means that the divergence of P from Q is the same as Q from P . Calculating the JSD of the topic distributions of a given fake news to the top 10 most matching true news, the similarity of the TP ranges between 0.17 (min.) and 0.98 (max.). The main transform used to obtain a similarity s from a distance d bounded by 1 is: s = 1 \u2212 d (Deza and Deza, 2009). As a similarity function requires the definition of a threshold (\u03b8) value in order to decide whether two different data instances match (dos Santos et al., 2011) , we calculated the values of Precision and Recall for a range of thresholds to estimate the quality of the Jensen-Shannon divergence. The values are plotted in a Precision-Recall-curve (PR) (Figure 2) where each point is a threshold represented by a confusion matrix (TP, TN, FP, FN). The PR-curve is suitable for our similarity approach as it is an effective diagnostic for imbalanced binary classification models (He and Ma, 2013; dos Santos et al., 2011) and thus focuses on the minority class. Additionally, neither specificity nor true negatives are relevant for our approach (as the cluster size is determined a priori). A threshold in a PR-curve is suitable when it maximizes both Recall and Precision (dos Santos et al., 2011) . Similarly, the point on the PR curve closest to the top right corner (1,1) can be used to determine the threshold since it represents a perfect classification when Precision and Recall are 100% (Liu et al., 2005) . Table 3 provides for every threshold the values of the confusion matrix as well as the metrics Precision and Recall. The shortest distance to the upper-right corner of 0.74 was used to determine the semantic similarity threshold, which in our case is 0.36.",
+            "cite_spans": [
+                {
+                    "start": 99,
+                    "end": 121,
+                    "text": "(Tong and Zhang, 2016)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 764,
+                    "end": 789,
+                    "text": "(dos Santos et al., 2011)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1206,
+                    "end": 1223,
+                    "text": "(He and Ma, 2013;",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1224,
+                    "end": 1248,
+                    "text": "dos Santos et al., 2011)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1479,
+                    "end": 1525,
+                    "text": "Recall and Precision (dos Santos et al., 2011)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1722,
+                    "end": 1740,
+                    "text": "(Liu et al., 2005)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 195,
+                    "end": 202,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 981,
+                    "end": 991,
+                    "text": "(Figure 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1743,
+                    "end": 1750,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Similarity Detection Approaches"
+        },
+        {
+            "text": "The process of parsing relevant news from online media was performed in three steps. First, named entities such as names of persons and organizations were extracted from each fake news text. Additionally, keywords were selected with RAKE 15 (Rapid Automatic Keyword Extraction), a language-independent method for keywords and phrase extraction. RAKE uses stopwords as delimiters to partition the document into candidate keywords. The score for the keyword candidates is computed based on the degree and frequency of word vertices in the graph. One-third of the top keywords in the graph are considered as keywords reduced by the hyperparameters: maximum length of words and minimum characters per keyword (in our case 2 and 3 respectively). The extracted named entities and the keywords generated by RAKE were used to parse through the online search engine of the selected online newspapers. If the news article contained at least five randomly selected keywords, the news article was scraped from the webpage and filtered by the trained [LDA + JSD].",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Augmentation by Crawling Related True News Articles"
+        },
+        {
+            "text": "The initially trained LDA model from Section 4.1 was retrained to capture the content of all fake news. That means, K has been adjusted to 490. All other hyperparameters were adopted from the initially trained model. Articles with a similarity score above \u03b8 = 0.36 were accepted as related articles for the final dataset. Figure 3 shows the pipeline for obtaining related news articles from the web. As conventional topic model techniques like LDA and PLSA (Probabilistic Latent Semantic Analysis) do not perform well on short texts, news articles with less than 2,000 characters 16 were ignored. Xiaohui et al. (2013) showed that topic models suffer from severe data sparsity in short documents as the occurrences of words in short documents play less discriminative role compared 15 https://pypi.org/project/rake-nltk 16 Equivalent to the approximately average length of a German news article of 400 words Figure 3 : Similarity Detection Pipeline to lengthy documents. For crawling, we selected three German national daily newspapers: Sddeutsche Zeitung 17 , Zeit Online 18 and Frankfurter Rundschau 19 . We consider these newspapers reliable news sources as Potthast et al. (2018) showed that none of the manually fact-checked articles from mainstream online sources were completely false. Just 0.97% of the analysed texts comprised some factual claims which were not completely true. We have accepted this deviation in our corpus.",
+            "cite_spans": [
+                {
+                    "start": 597,
+                    "end": 618,
+                    "text": "Xiaohui et al. (2013)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1161,
+                    "end": 1183,
+                    "text": "Potthast et al. (2018)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 322,
+                    "end": 330,
+                    "text": "Figure 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 908,
+                    "end": 916,
+                    "text": "Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Data Augmentation by Crawling Related True News Articles"
+        },
+        {
+            "text": "After scraping the press releases from the web by applying keywords and named entity extraction, a total of 14,694 news articles could be obtained. C TRFakeNC shrunk to the size of 1,399 texts after applying the similarity technique [LDA + JSD].",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Augmentation by Crawling Related True News Articles"
+        },
+        {
+            "text": "Initially, for 234 fake news articles 315 true news could be retrieved manually from the web (see Chapter 3). Applying the similarity detection pipeline, we could parse for 217 false articles a total of 1,399 reliable news. The implication is that various sources should be considered in order to find more relevant articles. We also found out that not every mainstream news source is suitable to find related news texts as we could not find any related news by crawling the Frankfurter Rundschau. We assume that the focus on what is reported depends on the newspaper. Some falsifications in C GFN refer to local events that are not covered in major national newspapers. Other falsifications refer to events that never happened and therefore cannot be debunked. Nevertheless, for about half of the verified false news we could automatically find at least one related news article.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Augmentation by Crawling Related True News Articles"
+        },
+        {
+            "text": "The fake news problem is considered as a classification problem by predicting whether a news derives from a reliable source or contains some sort of misinformation. The created C TRFakeNC corpus consists of a total of 2,204 topic related news texts of which 1,714 were collected from reliable sources (315 manually and 1,399 automatically) and 490 were verified as fake news. In our experiments, we tested different classifiers of which we report the best performing. To compare the performance of our models, we employ the ESRC approach proposed by Jiang et al. (2019) as a baseline. The system is based on ELMo sentence representation in combinations with a CNN for pre-dicting hyperpartisan news. Hyperpartisan relates to news which are extremely biased by taking an extreme left-wing or right-wing standpoint. Jiang et al. took first place in SemEval-2019 (Task 4) and outperformed all other models with an Accuracy of 0.82. Testing ESRC on our data by applying a pre-trained ELMo model for German 20 , we attained a strong baseline with a Balanced Accuracy of 0.93 and Cohen's Kappa (\u03ba) of 0.85.",
+            "cite_spans": [
+                {
+                    "start": 550,
+                    "end": 569,
+                    "text": "Jiang et al. (2019)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 814,
+                    "end": 868,
+                    "text": "Jiang et al. took first place in SemEval-2019 (Task 4)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Fake News Detection Methodology"
+        },
+        {
+            "text": "The baseline was used to compare our proposed methods. For both approaches, we used SBERT 21 , a modification of the pre-trained BERT to generate semantically meaningful sentence embeddings. Initially, SBERT uses a provided BERT model and maps the tokens in a sentence to the output embeddings from BERT. The next layer performs mean-pooling to give fixed-sized sentence vectors (Reimers and Gurevych, 2019). The sentence embeddings were used to train a CNN and Bi-LSTM recurrent neural network. We selected German BERT 22 , as it has achieved stateof-the-art performance on multiple benchmarks (Devlin et al., 2019) . We did not perform any preprocessing on the news texts as BERT word representations are learned from character-based units. We split the corpus in the ratio 60/40 for training and testing. The training set was used to fine-tune the models using 10-fold cross-validation.",
+            "cite_spans": [
+                {
+                    "start": 595,
+                    "end": 616,
+                    "text": "(Devlin et al., 2019)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Fake News Detection Methodology"
+        },
+        {
+            "text": "For the implementation of the CNN and Bi-LSTM we used the python package Keras. The architecture of the CNN consists of five convolutional layers (128 filters with the kernel sizes [2, 3, 4, 5, 6]) each followed by a dropout layer (0.3). After each convolutional layer, a global max-pooling layer was applied with batch normalization (momentum=0.7) and a ReLU activation function. The output dense layer predicts the output with a sigmoid activation function.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fake News Detection Methodology"
+        },
+        {
+            "text": "The Bi-LSTM architecture feeds the sentence embeddings to the bidirectional LSTM at their respective time step. The Bi-LSTM with 100 units is followed by a TimeDistributed layer wrapping a fully connected dense layer with 100 outputs and a ReLU activation function. Dropout of 0.5 was added between the layers. After flattening, the final time step output is then connected to two dense layers 23 , the last with a sigmoid activation 20 Using the AllenNLP library 21 https://github.com/UKPLab/sentencetransformers 22 https://github.com/dbmdz/berts 23 The first dense layer with 100 outputs uses a ReLU function for binary classification. Finally, we employed binary cross-entropy as loss function and the Adam weight optimizer for both models. We set the number of training epochs to be 30. To avoid overfitting early stopping is applied when the validation loss saturates for 5 epochs. Table 4 summarizes the results obtained from the baseline and the proposed classifiers. Since our dataset does not contain an even distribution of the two classes, we conducted the evaluation using the confusion matrix and the performance measures Balanced Accuracy (B Acc. ) and Cohen's Kappa (\u03ba). The best performance was achieved by applying [SBERT + Bi-LSTM] (\u03ba=0.88) outperforming the baseline by 3%. Our experiments suggest that there are indeed differences between fake news and the content of legitimate mainstream news.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 887,
+                    "end": 894,
+                    "text": "Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Fake News Detection Methodology"
+        },
+        {
+            "text": "In this paper, we investigated the topic of fake news detection for the German language. First, we introduced a new, publicly available topic related German fake news corpus C TRFakeNC . To the best of our knowledge, this is the first corpus of its kind. To augment the prior manually annotated data, a pipeline was build to measure the relatedness of two documents based on the similarity of the two representations. The goal was to collect as many related news articles from the web as possible. Three major online newspapers were crawled by matching the named entities and keywords of a given fake news article. Additionally, we examined different document similarity methods. LDA in combination with JensenShannon divergence outperformed all other techniques and was applied as a last step in the pipeline to determine how similar two pieces of texts are. Experiments show that the proposed similarity detection pipeline is able to obtain similar documents with a consistent topic concordance.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "However, for some fake news no valid press release can be found. One reason is that not enough sources were used. For this reason, we plan to expand the crawled news websites in the future, as some falsifications refer to local events that are not covered in major national newspapers. On the other hand, some falsifications refer to events that never happened and therefore cannot be debunked. For these reasons, not every fake news can be dis- Table 4 : Evaluation results of the fake news detection approaches with the metrics Precision (P), Recall (R), Balanced Accuracy (B Acc. ) and Cohen's Kappa (\u03ba) proved. Nevertheless, for about half of the verified false news we could automatically find in total 1,399 news articles. In the future, we want to use our semantic similarity pipeline to augment data for other topic domains, for example by creating a dataset consisting of news articles with respect to the global coronavirus (Covid-19) pandemic. After the corpus construction, we additionally trained different machine learning models with the ability to distinguish between reliable and fake news. The best performance was achieved by applying sentence level embeddings from SBERT in combination with a Bi-LSTM (\u03ba=0.88), outperforming the baseline model.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 446,
+                    "end": 453,
+                    "text": "Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Conclusion"
+        },
+        {
+            "text": "In the future, we plan to extend our model by using topic related features. Finally, we plan to explore the effectiveness of ensemble neural networks. As research in this field is underrepresented for the German language, we hope that our approach will stimulate the progress in fake news detection and facilitate the creation of comparable corpora for different domains.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Bagga and Baldwin1998] Amit Bagga and Breck Baldwin. 1998. Algorithms for scoring coreference chains",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Amig",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "The First International Conference on Language Resources and Evaluation Workshop on Linguistics Coreference",
+            "volume": "12",
+            "issn": "",
+            "pages": "563--566",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Latent dirichlet allocation",
+            "authors": [
+                {
+                    "first": "[",
+                    "middle": [],
+                    "last": "Blei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J. Mach. Learn. Res",
+            "volume": "3",
+            "issn": "",
+            "pages": "993--1022",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Special issue on learning from imbalanced data sets",
+            "authors": [
+                {
+                    "first": "[",
+                    "middle": [],
+                    "last": "Chawla",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "ACM Sigkdd Explorations Newsletter",
+            "volume": "6",
+            "issn": "1",
+            "pages": "1--6",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Bert: Pre-training of deep bidirectional transformers for language understanding. ArXiv, abs/1810.04805. [Deza and Deza2009] Michel Marie Deza and Elena Deza",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Devlin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Carlos A Heuser, Viviane P Moreira, and Leandro K Wives",
+            "volume": "181",
+            "issn": "",
+            "pages": "2685--2699",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Leveraging emotional signals for credibility detection",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Endres",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Schindelin ; Anastasia Giachanou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Paolo",
+                    "middle": [],
+                    "last": "Rosso",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fabio",
+                    "middle": [],
+                    "last": "Crestani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval",
+            "volume": "49",
+            "issn": "",
+            "pages": "877--880",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Leveraging emotional signals for credibility detection",
+            "authors": [
+                {
+                    "first": "[",
+                    "middle": [],
+                    "last": "Giachanou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The power of related articles-improving fake news detection on social media platforms",
+            "authors": [
+                {
+                    "first": "Henner",
+                    "middle": [],
+                    "last": "Gimpel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sebastian",
+                    "middle": [],
+                    "last": "Heger",
+                    "suffix": ""
+                },
+                {
+                    "first": "Julia",
+                    "middle": [],
+                    "last": "Kasper",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ricarda",
+                    "middle": [],
+                    "last": "Sch\u00e4fer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proceedings of the 53rd Hawaii International Conference on System Sciences",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Imbalanced learning: foundations, algorithms, and applications",
+            "authors": [
+                {
+                    "first": "Ma2013] Haibo",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yunqian",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "This just in: Fake news packs a lot in title, uses simpler, repetitive content in text body, more similar to satire than real news",
+            "authors": [
+                {
+                    "first": "Benjamin",
+                    "middle": [],
+                    "last": "Horne",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sibel",
+                    "middle": [],
+                    "last": "Adali",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "International AAAI Conference on Web and Social Media",
+            "volume": "",
+            "issn": "",
+            "pages": "759--766",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Team bertha von suttner at SemEval-2019 task 4: Hyperpartisan news detection using ELMo sentence representation convolutional network",
+            "authors": [
+                {
+                    "first": "[",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Proceedings of the 13th International Workshop on Semantic Evaluation",
+            "volume": "",
+            "issn": "",
+            "pages": "840--844",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Divergence measures based on the shannon entropy",
+            "authors": [
+                {
+                    "first": "Jianhua",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "IEEE Transactions on Information theory",
+            "volume": "37",
+            "issn": "1",
+            "pages": "145--151",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Selecting thresholds of occurrence in the prediction of species distributions",
+            "authors": [
+                {
+                    "first": "[",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Ecography",
+            "volume": "28",
+            "issn": "3",
+            "pages": "385--393",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Ver\u00f3nica P\u00e9rez-Rosas, Bennett Kleinberg, Alexandra Lefevre, and Rada Mihalcea",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "P\u00e9rez-Rosas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Proceedings of the 27th International Conference on Computational Linguistics",
+            "volume": "",
+            "issn": "",
+            "pages": "3391--3401",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A stylometric inquiry into hyperpartisan and fake news",
+            "authors": [
+                {
+                    "first": "Martin",
+                    "middle": [],
+                    "last": "Potthast",
+                    "suffix": ""
+                },
+                {
+                    "first": "Johannes",
+                    "middle": [],
+                    "last": "Kiesel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kevin",
+                    "middle": [],
+                    "last": "Reinartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Janek",
+                    "middle": [],
+                    "last": "Bevendorff",
+                    "suffix": ""
+                },
+                {
+                    "first": "Benno",
+                    "middle": [],
+                    "last": "Stein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "The 56th Annual Meeting of the Association for Computational Linguistics (Long Papers)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Truth of varying shades: Analyzing language in fake news and political fact-checking",
+            "authors": [
+                {
+                    "first": "Eunsol",
+                    "middle": [],
+                    "last": "Hannah Rashkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jin",
+                    "middle": [
+                        "Yea"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Svitlana",
+                    "middle": [],
+                    "last": "Jang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yejin",
+                    "middle": [],
+                    "last": "Volkova",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Choi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Fake news detection on social media: A data mining perspective",
+            "authors": [
+                {
+                    "first": "[",
+                    "middle": [],
+                    "last": "Shu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "ACM SIGKDD Explorations Newsletter",
+            "volume": "19",
+            "issn": "1",
+            "pages": "22--36",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Fever: a large-scale dataset for fact extraction and verification",
+            "authors": [
+                {
+                    "first": "[",
+                    "middle": [],
+                    "last": "Thorne",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+            "volume": "1",
+            "issn": "",
+            "pages": "809--819",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Fake news detection with the new german dataset \"germanfakenc",
+            "authors": [
+                {
+                    "first": "Zhang2016] Zhou",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Haiyi",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Digital Libraries for Open Knowledge",
+            "volume": "6",
+            "issn": "",
+            "pages": "288--295",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Liar, liar pants on fire: A new benchmark dataset for fake news detection",
+            "authors": [
+                {
+                    "first": "William",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wang",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics",
+            "volume": "2",
+            "issn": "",
+            "pages": "422--426",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "EDA: Easy data augmentation techniques for boosting performance on text classification tasks",
+            "authors": [
+                {
+                    "first": "[",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jason",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kai",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+            "volume": "",
+            "issn": "",
+            "pages": "6382--6388",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Understanding data augmentation for classification: when to warp",
+            "authors": [
+                {
+                    "first": "[",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "2016 international conference on digital image computing: techniques and applications (DICTA)",
+            "volume": "",
+            "issn": "",
+            "pages": "1--6",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "A biterm topic model for short texts",
+            "authors": [
+                {
+                    "first": "[",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Proceedings of the 22nd International Conference on World Wide Web",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Building comparable corpora based on bilingual LDA model",
+            "authors": [
+                {
+                    "first": "[",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics",
+            "volume": "2",
+            "issn": "",
+            "pages": "278--282",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Building comparable corpora based on bilingual LDA model",
+            "authors": [
+                {
+                    "first": "[",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics",
+            "volume": "2",
+            "issn": "",
+            "pages": "278--282",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "later described it in terms of a function. Two objects (o and o ) are correctly related if they (1) share the same category in the ground truth L(o) and (2) if they are correctly clustered by the algorithm C(o) (Amig et al., 2009): Correct Relation(o, o ) = 1 if f L(o) = L(o ) \u21d0\u21d2 C(o) = C(o ) 0 otherwise BCubed metric estimates the Precision and Recall associated with each object or item in the distribution. Precision and Recall are formally calculated as: Precision BCubed = Avg o [Avg o .C(o)=C(o ) [Correct Relation(o, o )]] Recall BCubed = Avg o [Avg o .L(o)=L(o ) [Correct Relation(o, o )]]",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Modified BCubed Recall calculation with top 6 most similar true news given a fake news",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Figure 2: PR-Curve for the Jensen-Shannon Similarity Divergence marking the shortest distance",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Excerpt from the True News Corpus C TRFakeNC",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Recall, Precision and Distance values at different thresholds (\u03b8)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "SBERT + Bi-LSTM] 176 670 16 20 0.97 0.98 0.94 0.88",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

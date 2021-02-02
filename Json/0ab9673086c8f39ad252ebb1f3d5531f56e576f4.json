@@ -1,0 +1,3665 @@
+{
+    "paper_id": "0ab9673086c8f39ad252ebb1f3d5531f56e576f4",
+    "metadata": {
+        "title": "Delayed severe cytokine storm and immune cell infiltration in SARS-CoV-2-infected aged Chinese rhesus macaques",
+        "authors": [
+            {
+                "first": "Tian-Zhang",
+                "middle": [],
+                "last": "Song",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "KIZ-CUHK Joint Laboratory of Bioresources and Molecular Research in Common Diseases",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "postCode": "650223",
+                        "settlement": "Kunming",
+                        "region": "Yunnan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hong-Yi",
+                "middle": [],
+                "last": "Zheng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "KIZ-CUHK Joint Laboratory of Bioresources and Molecular Research in Common Diseases",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "postCode": "650223",
+                        "settlement": "Kunming",
+                        "region": "Yunnan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jian-Bao",
+                "middle": [],
+                "last": "Han",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Lin",
+                "middle": [],
+                "last": "Jin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "KIZ-CUHK Joint Laboratory of Bioresources and Molecular Research in Common Diseases",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "postCode": "650223",
+                        "settlement": "Kunming",
+                        "region": "Yunnan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xiang",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "postCode": "650107",
+                        "settlement": "Kunming",
+                        "region": "Yunnan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Feng-Liang",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "KIZ-CUHK Joint Laboratory of Bioresources and Molecular Research in Common Diseases",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "postCode": "650223",
+                        "settlement": "Kunming",
+                        "region": "Yunnan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rong-Hua",
+                "middle": [],
+                "last": "Luo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "KIZ-CUHK Joint Laboratory of Bioresources and Molecular Research in Common Diseases",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "postCode": "650223",
+                        "settlement": "Kunming",
+                        "region": "Yunnan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ren-Rong",
+                "middle": [],
+                "last": "Tian",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "KIZ-CUHK Joint Laboratory of Bioresources and Molecular Research in Common Diseases",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "postCode": "650223",
+                        "settlement": "Kunming",
+                        "region": "Yunnan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hou-Rong",
+                "middle": [],
+                "last": "Cai",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Affiliated Drum Tower Hospital of Nanjing University",
+                    "location": {
+                        "postCode": "210008",
+                        "settlement": "Nanjing",
+                        "region": "Jiangsu",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xiao-Li",
+                "middle": [],
+                "last": "Feng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "postCode": "650107",
+                        "settlement": "Kunming",
+                        "region": "Yunnan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chao",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "postCode": "650107",
+                        "settlement": "Kunming",
+                        "region": "Yunnan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ming-Hua",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "postCode": "650107",
+                        "settlement": "Kunming",
+                        "region": "Yunnan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yong-Tang",
+                "middle": [],
+                "last": "Zheng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "KIZ-CUHK Joint Laboratory of Bioresources and Molecular Research in Common Diseases",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "postCode": "650223",
+                        "settlement": "Kunming",
+                        "region": "Yunnan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "As of June 2020, Coronavirus Disease 2019 has killed an estimated 440 000 people worldwide, 74% of whom were aged \u226565 years, making age the most significant risk factor for death caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection. To examine the effect of age on death, we established a SARS-CoV-2 infection model in Chinese rhesus macaques (Macaca mulatta) of varied ages. Results indicated that infected young macaques manifested impaired respiratory function, active viral replication, severe lung damage, and infiltration of CD11b + and CD8 + cells in lungs at one-week post infection (wpi), but also recovered rapidly at 2 wpi. In contrast, aged macaques demonstrated delayed immune responses with a more severe cytokine storm, increased infiltration of CD11b + cells, and persistent infiltration of CD8 + cells in the lungs at 2 wpi. In addition, peripheral blood T cells from aged macaques showed greater inflammation and chemotaxis, but weaker antiviral functions than that in cells from young macaques. Thus, the delayed but more severe cytokine storm and higher immune cell infiltration may explain the poorer prognosis of older aged patients suffering SARS-CoV-2 infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "As of 17 June 2020, approximately 8 060 000 confirmed cases of coronavirus disease 2019 , which is caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2/HCoV-19/2019-nCoV), have been reported globally, including an estimated 450 000 deaths (WHO, 2020) . Epidemiological data have revealed that aged people are more susceptible to severe illness and are experiencing higher mortality, as reported initially by the Chinese Center for Disease Control and Prevention (CDC) (Novel Coronavirus Pneumonia Emergency Response Epidemiology Team, 2020) . In fact, 81.04% of deaths have occurred in patients aged \u226560 years, whereas only 0.78% of deaths have occurred in patients aged \u226429 years. On 18 March 2020, the United States CDC reported similar data: 62% of hospitalized adult patients were aged \u226555 years, 53% of patients admitted to the ICU were aged \u226565 years, and 80% of deaths occurred in patients aged \u226565 years (US CDC, 2020) . Recent epidemiological study on factors associated with COVID-19 death in 17 million patients further confirms the effects of age on mortality (Williamson et al., 2020) . In addition, aged adults with SARS-CoV-2 infection tend to have more serious clinical features compared with young patients, including higher pneumonia severity, multiple lobe involvement, lower proportion of lymphocytes, and elevated levels of C-reactive protein (Kai et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 256,
+                    "end": 267,
+                    "text": "(WHO, 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 485,
+                    "end": 557,
+                    "text": "(Novel Coronavirus Pneumonia Emergency Response Epidemiology Team, 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 929,
+                    "end": 943,
+                    "text": "(US CDC, 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1089,
+                    "end": 1114,
+                    "text": "(Williamson et al., 2020)",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 1381,
+                    "end": 1399,
+                    "text": "(Kai et al., 2020)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "It has become clear that aging-related complications, such as cardiovascular, metabolic, and autoimmune diseases, are risk factors for serious COVID-19 conditions in elderly patients Mikami et al., 2020; Williamson et al., 2020) . The underlying reasons may include decreased immune function and increased pro-inflammatory factors caused by immunosenescence (Yuki et al., 2020) . However, the immunological pathogenesis of SARS-CoV-2 infection in aged patients remains unclear. Such issues can be studied in detail in aged non-human primate (NHP) models, where repeated sampling and tissue collection are possible with fewer ethical concerns when under the approval of an institutional animal care and use committee. Therefore, in the current study, we infected Chinese rhesus macaques (ChRMs) with SARS-CoV-2 to explore the role of immunological changes in disease progression.",
+            "cite_spans": [
+                {
+                    "start": 183,
+                    "end": 203,
+                    "text": "Mikami et al., 2020;",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 204,
+                    "end": 228,
+                    "text": "Williamson et al., 2020)",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 358,
+                    "end": 377,
+                    "text": "(Yuki et al., 2020)",
+                    "ref_id": "BIBREF60"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "In this research, we showed that SARS-CoV-2 causes respiratory disease in both young and aged ChRMs, but the disease patterns are different. Young ChRMs showed higher viral loads in their lungs and abnormal breathing function in the first week post infection (wpi), followed by rapid recovery by the end of the second week. In contrast, aged ChRMs manifested a greater cytokine storm and significant immune cell infiltration in their lungs at 2 wpi. Moreover, CD4 + and CD8 + T cells in the peripheral blood of aged animals showed higher chemotaxis and inflammation but lower function at 2 wpi. The different features of SARS-CoV-2 infection found between young and aged ChRMs might help explain the different course of infection shown between younger and older adults.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Healthy young (male, n=4, 5 years old) and aged (male, n=4, >16 years old) ChRMs were sourced from the Kunming Primate Research Center, Kunming Institute of Zoology (KIZ), Chinese Academy of Sciences (CAS). All animal experiments were performed in the Kunming National High-Level Biosafety Research Center for Non-Human Primates, Center for Biosafety Mega-Science, KIZ, CAS, according to the guidelines of the Committee on Animals of KIZ, CAS (approval No.: IACUC20005).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Animals and ethics statement"
+        },
+        {
+            "text": "The SARS-CoV-2 strain 107 was obtained from the Guangdong Provincial CDC, Guangdong, China. Young ChRMs (#15011, #15333, #15335, and #15341) and aged ChRMs (#01055, #02059, #03055, and #04305) ( Figure 1A ) were intratracheally inoculated with 1\u00d710 7 TCID 50 SARS-CoV-2 in a 2 mL volume by bronchoscope. The animals were anaesthetized by Zoletil 50 (Virbac, France) and then used in the following experimental procedures. Body weight, rectal temperature, breathing rate, X-ray, serum biochemistry tests, routine blood tests, peripheral blood collection, peripheral blood mononuclear cell (PBMC) collection, nose swab collection, throat swab collection, and rectal swab collection were performed before SARS-CoV-2 infection and at 1, 3, 5, 7, 9, 11, 13 , and 15 days post infection (dpi). Tracheal brush collection and blood gas analysis were performed before SARS-CoV-2 infection and at 3, 7, 11, and 15 dpi. Young (#15011 and #15335) and aged ChRMs (#02059 and #04305) were euthanized on 7 dpi and other animals on 15 dpi ( Figure 1 ). All seven lung lobes were collected after left heart perfusion with pre-cooled phosphate-buffered saline (PBS).",
+            "cite_spans": [
+                {
+                    "start": 733,
+                    "end": 735,
+                    "text": "3,",
+                    "ref_id": null
+                },
+                {
+                    "start": 736,
+                    "end": 738,
+                    "text": "5,",
+                    "ref_id": null
+                },
+                {
+                    "start": 739,
+                    "end": 741,
+                    "text": "7,",
+                    "ref_id": null
+                },
+                {
+                    "start": 742,
+                    "end": 744,
+                    "text": "9,",
+                    "ref_id": null
+                },
+                {
+                    "start": 745,
+                    "end": 748,
+                    "text": "11,",
+                    "ref_id": null
+                },
+                {
+                    "start": 749,
+                    "end": 751,
+                    "text": "13",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 195,
+                    "end": 204,
+                    "text": "Figure 1A",
+                    "ref_id": null
+                },
+                {
+                    "start": 1025,
+                    "end": 1033,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Study design"
+        },
+        {
+            "text": "Plasma was isolated from peripheral blood before SARS-CoV-2 infection and at 1, 3, 5, 7, 9, 11, 13, 15 dpi. SARS-CoV-2specific antibodies in plasma were detected using a SARS-CoV-2-specific antibody ELISA Kit (Putai, China) according to the manufacturer's instructions.",
+            "cite_spans": [
+                {
+                    "start": 80,
+                    "end": 82,
+                    "text": "3,",
+                    "ref_id": null
+                },
+                {
+                    "start": 83,
+                    "end": 85,
+                    "text": "5,",
+                    "ref_id": null
+                },
+                {
+                    "start": 86,
+                    "end": 88,
+                    "text": "7,",
+                    "ref_id": null
+                },
+                {
+                    "start": 89,
+                    "end": 91,
+                    "text": "9,",
+                    "ref_id": null
+                },
+                {
+                    "start": 92,
+                    "end": 95,
+                    "text": "11,",
+                    "ref_id": null
+                },
+                {
+                    "start": 96,
+                    "end": 99,
+                    "text": "13,",
+                    "ref_id": null
+                },
+                {
+                    "start": 100,
+                    "end": 102,
+                    "text": "15",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "SARS-CoV-2-specific antibody detection"
+        },
+        {
+            "text": "Total RNA was extracted from swabs and brushes using a High Pure Viral RNA Kit (Roche, UK) as per the manufacturer' s instructions . Lung tissue samples were homogenized, and RNA was extracted using TRIzol Reagent (Thermo, USA). For detection of SARS-CoV-2 RNA, a THUNDERBIRD Probe One-Step qRT-PCR Kit (TOYOBO, Japan) was used in accordance with the manufacturer's protocols. Primers and probes used in this experiment included: forward primer 5'-GGGGAACTTCTCCTGCTA GAAT-3', reverse primer 5'-CAGACATTTTGCTCTCAAGCTG-3', and probe FAM-TTGCTGCTGCTTGACAGATT-TAMRA-3' . In each run, serial dilutions of the SARS-CoV-2 RNA reference standard (National Institute of Metrology, China) were run in parallel to calculate copy numbers in each sample.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Quantitative real-time polymerase chain reaction (qRT-PCR) for viral load"
+        },
+        {
+            "text": "Lung tissues fixed in 4% paraformaldehyde were dehydrated in a graded ethanol series and then embedded in paraffin. The paraffin-embedded samples were cut into 4-\u03bcm-thick sections for hematoxylin-eosin (H&E) staining and immunofluorescence. Immunofluorescence was performed as described previously Zhang et al., 2016) . After dewaxing and high-pressure antigen repair in alkaline solution, paraffin sections were incubated with rabbit monoclonal antibodies CD4 (Abcam, 1:1 000), CD8 (CST, 1:1 000), CD11b (Abcam, 1:1 000), and CD163 (Abcam, 1:500) overnight to mark inflammatory cells. After sufficient washing, the sections were continuously incubated with horseradish peroxidase (HRP)-conjugated goat anti-rabbit secondary antibody to catalyze Cy3-tyramine and amplify the staining signal according to tyramide signal amplification (TSA). After 4',6-diamidino-2-phenylindole (DAPI) staining and mounting, all sections were photographed using a LEICA DMI 4000B microscope (Germany) and analyzed by ImageJ software (NIH, USA).",
+            "cite_spans": [
+                {
+                    "start": 298,
+                    "end": 317,
+                    "text": "Zhang et al., 2016)",
+                    "ref_id": "BIBREF61"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Histopathology and immunofluorescence"
+        },
+        {
+            "text": "Cytokines in plasma and lung samples, including IL-6, IL-10, CXCL10 (IP-10), IL-1\u03b2, IL-12p40, IL-17A, IFN-\u03b2, IL-23, TNF-\u03b1, IFN-\u03b3, GM-CSF, CXCL8 (IL-8), and CCL2 (MCP-1), were analyzed using a LEGENDplex\u2122 Non-Human Primate (NHP) Inflammation Panel (Cat. No. 740 389, BioLegend, USA) according to the manufacturer's instructions. The absolute number of main leukocyte subsets in the peripheral blood was measured using precision count beads (BioLegend, USA) according to standard flow cytometric procedures, as described previously . For immunophenotyping of T cells, we adopted a staining strategy using three antibody panels, which divided T cells into subsets of T-cell activation, regulation, and function. Detailed antibody panels and gating strategies for flow cytometry are provided in Supplementary Table S1 and Figure S1 . Briefly, PBMCs were thawed from liquid nitrogen and then surface-labeled with fluorescence-conjugated antibodies to delineate the CD4 + and CD8 + T-cell subsets. To evaluate the immune activation and regulation of each subset, anti-CXCR3, anti-CCR6, anti-PD-1, anti-CCR7, anti-CD31, anti-CD45RA, and other antibodies were also added for surface staining. The surface-labeled",
+            "cite_spans": [
+                {
+                    "start": 247,
+                    "end": 265,
+                    "text": "(Cat. No. 740 389,",
+                    "ref_id": null
+                },
+                {
+                    "start": 266,
+                    "end": 276,
+                    "text": "BioLegend,",
+                    "ref_id": null
+                },
+                {
+                    "start": 277,
+                    "end": 281,
+                    "text": "USA)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 818,
+                    "end": 827,
+                    "text": "Figure S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Flow cytometry"
+        },
+        {
+            "text": "A: Characteristics of enrolled animals. B: Schematic of study design. C: Viral loads in nose, throat, and rectal swabs, and in tracheal brushes. cells were then fixed and permeabilized using a transcription factor staining buffer set (eBioscience, USA) for Ki-67 and Tbet staining. For analysis of T-cell function, the PBMCs were resuspended in RPMI-1 640 medium with 10% fetal bovine serum (FBS), PMA (50 ng/mL), ionomycin (1 \u03bcmol/L), brefeldin A (5 \u03bcg/mL), and monensin (2 \u03bcmol/L), then incubated at 37 \u2103 for 5 h in a cell incubator. After surface staining and treatment using a Cytofix/Cytoperm Kit (BD Biosciences, USA), intracellular staining steps for IFN-\u03b3, TNF\u03b1, granzyme B, and other soluble media were performed. The acquisition of at least 200 000 T cells and 20 000 LEGENDplex\u2122 beads was performed using a FACSCelesta flow cytometer (BD Biosciences, USA), and data analysis was performed using FlowJo software 10.5.3 (BD Biosciences, USA).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure 1 Establishment of SARS-CoV-2 infection model in ChRMs"
+        },
+        {
+            "text": "Two-way analysis of variance (ANOVA) and Fisher's least significant difference (LSD) tests were used to analyze differences in the levels of physiological characteristics (e.g., bodyweight, rectal temperature, breathing rate, partial pressure of oxygen (pO 2 ), partial pressure of carbon dioxide (pCO 2 ), and hydrogen ion concentration (pH)), inflammatory mediators, immune cell numbers, and T-cell immune characteristics between young and aged macaques over two weeks of SARS-CoV-2 infection. Unpaired t-test was used to compare absolute number of T cells and CD8 + T cells pre-SARS-CoV-2 infection. Pearson's rank test was used to determine correlations between viral loads and immune cells in the lungs during SARS-CoV-2 infection. Data are presented as means\u00b1SD. Here, P<0.05 was considered statistically significant. All data analyses were performed using GraphPad Prism v8 (GraphPad Software, USA).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "The characteristics of animals enrolled in this study are summarized in Figure 1A . Swabs and brushes were collected pre-and post-infection ( Figure 1B ). Viral RNA was detected in tracheal brush samples of all eight rhesus macaques at 3 dpi, indicating all animals were successful infected with SARS-CoV-2. The positive rates of viral RNA varied between the two groups of ChRMs ( Figure 1C ): 50% of throat swabs at all time points were positive in the young ChRMs, higher than that in nose and rectal swabs. Compared with young animals, aged ChRMs showed lower positive rates in nose swabs (32% vs. 4%), throat swabs (50% vs. 9%), and rectal swabs (41% vs. 14%), indicating that more false negatives for SARS-CoV-2 infection may be reported in elderly patients when using these sampling methods. Surprisingly, positive rates of viral RNA in tracheal brushes were much higher than that in swabs in both young (92%) and aged ChRMs (75%) ( Figure 1C ). Therefore, viral detection in tracheal brush samples may be more reliable for diagnosing SARS-CoV-2 infection. In addition, peak viral loads in tracheal brush samples from three young and one aged ChRM were more than 10 000 copies/mL, suggesting young macaques have more robust viral replication in the first wpi.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 72,
+                    "end": 81,
+                    "text": "Figure 1A",
+                    "ref_id": null
+                },
+                {
+                    "start": 142,
+                    "end": 151,
+                    "text": "Figure 1B",
+                    "ref_id": null
+                },
+                {
+                    "start": 381,
+                    "end": 390,
+                    "text": "Figure 1C",
+                    "ref_id": null
+                },
+                {
+                    "start": 939,
+                    "end": 948,
+                    "text": "Figure 1C",
+                    "ref_id": null
+                }
+            ],
+            "section": "SARS-CoV-2 can infect both young and aged ChRMs"
+        },
+        {
+            "text": "Young ChRMs maintained stable body weights during SARS-CoV-2 infection, whereas the body weights of aged ChRMs decreased significantly from 5 dpi to 11 dpi ( Figure 2A ). Rectal temperature increased markedly at 1 dpi in both groups. In addition, increased body temperature was also observed in both young (11 dpi) and aged macaques (7 dpi) ( Figure 2A ). Breathing rate and blood gas analysis were used to evaluate respiratory function during SARS-CoV-2 infection. As shown in Figure 2B , a decreased breathing rate, increased pCO 2 , and decreased pH were detected at 1 wpi in young ChRMs, but these indices all returned to normal at 2 wpi. These changes correspond to the development of serious respiratory disease, lung damage, and CO 2 retention in young ChRMs at the early stage of SARS-CoV-2 infection and rapid recovery soon after. In contrast, all indices remained normal in aged ChRMs during infection.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 158,
+                    "end": 167,
+                    "text": "Figure 2A",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 343,
+                    "end": 352,
+                    "text": "Figure 2A",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 478,
+                    "end": 487,
+                    "text": "Figure 2B",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Clinical and pathological features of young and aged ChRMs during SARS-CoV-2 infection"
+        },
+        {
+            "text": "We measured the main immune cells in the peripheral blood by flow cytometry and blood routine tests ( Figure 2C and Supplementary Figure S3 ). Aged ChRMs showed an obvious increase in neutrophils at 1 dpi. The baseline of CD8 + T cells in aged animals was significantly lower than that in young macaques. The neutrophil-to-lymphocyte and neutrophil-to-CD8 + T cell ratios are considered as independent biomarkers for clinical outcomes in COVID-19. Here, these markers all increased at 1 dpi in aged ChRMs, implying that aged animals may have more severe clinical outcomes compared with young animals. The SARS-CoV-2-specific antibodies in plasma became detectable as early as 7 dpi in young ChRMs and 5 dpi in aged ChRMs. Two young (#15333 and #15341) and one aged (#01055) macaque showed stable production of virus-specific antibodies from 11 dpi to 15 dpi. No virusspecific antibodies were detected in one aged macaque (#03055) until 15 dpi ( Figure 2D ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 102,
+                    "end": 111,
+                    "text": "Figure 2C",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 130,
+                    "end": 139,
+                    "text": "Figure S3",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 945,
+                    "end": 954,
+                    "text": "Figure 2D",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Clinical and pathological features of young and aged ChRMs during SARS-CoV-2 infection"
+        },
+        {
+            "text": "X-rays of infected animals showed pulmonary infiltrates in all macaques at the early stage of SARS-CoV-2 infection (Supplementary Figure S2) . When viral loads in lung tissues were detected, we found that all animals (except #01055) showed positive PCR results ( Figure 2E ). Average viral loads decreased significantly from 7 dpi to 15 dpi in young ChRMs. However, compared to the data on 7 dpi in aged ChRMs, almost the same viral load was detected in aged macaque #03055, whereas no positive results were detected for #01055. In addition, the viral loads in lung tissues at 7 dpi were higher in young ChRMs than aged macaques. Based on antibodies and viral loads in lungs, those macaques (#15333, #15341, #01055) with antibodies also showed an obvious decrease in lung viral loads compared with data on 7 dpi. However, the macaque (#03055) without antibodies showed no differences in lung viral loads compared with data on 7 dpi. Therefore, the SARS-CoV-2-specific antibodies obviously inhibited viral production in infected macaques.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 130,
+                    "end": 140,
+                    "text": "Figure S2)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 263,
+                    "end": 272,
+                    "text": "Figure 2E",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Clinical and pathological features of young and aged ChRMs during SARS-CoV-2 infection"
+        },
+        {
+            "text": "Lung damage was further analyzed by gross observation and H&E staining ( Figure 2F ). Abnormal blood exudation was found by gross observation in both young and aged macaques at 7 dpi rather than on 15 dpi. Congestion and infiltration of inflammatory cells around the trachea were also found by H&E staining in both young and aged macaques at 7 dpi. Compared with aged ChRMs, young macaques showed more severe pathological changes at 7 dpi. At 15 dpi, interstitial pneumonia with pulmonary fibrosis and minor infiltration of inflammatory cells around the trachea were typical characteristics in young ChRMs. In contrast, no interstitial pneumonia could be detected in aged macaques at 15 dpi. However, compared with young ChRMs at 15 dpi, aged macaques showed obvious infiltration of inflammatory cells around the trachea and blood vessels, indicating inflammatory cells were persistently infiltrating the lungs in aged macaques ( Figure 2F ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 73,
+                    "end": 82,
+                    "text": "Figure 2F",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 930,
+                    "end": 939,
+                    "text": "Figure 2F",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Clinical and pathological features of young and aged ChRMs during SARS-CoV-2 infection"
+        },
+        {
+            "text": "Cytokines in plasma, including IL-6, IL-10, CXCL10 (IP-10), IL-1\u03b2, IL-12p40, IL-17A, IFN-\u03b2, IL-23, TNF-\u03b1, IFN-\u03b3, GM-CSF, CXCL8 (IL-8), and CCL2 (MCP-1), were detected, with only four found within the detection ranges ( Figure 3A ). Compared with that at 0 dpi, the concentrations of IFN-\u03b2 and IP-10 increased significantly at 1 wpi in young ChRMs and recovered at 2 wpi. The concentrations of 13 different cytokines in lung tissues were also detected in young and aged ChRMs ( Figure 3B ). Although there were no statistical differences in the concentrations of cytokines between young and aged macaques at 7 dpi, the average concentrations of most cytokines were higher in young ChRMs than in aged ChRMs, implying that young macaques may show greater immune response at 1 wpi. However, the concentrations of cytokines in aged ChRMs were significantly higher than that in young macaques at 2 wpi. This strongly implied that aged macaques experienced more severe cytokine storm at 2 wpi. Compared with the data at 7 dpi, the average concentrations of most cytokines decreased slightly at 15 dpi in young macaques, suggesting that young ChRMs slowly recovered from the disease at 2 wpi. Compared with that at 7 dpi, the average concentrations of cytokines increased significantly at 15 dpi in aged macaques. Therefore, aged macaques experienced a more severe cytokine storm at 2 wpi.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 219,
+                    "end": 228,
+                    "text": "Figure 3A",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 477,
+                    "end": 486,
+                    "text": "Figure 3B",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Different immune responses in young and aged ChRMs during SARS-CoV-2 infection"
+        },
+        {
+            "text": "The number of immune cells in lung tissue samples was detected by immunofluorescence ( Figure 4) . The CD11b + cells mainly represented neutrophils, CD8 + cells mainly represented CD8 + T cells, CD4 + cells mainly represented CD4 + T cells, and CD163 + cells mainly represented macrophages. We performed correlation analysis between average viral load in the lungs and number of immune cells (Figure 4) . CD11b + and CD8 + cells showed significant correlations with average viral loads in the lungs. Compared with data at 7 dpi, the number of CD11b + and CD8 + cells in lung tissue decreased markedly at 15 dpi in young ChRMs. However, although lung viral load in one aged macaque (#01055) was undetectable, the number of CD11b + cells increased obviously and the number of CD8 + cells remained stable in aged ChRMs at 15 dpi compared with that at 7 dpi. In addition, there were no statistically significant correlations between the number of CD163 + cells or CD4 + cells with viral load in the lung. No obvious changes were detected between 7 dpi and 15 dpi in either group.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 87,
+                    "end": 96,
+                    "text": "Figure 4)",
+                    "ref_id": null
+                },
+                {
+                    "start": 392,
+                    "end": 402,
+                    "text": "(Figure 4)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Different immune responses in young and aged ChRMs during SARS-CoV-2 infection"
+        },
+        {
+            "text": "We analyzed T-cell activation, regulation, and function in PBMCs using flow cytometry to evaluate the characteristics of cells that might aggregate to the lung. We found that the two groups showed enhanced T-cell differentiation after SARS-CoV-2 infection, as manifested by decreased CD31 + na\u00efve CD4 + T cells and increased CCR7-central memory CD4 + T cells. In addition, increased expression of CD38 and Ki-67 indicated that immune activation was also a common feature of the two groups. These characteristics are consistent with the common phenotypic changes found in T cells after viral infection. It is worth noting that the frequency of CXCR3+CD4 + /CD8 + began to rise rapidly within 3 dpi, when T-bet+CD4 + /CD8 + T cells decreased rapidly. Furthermore, the proportion of IFN-\u03b3+CD8 + and TNF\u03b1+CD4 + /CD8 + T cells in the aged group also increased significantly at 2 wpi ( Figure 5 and Supplementary Figure S2 ). However, these phenomena were not found in young animals. This suggests that inflammation and chemotaxis of T cells were enhanced in aged monkeys, but their function was weakened, which could promote the symptoms of pneumonia after chemotaxis to the lungs.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 880,
+                    "end": 888,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 907,
+                    "end": 916,
+                    "text": "Figure S2",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Different immune responses in young and aged ChRMs during SARS-CoV-2 infection"
+        },
+        {
+            "text": "The emergence of SARS-CoV-2, and its astonishingly rapid evolution from localized outbreak to global pandemic (Tang et al., 2020; Yu et al., 2020b) has caused millions of infections and hundreds of thousands of deaths worldwide. Accordingly, it is necessary to understand the mechanisms and characteristics of viral infection, which may help in the development of vaccines and treatments to drastically reduce COVID-19 transmission. Due to their physiological similarity and phylogenetic proximity, NHPs are considered the most suitable animal models to recapitulate aspects of human biology and disease (Colman et al., 2018; Wang et al., 2020; Zhang et al., 2014 Zhang et al., , 2019 , and have been widely used in studies on coronavirus infections, such as SARS and Middle East respiratory syndrome (MERS) (Gao et al., 2003; Haagmans et al., 2004; Wang et al., 2017; Xu et al., 2007) . Rhesus macaques have also been shown as a suitable animal model for COVID-19 study (Munster et al., 2020; Shan et al., 2020; Yu et al., 2020a) . Similar to the clinical features of SARS-CoV-2-infected patients, virus replication and shedding, presence of pulmonary infiltrates, histological lesions, and seroconversion have been found in SARS-CoV-2-infected rhesus macaques. Lu et al. (2020) also compared SARS-CoV-2 infection among three species of NHPs, i.e., Macaca mulatta, M. fascicularis, and Callithrix jacchus, based on clinical signs, viral RNA in swabs and tissues, and histopathological changes, and found M. mulatta to be the most susceptible animal model to SARS-CoV2 infection, followed by M. fascicularis and C. jacchus. In addition, a SARS-CoV-2 infection model has been established in African green monkeys, in which a much lower and more natural dose of SARS-CoV-2 was used (Woolsey et al., 2020) . Recently, we successfully established and evaluated a new SARS-CoV- 2-infection animal model using Chinese tree shrews, which are genetically close to NHPs .",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 129,
+                    "text": "(Tang et al., 2020;",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 130,
+                    "end": 147,
+                    "text": "Yu et al., 2020b)",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 604,
+                    "end": 625,
+                    "text": "(Colman et al., 2018;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 626,
+                    "end": 644,
+                    "text": "Wang et al., 2020;",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 645,
+                    "end": 663,
+                    "text": "Zhang et al., 2014",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 664,
+                    "end": 684,
+                    "text": "Zhang et al., , 2019",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 808,
+                    "end": 826,
+                    "text": "(Gao et al., 2003;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 827,
+                    "end": 849,
+                    "text": "Haagmans et al., 2004;",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 850,
+                    "end": 868,
+                    "text": "Wang et al., 2017;",
+                    "ref_id": null
+                },
+                {
+                    "start": 869,
+                    "end": 885,
+                    "text": "Xu et al., 2007)",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 971,
+                    "end": 993,
+                    "text": "(Munster et al., 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 994,
+                    "end": 1012,
+                    "text": "Shan et al., 2020;",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1013,
+                    "end": 1030,
+                    "text": "Yu et al., 2020a)",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 1263,
+                    "end": 1279,
+                    "text": "Lu et al. (2020)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1780,
+                    "end": 1802,
+                    "text": "(Woolsey et al., 2020)",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In this study, we established a NHP model of SARS-CoV-2 infection using young and aged ChRMs and monitored their virological, pathological, and immunological characteristics for the first two weeks of infection. Similar to that reported in other rhesus macaque models (Lu et al., 2020; Munster et al., 2020; Yu et al., 2020b) , increased rectal temperature, positive viral RNA in swabs, brushes, and lung tissue, dot infiltration in Xrays, and interstitial pneumonia were detected in all young animals, confirming the successful establishment of a SARS-CoV-2 infection model. Compared with previous monkey model studies (Lu et al., 2020; Munster et al., 2020; Yu et al., 2020b) , we added an additional method for detecting viruses in tracheal brushes, and found that the positive rate of viral RNA in these brushes was much higher than that in nose, throat, and rectal swabs in both young and aged groups. The positive rate of viral RNA in brushes and swabs from young macaques was higher than that from aged ones, although the reasons for this are not known (Yu et al., 2020b) . Lung tissues Figure 4 Immunofluorescence staining of immune cells in lungs of young ChRMs dissected at 7 dpi showed more active virus replication and more serious lung damage and inflammatory infiltration compared to aged macaques. However, at 2 wpi, young macaques showed better improvement in respiratory function, reduction in viral RNA in lung tissues, restorative and limited interstitial pneumonia, and decreased levels of cytokines in plasma. In contrast, aged animals had relatively moderate inflammation and pathological features at 1 wpi but showed significant levels of cytokine storm and infiltration of CD11b+ cells at 2 wpi. These results suggest that the aged macaques experienced a delay in the development of disease symptoms after infection with SARS-CoV-2, and thus may have a more complicated pathogenic mechanism that awaits elucidation.",
+            "cite_spans": [
+                {
+                    "start": 268,
+                    "end": 285,
+                    "text": "(Lu et al., 2020;",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 286,
+                    "end": 307,
+                    "text": "Munster et al., 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 308,
+                    "end": 325,
+                    "text": "Yu et al., 2020b)",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 620,
+                    "end": 637,
+                    "text": "(Lu et al., 2020;",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 638,
+                    "end": 659,
+                    "text": "Munster et al., 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 660,
+                    "end": 677,
+                    "text": "Yu et al., 2020b)",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 1060,
+                    "end": 1078,
+                    "text": "(Yu et al., 2020b)",
+                    "ref_id": "BIBREF59"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1094,
+                    "end": 1102,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Although different clinical characteristics between old and young adults with COVID-19 have been noted in several studies (L\u00f3pez et al., 2020; Zhao et al., 2020; Zhu et al., 2020) , the underlying reason why the disease is particularly dangerous in aged patients remains unclear. A plausible hypothesis is that the aging immune system is more heterogeneous and dysfunctional, thus rendering it ineffective at controlling viral infections (Franceschi et al., 2017; Fulop et al., 2017) . The reduced plasticity of alveolar macrophages to convert between pro-and anti-inflammatory states can lead to the accumulation of dust, allergens, and pathogen remnants in the lungs (Kovacs et al., 2017) . Neutrophils progressively lose their ability to migrate to sites of infection during aging (Mahbub et al., 2011) . In addition, common effects of aging on the adaptive immune system include increased thymic atrophy, increased memory T cells and T cell metabolic dysfunction, na\u00efve T cells, weakened T cell activation, reduced CD8 + T cell diversity, and decreased CD4 + T cell activation (Ongr\u00e1di & K\u00f6vesdi, 2010; Ron-Harel et al., 2018; Salam et al., 2013; Yoshida et al., 2017) . These potential mechanisms may act independently or in coordination to influence clinical outcomes in patients with There is a possibility that a dysfunctional innate immune system in aged adults may be weakened and unable to recognize the virus to induce an immune response in the early stages of SARS-CoV-2 infection. Indeed, SARS-CoV-2 has evolved an effective mechanism to escape the host's innate immunity, as evidenced by its higher replication rate and lower interferon induction compared to SARS-CoV . In this case, the host's early outbreak of type I interferon plays an active role in the development of severe COVID-19 (Lee et al., 2020; Park & Iwasaki, 2020; Trouillet-Assant et al., 2020) . In contrast, the delayed production of interferon may be detrimental to the antiviral response (Channappanavar et al., 2019) . The latter situation usually plays an important role in the pathogenesis of SARS-CoV in infected elderly patients and experimentally infected mice (Huang et al., 2005; Rockx et al., 2009) . Our results showed that young macaques did not display obvious T-cell chemotaxis or functional changes within the first 2 wpi, whereas the immune response of aged macaques was delayed until 7 dpi, as demonstrated by the expression of IFN\u03b3 and TNF-\u03b1 in peripheral CD8 + T cells and elevated levels of inflammatory factors in the lungs at 2 wpi.",
+            "cite_spans": [
+                {
+                    "start": 122,
+                    "end": 142,
+                    "text": "(L\u00f3pez et al., 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 143,
+                    "end": 161,
+                    "text": "Zhao et al., 2020;",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 162,
+                    "end": 179,
+                    "text": "Zhu et al., 2020)",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 438,
+                    "end": 463,
+                    "text": "(Franceschi et al., 2017;",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 464,
+                    "end": 483,
+                    "text": "Fulop et al., 2017)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 669,
+                    "end": 690,
+                    "text": "(Kovacs et al., 2017)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 784,
+                    "end": 805,
+                    "text": "(Mahbub et al., 2011)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1081,
+                    "end": 1106,
+                    "text": "(Ongr\u00e1di & K\u00f6vesdi, 2010;",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1107,
+                    "end": 1130,
+                    "text": "Ron-Harel et al., 2018;",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1131,
+                    "end": 1150,
+                    "text": "Salam et al., 2013;",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 1151,
+                    "end": 1172,
+                    "text": "Yoshida et al., 2017)",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 1805,
+                    "end": 1823,
+                    "text": "(Lee et al., 2020;",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1824,
+                    "end": 1845,
+                    "text": "Park & Iwasaki, 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1846,
+                    "end": 1876,
+                    "text": "Trouillet-Assant et al., 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1974,
+                    "end": 2003,
+                    "text": "(Channappanavar et al., 2019)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2153,
+                    "end": 2173,
+                    "text": "(Huang et al., 2005;",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 2174,
+                    "end": 2193,
+                    "text": "Rockx et al., 2009)",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "It should be noted that the delay in interferon response resulted in a rapid increase in cytokine and chemokine levels and attraction of inflammatory cells such as neutrophils and monocytes to the lungs. This can lead to substantial infiltration of inflammatory cells into the tissue and induction of lung damage (Lau et al., 2013; Law et al., 2005) . In our study, although viral loads in aged animals were not higher than that in young macaques, this did not show any benefit. Instead, their lungs demonstrated a more severe inflammatory cytokine storm and granulocyte infiltration at 15 dpi. Similarly, previous studies have indicated that aged NHPs infected with SARS-CoV have the same level of respiratory virus titers as young NHPs but have more severe disease manifestations due to excessive inflammation (Smits et al., 2010) . Many studies have found that a rapid and coordinated immune response during the early stage of viral infection is conducive to resisting the spread of the virus, and dysregulated and excessive immune responses may cause damage to the body. Even more seriously, uncontrolled local and systemic inflammation might have fatal consequences in SARS-CoV-2 infection (Channappanavar et al., 2016; Davidson et al., 2015; McGonagle et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 313,
+                    "end": 331,
+                    "text": "(Lau et al., 2013;",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 332,
+                    "end": 349,
+                    "text": "Law et al., 2005)",
+                    "ref_id": null
+                },
+                {
+                    "start": 812,
+                    "end": 832,
+                    "text": "(Smits et al., 2010)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1195,
+                    "end": 1224,
+                    "text": "(Channappanavar et al., 2016;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1225,
+                    "end": 1247,
+                    "text": "Davidson et al., 2015;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1248,
+                    "end": 1271,
+                    "text": "McGonagle et al., 2020)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Our results suggest that excessive inflammation, rather than a high viral titer, contributes more to disease progression in SARS-CoV-2-infected aged animals as a consequence of chronic subclinical systemic inflammation and acquired immune system damage during aging. Continuously increasing levels of inflammatory factors causing a sluggish acquired immune system and lung tissue damage and viral replication also seem to occur in elderly COVID-19 patients (Mehta et al., 2020) . In some studies, immunological aging of lymphocytes has been linked to a weakened immune response to emerging infectious diseases, a decrease in the number of effector cells, and an inability to resist infection (Brien et al., 2009; Smithey et al., 2011) . In previous study, we found that, in comparison to mild patients, severe COVID-19 patients exhibit a loss of polyfunctionality and elevated exhaustion in T cells, which have the characteristics of immune aging . The fact that a large proportion of these severe patients are middle-aged or elderly suggests that immunological aging may facilitate disease progression in SARS-CoV-2 infection. Our current study agrees with this assertion, as both young and aged macaques demonstrated typical immune aging characteristics after infection, such as reduced na\u00efve T cells and increased T-cell differentiation. The difference was that under immunological aging and viral infection interaction, CXCR3 expression increased whereas T-bet expression was significantly downregulated in T cells of aged macaques. This indicates that T cells in aged macaques infected with SARS-CoV-2 exhibit enhanced chemotaxis and decreased antiviral function. These characteristics limit T cell chemotaxis to the infection site to exert antiviral functions but keep mounting a strong inflammatory response (Pritchard et al., 2019; Smith et al., 2018; Stone et al., 2019) .",
+            "cite_spans": [
+                {
+                    "start": 457,
+                    "end": 477,
+                    "text": "(Mehta et al., 2020)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 692,
+                    "end": 712,
+                    "text": "(Brien et al., 2009;",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 713,
+                    "end": 734,
+                    "text": "Smithey et al., 2011)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1815,
+                    "end": 1839,
+                    "text": "(Pritchard et al., 2019;",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 1840,
+                    "end": 1859,
+                    "text": "Smith et al., 2018;",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1860,
+                    "end": 1879,
+                    "text": "Stone et al., 2019)",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In summary, we successfully established a Chinese macaque model of SARS-CoV-2 infection, in which we discovered characteristics of delayed immune response, increased inflammatory cytokine storm, and declined T-cell function in aged macaques. Our study not only provided novel findings on immunological pathogenesis of COVID-19 in elderly patients, but also generated an animal model that can mimic the clinical outcomes of aged patients with COVID-19 to support drug and vaccine testing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Supplementary data to this article can be found online.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SUPPEMENTARY DATA"
+        },
+        {
+            "text": "The authors declare that they have no competing interests. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COMPETING INTERESTS"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Key role of T cell defects in age-related vulnerability to West Nile virus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Brien",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Uhrlaub",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hirsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wiley",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Nikolich-\u017dugich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Journal of Experimental Medicine",
+            "volume": "206",
+            "issn": "12",
+            "pages": "2735--2745",
+            "other_ids": {
+                "DOI": [
+                    "10.1084/jem.20090222"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Center for Disease Control and Prevention Weekly (American CDC). 2020. Severe outcomes among patients with coronavirus disease 2019",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+            "authors": [
+                {
+                    "first": "Jfw",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kok",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kkw",
+                    "middle": [],
+                    "last": "To",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "395",
+            "issn": "10223",
+            "pages": "514--523",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30154-9"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Dysregulated type I interferon and inflammatory monocytemacrophage responses cause lethal pneumonia in SARS-CoV-infected mice",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Channappanavar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Fehr",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Vijay",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mack",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Meyerholz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Cell Host & Microbe",
+            "volume": "19",
+            "issn": "2",
+            "pages": "181--193",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "IFN-I response timing relative to virus replication determines MERS coronavirus infection outcomes",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mack",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "The Journal of Clinical Investigation",
+            "volume": "129",
+            "issn": "9",
+            "pages": "3625--3639",
+            "other_ids": {
+                "DOI": [
+                    "10.1172/JCI126363"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Comparative replication and immune activation profiles of SARS-CoV-2 and SARS-CoV in human lungs: an ex vivo study with implications for the pathogenesis of COVID-19",
+            "authors": [],
+            "year": null,
+            "venue": "Clinical Infectious Diseases",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa410"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Non-human primates as a model for aging",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Colman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Biochimica et Biophysica Acta",
+            "volume": "1864",
+            "issn": "9",
+            "pages": "2733--2741",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bbadis.2017.07.008"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Disease-promoting effects of type I interferons in viral, bacterial, and coinfections",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Davidson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Maini",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wack",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Journal of Interferon & Cytokine Research",
+            "volume": "35",
+            "issn": "4",
+            "pages": "252--264",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Immunobiography and the heterogeneity of immune responses in the elderly: a focus on inflammaging and trained immunity",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Franceschi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Salvioli",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Garagnani",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "De Eguileor",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Monti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Capri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Frontiers in Immunology",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fimmu.2017.00982"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Immunosenescence and inflamm-aging as two sides of the same coin: friends or foes?",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Fulop",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Larbi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Dupuis",
+                    "suffix": ""
+                },
+                {
+                    "first": "Le",
+                    "middle": [],
+                    "last": "Page",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Frost",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1960,
+            "venue": "Frontiers in Immunology",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Effects of a SARS-associated coronavirus vaccine in monkeys",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tamin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Soloff",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "&apos;aiuto",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Nwanegbo",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Robbins",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Bellini",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "The Lancet",
+            "volume": "362",
+            "issn": "9399",
+            "pages": "1895--1896",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(03)14962-8"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Pegylated interferon-\u03b1 protects type 1 pneumocytes against SARS coronavirus infection in macaques",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Haagmans",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kuiken",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Martina",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ram",
+                    "middle": [],
+                    "last": "Fouchier",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Rimmelzwaan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Van Amerongen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nature Medicine",
+            "volume": "10",
+            "issn": "3",
+            "pages": "290--293",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nm1001"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "An interferon-\u03b3-related cytokine storm in SARS patients",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Theron",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Journal of Medical Virology",
+            "volume": "75",
+            "issn": "2",
+            "pages": "185--194",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.20255"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Clinical features of COVID-19 in elderly patients: a comparison with young and middle-aged patients",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Han",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Infection",
+            "volume": "80",
+            "issn": "6",
+            "pages": "14--18",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jinf.2020.03.005"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Inflammaging and the lung",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kovacs",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Boe",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Boule",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Curtis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Clinics in Geriatric Medicine",
+            "volume": "33",
+            "issn": "4",
+            "pages": "459--471",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cger.2017.06.002"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Delayed induction of proinflammatory cytokines and suppression of innate antiviral response by the novel Middle East respiratory syndrome coronavirus: implications for pathogenesis and treatment",
+            "authors": [
+                {
+                    "first": "Skp",
+                    "middle": [],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ccy",
+                    "middle": [],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Jin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Journal of General Virology",
+            "volume": "94",
+            "issn": "12",
+            "pages": "2679--2690",
+            "other_ids": {
+                "DOI": [
+                    "10.1099/vir.0.055533-0"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Chemokine up-regulation in SARS-coronavirus-infected, monocyte-derived human dendritic cells",
+            "authors": [],
+            "year": null,
+            "venue": "Blood",
+            "volume": "106",
+            "issn": "7",
+            "pages": "2366--2374",
+            "other_ids": {
+                "DOI": [
+                    "10.1182/blood-2004-10-4166"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Immunophenotyping of COVID-19 and influenza highlights the role of type I interferons in development of severe COVID-19",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Jeong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science Immunology",
+            "volume": "5",
+            "issn": "49",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/sciimmunol.abd1554"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Psychological well-being among older adults during the Covid-19 outbreak: a comparative study of the young-old and the oldold adults",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Huertas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Psychogeriatrics",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/S1041610220000964"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Comparison of SARS-CoV-2 infections among 3 species of non-human primates",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "bioRxiv",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.08.031807"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Aging of the innate immune system: an update",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mahbub",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Brubaker",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kovacs",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Current Immunology Reviews",
+            "volume": "7",
+            "issn": "1",
+            "pages": "104--115",
+            "other_ids": {
+                "DOI": [
+                    "10.2174/157339511794474181"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "The role of cytokines including interleukin-6 in COVID-19 induced pneumonia and macrophage activation syndrome-like disease",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mcgonagle",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sharif",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "O&apos;regan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bridgewood",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Autoimmunity Reviews",
+            "volume": "19",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.autrev.2020.102537"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "COVID-19: consider cytokine storm syndromes and immunosuppression",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mehta",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Mcauley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sanchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tattersall",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Manson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1033--1034",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30628-0"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Risk factors for mortality in patients with COVID-19 in New York City",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mikami",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Miyashita",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yamada",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Harrington",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Steinberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dunn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of General Internal Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11606-020-05983-z"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Respiratory disease in rhesus macaques inoculated with SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schulz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2324-7"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Factors that may impact on immunosenescence: an appraisal",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ongr\u00e1di",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "K\u00f6vesdi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Immunity & Ageing",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "2020. Type I and Type III Interferons -induction, signaling, evasion, and application to combat COVID-19",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Iwasaki",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Cell Host & Microbe",
+            "volume": "27",
+            "issn": "6",
+            "pages": "870--878",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "The evolving role of T-bet in resistance to infection",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Pritchard",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kedl",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hunter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature Reviews Immunology",
+            "volume": "19",
+            "issn": "6",
+            "pages": "398--410",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41577-019-0145-4"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Early upregulation of acute respiratory distress syndrome-associated cytokines promotes lethal disease in an aged-mouse model of severe acute respiratory syndrome coronavirus infection",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Rockx",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Baas",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Zornetze",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Haagmans",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sheahan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Frieman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Journal of Virology",
+            "volume": "83",
+            "issn": "14",
+            "pages": "7062--7074",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.00127-09"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Defective respiration and one-carbon metabolism contribute to impaired naive T cell activation in aged mice",
+            "authors": [
+                {
+                    "first": "Ron-Harel N",
+                    "middle": [],
+                    "last": "Notarangelo",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ghergurovich",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Paulo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sage",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+            "volume": "115",
+            "issn": "",
+            "pages": "13347--13352",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1804149115"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "T cell ageing: effects of age on development, survival & function",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Salam",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rane",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Das",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Faulkner",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gund",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Kandpal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "The Indian Journal of Medical Research",
+            "volume": "138",
+            "issn": "5",
+            "pages": "595--608",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Infection with novel coronavirus (SARS-CoV-2) causes pneumonia in Rhesus macaques",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell Research",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41422-020-0364-z"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Biased agonists of the chemokine receptor CXCR3 differentially control chemotaxis and inflammation",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Nicholson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Suwanpradid",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Glenn",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Knape",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Alagesan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Science Signaling",
+            "volume": "11",
+            "issn": "555",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/scisignal.aaq1075"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Increased apoptosis, curtailed expansion and incomplete differentiation of CD8 + T cells combine to decrease clearance of L. monocytogenes in old mice",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Smithey",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Renkema",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Rudd",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Nikolich-\u017dugich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Exacerbated innate host response to SARS-CoV in aged non-human primates",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Smits",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "De Lang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jma",
+                    "middle": [],
+                    "last": "Van Den Brand",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leijten",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Van Ijcken",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mjc",
+                    "middle": [],
+                    "last": "Eijkemans",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "PLoS Pathogens",
+            "volume": "6",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.ppat.1000756"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "T-bet transcription factor promotes antibody-secreting cell differentiation by limiting the inflammatory effects of IFN-\u03b3 on B cells",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Stone",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Peel",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Scharer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Risley",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Chisolm",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Schultz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Zoological Research",
+            "volume": "41",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "On the origin and continuing evolution of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "National Science Review",
+            "volume": "7",
+            "issn": "6",
+            "pages": "1012--1023",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nsr/nwaa036"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "The Novel Coronavirus Pneumonia Emergency Response Epidemiology Team. 2020. The epidemiological characteristics of an outbreak of 2019 novel coronavirus diseases (COVID-19) -China",
+            "authors": [],
+            "year": 2020,
+            "venue": "China CDC Weekly",
+            "volume": "2",
+            "issn": "8",
+            "pages": "113--122",
+            "other_ids": {
+                "DOI": [
+                    "10.46234/ccdcw2020.032"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Type I IFN immunoprofiling in COVID-19 patients",
+            "authors": [],
+            "year": null,
+            "venue": "The Journal of Allergy and Clinical Immunology",
+            "volume": "146",
+            "issn": "1",
+            "pages": "206--208",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jaci.2020.04.029"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "MERS-CoV virus-like particles produced in insect cells induce specific humoural and cellular imminity in rhesus macaques",
+            "authors": [],
+            "year": null,
+            "venue": "Oncotarget",
+            "volume": "8",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.18632/oncotarget.8475"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Successful implementation of intestinal resection and anastomosis in non-human primates suggests the possibility of longitudinal Intestinal research",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Zoological Research",
+            "volume": "41",
+            "issn": "4",
+            "pages": "449--454",
+            "other_ids": {
+                "DOI": [
+                    "10.24272/j.issn.2095-8137.2020.049"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "OpenSAFELY: factors associated with COVID-19 death in 17 million patients",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Williamson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Walker",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bhaskaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bacon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bates",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Morton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2521-4"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Establishment of an African green monkey model for COVID-19. bioRxiv",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Woolsey",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Borisevich",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Prasad",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Agans",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Deer",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Dobias",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.05.17.100289"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "World Health Organization (WHO). 2020. Coronavirus disease (COVID-19): Situation Report-175",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "COVID-19-like symptoms observed in Chinese tree shrews infected with SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Feng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Evaluation of the safety, immunogenicity and pharmacokinetics of equine anti-SARS-CoV F(ab') 2 in macaque",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Jia",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Liang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "International Immunopharmacology",
+            "volume": "7",
+            "issn": "13",
+            "pages": "1834--1840",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.intimp.2007.09.011"
+                ]
+            }
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Aging-related changes in human T-cell repertoire over 20 years delineated by deep sequencing of peripheral T-cell receptors",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yoshida",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Cologne",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Cordova",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Misumi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yamaoka",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kyoizumi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Experimental Gerontology",
+            "volume": "96",
+            "issn": "",
+            "pages": "29--37",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.exger.2017.05.015"
+                ]
+            }
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Age-related rhesus macaque models of COVID-19",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Qi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Animal Models and Experimental Medicine",
+            "volume": "3",
+            "issn": "1",
+            "pages": "93--97",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/ame2.12108"
+                ]
+            }
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Decoding the evolution and transmissions of the novel pneumonia coronavirus (SARS-CoV-2 / HCoV-19) using whole genomic data",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Corlett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Zoological Research",
+            "volume": "41",
+            "issn": "3",
+            "pages": "247--257",
+            "other_ids": {
+                "DOI": [
+                    "10.24272/j.issn.2095-8137.2020.022"
+                ]
+            }
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "COVID-19 pathophysiology: a review",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fujiogi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Koutsogiannaki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clinical Immunology",
+            "volume": "215",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.clim.2020.108427"
+                ]
+            }
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Translocation of microbes and changes of immunocytes in the gut of rapidand slow-progressor Chinese rhesus macaques infected with SIV mac239",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Tuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Xia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Immunology",
+            "volume": "147",
+            "issn": "4",
+            "pages": "443--452",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/imm.12574"
+                ]
+            }
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Superior intestinal integrity and limited microbial translocation are associated with lower immune activation in SIVmac239-infected northern pig-tailed macaques (Macaca leonina)",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Zoological Research",
+            "volume": "40",
+            "issn": "6",
+            "pages": "522--531",
+            "other_ids": {
+                "DOI": [
+                    "10.24272/j.issn.2095-8137.2019.047"
+                ]
+            }
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Experimental primates and non-human primate (NHP) models of human diseases in China: Current status and progress",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Pang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Zoological Research",
+            "volume": "35",
+            "issn": "6",
+            "pages": "447--464",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Comparison of clinical characteristics and outcomes of patients with coronavirus disease 2019 at different ages",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Aging",
+            "volume": "12",
+            "issn": "11",
+            "pages": "10070--10086",
+            "other_ids": {
+                "DOI": [
+                    "10.18632/aging.103298"
+                ]
+            }
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Elevated exhaustion levels and reduced functional diversity of T cells in peripheral blood may predict severe progression in COVID-19 patients",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Aged Chinese rhesus macaques suffer severe phenotypic T-and B-cell aging accompanied with sex differences",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Pang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Experimental Gerontology",
+            "volume": "55",
+            "issn": "",
+            "pages": "113--119",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.exger.2014.04.004"
+                ]
+            }
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "A comparative study of chest computed tomography features in young and older adults with corona virus disease (COVID-19)",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Xia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Thoracic Imaging",
+            "volume": "35",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/RTI.0000000000000513"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Clinical and pathological features of SARS-CoV-2-infected young and aged ChRMsA: Body weight and body temperature changes in SARS-CoV-2-infected macaques. B: Blood gas analysis of SARS-CoV-2-infected macaques. C: Number of immune cells in peripheral blood. D: SARS-CoV-2-specific antibodies in plasma. E: Viral loads in lung tissues. F: Gross lesions and H&E staining of lungs (Black arrow: Congestion in lung; Red arrow: Immune cell infiltration; Green arrow: Interstitial pneumonia). *: 0.01<P<0.05; **: 0.001<P\u22640.01.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Immune responses in young and aged ChRMs during SARS-CoV-2 infection A: Concentrations of cytokines in plasma. B: Concentrations of cytokines in lung tissue. *: 0.01<P<0.05; **: 0.001<P\u22640.01; ***: 0.0001<P\u22640.001; ****: P\u22640.0001.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Characteristics of CD4 + T and CD8 + T cells in peripheral blood (\u2605: P<0.05)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "AUTHORS' CONTRIBUTIONS Y.T.Z., T.Z.S., H.Y.Z., and J.B.H. conceived and designed the experiments. T.Z.S., H.Y.Z., J.B.H., L.J., X.Y., F.L.L., R.H.L., R.R.T., H.R.C., X.L.F., C.L., and M.H.L. performed the experiments. T.Z.S., H.Y.Z., and L.J. analyzed the data. T.Z.S., H.Y.Z., and Y.T.Z. wrote the paper. All authors read and approved the final version of the manuscript.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Dr. Chang-Wen Ke (Guangdong Provincial Center for Disease Control and Prevention) for providing the SARS-CoV-2 strain, Ms. Qi Gen (Primate GLP Safety assessment Center of the Kunming Institute of Zoology) for technical help with histological analysis, and Prof. Xia Jin (Shanghai Public Health Clinical Center, Fudan University) for helpful comments and language editing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGEMENTS"
+        }
+    ]
+}

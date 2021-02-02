@@ -1,0 +1,1226 @@
+{
+    "paper_id": "0a7394d5d59836c3355d398422fb4527a3f60370",
+    "metadata": {
+        "title": "Supplementary Information for Identification of 14 Known Drugs as Inhibitors of the Main Protease of SARS-CoV-2",
+        "authors": [
+            {
+                "first": "Mohammad",
+                "middle": [
+                    "M"
+                ],
+                "last": "Ghahremanpour",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Julian",
+                "middle": [],
+                "last": "Tirado-Rives",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Maya",
+                "middle": [],
+                "last": "Deshmukh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Yale University School of Medicine",
+                    "location": {
+                        "postCode": "06520-8066",
+                        "settlement": "New Haven",
+                        "region": "CT"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Joseph",
+                "middle": [
+                    "A"
+                ],
+                "last": "Ippolito",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Yale University School of Medicine",
+                    "location": {
+                        "postCode": "06520-8066",
+                        "settlement": "New Haven",
+                        "region": "CT"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chun-Hui",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Israel",
+                "middle": [],
+                "last": "Cabeza De Vaca",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Maria-Elena",
+                "middle": [],
+                "last": "Liosi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Karen",
+                "middle": [
+                    "S"
+                ],
+                "last": "Anderson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Yale University School of Medicine",
+                    "location": {
+                        "postCode": "06520-8066",
+                        "settlement": "New Haven",
+                        "region": "CT"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "William",
+                "middle": [
+                    "L"
+                ],
+                "last": "Jorgensen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Details for the Docking Calculations \u2026\u2026\u2026\u2026\u2026\u2026\u2026. S2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "References for SI \u2026\u2026\u2026\u2026\u2026\u2026\u2026. S8",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "S2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Glide. Schr\u00f6dinger's Protein Prep wizard utility was used for preparing the protein. A 20-\u00c5 grid was then generated and centered on the co-crystallized ligand, which was subsequently removed. The drug library members were neutralized and/or ionized via Schr\u00f6dinger's LigPrep. 1",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The Epik program 2 was used for estimating the pKa values of each compound. Plausible tautomers and stereoisomers within the pH range of 7 \u00b1 1 were generated for each compound using the OPLS3 force field. 3 These conditions resulted in a total of 16000 structures, which were then docked into M pro using Schr\u00f6dinger's standard-precision (SP) Glide. 4,5",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "AutoDock. The AutoDockTools (ADT) software 6 was used for creating PDBQT files from SDF and PDB files of compounds and the protein, respectively. Non-polar hydrogen atoms were removed and Gasteiger-Marsili charges were assigned for both the protein and the ligands using ADT. The AutoGrid 4.2 program 6 was used for generating affinity grids with a spacing of 0.375 \u00c5 and with a box size of 74 \u00d7 80 \u00d7 62 \u00c5. The affinity grids were centered at two different points of the active site for performing two sets of runs. In the first run, the grid box was centered at C\u03b2 of Cys145 of monomer A. In the second run, the grid center was displaced toward the geometric center of the active site. The AutoDock 4.2 program 6 was applied for docking the ligands into M pro . The Lamarckian genetic algorithm (LGA) was used for ligand conformational searching.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "LGA was iterated 15 and 50 times in the first and the second run, respectively, for each compound.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The maximum RMS tolerance for conformational cluster analysis was 2.0 and 0.5 \u00c5 in the first and second runs, respectively. The number of generations was set to 27000 with 300 individuals in each population in both runs. The maximum number of energy evaluations was 30 \u00d7 10 6 for all compounds and 40 \u00d7 10 6 for re-docking of the selected consensus compounds. Other parameters were set to their default values.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "AutoDockVina. The PDBQT files generated by ADT for the protein and library compounds also used for running AutoDock Vina. 7 Non-polar hydrogen atoms were removed. An affinity grid box with a size of 18 \u00d7 21 \u00d7 18 \u00c5 was generated and centered on the active site. The default docking parameters were used, except for the number of modes that was set to 9. ",
+            "cite_spans": [
+                {
+                    "start": 122,
+                    "end": 123,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "S3"
+        },
+        {
+            "text": "The GROMACS software, version 2018a compiled in double precision, was used for performing all molecular dynamics (MD) simulations. 8 The protonated M pro dimer, with a net charge of -8 e, was represented by the OPLS-AA/M force field. 9",
+            "cite_spans": [
+                {
+                    "start": 131,
+                    "end": 132,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Molecular Dynamics Simulations."
+        },
+        {
+            "text": "TIP4P water was used as the solvent. 10 Sodium counterions were added to neutralize the net charge of each system. The selected ligand candidates were represented by the OPLS/CM1A force field, 11 as assigned by the BOSS software 12 (version 4.9) and the LigParGen Python code. 13 The parameters were converted to GROMACS format using LigParGen. 13 For neutral ligands, the CM1A partial atomic charges were scaled by a factor of 1.14. 11",
+            "cite_spans": [
+                {
+                    "start": 37,
+                    "end": 39,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 193,
+                    "end": 195,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 277,
+                    "end": 279,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 345,
+                    "end": 347,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Molecular Dynamics Simulations."
+        },
+        {
+            "text": "Each M pro -ligand complex was put at the center of a triclinic simulation box with 10-\u00c5",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Molecular Dynamics Simulations."
+        },
+        {
+            "text": "padding. An energy minimization was then performed until the steepest descent algorithm converged to a maximum force smaller than 2.4 kcal mol -1 \u00c5 -1 . A cutoff radius of 12 \u00c5 was used to explicitly calculate non-bonded interactions. Long-range electrostatic interactions were treated using the Particle Mesh Ewald (PME) algorithm. 14 The PME was used with an interpolation order of 4, a Fourier spacing of 1.2 \u00c5, and a relative tolerance of 10 -6 . The van der Waals forces were smoothly switched to zero between 10 and 12 \u00c5. Analytical corrections to the long-range effect of dispersion interactions were applied to both energy and pressure. All covalent bonds to hydrogen atoms were constrained at their equilibrium lengths using the LINCS algorithm. 15 Each system was initially simulated for 1 ns in the canonical ensemble (NVT) in order for the solvent to relax and the temperature to equilibrate. Initial velocities were sampled from a Maxwell-Boltzmann distribution at 310 K. The V-rescale thermostat with a stochastic term 16 ",
+            "cite_spans": [
+                {
+                    "start": 333,
+                    "end": 335,
+                    "text": "14",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 755,
+                    "end": 757,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1033,
+                    "end": 1035,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Molecular Dynamics Simulations."
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Towards the Comprehensive, Rapid, and Accurate Prediction of the Favorable Tautomeric States of Drug-like Molecules in Aqueous Solution",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Greenwood",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Calkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Sullivan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Shelley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J. Comput. Aided Mol. Des",
+            "volume": "24",
+            "issn": "",
+            "pages": "591--604",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Epik: A Software Program for pKa Prediction and Protonation State Generation for Drug-like Molecules",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Shelley",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cholleti",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Frye",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Greenwood",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Timlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Uchimaya",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Comput. Aided Mol. Des",
+            "volume": "21",
+            "issn": "",
+            "pages": "681--691",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "OPLS3: A Force Field Providing Broad Coverage of Drug-like Small Molecules and Proteins",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Harder",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Damm",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Maple",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Reboul",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Lupyan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Dahlgren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Knight",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Kaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cerutti",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Krilov",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jorgensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Abel",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Friesner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J. Chem. Theory Comput",
+            "volume": "12",
+            "issn": "",
+            "pages": "281--296",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "A New Approach for Rapid, Accurate Docking and Scoring. 1. Method and Assessment of Docking Accuracy",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Friesner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Banks",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Murphy",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Halgren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Klicic",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Mainz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Repasky",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Knoll",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shelley",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Perry",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Shaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Francis",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Shenkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Glide",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Med. Chem",
+            "volume": "47",
+            "issn": "",
+            "pages": "1739--1749",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Glide: A New Approach for Rapid, Accurate Docking and Scoring. 2. Enrichment Factors in Database Screening",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Halgren",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Murphy",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Friesner",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Beard",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Frye",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Pollard",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Banks",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Med. Chem",
+            "volume": "47",
+            "issn": "",
+            "pages": "1750--1759",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "AutoDock4 and AutoDockTools4: Automated Docking with Selective Receptor Flexibility",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Morris",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Huey",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lindstrom",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Sanner",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Belew",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Goodsell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Olson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J. Comput. Chem",
+            "volume": "30",
+            "issn": "",
+            "pages": "2785--2791",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "AutoDock Vina: Improving the Speed and Accuracy of Docking with a New Scoring Function, Efficient Optimization, and Multithreading",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Trott",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Olson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J. Comput. Chem",
+            "volume": "31",
+            "issn": "",
+            "pages": "455--460",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "5: A High-Throughput and Highly Parallel Open Source Molecular Simulation Toolkit",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pronk",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "P\u00e1ll",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Schulz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Larsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Bjelkmar",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Apostolov",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Shirts",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kasson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Van Der Spoel",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hess",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "29",
+            "issn": "",
+            "pages": "845--854",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Improved Peptide and Protein Torsional Energetics with the OPLS-AA Force Field",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Robertson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tirado-Rives",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jorgensen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J. Chem. Theory Comput",
+            "volume": "11",
+            "issn": "",
+            "pages": "3499--3509",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Comparison of Simple Potential Functions for Simulating Liquid Water",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jorgensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chandrasekhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Madura",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Impey",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Klein",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "J. Chem. Phys",
+            "volume": "79",
+            "issn": "",
+            "pages": "926--935",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Potential Energy Functions for Atomic-Level Simulations of Water and Organic and Biomolecular Systems",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jorgensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tirado-Rives",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Proc. Natl. Acad. Sci",
+            "volume": "102",
+            "issn": "",
+            "pages": "6665--6670",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Molecular Modeling of Organic and Biomolecular Systems Using BOSS and MCPRO",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jorgensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tirado-Rives",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J. Comput. Chem",
+            "volume": "26",
+            "issn": "",
+            "pages": "1689--1700",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "LigParGen Web Server: An Automatic OPLS-AA Parameter Generator for Organic Ligands",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Dodda",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Cabeza De Vaca",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tirado-Rives",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jorgensen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nucleic Acids Res",
+            "volume": "45",
+            "issn": "",
+            "pages": "331--336",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A Smooth Particle Mesh Ewald Method",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Essmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Perera",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Berkowitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Darden",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Pedersen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "J. Chem. Phys",
+            "volume": "103",
+            "issn": "",
+            "pages": "8577--8593",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "LINCS: A Linear Constraint Solver for Molecular Simulations",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hess",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Bekker",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Berendsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "J. Comput. Chem",
+            "volume": "18",
+            "issn": "",
+            "pages": "1463--1472",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Canonical Sampling through Velocity Rescaling",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bussi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Donadio",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Parrinello",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Chem. Phys",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Molecular Dynamics with Coupling to an External Bath",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "J C"
+                    ],
+                    "last": "Berendsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P M"
+                    ],
+                    "last": "Postma",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Van Gunsteren",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dinola",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Haak",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "J. Chem. Phys",
+            "volume": "81",
+            "issn": "",
+            "pages": "3684--3690",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Polymorphic Transitions in Single Crystals: A New Molecular Dynamics Method",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Parrinello",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rahman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "J. Appl. Phys",
+            "volume": "52",
+            "issn": "",
+            "pages": "7182--7190",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Docking Plots of RMSD for Molecular Dynamics Runs \u2026\u2026\u2026\u2026\u2026\u2026\u2026. Plots of Kinetic Data \u2026\u2026\u2026\u2026\u2026\u2026\u2026. S7",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Correlation of docking scores for all drugs (left) and for the 42 consensus compounds (right).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "was used for keeping the temperature at 310 K. The coupling constant of the thermostat was set to 2.0 ps. The system was then equilibrated for 1.5 ns in the isothermal-isobaric ensemble (NPT) for obtaining a density consistent with the reference pressure. The pressure was kept at 1 bar by the Berendsen to all solute heavy atoms during the equilibration steps. A 70 ns unrestrained run was then performed in the NPT ensemble with the Parrinello\u2212Rahman barostat18 using a coupling time of 4.0 ps. MD Analyses for the M pro -ligand Complexes. Before the assaying was carried out, the 70-ns MD simulations were run for complexes of 14 of the promising compounds starting from the Glide poses. The idea was to obtain insight on which compounds gave more stable complexes and were, therefore expected to be more active inhibitors. In addition to visualization of the evolving structures, the all-atom RMSD of each ligand was computed over the course of the simulation time with and without least-square (LS) fitting of the ligand's atoms onto the initial structure of the ligand in the complex (Figure S3). The LS-fit RMSD monitors only the ligand's conformational changes, whereas the no-fit RMSD also reflects rotational and translational movements away from the starting structure. The LS-fit RMSD converged relatively quickly to 2-3 \u00c5 for all ligands, except for carindacillin, which converged to 4 \u00c5. However, as expected, no-fit RMSD values are larger than the LS-fit RMSD values for all ligands, demonstrating the contribution of rotational and translational movements. The no-fit RMSD value converged for bedaquiline, idarubicin, indinavir, and perampanel after about 10 ns, while it converged for efonidpine after 60 ns. The no-fit RMSD values steadily fluctuated about an average value of 4 \u00c5for lapatinib and periciazine. In general, most ligands showed some displacement from their initial position, whereas they remained close to their initial conformation. Differences between initial and final structures were considered in selecting compounds for purchase and assay.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "RMSD in \u00c5 of all ligand atoms with and without Least-Square fitting to the original complex structure during the course of 70-ns MD simulations.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Kinetic data measuring activity of SARS-CoV2 M pro in the presence of A) manidipine, B) lercanidipine, C) boceprevir, D) bedaquiline, and E) efonidipine. All measurements were performed in triplicate, averaged, and plotted with standard deviation. Kinetic data for inhibition of M pro by bedaquiline was collected at concentrations up to 50 \u03bcM due to solubility issues.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

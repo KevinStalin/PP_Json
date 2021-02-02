@@ -1,0 +1,1844 @@
+{
+    "paper_id": "0afc62f69d2b9cd37d50c8d8abf08a0d399e6d9b",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "activities of the community. These roadmaps were first published in 1990. The first was entitled \"A Long-range Plan for the Genome Research Project\" 2 ; the second in 2002 was \"Beyond the Whole Genome Sequence\" 3 ; and the third in 2012 was \"From Bench to Bountiful Harvests\" (Lavagi et al., 2012) . The preparation phase for the fourth decadal roadmap has now begun and we encourage input from the Arabidopsis community as we look to 2030 and beyond.",
+            "cite_spans": [
+                {
+                    "start": 276,
+                    "end": 297,
+                    "text": "(Lavagi et al., 2012)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In 2019 according to the U.S. National Center for Biotechnology Information's PubMed, the annual number of Arabidopsis publications increased after plateauing in 2013 (Figure 1) . A significant change occurred in 2018, when, for the first time since we began tracking publication numbers, the number of publications featuring \"Rice\" or\"Oryza\" was greater than those featuring Arabidopsis. This might indicate that technological advances in genome sequencing, bioinformatics and gene-editing, amongst others have recently facilitated research in crop species and that discoveries made in Arabidopsis are now being more effectively translated. This is reinforced by a review by Provart et al. (2016) , which surveyed 54,033 Arabidopsis papers and found that in the majority of years, more than 50% of the cited Arabidopsis papers from a given year were referenced by papers in which the research focused on a species other than Arabidopsis. This was determined by the absence of \"Arabidopsis\" in the taxonomic data available for each paper.",
+            "cite_spans": [
+                {
+                    "start": 676,
+                    "end": 697,
+                    "text": "Provart et al. (2016)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 167,
+                    "end": 177,
+                    "text": "(Figure 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "| AR AB IDOPS IS RE S E ARCH REMAINS CUT TING -EDG E"
+        },
+        {
+            "text": "The publication and citation data point to the continued value of Arabidopsis research to plant sciences in general, but more importantly in the area of curiosity-driven and discovery-based science.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| AR AB IDOPS IS RE S E ARCH REMAINS CUT TING -EDG E"
+        },
+        {
+            "text": "In 2019, many high-profile \"Cell-Nature-Science\" (CNS) publications featured Arabidopsis research and described several \"firsts\" in plant science. These included the discovery in plant nuclei of liquid-liquid phase separations of polyadenylation complexes (Fang et al., 2019) , a novel mechanism of protein aggregation for controlling auxin responses (Powers et al., 2019) , defining the control and organization of the cambial stem cells that are the progenitors of all woody tissues (Miyashima et al., 2019) , identifying novel molecular controls of autophagy , engineering a synthetic switch to control stomatal opening (Papanatsiou et al., 2019) , and defining the first complete blueprint for an immunity pan-NLRome ( Van de Weyer et al., 2019) .",
+            "cite_spans": [
+                {
+                    "start": 256,
+                    "end": 275,
+                    "text": "(Fang et al., 2019)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 351,
+                    "end": 372,
+                    "text": "(Powers et al., 2019)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 485,
+                    "end": 509,
+                    "text": "(Miyashima et al., 2019)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 623,
+                    "end": 649,
+                    "text": "(Papanatsiou et al., 2019)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 723,
+                    "end": 749,
+                    "text": "Van de Weyer et al., 2019)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "| AR AB IDOPS IS RE S E ARCH REMAINS CUT TING -EDG E"
+        },
+        {
+            "text": "This breadth of topics demonstrates that research in Arabidopsis continues to be influential from the perspective of both plant biology and biology more generally. In many cases, the qualities of Arabidopsis that attracted researchers over the past half century (compact size, short generation time, ease of transformation, genomic, and informatic resources) still enable breakthroughs to be made apace. We turn now to efforts to coordinate such resources, and highlight newly generated large datasets that will, in turn, enable further discoveries.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| AR AB IDOPS IS RE S E ARCH REMAINS CUT TING -EDG E"
+        },
+        {
+            "text": "The MASC Subcommittees were established in 2002, at the beginning of the second decadal roadmap, and serve to bring together international groups of scientists who work in a thematic research area.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| UPDATE FROM MA SC SUBCOMMIT TEE S"
+        },
+        {
+            "text": "Over the past 18 years these subcommittees have contributed to the MASC annual report, led sessions at ICAR meetings and engaged with the wider community. There are currently eight MASC subcommittees; changes for 2019-2020 include a new \"Plant Immunity\" subcommittee and the activities of the \"Phenotyping\" subcommittee being subsumed within the International Phenotyping project reports. The other MASC subcommittees are \"Bioinformatics,\" \"Clone-based ORFeomics,\" \"Epigenetics and Epigenomes,\" \"Metabolomics,\" \"Natural Variation and Comparative Genomics,\" \"Proteomics\" and \"Systems and Synthetic ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| UPDATE FROM MA SC SUBCOMMIT TEE S"
+        },
+        {
+            "text": "The Proteomics subcommittee reports that over the past year a significant development in Arabidopsis research came from a study by Mergner et al. (2020) that quantified the total number of detected Arabidopsis proteins (more than 18,000), their dynamic expression range (up to 6-fold changes in abundance) and their phosphoryla- propose an international project that would catalogue the ORF clones that correspond to the 6,000 remaining uncharacterized protein-coding genes. It appears that these gene products were not identified in the Mergner et al. (2020) manuscript, so it remains to be discovered if these genes are indeed protein-coding and if so, where they are localized and what is their functional significance.",
+            "cite_spans": [
+                {
+                    "start": 131,
+                    "end": 152,
+                    "text": "Mergner et al. (2020)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 538,
+                    "end": 559,
+                    "text": "Mergner et al. (2020)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| Proteomics"
+        },
+        {
+            "text": "Arabidopsis has been the workhorse for elucidating mechanistic underpinnings of numerous epigenetic phenomena. These studies have both discovered and emphasized the importance of small RNAs, histone modifications, and DNA methylation during epigenome establishment and maintenance, in detection of self from non-self, and in responding to various environmental challenges. This research is aided by a new community-facing Arabidopsis RNA-seq database, ARS, which contains gene expression data from more than 20,000 publicly available RNA-seq libraries (http://ipf.sustc.edu.cn/pub/ athrn a/). This resource will dovetail with a soon-to-be released resource of whole genome sodium bisulfite sequencing datasets.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Epigenetics and epigenomics"
+        },
+        {
+            "text": "Over the past year the Arabidopsis bioinformatics community had to overcome the unfortunate loss of funding for the Araport resource.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Bioinformatics"
+        },
+        {
+            "text": "Fortunately, other community projects have stepped up to maintain some of its important features. This includes the hosting of the JBrowse tool at TAIR (https://bit.ly/2Qhb5xC) and the Thalemine instance hosted by the BAR (https://bar.utoro nto.ca/thale mine).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Bioinformatics"
+        },
+        {
+            "text": "The third component of the revamped Araport is a new Arabidopsisfocused instance of the Genome Context Viewer (https://gcv-arabi dopsis.ncgr.org), developed and maintained by Andrew Farmer and Alan Cleary at the National Center for Genome Resources (Cleary and Farmer, 2018) , which enables a dynamic comparison of multiple genomes on the basis of their shared functional elements. The GCV includes two sets of newly assembled genomes from 14 different Arabidopsis ecotypes/accessions. The Bioinformatics subcommittee highlights two outstanding datasets that focus on different aspects of the plant-pathogen response (Cao et al., 2019; Laflamme et al., 2020) . They also highlight a newly released \"eFP-Seq Browser\" that enhances exploration of RNA-seq through the visualization of read map profiles and summary gene expression levels across two large compendia (Sullivan et al., 2019) . These resources help to support the key training recommendation for future plant biologists to obtain the skills to develop new software tools in order to extract value from the vast amount of available Arabidopsis 'Omic data (Argueso et al., 2019) .",
+            "cite_spans": [
+                {
+                    "start": 249,
+                    "end": 274,
+                    "text": "(Cleary and Farmer, 2018)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 617,
+                    "end": 635,
+                    "text": "(Cao et al., 2019;",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 636,
+                    "end": 658,
+                    "text": "Laflamme et al., 2020)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 862,
+                    "end": 885,
+                    "text": "(Sullivan et al., 2019)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1114,
+                    "end": 1136,
+                    "text": "(Argueso et al., 2019)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| Bioinformatics"
+        },
+        {
+            "text": "The Arabidopsis metabolome is the best studied of all plant species and is used as an exemplar for studies in crop species. The MASC metabolomics subcommittee continues to support the integration of genomic data from natural populations with ecologically relevant metabolomic data that can reveal how a plant has ultimately adapted to environmental stresses. The subcommittee makes the case that as metabolomic platforms become more cost-effective, and as sensitive as NGS (Next Generation Sequencing) platforms, that metabolomics be considered an equal partner to sister techniques in order to develop a \"full picture of a plant.\"",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Metabolomics"
+        },
+        {
+            "text": "During the period of the current decadal roadmap the interrogation of natural variation has been an area of clear success. The hugely successful 1001 Genomes project has led to the development of software tools for further analysis of these publicly available datasets. These including the ViVa: Visualizing Variation (Hamm et al., 2019) and the AraPheno/AraGWAS tools (Togninalli et al., 2020) . However, there remains plenty of Arabidopsis geographic variation that has not yet been analyzed. This is highlighted in the MASC country report from Turkey that looks at the distribution of the accessions available for order from the Nottingham Arabidopsis Stock Centre (NASC, Figure 2 ).",
+            "cite_spans": [
+                {
+                    "start": 318,
+                    "end": 337,
+                    "text": "(Hamm et al., 2019)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 369,
+                    "end": 394,
+                    "text": "(Togninalli et al., 2020)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 675,
+                    "end": 683,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Natural variation and comparative genomics"
+        },
+        {
+            "text": "This suggests that there are many accessions growing across diverse geographic locations (including Turkey) that are currently underrepresented in the easily accessible available germplasm. In future there are clearly many opportunities for researchers to build upon our understanding of Arabidopsis natural variation through integration of currently underrepresented germplasm. Despite reporting a downward trend over the past decade, the ABRC distributes annually almost twice as many seed stocks as NASC (190K versus 100K). However, NASC has seen increases over the past few years that undoubtedly reflects that it is the go-to stock centre for orders from China. The continued success of the stock centres relies on donations of plant material (mostly seeds) from the community and NASC reports that over the past few years German scientists have provided their largest number of donations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Natural variation and comparative genomics"
+        },
+        {
+            "text": "Despite losing government funding over 5 years ago, TAIR continues its excellent biocuration services via an innovative and successful subscription model (Reiser et al., 2016) . TAIR has expanded its operations to include collaborations with both PhyloGenes (www. that facilitates the publication of brief, novel findings, negative and/ or reproduced results that may lack a broader scientific narrative.",
+            "cite_spans": [
+                {
+                    "start": 154,
+                    "end": 175,
+                    "text": "(Reiser et al., 2016)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| Plant immunity"
+        },
+        {
+            "text": "Each week TAIR loads 50-90 papers with the term \"Arabidopsis\" in the title or abstract into their curation queue. This includes a steady number of papers that report on new functions for previously characterized genes and an increase in the number of papers that describe high-throughput experiments and contain large datasets. For a variety of reasons, curating from some papers can be challenging so TAIR have produced a document to advise researchers how to make the details of their research more \"findable\" (https://conf.arabi dopsis.org/pages/ viewp age.actio n?pageI d=22807345).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Plant immunity"
+        },
+        {
+            "text": "Oversight of the Arabidopsis informatics strategy has largely fallen to the International Arabidopsis Informatics Consortium (IAIC), which was funded by the NSF until 2020. In 2018 IAIC hosted a workshop in St Louis and its \"take home\" recommendation was for the establishment of a centralized \"annotation authority\" to advise on submissions from groups for new gene names across the Arabidopsis pangenome, to establish a consistent naming scheme, to distribute this format regularly and frequently, and to encourage its adoption (International Arabidopsis Informatics Consortium, 2019).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Plant immunity"
+        },
+        {
+            "text": "This article also recommends community-established guidelines and standards for data and metadata formats alongside a searchable, central repository for analysis and visualization tools (such as https://conf.arabi dopsis.org/displ ay/COM/Resou rces). Fortunately, the implementation of these recommendations will be facilitated by a closely linked international community and will undoubtedly be a topic discussed for inclusion within the next roadmap.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Plant immunity"
+        },
+        {
+            "text": "The BAR resource continues to be a central hub for researchers to interrogate and visualize their expression data. In addition to its expansion to include data from many other plant species, the BAR is far more than just an \"eFP Browser.\" The BAR website includes access to a broad set of genomic tools and widgets that have a focus on the analysis of Arabidopsis datasets. The BAR has obtained funding from Genome Canada that will allow the development of a custom \"eFP\" view in ePlant for a researcher's own RNA-seq data as well as the initiation of several new ePlants. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Plant immunity"
+        },
+        {
+            "text": "The MASC Country Reports provide an overview on the progress of Arabidopsis research on a national scale, cataloguing important publications, new software tools and community resources. Currently, 34 countries with a MASC representative are asked to submit an annual report and 29 of these were able to submit reports in 2020, notwithstanding shutdowns related to the COVID-19 pandemic. We include some country highlights here.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| MA SC COUNTRY UPDATE S"
+        },
+        {
+            "text": "China is an interesting case study as its country report states that \"Arabidopsis is the model plant of choice to many groups. However, only a small portion of these labs is solely dedicated to Arabidopsis research or using [it] as the main model plant\u2026. A major reason behind [this] would be the current funding priority. Whereas there are dedicated grants to basic and applied research in maize, rice, wheat, and virtually each every minor crop, there are no such funding programs towards Arabidopsis research.\"",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| MA SC COUNTRY UPDATE S"
+        },
+        {
+            "text": "Although there is somewhat of a plateau in the number of global Arabidopsis publications over the past 5 years, this is not an even trend across all countries (Figures 1 and 3) . While numbers of publications on Arabidopsis are steady or falling in some countries, this is offset by the increase in publications coming from Chinese labs, which shows no slow-down since trending upward a decade ago. Therefore, despite a general admission that there is movement toward more applied research, it is encouraging that many country representatives are positive about the state of Arabidopsis research in their home country. This is exemplified by a response from Belgium; \"\u2026.plant scientists feel an increasing pressure from funding agencies, universities, and research institutes to focus on more applied research aspects. This being said, it is likely that Arabidopsis will remain a major tool to generate and test hypothesis even in applied research projects.\" Globally, Arabidopsis clearly remains a critical experimental model for understanding \"how plants work,\" which will lead to technological advances and knowledge increases that feed into applied projects in a variety of crop plants.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 159,
+                    "end": 176,
+                    "text": "(Figures 1 and 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "| MA SC COUNTRY UPDATE S"
+        },
+        {
+            "text": "The It is gratifying that progress has been made in each of these areas, yet work remains to be done. At the end of this period we now understand much more about the molecular and biochemical events that control how a plant grows and senses its environment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| MOVING TOWARD THE FOURTH ROADMAP"
+        },
+        {
+            "text": "However, there remain significant gaps in our knowledge, including a lack of understanding of the complex linkages between available 'omic data sets or the more simple knowledge of how plants sense many of their required nutrients. Improvements in this area are needed to build a fully predictive model that is accurate across time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| MOVING TOWARD THE FOURTH ROADMAP"
+        },
+        {
+            "text": "Fortunately, there is an acknowledgment that bioinformatics training and the development of digital infrastructures are key for the future in depth analysis of Arabidopsis-derived datasets.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| MOVING TOWARD THE FOURTH ROADMAP"
+        },
+        {
+            "text": "The loss of funding for Araport was disappointing for the community and, although its key activities have been picked up by TAIR, the BAR and the Genome Context Viewer, efforts are needed to ensure that community resources have longevity. This requires the integration of international infrastructures, particularly between Western and Eastern hemispheres. In some areas international cooperation is excellent, such as in the coordination of conference planning, yet elsewhere it can be improved. These challenges include, but are not limited to, implementation of effective mechanisms of data sharing, cultural and language differences, and availability of global funding initiatives.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| MOVING TOWARD THE FOURTH ROADMAP"
+        },
+        {
+            "text": "With this update, MASC calls on all Arabidopsis researchers to consider areas for inclusion in the next decadal roadmap. We expect participation from long-time community leaders, such as the North American Arabidopsis Steering Committee (NAASC), and collaborators from the United States, Germany, and Japan.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| MOVING TOWARD THE FOURTH ROADMAP"
+        },
+        {
+            "text": "We also expect that there will be contributions toward decadal priorities from a broader group of MASC members, especially those representing countries with significant and increasing Arabidopsis research, such as China or India. The positive sense of East-West collaboration that was felt by those who attended ICAR2019 in Wuhan was a promising beginning to these discussions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| MOVING TOWARD THE FOURTH ROADMAP"
+        },
+        {
+            "text": "\u2022 What are the strategies that might be used to build globally sustainable digital infrastructures to support the integration of multiomic datasets?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| P OSS IB LE ARE A S FOR IN CLUS I ON IN THE NE X T DEC ADAL ROADMAP"
+        },
+        {
+            "text": "\u2022 How can both the data and metadata from complex multi-omic experiments be collated and shared for the benefit of the wider community in order to feed into translational pipelines?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| P OSS IB LE ARE A S FOR IN CLUS I ON IN THE NE X T DEC ADAL ROADMAP"
+        },
+        {
+            "text": "\u2022 How can we integrate mechanistic and quantitative genetic insights to enable plant acclimation to vastly different climates, within a very short time period?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| P OSS IB LE ARE A S FOR IN CLUS I ON IN THE NE X T DEC ADAL ROADMAP"
+        },
+        {
+            "text": "\u2022 How can the community build internationally cohesive and diverse collaborative teams of scientists to answer important questions in plant science?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| P OSS IB LE ARE A S FOR IN CLUS I ON IN THE NE X T DEC ADAL ROADMAP"
+        },
+        {
+            "text": "Over the next year, these ideas will be developed and will coalesce during discussions at a MASC-supported discussion session at ICAR2021 in Seattle. The roadmap will be launched and published prior to ICAR2022 in Belfast and will hopefully lead in the planning of community-driven projects over the coming decade.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| P OSS IB LE ARE A S FOR IN CLUS I ON IN THE NE X T DEC ADAL ROADMAP"
+        },
+        {
+            "text": "GP is supported by UKRI-BBSRC grant GARNet2020 (BB/",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACK N OWLED G M ENTS"
+        },
+        {
+            "text": "Fellowship. BU acknowledges support of his work by The Scientific and Technological Research Council of Turkey (T\u00dcB\u0130TAK) (Grant No: 118Z137).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "M004376/1) SMB is partially funded by an HHMI Faculty Scholar"
+        },
+        {
+            "text": "GP and NP conceived the manuscript, GP, NP, SB, and BU con- ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "AUTH O R CO NTR I B UTI O N S"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Directions for research and training in plant omics: Big Questions and Big Data",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Argueso",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Assmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Birnbaum",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Dinneny",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Doherty",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Eveland",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Friesner",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Greenlee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Law",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Marshall-Col\u00f3n",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mason",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "O&apos;lexy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Peck",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schmitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Stern",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Varagona",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Walley",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/pld3.133"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A host-pathogen interactome uncovers phytopathogenic strategies to manipulate plant ABA responses",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Taniguchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mirmiran",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Moeder",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lumba",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yoshioka",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Desveaux",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Plant J",
+            "volume": "100",
+            "issn": "",
+            "pages": "187--198",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/tpj.14425"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Genome Context Viewer: visual exploration of multiple annotated genomes using microsynteny",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cleary",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Farmer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Bioinformatics",
+            "volume": "34",
+            "issn": "9",
+            "pages": "1562--1564",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/btx757"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Arabidopsis FLL2 promotes liquid-liquid phase separation of polyadenylation complexes",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ishikawa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature",
+            "volume": "569",
+            "issn": "",
+            "pages": "265--269",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-019-1165-8"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Accelerating structure-function mapping using the ViVa webtool to mine natural variation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Hamm",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Moss",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Leydon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "3",
+            "issn": "",
+            "pages": "1--20",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/pld3.147"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Arabidopsis bioinformatics resources: The current state, challenges, and priorities for the future",
+            "authors": [],
+            "year": 2019,
+            "venue": "International Arabidopsis Informatics Consortium",
+            "volume": "3",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/pld3.109"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The pan-genome effector-triggered immunity landscape of a host-pathogen interaction",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Laflamme",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Dillon",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Martel",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "N D"
+                    ],
+                    "last": "Almeida",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Desveaux",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Guttman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "367",
+            "issn": "6479",
+            "pages": "763--768",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.aax4079"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "From bench to bountiful harvests: a road map for the next decade of Arabidopsis research",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Lavagi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Estelle",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Weckwerth",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Beynon",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bastow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Plant Cell",
+            "volume": "24",
+            "issn": "6",
+            "pages": "2240--2247",
+            "other_ids": {
+                "DOI": [
+                    "10.1105/tpc.112.096982"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "ATG8-binding UIM proteins define a new class of autophagy adaptors and receptors",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "177",
+            "issn": "",
+            "pages": "766--781",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2019.02.009"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "A pan-plant protein complex map reveals deep conservation and novel assemblies",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Mcwhite",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Papoulas",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Drew",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Cox",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "June",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kwon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Salmi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Roux",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Browning",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ronald",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Marcotte",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "181",
+            "issn": "2",
+            "pages": "460--474",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.02.049"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Mass-spectrometry-based draft of the Arabidopsis proteome",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mergner",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Frejno",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "List",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "",
+            "pages": "409--414",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2094-2"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Mobile PEAR transcription factors integrate positional cues to prime cambial growth",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Miyashima",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Roszak",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Sevilem",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature",
+            "volume": "565",
+            "issn": "",
+            "pages": "490--494",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-018-0839-y"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Optogenetic manipulation of stomatal kinetics improves carbon assimilation, water use, and growth",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Papanatsiou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Petersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Henderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Christie",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Blatt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Science",
+            "volume": "363",
+            "issn": "6434",
+            "pages": "1456--1459",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.aaw0046"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Nucleocytoplasmic partitioning of ARF proteins controls auxin responses in arabidopsis thaliana",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Powers",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Holehouse",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Korasick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Mol Cell",
+            "volume": "76",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.molcel.2019.06.044"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "50 years of Arabidopsis research: highlights and future directions",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Provart",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Alonso",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Assmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bergmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Brady",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Brkljacic",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Browse",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chapple",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Colot",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cutler",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dangl",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ehrhardt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Friesner",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Frommer",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Grotewold",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Meyerowitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Nemhauser",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nordborg",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Pikaard",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shanklin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Somerville",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Stitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Torii",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Waese",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wagner",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mccourt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "New Phytologist",
+            "volume": "209",
+            "issn": "",
+            "pages": "921--944",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/nph.13687"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Sustainable funding for biocuration: The Arabidopsis Information Resource (TAIR) as a case study of a subscription-based funding model",
+            "authors": [
+                {
+                    "first": "Leonore",
+                    "middle": [],
+                    "last": "Reiser",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tanya",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Berardini",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Donghui",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Muller",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Robert",
+                    "suffix": ""
+                },
+                {
+                    "first": "Emily",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Strait",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Qian",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Mezheritsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Yarik",
+                    "suffix": ""
+                },
+                {
+                    "first": "Andrey",
+                    "middle": [],
+                    "last": "Vetushko",
+                    "suffix": ""
+                },
+                {
+                    "first": "Eva",
+                    "middle": [],
+                    "last": "Huala",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Database",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/database/baw018"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "An 'eFP-Seq Browser' for visualizing and exploring RNA sequencing data",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sullivan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Purohit",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Freese",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pasha",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Esteban",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Waese",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Watharkar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Krishnakumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Vaughn",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Town",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Loraine",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Provart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Plant Journal",
+            "volume": "100",
+            "issn": "3",
+            "pages": "641--654",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/tpj.14468"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "AraPheno and the AraGWAS Catalog 2020: a major database update including RNA-Seq and knockout mutation data for Arabidopsis thaliana",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Togninalli",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u00dc",
+                    "middle": [],
+                    "last": "Seren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Freudenthal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nucleic Acids Research",
+            "volume": "48",
+            "issn": "D1",
+            "pages": "1063--1068",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gkz925"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "A Species-Wide Inventory of NLR Genes and Alleles in Arabidopsis thaliana",
+            "authors": [],
+            "year": null,
+            "venue": "Cell",
+            "volume": "178",
+            "issn": "5",
+            "pages": "1260--1272",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2019.07.038"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Reconstitution and structure of a plant NLR resistosome conferring immunity",
+            "authors": [
+                {
+                    "first": "Jizong",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Meijuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jia",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jinfeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Zhifu",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Guoxun",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Yijun",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hong-Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jian-Min",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jijie",
+                    "middle": [],
+                    "last": "Chai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Science",
+            "volume": "364",
+            "issn": "6435",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.aav5870"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Uzilday B; The Multinational Arabidopsis Steering Committee. Current status of the multinational Arabidopsis community",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Parry",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Provart",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Brady",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Plant Direct",
+            "volume": "00",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/pld3.248"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Saudi Arabia; Yuling Jiao",
+            "authors": [
+                {
+                    "first": "Satoshi",
+                    "middle": [],
+                    "last": "Iuchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Riken",
+                    "middle": [],
+                    "last": "Brc",
+                    "suffix": ""
+                },
+                {
+                    "first": "Japan; Pankaj",
+                    "middle": [],
+                    "last": "Jaiswal",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Institute of Genetics and Developmental Biology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Institute of Plant Sciences",
+            "authors": [
+                {
+                    "first": "Claire",
+                    "middle": [],
+                    "last": "Lurin",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "tion state (43,000 sites across the proteome). In addition, McWhite et al. (2019) generated a complementary database of stable protein complex organization from 13 plant species, including Arabidopsis. These datasets are exciting resources that are available for further analysis and are being integrated into existing community portals such as Proteomics DB (https://www.prote omics db.org) and ATHENA (http://athena.prote omics.wzw.tum.de:5002/master_arabi dopsi sshin y/). The Mergner et al. (2020) manuscript includes transcriptome information for each protein product yet it does not represent the entirety of the predicted 29,000 open reading frames (dubbed the Arabidopsis \"ORFeome\"). The MASC ORFeomics subcommittee continues to monitor the resources that provide access to different sets of Arabidopsis clones, each of which are outlined in the MASC annual report. They",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "2019 there has been significant activity in the research area of the MASC Systems and Synthetic Biology subcommittee, particularly with the development of BAR-integrated software tool to analyse protein-protein and protein-DNA interaction networks (http://bar.utoro nto.ca/inter actio ns2/) and in the TuxNet software that analyses RNA-seq data to infer gene regulatory networks (https://omict ools.com/tuxne t-tool). The subcommittee has been active in the organization of external meetings with the inaugural International Plant Systems Biology Meeting taking place in France in September 2018, with a follow-up event in Venice postponed until 2021 (https://meeti ngs.embo.org/event/ 20-plant -systems).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Mukhtar from University of Alabama at Birmingham is the inaugural chair of the Plant Immunity subcommittee, a necessary initiative that expands MASC activities into an area in which Arabidopsis research has led our current understanding on the molecular mechanisms of pathogen resistance. Over the past year this research area has seen exciting developments that are highlighted within the subcommittee report, which include the first structure of a plant nucleotide-binding leucine-rich repeat receptor (NLR; Wang et al., 2019) and a full characterization of the Arabidopsis \"NLRome\" (Van de Weyer et al., 2019).F I G U R E 2 Distribution of NASC natural ecotype collection across the world (Data provided by Marcos Castellanos-Uribe, OperationsManager at NASC). Focus around Europe shows concentration of the collection on specific regions. Chart below shows number of NASC stock entries per 100.000 km 2 land area. Note that countries with less than 100.000 km 2 land area were omitted from the list3 | UPDATE ON INTERNATIONAL PROJEC TS WITH A FO CUS ON AR AB IDOPS ISA primary example of the collaborative nature of the global Arabidopsis research community is the success of the international stock centres (Nottingham Arabidopsis Stock Centre [NASC], The Arabidopsis Biological Research Center [ABRC] and the RIKEN Bioresource Centre).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "phylo genes.org), a new resource that facilitates inference of gene function based on phylogenetic relationships, and with the open access MicroPublications journal (https://www.micro publi cation.org/)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Phenotyping community provides excellent links between Arabidopsis research and that conducted in other plant species. The MASC annual report includes brief updates from the International Plant Phenotyping Network (IPPN), European Plant Phenotyping Network (EPPN) and European Infrastructure for Plant Phenotyping (EMPHASIS). An important general feature of these networks is that they host regular calls for applications from researchers to access phenotyping infrastructures where they do not have them available at their home institutions. The European Infrastructure for Plant Phenotyping (EMPHASIS) project is arguably the most interesting development in this area. When it becomes fully operational in 2022 EMPHASIS will place plant phenotyping in a position to obtain centralized European funding through similar mechanisms to those that support other large European infrastructure projects such as the Square Kilometre Array for radio astronomy (although plant phenotyping is much cheaper, http://roadm ap2018.esfri.eu/).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "This indicates that Chinese researchers are pragmatically continuing to leverage Arabidopsis as a model plant despite a lack of dedicated funding for Arabidopsis research per se. MASC Country representatives provide an opinion on the current status of Arabidopsis research in their countries. It is challenging to obtain a consistent metric for these evaluations as different countries will view their situation from different starting positions. For example, the United Kingdom publishes around 200 Arabidopsis papers per year and there is ~\u00a38M in annual 'Responsive mode' Government funding for \"Arabidopsis research\" yet this represents a reduction in funding, so the situation is not as healthy as in previous years. However, other countries have low to no funding in research specifically dedicated to Arabidopsis, yet have a positive opinion toward research in this area, for example, \"In Brazil even though there is virtually no such funding programs towards Arabidopsis, the number of institutions using Arabidopsis in their research is growing each year. We are seeing a gradual increase in the usage of Arabidopsis as a model plant for molecular and genetic studies due to its power as an easily manipulated model system to investigate gene functions.\" Similarly in India, although there is no earmarked financial support for Arabidopsis research from the Government, scientists can compete for grants dedicated for basic science and many projects are regularly funded on Arabidopsis exclusively; \"many more projects use Arabidopsis as a system to validate genes from crop plants. Consequently, the overall quality of publications\u2026.\u2026has improved considerably.\"",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "following broad recommendations were included in the third decadal roadmap (Lavagi et al., 2012): \u2022 Build a predictive model of an Arabidopsis plant from its molecular parts \u2022 Build the International Arabidopsis Informatics Consortium, an international informatics and data infrastructure \u2022 Exploit the wealth of natural variation that exists in Arabidopsis to further our understanding of adaptation and evolution \u2022 Establish an effective knowledge exchange pipeline from the laboratory to the field and vice versa \u2022 Deepen international cooperation and coordination",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "tributed to the manuscript. Members of Multinational Arabidopsis Steering Committee (MASC) provided background content. E N D N OTE S 1 http://arabi dopsi srese arch.org/index.php/en/publi cations 2 http://arabi dopsi srese arch.org/image s/publi catio ns/mascr eport s/1990_MASCP lan.pdf",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Biology.\" Below we highlight some important findings from each MASC subcommittee.F I G U R E 1 Papers publishedin PubMed journals globally with Arabidopsis, rice/oryza, corn/ maize or wheat/triticum in the Title/ Abstract. The following term was used in the PubMed search box:",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "F I G U R E 3 Papers published inPubMed journals with Arabidopsis in the Title/Abstract since 1997. Globally these countries have the highest number of publications in 2019. The following term was used in the PubMed search box: Arabidopsis[Title/ Abstract] AND COUNTRY AND (\"journal article\"[Publication Type] OR \"review\"[Publication Type]) AND YEAR[DP]",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

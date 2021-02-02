@@ -1,0 +1,1327 @@
+{
+    "paper_id": "0ae21c98ca76fe58686092d93088ce070dbcf73f",
+    "metadata": {
+        "title": "Journal Pre-proof",
+        "authors": [
+            {
+                "first": "Romain",
+                "middle": [],
+                "last": "Rumpler",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Siddharth",
+                "middle": [],
+                "last": "Venkataraman",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Peter",
+                "middle": [],
+                "last": "G\u00f6ransson",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Sweden stands out among the other European countries by the degree of restrictive measures taken towards handling the 2019 coronavirus outbreak, associated with the CoViD-19 pandemic. While several governments have imposed a nationwide total or partial lockdown in order to slow down the spread of the virus, the Swedish government has opted for a recommendation-based approach together with a few imposed restrictions. In the present contribution, the impact of this strategy will be observed through the monitored variation of the city noise levels during the associated period. The data used are recorded during a campaign of over a full year of noise level measurements at a building fa\u00e7ade situated in a busy urban intersection in central Stockholm, Sweden. The noise level reductions, observed during the period of restrictions, are shown to be comparable to those found for the two most popular public holidays in Sweden with a peak reduction occurring during the first half of April 2020. Contrary to what has been recently discussed in public media, the spread of the virus, the recommendations, and the restrictions imposed during the ongoing pandemic clearly have had a significant effect on the transport and other human-related activities in Stockholm. In this unique investigation, the use of distributed acoustic sensors has thus shown to be a viable solution not only to enforce regulations but also to monitor the effectiveness of their implementation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Traffic noise, Noise levels, Smart city",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The global spread of the 2019 novel coronavirus, SARS-CoV-2, causing the contraction of the so-called CoViD-19 sickness by millions of people around the world, has been characterized as a pandemic by the World Health Organization since March 11, 2020 [1] . The rapid spread of the disease has led most govern-5 ments to implement social distancing laws or recommendations which restrict some of the human activities. The severity of these restrictions, e.g. including closedown, lockdown, closing borders, vary considerably across countries and many governments have introduced a dynamic response on whether to loosen, maintain, or tighten restrictions in relation to updated data on CoViD-19 cases 10 and fatality rates. The potential of such restrictions to address the rate at which the virus spreads, at a local scale, or internationally, has been given much attention in response to the urgency of the situation. For instance, travel restrictions have shown to substantially mitigate the spread of CoViD-19 [2] [3] [4] [5] .",
+            "cite_spans": [
+                {
+                    "start": 251,
+                    "end": 254,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 699,
+                    "end": 701,
+                    "text": "10",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1012,
+                    "end": 1015,
+                    "text": "[2]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1016,
+                    "end": 1019,
+                    "text": "[3]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1020,
+                    "end": 1023,
+                    "text": "[4]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1024,
+                    "end": 1027,
+                    "text": "[5]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In an attempt to find a tradeoff in order to minimise the number of deaths while 15 limiting the severe economic impact of viral spread, the application of rigorous and unprecedented containment measures has been shown to potentially flatten the contagion curve, thus reducing the impact of the CoViD-19 pandemic on national healthcare systems, allowing in turn to save many lives [6] [7] [8] .",
+            "cite_spans": [
+                {
+                    "start": 81,
+                    "end": 83,
+                    "text": "15",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 381,
+                    "end": 384,
+                    "text": "[6]",
+                    "ref_id": null
+                },
+                {
+                    "start": 385,
+                    "end": 388,
+                    "text": "[7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 389,
+                    "end": 392,
+                    "text": "[8]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Several recent studies have taken advantage of this reduced human activ- 20 ity, which implies a reduction in anthropogenic emissions, in order to evaluate the environmental impact associated with such restrictions. Most early contributions in this area have focussed on the change in air quality, primarily in connection with major urban areas with severe restrictions. Such studies were conducted e.g. in the cities of Barcelona (Spain) [9] , Almaty (Kazakhstan) [10] , 25 2 J o u r n a l P r e -p r o o f Rio de Janeiro (Brazil) [11] , or Milan (Italy) [12] , highlighting a substantial, rapid reduction of traffic-related pollutants concentration, particularly regarding NO 2 levels [9] [10] [11] [12] , Particulate Matter (in particular PM 10 ) [9, 11, 12] , CO levels [11, 12] , etc. Such a detailed analysis was also conducted for 44 cities in northern China [13] , confirming substantial improvements of the air quality, 30 with an average decrease of 7.8% of the air quality index, and significant decrease of the concentration of five air pollutants (i.e. SO 2 , PM 2.5 , PM 10 , NO 2 , and CO). Although weather conditions are an important factor to take into account in connection with such air pollutants, not all the previously introduced studies have however included an attempt to take this aspect into consideration, 35 as done e.g. in Refs. [12, 13] , and only partially addressed in Ref. [10] .",
+            "cite_spans": [
+                {
+                    "start": 73,
+                    "end": 75,
+                    "text": "20",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 439,
+                    "end": 442,
+                    "text": "[9]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 465,
+                    "end": 469,
+                    "text": "[10]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 472,
+                    "end": 474,
+                    "text": "25",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 532,
+                    "end": 536,
+                    "text": "[11]",
+                    "ref_id": null
+                },
+                {
+                    "start": 556,
+                    "end": 560,
+                    "text": "[12]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 687,
+                    "end": 690,
+                    "text": "[9]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 691,
+                    "end": 695,
+                    "text": "[10]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 696,
+                    "end": 700,
+                    "text": "[11]",
+                    "ref_id": null
+                },
+                {
+                    "start": 701,
+                    "end": 705,
+                    "text": "[12]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 750,
+                    "end": 753,
+                    "text": "[9,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 754,
+                    "end": 757,
+                    "text": "11,",
+                    "ref_id": null
+                },
+                {
+                    "start": 758,
+                    "end": 761,
+                    "text": "12]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 774,
+                    "end": 778,
+                    "text": "[11,",
+                    "ref_id": null
+                },
+                {
+                    "start": 779,
+                    "end": 782,
+                    "text": "12]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 866,
+                    "end": 870,
+                    "text": "[13]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 929,
+                    "end": 931,
+                    "text": "30",
+                    "ref_id": null
+                },
+                {
+                    "start": 1359,
+                    "end": 1363,
+                    "text": "[12,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1364,
+                    "end": 1367,
+                    "text": "13]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1407,
+                    "end": 1411,
+                    "text": "[10]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Few studies have reported the impact of the imposed restrictions on noise emissions, in particular concerning the potential traffic-related noise reduction in urban environments. Xiao et al. [14] have analyzed seismic noise with frequencies above 1 Hz, identified to be primarily generated by local transportation 40 systems, in order to evaluate the impact of restrictions in China and Italy on the vibration levels associated with the so-called \"cultural noise\". In the present contribution, noise level measurements recorded during a campaign of over one year in strategic locations in Stockholm, Sweden, are used in order to evaluate the impact of the singular approach the Swedish government has opted for in 45 terms of imposed restrictions.",
+            "cite_spans": [
+                {
+                    "start": 191,
+                    "end": 195,
+                    "text": "[14]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 714,
+                    "end": 716,
+                    "text": "45",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Although this recommendation-based approach has been much discussed in the public media recently, few analyses have reported the impact of the Swedish mitigation strategy. Juranek et al. [15] In the present contribution, the impact of the recommendations and restrictions issued by the Swedish authorities is evaluated by analyzing noise measurements in Stockholm, the most affected region in Sweden. A key location in the 65 inner city of Stockholm was chosen, and the associated noise levels are put in perspective with the recommendations issued by the authorities. It is found, in partial agreement with the aforementioned study, Ref. by an overview of the methodology used for a relative assessment of the noise 80 levels in Section 3, and the analysis of the fluctuation of these noise levels in connection with the recommendations made by the authorities in Sweden.",
+            "cite_spans": [
+                {
+                    "start": 187,
+                    "end": 191,
+                    "text": "[15]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Noise levels are measured and recorded by an in-house noise monitoring device specifically developed for the purpose of urban noise monitoring, based 85 on the combination of a Raspberry Pi 3 and a 6-mm electret omni-directional USB measurement microphone (UMIK-1, by miniDSP).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measurement setup"
+        },
+        {
+            "text": "Noise level monitoring devices were installed in several key locations in central Stockholm, as part of a measurement campaign focussed on night-time deliveries in Stockholm [17] . In the scope of the present analysis, a strategic here minutes, part of a time period of interest. These instances t are uniquely referred to by their associated date t date (i.e. day, month and year), and time t hm (i.e. hour-minute timestamp of the form hh:mm), such that t = (t date , t hm ).",
+            "cite_spans": [
+                {
+                    "start": 174,
+                    "end": 178,
+                    "text": "[17]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Measurement setup"
+        },
+        {
+            "text": "(1)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measurement setup"
+        },
+        {
+            "text": "In order to allow for a distinction of reference noise levels by different days (i.e. according to a specific day of the week), such sets as the following are introduced,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measurement setup"
+        },
+        {
+            "text": "where for instance t M on refers to the set {Monday}. This presumes the introduction of a function getday such that getday(t) \u2208 {Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday}.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measurement setup"
+        },
+        {
+            "text": "(",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measurement setup"
+        },
+        {
+            "text": "Note that the definition of a day may be, for practical reasons, altered from the conventional 00:00-23:59 time period, in order to match the urban noise level patterns observed, as further detailed below in connection with Fig. 2 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 224,
+                    "end": 230,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Measurement setup"
+        },
+        {
+            "text": "On the basis of the notations adopted in Eqs. (1)-(3), a reference time period T day Ref,hm , associated with a given set t day , and for each intraday timestamp 125 hh:mm indexed by the subscript \u00b7 hm , may be defined as ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measurement setup"
+        },
+        {
+            "text": "where L(t) corresponds to the acoustic noise measure associated with time A date-wise noise level difference, for a given t date , may be defined as the average of the level difference between the minute-wise noise levels and the reference level L day Ref,hm associated with the suitable time, such that getday(t) \u2208 t day . This requires first to define the set of minute-wise noise levels difference associated with a given day t date , such that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measurement setup"
+        },
+        {
+            "text": "leading to the average noise difference for t date , given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measurement setup"
+        },
+        {
+            "text": "The average difference for a particular day is thus calculated according to rapidly to daytime levels, seems to be less affected than the other segments of the day, experiencing a similarly rapid transition from nighttime noise levels to peak-hour and daytime noise levels.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measurement setup"
+        },
+        {
+            "text": "Second, the evolution of the weekend day patterns, presented in Fig. 5b , 295 highlights similarly reduced, or maybe a higher reduction of fa\u00e7ade noise levels.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 64,
+                    "end": 71,
+                    "text": "Fig. 5b",
+                    "ref_id": null
+                }
+            ],
+            "section": "Measurement setup"
+        },
+        {
+            "text": "With to peri-urban activities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measurement setup"
+        },
+        {
+            "text": "Though providing a measure of insight in the impact of the spread of the 320 virus and the recommendations by the Swedish authorities, the analysis conducted in this contribution only provides a partial picture of that response.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Additional comments, limitations and future prospects"
+        },
+        {
+            "text": "First, the scope of the presented analysis is limited to human-based activities in central Stockholm, the most affected area in Sweden for the period covered by this contribution. Therefore, it does not reflect the response to the recom- ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Additional comments, limitations and future prospects"
+        },
+        {
+            "text": "The present contribution details the monitoring of noise levels for the pe- ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "WHO director-general's opening remarks at the media briefing on covid-19 -11march 2020",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2020--2026",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The effect of travel restrictions on the spread of the 2019 novel coronavirus (covid-19) outbreak",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chinazzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ajelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gioannini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Litvinova",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Merler",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Piontti",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Rossi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "6489",
+            "pages": "395--400",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The effect of human mobility and control measures on the covid-19 epidemic in china",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pigott",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Plessis",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Faria",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hanage",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "6490",
+            "pages": "493--497",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "An investigation of transmission control measures 410 during the first 50 days of the covid-19 epidemic in china",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-H",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Kraemer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "6491",
+            "pages": "638--642",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Human mobility restrictions and the spread of the novel coronavirus (2019-ncov) in china",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "National Bureau of Economic Research",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "How will country-based mitigation measures influence the course of the covid-19 epidemic?",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Heesterbeek",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Klinkenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hollingsworth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "931--934",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Impact of non-pharmaceutical interventions (npis) to reduce covid19 mortality and healthcare demand, Imperial College COVID-19 Response Team",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Dannenburg",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Report",
+            "volume": "9",
+            "issn": "",
+            "pages": "2020--2026",
+            "other_ids": {
+                "DOI": [
+                    "10.25561/77482"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Evaluation of the lockdowns for the sars-cov-2 epidemic in italy 425 and spain after one month follow up",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tob\u00edas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science of the Total Environment",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Changes in air quality during the lockdown in barcelona (spain) one month into the sars-cov-2 epidemic",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tob\u00edas",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Carnerero",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Reche",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Massagu\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Via",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Minguill\u00f3n",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alastuey",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Querol",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science of the 430 Total Environment",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Assessing air quality changes in large cities during covid-19 lockdowns: The impacts of traffic-free urban conditions in almaty, kazakhstan",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kerimray",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Baimatova",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ibragimova",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bukenov",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Kenessov",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Plotitsyn",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Karaca",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science of the Total Environment",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The impact of covid-19 partial lockdown on the air quality of the city of rio de janeiro, brazil",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Dantas",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Siciliano",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Fran\u00e7a",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Arbilla",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science of the Total Environment",
+            "volume": "729",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Lockdown for covid-2019 in milan: What are the effects on 440 air quality?",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Collivignarelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Abb\u00e0",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bertanza",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pedrazzani",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ricciardi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Miino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science of The Total Environment",
+            "volume": "732",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Does lockdown reduce air pollution? evidence from 44 cities in northern china",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bao",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science of the Total Environment",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "COVID-19 Societal Response Captured by Seismic Noise in China and Italy",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Eilon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ji",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tanimoto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Seismological Research Letf ters",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1785/0220200147"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "The effect of social distancing measures on intensive care occupancy: Evidence on covid-19 in scandinavia",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Juranek",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zoutman",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Pandemic, shutdown and consumer spending: Lessons from scandinavian policy responses to covid-19",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Andersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Hansen",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Johannesen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sheridan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2005.04630"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Innovative solutions for sustainable mobility of people in susburban city distrcits and emission free freight logistics in urban 455 centres",
+            "authors": [
+                {
+                    "first": "Civitas",
+                    "middle": [],
+                    "last": "Eccentric",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2020--2026",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "relating to the assessment and management of environmental noise",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Directive",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Official Journal of the European Communities",
+            "volume": "25",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "F\u00f6rslag: Inga allm\u00e4nna sammankomster med fler\u00e4n 500 personer., Press conference",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Folkh\u00e4lsomyndigheten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "The Public Health Agency of Sweden), Ny fas kr\u00e4ver nya insatser mot covid-19",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Folkh\u00e4lsomyndigheten",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Press conference",
+            "volume": "",
+            "issn": "",
+            "pages": "2020--2023",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Personer over 70 b\u00f6r begr\u00e4nsa sociala kontakter tills vidare",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Folkh\u00e4lsomyndigheten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2020--2026",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "L\u00e4ros\u00e4ten och gymnasieskolor uppmanas nu att bedriva distansundervisning",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Folkh\u00e4lsomyndigheten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2020--2026",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "T\u00e4nk over om resan verkligen\u00e4r n\u00f6dv\u00e4ndig",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Folkh\u00e4lsomyndigheten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2020--2026",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Nya regler f\u00f6r restauranger och krogar",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Folkh\u00e4lsomyndigheten",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2020--2023",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "F\u00f6rslag: Ytterligare begr\u00e4nsningar av allm\u00e4nna sammankomster., Press conference",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Folkh\u00e4lsomyndigheten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2020--2026",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Common noise assessment methods in europe",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kephalopoulos",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Paviotti",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Anfosso-L\u00e9d\u00e9e",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "[16], that i) the propagation of the virus itself had an impact on human activity in the city center, and ii) the recommendations and restrictions imposed by the authorities further 70 contributed to a significant effect on these activities, including transport-related noise emissions. The results presented here have been obtained as part of a measurement campaign focussed on night-time deliveries in Stockholm. The data have been recorded and analysed over a period starting in April 2019, enabling an eval-75 uation of the impact of the measures taken in view of the CoViD-19 spread, through a comparison against the variations in noise levels during the months leading to the outbreak. In order to facilitate the understanding of the approach taken, a presentation of the measurement setup is given in Section 2",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Noise measurement location shown in green over a representative noise map of Stockholm: a) Overview centered on the central island of S\u00f6dermalm; b) Magnified representation of the measurement location area.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "90 location was chosen, as further detailed in the following. The noise level monitoring device was installed with the microphone on the fa\u00e7ade of a building located at the corner of a busy crossroad in central Stockholm. The location is highlighted, as a dot in Figs. 1, on a qualitative representation of noise maps established for noise pollution assessment, according to the European Direc-EC, relating to the assessment and management of environmental noise (the Environmental Noise Directive -END) [18]. Lighter colors in the color scale highlight noisier locations, which places the chosen location among the noisiest in the neighbourhood. The location was specifically chosen due to the significant contribution from 100 multiple sources of noise associated with urban activity: at a traffic-signal controlled crossroad between two major axes for road traffic (dual lane segments), the measurement point is also in the direct vicinity of the entrance to a subway station, an important bus stop, and a high spot for dining and nightlife in Stockholm, some nearby locations being open until 4:00 AM. Altogether, 105 the noise levels recorded at this location may be considered as representative of human-activity in central Stockholm, including traffic from public transport, individuals and freight traffic, entertainment (cinemas, bars, caf\u00e9s, restaurants and nightclubs in the area), local residential life, etc. The noise levels were logged continuously at this location from the middle of April 2019, which pro-110 vides a good background basis for the evaluation of the impact associated with the reduced activity due to the emergence of CoViD-19 and the measures taken by the authorities. 3. Analysis of the noise measurements 3.1. Noise level fluctuations with respect to long-time averages 115Measurements of the different types of acoustic measures such as LA eq , LA 90 , etc., are calculated in 1-minute intervals. Since the interest here is not in the absolute noise levels but rather in the fluctuation of these levels in connection with the measures taken and the associated response by the society, these are here presented in a relative sense to reference average levels.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": ". Let T be the set associated with all the time instances t, i.e.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "instance t, in dB, and card(T day Ref,hm ) to the cardinality of the time period subset. Note that pre-determined periods, from June 1, 2019 to July 31, 2019 and from December 16, 2019 to January 14, 2020, are excluded from the complete time 130 period T used to calculate the reference time period, in Eq. (4), in order to avoid the influence of special periods such as summer and winter breaks, which tend to deviate from the normal conditions of interest in this study, as further detailed in the analysis of the measurements.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "18:00 to Sunday 17:59). This grouping is established on the basis of the measured levels highlighted in Fig. 2, averaged over several weeks, and 140 showing the patterns of noise level fluctuations over a full calendar week. These Distinction between weekdays and weekends on the basis of hourly fluctuation patterns. patterns follow a reasonable degree of regularity according to the groupings aforementioned. In line with the comment made following Eq. (3), 24-hour days are thus defined from 18:00 on the previous day, to 17:59, for average-reference purposes.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Weekday and weekend average noise fluctuations in 2020Fig. 3 shows the fluctuations with respect to the long-time-average reference level, starting in January 2020, taking into account the proposed distinction between weekdays and weekend days. Each numbered week begins on a Monday and is therefore represented by an average of the fluctuations over the weekdays 150 (blue bar) followed by the average fluctuation associated with the weekends (orange bar). Note that the analysis includes the period following Christmas and New Years' celebrations, a very quiet period in Stockholm (in particular until the Epiphany, on January 6). The plot includes highlighted months in the transition to a slowdown of activities in Stockholm, i.e. March-May 2020, as 155 well as vertical lines corresponding to specific recommendations or restrictions announced by the Public Health Agency of Sweden (\"Folkh\u00e4lsomyndigheten\", or FoHM), including: Noise level fluctuation with respect to the long-time reference average, taking into account groupings according to weekdays and weekend patterns.\u2022 banned public gatherings of more than 500 people (announced on March 11, in effect from March 12, week 11) [19], 160 \u2022 a recommendation for anyone with symptoms of common cold to stay home (March 13, week 11) [20], \u2022 a recommendation for remote work in Stockholm (March 16, week 12) [21], \u2022 a recommendation for anyone aged over 70 years old to minimize physical interactions (March 16, week 12) [21], 165 \u2022 a recommendation for remote teaching at high schools and universities (March 17, week 12) [22],\u2022 gradual closing of universities and upper secondary schools to students (March 18, week 12), following the recommendation in Ref.[22],\u2022 a recommendation to avoid unnecessary travels (March 19, week 12) banned public gatherings of more than 50 people (March 27, week 13)[25].First, the months of January-February (weeks 1-9) highlight a clear gradual increase of activities following the Holiday season, resuming to close-to-normal 175 levels towards the end of January (e.g. week 5). Note that weeks 8 and 9 correspond to the winter holidays in the Stockholm-Uppsala area, which could to a degree explain the above-average levels observed on the weekends of weeks 7-9. The transition occurring in the first half of March is interesting to highlight, in particular when comparing the noise level reduction associated with the 180 weekdays or the weekends. During the period leading to the month of March, no consistent distinction may be made between the reduction in noise levels between weekdays or the weekend. A significant distinction may however be highlighted starting from the weekend of week 10, i.e. a few days before the implementation of the ban on public gatherings of more than 500 people[19].185 From that point onward in time, the noise levels on weekends start to drop substantially faster than the noise levels associated with weekdays (notice for instance the sharp drop on the weekend of week 11, first weekend after the implementation of this ban). These weekend levels suddenly drop in the course of the month of March to an average of \u22122.9 dB(A) 1 difference to the reference 190 averaged level, towards the end of the month and into the month of April, weeks 13 and 14. On the other hand, the weekday levels start to drop with a shift of about a week compared to these weekend levels. In particular, a sharp drop is observed in week 12 on the day immediately following the announcement of the recommendation by FoHM to implement remote work in Stockholm whenever 195 possible[21]. In that same week, and following a series of recommendations also concerning educational institutions[22], the level drop associated with weekdays reaches an average noise level reduction comparable to the one associated with weekend levels. Given the number of recommendations issued during this pivot week 12, averaged fluctuations are presented on a daily basis inFig. 3 for this 200week.From the last week of March onward, a consistently higher drop is observed on weekends than the one observed in connection with weekdays. This may reflect not only a slowdown of economical/work-related activities, but an even greater slowdown of entertainment-related activities, associated both with 205 tourists and Stockholmers. While the noise level drop stabilized on average around a \u22123 dB(A) 1 difference to the reference averaged level for weekends associated with weeks 13-16, this drop stabilized on average around a \u22121.9 dB(A) difference for the weekday levels. Note, as further highlighted in the following, that these level drops are comparable to the ones observed during the major 210 drop of urban activity associated with the peak of the holiday season. Starting in the second half of April, there seems to be a slow, gradual trend for the average levels to increase again, both those associated with the weekdays and the weekends. This may reflect a gradual pick up in human activities, made possible by the fact that most recommendations made from the authorities are 215 not strongly enforced. In particular, the last available average, corresponding to the first half of week 27, highlights the highest level observed for a weekday average for a period of 17 weeks. Nevertheless, the levels reached during these latest weeks available, in June 2020, are of the order of the levels during the period of low activity in January 2020, at least 1 dB(A) below the average 220 reference levels (especially for the weekend averages). Additionally, for the 12 J o u r n a l P r e -p r o o f entire period of presumed CoViD-19 effects, available at the time of the present contribution (Weeks 10-26), the weekend levels have remained on average about 1 dB(A) lower than the weekdays levels. This may highlight that self-imposed restrictions following the recommendations by the authorities, may have been 225 observed in good agreement with the ones taken for economical activities. This also partially confirms the observations made in Ref. [16] for the Scandinavian case, which led the authors to suggest that a major part of the slowdown in activities may be attributed to the spread of the virus itself (i.e. the reaction of the population to this spread) rather than the severity of the measures taken 230 by the authorities.3.3. Fluctuations on a longer time-perspective: analysis from April 2019 Considering a longer time perspective, from April 2019 to the end of June 2020, Fig. 4 illustrates similar noise level fluctuations, removing the distinction between weekdays and weekends. It consists in a day-to-day drop or increase 235 of the averaged noise level compared to an average level over the entire period (i.e. one average level per day of the week), together with a smoothed average of these variations (orange line). A 7-day rolling average, i.e. a simple equally weighted running mean over seven days, is used in this case, in line with the curve-smoothing approach used by FoHM for the presentation of its CoViD-240 19-related daily statistics. The months of March-May 2020 are highlighted as previously done in Fig. 3. The rolling average provides an overview of the trend of fluctuation over the entire period considered, while the daily fluctuations allow to capture peak fluctuations during this period. First, it is noteworthy that the rolling average shows relatively little fluc-245 tuation of the noise level in the entire period leading to December 2019, with average deviations of at most 1 dB(A) from the reference average during this 7-month period. A sharp average increase is then observed in the period lead-Fluctuations in noise levels shown with 1-day resolution and 7-day rolling average. ing to the Holiday season in December 2019, reaching up to about a 1.6 dB(A) average increase just before the Holiday season drop. The subsequent gradual 250 resuming of activities in January 2020 is then observed in agreement with the description associated with Fig. 3. Second, the two Public holidays of dominant importance in the Swedish culture, associated with the Midsummer (a major tradition, where Swedish citizens observe a return to rural traditions, commonly celebrated outside of major cities) and Christmas celebrations (typically spent 255 with family members at home), respectively on June 21 and December 24, are highlighted for the year 2019 as the quietest days, with single-day drops of about -2.4 dB(A) and -2.7 dB(A), respectively (and -2.4 dB(A) for December 25), in the average noise level compared to the reference level. Note that Midsummer 2020, on June 21, also experienced an expected substantial single-day drop, over 260 -3 dB(A) compared to the reference level, i.e. even quieter than the Midsummer celebration in 2019 (also reflected in the very quiet weekend of week 25 in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "drop in average noise level, and thus associated human activ-ity, commented on in connection with Fig. 3 for the period from March 2020 265 onward, may here be put in perspective: these levels from week 12 to week 21 are obviously within the range of those observed for the major celebrations aforementioned (see horizontal dashed lines in Fig. 4), thus highlighting the extent of the reduction of human activities in central Stockholm. Additionally, the gradual upward trend depicted by the rolling average from around mid-270 April 2020, seems to indicate a gradual pick up in human activities (confirmed in Fig. 3 both for weekdays and weekends), to a level in late June 2020 comparable to the period of low activity immediately following the Holiday season, in the beginning of January. 3.4. Changes in the intraday noise level patterns 275 Following the analysis of Figs. 3 and 4, highlighting the very clear impact of both the spread of the virus, and the associated measures announced by FoHM, details of the way intraday noise levels patterns were affected are presented here. Figs. 5 detail these patterns, averaged over several weeks, outside or during the peak period of CoViD-19-related effects: week 16 in 2019 to week 9 280 in 2020 for the reference period, and week 13 to week 18 in 2020 to highlight the effects of the spread of CoViD-19 and the associated mitigation measures. Weekday patterns or weekend-day patterns, in line with the distinction made in connection with Fig. 2, are plotted in Fig. 5a and Fig. 5b, respectively. An overall observation is that all time segments of the day and night are 285 similarly impacted, reflecting a global slowdown of human-related activities. Focusing first on the weekday patterns, Fig. 5a highlights a fa\u00e7ade noise level reduced by 1.5-2 dB(A) during the day (07:00-18:00), 2-3 dB(A) during the evening (18:00-00:00), and by a broader range of 1-4 dB(A) in the sensitive segment comprising the rest of the night (00:00-05:30). The early morning 290 period, i.e. the approximate segment 05:30-07:00 when the noise levels increase Absolute intraday fa\u00e7ade noise levels averaged over week 16 (2019) to week 9 (2020) for the reference outside of CoViD-19-affected period, and from week 13 to week 16 (weekdays) or 18 (weekends), for the peak of CoViD-19-related effects: a) Weekday; b) Weekend.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "slightly redefined time segments by a 2-hour shift, in agreement with the observed patterns, the fa\u00e7ade noise level is reduced by 2-3 dB(A) during the day (09:00-20:00), 2.5-4 dB(A) during the evening or early night (20:00-02:00), and reaching up to 4 dB(A) noise reduction in the sensitive segment leading 300 to the weekend waking hours (02:00-07:30). The morning period 07:30-09:00 highlights a typical smoother transition on weekend days from quiet nighttime to daytime noise levels. Note the peak where almost no noise level reduction is observed in the time segment of about 30 minutes starting around 03:00. This corresponds to a time segment where sidewalk cleaning trucks are working in 305 the area of measurement, occurring both on weekend days and weekdays. It is interesting to notice that this time segment is therefore almost not affected by the slowdown associated with CoViD-19. The exceedance of the associated peak, compared to otherwise measured levels, is in fact one confirmation of the stability of the measurement over the entire period of the campaign. 310 The comparison of the noise level reduction associated with the intraday patterns for weekdays and weekend days confirms the observation made from Fig. 3: the slowdown of activities during the peak period following the recommendations by the authorities was more severe during the weekend than during the week. This highlights the impact of the recommendations, the impact of the 315 awareness of the spread of the virus by the Stockholmers, and possibly, though outside the scope of this contribution, a partial reallocation of their activities",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "mendations made at a national level, but rather provides insight into the local response in a very relevant location, both from an activity-and a virus-related point of view. This implies that conclusions about the absolute fluctuations of noise levels or activity are not as relevant as the relative fluctuations, hence the comparison with levels measured during the most popular public holidays, 330 which provide a reference for this qualitative assessment. As mentioned in the last statement of the previous subsection, this local analysis therefore does not reflect a systemic impact, being for instance insensitive to the potential reallocation of activities to less central or peri-urban areas, or their fluctuation to differing degrees. This would have to be addressed in a potential follow-up, 335 e.g. considering a mobility approach based on the availability of mobile phone data, as noise measurement data are not available at such a scale for the period covered in this contribution. Second, in connection with the availability of the data, the noise measurements for the chosen location are only available from April 2019, making the 340 comparison possible only from one year to the next. Although it would have been beneficial to extend the comparison to levels from earlier years as well, in order to rule out non-CoViD-19-related fluctuations from one year to the next, there are reasons to be confident that such potential fluctuations may have only marginally impacted the results, and thus not changed the conclusions. One 345 such reason is found in the great stability of the noise levels observed in the reference period in 2019, with fluctuations of the averaged levels limited to \u00b11 dBA compared to the mean value, until December 2019. The fluctuations associated with the spread of the virus and correlated with the recommendations greatly exceed these minor fluctuations, see Fig. 4. Furthermore, the levels reached in 350 early March 2020, just before the first recommendations by Swedish authorities, are exactly in the range of the earliest data available in 2019.The availability of data from a broader network of acoustic sensors, such as currently deployed in Stockholm, would have been most beneficial for a largerscale analysis. This may be enabled in a near future by taking measurements 355 from future years as reference levels for a similar assessment of the currently measured levels in other areas of the city, provided that the activities will return to pre-CoViD-19 conditions. This may be verified by making use of the data available for the present contribution, as the associated noise level monitoring is ongoing at the time of writing.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "riod ranging from mid-April 2019 to the end of June 2020, in a busy location in Central Stockholm, particularly highlighting the daily average fluctuations relative to a longtime reference average level. The substantial and sustained 365 drop in noise levels observed from March 2020, attributed to the impact of the spread of CoViD-19, is analysed in relation to the associated recommendations made by the authorities in Sweden. A very strong correlation is in particular observed during the pivot week 12 of 2020, when the major recommendations and restrictions have been issued by FoHM. A peak drop of more than 4 dB(A) 370 is observed on the daily average, in April 2020, i.e. about a month after this pivot week: a stronger level drop than the ones observed for the two quietest, major Public holidays observed in Sweden. Although no strict lockdown has been enforced over that period in Sweden, these measurements indicate a rapid compliance of the Stockholmers to the issued recommendations leading to a 375 clear slowdown in urban activities. Despite a gradual pick up in these activities from around mid-April 2020, the levels observed in the beginning of June 2020, up to the week before the Midsummer celebrations (week 25), highlight levels in the range of those associated with the low activity following the Holiday season. On average, the levels for the first half of June 2020 are between 0.5 dB(A) and 380 2 dB(A) lower than the same period in 2019, but the trend observed seems to indicate a prompt return to normal levels, especially concerning weekdays. Finally, the analysis here presented of noise level fluctuations in a specifically targeted area of the inner city, highlights the interest of low-cost solutions for acoustic sensing in the context of Smart Cities, as a source of information about 385 urban life, e.g. in connection with regulations and their associated impact. Thepresent study is however limited to the heart of the inner city, and may be completed with a mobility study in order to evaluate the potential transfer of human urban activities to other locations (e.g. associated with public parks and beaches in or around the city, where a spread of the virus may also occur).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "exploited the differences in response between the Scandinavian countries (strict measures for Denmark and Norway, opposed to the lenient Swedish approach), in order to assess the effectiveness of the stricter measures. Their analysis reports that, given an assumed reduction 3 J o u r n a l P r e -p r o o f in mobility about twice as strong in Denmark/Norway compared to Sweden, the number of hospitalizations would have peaked around 15-20 days later in these two countries, had more lenient measures been adopted. A similar comparison is conducted by Andersen et al. [16], using transaction data in order to estimate the effect of social distancing laws/recommendations on consumer spending during the pandemic. They found the aggregate spending to be estimated to have dropped by around 25 % in Sweden and, as a result of the shutdown, by an additional 4% in Denmark. The implications suggested by the authors is that most of the economic contraction may be caused by the virus itself, occurring regardless of whether governments mandate social distancing or not.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "subsequently leading to the associated average reference noise level L day Ref,hm ,",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

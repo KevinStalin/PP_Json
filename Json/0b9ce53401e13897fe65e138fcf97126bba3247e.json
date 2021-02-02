@@ -1,0 +1,1155 @@
+{
+    "paper_id": "0b9ce53401e13897fe65e138fcf97126bba3247e",
+    "metadata": {
+        "title": "Prediction of the Peak, Effect of Intervention, and Total Infected by COVID-19 in India",
+        "authors": [
+            {
+                "first": "Parth",
+                "middle": [
+                    "Vipul"
+                ],
+                "last": "Shah",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "We study the effect of the coronavirus disease 2019 in India and model the epidemic to guide those involved in formulating policy and building health-care capacity. Methods: This effect is studied using the Susceptible-Exposed-Infected-Recovered (SEIR) compartmental model. We estimate the infection rate using a least square method with Poisson noise and calculate the reproduction number. Results: The infection rate is estimated to be 0.270 and the reproduction number to be 2.70. The approximate peak of the epidemic will be August 9, 2020. A 25% drop in infection rate will delay the peak by 11 d for a 1-mo intervention period. The total infected individuals in India will be 9% of the total population. Conclusions: The predictions are sensitive to changes in the behavior of people and their practice of social distancing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "I n this work, on the eve of the outbreak of the deadly coronavirus disease 2019 (COVID-19) 1 in India, caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), 2 we predict the peak of the epidemic, effect of intervention, and total infected individuals. The objective of this study is to not only model the epidemic to study its effect but to also guide those involved in formulating policy and building health-care capacity. This disease has demonstrated person-to-person transmission, 3 and as India is a densely populated country, it is necessary to understand the effects of this disease to mitigate its risk. January 30, 2020, marked the first identified case of COVID-19 in India. 4 Meanwhile, COVID-19 has spread around the world. As of April 26, 2020, the United States of America has approximately 941 thousand confirmed cases, Spain has approximately 224 thousand confirmed cases, and Italy has approximately 195 thousand confirmed cases. India has approximately 27 thousand confirmed cases. 4 The World Health Organization (WHO) declared the disease a pandemic on March 11, 2020. 5 The total number of confirmed cases in India and the daily increase in cases is depicted below in Figures 1 and 2 .",
+            "cite_spans": [
+                {
+                    "start": 92,
+                    "end": 93,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 176,
+                    "end": 177,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 504,
+                    "end": 505,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 704,
+                    "end": 705,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1019,
+                    "end": 1020,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1108,
+                    "end": 1109,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1208,
+                    "end": 1223,
+                    "text": "Figures 1 and 2",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "The growth of the number of confirmed COVID-19 cases can be approximated by an exponential function. The growth factor r at day t can be calculated as r \u00bc",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Cases on day t Cases on day t \u00c0 1",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "(1) April 26, 2020, India is reporting an average growth rate of 1.1524 with a SD of 0.4882 (refer to Table 1 ). Stricter rules and measures of ensuring social distancing have been in place. 6 India is fighting this disease by ensuring nation-wide lockdown and social distancing when the number of infected individuals is low. All nonessential workers across all industries have been given stay-at-home orders.",
+            "cite_spans": [
+                {
+                    "start": 191,
+                    "end": 192,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 102,
+                    "end": 109,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "The Susceptibel-Exposed-Infected-Recovered (SEIR) compartmental model has been used to model previous pandemics and diseases in the field of epidemiology. In Saito et al., it was used to model the 2009 influenza A (H1N1) pandemic in Japan. 7 In Diaz et al., it was used to model the spread of Ebola in Western Africa. 8 In addition to the SIR model, 9 an additional compartment for the exposed population (\"E\") is considered. The exposed population consists of individuals that are infected but not yet infectious and hence, introduces an incubation period for the virus in the model. Yang et al. in China and Kuniya in Japan use this model for the ongoing pandemic. 10, 11 The same methodology is adopted here. The assumption is that, once an individual contracts the virus and recovers, the individual is immune to this virus. The SEIR model is defined in Equation 2.",
+            "cite_spans": [
+                {
+                    "start": 158,
+                    "end": 171,
+                    "text": "Saito et al.,",
+                    "ref_id": null
+                },
+                {
+                    "start": 240,
+                    "end": 241,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 318,
+                    "end": 319,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 350,
+                    "end": 351,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 585,
+                    "end": 599,
+                    "text": "Yang et al. in",
+                    "ref_id": null
+                },
+                {
+                    "start": 667,
+                    "end": 670,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 671,
+                    "end": 673,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "METHODS Model"
+        },
+        {
+            "text": "S 0 \u00f0t\u00de \u00bc \u00c0\u03b2S\u00f0t\u00deI\u00f0t\u00de E 0 \u00f0t\u00de \u00bc \u03b2S\u00f0t\u00deI\u00f0t\u00de \u00c0 \u03b5E\u00f0t\u00de I 0 \u00f0t\u00de \u00bc \u03b5E\u00f0t\u00de \u00c0 \u03b3I\u00f0t\u00de R 0 \u00f0t\u00de \u00bc \u03b3I\u00f0t\u00de",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODS Model"
+        },
+        {
+            "text": "The susceptible, exposed, infected, and removed populations at time t is denoted by S(t), E(t), I(t), R(t), respectively. The infection rate that is defined as the change in the number of infected individuals during the transition from the interval t \u2212 1 to t is denoted by \u03b2. The onset rate, which is defined as the change in the number of individuals from infected to ill during the transition from the interval t \u2212 1 to t, is denoted by \u03b5. The removal rate, which is defined as the sum of recovery and death rates, is denoted by \u03b3. 9, 12 The average incubation period and the average infectious period is 1/\u03b5 and 1/\u03b3, respectively. We fix 1/\u03b5 to 5 and 1/\u03b3 to 10 based on recent publications that have studied the average incubation period and the average infectious period. 12, 13 The unit time is 1 d. The fraction of infected individuals that can be identified by diagnosis is denoted by p. We also fix S \u00fe E \u00fe I \u00fe R to 1 so that calculations are a proportion of the total population. The total population of India, N, is fixed at 1.33 billion or 1.3392 \u00d7 10 9 . 14 The assumption that 1 individual among a total population of N individuals is identified as infected at t = 0 is adopted. Therefore, the total number of infected individuals who are identified at time t is given by the product of fraction of individuals that can be identified by diagnosis, infected individuals at time t and the total population (Equation 3).",
+            "cite_spans": [
+                {
+                    "start": 535,
+                    "end": 537,
+                    "text": "9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 538,
+                    "end": 540,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 777,
+                    "end": 780,
+                    "text": "12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 781,
+                    "end": 783,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "METHODS Model"
+        },
+        {
+            "text": "To obtain the initial conditions of the model, we assume that there are no exposed or removed populations at t = 0.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODS Model"
+        },
+        {
+            "text": "are the initial conditions. We fix the identification rate, p to 0.01 based on reports of low testing rates and high infection rates. 15 The expected value of secondary cases produced by 1 infected individual, the reproduction number, R 0 is calculated from Equation 5. 16",
+            "cite_spans": [
+                {
+                    "start": 134,
+                    "end": 136,
+                    "text": "15",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "METHODS Model"
+        },
+        {
+            "text": "Using this model, we estimate the infection rate, \u03b2, in the next section.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODS Model"
+        },
+        {
+            "text": "Let Y(t), t = 0, 1, 2\u202692 be the daily confirmed cases of COVID-19 in India from January 25, 2020 (t = 0), to April 26, 2020 (t = 92). Using the least square approach with Poisson noise to estimate the infection rate, the following steps are adopted. With Poisson noise, Equation 3 is modified to",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation of the Infection Rate, \u03b2"
+        },
+        {
+            "text": "s(t), t = 0, 1, 2\u202692 are random variables from a standard normal distribution. The following steps are adopted to estimate \u03b2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation of the Infection Rate, \u03b2"
+        },
+        {
+            "text": "Y\u00f0t\u00de 2 . 4. Run step 1 to step 3 for 0 .2 \u2264 \u03b2 \u2264 0.4, and find \u03b2* such that J (\u03b2*) = min 0.2\u2264\u03b2\u22640.4 J(\u03b2). 5. Repeat step 1 to step 4, 10000 times and obtain the distribution of \u03b2*. Approximate the same by a normal distribution and obtain the 95% CI.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation of the Infection Rate, \u03b2"
+        },
+        {
+            "text": "We obtain a value of \u03b2 equal to 0.270 and the 95% CI as 0.269-0.271. Also, R 0 is equal to 2.70 and the 95% CI as 2.69-2.71. Similar values of R 0 have been reported (2.24-3.58). 17 This is represented in Figure 3 with an overlap of the number of new confirmed cases. A summary of all parameters can be found in Table 2 .",
+            "cite_spans": [
+                {
+                    "start": 179,
+                    "end": 181,
+                    "text": "17",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 205,
+                    "end": 213,
+                    "text": "Figure 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 312,
+                    "end": 319,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Estimation of the Infection Rate, \u03b2"
+        },
+        {
+            "text": "The epidemic peak, t* is defined as the day t when the maximum value Y in a period of 550 d is achieved. As an expression, Y (t*) = max 0\u2264t\u2264550 . As the epidemic peak and size are sensitive to the identification rate p, we report the following. Comparison of Daily Confirmed Cases and Y in India From t = 0 to t = 92.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Peak Prediction"
+        },
+        {
+            "text": "Infected Individuals for Time t, 0 \u2264 t \u2264 550 for p = 0.1. For p = 0.1, the estimated peak is t* = 218 with a 95% CI of 216-217. That is, starting from January 25, 2020 (t = 0), the estimated peak is September 4, 2020 (t = 218), and interval ranging from September 3, 2020, to September 5, 2020. This is represented in Figure 4 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 318,
+                    "end": 326,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "FIGURE 4"
+        },
+        {
+            "text": "For p = 0.01, the estimated peak is t* = 192 with a 95% CI of 191-193. That is, starting with January 25, 2020 (t = 0), the estimated peak is August 9, 2020 (t = 192), and interval ranging from August 8, 2020, to August 10, 2020. This is represented in Figure 5 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 253,
+                    "end": 261,
+                    "text": "Figure 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "FIGURE 4"
+        },
+        {
+            "text": "India has announced a 21-d complete shutdown starting March 25, 2020. 18 This was extended from April 15, 2020, to May 3, 2020. 19 For our calculations, we assume that this shutdown will reduce the infection rate to 95%, 75%, or 50% of its original value of 0.270. For each reduction in infection rate, the effect of an intervention period of 30 d (1 mo) and 180 d (6 mo) is calculated. The government of India maintains that the third stage or community transmission has not begun. 20 The current identification rate is low due to the low number of COVID-19 tests being conducted. 15 Therefore, we set p to 0.01 as the current identification rate. This closely matches available data too.",
+            "cite_spans": [
+                {
+                    "start": 70,
+                    "end": 72,
+                    "text": "18",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 128,
+                    "end": 130,
+                    "text": "19",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 483,
+                    "end": 485,
+                    "text": "20",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 582,
+                    "end": 584,
+                    "text": "15",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Effect of Intervention"
+        },
+        {
+            "text": "When the infection rate is reduced to 95% and for 1 mo of intervention, the estimated peak is delayed by 3 d. That is, pushed from 192 d to 195 d since day 0 (January 25, 2020).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Infection Rate Reduced to 95%"
+        },
+        {
+            "text": "When the infection rate is reduced to 95% and for 6 mo of intervention, the estimated peak is delayed by 8 d. That is, pushed from 192 d to 200 d since day 0 (January 25, 2020). These are represented in Figure 6 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 203,
+                    "end": 211,
+                    "text": "Figure 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "Infection Rate Reduced to 95%"
+        },
+        {
+            "text": "When the infection rate is reduced to 75% and for 1 mo of intervention, the estimated peak is delayed by 11 d. That is, pushed from 192 d to 203 d since day 0 (January 25, 2020). When the infection rate is reduced to 75% and for 6 mo of intervention, the estimated peak is delayed by 65 d. That is, pushed from 192 d to 257 d since day 0 (January 25, 2020). This is represented in Figure 7 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 381,
+                    "end": 389,
+                    "text": "Figure 7",
+                    "ref_id": null
+                }
+            ],
+            "section": "Infection Rate Reduced to 75%"
+        },
+        {
+            "text": "When the infection rate is reduced to 50% and for 1 mo of intervention, the estimated peak is delayed by 22 d. That is, pushed from 192 d to 214 d since day 0 (January 25, 2020). When the infection rate is reduced to 50% and for 6 mo of intervention, the estimated peak is delayed by 135 d. That is, pushed from 192 d to 327 d since day 0 (January 25, 2020). This is represented in Figure 8 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 382,
+                    "end": 390,
+                    "text": "Figure 8",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Infection Rate Reduced to 50%"
+        },
+        {
+            "text": "A summary of all the delays in the estimated peaks can be found in Table 3 . Additionally, Figures 9 and 10 depict the change in total infected individuals for 1 mo and 6 mo of intervention, respectively. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 67,
+                    "end": 74,
+                    "text": "Table 3",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 91,
+                    "end": 107,
+                    "text": "Figures 9 and 10",
+                    "ref_id": null
+                }
+            ],
+            "section": "Infection Rate Reduced to 50%"
+        },
+        {
+            "text": "Upon integrating Y (t) from Equation 3 over time t, we obtain an approximate of the total number of infected individuals over 550 d. With no intervention, the approximate total number of infected individuals will be 1.2261 \u00d7 10 8 which is 9% of the total population of India. With 1 mo of intervention and infection rate reduced to 75%, the approximate total number of infected individuals will be the same. But with 6 mo of intervention and infection rate reduced to 75%, the approximate total number of infected individuals will be 1.2143 \u00d7 10 8 compared with 1.2261 \u00d7 10 8 with no intervention. This means approximately 1.1800 \u00d7 10 6 individuals will not be infected. A higher reduction in infection rate does not significantly change the approximate total number of infected individuals. It only pushes the approximate epidemic peak to a later date.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Total Infected Individuals"
+        },
+        {
+            "text": "Of the total infected individuals, approximately 6.39% require hospitalization and 3% require intensive care. 21 Figure 11 represents the total infected individuals with a need for hospitalization and intensive care. These rates are in agreement with rates reported in the United States of America, 22 Northern Italy, 23 and globally. As of June 12, 2020, Ministry of Health and Family Welfare, Government of India sources say 120,104 hospital beds and 32,362 intensive care beds are dedicated to the fight against this epidemic. 24 Figure 11 also represents the current hospital and intensive care capacity. At the peak, infected individuals will exceed hospital capacity by approximately 27,000 and intensive care capacity by approximately 37,000. To avoid exceeding hospital and intensive care capacity at the peak, the infection rate needs to be 0.236 (reduced to 87% of the original value) and 0.181 (reduced to a Units are days. The 1-mo and 6-mo delays are the delays in the estimated peaks after respective intervention periods. The dates indicated are the revised dates of the estimated peaks in 2020. ",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 112,
+                    "text": "21",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 299,
+                    "end": 301,
+                    "text": "22",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 318,
+                    "end": 320,
+                    "text": "23",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 113,
+                    "end": 122,
+                    "text": "Figure 11",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 533,
+                    "end": 542,
+                    "text": "Figure 11",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Total Infected Individuals"
+        },
+        {
+            "text": "67% of the original value), respectively. However, hospital and intensive care capacity is constantly being increased. A summary of these data at the peak is presented in Table 4 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 171,
+                    "end": 178,
+                    "text": "Table 4",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "COVID-19 in India"
+        },
+        {
+            "text": "From this work, by applying the SEIR compartmentalization model, it is clear that the COVID-19 epidemic peak can easily reach August 2020. This prediction is sensitive to changes in the behavior of not only the virus but of people and their practice of social distancing. India is still in the process of gearing up its health-care system, and it currently may be ill-equipped to deal with a large number of cases. Delaying the peak will ensure adequate medical equipment and personnel for all her citizens. It must be noted that, while a large reduction in infection rate or, \u03b2, is effective in delaying the peak, without continual intervention and efforts to reduce \u03b2, the total number of infected individuals does not change significantly. After a period of intervention, \u03b2 is assumed to go back to the originally calculated value. Therefore, intervention over a relatively long period is needed to effectively reduce the final epidemic size. In light of this, the WHO has issued multiple statements reiterating the importance of practicing social distancing. Additionally, proper hand hygiene, effective contact tracing and the use of face coverings are recommended. 5 This model is without vital dynamics that models births and natural deaths in a population in addition to the epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "An assumption made in this model is that the onset rate, removal rate, and the identification rate are all constant during the epidemic. As stated in the Methods section, it is assumed that complete immunity is conferred by a single infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Others have attempted to model the epidemic. In Mandal et al., a modified SEIR model is used to analyze the epidemic dynamics in 4 metropolitan districts based on population connectivity. 25 Optimistic and pessimistic estimates of the reproduction number, R 0 , are fixed to 1.5 and 4, respectively. However, this model fails to take into account the rural population of India and calculates dynamics using estimated reproduction numbers.",
+            "cite_spans": [
+                {
+                    "start": 188,
+                    "end": 190,
+                    "text": "25",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The burden of COVID-19 may disproportionately fall on disadvantaged or vulnerable individuals or groups. These include but are not limited to the elderly, people with disabilities, communities living in remote locations with little access to health care, and patients with chronic diseases or comorbidities. These groups have been identified by the Ministry of Health and Family Welfare, Government of India. 26 However, this model does not stratify the population based on age, access to health care, chronic diseases, or comorbidities. It also assumes that the entire population is initially equally susceptible. COVID-19 may be transmitted by asymptomatic carriers. 27 This would lead to a higher \u03b2. This model does not directly account for asymptomatic carriers, but the value of the identification rate, p, can be modified as asymptomatic carriers are a fraction of the infected population. The model and the estimation of \u03b2 is sensitive to the parameters listed in Table 2 , and uncertainties surround its true values as COVID-19 is a new disease.",
+            "cite_spans": [
+                {
+                    "start": 409,
+                    "end": 411,
+                    "text": "26",
+                    "ref_id": null
+                },
+                {
+                    "start": 669,
+                    "end": 671,
+                    "text": "27",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 971,
+                    "end": 978,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "DISCUSSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Coronavirus disease (covid-19) pandemic",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The species severe acute respiratory syndrome-related coronavirus: classifying 2019-ncov and naming it sars-cov-2",
+            "authors": [],
+            "year": 2020,
+            "venue": "Nat Microbiol",
+            "volume": "5",
+            "issn": "4",
+            "pages": "536--544",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Coronavirus infections-more than just the common cold",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Paules",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Marston",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fauci",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "8",
+            "pages": "707--708",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "novel coronavirus covid-19 (2019-ncov) data repository by Johns Hopkins CSSE",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Github",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "WHO. Rolling updates on coronavirus disease",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Janta curfew just the beginning of a long battle against coronavirus: PM Modi",
+            "authors": [
+                {
+                    "first": "India",
+                    "middle": [],
+                    "last": "Today",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Extension and verification of the SEIR model on the 2009 influenza (H1N1) pandemic in Japan",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Saito",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Imoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Yamaguchi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Math Biosci",
+            "volume": "246",
+            "issn": "1",
+            "pages": "47--54",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "A modified SEIR model for the spread of Ebola in Western Africa and metrics for resource allocation",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Diaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Constantine",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kalmbach",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Appl Math Comput",
+            "volume": "324",
+            "issn": "",
+            "pages": "141--155",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "A contribution to the mathematical theory of epidemics",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Kermack",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Mckendrick",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Walker",
+                    "suffix": ""
+                }
+            ],
+            "year": 1927,
+            "venue": "Proc R Soc Lond A",
+            "volume": "115",
+            "issn": "772",
+            "pages": "700--721",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Modified SEIR and AI prediction of the epidemics trend of covid-19 in China under public health interventions",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Thorac Dis",
+            "volume": "12",
+            "issn": "3",
+            "pages": "165--174",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Prediction of the epidemic peak of coronavirus disease in Japan, 2020",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kuniya",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Med",
+            "volume": "9",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Incubation period and other epidemiological characteristics of 2019 novel coronavirus infections with right truncation: A statistical analysis of publicly available case data",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Linton",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kobayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Med",
+            "volume": "9",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Tracking and predicting covid-19 epidemic in China mainland. medRxiv",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "14. data.govin. Projected population characteristics as on 1 st",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.17.20024257"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Coronavirus: India's restrictive criteria for testing may mask toll",
+            "authors": [
+                {
+                    "first": "India",
+                    "middle": [],
+                    "last": "Today",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Reproduction numbers of infectious disease models",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Van Den Driessche",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Infect Dis Model",
+            "volume": "2",
+            "issn": "3",
+            "pages": "288--303",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Preliminary estimation of the basic reproduction number of novel coronavirus (2019-ncov) in China, from 2019 to 2020: a data-driven analysis in the early phase of the outbreak",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "92",
+            "issn": "",
+            "pages": "214--217",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Coronavirus: India enters 'total lockdown' after spike in cases",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Prime Minister's Office. PM addresses the nation for 4th time in 4 weeks in India's fight against COVID-19 -announces extension of lockdown till 3rd May",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "How rapidly can covid-19 spread in India? government did the math",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Covid-19: 6.39% of total active cases needed hospital support, says health ministry",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Theweek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Projecting hospital utilization during the covid-19 outbreaks in the United States",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Moghadas",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shoukat",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Fitzpatrick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "117",
+            "issn": "16",
+            "pages": "9122--9126",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Forecasting covid-19 associated hospitalizations under different levels of social distancing in Lombardy",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Reno",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lenzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Navarra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Med",
+            "volume": "9",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "The New Indian Express. India may run out of ICU beds for covid-19 patients by July end: study",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Prudent public health intervention strategies to control the coronavirus disease 2019 transmission in India: a mathematical model-based approach",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mandal",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bhatnagar",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Arinaminpathy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Indian J Med Res",
+            "volume": "151",
+            "issn": "2",
+            "pages": "190--199",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Emergency Response and Health Systems Preparedness Project (P173836)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Presumed asymptomatic carrier transmission of COVID-19",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bai",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "14",
+            "pages": "1406--1407",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "COVID-19 in India Disaster Medicine and Public Health Preparedness",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Y (t) for Time t, 0 \u2264 t \u2264 550 With no Intervention, 1 mo of Intervention, and 6 mo of Intervention With Assumption of \u03b2 J = 0.75 \u00d7 \u03b2. (\u03b2 = 0.270).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "in Y (t) for Time t, 0 \u2264 t \u2264 550 With no Intervention, 1 mo of Intervention and 6 mo of Intervention With Assumption of \u03b2 J = 0.50 \u00d7 \u03b2. (\u03b2 = 0.Y (t) for Time t, 0 \u2264 t \u2264 550 With 1 mo of Intervention and With Assumption of \u03b2 J = 0.50 \u00d7 \u03b2, \u03b2 J = 0.75 \u00d7 \u03b2, \u03b2 J = 0.95 \u00d7 \u03b2. (\u03b2 = 0.270). FIGURE 10 Variation in Y (t) for Time t, 0 \u2264 t \u2264 550 With 6 mo of Intervention and With Assumption of \u03b2 J = 0.50 \u00d7 \u03b2, \u03b2 J = 0.75 \u00d7 \u03b2, \u03b2 J = 0.95 \u00d7 \u03b2. (\u03b2 = 0.270).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Individuals Requiring Hospitalization or Intensive Care and Health-Care Capacities in India.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Growth Factor, r",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "COVID-19 in IndiaDisaster Medicine and Public Health Preparedness",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Total Number of Infected Individuals (II), Individuals Requiring Hospitalization (RH), and IndividualsRequiring Intensive Care (RIC) With Different Reductions in \u03b2 a a Numbers represented are at the peak. The total infected individuals without any intervention is 2.30 \u00d7 10 6 .",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Computer Science and Engineering, PES University, Bangalore, India (Mr Shah).Correspondence and reprint requests to Parth Vipul Shah, PES University, 100 Feet Road, BSK III Stage, Bangalore 560085, India (e-mail: parthvipulshah@pesu.pes.edu).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "About the Author"
+        },
+        {
+            "text": "The author thanks the anonymous reviewers for their input.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgement"
+        },
+        {
+            "text": "The author declares no conflicts of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of Interest"
+        }
+    ]
+}

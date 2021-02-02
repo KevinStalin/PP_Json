@@ -1,0 +1,2391 @@
+{
+    "paper_id": "0adfbe39dc3c7616a050c335e464f0087a8faf1f",
+    "metadata": {
+        "title": "An open-label, randomized trial of the combination of IFN-k plus TFF2 with standard care in the treatment of patients with moderate COVID-19-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)",
+        "authors": [
+            {
+                "first": "Weihui",
+                "middle": [],
+                "last": "Fu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yan",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Li",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Huiliang",
+                "middle": [],
+                "last": "Hu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xiaobo",
+                "middle": [],
+                "last": "Cheng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ping",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhigang",
+                "middle": [],
+                "last": "Song",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lijun",
+                "middle": [],
+                "last": "Zha",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shimeng",
+                "middle": [],
+                "last": "Bai",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tingting",
+                "middle": [],
+                "last": "Xu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Songhua",
+                "middle": [],
+                "last": "Yuan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Fengru",
+                "middle": [],
+                "last": "Lu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhiying",
+                "middle": [],
+                "last": "Shang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yihong",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jing",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jun",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Longfei",
+                "middle": [],
+                "last": "Ding",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jun",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lin",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tongyu",
+                "middle": [],
+                "last": "Zhu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": "es:zhutongyu@shphc.org.cnt.zhu"
+            },
+            {
+                "first": "Xiaoyan",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": "zhangxiaoyan@shphc.org.cnx.zhang"
+            },
+            {
+                "first": "Hongzhou",
+                "middle": [],
+                "last": "Lu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": "luhongzhou@shphc.org.cnh.lu"
+            },
+            {
+                "first": "Jianqing",
+                "middle": [],
+                "last": "Xu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": "xujianqing@shphc.org.cn"
+            },
+            {
+                "first": "J",
+                "middle": [],
+                "last": "Xu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": ")",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fudan University",
+                    "location": {
+                        "addrLine": "2901 Caolang Road, Jin Shan District",
+                        "postCode": "201508",
+                        "settlement": "Shanghai",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: Epidemic outbreaks caused by SARS-CoV-2 are worsening around the world, and there are no target drugs to treat COVID-19. IFN-k inhibits the replication of SARS-CoV-2; and TFF2 is a small secreted polypeptide that promotes the repair of mucosal injury and reduces the inflammatory responses. We used the synergistic effect of both proteins to treat COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We conducted an open-label, randomized, clinical trial involving patients with moderate COVID-19. Patients were assigned in a 1:1 ratio to receive either aerosol inhalation treatment with IFN-k and TFF2 every 24 h for six consecutive dosages in addition to standard care (experimental group) or standard care alone (control group). The primary endpoint was the time until a viral RNA negative conversion for SARS-CoV-2 in all clinical samples. The secondary clinical endpoint was the time of CT imaging improvement. Data analysis was performed per protocol. This study was registered with chictr.org.cn, ChiCTR2000030262. Findings: Between March 23 and May 23 of 2020, 86 COVID-19 patients with symptoms of moderate illness were recruited, and 6 patients were excluded due to not matching the inclusion criteria (patients with pneumonia through chest radiography). Among the remaining 80 patients, 40 patients were assigned to experimental group, and the others were assigned to control group to only receive standard care. Efficacy and safety were evaluated for both groups. The time of viral RNA negative conversion in experimental group (Mean, 3\u00a280 days, 95% CI 2\u00a207\u00c05\u00a253), was significantly shorter than that in control group (7\u00a240 days, 95% CI 4\u00a257 to 10\u00a223) (p = 0.031), and difference between means was 3\u00a260 days. The percentage of patients in experimental group with reversion to negative viral RNA was significantly increased compared with control group on all sampling days (every day during the 12day observation period) (p = 0\u00a2037). For the secondary endpoint, the experimental group had a significantly shorter time until improvement was seen by CT (Mean 6\u00a221 days, N = 38/40, 95% CI 5\u00a211\u00c07\u00a231) than that in control group (8\u00a276 days, N = 34/40, 95% CI 7\u00a257\u00c09\u00a296) (p = 0.002), and difference between means was 2\u00a255 days. No discomfort or complications during aerosol inhalation were reported to the nurses by any experimental patients. Interpretation: In conclusion, we found that aerosol inhalation of IFN-k plus TFF2 in combination with standard care is safe and superior to standard care alone in shortening the time up to viral RNA negative conversion in all clinical samples. In addition, the patients in experimental group had a significantly shortened CT imaging improvement time than those in control group. This study suggested that this combination treatment is able to facilitate clinical improvement (negative for virus, improvement by CT, reduced hospitalization stay) and thereby result in an early release from the hospital. These data support the need for exploration with a large-scale trial of IFN-k plus TFF2 to treat COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Background: Epidemic outbreaks caused by SARS-CoV-2 are worsening around the world, and there are no target drugs to treat COVID-19. IFN-k inhibits the replication of SARS-CoV-2; and TFF2 is a small secreted polypeptide that promotes the repair of mucosal injury and reduces the inflammatory responses. We used the synergistic effect of both proteins to treat COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A B S T R A C T"
+        },
+        {
+            "text": "We conducted an open-label, randomized, clinical trial involving patients with moderate COVID-19. Patients were assigned in a 1:1 ratio to receive either aerosol inhalation treatment with IFN-k and TFF2 every 24 h for six consecutive dosages in addition to standard care (experimental group) or standard care alone (control group). The primary endpoint was the time until a viral RNA negative conversion for SARS-CoV-2 in all clinical samples. The secondary clinical endpoint was the time of CT imaging improvement. Data analysis was performed per protocol. This study was registered with chictr.org.cn, ChiCTR2000030262. Findings: Between March 23 and May 23 of 2020, 86 COVID-19 patients with symptoms of moderate illness were recruited, and 6 patients were excluded due to not matching the inclusion criteria (patients with pneumonia through chest radiography). Among the remaining 80 patients, 40 patients were assigned to experimental group, and the others were assigned to control group to only receive standard care. Efficacy and safety were evaluated for both groups. The time of viral RNA negative conversion in experimental group (Mean, 3\u00a280 days, 95% CI 2\u00a207\u00c05\u00a253), was significantly shorter than that in control group (7\u00a240 days, 95% CI 4\u00a257 to 10\u00a223) (p = 0.031), and difference between means was 3\u00a260 days. The percentage of patients in experimental group with reversion to negative viral RNA was significantly increased compared with control group on all sampling days (every day during the 12day observation period) (p = 0\u00a2037). For the secondary endpoint, the experimental group had a significantly shorter time until improvement was seen by CT (Mean 6\u00a221 days, N = 38/40, 95% CI 5\u00a211\u00c07\u00a231) than that in control group (8\u00a276 days, N = 34/40, 95% CI 7\u00a257\u00c09\u00a296) (p = 0.002), and difference between means was 2\u00a255 days. No discomfort or complications during aerosol inhalation were reported to the nurses by any experimental patients. Interpretation: In conclusion, we found that aerosol inhalation of IFN-k plus TFF2 in combination with standard care is safe and superior to standard care alone in shortening the time up to viral RNA negative conversion in all clinical samples. In addition, the patients in experimental group had a significantly shortened CT imaging improvement time than those in control group. This study suggested that this combination treatment is able to facilitate clinical improvement (negative for virus, improvement by CT, reduced hospitalization stay) and thereby result in an early release from the hospital. These data support the need for exploration with a large-scale trial of IFN-k plus TFF2 to treat COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods:"
+        },
+        {
+            "text": "COVID-19 SARS-CoV-2 TFF2 IFN-k Clinical tiral Aerosol inhalation Treatment",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Keywords:"
+        },
+        {
+            "text": "The recent emergence of the coronavirus disease 2019 (COVID- 19) pandemic caused by the novel pathogenic severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has affected more than 4 million patients, with more than 283,000 deaths in more than 230 countries [1] . At present, many therapeutic approaches are being evaluated, since there is no specific treatment that has been proven effective. Current clinical management includes symptomatic treatment or supportive care, with supplemental oxygen and mechanical ventilatory support when indicated, so there is an urgent need to identify active antiviral agents.",
+            "cite_spans": [
+                {
+                    "start": 61,
+                    "end": 64,
+                    "text": "19)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 266,
+                    "end": 269,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Chloroquine (CQ) and hydroxychloroquine (HCQ) are considered the most promising agents against COVID-19 [2] . However, the clinical efficacy of HCQ in the treatment of patients with COVID-19 is controversial. On the one hand, several clinical studies have shown that HCQ treatment had a favorable effect, including shortened body temperature recovery time and cough remission time; decreased pneumonia proportion, as assessed by computed tomography (CT) scan [3] ; alleviated symptoms; and decreased C reactive protein concentration [4] . On the other hand, a French study conducted in 181 COVID-19 patients with relatively severe illness did not show any difference regarding transfer to the ICU or death [5] . Furthermore, in a large-scale observational study involving hospitalized COVID-19 patients, hydroxychloroquine administration was not associated with either intubation or death [6] . In addition, compassionate use of a nucleotide analog, remdesivir, contributed to clinical improvement in patients with severe COVID-19 in a small study [7] . However, two recent larger clinical trials showed that remdesivir in adults hospitalized with COVID-19 was not associated with statistically significant clinical benefits, except for shortening the time to recovery, which was accompanied by serious adverse events [8, 9] . Other antiviral agents, such as lopinavir-ritonavir, were also shown to have no benefit in hospitalized adult patients with severe COVID-19 [10] . Therefore, new effective antiviral agents need to be developed to combat COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 107,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 459,
+                    "end": 462,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 533,
+                    "end": 536,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 706,
+                    "end": 709,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 889,
+                    "end": 892,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1048,
+                    "end": 1051,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1318,
+                    "end": 1321,
+                    "text": "[8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1322,
+                    "end": 1324,
+                    "text": "9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1467,
+                    "end": 1471,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Blood from patients with severe COVID-19 had impaired type I interferon activity and exacerbated inflammatory responses [11] . An in vitro study has shown that SARS-CoV-2 was sensitive to type I interferon pretreatment [12] . In a small-scale clinical trial, treatment with IFN-a2b significantly reduced the duration of detectable virus in the upper respiratory tract and elevated the blood levels of the inflammatory markers, IL-6 and C-reactive protein (CRP) [13] . In addition, early triple-antiviral therapy with a combination of interferon beta-1b, lopinavir-ritonavir, and ribavirin was safe and superior to lopinavir-ritonavir alone in alleviating symptoms and shortening the duration of viral shedding and hospitalization stay in patients with mild to moderate COVID-19 [14] . However, the persistent inflammatory responses resulting from IFN-a/b may cause damage to infected patients. In the study, interferon beta-1b was injected only before day 7 from symptom onset to avoid its proinflammatory effects [14] . Interferon kappa (IFN-k) is a relatively mild type I interferon that can effectively inhibit the replication of enveloped viruses, including Encephalomyocarditis virus (EMCV), Influenza avian virus (IAV), Hepatitis C virus (HCV), and others, by activating the interferon-stimulated response element signaling pathway [15] . However, unlike IFN-a2 or IFN-b, the antiviral activity of IFN-k is cell-associated [16] ; IFN-k inhibits the replication of influenza virus largely through the IFNAR-MAPK-Fos-CHD6 axis [17] , whereas the effects of IFN-a2 or IFN-b are mainly through the STAT1 pathway. Trefoil factor 2 (TFF2) is a small secreted polypeptide that promotes the repair of injury and reduces the inflammatory response [18, 19] . Our previous clinical pilot study indicated that aerosol inhalation of IFN-k plus TFF2 is a safe treatment and is able to significantly facilitate clinical improvement, including cough relief, CT imaging improvement, and viral RNA reversion, thereby resulting in an early release from hospitalization without induction of a proinflammatory response [20] .",
+            "cite_spans": [
+                {
+                    "start": 120,
+                    "end": 124,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 219,
+                    "end": 223,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 461,
+                    "end": 465,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 778,
+                    "end": 782,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1014,
+                    "end": 1018,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1338,
+                    "end": 1342,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1429,
+                    "end": 1433,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1531,
+                    "end": 1535,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1744,
+                    "end": 1748,
+                    "text": "[18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1749,
+                    "end": 1752,
+                    "text": "19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 2104,
+                    "end": 2108,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "To further optimize the therapeutic efficacy, we launched a clinical trial that combined standard care with aerosol inhalation (IFN-k plus TFF2) to evaluate the efficacy and safety in patients with moderate COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This was an open-label, randomized clinical trial conducted from March 23, 2020, for virologically confirmed COVID-19 patients",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design and patient enrollment"
+        },
+        {
+            "text": "Evidence before this study",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Research in context"
+        },
+        {
+            "text": "We searched Pubmed and China National Knowledge Infrastructure database for articles that use TFF2, IFN-k, or the combination of both, to treat COVID-19 patients on March 23, 2020 using the search terms (\"novel coronavirus\" OR \"SARS-CoV-2 00 OR \"COVID-19 00 ) AND (\"TFF2\" OR \"IFN-k\") with no language or time restrictions. However, no published works were found about the treatment of TFF2, IFN-k, or the combination of both, in adult patients with COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Research in context"
+        },
+        {
+            "text": "It is urgently needed to develop an effective treatment regimen for COVID-19. IFN-a/b treatment could suppress viral replication, however, may also trigger persistent inflammatory responses and cause the damage to patients. This study employed a combination approach of a mild type I interferon IFN-k to suppress viral replication and a host factor TFF2 to reduce inflammatory responses and promote the repair of damaged respiratory mucosa. This strategy has been demonstrated as a safe and effective regimen in our previous pilot clinical study, this study is a randomized and scaled-up one to further to prove its effectiveness and safety.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Added value of this study"
+        },
+        {
+            "text": "This study demonstrated that the combination inhalation of IFN-k and TFF2 is able to shorten the time of viral RNA negative conversion and CT improvement, and facilitating patients early discharge from the hospital, in the absence of induction of a proinflammatory response and treatment-related adverse events. Overall, the data from our two clinical trials validated it is worth to test this regimen in large scale clinical trials and in severe patients. recruited from the Shanghai Public Health Clinical Center, which is a designated and authorized hospital to receive and cure adult patients with COVID-19 in Shanghai, China. Hospitalized patient that was positive on RT-PCR for SARS-CoV-2 in throat swabs was enrolled in this study. The inclusion criteria were as follows: patients gave written consent for participation in the study. Male and nonpregnant female patients at 18 years of age or older were eligible after they were confirmed as SARS-CoV-2 positive by RT-PCR. In addition, patients were included if their peripheral capillary oxygen saturation (SpO2) was > 94% on room air at screening. Symptoms of infection include fever, cough, and myalgia, with diarrhea, with the subsequent development of dyspnea or of pneumonia on chest CT. Patients with moderate pneumonia were then included following Diagnosis and Treatment Protocol for Novel Coronavirus Pneumonia (Trial Version 7) released by National Health Commission & State Administration of Traditional Chinese Medicine on March 3, 2020) [21] . The exclusion criteria included a physician's decision that involvement in the trial was not in the patient's best interest, presence of any condition that would not allow the protocol to be followed safely, known allergy or hypersensitivity to IFN-k and TFF2, known severe liver disease (e.g., cirrhosis, with an alanine aminotransferase level >5 \u00a3 the upper limit of the normal range (9\u00c050 U/L) or an aspartate aminotransferase level >5 \u00a3 the upper limit of the normal range (15\u00c040 U/L)). Breastfeeding and pregnant patients were also excluded.",
+            "cite_spans": [
+                {
+                    "start": 1508,
+                    "end": 1512,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Implications of all the available evidence"
+        },
+        {
+            "text": "The randomized treatment was open label. Moderate COVID-19 patients showing fever, respiratory symptoms and radiological findings of pneumonia were recruited by clinical doctors. After admission, the doctor first introduced the study to the patients. If a patient agreed to join in the study, he/she would voluntarily sign the informed consent form. Patients who met the inclusion criteria were enrolled in the study, assigned with randomized numbers, the random allocation sequence was generated through the website \"https://www.randomizer.org/#randomize\", and then sorted into either experimental group or control group. Based on the purpose of this study and our previous explorative pilot study [20] , considering 20% of shedding cases, we calculated that a sample of approximately 40 participants per group was required for approximately 85% statistical power in using a two-sided, two-sample t-test by PASS v15 software, assuming the true difference between the means to be -3, with standard deviation of 4. The significance level (alpha) of the test is 0\u00a205. Therefore, 80 eligible patients were enrolled and randomly assigned to either IFN-k plus TFF2 or control group with standard care at a ratio of 1:1 by a simple randomization with no stratification. Consequently, 40 patients were assigned to experimental group, and 40 patients for control group. The age, sex, baseline demographics, and laboratory test results in each group were comparable. Fever and unproductive cough were the most common presenting signs and symptoms. No significant differences were observed between two groups at baseline (Table 1) . No discomfort or complications during aerosol inhalation were reported to the nurses by the patients in the study. CT imaging improvement was evaluated and interpreted by radiologists who are blinded to the arm of the patients. All data were collected from electronic data files.",
+            "cite_spans": [
+                {
+                    "start": 699,
+                    "end": 703,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1611,
+                    "end": 1620,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Randomization and masking"
+        },
+        {
+            "text": "All enrolled patients started to receive standard care once they were admitted to the hospital, Standard care included symptomatic treatment with hydroxychloroquine, antibiotic agents, vasopressors, antifever medicine, vitamin C, immune enhancers, or traditional Chinese medicines. The therapy of aerosol inhalation was started on the second day after admission only in experimental group.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Procedures"
+        },
+        {
+            "text": "Aerosolized substances were made of purified mature IFN-k and TFF2 proteins produced by the Novoprotein company under conditions in accordance with good manufacturing practices (GMP); the purity of the proteins was more than 99%, and the biological activities of the two proteins were verified in vitro. In addition, both proteins (5 mg TFF2 plus 2 mg IFN-k) were dissolved in 5 mL sterilized water, and the combination aerosol was delivered to the patient for 20\u00c030 min by a nasal mask driven by a medical compressed air atomizer (YUWELL, 403M). The aerosol inhalation treatment started from the first day of hospitalization and was administered 6 times every 24 h. After treatment, a survey was implemented to evaluate whether there were any adverse reactions during the course of aerosol inhalation. The use of a placebo group was generally not accepted among the specialists responsible for the treatment of COVID-19. Our previous study showed that aerosol inhalation of IFN-k plus TFF2 is a safe treatment and is able to significantly facilitate clinical improvement [20] .",
+            "cite_spans": [
+                {
+                    "start": 1072,
+                    "end": 1076,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Procedures"
+        },
+        {
+            "text": "Clinical findings, including medical history and physical, laboratory and radiological examination results were entered into a predesigned database. Chest radiographs were taken at baseline and at regular intervals for monitoring patient progress. The initial diagnosis of SARS-CoV-2 infection was made upon admission. All recruited patients underwent daily collection of nasopharyngeal swabs, throat swabs, and stool swabs to test for the presence of SARS-CoV-2 by RT-PCR until discharged from hospital. Complete blood count, liver and renal function tests, CRP, and creatine kinase were regularly determined until discharge. Blood and urine samples for bacterial culture were taken when clinically indicated. All patients were followed up at the infectious disease clinic within 30 days after discharge. All the data of biochemical and blood indexes were used to analyze the kinetic changes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Clinical and laboratory monitoring"
+        },
+        {
+            "text": "Lymphocyte subset counting was performed. CD3 + T, CD4 + T, CD8 + T, and CD16 + CD56 + natural killer (NK) cells were stained by using BD Multitest TM 6-color TBNK reagent in Trucount tubes and analyzed using the BD FACS-Canto TM \u2161 flow cytometer.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Clinical and laboratory monitoring"
+        },
+        {
+            "text": "We collected plasma samples from 80 COVID-19 patients at three time points, including before, among, and after aerosol inhalation. 10 patients' plasmas (5 from each group) were randomly selected for emergency testing and thereby unavailable for this assay. All left 70 patients' plasmas were analyzed for 10 biomarkers (IFN-g, IL-1b, IL-4, IL-5, IL-6, IL-8, IL-10, IL-12P70, IL-22, TNF-a) using the Simoa Cor-Plex Human Cytokine Panel 1 kit (Cat No: 85-0329). The assay was carried out according to the manufacturer's (Quanterix, Billerica, MA, USA) protocols. Briefly, 12\u00a25 mL of plasma sample was diluted 4-fold with sample diluent from the kit. Multiconstituent calibrators were prepared and added, together with the diluted samples, to 96-well microplates prespotted with analyte-specific capture antibodies. The microplate was incubated for 2 h. After incubation, unbound proteins were washed away, and biotinylated detection antibody reagent was added for 30 min. After the unbound detection antibody was washed away, streptavidin-horseradish peroxidase (SA-HRP) was added for 30 min. The microplate was then washed, and the substrate was added. The microplate was imaged on the SP-X platform within 2~4 min. Each microplate contained calibrators that were used to calculate cytokine concentrations for the plasma samples.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Plasma cytokine measurement"
+        },
+        {
+            "text": "The viral loads of SARS-CoV-2 in nasopharyngeal swabs, throat swabs and stool swabs were determined by quantitative real-time RT\u00c0PCR according to previously report [22] . Simply, they were assayed by using Takara One Step PrimeScript RT\u00c0PCR kit (Takara RR064A) following the manufacturer's instructions. Reverse transcription was carried out at 42\u00b0C for 10 min, 95\u00b0C for 1 min, followed by 40 cycles of 95\u00b0C for 15 s and 60\u00b0C for 1 min. The reactions were performed by ABI 7500 Real-Time PCR Systems. Ct values were collected and viral loads were analyzed according to the Ct value of the standard samples.",
+            "cite_spans": [
+                {
+                    "start": 164,
+                    "end": 168,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Quantification of SARS-CoV-2 viral loads at baseline"
+        },
+        {
+            "text": "The primary endpoint was the timing to achieve viral RNA negative conversion for SARS-CoV-2 in all three specimens, including nasopharyngeal swabs, throat swabs and stool swabs. When a COVID-19 patient was discharged from hospital, the viral RNA negative conversion of all three specimens needed to be considered. The secondary clinical endpoint was the timing when CT imaging improvement was observed, which was mainly based on the size and density reduction of lesions. Safety data included adverse events during treatment, severe adverse events, and premature discontinuation of treatment. Adverse events were classified according to the National Cancer Institute Common Terminology Criteria for Adverse Events, version 5.0 [23] .",
+            "cite_spans": [
+                {
+                    "start": 727,
+                    "end": 731,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Outcomes"
+        },
+        {
+            "text": "Baseline comparisons of clinical and demographic characteristics according to study group allocation were done using Student's t-test for parametric continuous data or the Mann\u00c0Whitney U test for nonparametric data. Categorical data were compared using x 2 test. The primary endpoint, secondary endpoint and safety were assessed in all randomized patients. The quantitative indexes were described as the mean values (Mean), and comparisons between experimental group and control group were analyzed using the t-test. All statistics were conducted using a two-sided scale, and a p-value less than or equal to 0\u00a205 was considered statistically significant. Statistical ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "The funding source of this study had no role in the study design, data collection, data analysis, data interpretation, or other report writing. The corresponding authors had full access to all the data in the study and had final responsibility for the decision to submit the manuscript for publication.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Role of the funding source"
+        },
+        {
+            "text": "Between March 23 and May 23 of 2020, 86 COVID-19 patients with symptoms of moderate illness were screened; 6 patients did not fulfill the inclusion criteria (of patients with pneumonia on chest radiograph), and the remaining 80 patients were randomly divided into two groups, each group for 40 patients (Fig. 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 303,
+                    "end": 311,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The primary endpoint was a significantly shorter time (Mean 3\u00a280 days, 95% CI 2\u00a207\u00c05\u00a253) from the start of the study treatment to viral RNA negative conversion for SARS-CoV-2 in all clinical samples, including nasopharyngeal swabs, throat swabs and stool swabs, in experimental group than in control group (7\u00a240 days, 95% CI 4\u00a257\u00c010\u00a223) (p = 0\u00a2031), and difference between means was 3\u00a260 days (Fig. 2A) . The percentage of patients in experimental group who had reversion to a negative viral RNA was significantly increased compared with that in control group on any sampling day (every day during the 12-day observation period) (p = 0\u00a2037) (Fig. 2B) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 393,
+                    "end": 402,
+                    "text": "(Fig. 2A)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 641,
+                    "end": 650,
+                    "text": "(Fig. 2B)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The second endpoint was improvement of patients with confirmed pneumonia by chest CT after 0 days of treatment (the start time of hospitalization). Experimental group had a significantly shortened time (Mean 6\u00a221 days, N = 38/40, 95% CI 5\u00a211\u00c07\u00a231) until the improvement of their CT results than control group (8\u00a276 days, N = 34/40, 95% CI 7\u00a257\u00c09\u00a296) (p = 0\u00a20021), and difference between means was 2\u00a255 days (Fig. 2C) . There were 2 patients in experimental group and 6 patients in control group with unchanged CT imaging from the start of treatment to discharge. Pulmonary CT imaging changes were defined as three levels: exacerbated, unchanged, and improved. After continued aerosol inhalation treatment for 3 days, the rates of improvement in CT imaging in experimental group and control group were 17\u00a25% (7/40) and 5\u00a23% (2/40), respectively, with no statistical significance. After aerosol inhalation treatment for 6 days, the rates of improvement in CT imaging in experimental group and control group were 70% (28/40) and 22\u00a25% (9/40), respectively, p < 0\u00a20001. After 9 days of treatment, the rates of improvement in CT imaging rose to 85\u00a20% (34/40) in experimental group and 50\u00a20% (20/40) in control group, respectively, p < 0\u00a2005. After 12 days of treatment, the rates of improvement in CT imaging rose to 87\u00a25% (35/40) and 72\u00a25% (29/40), respectively, with no statistical significance. In addition, experimental group was significantly less hospitalized (Mean 15\u00a250, 95% CI 13\u00a277\u00c017\u00a223) in comparison with control group (20\u00a205, 95% CI 17\u00a267\u00c022\u00a243) (p = 0\u00a20025), and the difference between means was 4\u00a255 (Fig. 2D ). The hospitalization time for patients staying in the hospital was longer than the our last study [20] , because the clinical research at the Shanghai Public Health Clinical Center had revised the discharge evaluation criteria (including nasal CT improvement which is usually taking prolonged times).",
+            "cite_spans": [
+                {
+                    "start": 1720,
+                    "end": 1724,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 407,
+                    "end": 416,
+                    "text": "(Fig. 2C)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1611,
+                    "end": 1619,
+                    "text": "(Fig. 2D",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "In this trial, we found that aerosol inhalation of IFN-k plus TFF2 is a safe treatment. Compared with the control group, total bilirubin (T-Bil), ALT, AST and creatinine showed no significant differences, p > 0.05, There were also not clinical significance at every following up time-point, and they all fell into normal ranges for both groups (Fig. 3A\u00c0D) , indicating that IFN-k plus TFF2 treatment did not negatively impact the liver, gallbladder, or heart. Interestingly, a significant less CRP was noticed in experimental group on day 2 when compared with that in control group, p = 0.006 (Fig. 3E) , suggesting the administration of IFN-k plus TFF2 might facilitate rapid containing of inflammation. We then analyzed the kinetic changes in the effectiveness index in the peripheral blood of control group and experimental group. The total white blood cell (WBCs) absolute counts, blood platelet counts and lymphocyte counts were all not significantly different between two groups, which suggested that IFN-k plus TFF2 treatment had no significant effect on total blood parameters (Fig. 3F\u00c0H) . After treatment for 12 days, all blood indexes returned to values in the normal range. We further determine the kinetic of different lymphocyte subsets (CD3 + T, CD4 + T, CD8 + T and CD16 + CD56 + NK) in the peripheral blood of two groups of patients. CD3 + T, CD4 + T, CD8 + T cell counts in both groups were continuously increasing whereas NK cells remained stable during the whole clinical observation with no significant differences at every time point between two groups, and all were fallen in the normal ranges for both groups (Fig. 4A\u00c0D ). In addition, the level of plasma cytokines from those patients with moderate COVID-19 was low, and the inflammatory cytokines (such as IL-1b, TNF-a, IL-6, IL-8) in the early stage (1~6 days) in experimental group showed a slight fluctuation temporarily; however, after 6 days of aerosol inhalation treatment, the level of plasma cytokines gradually decreased, and showed lower than that in control group, except for IL-22 (Fig. 5) . No serious ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 344,
+                    "end": 355,
+                    "text": "(Fig. 3A\u00c0D)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 593,
+                    "end": 602,
+                    "text": "(Fig. 3E)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1085,
+                    "end": 1096,
+                    "text": "(Fig. 3F\u00c0H)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1633,
+                    "end": 1643,
+                    "text": "(Fig. 4A\u00c0D",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 2069,
+                    "end": 2077,
+                    "text": "(Fig. 5)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "ARTICLE IN PRESS"
+        },
+        {
+            "text": "From this randomized open-label clinical trial in patients with COVID-19, we found that aerosol inhalation of IFN-k plus TFF2 in combination with standard care is effective in suppressing and clearing SARS-CoV-2, not just in throat samples but also in all clinical specimens. Most patients treated with aerosol inhalation of IFN-k plus TFF2 were RT-PCR negative in all specimens by 3\u00a280 days. Furthermore, CT improvement time in experimental group was significantly shorter, by 2\u00a255 days, than that in control group. In addition, IFN-k plus TFF2 treatment significantly shortened the duration of hospitalization. The side effects of the combined aerosol treatment were generally mild and self-limiting. The results were highly consistent with the first clinical study of IFN-k plus TFF2 in patients with moderate COVID-19 [20] .",
+            "cite_spans": [
+                {
+                    "start": 822,
+                    "end": 826,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Specific highly active antiviral drugs for any emerging infectious disease are always needed because the development of a new antiviral drug through the preclinical and clinical stages takes years before its approval for clinical use. When the SARS-CoV-2 epidemic suddenly emerged, most of the antiviral research focused on therapeutic agents with some in vitro activity against betacoronavirus, including favipiravir, remdesivir, lopinavir-ritonavir, chloroquine, hydroxychloroquine and interferons [24\u00c032]. These drugs have known pharmacokinetic and pharmacodynamic properties, side effects, and dosing regimens. Unfortunately, most studies have shown limited therapeutic effects in COVID-19 patients, and some effective therapeutics in published papers have been questioned for various reasons [33] . Lopinavir-ritonavir was shown to have similar effects to placebo on reducing viral load, despite some improvement in symptoms [10] . In patients with severe COVID-19 receiving compassionate-use remdesivir, clinical improvement was observed in 36 of 53 patients (68%) [7] . In addition, the clinical efficacy of HCQ in the treatment of patients with COVID-19 is controversial. In summary, there has been no strong evidence reported so far for specific effects in the treatment of COVID-19. Interestingly, early triple-antiviral therapy with a combination of interferon beta-1b, lopinavir-ritonavir, and ribavirin was safe and superior to lopinavir-ritonavir alone in alleviating symptoms and shortening the duration of viral shedding and hospital stay in patients with mild to moderate COVID-19 [14] . Interferon-a2b treatment for COVID-19 significantly reduced the duration of detectable virus in the upper respiratory tract [13] . These findings suggest that interferons should be further investigated as a therapy in COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 797,
+                    "end": 801,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 930,
+                    "end": 934,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1071,
+                    "end": 1074,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1598,
+                    "end": 1602,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1729,
+                    "end": 1733,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In our study, we observed that IFN-k plus TFF2 added to standard supportive care was effective in clearing SARS-CoV-2 in the throat, which implied that IFN-k plus TFF2 might inhibit SARS-CoV-2 replication in vivo and thereby promote negative reversion of viral RNA, similar to hydroxychloroquine, remdesivir and interferon treatments [14, 24, 34] . In addition, the prognosis of COVID-19 patients has been associated with the levels of pro-inflammatory cytokines in the peripheral blood [35] , and tocilizumab therapy has been applied to counteract the cytokine storm in patients with severe COVID-19 [36] . Thus, it is critical to examine whether treatment with IFN-k plus TFF2 influences inflammation in COVID-19 patients. CRP was monitored as an indicator of inflammatory responses and showed a lower level in experimental group than in control group, indicating that treatment with IFN-k plus TFF2 may eventually reduce inflammatory responses. In addition, plasma inflammatory cytokine test results showed that aerosol inhalation of IFN-k plus TFF2 did not significantly induce inflammation in patients with moderate COVID-19. The synergistic effect of IFN-k and TFF2 proteins shortened the duration of hospitalization of COVID-19 patients. Surprisingly, the higher level of IL-22 expression was maintained in experimental group. As known, TFF2 is able to improve the mucosal reconstitution while IL-22 is also known to facilitate the mucosal recovery [37] , it is possible that TFF2 could up-regulate IL-22 and exerts its functionality. Indeed, previous studies showed that IL-22 reduced lung inflammation and promoted lung epithelial repair during influenza virus infection [38, 39] . However, the relationship between IL-22 and prognosis in COVID-19 patients need to be further investigated.",
+            "cite_spans": [
+                {
+                    "start": 334,
+                    "end": 338,
+                    "text": "[14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 339,
+                    "end": 342,
+                    "text": "24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 343,
+                    "end": 346,
+                    "text": "34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 487,
+                    "end": 491,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 601,
+                    "end": 605,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1456,
+                    "end": 1460,
+                    "text": "[37]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 1680,
+                    "end": 1684,
+                    "text": "[38,",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1685,
+                    "end": 1688,
+                    "text": "39]",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In this study, the combination of IFN-k plus TFF2 with standard care was a safe treatment for patients with moderate COVID-19. Safety evaluations, including WBC levels, lymphocytes, CRP, hemoglobin, ALT, AST, blood platelets and T-BiL, all fell within normal ranges, and no severe adverse effects were observed during hospitalization or follow-up after release, suggesting that IFN-k plus TFF2 did not affect the function of the liver, blood, gallbladder, kidney and heart of COVID-19 patients. Recent reports show that patient lymphocyte counts exhibit a graded decline from mild, moderate and severe COVID-19 [35, 40] whereas mild and moderate COVID-19 patients remain normal [41] , which was consistent with our results. In addition, IFN-k and TFF2 are small proteins that could be endogenously induced to respond to respiratory viral infections [17] , therefore, they are safe and effective, convenient for transportation, and easy to prepare and use. Our clinical survey showed that there was no discomfort during aerosol inhalation. Overall, this therapeutic strategy could be quickly popularized and implemented.",
+            "cite_spans": [
+                {
+                    "start": 611,
+                    "end": 615,
+                    "text": "[35,",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 616,
+                    "end": 619,
+                    "text": "40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 678,
+                    "end": 682,
+                    "text": "[41]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 849,
+                    "end": 853,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Cautions should be taken to interpret these data. First, this trial was open label in the absence of a placebo group. Second, the trial was only single centered and not blinded, it was possible that knowledge of the treatment assignment might have influenced clinical decision-making that could have affected the ordinal scale measurements we used. In the future, a larger, multicenter, randomized, double-blind, placebo-controlled clinical trial needs to be carried out to further verify the effectiveness of the treatment strategy in COVID-19 patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In conclusion, we found that aerosol inhalation of IFN-k plus TFF2 in combination with standard care is safe and superior to standard care alone in shortening the times for viral RNA conversion of SARS-CoV-2 and for CT improvement and facilitating clinical recovery, thereby resulting in early release from hospitalization. This aerosol inhalation strategy should be developed with priority to provide emergency reserves for the prevention and early treatment of acute respiratory infectious diseases emerging in the future. At present, more clinical data are needed to promote clinical application as early as possible and contribute to SARS-CoV-2 epidemic prevention and control.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "JX configured this study. JX, HL, XZ, and TZ designed the study, had full access to all data in the study and take responsibility for the integrity of the data and the accuracy of the data analysis. WF and YL contributed to analyzing data and writing the report. JX contributed to critical revision of the report. WF and JW provided the ethics files. YL contributed to the statistical analysis, and JX, XZ, WF, and SB provided the purified proteins. LL, PL, ZS, JZ, JC are the clinical doctors responsible for carrying out this trial by communicating with the patients and their families, and LZ, TX, FL, YZ, LZ are the nurses responsible for the implementation of the aerosol inhalation by patients. HH, XC, and ZS were responsible for collecting the clinical data of the enrolled patients and providing viral load data. SY, LD monitored the serum of COVID-19 patients. All authors reviewed and approved the final version.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Contributors"
+        },
+        {
+            "text": "Data are available on various websites and have been made publicly available. Additional materials may be requested after approval from the corresponding author and National Health Commission. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data sharing"
+        },
+        {
+            "text": "Jianqing Xu, Xiaoyan Zhang, Weihui Fu, and Songhua Yuan have applied for the patent 202010239633.3 (pending), and the patent PCT/CN2020/082195 (pending) base on these data. All authors reviewed the signed the conflict of interest forms. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of Competing Interest"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "WHO. Coronavirus disease 2019 (COVID-19) situation report",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Review: hydroxychloroquine and Chloroquine for Treatment of SARS-CoV-2 (COVID-19)",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pastick",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Okafor",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Open Forum Infect Dis",
+            "volume": "7",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Efficacy of hydroxychloroquine in patients with COVID-19: results of a randomized clinical trial",
+            "authors": [
+                {
+                    "first": "Zhj",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "2020--2023",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Hydroxychloroquine in patients mainly with mild to moderate COVID-19: an open-label, randomized, controlled trial",
+            "authors": [
+                {
+                    "first": "Wcz",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "2020--2024",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "No evidence of clinical efficacy of hydroxychloroquine in patients hospitalized for COVID-19 infection with oxygen requirement: results of a study using routinely collected data to emulate a target trial",
+            "authors": [
+                {
+                    "first": "Mtv",
+                    "middle": [],
+                    "last": "Mahevas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Roumier",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "2020--2024",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Observational study of hydroxychloroquine in hospitalized patients with Covid-19",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Geleris",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Platt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Compassionate use of remdesivir for patients with severe Covid-19",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Grein",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Myers",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Brainard",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "N Engl J Med",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Remdesivir in adults with severe COVID-19: a randomised, double-blind, placebo-controlled, multicentre trial",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1569--78",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Remdesivir for the treatment of Covid-19 -preliminary report",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Beigel",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tomashek",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dodd",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "A trial of Lopinavir-Ritonavir in adults hospitalized with severe Covid-19",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "1787--99",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Impaired type I interferon activity and exacerbated inflammatory responses in severe Covid-19 patients",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hadjadj",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Yn",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Barnabei",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "2020--2024",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "SARS-CoV-2 sensitive to type I interferon pretreatment",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Lokugamage",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sc",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Menachery",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Interferon-alpha2b treatment for COVID-19",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Shannon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Front Immunol",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Triple combination of interferon beta-1b, lopinavir-ritonavir, and ribavirin in the treatment of patients admitted to hospital with COVID-19: an open-label, randomised, phase 2 trial",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Hung",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lung",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Tso",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Interferon-kappa, a novel type I interferon expressed in human keratinocytes",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lafleur",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Nardelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tsareva",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "J Biol Chem",
+            "volume": "276",
+            "issn": "43",
+            "pages": "39765--71",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Antiviral activity of transiently expressed IFN-kappa is cell-associated",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Buontempo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Jubin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Buontempo",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wagner",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Reyes",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Baroudy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J Interferon Cytokine Res",
+            "volume": "26",
+            "issn": "1",
+            "pages": "40--52",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "IFN-kappa suppresses the replication of influenza A viruses through the IFNAR-MAPK-Fos-CHD6 axis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci Signal",
+            "volume": "13",
+            "issn": "626",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Trefoil factor-2 reverses airway remodeling changes in allergic airways disease",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Royce",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Muljadi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Am J Respir Cell Mol Biol",
+            "volume": "48",
+            "issn": "1",
+            "pages": "135--179",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Trefoil peptide TFF2 (spasmolytic polypeptide) potently accelerates healing and reduces inflammation in a rat model of colitis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Tran",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cook",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Yeomans",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Thim",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Giraud",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Gut",
+            "volume": "44",
+            "issn": "5",
+            "pages": "636--678",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "A clinical pilot study on the safety and efficacy of aerosol inhalation treatment of IFN-k plus TFF2 in patients with moderate COVID-19",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "EClin Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Diagnosis and treatment protocol for novel coronavirus pneumonia (Trial Version 7)",
+            "authors": [],
+            "year": 2020,
+            "venue": "Chin Med J",
+            "volume": "133",
+            "issn": "9",
+            "pages": "1087--95",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "7798",
+            "pages": "265--274",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Common Terminology Criteria for Adverse Events (CTCAE), Version 5.0",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Department",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Health",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Human",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Services Nioh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "In vitro antiviral activity and projection of optimized dosing design of hydroxychloroquine for the treatment of severe acute respiratory syndrome Coronavirus 2 (SARS-CoV-2)",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Therapeutic options for the 2019 novel coronavirus (2019-nCoV)",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Clercq",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Rev Drug Discov",
+            "volume": "19",
+            "issn": "3",
+            "pages": "149--50",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Broad-spectrum antivirals for the emerging Middle East respiratory syndrome coronavirus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Infect",
+            "volume": "67",
+            "issn": "6",
+            "pages": "606--622",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "In vitro susceptibility of 10 clinical isolates of SARS coronavirus to selected antiviral compounds",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Clin Virol",
+            "volume": "31",
+            "issn": "1",
+            "pages": "69--75",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Role of lopinavir/ritonavir in the treatment of SARS: initial virological and clinical findings",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Hung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Thorax",
+            "volume": "59",
+            "issn": "3",
+            "pages": "252--258",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Treatment with Lopinavir/Ritonavir or interferon-beta1b improves outcome of MERS-CoV infection in a nonhuman primate model of common marmoset",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yeung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Infect Dis",
+            "volume": "212",
+            "issn": "12",
+            "pages": "1904--1917",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Coronavirus susceptibility to the antiviral remdesivir (GS-5734) is mediated by the viral polymerase and the proofreading exoribonuclease",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Agostini",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Andres",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Sims",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "MBio",
+            "volume": "9",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Discovering drugs to treat coronavirus disease 2019 (COVID-19)",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Drug Discov Ther",
+            "volume": "14",
+            "issn": "1",
+            "pages": "58--60",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell Res",
+            "volume": "30",
+            "issn": "3",
+            "pages": "269--71",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Hydroxychloroquine and azithromycin as a treatment of COVID-19: results of an open-label non-randomized clinical trial",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gautret",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lagier",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Parola",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Int J Antimicrob Agents",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Comparative therapeutic efficacy of remdesivir and combination lopinavir, ritonavir, and interferon beta against MERS-CoV",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Sheahan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Sims",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Leist",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Commun",
+            "volume": "11",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Longitudinal characteristics of lymphocyte responses and cytokine profiles in the peripheral blood of SARS-CoV-2 infected patients",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "EBio-Medicine",
+            "volume": "55",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Tocilizumab treatment in COVID-19: a single center experience",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Healing of intestinal inflammation by IL-22",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mizoguchi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Inflamm Bowel Dis",
+            "volume": "18",
+            "issn": "9",
+            "pages": "1777--84",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Interleukin-22 reduces lung inflammation during influenza A virus infection and protects against secondary bacterial infection",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ivanov",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Renneson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fontaine",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Virol",
+            "volume": "87",
+            "issn": "12",
+            "pages": "6911--6935",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "IL-22 is essential for lung epithelial repair following influenza infection",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pociask",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Scheller",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mandalapu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Am J Pathol",
+            "volume": "182",
+            "issn": "4",
+            "pages": "1286--96",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus-infected pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Viral and host factors related to the clinical outcome of COVID-19",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ling",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Trial Please cite this article as: W. Fu et al., An open-label, randomized trial of the combination of IFN-k plus TFF2 with standard care in the treatment of patients with moderate COVID-19, EClinicalMedicine (2020), https://doi.org/10.1016/j.eclinm.2020.100547",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Outcomes over time. (A) Viral RNA negative time; (B) Viral RNA negative reversion rate; (C) Days to CT imaging improvement; (D) Hospital stay. Data points are the actual values of samples, and error bars are SEM (Standard error of mean). .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Kinetic analysis of biochemical and blood indexes of COVID-19 patients between control and experimental groups. (A)T-Bil; (B) ALT; (C)AST; (D) Creatinine; (E) White blood cells; (F) CRP; (G) Blood-platelet; (F) Lymphocytes. The normal range of each cell type was plotted as dotted lines. (Control group, n = 40; IFN-k+TFF2: n = 40). Data points are means, and error bars are SEM (Standard error of mean).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Kinetic analysis of CD3 + T (A), CD4 + T (B), CD8 + T (C), and CD16 + CD56 + NK (D) cell counts in each group during treatment time. The normal range of each cell type was plotted as dotted lines. (Control group, n = 40; Experimental group: n = 40). Data points are means, and error bars are SEM (Standard error of mean). . Please cite this article as: W. Fu et al., An open-label, randomized trial of the combination of IFN-k plus TFF2 with standard care in the treatment of patients with moderate COVID-19, EClinicalMedicine (2020), https://doi.org/10.1016/j.eclinm.2020.100547",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "The level of cytokines in the plasma of enrolled COVID-19 patients. Cytokines concentrations in the plasma of COVID-19 patients were measured using a SIMOA Cytokine 10plex A kit on a SIMOA HD-1 platform at GBIO. The plasma concentration of TNF-a (A), IL-1b (B), IL-6 (C), IL-8 (D), IFN-g (E), IL-10 (F), and IL-22 (G) at various time points are shown. The values of IL-12 p70, IL-4 and IL-5 were below the minimum detection limit and are not shown. (control group, n = 35; experimental group; n = 35). Data points are means, and error bars are SEM (Standard error of mean).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "This work was supported by the National Science Foundation of China (81771704), the National Major Project for Control and Prevention of Infectious Disease in China (2018ZX10301403-003), the Second Batch of Emergency Science and Technology Projects of Shanghai Science and Technology Commission (20411950200), and the Shanghai Municipal Health Commission Special Emergency Project for Prevention and Treatment of Novel Coronavirus Pneumonia by Traditional Chinese Medicine (2020NCP001).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "Clinical characteristics of the COVID-19 patients at baseline. Please cite this article as: W. Fu et al., An open-label, randomized trial of the combination of IFN-k plus TFF2 with standard care in the",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Please cite this article as: W. Fu et al., An open-label, randomized trial of the combination of IFN-k plus TFF2 with standard care in the",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Please cite this article as: W. Fu et al., An open-label, randomized trial of the combination of IFN-k plus TFF2 with standard care in the",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Please cite this article as: W. Fu et al., An open-label, randomized trial of the combination of IFN-k plus TFF2 with standard care in the treatment of patients with moderate COVID-19, EClinicalMedicine (2020), https://doi.org/10.1016/j.eclinm.2020.100547",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors thank Xuanyi Wang and Honglu Zhou for the statistical assistance and the measurement of sample size, and Xiujing Hong for the perfect of the pictures. In addition, we thank all patients who participated in this trial and their families. and all the clinical, technical and paramedical staff of the hospitalization units and laboratories for support in this difficult context.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "Supplementary material associated with this article can be found in the online version at doi:10.1016/j.eclinm.2020.100547.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary materials"
+        }
+    ]
+}

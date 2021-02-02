@@ -1,0 +1,2114 @@
+{
+    "paper_id": "0b1f70afa5e9b40195efe592e9b52e09dabcf30a",
+    "metadata": {
+        "title": "Access to primary healthcare during lockdown measures for COVID-19 in rural South Africa: an interrupted time series analysis",
+        "authors": [
+            {
+                "first": "Mark",
+                "middle": [
+                    "J"
+                ],
+                "last": "Siedner",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "John",
+                "middle": [
+                    "D"
+                ],
+                "last": "Kraemer",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mark",
+                "middle": [
+                    "J"
+                ],
+                "last": "Meyer",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Guy",
+                "middle": [],
+                "last": "Harling",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Thobeka",
+                "middle": [],
+                "last": "Mngomezulu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Patrick",
+                "middle": [],
+                "last": "Gabela",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Siphephelo",
+                "middle": [],
+                "last": "Dlamini",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Dickman",
+                "middle": [],
+                "last": "Gareta",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nomathamsanqa",
+                "middle": [],
+                "last": "Majozi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nothando",
+                "middle": [],
+                "last": "Ngwenya",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Janet",
+                "middle": [],
+                "last": "Seeley",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Emily",
+                "middle": [],
+                "last": "Wong",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Collins",
+                "middle": [],
+                "last": "Iwuji",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Maryam",
+                "middle": [],
+                "last": "Shahmanesh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Willem",
+                "middle": [],
+                "last": "Hanekom",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Kobus",
+                "middle": [],
+                "last": "Herbst",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "INTRODUCTION COVID-19 was declared a global pandemic by WHO on 11 March 2020, and it has spared no region of the world. Early in the epidemic, the greatest numbers of cases have been reported in Asia, Europe and North America, with more recent dissemination within Latin America and Africa. 1 Although South Africa and a handful of other low-resource settings have reported widespread epidemics, limited testing and surveillance capabilities make it difficult to assess how widely the pandemic has spread in such settings. Such regions are believed to be at particular risk of severe epidemics, due to overcrowding, lower access to clean water and sanitation services and inherent shortages in health system infrastructure for detection and management of disease. [2] [3] [4] [5] [6] [7] [8] [9] Strengths and limitations of this study \u25ba This study is strengthened by a large number of observations per clinic, collection of data using research staff and methods external to the programmatic healthcare system (which can be interrupted during external shocks), and longitudinal observation allowing comparison of the preperiod and postperiod. \u25ba The study was conducted within the public health sector of South Africa, and is generalisable to similarly rural, resource-limited settings, and observation during the lockdown period prior to widespread local COVID-19 transmission. \u25ba Our exposure of interest (ie, the lockdown measures) were not randomly allocated, so there is a risk, however small, that a simultaneous exogenous shock could be responsible for the changes in clinic visitation seen. \u25ba The dataset is purely quantitative and focused on clinic visitation events, which prevents deeper exploration of the root causes of trends noted.",
+            "cite_spans": [
+                {
+                    "start": 764,
+                    "end": 767,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 768,
+                    "end": 771,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 772,
+                    "end": 775,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 776,
+                    "end": 779,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 780,
+                    "end": 783,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 784,
+                    "end": 787,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 788,
+                    "end": 791,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 792,
+                    "end": 795,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In response, most nations in sub-Saharan Africa have implemented non-pharmacological interventions to attempt to prevent large-scale epidemics. These measures, which include restrictions on large gatherings, work and school attendance, travel and in their most stringent forms, shelter-in-place orders, are believed to reduce disease transmission. [10] [11] [12] [13] However, instituting these measures is also associated with deleterious economic and social, impacts, including large projected reductions in manufacturing, access to employment and basic necessities and educational advancement; and these effects appear to be greatest among those in lower-income and vulnerability categories. [14] [15] [16] [17] [18] [19] Across the sub-Saharan African region, the Economic Commission for Africa projects an approximate 1.4% contraction in gross domestic product and that 25 million people are susceptible to entering extreme poverty. 20 Some have hypothesised that non-pharmaceutical interventions might be less effective in settings with large informal economies and limited ability to respond to increases in cases of severe disease, 21 and that their risks might outweigh their benefits. 22 Of particular concern is how social fear and reduced access to basic public health services might impact morbidity and mortality for non-COVID health conditions. Modelling studies have suggested that even modest reductions in child healthcare access could result in 100 000s of additional deaths in low-income and middleincome countries. 23 Similar concerns have been raised by the Academy of Science of South Africa and others about provision of chronic disease care among adults. 24 25 UNAIDS has warned that non-pharmaceutical interventions could challenge manufacturing and supply chains of HIV therapeutics, 26 and modelling estimates suggest that such disruptions could cause as many if not more HIV-related deaths than COVID-19-related deaths. 27 Although empiric data on health outcomes remain sparse, there have been significant reductions in tuberculosis testing in South Africa during the early phases of the lockdown, 28 indicating an interruption in critical services for the most common cause of death in the country. 29 There is also historical precedent from other recent communicable disease outbreaks. Primary healthcare access was significantly impacted during prior infectious disease epidemics, such as Ebola virus disease, resulting in increases in morbidity and mortality. 30 31 Yet, whether and the extent to which similar effects will be seen during the COVID-19 epidemic is not known.",
+            "cite_spans": [
+                {
+                    "start": 348,
+                    "end": 352,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 353,
+                    "end": 357,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 358,
+                    "end": 362,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 363,
+                    "end": 367,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 695,
+                    "end": 699,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 700,
+                    "end": 704,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 705,
+                    "end": 709,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 710,
+                    "end": 714,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 715,
+                    "end": 719,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 720,
+                    "end": 724,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1680,
+                    "end": 1685,
+                    "text": "24 25",
+                    "ref_id": null
+                },
+                {
+                    "start": 2494,
+                    "end": 2499,
+                    "text": "30 31",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Open access"
+        },
+        {
+            "text": "On 27 March 2020, South Africa instituted a nationwide shelter-in-place order, termed in South Africa as a level 5 lockdown. The level 5 order included closure of schools and all non-essential business, restrictions on public transport and restrictions on movement. Restrictions on movement during the level 5 lockdown specifically required that individuals remain in their place of residence, with the exceptions of 'performing an essential service, obtaining an essential good or service, collecting a social grant, pension, or seeking emergency, life-saving or chronic medical attention'. Over the following months, the restrictions gradually eased from level 5 down to 4 at the end of April and level 3 at the end of May, which corresponded with lifting restrictions on intraprovince movement, preinitiation of public transportation and allowed for reopening of schools and many business. 32 33 Because the healthcare sector was deemed an essential service throughout the entire lockdown period, no restrictions were placed on access to or delivery of healthcare services.",
+            "cite_spans": [
+                {
+                    "start": 893,
+                    "end": 898,
+                    "text": "32 33",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Open access"
+        },
+        {
+            "text": "We sought to assess the impact of these lockdown orders in response to the COVID-19 epidemic in South Africa on access to basic healthcare services. We analysed data on clinic visitation at 11 ambulatory public health clinics in northern KwaZulu-Natal, collected routinely as part of a demographic health and surveillance system (HDSS) by the Africa Health Research Institute (AHRI). We hypothesised that there would be immediate and substantial reductions in clinic visitation after the institution of the lockdown measure, and that this would pertain to routine clinical care such as immunisations, perinatal care and chronic disease management in adults.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Open access"
+        },
+        {
+            "text": "This analysis was conducted using data collected by the AHRI HDSS in the uMkhanyakude district of the KwaZulu-Natal Province. The HDSS comprises a complete census across a geographic area of approximately 850 km 2 ; it is a rural region with a single peri-urban centre, KwaMsane, a town of approximately 30 000 residents. The region ranks among the lowest nationwide in terms of health indicators and socioeconomic status. 34 Approximately one in five adult men and two in five adult women are living with HIV. 35 Tuberculosis incidence is among the highest in the world, and above the national average of 577 per 100 000 individuals when last measured in 2015. 36 ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study setting"
+        },
+        {
+            "text": "Since 2000 AHRI has collected data on births, deaths, migrations through thrice annual data collection encounters across a catchment area of 20 000 households (over 100 000 resident individuals). 34 In 2017, AHRI began placing clinic research assistants at each of the 11 government-run public health clinics in the area. These research staff operate in partnership with the Department of Health, but outside of the standard Health Management Information System (HMIS). For each person who presents to clinic, they collect demographic information and the self-reported reason(s) for the clinical visit. We link data between the HDSS and the clinic medical record system electronically using a unifying identification code for each resident of the catchment area. For this analysis, we included all individuals who presented to ambulatory clinic in the 11 regional clinics in the study catchment area during our observation period. There were no age or sex exclusions. AHRI holds memoranda of understanding with the Provincial and District Department of Health that permit extraction of health record data from Open access primary care and hospital sites for linkage to the household surveillance dataset.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "We conducted an interrupted time series analysis to estimate changes in clinic visitation in rural KwaZulu-Natal before and after the national lockdown implementation on 27 March 2020. To do so, we fitted linear mixed effects regression models by restricted maximum likelihood with daily clinic visits as the primary outcome of interest. Our primary exposure of interest was time period, divided into four periods: (1) the prelockdown period starting 60 days prior to the initial level 5 lockdown until 27 March 2020;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design"
+        },
+        {
+            "text": "(2) the level 5 lockdown period from 28 March through 30 April 2020; (3) the level 4 lockdown level from 1 May through 31 May and (4) the level 3 lockdown level from 1 June through our data abstraction date (30 June). For our primary outcome, we estimated the stepwise change in mean visits per clinic on the date of implementation lockdown level. 37 We included a fixed effect for day of the week, random clinic-specific intercepts and random clinicspecific slopes on time in our models. We excluded weekends because the study clinics do not provide non-urgent ambulatory care services on weekends. We excluded dates from observation when AHRI staff members who perform data capture for the clinic-link system were not working, including national holidays and staff trainings.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design"
+        },
+        {
+            "text": "Our primary outcome of interest was the number of clinic visits for any reason per clinic. In secondary analyses, we stratified models by visit type restricted to: (1) child health visits (immunisations and growth monitoring); (2) antenatal care, postnatal care and family planning; (3) HIV services (including antiretroviral therapy initiation, antiretroviral therapy continuation and chronic care medical dispensing programme visits) and (4) chronic care of noncommunicable diseases (hypertension and diabetes). Clinic visits for more than one reason were treated as visits for both conditions. We also conducted stratified analyses by age category (<1, 1-5, 6-19, 20-45 and >45 years) and by women and men aged 15 years or older.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design"
+        },
+        {
+            "text": "We performed a number of secondary and sensitivity analyses to assess model validity and robustness of our findings. In addition to estimating stepwise changes after each lockdown order and change, we estimated trends in weekly visits during each period to determine whether immediate changes were sustained over each period. We graphically depicted the residuals in the model to assess the normality assumption of our linear model structure. To check the robustness of model assumptions about changes from the prelockdown to the level 5 lockdown periods, we conducted multiple sensitivity analyses: (1) we specified a Poisson mixed effects regression model in place of a linear model; (2) we fitted linear and Poisson generalised estimating equation (GEE) models clustered by facility; (3) we specified an autoregressive covariance structure in place of an exchangeable structure in the GEE models and (4) to assess for the possibility of seasonal changes over multiple years, we constructed locally weighted scatterplot smoothing (LOWESS) plots to visually inspect clinical visitation trends over the same observation periods in 2020 vs 2018 and 2019 and fitted a difference-in-differences model that included year (2019 vs 2020) and time (characterised as prelockdown vs level 5 lockdown) to assess whether changes before and after the level 5 lockdown differed by calendar year.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design"
+        },
+        {
+            "text": "Finally, we conducted an additional sensitivity analysis to assess for the possibility of in-migration into the HDSS catchment area during the lockdown period, which would potentially bias clinic visitation frequency upwards. To do so, we calculated annual visitation frequency at the 11 area clinics for each individual in the dataset for the year prior to the lockdown. We then compared the median number of annual visits per individual in the prelockdown and postlockdown periods, and the number of individuals with exactly one visit in the past year in the two periods. If significant in-migration did occur during the lockdown period, we would expect that the median number of annual visits per individual would decrease during the lockdown, whereas the number of individuals with one visit in the past 12 months would increase.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design"
+        },
+        {
+            "text": "Three study investigators designed a statistical plan prior to all analyses (MJS, JDK, MJM). The initial analysis plan included fitting mixed effects models with random effects by clinic and inspecting trends in clinic visitation changes from the prelockdown to level 5 lockdown period for the overall cohort, and by visit subtype. We also initially included plans for sensitivity analyses, including fitting of generalised estimating equations and additions of random slopes to our models as robustness checks. In response to reviewer requests and with updates to the lockdown characteristics from levels 5 to 4 to 3 during the review process, we conducted a number of post hoc analyses, including construction of LOWESS plots and fitting additional models to assess for seasonal trends in visitation by year, and fitting mixed effects Poisson models. All statistical analyses were conducted using Stata and R.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design"
+        },
+        {
+            "text": "This protocol was reviewed and approved by the AHRI Community Advisory Board, who contributed to the study design and selection of collection measures. Results of studies from the HDSS project are routinely shared with the community through public communications and road shows conducted by the AHRI Public Engagement Department. Final, all study protocols are reviewed and approved by the District and Provincial Department of Health, and AHRI holds memoranda of understanding with the Provincial and District Departments of Health that outline methods of extraction of health record data from primary care sites for linkage to the household surveillance dataset.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient and public involvement"
+        },
+        {
+            "text": "A total of 46 523 individuals made 89 476 clinic visits between 27 January and 30 June 2020 at the 11 area clinics (table 1). Women and girls accounted for 67% (n=64 125) of visits. Approximately 9% of visits were Open access made by individuals <1 year of age (n=4186), 1-5 years of age (n=3944) and 6-19 years of age (n=4460), respectively; whereas those aged 20-45 years accounted for 48% (n=22 231) and those over 46 years the remaining 25% of visits (n=11 702). The most common reason for a clinic visit was ART follow-up care, comprising 43% of all visits (n=38 142), followed by visits for minor ailments (18%, n=16 204), child health (n=9672, 11%) and hypertension (n=9273, n=10%).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RESULTS"
+        },
+        {
+            "text": "There was an average of 90.3 (95% CI 67.5 to 113.2) clinic visits per day per clinic in the prelockdown period. We identified a non-significant drop in visits immediately following the start of the level 5 lockdown (\u22126.7 visits/ clinic/day, 95% CI \u221216.5 to 3.1). The small reduction seen after the level 5 period was reversed by a non-significant stepwise increase between the level 5 and level 4 periods (increase of 11.2 visits/clinic/day, 95% CI \u22120.5 to 23.0), and persistent clinic visitation between the end of level 4 and the start of the level 3 period (increase of 1.2 visits/ clinic/day, 95% CI \u22129.7 to 12.1) (table 2, figure 1 ). There were no significant changes in trends over time in clinic visits/week in any of the preimplementation or postimplementation periods (online supplemental table 1).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 628,
+                    "end": 636,
+                    "text": "figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "In contrast, child health visits suffered a 60% stepwise drop at the initiation of the level 5 lockdown (from 11.9 to 4.6 visits/day/clinic, mean change of \u22127.1 visits, 95% CI \u22129.0 to 5.3), but remained steady during the transition between the level 5 and level 4 (\u22120.5 visits/clinic/ day, 95% CI \u22122.7 to 1.7), and again between the level 4 and level 3 lockdowns (\u22120.4 visits/clinic/day, 95% CI \u22122.5 to 1.6) (table 2, figure 1 ). The reduction in child visits at the time of the level 5 lockdown occurred both among children under 1 (mean decrease of \u22125.4 visits, 95% CI \u22127.0 to 3.7) and those 1-5 years of age (mean decrease of \u22125.5 visits, 95% CI \u22126.7 to 4.4). We did detect fluctuating trends in child visitation during the lockdown periods, with increases of approximately one visit/clinic/ week in levels 5 and 3, resulting in a similar number of mean visits/clinic/day 1 month into to the level 3 lockdown on 30 June as compared with just prior to the level 5 lockdown (11.2 visits/clinic/day (95% CI 7.4 to 14.8) vs 11.9 visits/clinic/day (95% CI 8.6 to 15.1), online supplemental table 1).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 418,
+                    "end": 426,
+                    "text": "figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "In contrast to child health visits, HIV-related clinical visits for adults did not decrease between the prelockdown and level 5 lockdown period from 37.6 visits/clinic/day to 45.5 visits/clinic/day (mean change of 7.9 visits/clinic/ day, 95% CI 2.1 to 13.8), between the level 5 lockdown and level 4 lockdown period (increase of 11.1 clinic/ visits/day, 95% CI 4.1 to 18.0) or between the transition from the level 4 to level 3 (increase of 4.0 visits/clinic/ day, 95% CI \u22122.5 to 10.5) (table 2, figure 1 ). We similarly identified resilience in family planning visits over the observation period, increasing from 7.3 visits/clinic/day in the preimplementation period to 7.8 visits/clinic/day after transition to level 5 (+0.5 visits/clinic/day, 95% CI \u22121.0 to 2.0) to 8.9 clinic visits/day after transition to level 4 (+1.1 visits/clinic/day, 95% CI \u22120.7 to 3.0) and 11.0 visits/ Open access clinic/day after transition to level 3 (+2.0 visits/clinic/ day, 95% CI 0.3 to 3.7) for a 66% total increase from the preperiod. We did not detect changes in clinic visitation for chronic non-communicable diseases, or more broadly in clinic visitation by men or women 15 years or older. Graphical depictions of residuals from our linear models demonstrated normally distributed residuals for the total visit, HIV and child visit models, supporting the specification of a linear model to estimate trends in clinic visitation (online supplemental figure 1 ). We found no evidence of changes in clinic visitation during this same period in 2019 to suggest seasonal effects, either graphically in LOWESS plots, or in difference-in-differences in models including both 2019 and 2020 with prelockdown and postlockdown periods (table 3, online supplemental figure 2). Results were robust to modelling assumptions in the sensitivity analyses (table 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 496,
+                    "end": 504,
+                    "text": "figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1438,
+                    "end": 1446,
+                    "text": "figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1827,
+                    "end": 1836,
+                    "text": "(table 3)",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Finally, we did not detect evidence of meaningful in-migration during the lockdown period. The median number of visits in the past year per individual attending the clinic slightly increased from the prelockdown period to the lockdown period (mean 5.8 (SD 0.02) vs 5.9 (SD 0.03), p<0.001). This pattern was similar among people attending clinic for HIV-specific visits (mean 6.5 (SD 0.02) vs mean 6.6 (SD 0.04), p=0.01). The number of people with exactly one visit in the past year also did not meaningfully increase during the observation period with 1960 (February), 2115 (March), 1573 (April), 1893 (May) and 1986 (June) visits made by individuals with exactly one annual clinic visit over the prior 12 months.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RESULTS"
+        },
+        {
+            "text": "We found evidence of a significant drop in visits for childcare alongside sustained visitation in HIV and adult ambulatory clinic utilisation in a rural area of South Africa during the national lockdown for the COVID-19 epidemic. Notably, visits for chronic disease, such as hypertension and diabetes, perinatal care and family planning remained reasonably constant or modestly increased. However, child health visits for immunisations and growth monitoring dropped immediately by over 50% after the start of the lockdown. With gradual increases over time during level 5 and level 3 lockdown, child visits largely returned to prelockdown levels in June, approximately 3 months after the lockdown began. We noted an estimated 20% increase in clinic visits for HIV immediately after the lockdown and suspect this might have reflected an urgency to collect medications prior to an anticipated interruption in clinic access or medication availability and/or national programmatic efforts to accelerate transitions to a new first-line regimen. 38 These results demonstrate concerning trends about reductions in preventative child care during the lockdown period. However, they also appeared to disprove our hypothesis about clinic visitation in adults, and potentially demonstrate a resilience in the healthcare sector during a period of concern for access to chronic and essential basic health services.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The key demographic population in our study that experienced significant drops in clinic visitation was children. Child health visits appeared to have modestly rebounded during the lockdown, and eventually return to their prelockdown state. Although these data do not suggest the cause of reduced visitation in children, multiple possible factors might be considered. We hypothesise that limited options for childcare for families with multiple children might prevent caregivers from being able to bring individual children to clinic. Moreover, in Open access contrast to, for example, HIV wellcare visits, well child visits rarely involve medication refills so might be prioritised lower for families. Whatever the cause, our findings are in keeping with data from elsewhere. In Hangzhou, China, paediatric healthcare visits dropped by nearly 75% during the peak of the epidemic and lockdown periods. 39 In the USA, vaccination rates in children substantially declined after a national emergency was declared in response to the COVID-19 epidemic. 40 Modelling analyses using Lived Saves Tool have suggested that a 15% reduction in maternal and child health coverage could result in over 250 000 additional deaths. 23 WHO has also projected significant increases in deaths due to malaria in children under 5 in endemic regions with disruptions in malaria care and insecticide-treated bednet distribution. 41 Although empiric data on healthcare access in South Africa remain scarce, work to date has suggested significant reductions in tuberculosis testing in laboratory databases, and reports of interruptions in care in community-based surveys. 28 42 Previous disease epidemics in sub-Saharan Africa have also been associated with lapses in primary care access, and drops in facility based births and child healthcare access. 30 31 43 44 Consequently, future work should investigate the impacts of even modest drops in vaccination rates and child health outcomes, to better assess whether the drop we identified resulted in long-term health effects, and whether catch-up vaccination campaigns might help limit the fallout of such interruptions. 45 Maintaining healthcare access during the epidemic requires a careful balance of primary healthcare provision and protection of vulnerable populations from COVID-19 infection. In other settings, there have been multiple reports of late and severe presentations to care for non-COVID-19 conditions, putatively due to decreased access to care or fear of nosocomial infection at healthcare facilities. [46] [47] [48] At the time of our data abstraction at the end of June during the level 3 lockdown period, fewer than Open access 200 cases of COVID-19 infection had been reported in uMkhanyakude District. 49 Thus, our data largely reflect impacts of lockdown measures prior to an epidemic with significant local transmission. Clinics in this district instituted symptom screening at the entryway to clinics, with referral of individuals meeting criteria for persons under investigation to regional COVID-19 testing centres. Future work should revisit the impacts of the epidemic itself on access to primary healthcare. The COVID-19 epidemic has also led to calls for decentralised care to minimise exposure for high-risk populations, 50 including those with chronic non-communicable disease, HIV, a history of tuberculosis-related lung disease and those of older ages. The lockdown was instituted rapidly in South Africa, before substantial decentralised care systems could be put in place. However, an important unanswered question is how such programmes will affect access to care and epidemic transmission in high-risk populations, including the elderly and those with immunosuppressing conditions.",
+            "cite_spans": [
+                {
+                    "start": 1646,
+                    "end": 1651,
+                    "text": "28 42",
+                    "ref_id": null
+                },
+                {
+                    "start": 1830,
+                    "end": 1838,
+                    "text": "31 43 44",
+                    "ref_id": null
+                },
+                {
+                    "start": 2547,
+                    "end": 2551,
+                    "text": "[46]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 2552,
+                    "end": 2556,
+                    "text": "[47]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 2557,
+                    "end": 2561,
+                    "text": "[48]",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Our study should be interpreted within the context of the relatively short period (3 months) of the lockdown in South Africa. As a result, we are not yet able to assess long-term repercussions from disruptions to income or from the epidemic itself, or long-term effects of lapses in primary care and vaccination on health outcomes, and our results should not be generalised over longer time horizons. It is expected that economic barriers to healthcare utilisation will increase as the epidemic's effects persist over time, including secondary effects from nonpharmaceutical interventions. These effects are likely to fall most heavily on those in the informal economy. 51 South Africa has taken steps to increase social support to counteract economic disruption from the epidemic and control measures. 52 Mitigating long-term consequences may require governments and development partners to increase access to employment and other social support services during the epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Our study had multiple strengths. First, our data collection procedures are led by research staff who remained in place during the lockdown period, so these data are not affected by barriers to data collection (eg, interruptions in staff transportation or workplace access). This is important, since many routine health information systems could be expected to suffer lapses during external shocks to the healthcare system. Second, our study was able to access data collected across 11 clinical centres within a large HDSS, which provided significant power to detect even small interruptions to healthcare access. A key potential limitation to our study is that it is predicated on the assumption that there were no other external factors that would have caused interruptions to the healthcare system on or after 27 March 2020 (eg, power outage, inclement weather). We are unaware of any such shock and believe this to be a minor risk. We saw no evidence of a seasonal effect after comparing our results with similar time periods in 2019. Our analysis should also be interpreted within the context of our study area-one with approximately 200 reported cases of COVID-19 at the time of the analysis, but in a nation with a large epidemic (approximately 200 000 cases as of early July) with established local transmission in other areas.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In summary, we report a reduction in child wellcare visitation but resilience of the adult ambulatory healthcare system during the early COVID-19 epidemic and lockdown period in rural South Africa. Future work should establish if these trends are maintained, and particularly monitor access to childcare and immunisations as a result of the trends reported in this study. Finally, in rural South Africa and similar areas, efforts to balance ongoing provision of essential preventative and chronic healthcare services might be needed to ensure healthcare access remains intact while preventing nosocomial spread of COVID-19 among high-risk populations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "software programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components. KH, WH: supervision oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team. KH, MJS, MJM, JDK: validation verification, whether as a part of the activity or separate, of the overall replication/reproducibility of results/ experiments and other research outputs. MJS, MJM, JDK: visualisation preparation, creation and/or presentation of the published work, specifically visualisation/data presentation. MJS: writing-original draft preparation creation and/or presentation of the published work, specifically writing the initial draft.KH, MJS, MJM, JS, DG, GH, EW, JDK, CI, MS, NN, TM, PG, SD, WH, NM: writing-review and editing preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revisionincluding prepublication or postpublication stages. Competing interests None declared.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Patient and public involvement Patients and/or the public were involved in the design, or conduct, or reporting, or dissemination plans of this research. Refer to the 'Methods' section for further details.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Patient consent for publication Not required.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Ethics approval The protocol was reviewed and approved by the University of KwaZulu-Natal Biomedical Research Ethics Committee under reference BE290/16 and the KwaZulu Department of Health Research Committee.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Provenance and peer review Not commissioned; externally peer reviewed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Data availability statement Data are available on reasonable request. Data from the AHRI HDSS are publicly available on request to the AHRI research repository which can be made here: https:// data. ahri. org/ index. php/ auth/ login/? destination.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Open access This is an open access article distributed in accordance with the Creative Commons Attribution 4.0 Unported (CC BY 4.0) license, which permits others to copy, redistribute, remix, transform and build upon this work for any purpose, provided the original work is properly cited, a link to the licence is given, and indication of whether changes were made. See: https:// creativecommons. org/ licenses/ by/ 4. 0/.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "World Health Organization. Coronavirus disease (COVID-2019) situation reports",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Social mixing patterns within a South African township community: implications for respiratory disease transmission and control",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Johnstone-Robertson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mark",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Morrow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Am J Epidemiol",
+            "volume": "174",
+            "issn": "",
+            "pages": "1246--55",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/aje/kwr251"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Characteristics of human encounters and social mixing patterns relevant to infectious diseases spread by close contact: a survey in Southwest Uganda",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Le Polain De Waroux",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cohuet",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ndazima",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "BMC Infect Dis",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12879-018-3073-1"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Household structure and infectious disease transmission",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "House",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Keeling",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Epidemiol Infect",
+            "volume": "137",
+            "issn": "",
+            "pages": "654--61",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/S0950268808001416"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Looming threat of COVID-19 infection in Africa: act collectively, and fast",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Nkengasong",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Mankoula",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "841--843",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30464-5"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Preparedness and vulnerability of African countries against importations of COVID-19: a modelling study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gilbert",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Pullano",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Pinotti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "871--878",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30411-6"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Is Africa prepared for tackling the COVID-19 (SARS-CoV-2) epidemic. lessons from past outbreaks, ongoing pan-African public health efforts, and implications for the future",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kapata",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ihekweazu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ntoumi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "93",
+            "issn": "",
+            "pages": "233--239",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2020.02.049"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Critical care and the global burden of critical illness in adults",
+            "authors": [
+                {
+                    "first": "Nkj",
+                    "middle": [],
+                    "last": "Adhikari",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Fowler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bhagwanjee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Lancet",
+            "volume": "376",
+            "issn": "",
+            "pages": "1339--1385",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(10)60446-1"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The Neglected Dimension of Global Security--A Framework for Countering Infectious-Disease Crises",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sands",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mundaca-Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dzau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "N Engl J Med",
+            "volume": "374",
+            "issn": "",
+            "pages": "1281--1288",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMsr1600236"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Nonpharmaceutical measures for pandemic influenza in Nonhealthcare Settings-Social distancing measures",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Fong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Infect Dis",
+            "volume": "26",
+            "issn": "",
+            "pages": "976--84",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid2605.190995"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Nonpharmaceutical interventions implemented by US cities during the 1918-1919 influenza pandemic",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Markel",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Lipman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Navarro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "JAMA",
+            "volume": "298",
+            "issn": "",
+            "pages": "644--54",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.298.6.644"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Strategies for containing an emerging influenza pandemic in Southeast Asia",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dat",
+                    "middle": [],
+                    "last": "Cummings",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cauchemez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nature",
+            "volume": "437",
+            "issn": "",
+            "pages": "209--223",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nature04017"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Comparing nonpharmaceutical interventions for containing emerging epidemics",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Peak",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Childs",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Grad",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "114",
+            "issn": "",
+            "pages": "4023--4031",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1616438114"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Impact of school closures for COVID-19 on the US health-care workforce and net mortality: a modelling study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bayham",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Fenichel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Public Health",
+            "volume": "5",
+            "issn": "",
+            "pages": "271--279",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2468-2667(20)30082-7"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The possible macroeconomic impact on the UK of an influenza pandemic",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Keogh-Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wren-Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Edmunds",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Health Econ",
+            "volume": "19",
+            "issn": "",
+            "pages": "1345--60",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/hec.1554"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The economy-wide impact of pandemic influenza on the UK: a computable General equilibrium modelling experiment",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Keogh-Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Barnett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "BMJ",
+            "volume": "339",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.b4571"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "The socio-economic implications of the coronavirus pandemic (COVID-19): a review",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nicola",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Alsafi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sohrabi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Surg",
+            "volume": "78",
+            "issn": "",
+            "pages": "185--93",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijsu.2020.04.018"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Which workers bear the burden of social distancing policies? working paper 27085",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mongey",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pilossoph",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Weinberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "National Bureau of Economic Research",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "The impact of COVID-19 control measures on social contacts and transmission in Kenyan informal settlements",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Quaife",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Van Zandvoort",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gimma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "United Nations Economic Commission for Africa. COVID-19 in Africa: protecting lives and economies",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "COVID-19 control in low-income settings and displaced populations: what can realistically be done?",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dahab",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Van Zandvoort",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Flasche",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Does social distancing matter?",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Greenstone",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nigam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "SSRN Electronic Journal",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2139/ssrn.3561244"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Early estimates of the indirect effects of the coronavirus pandemic on maternal and child mortality in low-and middle-income countries",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Roberton",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Carter",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Chou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "SSRN Electronic Journal",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2139/ssrn.3576549"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "The unanticipated costs of COVID-19 to South Africa's quadruple disease burden. Academy of Science of South Africa",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Assaf",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "COVID-19 affects HIV and tuberculosis care",
+            "authors": [
+                {
+                    "first": "Abdool",
+                    "middle": [],
+                    "last": "Karim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Abdool",
+                    "middle": [],
+                    "last": "Karim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "369",
+            "issn": "",
+            "pages": "366--374",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abd1072"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "The impact of the COVID-19 response on the supply chain, availability and cost of generic antiretroviral medicines for HIV in lowand middle-income countries",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "The potential impact of interruptions to HIV services: a modellign case study for South Africa",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jewell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hallett",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "COVID-19 lockdowns in low-and middle-income countries: success against COVID-19 at the price of greater costs",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Madhi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gray",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ismail",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "S Afr Med",
+            "volume": "110",
+            "issn": "",
+            "pages": "724--730",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Mortality and causees of death in South Africa: findings from death notification. statistics South Africa",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Stats",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Effect of Ebola virus disease on maternal and child health services in guinea: a retrospective observational cohort study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Delamou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ame",
+                    "middle": [],
+                    "last": "Ayadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sidibe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Lancet Glob Health",
+            "volume": "5",
+            "issn": "",
+            "pages": "448--57",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2214-109X(17)30078-5"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Facility-Based delivery during the Ebola virus disease epidemic in rural Liberia: analysis from a cross-sectional, population-based household survey",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ly",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Sathananthan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Griffiths",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "PLoS Med",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pmed.1002096"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Disaster management act: regulations to address, prevent and combat the spread of Coronavirus-19 (COVID-19): Amendment",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "South African government. Regulations and Guidelines -Coronavirus COVID-19",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Cohort profile: Africa centre demographic information system (ACDIS) and populationbased HIV survey",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Tanser",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Hosegood",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "B\u00e4rnighausen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Int J Epidemiol",
+            "volume": "37",
+            "issn": "",
+            "pages": "956--62",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/ije/dym211"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Declines in HIV incidence among men and women in a South African population-based cohort",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vandormael",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Akullian",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Siedner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nat Commun",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41467-019-13473-y"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "District health barometer 2015/2016. health systems trust",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Massyn",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Peer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "English",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Regression based quasi-experimental approach when randomisation is not an option: interrupted time series analysis",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kontopantelis",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Doran",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Springate",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "BMJ",
+            "volume": "350",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.h2750"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Dolutegravir for first-line antiretroviral therapy in low-income and middle-income countries: uncertainties and opportunities for implementation and research",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dorward",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lessells",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Drain",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Lancet HIV",
+            "volume": "5",
+            "issn": "",
+            "pages": "400--404",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2352-3018(18)30093-6"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Changes in children's healthcare visits during coronavirus Disease-2019 pandemic in Hangzhou",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Duan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. J Pediatr",
+            "volume": "224",
+            "issn": "",
+            "pages": "146--155",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jpeds.2020.05.013"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Effects of the COVID-19 Pandemic on Routine Pediatric Vaccine Ordering and Administration -United States",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Santoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lindley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Desilva",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "591--594",
+            "other_ids": {
+                "DOI": [
+                    "10.15585/mmwr.mm6919e2"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "The potential impact of health service disruptions on the burden of malaria: a modelling analysis for countries in sub-Saharan Africa",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Examining the unintended health consequences of the COVID-19 pandemic in South Africa. Wave 1 National Income Dynamics Study (NIDS",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Burger",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Nknonki",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rensburg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Coronavirus Rapid Mobile Survey (CRAM), 2020",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Reduced vaccination and the risk of measles and other childhood infections post-Ebola",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Takahashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cje",
+                    "middle": [],
+                    "last": "Metcalf",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ferrari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Science",
+            "volume": "347",
+            "issn": "",
+            "pages": "1240--1242",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.aaa3438"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Impact of the Ebola outbreak on health systems and population health in Sierra Leone",
+            "authors": [
+                {
+                    "first": "Jwt",
+                    "middle": [],
+                    "last": "Elston",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Moosa",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Moses",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Public Health",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/pubmed/fdv158"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "COVID-19 disrupts vaccine delivery",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Nelson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "20",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1473-3099(20)30304-2"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Impact of coronavirus disease 2019 (COVID-19) outbreak on ST-segment-elevation myocardial infarction care in Hong Kong",
+            "authors": [
+                {
+                    "first": "C-Cf",
+                    "middle": [],
+                    "last": "Tam",
+                    "suffix": ""
+                },
+                {
+                    "first": "K-S",
+                    "middle": [],
+                    "last": "Cheung",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Circ Cardiovasc Qual Outcomes",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/CIRCOUTCOMES.120.006631"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Collateral damage: medical care avoidance behavior among patients with acute coronary syndrome during the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Moroni",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gramegna",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ajello",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JACC Case Reports",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Delayed access or provision of care in Italy resulting from fear of COVID-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lazzerini",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Barbi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Apicella",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Child Adolesc Health",
+            "volume": "4",
+            "issn": "",
+            "pages": "10--11",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2352-4642(20)30108-5"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Premier Sihle Zikalala's Media Briefing & Update on Covid19 in the Province Since the start of Level 4 Lockdown",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Kznonline",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "The time is now: expedited HIV differentiated service delivery during the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wilkinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Grimsrud",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Int AIDS Soc",
+            "volume": "23",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jia2.25503"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "The the impact of the COVID-19 on the informal economy in Africa and the related policy responses",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "South Africa is hunting down coronavirus with thousands of health workers 2020",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mogotsi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bearak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Washington Post",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Ambulatory clinic visits at 11 region clinics in rural KwaZulu Natal during 27 January 2020-30 June 2020 by sex and age and clinic visit type",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Ambulatory clinic visitation before and after the nationwide lockdown in South Africa at 11 outpatient clinics in rural uMkhanyakude District, KwaZulu-Natal South Africa. Scatter plots represent mean clinic visitation at each clinic on weekdays during the observation period. The black fit line represents the mean visitation across all clinics estimated by postregression margins from a linear regression model, with a regression discontinuity coefficient at the date of the lockdown (27 March 2020, red line). Grey bars represent 95% CIs. The dotted blue line represents the geometic mean of the number of visits across all clinics on each day.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Wellcome Trust. 082384/Z/07/Z/. Willem Hanekom Wellcome Trust and Royal Society. 210479/Z/18/Z. Guy Harling Shahmanesh is supported by National Institutes of Health under award number 5R01MH114560-03, Bill & Melinda Gates Foundation, Grant Number OPP1136774 and OPP1171600.National Human Genome Research Institute of the National Institutes of Health (NIH) under Award Number U24HG006941, South African Medical Research Council (MRC-RFA-UFSP-01-2013/ UKZN HIVEPI) and the South African Department of Science and Innovation (DSI). MJS is supported by the National Institutes of Health (R01 AI124718, R01 AG059504).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "*Visit types are not mutually exclusive so column totals may exceed 100%.\u2020PNC and FP; visits for antenatal care, prenatal care and/or FP. \u2021HIV visits: visits for HIV testing, antiretroviral therapy initiation, antiretroviral therapy continuation or pharmacy pick-up. \u00a7Chronic care: visits for hypertension and/or diabetes.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Mixed effects regression model results demonstrating changes in mean visits/clinic, by visit type and demographic strata, in the prelockdown period and after",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Sensitivity analyses, demonstrating results of the main regression model and alternate models",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Acknowledgements The authors would like to thank the outstanding field staff at the Africa Health Research Institute for their work in conducting the demographic health survey field work, as well as the community and the study participants for their time and efforts. The population HIV surveillance is a node of the South African Population Research Infrastructure Network (SAPRIN) and funded by the South African Department of Science and Innovation and hosted by the South African Medical Research Council. The authors would also like to thank to Zahra Reynolds for her assistance in organising elements of the manuscript for submission. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        }
+    ]
+}

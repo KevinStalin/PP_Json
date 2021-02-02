@@ -1,0 +1,1897 @@
+{
+    "paper_id": "0ac2cf042c6d2b539acf6e0d0ef6dbf93976c0fe",
+    "metadata": {
+        "title": "The impact of the COVID-19 pandemic on harm reduction services in Spain",
+        "authors": [
+            {
+                "first": "Camila",
+                "middle": [
+                    "A"
+                ],
+                "last": "Picchio",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jorge",
+                "middle": [],
+                "last": "Valencia",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jason",
+                "middle": [],
+                "last": "Doran",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tracy",
+                "middle": [],
+                "last": "Swan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Marta",
+                "middle": [],
+                "last": "Pastor",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Elisa",
+                "middle": [],
+                "last": "Martr\u00f3",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Joan",
+                "middle": [],
+                "last": "Colom",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jeffrey",
+                "middle": [
+                    "V"
+                ],
+                "last": "Lazarus",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: Containment policies and other restrictions introduced by the Spanish government in response to the COVID-19 pandemic present challenges for marginalised populations, such as people who use drugs. Harm reduction centres are often linked to social services, mental health services, and infectious disease testing, in addition to tools and services that help to reduce the harms associated with injecting drugs. This study aimed to explore the impact of the pandemic on these services in four autonomous communities in Spain.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Methods: This is a cross-sectional study that employed a seven-section structured survey administered electronically to 20 centres in July 2020. Data from the most heavily affected months (March-June) in 2020 were compared to data from the same period in 2019. Averages were calculated with their ranges, rates, and absolute numbers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results: All 11 responding centres reported having had to adapt or modify their services during the Spanish state of alarm (14 March-21 June 2020). One centre reported complete closure for 2 months and four reported increases in their operating hours. The average number of service users across all centres decreased by 22% in comparison to the same period in the previous year and the average needle distribution decreased by 40% in comparison to 2019. Most centres reported a decrease in infectious disease testing rates (hepatitis B and C viruses, human immunodeficiency virus, and tuberculosis) for March, April, and May in 2020 compared to the previous year. Reported deaths as a result of overdose did not increase during the state of alarm, but 2/11 (18%) centres reported an increase in overdose deaths immediately after finalisation of the state of alarm.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Overall, Spanish harm reduction centres were able to continue operating and offering services by adjusting operating hours. The number of overall service users and needles distributed fell during the Spanish state of alarm lockdown period, suggesting that fewer clients accessed harm reduction services during this time, putting them at greater risk of reusing or sharing injecting equipment, overdosing, acquiring infectious diseases with decreased access to testing or discontinuing ongoing treatment such as methadone maintenance therapy, hepatitis C treatment, or antiretroviral therapy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "On 31 December 2019, the first case of a novel coronavirus, SARS-CoV-2, was reported in Wuhan, China. By 30 January 2020, the World Health Organization (WHO) had declared a Public Health Emergency of International Concern, and on 11 March, declared a pandemic. COVID-19, the coronavirus disease caused by Open Access *Correspondence: Jeffrey.Lazarus@isglobal.org 1 Barcelona Institute for Global Health (ISGlobal), Hospital Cl\u00ednic, University of Barcelona, Barcelona, Spain Full list of author information is available at the end of the article SARS-CoV-2, has spread to almost every country in the world and infected over 20 million people globally [1] .",
+            "cite_spans": [
+                {
+                    "start": 363,
+                    "end": 364,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 650,
+                    "end": 653,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background"
+        },
+        {
+            "text": "The effects of COVID-19, and the measures taken to contain it, have rippled across every aspect of society, magnifying existing inequalities among marginalised populations, such as people who use drugs (PWUD). PWUD face a range of legal, structural, and social barriers and high rates of morbidity and premature mortality [2] . Recognising the challenges faced by PWUD, in 2012 the United Nations proposed a comprehensive package of evidence-based harm reduction measures [3] , which includes a number of services that aim to prevent the adverse effects of using drugs (Table 1) .",
+            "cite_spans": [
+                {
+                    "start": 322,
+                    "end": 325,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 472,
+                    "end": 475,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 569,
+                    "end": 578,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Background"
+        },
+        {
+            "text": "Harm reduction programmes often deliver or are linked with life-saving social programmes and medical and mental health services. Nonetheless, infection with the human immunodeficiency virus (HIV), hepatitis C virus (HCV) [4] , and tuberculosis (TB) is prevalent and continues to spread among PWUD, partially driven by inadequate access to needle and syringe programmes (NSP) and opioid agonist therapy (OAT) [5] , which, when combined, can lower the risk for HCV acquisition among PWUD by 74% [6] and also significantly lower HIV incidence [7, 8] .",
+            "cite_spans": [
+                {
+                    "start": 221,
+                    "end": 224,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 408,
+                    "end": 411,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 493,
+                    "end": 496,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 540,
+                    "end": 543,
+                    "text": "[7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 544,
+                    "end": 546,
+                    "text": "8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background"
+        },
+        {
+            "text": "As a result of the COVID-19 containment measures, PWUD living with HIV, HCV or TB may face disruptions in access to antiretroviral therapy (ART), and direct-acting antivirals (DAAs) for HCV and TB treatment, which could drive drug resistance and/or lead to treatment failure. Similarly, in general, PWUD are at a greater risk of acquiring these infections and, as a result of the containment measures, may face disruptions in access to a timely diagnosis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Background"
+        },
+        {
+            "text": "PWUD face an additional risk of infection with COVID-19 than people who do not use drugs [9] , and could suffer from associated poor health outcomes. Drug use can involve close contact while sharing and/or reusing syringes and other paraphernalia and injecting in groups. Common co-morbidities (HCV [10] , and chronic obstructive pulmonary disease (COPD) [11] ) among PWUD are linked to adverse outcomes of COVID-19. In addition, COVID-19 mortality is associated with older age and smoking [12] , both of which are common in PWUD [13, 14] .",
+            "cite_spans": [
+                {
+                    "start": 89,
+                    "end": 92,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 299,
+                    "end": 303,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 355,
+                    "end": 359,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 490,
+                    "end": 494,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 530,
+                    "end": 534,
+                    "text": "[13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 535,
+                    "end": 538,
+                    "text": "14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background"
+        },
+        {
+            "text": "Across Europe, the containment policies that have been put in place to mitigate the spread of COVID-19 include strict physical distancing measures. Everyday services for PWUD had to change their opening hours or were shut down until further notice, including some health and social services [15, 16] . Some PWUD have been left without access to necessary services that allow them to protect themselves against, get tested, and seek treatment for bloodborne viruses (BBV) and TB; lower their risk of overdose; check the quality of the drugs they are using; and obtain necessary medical and mental healthcare, including for emergencies.",
+            "cite_spans": [
+                {
+                    "start": 291,
+                    "end": 295,
+                    "text": "[15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 296,
+                    "end": 299,
+                    "text": "16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background"
+        },
+        {
+            "text": "In Spain, use of alcohol and drugs was one of the top five contributors to disability-adjusted life years (DALYs) in 2016 [17] . Cocaine (39%), cannabis (29%), and heroin (24%) were the primary drugs resulting in treatment commencement in Spain and 58,749 clients received opioid substitution therapy (OST) in 2017 [18] . Of those who were admitted for addiction treatment in Spain in 2017, 14.3% began treatment for heroin use [19] . Spain has had a National Plan on Drugs [Plan Nacional Sobre Drogas (PNSD)] [20] since July 1985 and provides guidance on policies on drug use and drug dependence. The services offered to PWUD in Spain vary widely across the country's 17 autonomous communities [21] . In 2017, 137 facilities for drug dependency, financed through the public and private sectors, were reported in Spain [19] . While harm reduction centres have been reported in 13 of the 17 autonomous communities, often these centres have insufficient data or resources for proper monitoring of In order to better understand the effect of the COVID-19 pandemic on harm reduction service provision in Spain, we report service utilisation, operating hours, and provision of harm reduction services such as OST, DAAs, and ART, infectious disease testing [hepatitis B and C viruses (HBV, HCV), human immunodeficiency virus (HIV), and tuberculosis (TB)], and mental health services during the pandemic and for the same period one year earlier.",
+            "cite_spans": [
+                {
+                    "start": 122,
+                    "end": 126,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 315,
+                    "end": 319,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 428,
+                    "end": 432,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 510,
+                    "end": 514,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 695,
+                    "end": 699,
+                    "text": "[21]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 819,
+                    "end": 823,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background"
+        },
+        {
+            "text": "We conducted a cross-sectional study that employed a seven-section structured survey administered electronically to one focal point per centre. The survey was followed up to confirm results and clarify any uncertainties.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design"
+        },
+        {
+            "text": "The survey consisted of questions regarding care provision, service user demographics, testing practices for infectious diseases (HBV, HCV, HIV and TB), reported prevalence of overdose, issues affecting PWUD during the Spanish state of alarm, and the relevant government responses to the pandemic for PWUD. Four key variables were collected from March to June 2019 and the same period in 2020 and included infectious disease testing and number of positive results, number of methadone treatments distributed, number of needles and syringes distributed, and the number of people commencing DAA treatment and ART. Data were also collected on the number of service users for January-June 2019 and the same period in 2020. One open-ended question was included to allow for elaboration on these topics.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design"
+        },
+        {
+            "text": "All answers were dichotomous (yes/no) except for the questions on issues affecting PWUD during the Spanish state of alarm (Not a problem, somewhat a problem, neutral, problematic, very problematic) and the government response (excellent, above average, average, below average, bad), which were collected on a 5-point Likert scale. Prevalence of infectious diseases and the number of tests performed, number of total users, sex and nationality distribution, and the number of needles and syringes distributed were collected as continuous variables.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design"
+        },
+        {
+            "text": "Participants were harm reduction service providers who have been providing services in Spain since at least January 2019.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Population and sample"
+        },
+        {
+            "text": "In 2017, 137 harm reduction centres were active in Spain. A harm reduction centre, as defined by the Spanish National Plan on Addictions (2017-2024) [20] , includes all of the policies, strategies and programmes that ultimately aim is to lessen the negative effects of substance use (without necessarily aiming to achieve a reduction in their use) either at an individual level, or in families, both in the area of treatment and prevention, and social incorporation. Harm reduction centres in Spain may be comprehensive or focus on specific aspects that reduce the harm associated with drug consumption.",
+            "cite_spans": [
+                {
+                    "start": 149,
+                    "end": 153,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Population and sample"
+        },
+        {
+            "text": "Twenty harm reduction centres were contacted in four Spanish autonomous communities with the highest prevalence of PWUD: the Basque Country, Catalonia, Madrid, and Valencia.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Population and sample"
+        },
+        {
+            "text": "Standard descriptive statistics were used to examine the distribution of key outcomes variables. Means and ranges were calculated for continuous variables and percentages and numbers for categorical variables. These data were used to describe the study respondents and address the descriptive research question. To calculate testing rates, the number of users in each centre was used as the denominator.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data analysis"
+        },
+        {
+            "text": "No personal identifying information was collected and the IRB confirmed that no ethical approval was required. In an introductory email sent individually to each harm reduction centre focal point, information on the study and its objectives were provided. All data were reported at the centre level and data were kept on a password-protected Excel file.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethical considerations"
+        },
+        {
+            "text": "Thirteen of the 20 (65%) centres contacted returned the completed survey: the Basque Country (n = 4), Catalonia (n = 6), Madrid (n = 2), and Valencia (n = 1). All 13 centres provide NSP and four (30%) have a supervised injecting room. All centres offer mental health services by connecting users to established programmes, including other non-governmental organisations (NGOs) (n = 4), referring them to established services in the public system (n = 7), or providing the services that are integrated into their centre (n = 2). A summary of the main services offered by the 11 centres is described in Table 2 . All centres (n = 13) reported having had to adapt procedures in their centres by making mask-use mandatory, setting up socially distanced spaces, limiting capacity, and/or installing Plexiglas in order to guarantee the continuation of their activities during the Spanish COVID-19 state of alarm. Of these, two centres shut down during this period.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 601,
+                    "end": 608,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The average age of clients in 2019 in the centres that provided data (n = 7) was 43.7 years (range: 40-47) and the average number of users in 12/13 centres in the same year was 1281 (range: 15-8748). All centres that responded (12/13) served more men (12,400 total, range: 13-6735) than women (2969 total, range: 2-2013). Of the 11 centres that provided data, Spanish nationals (9799 total, range: 11-5861) made up the majority of service users compared to those from other countries (5064 total, range: 4-2887).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Eleven out of thirteen (84.6%) centres reported that they were able to keep their centres open and operational during the Spanish state of alarm. One centre had to close in March and April 2020 but reopened on 27 May 2020 and the other closed from March until the end of the state of alarm (21 June 2020). The average weekly operating hours in 2019 for centres that reported these data (n = 9) was 52.4 h (range: and in 2020 it was 47.4 h (range: 25-82). Four centres reduced their operating hours while the remaining five others increased their operating hours ( Table 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 564,
+                    "end": 572,
+                    "text": "Table 3)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Impact of the COVID-19 pandemic on harm reduction operating hours and service users"
+        },
+        {
+            "text": "The average number of service users between the months of January-June 2019 in the centres (n = 11) was 292 (range: 11-1141) in comparison to the same months in 2020, which was 215 (range: 0-819). The difference in the overall average number of service users reflects a decrease of 26.4%. There was great variability among centres (Fig. 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 331,
+                    "end": 339,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Impact of the COVID-19 pandemic on harm reduction operating hours and service users"
+        },
+        {
+            "text": "Ten of the 13 (76.9%) centres reported data on needle distribution for the months of March-June 2019 and 11/13 (84.6%) reported data for the same months in 2020. One centre did not have 2019 data available (Centre 9). March 2019 had the highest monthly average of needle distribution (7393) among the 10 centres that reported these data and April 2020 had the least number of needles distributed on average (3555). The total 4-month average of distributed needles was 6831. During the same months in 2020, the average number of needles distributed reduced by 40% (4140). There was variability between each centre and some reported an increase in needle distribution in the 2020 months compared to 2019 (Fig. 2) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 702,
+                    "end": 710,
+                    "text": "(Fig. 2)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Impact of the COVID-19 pandemic on needle and syringe programmes and distribution of materials"
+        },
+        {
+            "text": "All centres reported testing for infectious diseases in situ. Six (46%) centres reported offering HBV testing and Mantoux tests for TB while nine (69%) offered HCV and HIV testing. Not all centres provided testing data despite reporting that they do provide them. Overall, most centres reported a decrease in testing rates for March, April, and May in 2020 compared to the year before for all infectious diseases. In some centres, HIV and HCV testing greatly increased in June 2020 in comparison to the year before and the month prior (May 2020). Testing rates for each centre for the months of March-June in 2019 and 2020 are described in Table 4 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 640,
+                    "end": 647,
+                    "text": "Table 4",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Impact of the COVID-19 pandemic on infectious disease testing"
+        },
+        {
+            "text": "Six (46%) out of 13 centres reported providing methadone on-site, and six (46%) centres provided DAAs and five (38%) provided ART, respectively. In the months of March-June 2019, 1163 clients in all centres received methadone versus 1422 in the same months in 2020, seeing a 22% increase in methadone distribution. In the six centres that reported distributing DAA therapy, 88 clients received DAAs in 2019 during the same months compared to 16 in 2020. One centre did not report this data for 2019. This represents an 82% decrease. In the five centres that reported ART distribution, 10 clients received ART in 2019 compared to 13 during the same months in 2020, showing a 30% increase.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Impact of the COVID-19 pandemic on treatment administration (methadone, DAAs, ART)"
+        },
+        {
+            "text": "Nine of the 13 (69%) centres responded that they did not see an increase in reported overdose deaths during the Spanish state of alarm, while one centre (7.6%) reported they did see an increase, another (7.6%) did not know, and two centres did not respond.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Impact of the COVID-19 pandemic on overdose and medical emergencies"
+        },
+        {
+            "text": "Two of the 13 (15.4%) centres responded that they saw an increase in reported overdose deaths immediately after the Spanish state of alarm ended. One centre (7.6%) did not know if overdose deaths increased, the remaining (61.5%) did not report an increase in overdose deaths in their centres, and two (15.4%) did not respond.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Impact of the COVID-19 pandemic on overdose and medical emergencies"
+        },
+        {
+            "text": "There were a total of 99 reported medical emergencies across all centres that responded (9/13) between March and June 2019 with a range of zero medical emergencies to 26 per month. During the months of March to June 2020, there were a total of 96 reported medical emergencies among the same centres, ranging from zero medical emergencies to 25 per month. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Impact of the COVID-19 pandemic on overdose and medical emergencies"
+        },
+        {
+            "text": "Twelve (92%) centres responded to the questions regarding challenges faced by PWUD during the COVID-19 pandemic state of alarm. Those who responded to the survey reported that limited access to social workers who assist with social benefit processes was the most problematic issue affecting PWUD, with all 12 (100%) people surveyed responding that it was \"problematic\" or \"very problematic\". Ten (83%) respondents also believed that difficulties with the police while on the street would be a \"problematic\" or \"very problematic\" issue for PWUD, in addition to an increase in mental health issues (8/12) and limited access to drug-checking services (6/12) (Fig. 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 655,
+                    "end": 663,
+                    "text": "(Fig. 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Challenges faced by PWUD during the COVID-19 pandemic state of alarm in Spain"
+        },
+        {
+            "text": "The types of regional agencies responsible for managing and coordinating the COVID-19 response in their autonomous communities for PWUD vary. Of those that responded to the question (n = 12), the majority of centres said that the responsible entity performed average (n = 4) or below average (n = 4). One centre responded that their responsible administration did an excellent job and three (25%) reported that their agencies did better than average.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Government response to the COVID-19 pandemic"
+        },
+        {
+            "text": "Pandemics expose weaknesses in societies and bring to the fore a country's ability to respond and protect its most vulnerable people [22] . Measures to mitigate the effects of COVID-19 have had serious social and economic impacts; although they have affected everyone, the impact is largest among marginalised and vulnerable populations [23, 24] . This study set out to understand if, and to what extent, services for PWUD, an already vulnerable population, were affected during Spain's COVID-19 state of alarm-and the potential consequences of pandemic-related disruptions.",
+            "cite_spans": [
+                {
+                    "start": 133,
+                    "end": 137,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 337,
+                    "end": 341,
+                    "text": "[23,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 342,
+                    "end": 345,
+                    "text": "24]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Service closures and disruptions have been reported in the United States, western and eastern Europe, sub-Saharan Africa, and Latin America and the Caribbean [22, [25] [26] [27] [28] . Our study found that all of the 13 participating harm reduction centres reported having had to modify or adapt their services. Overall, the average weekly operating hours across all centres decreased during Spain's state of alarm; however, four of the centres (13 responded) actually increased their operating hours during this period. Although Spain was one of the most heavily affected countries in the European Union, its network of harm reduction centres showed resilience by adapting policy changes and innovative strategies to deliver essential services to PWUD. Similarly, the only community checkpoint offering services to men who have sex with men in Barcelona reported a closure of services to the public from 13 April to 18 May 2020 (personal communication). However, in an attempt to reduce the risks associated with a cessation of essential services to this population, only HIV and STI testing were interrupted during this time while administration of ART and PrEP continued with follow-up via telehealth. Although these centres were largely able to stay open, they served a smaller number of people, and distributed fewer needles in 2020 than in 2019. This decline in NSP coverage could lead to an increased risk for needle reuse or sharing, and a corresponding increase in incidence of BBVs, though further research should investigate whether the decline corresponded to the reduction in the drug supply. In addition, as a result of reduced operating hours or closures, testing for infectious diseases and linkages to health and social service programmes were affected, with several centres operating at reduced hours or deprioritising testing, given that the health system was overwhelmed with COVID-19 cases. Although it may be too early to determine the impact of these reductions on the incidence of viral hepatitis, HIV or TB, this should be a priority for further research. Harm reduction programmes reach people at high risk for infectious diseases. People who inject drugs are 22 times more likely to be living with HIV than the general population [29] , representing nearly 20% of the estimated 15.6 million people who inject drugs globally. HCV is highly prevalent, with approximately 50% of PWUD currently or previously infected [4] . Timely diagnoses of these diseases in centres that are regularly used by, and accessible to, PWUD is imperative for individual and public health. A breach in these people-centred models of care [30] for PWUD could derail progress towards global goals and targets to eliminate viral hepatitis [31] and AIDS as threats to public health.",
+            "cite_spans": [
+                {
+                    "start": 158,
+                    "end": 162,
+                    "text": "[22,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 163,
+                    "end": 167,
+                    "text": "[25]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 168,
+                    "end": 172,
+                    "text": "[26]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 173,
+                    "end": 177,
+                    "text": "[27]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 178,
+                    "end": 182,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 2257,
+                    "end": 2261,
+                    "text": "[29]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 2441,
+                    "end": 2444,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 2641,
+                    "end": 2645,
+                    "text": "[30]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 2739,
+                    "end": 2743,
+                    "text": "[31]",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Additionally, PWUD face risks to their survival, health, and well-being, since many are unstably housed (including street homelessness). This social isolation increases the likelihood of overdose, which may be further compounded by lack of regular access to OAT and/ or opioids due to COVID-19 prevention measures [26] that restrict movement in some settings. While our study did not report an overall increase in reported overdose deaths, we recognize that this can be a significant issue in other settings [32] .",
+            "cite_spans": [
+                {
+                    "start": 314,
+                    "end": 318,
+                    "text": "[26]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 508,
+                    "end": 512,
+                    "text": "[32]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Despite this study reporting data from the state of alarm, which the Spanish government declared due to the ongoing COVID-19 pandemic, none of the surveyed centres offered COVID-19 testing during that time. Testing for the SARS-CoV-2 virus could be expanded into harm reduction services to include it through proper referral or in parallel through community-based screening. As point-of-care diagnostic methods continue to develop, testing in these settings should be considered. Harm reduction centres that have GeneXpert platforms (Cepheid Inc.) for HCV and TB testing available in their facilities or in community-based centres, should consider using this or other similar platforms for COVID-19 testing among their clients [33] . Early detection of COVID-19 could help mitigate possible complications caused by the virus among PWUD, who may have underlying chronic medical conditions that increase their risk of developing severe COVID-19 illness, such as COPD, asthma, cardiovascular diseases, and viral hepatitis [9] . PWUD are at risk for sepsis and endocarditis, and commonly have skin and soft tissue infections [34, 35] which, when left untreated, can lead to hospitalisation and even amputation, putting them at greater risk if infected with COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 727,
+                    "end": 731,
+                    "text": "[33]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 1019,
+                    "end": 1022,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1121,
+                    "end": 1125,
+                    "text": "[34,",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1126,
+                    "end": 1129,
+                    "text": "35]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Drug treatment services and low-threshold harm reduction services for PWUD are essential health services, which need to maintain operational under restricted conditions brought on by global crises, like pandemics [15] . Our study showed that this was possible in the Spanish context, where both government and nongovernmental-run services adapted their opening hours.",
+            "cite_spans": [
+                {
+                    "start": 213,
+                    "end": 217,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "However, such health system resilience should not be left to chance or to the goodwill of service providers. Spain and other countries across Europe need to be prepared for the continuation of policies that may disrupt services during the current pandemic and/or future pandemics. In a recent study measuring the public's perception of government COVID-19 pandemic response efforts, Spain was ranked low with 44 out of 100 points, indicating that the Spanish government needs to improve its communication with all of its constituents, and according to the results of the study, in particular, in protecting the welfare of vulnerable populations, which includes PWUD [36] . Pandemic preparations and response should include making the health system more people-centred through improved engagement and communication with all key stakeholders [37, 38] , not least the clients of harm reduction services. ",
+            "cite_spans": [
+                {
+                    "start": 666,
+                    "end": 670,
+                    "text": "[36]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 840,
+                    "end": 844,
+                    "text": "[37,",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 845,
+                    "end": 848,
+                    "text": "38]",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Overall, consulted Spanish harm reduction centres were able to continue running and offering services by adjusting operating hours; only two centres completely shut down for a specific period of time. The number of overall service users and needles distributed fell during the Spanish lockdown period, suggesting that fewer clients accessed harm reduction services during that time. This may have resulted in greater risk of reusing or sharing injecting equipment, overdosing or acquiring infectious diseases, in addition to decreased access to testing or discontinuing ongoing treatment such as methadone maintenance therapy, hepatitis C treatment, or antiretroviral therapy. For centres that were able to remain open, and in some instances expand operating hours, lessons learned should be shared with the centres that were unable to continue offering services so that harm reduction services remain operational during the COVID-19 pandemic in the event of future pandemics. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Coronavirus cases: COVID-19 coronavirus pandemic",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Worldometer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "1--22",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Global patterns of opioid use and dependence: harms to populations, interventions, and future action",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Degenhardt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Grebely",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Stone",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hickman",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vickerman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bdl",
+                    "middle": [],
+                    "last": "Marshall",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "The Lancet",
+            "volume": "394",
+            "issn": "",
+            "pages": "1560--79",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "United Nations Office on Drugs and Crime IN of P who UDUNP on HUNDPUNPFWHOUSA for ID. Implementing comprehensive HIV and HCV programmes with people who inject drugs: practical guidance for collaborative interventions",
+            "authors": [],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Global prevalence of injecting drug use and sociodemographic characteristics and prevalence of HIV, HBV, and HCV in people who inject drugs: a multistage systematic review",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Degenhardt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Peacock",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Colledge",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Grebely",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vickerman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Lancet Glob Heal",
+            "volume": "5",
+            "issn": "12",
+            "pages": "1192--207",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Public health and international drug policy",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Csete",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kamarulzaman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kazatchkine",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Altice",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Balicki",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Buxton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "The Lancet",
+            "volume": "387",
+            "issn": "",
+            "pages": "1427--80",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Needle and syringe programmes and opioid substitution therapy for preventing HCV transmission among people who inject drugs: findings from a Cochrane Review and meta-analysis",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Platt",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Minozzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Reed",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vickerman",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hagan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "French",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Addiction",
+            "volume": "113",
+            "issn": "3",
+            "pages": "545--63",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Changes in HIV incidence among people who inject drugs in Taiwan following Introduction of a harm reduction program: a study of two cohorts",
+            "authors": [
+                {
+                    "first": "Y-F",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yang J-Y",
+                    "middle": [],
+                    "last": "Nelson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H-S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lew-Ting C-Y",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yang",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "C-H",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "PLoS Med",
+            "volume": "11",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Effectiveness of structural-level needle/syringe programs to reduce HCV and HIV infection among people who inject drugs: a systematic review",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Abdul-Quader",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Feelemyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Modi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Stein",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Briceno",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Semaan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "AIDS Behav",
+            "volume": "17",
+            "issn": "",
+            "pages": "2878--92",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "EMCDDA update on the implications of COVID-19 for people who use drugs (PWUD) and drug service providers",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "What to know about liver disease and COVID-19|CDC",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "ACE-2 expression in the small airway epithelia of smokers and COPD patients: implications for COVID-19",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tam",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Shaipanich",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hackett",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Singhera",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur Respir J",
+            "volume": "55",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "A cohort of patients with COVID-19 in a major teaching hospital in Europe",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Borobia",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Carcas",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Arnalich",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "\u00c1lvarez-Sala",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Monserrat-Villatoro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Quintana",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Med",
+            "volume": "9",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Tobacco and e-cigarette use amongst illicit drug users in Australia",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sutherland",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sindicich",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Entwistle",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Whittaker",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Peacock",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Matthews",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Drug Alcohol Depend",
+            "volume": "159",
+            "issn": "",
+            "pages": "35--41",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "ACMD Advisory council on the misuse of drugs: ageing cohort of drug users",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Bowden-Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Sulaiman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Sajid",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "EMCDDA trendspotter briefingIImpact of COVID-19 on drug services and help-seeking in Europe",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Encuesta sobre impacto del COVID-19 en las pautas de consumo de drogas, los da\u00f1os y los servicios de drogas",
+            "authors": [
+                {
+                    "first": "Madrid",
+                    "middle": [],
+                    "last": "Comunidad De",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "The burden of disease in Spain: results from the Global Burden of Disease",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Soriano",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rojas-Rueda",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alonso",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ant\u00f3",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Cardona",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Fern\u00e1ndez",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Med Clin",
+            "volume": "151",
+            "issn": "5",
+            "pages": "171--90",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "European Monitoring Centre for Drugs and Drug Addiction (EMCDDA)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Spain country drug report",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Alcohol, tabaco y drogas ilegales en Espa\u00f1a",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ministerio De Sanidad C Y Bs De",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Informe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Delegaci\u00f3n del Gobierno para el Plan Nacional sobre drogas. NATIONAL STRATEGY ON ADDICTIONS",
+            "authors": [],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Delegaci\u00f3n del Gobierno para el Plan Nacional sobre drogas. Memoria. Plan Nacional sobre Drogas",
+            "authors": [],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "COVID-19 -Enacting a 'new normal' for people who use drugs",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Agliata",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Guarinieri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Drug Policy",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.drugpo.2020.102832"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "COVID-19: new UNDP data dashboards reveal huge disparities among countries in ability to cope and recover|UNDP",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "HIV in the era of COVID-19: why experts are concerned about an increase in cases-ABC News",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Dastmalchi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Challenges in maintaining treatment services for people who use drugs during the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dunlop",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lokuge",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Masters",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sequeira",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Saul",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Dunlop",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Harm Reduct J",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12954-020-00370-7"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "INPUD Online survey on COVID-19 & People who use drugs",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Harm reduction responses to COVID-19 in Europe: regularly updated infopage-Drugreporter",
+            "authors": [
+                {
+                    "first": "S\u00e1rosi",
+                    "middle": [],
+                    "last": "P\u00e9ter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Worldwide more than half of new HIV infections now among key populations and their sexual partners",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "We know DAAs work, so now what? Simplifying models of care to enhance the hepatitis C cascade",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Lazarus",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Peric\u00e0s",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Picchio",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cernosa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoekstra",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Luhmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Intern Med",
+            "volume": "286",
+            "issn": "5",
+            "pages": "503--528",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/joim.12972"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "WHO | Global health sector strategy on viral hepatitis 2016-2021. WHO",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Global AIDS report-seizing the moment: tackling entrenched inequalities to end epidemidemics",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Rapid communication on the role of the GeneXpert \u00ae platform for rapid molecular testing for SARS-CoV-2 in the WHO European Region European Laboratory Initiative on TB, HIV and Viral Hepatitis",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Risk factors associated with skin and soft tissue infections among hospitalized people who inject drugs",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Phillips",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Herman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Liebschutz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Stein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Addict Med",
+            "volume": "11",
+            "issn": "6",
+            "pages": "461--468",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Factors associated with skin and soft tissue infections among people who inject drugs in the United Kingdom: a comparative examination of data from two surveys",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Doran",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Harris",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hope",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wright",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Edmundson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sinka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Drug Alcohol Depend",
+            "volume": "213",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "COVID-SCORE: a global survey to assess public perceptions of government responses to COVID-19 (COVID-SCORE-10)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Lazarus",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ratzan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Palayew",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Billari",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Binagwaho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PLoS ONE",
+            "volume": "15",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Novel health systems service design checklist to improve healthcare access for marginalised, underserved communities in Europe",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Lazarus",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cascio",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Onyango",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Schatz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ Open",
+            "volume": "10",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Hepatitis C elimination among people who inject drugs: Challenges and recommendations for action within a health systems framework",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Day",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hellard",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Treloar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bruneau",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "\u00d8vrehus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Liver Int",
+            "volume": "39",
+            "issn": "1",
+            "pages": "20--30",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/liv.13949"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Publisher's Note",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "11) during the first 6 months of the years 2019 and 2020, Spain (n = 11) NSP Needle and syringe programme, SIR supervised injecting room, OST opioid substation therapy, DAA direct acting antivirals, HBV hepatitis B virus, HCV hepatitis C virus, HIV human immunodeficiency virus (HIV), TB tuberculosis, N/A not available Centre (city name) n. users 2019 (Jan-June) n. users 2020 (Jan-June) NSP SIR Naloxone distribution Education services Mental health services OST HCV DAA HIV ART HBV testing HCV testing HIV testing TB testing",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Time trend graphs describing number of users per centre that reported data (n = 11) during the first 6 months of 2019 and 2020. Notes: Free Y-scale axis utilised to visualise the relative differences",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Time trend graphs describing the number of distributed needles in each centre that reported data (n = 11) between the months of March and June in 2019 and 2020. Notes: Free Y-scale axis utilised to visualise the relative differences",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "List of the United Nations-recommended services for people who use drugs Sources: WHO, UNODC, UNAIDS technical guide for countries to set targets for universal access to HIV prevention, treatment and care for injecting drug users, 2012 revision. Geneva: World Health Organization; 2013. Consolidated guidelines on HIV prevention, diagnosis, treatment and care for key populations, 2016 update. Geneva: World Health Organization; 2016",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Operating hours and percentage change of centres with reported data (n = 9) pre-state of alarm and during",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Infectious disease (HBV, HCV, HIV, and TB) testing rate per 1000 service users in March-June 2019 and March-June 2020Only centres that reported providing HBV, HCV, HIV, and TB testing are reflected in thistable Not being able to arrive to the centre (i.e. Due to there being no public transport, far distance, etc.) Contaminated drugs or low-quality drugs Increase in drug prices Limited access to OST Limited access to safe injec\u019fng sites Limited access to drug-checking services Limited access to medical services Limited access to BBV tes\u019fng Limited access to housing services or homeless shelters Difficul\u019fes with the police when on the streets Difficul\u019fes with neighbors Social isola\u019fng and discrimina\u019fon An increase in mental health issues Limited access to social workers that assist with social benefit processes (i.e. monetary, immigra\u019fon, etc.)Responses (n=12) to the ques\u019fon \"In your opinion, which are the most important difficul\u019fes that PWUD have had to experience during the COVID-19 state of alarm in Spain?\"Fig. 3Distribution of responses describing the most important difficulties that PWUD had to experience during the COVID-19 state of alarm in Spain, 2020",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

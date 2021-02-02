@@ -1,0 +1,1501 @@
+{
+    "paper_id": "0a25493ccd6f38db6cc47d1d1690774abe303418",
+    "metadata": {
+        "title": "Factors associated with cytomegalovirus serostatus in young people in England: a cross-sectional study",
+        "authors": [
+            {
+                "first": "Joanne",
+                "middle": [
+                    "R"
+                ],
+                "last": "Winter",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Graham",
+                "middle": [
+                    "S"
+                ],
+                "last": "Taylor",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Olivia",
+                "middle": [
+                    "G"
+                ],
+                "last": "Thomas",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Charlotte",
+                "middle": [],
+                "last": "Jackson",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Joanna",
+                "middle": [
+                    "E A"
+                ],
+                "last": "Lewis",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Helen",
+                "middle": [
+                    "R"
+                ],
+                "last": "Stagg",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: Human cytomegalovirus (CMV) is a common herpesvirus which is estimated to infect 83% of the global population. Whilst many infections are asymptomatic, it is an important cause of morbidity and mortality, particularly for immunocompromised people and for infants who are congenitally infected. A vaccine against CMV has been stated as a public health priority, but there are gaps in our understanding of CMV epidemiology. To guide potential future vaccination strategies, our aim was to examine risk factors for CMV seropositivity in young people in England. Methods: The Health Survey for England (HSE) is an annual, cross-sectional representative survey of households in England during which data are collected through questionnaires, and blood samples are taken. We randomly selected individuals who participated in the HSE 2002, aiming for 25 participants of each sex in each single year age group from 11 to 24 years. Stored samples were tested for CMV antibodies. We undertook descriptive and regression analyses of CMV seroprevalence and risk factors for infection. Results: Demographic data and serostatus were available for 732 individuals, of whom 175 (23.7%) were CMVseropositive. CMV seroprevalence was associated with age, with 18.3% seropositive at 11-14 years compared to 28.3% at 22-24 years. CMV serostatus was also higher in people of non-white ethnicity (adjusted odds ratio [aOR] 6.22, 95% confidence interval [CI] 3.47-11.14), and in adults who were seropositive for EBV (aOR 2.08 [1.06-4.09]). There was no evidence that smoking status, occupation, body mass index and region of England were associated with CMV serostatus. Conclusions: CMV seroprevalence is strongly associated with ethnicity, and modestly increases with age in 11-24year-olds. A greater understanding of the transmission dynamics of CMV, and the impact of this on CMV-associated morbidity and mortality, is necessary to inform effective vaccination strategies when a vaccine for CMV becomes available.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The human cytomegalovirus (CMV) is a common human herpesvirus causing lifelong infections, and is estimated to infect 83% of the global population [1] . CMV can be transmitted from symptomatic individuals, via saliva or other body fluids and blood products [2] . Infection with CMV is typically subclinical in healthy individuals [3] , however it is linked to multiple causes of morbidity and mortality. CMV accounts for around 5-8% of infectious mononucleosis cases [4, 5] , and causes disease in immunocompromised people such as transplant and cancer patients [3] . Congenitally infected newborns can suffer from cytomegalic inclusion syndrome which can cause long-term neurological damage and, in some cases, life-threatening organ dysfunction [5] .",
+            "cite_spans": [
+                {
+                    "start": 147,
+                    "end": 150,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 257,
+                    "end": 260,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 330,
+                    "end": 333,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 467,
+                    "end": 470,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 471,
+                    "end": 473,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 562,
+                    "end": 565,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 747,
+                    "end": 750,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background"
+        },
+        {
+            "text": "CMV infection has been associated with shortened life expectancy, particularly in critically ill populations and immunocompromised people (such as those who have undergone organ transplants) [6] . In immunocompetent people in the UK, Gkrania-Klotsas et al. also found that CMV seropositivity was associated with lower life expectancy [6] . This confirmed the association reported in a population-based cohort study from the US [7] , as well as populations in older patients [8] and those with cardiovascular disease [9] . The association found in Gkrania-Klotsas et al. was specifically with deaths from causes other than cardiovascular disease and cancer, although high levels of CMV IgG antibodies were also associated with cardiovascular mortality [6] . Other studies in the United States, Finland and United Kingdom found that, in immunocompetent individuals, CMV infection and higher levels of CMV IgG antibodies were linked to higher rates of both cardiovascular [9] and allcause mortality [7] , as well as to cancer incidence [10] and ischemic heart disease [11] . However, CMV is negatively associated with multiple sclerosis onset [12] .",
+            "cite_spans": [
+                {
+                    "start": 191,
+                    "end": 194,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 334,
+                    "end": 337,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 427,
+                    "end": 430,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 474,
+                    "end": 477,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 516,
+                    "end": 519,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 751,
+                    "end": 754,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 969,
+                    "end": 972,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 996,
+                    "end": 999,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1033,
+                    "end": 1037,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1065,
+                    "end": 1069,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1140,
+                    "end": 1144,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background"
+        },
+        {
+            "text": "In terms of biological pathways, it has been hypothesised that frequent silent reactivations of CMV infection lead to chronic inflammation, which may be a causal factor in the increased risk of mortality [6] . Additionally, CMV seropositivity has been linked to telomere shortening of T cells, suggesting that CMV may be implicated in immunosenescence, thereby shortening life expectancy [2, 13] . There is also evidence for an immunological phenomenon called 'memory inflation', where a high proportion of CD8+ T cells in older CMV-positive individuals react to an epitope from a CMV protein [14] . This may limit the ability of the immune system to respond to other infections and could be associated with CMV's ability to infect the vascular endothelium. CMV infection also drives large expansions of cytotoxic virusspecific CD4+ T cells in older individuals, which could 'take up room' in the immune system and potentially limit responses to other pathogens [15] .",
+            "cite_spans": [
+                {
+                    "start": 204,
+                    "end": 207,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 388,
+                    "end": 391,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 392,
+                    "end": 395,
+                    "text": "13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 593,
+                    "end": 597,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 962,
+                    "end": 966,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background"
+        },
+        {
+            "text": "Given the implications of CMV infection, anti-CMV vaccines have been designated high priority by national health agencies, but to date no effective vaccines appear to be imminent [16, 17] . Mathematical modelling of the impact of different vaccination strategies can be used to guide vaccine development efforts and will be necessary to inform the optimal strategies for deployment of such a vaccine if or when it becomes available. A thorough understanding of CMV epidemiology is necessary for the development of such models.",
+            "cite_spans": [
+                {
+                    "start": 179,
+                    "end": 183,
+                    "text": "[16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 184,
+                    "end": 187,
+                    "text": "17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background"
+        },
+        {
+            "text": "CMV seroprevalence increases with age, and infection occurs at younger ages in economically developing countries [2, 6] , possibly due to higher rates of breastfeeding than in the UK (CMV is known to be transmitted through breast milk). A large population-based UK cohort study found that CMV infection was more common in women than in men [6] . Lower income and education levels, and ethnicities other than white, have been associated with earlier age at CMV infection [18] . CMV infection is also correlated with EBV infection [19, 20] . Socioeconomic status is strongly correlated with CMV infection; the reasons for this could include larger family size [21] , or have been hypothesised to be a result of stress induced by low socioeconomic status contributing to the down-regulation of the immune system and increased susceptibility to infection [18] .",
+            "cite_spans": [
+                {
+                    "start": 113,
+                    "end": 116,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 117,
+                    "end": 119,
+                    "text": "6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 340,
+                    "end": 343,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 470,
+                    "end": 474,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 529,
+                    "end": 533,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 534,
+                    "end": 537,
+                    "text": "20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 658,
+                    "end": 662,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 851,
+                    "end": 855,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background"
+        },
+        {
+            "text": "To date in the UK, studies of CMV seroprevalence have focused on older adults [6] , pregnant women [22] , and young children [23, 24] . However transmission can occur at all ages, and the association of CMV with infectious mononucleosis suggests that infection during adolescence could also be an important cause of morbidity. Therefore, our aim was to investigate the sociodemographic and lifestyle factors, particularly age, associated with CMV serostatus in children and young adults in England, in order to gain a better understanding of the epidemiology of CMV in this age group.",
+            "cite_spans": [
+                {
+                    "start": 78,
+                    "end": 81,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 99,
+                    "end": 103,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 125,
+                    "end": 129,
+                    "text": "[23,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 130,
+                    "end": 133,
+                    "text": "24]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background"
+        },
+        {
+            "text": "The Health Survey for England (HSE) is a crosssectional annual representative survey of English households. The methods have been described previously [25] . As part of a larger study investigating Epstein-Barr virus infection and transmission [20, 26] , we used data from randomly selected participants in the 2002 HSE, aiming for 25 male and 25 female participants in each singleyear age group from 11 to 24 years.",
+            "cite_spans": [
+                {
+                    "start": 151,
+                    "end": 155,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 244,
+                    "end": 248,
+                    "text": "[20,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 249,
+                    "end": 252,
+                    "text": "26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study population"
+        },
+        {
+            "text": "We used stored blood serum samples collected by the HSE. Commercial ELISA kits from EUROIMMUN, Germany (EI2791-9601-G, EI2570-9601G) were used to detect CMV-specific IgG and EBV viral capsid antigen (VCA)-specific IgG from the serum samples. Assays were conducted according to the manufacturer's instructions, and we calculated serum antibody concentrations using a standard curve. Results were presented in relative units (RU/mL) using the following thresholds; samples of <16RU/mL were classed as negative, \u226416 to <22RU/mL were borderline, and \u2265 22RU/mL were positive. For the analyses presented here, borderline results (CMV n = 1, EBV n = 5) were considered seropositive [20] .",
+            "cite_spans": [
+                {
+                    "start": 675,
+                    "end": 679,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Outcome: Seropositivity for Cytomegalovirus infection"
+        },
+        {
+            "text": "We used Stata version 15.0 for data analysis. Stata's svy commands were used to weight our sample to be representative of the age and sex of the 2002 English population, using data from the Office for National Statistics [27] . All stated percentages are weighted. We conducted descriptive analyses of the study population. We used ArcMap 10.3.1 to map CMV seroprevalence by English Government Office Region [28] .",
+            "cite_spans": [
+                {
+                    "start": 221,
+                    "end": 225,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 408,
+                    "end": 412,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "We used logistic regression models to investigate factors associated with being seropositive for CMV. We used a causal inference framework to identify a priori factors that needed to be included in multivariable models, drawing on the available data from the HSE. This resulted in two multivariable regression models. We built a 'whole-population' model, which included our entire study population, to examine the following factors: age, sex, ethnicity (categorised as 'white' or 'other' due to small numbers of non-white participants), body mass index (BMI; categorised as 'underweight' [BMI < 20] , 'healthy weight' [20] [21] [22] [23] [24] [25] , 'overweight' [25] [26] [27] [28] [29] [30] or 'obese' [> 30]), region of England, and EBV serostatus. Additionally, we built a second 'adults-only' model, which only included participants aged \u226516 years, and additionally included data from questions which were only asked of adults; smoking status (never smoked, current smoker, smoked in past) and occupational category (higher managerial and professional, intermediate occupations, routine and manual occupations, never worked or long-term unemployed, and other). Individuals missing data on one or more variables were excluded from the regression modelling.",
+            "cite_spans": [
+                {
+                    "start": 593,
+                    "end": 598,
+                    "text": "< 20]",
+                    "ref_id": null
+                },
+                {
+                    "start": 618,
+                    "end": 622,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 623,
+                    "end": 627,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 628,
+                    "end": 632,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 633,
+                    "end": 637,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 638,
+                    "end": 642,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 643,
+                    "end": 647,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 663,
+                    "end": 667,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 668,
+                    "end": 672,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 673,
+                    "end": 677,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 678,
+                    "end": 682,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 683,
+                    "end": 687,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 688,
+                    "end": 692,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "This study was approved by the University College London Research Ethics Committee (5683/002). The HSE obtained informed written consent from participants at the time of recruitment for blood samples to be collected and stored for future analyses. [15] A parent/ guardian of participants also provided written consent for the interviewing of participants who were younger than 16 years, and for the taking of blood samples from participants who were younger than 18 years.",
+            "cite_spans": [
+                {
+                    "start": 248,
+                    "end": 252,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Ethical approval"
+        },
+        {
+            "text": "Our study sample included 732 individuals aged 11-24 years, of whom 175 (23.7%) were CMV-seropositive. Seroprevalence by participant characteristics are shown in Table 1 . There was a slight increase in CMV seropositivity associated with age, from 18.3% at 11-14 years to 28.3% at 22-24 years. CMV seroprevalence was much lower in white people (19.2%) than people of other ethnicities (61.6%). Considerable variation in CMV seroprevalence was observed by region of England (Fig. 1 , Table 1 ), being highest in London (47.9%) and otherwise varying between 16.7% in the south-east and 28.7% in the east of England. CMV serostatus was also higher in women (26.9%) than in men (20.4%) and people who were EBV-seropositive (25.7%) than EBV-seronegative (17.9%).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 162,
+                    "end": 169,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 473,
+                    "end": 480,
+                    "text": "(Fig. 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 483,
+                    "end": 490,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Univariable and multivariable regression models were built examining the factors associated with CMV positivity. Factors associated with CMV seropositivity were largely consistent between the univariable and multivariable models ( Our study sample included 732 individuals aged 11-24 years, of whom 175 (23.7%) were CMV-seropositive. The characteristics of seropositive individuals are shown in Table 1 . Univariable and multivariable regression models were built examining the factors associated with CMV positivity. Factors associated with CMV seropositivity were largely consistent between the univariable and multivariable models (Table 2) , although confidence intervals tended to be wider in the multivariable models.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 395,
+                    "end": 402,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 634,
+                    "end": 643,
+                    "text": "(Table 2)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "There was an increase in CMV seropositivity associated with age, from 18.3% at 11-14 years to 28.3% at 22-24 years, but the confidence intervals between strata overlapped in logistic regression models. CMV seroprevalence was much higher in people of non-white ethnicities than in white people (61.6% vs 19.2%; aOR 6.22, 95% CI 3.47-11.14). CMV serostatus was also higher in Considerable variation in CMV seroprevalence was observed by region of England (Fig. 1, Table 1 ), CMV seroprevalence was highest in London (47.9%) and otherwise varied between 16.7% in the south-east to ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 453,
+                    "end": 469,
+                    "text": "(Fig. 1, Table 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "In this study of young people in England, we found that just under a quarter of people aged 11-24 years were infected with CMV, and that seroprevalence increased over this age range. CMV infection was also strongly correlated with non-white ethnicity and more weakly associated with EBV infection. There was no association observed between CMV and region of England, smoking status, BMI, or occupation. CMV and EBV serostatus were positively associated in univariable analyses, and when the multivariable analysis was restricted to adults, but not in the multivariable model which also included children aged 11-15 years. As discussed in our previous paper [20] , both CMV and EBV are associated with increasing age, however EBV increases more rapidly during adolescence than CMV. Thus, in a whole-cohort model adjusting for age, this association may not be visible. As the associations between age and both CMV and EBV [20] are less strong in adults, it is possible that there was enough of a residual effect that the association between CMV and EBV could be detected in the adults-only model. Given the cross-sectional nature of our study, the relative temporality of the two infections could not be assessed. Although established, the relationship between CMV and EBV is not well understood. It is known that EBV seroprevalence is higher than CMV seroprevalence in all age groups and that both increase with age [20] , but it is not known whether this relationship is causal or whether the association results from shared genetic, immunological and/or sociodemographic risk factors. Longitudinal studies with serial testing and a larger sample size would be necessary to explore this association in more detail.",
+            "cite_spans": [
+                {
+                    "start": 657,
+                    "end": 661,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 920,
+                    "end": 924,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1415,
+                    "end": 1419,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We observed a strong association between ethnicity and CMV seroprevalence; the odds of being CMV positive were approximately seven time higher for people of ethnicities other than white than for white people. This may be the result of different social mixing patterns, larger households, different eating or hygiene habits, lower breastfeeding rates in white people (resulting in less vertical transmission of CMV through breastmilk), possibly different countries of birth (of participants or their parents) or residual confounding of socioeconomic status. This strong association with ethnicity is also likely to be a confounder in the association between CMV and region, particularly London, that was only observed in univariable models, as there is a higher proportion of ethnic minorities living in London than elsewhere in England [29] . We were unable to analyse associations with ethnicity in more detail due to small numbers of participants; the \"non-white\" group comprised 57% Asian/Asian British (n = 44), 19% black/ black British (n = 15), 14% mixed ethnicity (n = 11) and 9% other ethnicity (n = 7). Further study of the association of ethnicity with CMV seroprevalence is needed in diverse cohorts.",
+            "cite_spans": [
+                {
+                    "start": 836,
+                    "end": 840,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our study benefits from a sample drawn from a highly rigorous, annual, representative survey of people in England, which we weighted to be representative of the English population, and the use of a quality-managed commercial assay to measure the antibody response. The limitations of our work include the use of a cross-sectional study design, preventing determination of the temporality of certain associations, and the age of the data; 2002 was the most recent year for which the HSE collected consent to analyse blood samples for blood-borne viruses. More recent data from the UK biobank found that 58% of those aged 40-69 years were seropositive for CMV at enrolment (2006-2010) [30] , and as CMV seroprevalence increases with age throughout life, the prevalence observed in young people in our study is consistent with what could be expected. An older study examined CMV seroprevalence in 1991 and 2002 and found that prevalence in young people did not differ between these two timepoints [31] , and so there is no particular reason to believe CMV seroprevalence has changed substantially since then. We also consider it unlikely that the associations between CMV and the risk factors we studied would have changed substantially since 2002, and therefore the associations we observed are likely to be consistent today even if there had been a slight change in CMV seroprevalence.",
+            "cite_spans": [
+                {
+                    "start": 683,
+                    "end": 687,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 994,
+                    "end": 998,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The relatively low seroprevalence of CMV meant this study may have lacked power to detect associations, particularly in the multivariable models. We were also limited in the variables that were available, we were unfortunately unable to examine associations with household size or household income. Additionally, the geographical variables available were lacking in granularity, meaning we were not able to explore regional differences in more depth or examine whether regional variation was associated with other sociodemographic risk factors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We observed only a modest increase in CMV seroprevalence associated with age, suggesting that adolescence is not a key transmission period for CMV as it is for EBV (for which seroprevalence increases from 60% in 11-14 year olds to 93% in [22] [23] [24] year olds [20] ). This may contribute to the lower incidence of CMVassociated (versus EBV-associated) infectious mononucleosis [4, 5] . Previous studies have shown that 15% of white British and 44% of British Pakistani infants were infected with CMV by the age of 2 years, and that seroprevalence was 59% in an adult cohort aged 40-79 years. In combination with our results, this suggests that after early childhood, there is no 'key' age group in which CMV seroprevalence sharply increases, and that infection continues to increase during adulthood, particularly for white British individuals. A better understanding of the interactions between age at CMV infection, and the development of CMV-related morbidity and mortality, is necessary to be able to develop an appropriate vaccination strategy, when a vaccine becomes available.",
+            "cite_spans": [
+                {
+                    "start": 238,
+                    "end": 242,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 243,
+                    "end": 247,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 248,
+                    "end": 252,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 263,
+                    "end": 267,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 380,
+                    "end": 383,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 384,
+                    "end": 386,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "CMV seroprevalence is strongly associated with ethnicity, and modestly increases with age. A greater understanding of the transmission dynamics of CMV, and the impact of this on CMV-associated morbidity and mortality, is necessary to inform effective vaccination strategies when a vaccine for CMV becomes available. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Estimation of the worldwide seroprevalence of cytomegalovirus: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zuhair",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Rev Med Virol",
+            "volume": "29",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "5th international workshop on CMV and Immunosenescence -a shadow of cytomegalovirus infection on immunological memory",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Arens",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ebm",
+                    "middle": [],
+                    "last": "Remmerswaal",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bosch",
+                    "suffix": ""
+                },
+                {
+                    "first": "Raw",
+                    "middle": [],
+                    "last": "Van Lier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Eur J Immunol",
+            "volume": "45",
+            "issn": "",
+            "pages": "954--961",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Expanding role of cytomegalovirus as a human pathogen: Cytomegalovirus and human disease",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Navarro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Med Virol",
+            "volume": "88",
+            "issn": "",
+            "pages": "1103--1115",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Infectious mononucleosis and related syndromes",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Evans",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "Am J Med Sci",
+            "volume": "276",
+            "issn": "",
+            "pages": "325--365",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The human cytomegalovirus",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Landolfo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gariglio",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gribaudo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Lembo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Pharmacol Ther",
+            "volume": "98",
+            "issn": "",
+            "pages": "269--97",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Seropositivity and higher immunoglobulin G antibody levels against Cytomegalovirus are associated with mortality in the population-based European prospective investigation of Cancer-Norfolk cohort",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Gkrania-Klotsas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Clin Infect Dis",
+            "volume": "56",
+            "issn": "",
+            "pages": "1421--1428",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Seropositivity to cytomegalovirus, inflammation, all-cause and cardiovascular disease-related mortality in the United States",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Simanek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Plos One",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Cytomegalovirus infection and the risk of mortality and frailty in older women: a prospective observational cohort study",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Am J Epidemiol",
+            "volume": "171",
+            "issn": "",
+            "pages": "1144--52",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Cytomegalovirus antibody level and mortality among community-dwelling older adults with stable cardiovascular disease",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Strandberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Pitkala",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tilvis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "JAMA",
+            "volume": "301",
+            "issn": "",
+            "pages": "380--382",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Increased HCMV seroprevalence in patients with hepatocellular carcinoma",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Lepiller",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Tripathy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Martino",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Kantelip",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Herbein",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Virol J",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Higher immunoglobulin G antibody levels against Cytomegalovirus are associated with incident ischemic heart disease in the population-based EPIC-Norfolk cohort",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Gkrania-Klotsas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Infect Dis",
+            "volume": "206",
+            "issn": "",
+            "pages": "1897--903",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Cytomegalovirus seropositivity is negatively associated with multiple sclerosis",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sundqvist",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Mult Scler Houndmills Basingstoke Engl",
+            "volume": "20",
+            "issn": "",
+            "pages": "165--73",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Cytomegalovirus infection reduces telomere length of the circulating T cell pool",
+            "authors": [
+                {
+                    "first": "Pjej",
+                    "middle": [],
+                    "last": "Van De Berg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Immunol Baltim Md",
+            "volume": "1950",
+            "issn": "184",
+            "pages": "3417--3440",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Cytomegalovirus-specific T cells restricted by HLA-Cw*0702 increase markedly with age and dominate the CD8+ T-cell repertoire in older people",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hosie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Front Immunol",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Cytomegalovirus infection leads to development of high frequencies of cytotoxic virus-specific CD4+ T cells targeted to vascular endothelium",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pachnio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "PLoS Pathog",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Update on the current status of cytomegalovirus vaccines",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sung",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Schleiss",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Expert Rev Vaccines",
+            "volume": "9",
+            "issn": "",
+            "pages": "1303--1317",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Vaccine development to prevent Cytomegalovirus disease: report from the National Vaccine Advisory Committee",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Modlin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Clin Infect Dis",
+            "volume": "39",
+            "issn": "",
+            "pages": "233--242",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Socioeconomic Disparities in the Seroprevalence of Cytomegalovirus Infection in the U.S. Population: NHAN ES III",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Dowd",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Aiello",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alley",
+                    "middle": [],
+                    "last": "De",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Epidemiol Infect",
+            "volume": "137",
+            "issn": "",
+            "pages": "58--65",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Seroepidemiology of Epstein-Barr virus and cytomegalovirus among Israeli male young adults",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Levine",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Ann Epidemiol",
+            "volume": "22",
+            "issn": "",
+            "pages": "783--791",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Predictors of Epstein-Barr virus serostatus in young people in England",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Winter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "BMC Infect Dis",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Cytomegalovirus (CMV) seroprevalence in the adult population of Germany",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lachmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Plos One",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Seroprevalence of Cytomegalovirus, Epstein Barr Virus and Varicella Zoster Virus among Pregnant Women in Bradford: A Cohort Study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pembrey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Plos One",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Epstein-Barr virus and varicella zoster virus infection in the first two years of life: a cohort study in Bradford",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pembrey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "UK. BMC Infect Dis",
+            "volume": "17",
+            "issn": "220",
+            "pages": "1--18",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Age at cytomegalovirus, Epstein Barr virus and varicella zoster virus infection and risk of atopy: the born in Bradford cohort",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pembrey",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Waiblinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Griffiths",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wright",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "UK. Pediatr Allergy Immunol",
+            "volume": "30",
+            "issn": "",
+            "pages": "604--617",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Health Survey for England 2002: The Health of Children and Young People. Methodology & Documentation. (The Stationary Office",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Deverill",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Modelling the dynamics of EBV transmission to inform a vaccine target product profile and future vaccination strategy",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gosc\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Winter",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jea",
+                    "middle": [],
+                    "last": "Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Stagg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Sci Rep",
+            "volume": "9",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Office for National Statistics. Estimates of the population for the",
+            "authors": [
+                {
+                    "first": "England",
+                    "middle": [],
+                    "last": "Uk",
+                    "suffix": ""
+                },
+                {
+                    "first": "Scotland",
+                    "middle": [],
+                    "last": "Wales",
+                    "suffix": ""
+                },
+                {
+                    "first": "Northern",
+                    "middle": [],
+                    "last": "Ireland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Office for National Statistics. Census boundary data",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Census aggregate data",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Uk Data Service",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "UKB : Data-Field 23054",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "The burden of infection with cytomegalovirus in England and Wales: how many women are infected in pregnancy?",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Vyse",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hesketh",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Pebody",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Epidemiol Infect",
+            "volume": "137",
+            "issn": "",
+            "pages": "526--559",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Publisher's Note",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Weighted Cytomegalovirus seroprevalence by English Government Office Region in 2002. Contains National Statistics data\u00a9. Crown copyright and database right [2011]. Contains public sector 6 information licensed under the Open Government Licence v3.0",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": ", although confidence intervals tended to be wider in the multivariable models. Ethnicities other than white were strongly associated with CMV seropositivity in both univariable and multivariable models (adjusted odds ratio [aOR] 6.22, 95% confidence interval [CI] 3.47-11.14). EBV serostatus was associated with CMV serostatus in the univariable model (odds ratio [OR] 1.59 [1.06-2.39] and in the adults-only multivariable model (aOR 2.08 [1.06-4.09]), but not in the multivariable model which included children (aOR 1.21 [0.76-1.92]). Female sex was associated with higher CMV positivity in the univariable model (OR 1.44, 1.02-2.02); the multivariable models had similar point estimates, but the confidence intervals included unity. Region of England was not associated with CMV serostatus in multivariable models. Neither smoking status nor occupation were associated with CMV serostatus in adults.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "The baseline characteristics of the study population and number and weighted percentage of individuals seropositive for CMV in England in 2002Adults aged \u226516 years only (n = 472). Percentages account for the weighting of the sample to be representative of the English population in 2002 with respect to age and sex. BMI body mass index, CI confidence interval, CMV cytomegalovirus, EBV Epstein-Barr virus",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Univariable and multivariable logistic regression models of factors associated with Cytomegalovirus seropositivity in England in 2002",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Abbreviations aOR: adjusted odds ratio; BMI: Body mass index; CI: Confidence interval; CMV: Cytomegalovirus; EBV: Epstein-Barr virus; HSE: Health survey for England; OR: Odds ratio; RU: Relative units; UK: United Kingdom; VCA: Viral capsid antigen",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank our colleagues at UCL and NatCen Social Research, and the interviewers, research nurses and participants of the Health Survey for England, and Shaun Scholes for assistance weighting the HSE data for analysis. Received: 20 July 2020 Accepted: 31 October 2020",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "Authors' contributions HRS, JL and GT designed the study. OT and GT conducted the serological testing. JRW conducted the data analysis and drafted the paper. JRW, CJ, HRS, JL and GT interpreted the results. All authors critically revised the paper and approved the final version for publication.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        },
+        {
+            "text": "This work was supported by the Wellcome Trust [204419]. The funding source has no role in the study design, collection, analysis or interpretation of the data, the writing of the paper or the decision to submit for publication. The corresponding author had full access to all data in the study and had final responsibility to submit the paper for publication.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "The data used in this study was under license from the Health Survey for England, and so are not publicly available, but can be requested from the HSE.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Availability of data and materials"
+        },
+        {
+            "text": "This study was approved by the University College London Research Ethics Committee (5683/002). The HSE obtained informed written consent for blood samples to be collected and stored for future analyses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethics approval and consent to participate"
+        },
+        {
+            "text": "Not applicable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Consent for publication"
+        },
+        {
+            "text": "GT reports personal fees from Genocea Biosciences, outside the submitted work. CJ is an Associate Editor at BMC Public Health. All other authors have no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests"
+        }
+    ]
+}

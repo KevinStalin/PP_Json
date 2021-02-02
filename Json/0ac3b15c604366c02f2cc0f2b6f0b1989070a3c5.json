@@ -1,0 +1,1126 @@
+{
+    "paper_id": "0ac3b15c604366c02f2cc0f2b6f0b1989070a3c5",
+    "metadata": {
+        "title": "pH Effect on the Dynamics of SARS-CoV-2 Main Protease (M pro )",
+        "authors": [
+            {
+                "first": "Shilpa",
+                "middle": [],
+                "last": "Sharma",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Indian Institute of Technology Delhi",
+                    "location": {
+                        "postCode": "110016",
+                        "settlement": "Hauz Khas, New Delhi",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shashank",
+                "middle": [],
+                "last": "Deep",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Indian Institute of Technology Delhi",
+                    "location": {
+                        "postCode": "110016",
+                        "settlement": "Hauz Khas, New Delhi",
+                        "country": "India"
+                    }
+                },
+                "email": "sdeep@chemistry.iitd.ac.in"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The SARS-CoV-2 main protease (M pro ) is a crucial enzyme responsible for the maturation of novel coronavirus, thus it serves as an excellent target for drug discovery. SARS-CoV-2 is found to have similarity with SARS-CoV, which showed conformational changes upon varying pH. There is no study till date on how pH change affect the conformtional flexibilty of SARS-CoV-2 M pro , therefore, we attempt to find the effect of pH variation through constant pH molecular dynamics simulation studies. Protein is found to be most stable at neutral pH and as pH turns basic protein structure becomes most destabilized. Acidic pH also tends to change the structural properties of M pro . Our study provides evidence that the flexibility of M pro is pH dependent like SARS-CoV M pro .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "COVID-19 is a severe respiratory illness caused due to novel coronavirus, SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2). 1 Coronaviruses belong to Nidovirales family, these are enveloped, positive-sense RNA viruses, having very long genome around 30000 bases. 2 10 kilobases are used for structure and accessory functions and 20 kilobases encode for non-structural proteins. 2 The replicase gene encodes for the two overlapping polyproteins pp1a and pp1ab, which are critical for replication and transcription. These polyproteins are processed extensively by virus proteinases and the functional proteins are released for carrying out the virus replication. 3 M pro also referred as 3CL pro , is a 33 kDa cysteine protease responsible for cleaving and processing of viral polyproteins. The structure of SARS-CoV-2 M pro free enzyme is recently solved by Zhou et al 4 at pH 7. M pro is a homodimeric protein, shown in Fig. 1 . Structure of each monomer is comprised of three do-mains. Residues 10-99, 100-182 and 198-303 are involved in the formation of domains 1,2 and 3, respectively. Dimerization of M pro is regulated by domain 3. Catalytic dyad of the enzyme is formed by residues His 41 and Cys145. Dimerization is necessary for the catalytic activity of M pro . 5,6 Due to its role in viral transcription and replication, M pro serves as an attractive target for drug designing. Many studies have been carried out to identify the potential inhibitors of M pro . 7, 8 Function of a protein is closely related to its structure. As structure perturbs from native conformation, its activity changes and under drastic conditions protein may become functionally inactive. Various extraneous conditions like heat, concentration of like and unlike molecules around and pH of surrounding etc affect the protein structure, therefore, their effects are important to be examined on the protein of interest. Proteins are composed of various amino acids having acidic, basic, aliphatic, polar and non-polar side chains. As pH of the surroundings is changed, the protonation states of these side chains also modify which in turn alters several interactions and give protein a distinct structure. Effect of pH was seen on the structure of SARS-CoV M pro by Jinzhi et al., 9 their study showed that the conformational flexibility of M pro is pH dependent. Henedersen et al. 10 utilized constant pH MD simulations to assess the proton coupled dynamics of various PLpros including SARS-CoV-2. In our knowledge, there is no pH dependant study of SARS-CoV-2 M pro structure has been conducted, therefore, in our study, we have seen the effect of pH alteration, ranging from acidic to basic pH, on the structure of SARS-CoV-2 main protease (M pro ) through constant pH molecular dynamics simulations (CpHMD).",
+            "cite_spans": [
+                {
+                    "start": 136,
+                    "end": 137,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 275,
+                    "end": 276,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 390,
+                    "end": 391,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1483,
+                    "end": 1485,
+                    "text": "7,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1486,
+                    "end": 1487,
+                    "text": "8",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 2277,
+                    "end": 2278,
+                    "text": "9",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 2378,
+                    "end": 2380,
+                    "text": "10",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 932,
+                    "end": 938,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "All atom constant pH molecular dynamics (CpHMD) simulations 11,12 were performed using AMBER18 13 and amberff10 14 force field was used for deriving the bonded and nonbonded parameters. Initial structure of protein was obtained from RCSB (PDB: 6y2e 4 ) and protein was solvated using TIP3P 15 water molecules inside trucated octahedron box of 18 nm. Charges on the protein were neutralized by adding counter ions. Energy minimization was carried out using 1000 steps of steepest descent followed by 4000 steps of conjugate gradient method, keeping backbone atoms restrained. Temperature of the system was slowly increased from 10 K to 300 K over 400 ps under NVT ensemble, followed by equilibration at constant pressure for 4 ns. Berendsen barostat 16 was used for maintaining constant pressure condition. The study utilized periodic boundary conditions and PME summation 17 for electrostatic calculations.The shake methodology 18 was applied to restrict covalently bonded hydrogen atoms. Time step of 2 femtosecond with 8 A 0 cut off for non-bonded interactions were applied. Convergence of energy, temperature and density were monitored. Parallel to the molecular dynamics simulation, the constant pH method applied in pmemd through Monte Carlo sampling of the Boltzmann distribution of individual protonation states. Distribution of protonation states is influenced by solvent pH, which is set as an external parameter. A total of five CpHMD simulations were run at pH 4, 5, 6, 7 and 8, by varying the solvent pH. All the acidic aminoacids (ASP and GLU) are assumed to be deprotonated and basic aminoacids (ARG, LYS and CYS) to be protonated in this pH range. Protonation states of catalytic HIS 41 and CYS 145 were unchanged, all other twelve histidines present in the protein were set as titrable residues and their protonation states are subjected to change by changing the partial charges on the atoms of titrable residues. Production run was carried out for 100 ns, during production after every 100 steps protonation state change of every titrable residue was attempted. GB salt concentration was set to 0.1 M.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Simulation Details"
+        },
+        {
+            "text": "Structural changes were seen through root mean square deviation (RMSD) of backbone atoms, which was calculated with respect to the first frame structure. Residue wise fluctuations were seen through root mean square fluctuation (RMSF) which is time average RMSD. Surface area of protein was calculated using LCPO algorithm by Weiser et al. 19 For calculating the native contacts, 7 A 0 cut off was set, active contacts were found to be present if the distance between two C-alpha atoms were within 7 A 0 at any given time frame. Clustering analysis was done using average linkage method, by keeping epsilon equal to 1. The most populated cluster was selected for comparing substrate binding pockets at different pH. Distance between two residues was calculated using distance tool of cpptraj. 20 ",
+            "cite_spans": [
+                {
+                    "start": 339,
+                    "end": 341,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 792,
+                    "end": 794,
+                    "text": "20",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Simulation Details"
+        },
+        {
+            "text": "The change in protonation states bring about local fluctuations in protein which then contribute to overall dynamical changes in protein, therefore to see these changes, root mean square deviation (RMSD) was monitored throghout the simulation, as shown in Fig. 2(a) . Initially, RMSD values increased slowly at all the pH values but a sudden increase in RMSD was observed at pH 8 around 50 ns (1 ns=500 frames), which kept on increasing till 80 ns and became constant after that. For a better understanding, probability distribution curve of each RMSD value was constructed, (Fig. 2(b) ), two peaks were observed around 1.8 A 0 , 2.3 A 0 at pH 4 and around 2.4 A 0 , 2.9 A 0 at pH 8. For pH 5, 6 and 7 RMSD values having maximum probablities were observed at 2.2 A 0 , 1.9 A 0 and 2 A 0 , respectively. From RMSD analysis, it can be seen that at pH 4 and pH 8 protein sampled large number of conformations and fluctuations were maximum at pH 8, minimum at pH 7. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 256,
+                    "end": 265,
+                    "text": "Fig. 2(a)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 575,
+                    "end": 585,
+                    "text": "(Fig. 2(b)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Root Mean Square Deviation"
+        },
+        {
+            "text": "Contribution of each residue towards the total structural deviation was seen through root mean square fluctuation (RMSF) analysis, Fig. 3 ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 131,
+                    "end": 137,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Root Mean Square Fluctuation"
+        },
+        {
+            "text": "Solvent accessible surface area (SASA) and number of native contacts can be used to monitor the proper folding of protein, therefore, these were calculated at all the pH (Fig. 4) . At pH 4, 5 and 7, only a small change in SASA was observed with time, most probable values of SASA were equal to 267.37 nm 2 , 269.31 nm 2 and 261.98 2 , respectively. At pH 6, SASA started increasing around 20 ns and kept on increasing till 100 ns, with two peaks at 264.27 and 275 nm 2 in probability plot. At pH 8, value of SASA first decreased and then started increasing again after 20 ns, a wide probability distribution of SASA was obtained with 270.78 nm 2 having maximum probability. In the beginning, native contacts were around 2240 at all pH, after few nanoseconds native contacts started decreasing and at pH 8 maximum decrease in contacts was observed, Fig. 4(c) . At pH 7, only slight changes in native contacts were observed. From probability distribution curve, native contacts were found to be highest, 2220, at pH 7. At pH 4, 2170 native contacts were present. At pH 5, 6 and 8, a broad distribution of native contacts was seen, with increase in contacts from pH 5 to 6 and least number of native contacts were there at pH 8, Fig. 4(d) . Surface area was found to be minimum and native contacts were found to be maximum at pH7, implying that the structure of M pro is most stable at neutral pH.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 170,
+                    "end": 178,
+                    "text": "(Fig. 4)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 848,
+                    "end": 857,
+                    "text": "Fig. 4(c)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1226,
+                    "end": 1235,
+                    "text": "Fig. 4(d)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Solvent Accessible Surface Area and Native Contacts"
+        },
+        {
+            "text": "Dimerization of main protease is essential for its activity (because the N-finger of each of the two protomers interacts with Glu166 of the other protomer and thereby helps shape the S1 pocket of substrate binding site), its monomeric state is not active. Substrate binding site of enzyme is shaped through the interaction of N-finger of one monomer and Glu166 of another monomer, therefore, distance between residues Ser1 and Glu166 was monitored to ensure intact dimer formation throughout the simulation at all pH values, Fig. 5(a) . At pH 7, distance between (a) (b) Figure 5 : Plots for (a) distance between Nfinger of chain A and Glu166 of chain B, (b) probability distribution of distance at every pH value.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 525,
+                    "end": 534,
+                    "text": "Fig. 5(a)",
+                    "ref_id": null
+                },
+                {
+                    "start": 571,
+                    "end": 579,
+                    "text": "Figure 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Distance Analysis"
+        },
+        {
+            "text": "Ser1 and Glu166 was remained constant at all time frames. At pH 4, 5 and 6, this distance increased with time and value fluctuated between 8 A 0 and 12 A 0 . At pH 8, distance started increasing after 20 ns and a sudden increase was observed around 45 ns followed by a constant fluctuation around 16 A 0 at all frames. Similarly, in probability histogram multiple peaks are observed at pH 4, 5, 6 and 8, however, a single peak was observed at pH 7, Fig. 5(b) , which suggests that dimerization process is weak at acidic and basic pH.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 449,
+                    "end": 458,
+                    "text": "Fig. 5(b)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Distance Analysis"
+        },
+        {
+            "text": "From clustering analysis, representative structures of the most populated clusters were obtained at all pH values. Proper orientation of active site residues is necessary for protein to carry out its function. The active sites, of the obtained structures of M pro from clustering, were compared, Fig. 6 (a)-6(e). His 41 and Cys 145 forms the catalytic dyad of protein, their proper orientation was observed only at pH 7, Fig. 6(d) . At all the pH other than pH 7, N 2 of His 41 was not found to be orienting towards S \u03b3 of Cys 145, as shown in Fig. 6 (a), 6(b), 6(c) and 6(e). Thus, the orientation of catalytic dyad of M pro S1 binding pocket also gets affected by pH.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 296,
+                    "end": 302,
+                    "text": "Fig. 6",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 421,
+                    "end": 430,
+                    "text": "Fig. 6(d)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 544,
+                    "end": 550,
+                    "text": "Fig. 6",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Clustering Analysis and Orientation of Substrate Binding Pocket"
+        },
+        {
+            "text": "Our study has demonstrated that structure of SARS-CoV-2 main protease (M pro ) shows pH dependence. At basic pH (pH 8), the structure of M pro was found to be least stable and as pH becomes more acidic, structure of M pro gets destabilized.The structure of M pro showed maximum stability at neutral pH. At all the pH other than neutral pH, dimerization and S1 binding pocket were found to be affected. Our study throws light on how an environmental factor like pH can affect the integrity of active site of M pro and encourage researchers to explore the small molecules that can modulate the intracellular pH to prevent the replication by lowering the activity of M pro .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "SS thanks UGC India for fellowship. Authors thank the IIT Delhi HPC facility for computational resources. Authors also thank Scf-Bio for providing the access of AMBER18.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgment"
+        },
+        {
+            "text": "There is no conflict of interest. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of Interest"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Respiratory Virus Infections: Understanding COVID-19",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Subbarao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mahanty",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Immunity",
+            "volume": "52",
+            "issn": "",
+            "pages": "905--909",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Coronaviruses: an overview of their replication and pathogenesis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Fehr",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Perlman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Methods in molecular biology",
+            "volume": "1282",
+            "issn": "",
+            "pages": "1--23",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Expression and Functions of SARS Coronavirus Replicative Proteins",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ulferts",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Imbert",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Canard",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ziebuhr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Molecular Biology of the SARS-Coronavirus",
+            "volume": "",
+            "issn": "",
+            "pages": "75--98",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Crystal structure of SARS-CoV-2 main protease provides a basis for design of improved -ketoamide inhibitors",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Curth",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Drosten",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Sauerhering",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Becker",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Rox",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hilgenfeld",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "",
+            "pages": "409--412",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Coronavirus Main Proteinase (3CLpro) Structure: Basis for Design of Anti-SARS Drugs",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Anand",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ziebuhr",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wadhwani",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mesters",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hilgenfeld",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "",
+            "volume": "300",
+            "issn": "",
+            "pages": "1763--1767",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Zhenming nad Du",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Structure of Mpro from SARS-CoV-2 and discovery of its inhibitors",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Duan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "582",
+            "issn": "",
+            "pages": "289--293",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "In-silico drug repurposing for targeting SARS-CoV-2 main",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Deep",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Silico Drug Repurposing for SARS-CoV-2 Main Proteinase and Spike Proteins",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Maffucci",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Contini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Proteome Research",
+            "volume": "19",
+            "issn": "",
+            "pages": "4637--4648",
+            "other_ids": {
+                "PMID": [
+                    "32893632"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "pH-dependent conformational flexibility of the SARS-CoV main proteinase (M(pro)) dimer: molecular dynamics simulations and multiple X-ray structure analyses",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H G"
+                    ],
+                    "last": "Verschueren",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Anand",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Rao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bigalke",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Heisen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mesters",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Mol Biol",
+            "volume": "354",
+            "issn": "",
+            "pages": "25--40",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Assessment of proton-coupled conformational dynamics of SARS and MERS coronavirus papainlike proteases: Implication for designing broad-spectrum antiviral inhibitors",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Henderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Verma",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Harris",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Journal of Chemical Physics",
+            "volume": "153",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Constant pH Replica Exchange Molecular Dynamics in Explicit Solvent Using Discrete Protonation States: Implementation, Testing, and Validation",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Swails",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "York",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Roitberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Journal of Chemical Theory and Computation",
+            "volume": "10",
+            "issn": "",
+            "pages": "2038--2048",
+            "other_ids": {
+                "PMID": [
+                    "24803862"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The Amber biomolecular simulation programs",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Case",
+                    "suffix": ""
+                },
+                {
+                    "first": "Iii",
+                    "middle": [],
+                    "last": "Cheatham",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Darden",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Gohlke",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Merz",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Onufriev",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Simmerling",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Woods",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Journal of Computational Chemistry",
+            "volume": "26",
+            "issn": "",
+            "pages": "1668--1688",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "How well does a restrained electrostatic potential (RESP) model perform in calculating conformational energies of organic and biological molecules",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Cieplak",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kollman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Journal of Computational Chemistry",
+            "volume": "21",
+            "issn": "",
+            "pages": "1049--1074",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Comparison of simple potential functions for simulating liquid water",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jorgensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chandrasekhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Madura",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Impey",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Klein",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "The Journal of Chemical Physics",
+            "volume": "79",
+            "issn": "",
+            "pages": "926--935",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Molecular dynamics with coupling to an external bath",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "J C"
+                    ],
+                    "last": "Berendsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P M"
+                    ],
+                    "last": "Postma",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Van Gunsteren",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dinola",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Haak",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "The Journal of Chemical Physics",
+            "volume": "81",
+            "issn": "",
+            "pages": "3684--3690",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Accuracy and efficiency of the particle mesh Ewald method",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Petersen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "The Journal of Chemical Physics",
+            "volume": "103",
+            "issn": "",
+            "pages": "3668--3679",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "A fast SHAKE algorithm to solve distance constraint equations for small molecules in molecular dynamics simulations",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Krutler",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Van Gunsteren",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hnenberger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Journal of Computational Chemistry",
+            "volume": "22",
+            "issn": "",
+            "pages": "501--508",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Approximate atomic surfaces from linear combinations of pairwise overlaps (LCPO)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Weiser",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Shenkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Still",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Journal of Computational Chemistry",
+            "volume": "20",
+            "issn": "",
+            "pages": "217--230",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Software for Processing and Analysis of Molecular Dynamics Trajectory Data",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Roe",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Cheatham",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cpptraj",
+                    "middle": [],
+                    "last": "Ptraj",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Journal of Chemical Theory and Computation",
+            "volume": "9",
+            "issn": "",
+            "pages": "3084--3095",
+            "other_ids": {
+                "PMID": [
+                    "26583988"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Structure of main protease (M pro ), three domains of monomeric unit are highlighted as yellow, blue and red, respectively.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "(a) Backbone root mean square deviation plot and (b) probability distribution of RMSD values at various pH.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Plots for (a) Accessible surface area (ASA) and (b) probability distribution of ASA values, (c) native contacts in protein, (d) probability distribution of native contacts' values at different pH.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "S1 binding pocket of M pro at (a) pH4, (b) pH5, (c) pH6, (d) pH7 and (e) pH 8. protease (Mpro). Journal of Biomolecular Structure and Dynamics 2020, 0, 1-8, PMID: 33179568.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

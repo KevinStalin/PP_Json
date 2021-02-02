@@ -1,0 +1,1388 @@
+{
+    "paper_id": "0b9ca26458c1382c5dc70758b32eeef15eb9c995",
+    "metadata": {
+        "title": "A novel target enrichment strategy in next-generation sequencing through 7-deaza-dGTP-resistant enzymatic digestion",
+        "authors": [
+            {
+                "first": "Peng",
+                "middle": [],
+                "last": "Peng",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yanjuan",
+                "middle": [],
+                "last": "Xu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Adrian",
+                "middle": [
+                    "M"
+                ],
+                "last": "Di Bisceglie",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Xiaofeng",
+                "middle": [],
+                "last": "Fan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Objective: Owing to the overwhelming dominance of human and commensal microbe sequences, low efficiency is a major concern in clinical viral sequencing using next-generation sequencing. DNA composed of 7-deaza-2\u2032deoxyguanosine 5\u2032-triphosphate (c 7 dGTP), an analog of deoxyguanosine triphosphate (dGTP), is resistant to selective restriction enzymes. This characteristic has been utilized to develop a novel strategy for target enrichment in nextgeneration sequencing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The new enrichment strategy is named target enrichment via enzymatic digestion in next-generation sequencing (TEEDseq). It combined 7-deaza-2\u2032-deoxyguanosine 5\u2032-triphosphate (c 7 dGTP)-involved primer extension, splinter-assisted intracellular cyclization, c 7 dGTP)-resistant enzymatic digestion, and two-phase rolling cycle amplification. We first estimated c7dGTP for its efficiency in PCR amplification and its resistance to three restriction enzymes, AluI, HaeIII, and HpyCH4V. We then evaluated TEEDseq using a serum sample spiked with a 1311-bp hepatitis B virus (HBV) fragment. TEEDseq achieved an HBV on-target rate of 3.31 \u00b1 0.39%, which was equivalent to 454\u00d7 the enrichment of direct Illumina sequencing. Therefore, the current study has provided a concept proof for TEEDseq as an alternative option for clinical viral sequencing that requires an enrichment in next-generation sequencing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In current clinical viral genome sequencing, next-generation sequencing (NGS) is a frequent choice that provides an unbiased high resolution of mutation profile in a genome-wide manner [1] . Because of an overwhelming dominance of human genetic content in clinical specimens, a major limitation of this approach is its low efficiency, which is rarely higher than 1% of viral sequencing reads in NGS output [1] . Among numerous virusenriched methods, capture sequencing, employing a hybridization step after NGS library construction, comes out as the most efficient strategy to enrich viral sequences [1] . However, this strategy is associated with a dramatic cost increase as it requires the synthesis of expensive biotin labeled virus-specific probes (baits) and streptavidin beads [2] . The inclusion of such a hybridization step after initial library preparation also makes the entire NGS pipeline a lengthy procedure. Most human viruses, such as hepatitis B virus (HBV), hepatitis C virus (HCV), HIV, and coronavirus, have a genome less than 30 kb in size. If the viral on-target rate consistently exceeds 1%, current NGS approach is actually powerful enough to satisfy clinical and research needs. For instance, a 1% HCV ontarget rate in 5 million of 2 \u00d7 150 bp paired ended reads give a depth at 1562\u00d7, which already crosses a saturation point (1100\u00d7) for HCV viral population dissection with a mutation frequency resolved at 1% [3] . To achieve this goal, we provide an alternative option for viral sequence enrichment that does not require a probe-based hybridization step. Our method, named NGS with target enrichment via enzymatic digestion (TEEDseq), is dependent on 7-deaza-2\u2032-deoxyguanosine 5\u2032-triphosphate (c 7 dGTP), an analog of deoxyguanosine triphosphate (dGTP). Due to its ability to relax DNA secondary structure, c 7 dGTP is widely used in PCR and Sanger sequencing [4, 5] . DNA molecules composed of c 7 dGTP show steric alteration that is resistant to some restriction enzymes with the recognition motifs containing guanosine [6] . This unique characteristic of c 7 dGTP is used to accomplish the enrichment of a sequencing target.",
+            "cite_spans": [
+                {
+                    "start": 185,
+                    "end": 188,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 406,
+                    "end": 409,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 600,
+                    "end": 603,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 783,
+                    "end": 786,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1435,
+                    "end": 1438,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1887,
+                    "end": 1890,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1891,
+                    "end": 1893,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 2049,
+                    "end": 2052,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "PCR amplification efficiency using c 7 dGTP was first estimated using an HBV plasmid as the template [7] . A 30-cycle PCR was done in a 50 \u00b5L reaction containing 1\u00d7 Q5 DNA polymerase buffer, 0.8 mM dNTPs, each 0.4 \u00b5M of primers HBVF1 and HBVR1 (Table 1) , and 1 unit of Q5 DNA polymerase [New England Biolabs (NEB), Ipswich, MA]. In the parallel reaction, dGTPs was completely replaced by c 7 dGTP (Roche Molecular Systems, Madison, WI). After the purification with QIAquick PCR Purification Kit (Qiagen, Valencia, CA), the PCR product was quantitated in NanoDrop 2000 Spectrophotometer (Thermo Fisher Scientific, Waltham, MA).",
+            "cite_spans": [
+                {
+                    "start": 101,
+                    "end": 104,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 244,
+                    "end": 253,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "Next, we tested the resistance of c 7 dGTP to restriction enzymes. The above PCR was repeated with primer HBVR1 p containing a phosphate at 5\u2032 end. PCR product was purified and digested by Lambda exonuclease (NEB) that favored the digestion of 5\u2032 phosphate strand [8] . Consequently, both single-strand DNA (ssDNA) and doublestrand DNA (dsDNA) were generated and used for the digestion of three restriction enzymes (AluI, HaeIII, and HpyCH4V) (NEB) that were carefully selected based on their recognition motifs and buffer compatibility. The experiment was repeated with PCR amplicon generated using c 7 dGTP. Since c 7 dGTP was difficult to stain using ethidium bromide [9] , PCR with a high cycle number (n = 35) was conducted using an aliquot of 2 \u00b5L enzyme reaction with primers HBVF2 and HBVR2 (Table 1) .",
+            "cite_spans": [
+                {
+                    "start": 264,
+                    "end": 267,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 671,
+                    "end": 674,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 799,
+                    "end": 808,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "Finally, TEEDseq was evaluated using a healthy donor serum sample spiked with a 1311-bp HBV PCR fragment at a concentration of 1 \u00d7 10 6 copies/mL, mimicking a concentration from viruses like HCV and HBV (Table 1 ) [10] . Total DNA was extracted from 0.5 mL of serum by QIAamp MinElute ccfDNA Kit (Qiagen, Valencia, CA) and eluted into 20 \u00b5L Tris buffer. Entire 20 \u00b5L extracted DNA was used for 5-cycle primer extension under 1 unit of Q5 DNA polymerase, 0.4 \u00b5M primer HBVR4 (Table 1) , and 0.8 mM of dNTPs in which dGTP was completely replaced by c 7 dGTP. The reaction was purified using MinElute PCR Purification Kit (Qiagen) and eluted into 20 \u00b5L Tris buffer, followed by ligation in 30 \u00b5L reaction consisting of 10 U T4 DNA ligase and 0.5 \u00b5M of the splinter at 14 \u00b0C overnight. After heat inactivation, the enzyme complex (AluI 10 U, HeaIII 10 U, HpyCH4V 5U, Exonuclease I 50 U, and Exonuclease III 20 U) was added",
+            "cite_spans": [
+                {
+                    "start": 214,
+                    "end": 218,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 203,
+                    "end": 211,
+                    "text": "(Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 474,
+                    "end": 483,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "Position is according to the full-length HBV genome under GenBank accession number AB241115. Star donated phosphorothioate bonds to resist exonuclease activity of phi29 DNA polymerase. P in superscript indicated the modification of phosphate at the 5\u2032 ends. C28 is the primer to eliminate primer-mediated artifacts from phi29 DNA polymerase-based multiple displacement amplification in our previous study [11] . Sp3, C3 spacer to block self-ligation of the splinter; Sp18, C18 spacer; NA, not applicable. All oligonucleotides were ordered from the Integrated DNA Technologies, Coralville, IA Table 1) . The final product was around 12 kb in size with an average yield of 1.8 \u00b5g after purification using QIAprep Spin Miniprep Kit (Qiagen). The product was subjected to Illumina sequencing (1 \u00d7 250 nt single-end read), followed by data analysis as we previously described [11, 12] . We tested four options: full TEEDseq protocol (a), TEEDseq with the omission of three restriction enzyme (b), direct sequencing using Illumina Nextera Flex for plasma/serum kit (c), and full TEEDseq using the same serum sample without the spike-in of the HBV fragment (d). Each option was set for three technical replicates.",
+            "cite_spans": [
+                {
+                    "start": 405,
+                    "end": 409,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 871,
+                    "end": 875,
+                    "text": "[11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 876,
+                    "end": 879,
+                    "text": "12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 592,
+                    "end": 600,
+                    "text": "Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Table 1 List of the oligonucleotides used in the study"
+        },
+        {
+            "text": "PCR using c 7 dGTP showed a weak band in ethidium bromide (EB)-stained gel (Additional file 1: Figure S1A ), which was consistent with the previous report that c 7 dGTP was hardly stained using EB [9] . However, PCR quantification revealed a slightly lower yield with c 7 dGTP (Additional file 1: Figure S1B ). This slight drop in PCR yield may also be attributed to the nature of c 7 dGTP rather than an authentic decrease. Hence, PCR with c 7 dGTP had similar efficiency to that using regular dGTP.",
+            "cite_spans": [
+                {
+                    "start": 162,
+                    "end": 163,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 197,
+                    "end": 200,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 95,
+                    "end": 105,
+                    "text": "Figure S1A",
+                    "ref_id": null
+                },
+                {
+                    "start": 297,
+                    "end": 307,
+                    "text": "Figure S1B",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "In the estimation of c 7 dGTP's resistance to restriction enzymes, the amplicon had three AluI sites, one HaeIII site, and four HpyCH4V sites. While all three enzymes had a complete digestion of dsDNA, HpyCH4V cut both ssDNA and dsDNA (Additional file 1: Figure S1C ). In comparison to dGTP, c 7 dGTP showed strong bands, suggesting a resistance to digestion. The combination of all three enzymes resulted in almost a complete digestion of both ssDNA and dsDNA, as indicated by a much weaker band (Additional file 1: Figure S1D ). These experiments have demonstrated that dc7GTP is resistant to individual and combinatorial digestion of AluI, HaeIII, and HpyCH4V.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 255,
+                    "end": 265,
+                    "text": "Figure S1C",
+                    "ref_id": null
+                },
+                {
+                    "start": 517,
+                    "end": 527,
+                    "text": "Figure S1D",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "After read quality control [11, 12] , one million of total reads had HBV-mapped reads at 33,153 \u00b1 3900 (3.31 \u00b1 0.39%), 2638 \u00b1 750 (0.26 \u00b1 0.07%), 73 \u00b1 21 (0.007 \u00b1 0.0002%), and zero for options a, b, c, and d, respectively (Fig. 1) . TEEDseq reached an enrichment 454\u00d7 that of direct sequencing (option c). The recovery of HBV-mapped reads was 12.6 times higher in option a than in option b, illustrating the pivotal role of the three restriction enzymes. Using HiCUP [14] , these enzymes together have 36,535,384 cuts (AluI 13,085,321; HaeIII 8,582,925; HpyCH4V 14,867,138) on the human genome Fig. 1 HBV-specific read mapping among four options. Read-alignment on 1195-bp HBV genome sequence from the HBVR4 priming site was viewed in bam file using BamView [13] . Reads with matching start and end positions were collapsed into one line and are shown in green. Option a, b, and c used a serum sample spiked with 1311-bp HBV fragment. Option d had no HBV fragment spiked in the serum and served as a control. Each option was shown with the numbers (average and standard derivation) of HBV-mapped and total reads from three technical replicates after the quality control (building GRCh38). Their combination with exonucleases efficiently digested non-target background sequences.",
+            "cite_spans": [
+                {
+                    "start": 27,
+                    "end": 31,
+                    "text": "[11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 32,
+                    "end": 35,
+                    "text": "12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 468,
+                    "end": 472,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 759,
+                    "end": 763,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 223,
+                    "end": 231,
+                    "text": "(Fig. 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 595,
+                    "end": 601,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Our method consists of four steps: primer extension, splinter ligation, enzymatic digestion, and rolling circle amplification (RCA) (Fig. 2) . Using a serum sample spiked with a partial HBV genome (1311 bp), TEEDseq achieved a 3.31% mapping rate. Under a probe-based hybridization strategy, genome-wide HBV capture sequencing does not necessarily have a high on-target rate, for instance, < 1% in a recent report [15] . Off-target effect may come from non-specific priming since there is significant microhomology between HBV and the human genome [16] . A more rigid primer design and conditions for primer extension could further enhance the enrichment.",
+            "cite_spans": [
+                {
+                    "start": 413,
+                    "end": 417,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 547,
+                    "end": 551,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 132,
+                    "end": 140,
+                    "text": "(Fig. 2)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "In addition, TEEDseq has several technical features worthy of attention. Serum DNA is regarded as a lowbiomass sample. Its low DNA concentration, 435 ng/mL in the current study, naturally favors intracellular ligation that can be further facilitated using a splinter. Because intermolecular ligation is suppressed at a low DNA concentration, high concentration of templates, such as DNA extracted from tissue samples, need to be diluted prior to the ligation [17] . Second, we applied two-phase RCA amplification, target-specific and non-specific. The short incubation of non-specific RCA suppresses the amplification of contaminated sequences in the reagents, as observed in our recent studies [18, 19] . Third, TEEDseq requires purification after primer extension. Afterwards, ligation, digestion, and RCA do not need purification because all enzymes have optimal activity in the Cut-Smart buffer (NEB). Therefore, these reactions can be conducted successively in the same tube. Finally, phi29 DNA polymerase used in RCA has a strong standdisplacement activity. This activity results in a hyperbranched structure of the final product that usually has a large size more than 10 kb [20] . Therefore, the final product can be directly used for fragmentation in NGS library preparation without the need of additional procedure, such as concatemerization. Taken together, our experiment, using a partial HBV genome (1311 bp) spiked in a serum sample, provides concept evidence that TEEDseq is a simple and cost-effective method for target enrichment in NGS. By using multiple primers to cover target genomes in primer extension, it can be applied to clinical viral sequencing as well as human genomic research.",
+            "cite_spans": [
+                {
+                    "start": 459,
+                    "end": 463,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 695,
+                    "end": 699,
+                    "text": "[18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 700,
+                    "end": 703,
+                    "text": "19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1182,
+                    "end": 1186,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The current study is merely a proof of principle for TEEDseq. It remains to be improved toward a simple experimental method. For instance, time for the steps of ligation and RCA may be shortened. In addition, the efficiency and sensitivity of TEEDseq need to be further evaluated in clinical specimens. Fig. 2 The working flow of TEEDseq. Note that ligation, digestion, and RCA (grey-filled cycles) are placed in the same tube in a sequential manner. RCA, rolling cycling amplification",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 303,
+                    "end": 309,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Limitations"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Clinical and biological insights from viral genome sequencing",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Houldcroft",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Beale",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Breuer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nat Rev Microbiol",
+            "volume": "15",
+            "issn": "",
+            "pages": "183--92",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nrmicro.2016.182"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Virome capture sequencing enables sensitive viral diagnosis and comprehensive virome analysis",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Briese",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kapoor",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Mishra",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Jain",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Jabado",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "MBio",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/mBio.01491-15"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Highresolution quantification of hepatitis C virus genome-wide mutation load and its correlation with the outcome of peginterferon-alpha2a and ribavirin combination therapy",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Weinstock",
+                    "suffix": ""
+                },
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Bisceglie",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "PLoS ONE",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0100131"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Structure-independent DNA amplification by PCR using 7-deaza-2\u2032-deoxyguanosine",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mcconlogue",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Brow",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Innis",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Nucleic Acids Res",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/16.20.9869"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Improved cycle sequencing of GC-rich templates by a combination of nucleotide analogs",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Motz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "P\u00e4\u00e4bo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kilger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Biotechniques",
+            "volume": "29",
+            "issn": "",
+            "pages": "268--70",
+            "other_ids": {
+                "DOI": [
+                    "10.2144/00292st01"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Inhibition of restriction enzyme cleavage of DNA modified with 7-deaza-dGTP",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Grime",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Holaway",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Nucleic Acids Res",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/19.10.2791"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The nucleotide sequence of the hepatitis B viral genome and the identification of the major viral genes",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Valenzuela",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Rall",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zaldivar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Quiroga",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gray",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Rutter",
+                    "suffix": ""
+                }
+            ],
+            "year": 1980,
+            "venue": "ICN-UCLA Symp Mol Cell Biol",
+            "volume": "18",
+            "issn": "",
+            "pages": "57--70",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Evaluation of techniques for generation of single-stranded DNA for quantitative detection",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Civit",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fragoso",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "O&apos;sullivan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Anal Biochem",
+            "volume": "431",
+            "issn": "",
+            "pages": "132--140",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ab.2012.09.003"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Amplification of gene fragments with very high G/C content: c7dGTP and the problem of visualizing the amplification products",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Weiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Zucht",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Forssmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "PCR Methods Appl",
+            "volume": "4",
+            "issn": "",
+            "pages": "124--129",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/gr.4.2.124"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Diagnosis of viral hepatitis",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Easterbrook",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Roberts",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sands",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Peeling",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Curr Opin HIV AIDS",
+            "volume": "12",
+            "issn": "",
+            "pages": "302--316",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/COH.0000000000000370"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Templatedependent multiple displacement amplification applied to profile human circulating RNA",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Crosby",
+                    "suffix": ""
+                },
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Bisceglie",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Biotechniques",
+            "volume": "63",
+            "issn": "",
+            "pages": "21--28",
+            "other_ids": {
+                "DOI": [
+                    "10.2144/000114566"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Interpatient mutation spectrum of human coronavirus-OC43 revealed by illumina sequencing",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gorse",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gira",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Patela",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Med Virol",
+            "volume": "89",
+            "issn": "",
+            "pages": "1330--1338",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.24780"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "BamView: visualizing and interpretation of next-generation sequencing read alignments",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Carver",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Harris",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Otto",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Berriman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Parkhill",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mcquillan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Brief Bioinform",
+            "volume": "14",
+            "issn": "",
+            "pages": "203--215",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bib/bbr073"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "HiCUP: pipeline for mapping and processing Hi-C data",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wingett",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ewels",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Furlan-Magaril",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nagano",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schoenfelder",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Fraser",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.12688/f1000research.7334.1"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Genomic and oncogenic preference of HBV integration in hepatocellular carcinoma",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Nat Commun",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/ncomms12992"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Analysis of the complexity of HBV-host junction sequences in patients with HBV-related hepatocellular carcinoma",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "HBV DNA integration and clonal hepatocyte expansion in chronic hepatitis B patients considered immune tolerant",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mason",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gill",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Litwin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Peri",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Pop",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Gastroenterology",
+            "volume": "151",
+            "issn": "",
+            "pages": "986--98",
+            "other_ids": {
+                "DOI": [
+                    "10.1053/j.gastro.2016.07.012"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Full annotation of serum virome in Chinese blood donors with elevated alanine aminotransferase levels",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Transfusion",
+            "volume": "59",
+            "issn": "",
+            "pages": "3177--85",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/trf.15476"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "In-depth serum virome analysis in acute liver failure patients with indeterminate etiology",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Bisceglie",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Arch Virol",
+            "volume": "165",
+            "issn": "",
+            "pages": "127--162",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00705-019-04466-9"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Something from (almost) nothing: the impact of multiple displacement amplification on microbial ecology",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Binga",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lasken",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Neufeld",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "*Correspondence: xiaofeng.fan@health.slu.edu 1 Division of Gastroenterology & Hepatology, Department of Internal Medicine, Saint Louis University School of Medicine, St. Louis, MO 63104, USA Full list of author information is available at the end of the article",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Dr. John Tavis (Saint Louis University) for providing a recombinant HBV plasmid that was used in the current study. 1 Received: 6 July 2020 Accepted: 12 September 2020",
+            "cite_spans": [
+                {
+                    "start": 125,
+                    "end": 126,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "Supplementary information accompanies this paper at https ://doi. org/10.1186/s1310 4-020-05292 -y.Additional file 1: Figure S1 . Characteristics of c7dGTP-involved PCR amplification and digestion. PCR product with c7dGTP was hard to stain by EB (A) but having similar yield to dGTP (B). All three enzymes gave complete digestion of dsDNA generated from PCR using dGTP (C) but not c7dGTP, as examined via 35-cycle of PCR after digestion (D).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 118,
+                    "end": 127,
+                    "text": "Figure S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Supplementary information"
+        },
+        {
+            "text": "TEEDseq: Target enrichment via enzymatic digestion in next generation sequencing; NGS: Next-generation sequencing; c 7 dGTP: 7-Deaza-2\u2032deoxyguanosine 5\u2032-triphosphate; dGTP: Deoxyguanosine triphosphate; RCA : Rolling cycling amplification; EB: Ethidium bromide; ssDNA: Single-strand DNA; dsDNA: Double-strand DNA; HBV: Hepatitis B virus; HCV: Hepatitis C virus.Authors' contributions PP: Conception, experimental performance, data analysis, interpretation of data; YX: experimental performance; AMDB: Interpretation of data; XF: Conception, design of the work, data analysis, interpretation of data, writing manuscript. XF is the corresponding author. All authors read and approved the final manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abbreviations"
+        },
+        {
+            "text": "This work was supported by the US National Institutes of Health (NIH) Grants AI139835 (X.F.).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "Sequence data in fastq format was deposited in the NCBI Sequence Read Archive (SRA) under BioProject ID: PRJNA626058. All other data generated or analyzed during this study are included in this published article [and its additional files].",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Availability of data and materials"
+        },
+        {
+            "text": "The serum sample used in the current study was provided by American Red Cross National Testing Lab in St. Louis. The serum sample was not collected for the current study. Instead, it was used in routine lab tests for transfusion safety and would be discarded if not used for research purpose. We obtained the serum sample that was not accompanied with any identity information. Hence, the consent was waived by the Saint Louis University Institutional Review Board that reviewed and approved the entire study protocol under the assurance no: FWA00005304.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethics approval and consent to participate"
+        },
+        {
+            "text": "Each author has agreed to publication of this manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Consent for publication"
+        },
+        {
+            "text": "The authors declare that they have no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests"
+        }
+    ]
+}

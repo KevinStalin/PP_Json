@@ -1,0 +1,5130 @@
+{
+    "paper_id": "0aeb7e236b72872d11dd793e51a71dec25db1489",
+    "metadata": {
+        "title": "Neutrophil extracellular traps infiltrate the lung airway, interstitial, and vascular compartments in severe COVID-19",
+        "authors": [
+            {
+                "first": "Coraline",
+                "middle": [],
+                "last": "Radermecker",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nancy",
+                "middle": [],
+                "last": "Detrembleur",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "\ue840",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Julien",
+                "middle": [],
+                "last": "Guiot",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Etienne",
+                "middle": [],
+                "last": "Cavalier",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Monique",
+                "middle": [],
+                "last": "Henket",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "\ue840",
+                "middle": [],
+                "last": "C\u00e9line D&apos;emal",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "C\u00e9line",
+                "middle": [],
+                "last": "Vanwinge",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Didier",
+                "middle": [],
+                "last": "Cataldo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "C\u00e9cile",
+                "middle": [],
+                "last": "Oury",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Philippe",
+                "middle": [],
+                "last": "Delvenne",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Thomas",
+                "middle": [],
+                "last": "Marichal",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "The COVID-19 pandemic emerged in Wuhan, China, and rapidly spread globally, leading to an overwhelming pressure on healthcare systems that required substantial hygienic and containment measures. Severe acute respiratory coronavirus-2 (SARS-CoV-2) has been identified as the etiological agent of COVID-19 Bao et al., 2020) , whose clinical manifestations range from the absence of symptoms to an acute respiratory distress syndrome (ARDS) and sometimes multi-organ failure, leading to death Chen et al., 2020; Guan et al., 2020) . While the determinants of disease severity are not completely understood yet, host factors such as age or an excessive inflammatory response to SARS-CoV-2 have been incriminated .",
+            "cite_spans": [
+                {
+                    "start": 304,
+                    "end": 321,
+                    "text": "Bao et al., 2020)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 490,
+                    "end": 508,
+                    "text": "Chen et al., 2020;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 509,
+                    "end": 527,
+                    "text": "Guan et al., 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The lungs are main targets of COVID-19, and patients with severe forms of the disease are often admitted to the hospital because of ARDS-associated hypoxemia, a consequence of impaired lung ventilation, diffusion, or perfusion Chen et al., 2020; Guan et al., 2020) . In addition, thrombotic complications have frequently been associated with COVID-19 in critically ill patients, representing a cause of organ failure and death Connors and Levy, 2020; Ackermann et al., 2020; Terpos et al., 2020; Wichmann et al., 2020; Helms et al., 2020) . Since no effective therapeutic options exist for COVID-19, a better understanding of the pathophysiological mechanisms involved in the most severe forms of the disease is a pressing medical need (Bikdeli et al., 2020) . In this regard, relationships between fatal forms of COVID-19 and lung immunopathological changes remain to be discovered in order to help the clinical management of the disease.",
+            "cite_spans": [
+                {
+                    "start": 227,
+                    "end": 245,
+                    "text": "Chen et al., 2020;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 246,
+                    "end": 264,
+                    "text": "Guan et al., 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 427,
+                    "end": 450,
+                    "text": "Connors and Levy, 2020;",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 451,
+                    "end": 474,
+                    "text": "Ackermann et al., 2020;",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 475,
+                    "end": 495,
+                    "text": "Terpos et al., 2020;",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 496,
+                    "end": 518,
+                    "text": "Wichmann et al., 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 519,
+                    "end": 538,
+                    "text": "Helms et al., 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 736,
+                    "end": 758,
+                    "text": "(Bikdeli et al., 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Neutrophils represent the most abundant leukocyte population in the blood. Of note, neutrophilia and elevated serum levels of the main neutrophil chemoattractant IL-8 were found in severe cases of COVID-19 and were associated with poor disease outcome Wang et al., 2020; Zhang et al., 2020) . In addition, neutrophils have been shown to infiltrate lungs of hospitalized COVID-19 patients Chen et al., 2020) . A powerful feature of activated neutrophils is their ability to form neutrophil extracellular traps (NETs), web-like structures rich in host DNA and containing modified histone proteins and granule proteins such as neutrophil elastase (NE) and myeloperoxidase (MPO; Papayannopoulos, 2018) . Initially discovered for their role in bacterial killing (Brinkmann et al., 2004) , NETs are now thought to contribute to the pathophysiology of a wide range of infectious or noninfectious diseases (Papayannopoulos, 2018; Jorch and Kubes, 2017) . Interestingly, NETs can be formed in the lungs upon infection with respiratory viruses (Sch\u00f6nrich and Raftery, 2016; Radermecker et al., 2019; Toussaint et al., 2017; Narasaraju et al., 2011; Moorthy et al., 2016b; Ashar et al., 2018) . Moreover, they have the ability to promote lung damage (Caudrillier et al., 2012; Lefran\u00e7ais et al., 2018; Narasaraju et al., 2011; Twaddell et al., 2019; Porto and Stein, 2016; Barnes et al., 2020) , thrombosis (Ali et al., 2019; Meng et al., 2017; Barnes et al., 2020) , and fibrosis (Chrysanthopoulou et al., 2014; Savchenko et al., 2014) , three features encountered in severe forms of COVID-19 patients (Ackermann et al., 2020; Wang et al., 2020; Guan et al., 2020; Zhou et al., 2020; Connors and Levy, 2020) . Accordingly, NETs have recently been proposed to represent potential drivers of COVID-19, as suggested by several opinion articles Mozzini and Girelli, 2020; Narasaraju et al., 2020; Thierry and Roch, 2020; Tomar et al., 2020) . Moreover, NET components have been detected in the sera of COVID-19 patients and correlated with disease severity (Zuo et al., 2020; Middleton et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 252,
+                    "end": 270,
+                    "text": "Wang et al., 2020;",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 271,
+                    "end": 290,
+                    "text": "Zhang et al., 2020)",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 388,
+                    "end": 406,
+                    "text": "Chen et al., 2020)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 675,
+                    "end": 697,
+                    "text": "Papayannopoulos, 2018)",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 757,
+                    "end": 781,
+                    "text": "(Brinkmann et al., 2004)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 898,
+                    "end": 921,
+                    "text": "(Papayannopoulos, 2018;",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 922,
+                    "end": 944,
+                    "text": "Jorch and Kubes, 2017)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1034,
+                    "end": 1063,
+                    "text": "(Sch\u00f6nrich and Raftery, 2016;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1064,
+                    "end": 1089,
+                    "text": "Radermecker et al., 2019;",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 1090,
+                    "end": 1113,
+                    "text": "Toussaint et al., 2017;",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 1114,
+                    "end": 1138,
+                    "text": "Narasaraju et al., 2011;",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 1139,
+                    "end": 1161,
+                    "text": "Moorthy et al., 2016b;",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1162,
+                    "end": 1181,
+                    "text": "Ashar et al., 2018)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1239,
+                    "end": 1265,
+                    "text": "(Caudrillier et al., 2012;",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1266,
+                    "end": 1290,
+                    "text": "Lefran\u00e7ais et al., 2018;",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1291,
+                    "end": 1315,
+                    "text": "Narasaraju et al., 2011;",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 1316,
+                    "end": 1338,
+                    "text": "Twaddell et al., 2019;",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 1339,
+                    "end": 1361,
+                    "text": "Porto and Stein, 2016;",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1362,
+                    "end": 1382,
+                    "text": "Barnes et al., 2020)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1396,
+                    "end": 1414,
+                    "text": "(Ali et al., 2019;",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1415,
+                    "end": 1433,
+                    "text": "Meng et al., 2017;",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1434,
+                    "end": 1454,
+                    "text": "Barnes et al., 2020)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1470,
+                    "end": 1501,
+                    "text": "(Chrysanthopoulou et al., 2014;",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1502,
+                    "end": 1525,
+                    "text": "Savchenko et al., 2014)",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 1592,
+                    "end": 1616,
+                    "text": "(Ackermann et al., 2020;",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1617,
+                    "end": 1635,
+                    "text": "Wang et al., 2020;",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 1636,
+                    "end": 1654,
+                    "text": "Guan et al., 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1655,
+                    "end": 1673,
+                    "text": "Zhou et al., 2020;",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 1674,
+                    "end": 1697,
+                    "text": "Connors and Levy, 2020)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1831,
+                    "end": 1857,
+                    "text": "Mozzini and Girelli, 2020;",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1858,
+                    "end": 1882,
+                    "text": "Narasaraju et al., 2020;",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 1883,
+                    "end": 1906,
+                    "text": "Thierry and Roch, 2020;",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 1907,
+                    "end": 1926,
+                    "text": "Tomar et al., 2020)",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 2043,
+                    "end": 2061,
+                    "text": "(Zuo et al., 2020;",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 2062,
+                    "end": 2085,
+                    "text": "Middleton et al., 2020)",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In the present study, we performed immunofluorescence staining on postmortem lung biopsies from COVID-19 patients to assess whether NET structures could be identified in the lungs of those patients, and whether they were located in particular lesions and micro-anatomical lung compartments. We report the presence of NETs in COVID-19-injured lungs, while they were not detected in lungs from patients who died from another cause. Interestingly, we found that NETs were mainly associated with the inflammatory interstitial lesions and the airways, while NET-prone primed neutrophils were found in pulmonary microcirculation. Our study supports the hypothesis that NETs may contribute to lung pathology in severe COVID-19 and represent putative therapeutic targets.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Clinical presentation of COVID-19 patients Postmortem lung samples were collected from four patients who died from COVID-19 at the University Hospital of Liege, Belgium (Table 1) . The age ranged from 51 to 73 yr, and one patient was female. Each case tested positive for SARS-CoV-2 by nasopharyngeal swab and RT-PCR at the time of admission. The total duration of the hospitalization until death ranged between 8 and 32 d. Assisted mechanical ventilation was implemented at the time of admission for three patients, and at day 3 after admission for one patient (Table 1) . Existing comorbidities and chronic treatments are reported in Table 1 . Every patient received inhospital antiviral (i.e., hydroxychloroquine) and antibiotic therapy. In the last 24 h preceding death, each patient exhibited blood neutrophilia and elevated serum C-reactive protein levels (Table 1) . Serum IL-6 levels were elevated in the three patients who were assessed for IL-6, and levels of the fibrin degradation products D-dimers were also above the normal range for the four patients, indicative of ongoing thrombosis and subsequent fibrinolysis (Table 1) . Lymphopenia and thrombocytopenia were observed in three out of four patients ( Table 1 ). The identified causes of death were pneumonia, ARDS, or multi-organ failure. Typical lesions of diffuse alveolar damage were confirmed by histopathological examination of lung sections by experienced pathologists (Table 1) . Hence, the four patients represented prototypical severe and fatal cases of COVID-19, characterized by pneumonia and fatal respiratory distress associated with signs of systemic inflammation, neutrophilia, and coagulopathy Chen et al., 2020; Guan et al., 2020; Li et al., 2020; Wang et al., 2020; Tang et al., 2020; Giusti et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 1678,
+                    "end": 1696,
+                    "text": "Chen et al., 2020;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1697,
+                    "end": 1715,
+                    "text": "Guan et al., 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1716,
+                    "end": 1732,
+                    "text": "Li et al., 2020;",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1733,
+                    "end": 1751,
+                    "text": "Wang et al., 2020;",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 1752,
+                    "end": 1770,
+                    "text": "Tang et al., 2020;",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 1771,
+                    "end": 1791,
+                    "text": "Giusti et al., 2020)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 169,
+                    "end": 178,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 562,
+                    "end": 571,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 636,
+                    "end": 643,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 862,
+                    "end": 871,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1128,
+                    "end": 1137,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1219,
+                    "end": 1226,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1443,
+                    "end": 1452,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results and discussion"
+        },
+        {
+            "text": "NETs are uniquely detected in lung specimens from COVID-19 patients First, we sought to determine whether NETs could be detected in the lungs of these COVID-19 patients. NETs are released by neutrophils and are defined as extracellular structures containing large amounts of DNA, modified histone proteins such as citrullinated histone H3 (Cit-H3), and granule proteins, including MPO and NE, which both regulate NET formation (Papayannopoulos, 2018; Boeltz et al., 2019) . Many methods are being used to detect and quantify NETs (Boeltz et al., 2019) . The detection of one single NET component (e.g., cell-free DNA, MPO, NE, Cit-H3) is nonspecific and should therefore be combined with more specific methods. In this regard, assays measuring NE/DNA or MPO/DNA complexes are often used to quantify NET fragments in body fluids or secretions, including the bronchoalveolar lavage fluid (Caudrillier et al., 2012; Bendib et al., 2019; Mikacenic et al., 2018) . Nevertheless, immunohistochemistry in tissue section is the most widely used and recommended method, as it allows the unambiguous visualization of extracellular structures containing extracellular DNA and colocalizing with granule-derived proteins and modified histones (Boeltz et al., 2019; Caudrillier et al., 2012; Radermecker et al., 2019; Rocks et al., 2019) . We performed immunofluorescence staining on paraffin-embedded lung sections from COVID-19 patients with anti-MPO and anti-Cit-H3 antibodies together with DAPI. Incubation with rabbit and goat sera and secondary antibodies was used as controls ( Fig. 1 , A-D). We found NETs, defined as extracellular areas triple positive for DNA-bound DAPI, MPO, and Cit-H3 (i.e., DAPI + MPO + Cit-H3 + NETs), in lung sections from COVID-19 patients (Fig. 1 , A-H, large arrowheads). We also analyzed lung sections from four \"control\" patients who died from a COVID-19-unrelated cardiac cause (Table S1). Notably, we were not able to find any DAPI + MPO + Cit-H3 + NETs in lung sections from those non-COVID-19 patients (Fig. 1 , A-D; and Fig. S1 ). Instead, we only sporadically detected MPO + neutrophils whose nuclei stained positive for Cit-H3 (Fig. 1 , A-D; thin arrow). We quantified the volume of extracellular structures displaying a colocalization between MPO and Cit-H3, i.e., MPO + Cit-H3 + NETs, in multiple fields from each patient and confirmed that NETs were uniquely found in COVID-19 lungs, but not in non-COVID-19 control lungs ( Fig. 1 I) . The absence of NETs in postmortem lung specimens from non-COVID-19 patients rules out the possibility that NETs are formed postmortem, merely as a consequence of death. In addition, in order to address whether the formation of NETs was specific to the lung tissue in COVID-19 patients, we performed similar staining on sections from the liver, pancreas, kidney, and heart from COVID-19 patients for which such material was available. Of note, we did not find any evidence of NET formation in those organs (Fig. S2) , suggesting that the systemic presence of NET components reported in sera from COVID-19 patients (Zuo et al., 2020; Middleton et al., 2020) is not associated with widespread NET formation in peripheral organs.",
+            "cite_spans": [
+                {
+                    "start": 427,
+                    "end": 450,
+                    "text": "(Papayannopoulos, 2018;",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 451,
+                    "end": 471,
+                    "text": "Boeltz et al., 2019)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 530,
+                    "end": 551,
+                    "text": "(Boeltz et al., 2019)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 886,
+                    "end": 912,
+                    "text": "(Caudrillier et al., 2012;",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 913,
+                    "end": 933,
+                    "text": "Bendib et al., 2019;",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 934,
+                    "end": 957,
+                    "text": "Mikacenic et al., 2018)",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 1230,
+                    "end": 1251,
+                    "text": "(Boeltz et al., 2019;",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1252,
+                    "end": 1277,
+                    "text": "Caudrillier et al., 2012;",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1278,
+                    "end": 1303,
+                    "text": "Radermecker et al., 2019;",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 1304,
+                    "end": 1323,
+                    "text": "Rocks et al., 2019)",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 3083,
+                    "end": 3101,
+                    "text": "(Zuo et al., 2020;",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 3102,
+                    "end": 3125,
+                    "text": "Middleton et al., 2020)",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1571,
+                    "end": 1577,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1760,
+                    "end": 1767,
+                    "text": "(Fig. 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 2030,
+                    "end": 2037,
+                    "text": "(Fig. 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 2049,
+                    "end": 2056,
+                    "text": "Fig. S1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 2158,
+                    "end": 2165,
+                    "text": "(Fig. 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 2458,
+                    "end": 2467,
+                    "text": "Fig. 1 I)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 2975,
+                    "end": 2984,
+                    "text": "(Fig. S2)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Results and discussion"
+        },
+        {
+            "text": "NETs are distributed in the airway, interstitial, and vascular compartments of COVID-19 lungs To gain further insights into the relative abundance of NETs in the lungs of COVID-19 patients, we scanned the entire immunofluorescently stained lung sections and marked the zones that were rich in MPO + Cit-H3 + NETs. This analysis revealed the presence of multiple, widely distributed NET-infiltrating areas in the lungs of COVID-19 patients (Fig. 2, A and B) , as depicted by black circles on consecutive H&E-stained sections (Fig. 2 C) . NETs may contribute to different aspects of COVID-19 physiopathology by infiltrating distinct lung compartments. To determine whether NETs were located in particular microanatomical localizations and lesions, we performed a detailed histopathological analysis of the NET-infiltrating areas for each patient (Table 2) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 439,
+                    "end": 456,
+                    "text": "(Fig. 2, A and B)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 524,
+                    "end": 534,
+                    "text": "(Fig. 2 C)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 844,
+                    "end": 853,
+                    "text": "(Table 2)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Results and discussion"
+        },
+        {
+            "text": "First, NETs were largely associated with the airway compartment in the four patients (Table 2 and Fig. 3, A and B ). Of note, they were often associated with fibrin, and occluded some alveoli or bronchioles almost completely. Extravascular fibrin deposition could result in leakage of plasma proteins, fibrinogen, and thrombi into the airway lumen (Wagers et al., 2004) . Therefore, the presence of NETs in the airway compartment may represent major procoagulant triggers, leading to fibrin deposition and subsequent impaired pulmonary ventilation. In advanced stages, NETs could be replaced by collagen networks, thereby contributing to COVID-19-triggered lung fibrosis (Chrysanthopoulou et al., 2014; Savchenko et al., 2014) . They may also facilitate secondary infections, such as seen in cystic fibrosis (Porto and Stein, 2016; Barnes et al., 2020) . In our study, two out of four patients developed a secondary lung infection during hospitalization (Table 1) . Even though NETs may also be induced by bacterial-derived mediators during a secondary infection (Porto and Stein, 2016; Hamaguchi et al., 2012; Moorthy et al., 2016a) , we found a massive presence of NETs in each patient, regardless of the status of secondary infection. It is thus unlikely that the secondary infection on its own would be solely responsible for the massive and multifocal infiltration of NETs in our study.",
+            "cite_spans": [
+                {
+                    "start": 348,
+                    "end": 369,
+                    "text": "(Wagers et al., 2004)",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 671,
+                    "end": 702,
+                    "text": "(Chrysanthopoulou et al., 2014;",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 703,
+                    "end": 726,
+                    "text": "Savchenko et al., 2014)",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 808,
+                    "end": 831,
+                    "text": "(Porto and Stein, 2016;",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 832,
+                    "end": 852,
+                    "text": "Barnes et al., 2020)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1063,
+                    "end": 1086,
+                    "text": "(Porto and Stein, 2016;",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1087,
+                    "end": 1110,
+                    "text": "Hamaguchi et al., 2012;",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1111,
+                    "end": 1133,
+                    "text": "Moorthy et al., 2016a)",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 85,
+                    "end": 97,
+                    "text": "(Table 2 and",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 98,
+                    "end": 113,
+                    "text": "Fig. 3, A and B",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 954,
+                    "end": 963,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results and discussion"
+        },
+        {
+            "text": "Second, the interstitial compartment also contained NETs in three patients, especially in zones infiltrated by neutrophils and macrophages, while no lymphocytes were observed (Table 2 and Fig. 3 C) . The proximity between NET-releasing neutrophils and macrophages is consistent with the hypothesis that NET could contribute to the cytokine storm in COVID-19 , by triggering IL-1\u03b2 secretion from macrophages, which would in turn increase NET formation and IL-6 secretion, as reported in other settings (Kahlenberg et al., 2013; Warnatsch et al., 2015; Meher et al., 2018; Sil et al., 2017) .",
+            "cite_spans": [
+                {
+                    "start": 501,
+                    "end": 526,
+                    "text": "(Kahlenberg et al., 2013;",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 527,
+                    "end": 550,
+                    "text": "Warnatsch et al., 2015;",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 551,
+                    "end": 570,
+                    "text": "Meher et al., 2018;",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 571,
+                    "end": 588,
+                    "text": "Sil et al., 2017)",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 175,
+                    "end": 187,
+                    "text": "(Table 2 and",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 188,
+                    "end": 197,
+                    "text": "Fig. 3 C)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Results and discussion"
+        },
+        {
+            "text": "Third, NET-rich zones encompassed the vascular compartment in lungs from three patients, where they mainly localized in arterioles containing microthrombi (Table 2 and Fig. 3 D) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 155,
+                    "end": 167,
+                    "text": "(Table 2 and",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 168,
+                    "end": 177,
+                    "text": "Fig. 3 D)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Results and discussion"
+        },
+        {
+            "text": "It is important to note that, in microthrombi, we mainly observed numerous Cit-H3 + MPO + neutrophils, as reported by others (Middleton et al., 2020) , rather than filamentous NETs, supporting that such activated neutrophils are in earlier stages of NET formation. Whether NETs actually contribute to the formation of COVID-19-associated pulmonary microthrombi (Ackermann et al., 2020) merits further investigation. Under conditions of infection-induced lung inflammation, NETs may indeed represent a mechanism by which neutrophils participate in thrombus formation (Laridan et al., 2019; Middleton et al., 2020) . NETs form a scaffold for adhesion of platelets (Laridan et al., 2019) , adhesion molecules such as von Willebrand factor and fibrinogen, and red blood cells. They mediate histone-induced platelet activation and aggregation. NET components, e.g., histones, DNA, NE, and cathepsin G, also have the ability to activate tissue-factor or factor 12-dependent coagulation, which results in fibrin generation and the formation of platelet-and fibrin-rich thrombi.",
+            "cite_spans": [
+                {
+                    "start": 125,
+                    "end": 149,
+                    "text": "(Middleton et al., 2020)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 361,
+                    "end": 385,
+                    "text": "(Ackermann et al., 2020)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 566,
+                    "end": 588,
+                    "text": "(Laridan et al., 2019;",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 589,
+                    "end": 612,
+                    "text": "Middleton et al., 2020)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 662,
+                    "end": 684,
+                    "text": "(Laridan et al., 2019)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results and discussion"
+        },
+        {
+            "text": "Our study reports that NETs infiltrate distinct compartments and lesions in the lungs of COVID-19 patients with a fatal outcome. It was performed on a small number of patients from the same country and hospital, which is an obvious limitation. In addition, our study does not demonstrate the causality between NETs and COVID-19 pathophysiology, as this would only be revealed in large clinical studies or model systems in which NETs would be targeted. These two points highlight the need for additional studies before drawing definitive conclusions about the implication of NETs in COVID-19 physiopathology.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "General discussion and conclusions"
+        },
+        {
+            "text": "The assisted mechanical ventilation of the patients represents a potential confounding factor for establishing a direct link between COVID-19 and NETs. Indeed, mechanical ventilation can be injurious to the lungs and has been shown to induce NETs (Yildiz et al., 2015; Porto and Stein, 2016 ). Yet it is mainly triggering alveolar damage, and would arguably induce NETs in the airway compartment only, but not in the interstitial or vascular compartments. Furthermore, a recent study indicates no relationship between ventilation duration and the amount of NETs in the bronchoalveolar lavage fluid from patients with pneumonia-related ARDS (Bendib et al., 2019) . Thus, while we cannot rule out a contribution of the assisted mechanical ventilation to the formation of NETs in COVID-19 patients, it is unlikely that this could explain the widespread distribution of NETs in the lungs of COVID-19 patients.",
+            "cite_spans": [
+                {
+                    "start": 247,
+                    "end": 268,
+                    "text": "(Yildiz et al., 2015;",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 269,
+                    "end": 290,
+                    "text": "Porto and Stein, 2016",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 640,
+                    "end": 661,
+                    "text": "(Bendib et al., 2019)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "General discussion and conclusions"
+        },
+        {
+            "text": "In-hospital antiviral therapy was administered to each COVID-19 patient (Table 1) , which may also influence the production of NETs. Nevertheless, data from the literature indicate that chloroquine exhibits an inhibitory effect on NET formation in other contexts (Boone et al., 2018; Murthy et al., 2019) . In addition, we would have expected to see NETs in other organs than the lung if hydroxychloroquine was sufficient to trigger NETs, which was not the case. Further investigations would, however, be necessary to formally exclude an effect of hydroxychloroquine on NETs in COVID-19 lungs.",
+            "cite_spans": [
+                {
+                    "start": 263,
+                    "end": 283,
+                    "text": "(Boone et al., 2018;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 284,
+                    "end": 304,
+                    "text": "Murthy et al., 2019)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 72,
+                    "end": 81,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "General discussion and conclusions"
+        },
+        {
+            "text": "There is currently no therapy against COVID-19, and several clinical trials are ongoing. Our findings that NETs widely infiltrate the lungs of deceased patients can be of major importance. On the one hand, thrombotic events have been suspected to contribute to COVID-19 morbidity and mortality, and current interim guidelines recommend the use of heparin regimens for thromboprophylaxis and anticoagulation treatment (Spyropoulos et al., 2020; Bikdeli et al., 2020) . Targeting NETs may represent another potential antithrombotic approach that might prove to be beneficial against both immunothrombosis and venous thromboembolism Middleton et al., 2020) . In a clinical study of patients with acute coronary syndrome, DNase, an enzyme that breaks down NETs, has been shown to accelerate lysis of coronary thrombi (Mangold et al., 2015) . It is also interesting to note that the prothrombotic effect of NETs could be diminished by heparin (Gr\u00e4ssle et al., 2014) , providing further support of current recommendations. On the other hand, dysregulated NET formation could aggravate lung damage and the impairment of gas exchanges (Caudrillier et al., 2012; Lefran\u00e7ais et al., 2018; Narasaraju et al., 2011; Twaddell et al., 2019; Porto and Stein, 2016; Barnes et al., 2020) . Inhalation of human recombinant DNase I (pulmozyme/dornase \u03b1) has been shown to improve lung function and to reduce secondary infections in cystic fibrosis (Fuchs et al., 1994; Konstan et al., 2011) , and may be beneficial in the context of COVID-19. In this regard, the Efficacy and Safety of Aerosolized Intra-tracheal Dornase Alfa Administration in Patients with COVID-19-Induced ARDS (COVI-Dornase) clinical trial is currently investigating the potential benefit of aerosolized dornase \u03b1 administration in hospitalized COVID-19 patients suffering from ARDS (Desilles et al., 2020) . Altogether, our study supports the idea that targeting NETs in COVID-19 patients may help the clinical management of severe forms of COVID-19 by alleviating thrombotic events, excessive tissue-damaging inflammation, fibrosis, and airway obstruction. ",
+            "cite_spans": [
+                {
+                    "start": 417,
+                    "end": 443,
+                    "text": "(Spyropoulos et al., 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 444,
+                    "end": 465,
+                    "text": "Bikdeli et al., 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 630,
+                    "end": 653,
+                    "text": "Middleton et al., 2020)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 813,
+                    "end": 835,
+                    "text": "(Mangold et al., 2015)",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 938,
+                    "end": 960,
+                    "text": "(Gr\u00e4ssle et al., 2014)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1127,
+                    "end": 1153,
+                    "text": "(Caudrillier et al., 2012;",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1154,
+                    "end": 1178,
+                    "text": "Lefran\u00e7ais et al., 2018;",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1179,
+                    "end": 1203,
+                    "text": "Narasaraju et al., 2011;",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 1204,
+                    "end": 1226,
+                    "text": "Twaddell et al., 2019;",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 1227,
+                    "end": 1249,
+                    "text": "Porto and Stein, 2016;",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1250,
+                    "end": 1270,
+                    "text": "Barnes et al., 2020)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1429,
+                    "end": 1449,
+                    "text": "(Fuchs et al., 1994;",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1450,
+                    "end": 1471,
+                    "text": "Konstan et al., 2011)",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1834,
+                    "end": 1857,
+                    "text": "(Desilles et al., 2020)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "General discussion and conclusions"
+        },
+        {
+            "text": "The use of human specimens was approved in 2020 by the Ethics Reviewing Board of the University Hospital of Liege, Belgium (ref. 2020/119).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethics approval"
+        },
+        {
+            "text": "We analyzed lung postmortem biopsy specimens from four patients who died from SARS-CoV-2 infection at the University Hospital of Liege (Belgium) and from four patients who died at the same hospital from a COVID-19-unrelated cause. The non-COVID-19 lung controls were archived tissues that were chosen for the best possible match with respect to age and sex. The characteristics of the patients are presented in Table 1 and  Table S1 . We also analyzed postmortem biopsy specimens isolated from the liver, heart, kidney, and pancreas from two COVID-19 patients for which such material was available. All tissues were provided by the Biobank of the Liege University Hospital and selected by two pathologists after H&E staining.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 411,
+                    "end": 432,
+                    "text": "Table 1 and  Table S1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Human biopsies"
+        },
+        {
+            "text": "Hematology and blood biochemistry of COVID-19 patients were retrospectively analyzed. We used the last available blood sample taken in the 24 h preceding the patient's death. All biomarkers have been analyzed by the central laboratory (Hematology and Biochemistry) of the Liege University Hospital.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hematology and biochemistry of COVID-19 patients"
+        },
+        {
+            "text": "The samples were formalin-fixed paraffin-embedded (FFPE), and serial tissue sections of 4 \u00b5m were cut for histological and immunofluorescence examination. H&E-stained whole slides were digitized by using a Pannoramic 250 Flash III Scanner (3DHISTECH Ltd.). High-resolution images focused on immunofluorescence-detected NET areas were then assessed by two experienced pathologists by using a scoring system of lesions typically found in SARS-CoV-2 diffuse alveolar damage and present in the different lung tissue compartments (alveolar, bronchial, interstitial, and vascular; Table 2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 575,
+                    "end": 582,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Histopathological characterization of lungs from COVID-19 patients"
+        },
+        {
+            "text": "To identify NETs from lung tissues, lung tissues were FFPE, and lung sections were cut (4-\u00b5m-thick sections) for immunofluorescence staining. After deparaffinization and rehydration, tissue sections were boiled for 20 min in 10-mM sodium carbonate buffer for antigen retrieval. Lung sections were permeabilized in PBS 0.5% Triton X-100. Samples were incubated with a blocking buffer (PBS with 2% BSA and 2% of donkey serum; Sigma-Aldrich) for 1 h at room temperature and stained in blocking buffer with rabbit antihuman antibodies directed against citrullinated histone H3 (Abcam, Ab5103; 1:100 in blocking buffer) and with goat anti-human antibodies directed against MPO (R&D Systems, AF3667; 1:40 in blocking buffer) for 1 h at room temperature. After washing samples with PBS, secondary donkey anti-rabbit IgG antibodies conjugated with Alexa Fluor 568 (1:200 in blocking buffer) and donkey anti-goat IgG antibodies conjugated with Alexa Fluor 488 (1:200 in blocking buffer) were added in blocking buffer containing DAPI (1:1,000) and incubated for 2 h in the dark at room temperature. Finally, samples were mounted with 10 \u00b5l of ProLong Antifade reagent (Thermo Fisher Scientific) on glass slides and stored at room temperature in the dark overnight.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunofluorescence staining and analysis"
+        },
+        {
+            "text": "All samples were analyzed by fluorescence microscopy using standard filter sets. Controls were stained with secondary antibodies after incubation with sera from host species (i.e., rabbit and goat sera, 2% in PBS) without primary antibodies, and nonspecific fluorescent staining was not detected under these conditions (Fig. 1,  A-D) . Images were acquired on a Zeiss LSM 880 Airyscan Elyra S.1. confocal microscope (Zeiss) and processed using ImageJ software.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 319,
+                    "end": 333,
+                    "text": "(Fig. 1,  A-D)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Immunofluorescence staining and analysis"
+        },
+        {
+            "text": "To quantify the volume of NETs present in the lung tissue, six fields (magnification, 20\u00d7) were analyzed per patients, Z-stack pictures were acquired, and Imaris software was used, as described previously . Briefly, we performed a three-dimensional reconstruction of structures staining double positive for Cit-H3 (red) and MPO (green), and Imaris provided quantification of the volume of these structures, expressed as cubic micrometer per cubic micrometer of lung tissue. The colocalization analysis method uses three Imaris script/macro tools. The first script processes all the .ims files in a folder. The script thresholds the red Cit-H3 and the green MPO staining. Then, we created a new channel, i.e., the intersection between red threshold and green threshold, where all the voxels have a colocalization equal to 1. Then, the second script measured the volume of the intersection between the red threshold and the green threshold. Finally, the third script measured the total volume of the picture. The script created an Excel .xlsx file containing all the measurements.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunofluorescence staining and analysis"
+        },
+        {
+            "text": "To assess for the presence of NETs in entire lung sections, sections were entirely scanned using the Nanozoomer 2.0-HT system equipped with a TRI-CCD camera (0.46 \u00b5m/pixel [20\u00d7] scanning resolution). Sections were manually screened for the presence of areas rich in structures staining double positive for Cit-H3 and MPO, which were identified as NET-infiltrating areas as marked in Fig. 2 C.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 383,
+                    "end": 389,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Immunofluorescence staining and analysis"
+        },
+        {
+            "text": "Data in Fig. 1 I are presented as mean and individual values and were analyzed for statistical significance using a nonparametric Mann-Whitney U test on mean values, as indicated in the figure legend. P values <0.05 are considered statistically significant.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 8,
+                    "end": 14,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Statistical analyses"
+        },
+        {
+            "text": "Online supplemental material Fig. S1 shows microscopy pictures of immunofluorescence lung sections from non-COVID-19 patients stained with DAPI, anti-MPO, and anti-Cit-H3 antibodies. Fig. S2 shows representative confocal microscopy pictures of immunofluorescence staining from liver, pancreas, kidney, and heart sections from COVID-19 patients stained with DAPI, anti-MPO, and anti-Cit-H3 antibodies. Table S1 contains demographic and clinical characteristics of the non-COVID-19 patients involved in the study. Table S1 is provided online as a separate Word file and contains demographic and clinical characteristics of the non-COVID-19 patients involved in the study. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 29,
+                    "end": 36,
+                    "text": "Fig. S1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 183,
+                    "end": 190,
+                    "text": "Fig. S2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 401,
+                    "end": 409,
+                    "text": "Table S1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 512,
+                    "end": 520,
+                    "text": "Table S1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Statistical analyses"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Pulmonary Vascular Endothelialitis, Thrombosis, and Angiogenesis in Covid-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ackermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Verleden",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kuehnel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Haverich",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Welte",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Laenger",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vanstapel",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Werlein",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Stark",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tzankov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N. Engl. J. Med",
+            "volume": "383",
+            "issn": "",
+            "pages": "120--128",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2015432"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Adenosine receptor agonism protects against NETosis and thrombosis in antiphospholipid syndrome",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Gandhi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yalavarthi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Vreede",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Estes",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Palmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bockenstedt",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Pinsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Greve",
+                    "suffix": ""
+                }
+            ],
+            "year": 1916,
+            "venue": "Nat. Commun",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41467-019-09801-x"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The Role of Extracellular Histones in Influenza Virus Pathogenesis",
+            "authors": [],
+            "year": null,
+            "venue": "Am. J. Pathol",
+            "volume": "188",
+            "issn": "",
+            "pages": "135--148",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ajpath.2017.09.014"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The pathogenicity of SARS-CoV-2 in hACE2 transgenic mice",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "583",
+            "issn": "",
+            "pages": "830--833",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2312-y"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Targeting potential drivers of COVID-19: Neutrophil extracellular traps",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Barnes",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Adrover",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Baxter-Stoltzfus",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Borczuk",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cools-Lartigue",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Crawford",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Da\u00dfler-Plenker",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Guerci",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huynh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Knight",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Exp. Med",
+            "volume": "217",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1084/jem.20200652"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Neutrophil Extracellular Traps Are Elevated in Patients with Pneumoniarelated Acute Respiratory Distress Syndrome",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Bendib",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "De Chaisemartin",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Granger",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Schlemmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Maitre",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "H\u00fce",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Surenaud",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Beldi-Ferchiou",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Carteaux",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Razazi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Anesthesiology",
+            "volume": "130",
+            "issn": "",
+            "pages": "581--591",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/ALN.0000000000002619"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Global COVID-19 Thrombosis Collaborative Group. 2020. Pharmacological Agents Targeting Thromboinflammation in COVID-19: Review and Implications for Future Research",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bikdeli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Madhavan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Jimenez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Burton",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Der Nigoghossian",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Chuich",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Nouri",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Dreyfus",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Driggin",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Thromb. Haemost",
+            "volume": "120",
+            "issn": "",
+            "pages": "1004--1024",
+            "other_ids": {
+                "DOI": [
+                    "10.1055/s-0040-1713152"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "To NET or not to NET: current opinions and state of the science regarding the formation of neutrophil extracellular traps",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Boeltz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Amini",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.-J",
+                    "middle": [],
+                    "last": "Anders",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Andrade",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bilyy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chatfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Cichon",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Clancy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Desai",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Dumych",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Cell Death Differ",
+            "volume": "26",
+            "issn": "",
+            "pages": "395--408",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41418-018-0261-x"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Chloroquine reduces hypercoagulability in pancreatic cancer through inhibition of neutrophil extracellular traps",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Boone",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Murthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Miller-Ocuin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Doerfler",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Ellis",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ross",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wallace",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Sperry",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Lotze",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "BMC Cancer",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12885-018-4584-2"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Neutrophil extracellular traps kill bacteria",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Brinkmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichard",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Goosmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Fauler",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Uhlemann",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Weiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Weinrauch",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zychlinsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Science",
+            "volume": "303",
+            "issn": "",
+            "pages": "1532--1535",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.1092385"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Platelets induce neutrophil extracellular traps in transfusion-related acute lung injury",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Caudrillier",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kessenbrock",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gilliss",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Marques",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Monestier",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Toy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Werb",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Looney",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "30211--30218",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30211-7"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Neutrophil extracellular traps promote differentiation and function of fibroblasts",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chrysanthopoulou",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Mitroulis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Apostolidou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Arelaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mikroulis",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Konstantinidis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sivridis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Koffa",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Giatromanolaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Boumpas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Pathol",
+            "volume": "233",
+            "issn": "",
+            "pages": "294--307",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/path.4359"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "COVID-19 and its implications for thrombosis and anticoagulation",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Connors",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Levy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Blood",
+            "volume": "135",
+            "issn": "",
+            "pages": "2033--2040",
+            "other_ids": {
+                "DOI": [
+                    "10.1182/blood.2020006000"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Efficacy and safety of aerosolized intra-tracheal dornase alfa administration in patients with SARS-CoV-2-induced acute respiratory distress syndrome (ARDS): a structured summary of a study protocol for a randomised controlled trial",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Desilles",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gregoire",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Le"
+                    ],
+                    "last": "Cossec",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lambert",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Mophawe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Losser",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lambiotte",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Le Tacon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cantier",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Engrand",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Trials",
+            "volume": "21",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s13063-020-04488-8"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Effect of aerosolized recombinant human DNase on exacerbations of respiratory symptoms and on pulmonary function in patients with cystic fibrosis",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Fuchs",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Borowitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Christiansen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Morris",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Nash",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Ramsey",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rosenstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wohl",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "N. Engl. J. Med",
+            "volume": "331",
+            "issn": "",
+            "pages": "637--642",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJM199409083311003"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Sars-CoV-2 Induced Coagulopathy and Prognosis in Hospitalized Patients: A Snapshot from Italy",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Giusti",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gori",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Alessi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rogolino",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lotti",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Poli",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sticchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bartoloni",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Morettini",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Nozzoli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Thromb. Haemost",
+            "volume": "120",
+            "issn": "",
+            "pages": "1233--1236",
+            "other_ids": {
+                "DOI": [
+                    "10.1055/s-0040-1712918"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Willebrand factor directly interacts with DNA from neutrophil extracellular traps",
+            "authors": [],
+            "year": null,
+            "venue": "Arterioscler. Thromb. Vasc. Biol",
+            "volume": "34",
+            "issn": "",
+            "pages": "1382--1389",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/ATVBAHA.113.303016"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "China Medical Treatment Expert Group for Covid-19. 2020. Clinical Characteristics of Coronavirus Disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W.-J",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.-Y",
+                    "middle": [],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.-H",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-Q",
+                    "middle": [],
+                    "last": "Ou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-X",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-L",
+                    "middle": [],
+                    "last": "Lei",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S C"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "N. Engl. J. Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "1708--1720",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2002032"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Case of invasive nontypable Haemophilus influenzae respiratory tract infection with a large quantity of neutrophil extracellular traps in sputum",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hamaguchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Seki",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Yamamoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hirose",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Matsumoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Irisawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Takegawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Shimazu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tomono",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J. Inflamm. Res",
+            "volume": "5",
+            "issn": "",
+            "pages": "137--140",
+            "other_ids": {
+                "DOI": [
+                    "10.2147/JIR.S39497"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "High risk of thrombosis in patients with severe SARS-CoV-2 infection: a multicenter prospective cohort study",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Crics Triggersep Group",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Intensive Care Med",
+            "volume": "46",
+            "issn": "",
+            "pages": "1089--1098",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00134-020-06062-x"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "30183--30188",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30183-5"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "An emerging role for neutrophil extracellular traps in noninfectious disease",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Jorch",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kubes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nat. Med",
+            "volume": "23",
+            "issn": "",
+            "pages": "279--287",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nm.4294"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Neutrophil extracellular trap-associated protein activation of the NLRP3 inflammasome is enhanced in lupus macrophages",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kahlenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Carmona-Rivera",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kaplan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J. Immunol",
+            "volume": "190",
+            "issn": "",
+            "pages": "1217--1226",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.1202388"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Scientific Advisory Group and Investigators and Coordinators of Epidemiologic Study of Cystic Fibrosis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Konstan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Wagener",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Pasta",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Millar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Jacobs",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Yegin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Morgan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Pediatr. Pulmonol",
+            "volume": "46",
+            "issn": "",
+            "pages": "545--553",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/ppul.21388"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Neutrophil Extracellular Traps in Arterial and Venous Thrombosis",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Laridan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Martinod",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Meyer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Semin. Thromb. Hemost",
+            "volume": "45",
+            "issn": "",
+            "pages": "86--93",
+            "other_ids": {
+                "DOI": [
+                    "10.1055/s-0038-1677040"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Maladaptive role of neutrophil extracellular traps in pathogen-induced lung injury",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lefran\u00e7ais",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mallavia",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Calfee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Looney",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1172/jci.insight.98178"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Clinical and pathological investigation of patients with severe COVID-19",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "An",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JCI Insight. 5. e138070",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1172/jci.insight.138070"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Coronary neutrophil extracellular trap burden and deoxyribonuclease activity in ST-elevation acute coronary syndrome are predictors of ST-segment resolution and infarct size",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mangold",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Alias",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Scherz",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hofbauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jakowitsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Panzenb\u00f6ck",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Simon",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Laimer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bangert",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kammerlander",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Circ. Res",
+            "volume": "116",
+            "issn": "",
+            "pages": "1182--1192",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/CIRCRESAHA.116.304944"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Novel Role of IL (Interleukin)-1\u03b2 in Neutrophil Extracellular Trap Formation and Abdominal Aortic Aneurysms",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Meher",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Spinosa",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Pope",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Laubach",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Serbulea",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Leitinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ailawadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Upchurch",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jr",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Arterioscler. Thromb. Vasc. Biol",
+            "volume": "38",
+            "issn": "",
+            "pages": "843--853",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/ATVBAHA.117.309897"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Vivo Role of Neutrophil Extracellular Traps in Antiphospholipid Antibody-Mediated Venous Thrombosis. Arthritis Rheumatol",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yalavarthi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kanthi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Mazza",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Elfline",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Luke",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Pinsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Henke",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Knight",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "69",
+            "issn": "",
+            "pages": "655--667",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/art.39938"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Neutrophil Extracellular Traps (NETs) Contribute to Immunothrombosis in COVID-19 Acute Respiratory Distress Syndrome",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Middleton",
+                    "suffix": ""
+                },
+                {
+                    "first": "X.-Y",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Denorme",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Campbell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Salvatore",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mostyka",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Baxter-Stoltzfus",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Borczuk",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Loda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1182/blood.2020007008"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Neutrophil extracellular traps (NETs) are increased in the alveolar spaces of patients with ventilator-associated pneumonia",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mikacenic",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Dmyterko",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "West",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Altemeier",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Liles",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lood",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Crit. Care",
+            "volume": "22",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s13054-018-2290-8"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Capsules of virulent pneumococcal serotypes enhance formation of neutrophil extracellular traps during in vivo pathogenesis of pneumonia",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Moorthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rai",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Watanabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Teluguakula",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "T K"
+                    ],
+                    "last": "Chow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Oncotarget",
+            "volume": "7",
+            "issn": "",
+            "pages": "19327--19340",
+            "other_ids": {
+                "DOI": [
+                    "10.18632/oncotarget.8451"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Effect of High-Fat Diet on the Formation of Pulmonary Neutrophil Extracellular Traps during Influenza Pneumonia in BALB/c Mice",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Moorthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Narasaraju",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Chow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Front. Immunol",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fimmu.2016.00289"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "The role of Neutrophil Extracellular Traps in Covid-19: Only an hypothesis or a potential new field of research?",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mozzini",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Girelli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Thromb. Res",
+            "volume": "191",
+            "issn": "",
+            "pages": "26--27",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.thromres.2020.04.031"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Enhanced Neutrophil Extracellular Trap Formation in Acute Pancreatitis Contributes to Disease Severity and Is Reduced by Chloroquine",
+            "authors": [],
+            "year": null,
+            "venue": "Front. Immunol",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fimmu.2019.00028"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Excessive neutrophils and neutrophil extracellular traps contribute to acute lung injury of influenza pneumonitis",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Narasaraju",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Samy",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Poh",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.-A",
+                    "middle": [],
+                    "last": "Liew",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Phoon",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Van Rooijen",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Chow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Am. J. Pathol",
+            "volume": "179",
+            "issn": "",
+            "pages": "199--210",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ajpath.2011.03.013"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Neutrophilia and NETopathy as Key Pathologic Drivers of Progressive Lung Impairment in Patients With COVID-19. Front. Pharmacol",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Narasaraju",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Herrmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Muller",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "T K"
+                    ],
+                    "last": "Chow",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Radic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fphar.2020.00870"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Neutrophil extracellular traps in immunity and disease",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Papayannopoulos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nat. Rev. Immunol",
+            "volume": "18",
+            "issn": "",
+            "pages": "134--147",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nri.2017.105"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Neutrophil Extracellular Traps in Pulmonary Diseases: Too Much of a Good Thing?",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Porto",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Stein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Front. Immunol",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fimmu.2016.00311"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Locally instructed CXCR4 hi neutrophils trigger environment-driven allergic asthma through the release of neutrophil extracellular traps",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Radermecker",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sabatel",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Vanwinge",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ruscitti",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mar\u00e9chal",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Perin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schyns",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Rocks",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Toussaint",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Cataldo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nat. Immunol",
+            "volume": "20",
+            "issn": "",
+            "pages": "1444--1455",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41590-019-0496-9"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Ozone-primed neutrophils promote early steps of tumour cell metastasis to lungs by enhancing their NET production",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Rocks",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Vanwinge",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Radermecker",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Blacher",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gilles",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mar\u00e9e",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gillard",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Evrard",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Pequeux",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Marichal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Thorax",
+            "volume": "74",
+            "issn": "",
+            "pages": "768--779",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/thoraxjnl-2018-211990"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Neutrophil extracellular traps form predominantly during the organizing stage of human venous thromboembolism development",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Savchenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Martinod",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Seidman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Borissoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Piazza",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Libby",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Goldhaber",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Mitchell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Wagner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Macrophage-derived IL-1\u03b2 enhances monosodium urate crystal-triggered NET formation",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sil",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wicklum",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Surell",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Rada",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Inflamm. Res",
+            "volume": "66",
+            "issn": "",
+            "pages": "227--237",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00011-016-1008-0"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Haemostasis of the Scientific, Standardization Committee of the International Society on Thrombosis and Haemostasis. 2020. Scientific and Standardization Committee communication",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Spyropoulos",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Levy",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ageno",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Connors",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hunt",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Iba",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Levi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Samama",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Thachil",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Giannis",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Abnormal coagulation parameters are associated with poor prognosis in patients with novel coronavirus pneumonia",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Thromb. Haemost",
+            "volume": "18",
+            "issn": "",
+            "pages": "844--847",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/jth.14768"
+                ]
+            }
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Hematological findings and complications of COVID-19",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Terpos",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ntanasis-Stathopoulos",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Elalamy",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kastritis",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Sergentanis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Politou",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Psaltopoulou",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gerotziafas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Dimopoulos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am. J. Hematol",
+            "volume": "95",
+            "issn": "",
+            "pages": "834--847",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/ajh.25829"
+                ]
+            }
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "SARS-CoV2 may evade innate immune response, causing uncontrolled neutrophil extracellular traps formation and multi-organ failure",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Thierry",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Roch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin. Sci. (Lond.)",
+            "volume": "134",
+            "issn": "",
+            "pages": "1295--1300",
+            "other_ids": {
+                "DOI": [
+                    "10.1042/CS20200531"
+                ]
+            }
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Neutrophils and Neutrophil Extracellular Traps Drive Necroinflammation in COVID-19",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Tomar",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.-J",
+                    "middle": [],
+                    "last": "Anders",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Desai",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mulay",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cells",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/cells9061383"
+                ]
+            }
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Host DNA released by NETosis promotes rhinovirus-induced type-2 allergic asthma exacerbation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Toussaint",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Jackson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Swieboda",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gued\u00e1n",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Tsourouktsoglou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ching",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Radermecker",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Makrinioti",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Aniscenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Bartlett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nat. Med",
+            "volume": "23",
+            "issn": "",
+            "pages": "681--691",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nm.4332"
+                ]
+            }
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "The Emerging Role of Neutrophil Extracellular Traps in Respiratory Disease",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Twaddell",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Baines",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Grainge",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Gibson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Chest",
+            "volume": "156",
+            "issn": "",
+            "pages": "774--782",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.chest.2019.06.012"
+                ]
+            }
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Extravascular fibrin, plasminogen activator, plasminogen activator inhibitors, and airway hyperresponsiveness",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Wagers",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Norton",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rinaldi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H T"
+                    ],
+                    "last": "Bates",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Sobel",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Irvin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Clin. Invest",
+            "volume": "114",
+            "issn": "",
+            "pages": "104--111",
+            "other_ids": {
+                "DOI": [
+                    "10.1172/JCI200419569"
+                ]
+            }
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus-Infected Pneumonia in Wuhan",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. JAMA",
+            "volume": "323",
+            "issn": "",
+            "pages": "1061--1069",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.1585"
+                ]
+            }
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Inflammation. Neutrophil extracellular traps license macrophages for cytokine production in atherosclerosis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Warnatsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ioannou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Papayannopoulos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Science",
+            "volume": "349",
+            "issn": "",
+            "pages": "316--320",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.aaa8064"
+                ]
+            }
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Autopsy Findings and Venous Thromboembolism in Patients With COVID-19: A Prospective Cohort Study",
+            "authors": [],
+            "year": null,
+            "venue": "Ann. Intern. Med",
+            "volume": "173",
+            "issn": "",
+            "pages": "268--277",
+            "other_ids": {
+                "DOI": [
+                    "10.7326/M20-2003"
+                ]
+            }
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-M",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.-G",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.-W",
+                    "middle": [],
+                    "last": "Tao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-H",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-Y",
+                    "middle": [],
+                    "last": "Pei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "",
+            "pages": "265--269",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2008-3"
+                ]
+            }
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Pathological findings of COVID-19 associated with acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Respir. Med",
+            "volume": "8",
+            "issn": "",
+            "pages": "420--422",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2213-2600(20)30076-X"
+                ]
+            }
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Novel therapeutic targets for SARS-CoV-2-induced acute lung injury: Targeting a potential IL-1\u03b2/neutrophil extracellular traps feedback loop",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Yaqinuddin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kashir",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.mehy.2020.109906"
+                ]
+            }
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "COVID-19: Role of neutrophil extracellular traps in acute lung injury",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Yaqinuddin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kvietys",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kashir",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Respir. Investig",
+            "volume": "58",
+            "issn": "",
+            "pages": "419--420",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.resinv.2020.06.001"
+                ]
+            }
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Mechanical ventilation induces neutrophil extracellular trap formation",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Yildiz",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Palaniyar",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Otulakowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Post",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kuebler",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tanswell",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Belcastro",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Masood",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Engelberts",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Anesthesiology",
+            "volume": "122",
+            "issn": "",
+            "pages": "864--875",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/ALN.0000000000000605"
+                ]
+            }
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Viral and host factors related to the clinical outcome of COVID-19",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ling",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Jia",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "583",
+            "issn": "",
+            "pages": "437--440",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2355-0"
+                ]
+            }
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1054--1062",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30566-3"
+                ]
+            }
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Neutrophil extracellular traps in COVID-19. JCI Insight. 5. e138999",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yalavarthi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gockman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Madison",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Blair",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Barnes",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Egeblad",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1172/jci.insight.138999"
+                ]
+            }
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Supplemental material",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "No evidence of NETs in postmortem lung biopsy specimens from non-COVID-19 patients. (A) Photographs of entire antibody-stained immunofluorescence lung sections from non-COVID-19 patients. (B) Magnification of NET-rich zones, indicated by white boxes in A. (C) Representative confocal microscopy pictures of immunofluorescence staining of lung sections from non-COVID-19 patients (MPO [red] and Cit-H3",
+            "authors": [
+                {
+                    "first": "S1",
+                    "middle": [],
+                    "last": "Figure",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "DAPI non-COVID-19 and COVID-19 lungs. Control sections were incubated with rabbit and goat sera and with secondary antibodies (sec. Abs). Pictures are representative of one of four non-COVID-19 and one of four COVID-19 patients analyzed. Extracellular DAPI + MPO + Cit-H3 + NETs are indicated by large arrowheads, while one MPO + Cit-H3 + neutrophil is indicated by a thin arrow.(E-H) Representative high-resolution confocal microscopy pictures (magnification, 63\u00d7, maximal intensity projections of a Z-stack) of (E) DAPI (blue), (F) MPO (green), (G) Cit-H3 (red), and (H) merged stainings from COVID-19 lungs. DAPI + MPO + Cit-H3 + NETs are indicated by large arrowheads. (I) Quantification of NET volume from multiple fields (20\u00d7) of lung sections from the four non-COVID-19 and the four COVID-19 patients. Results show individual values and mean. P value compares non-COVID-19 and COVID-19 samples and was calculated using a nonparametric Mann-Whitney U test on mean values. *, P < 0.05. Scale bars, 20 \u00b5m.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "NETs are broadly distributed in postmortem lung specimens from COVID-19 patients. (A) Photographs of entire antibody-stained immunofluorescence lung sections from COVID-19 patients. (B) Magnification of NET-rich zones, indicated by white boxes in A. MPO + Cit-H3 + NETs are indicated by large arrowheads. (C) Photographs of entire H&E-stained lung sections from COVID-19 patients. NET-infiltrating areas are circled in black. Scale bars, 1 mm (A and C); 100 \u00b5m (B).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "NETs are found in lesional areas of the lung airway, interstitial, and vascular compartments. (A-D) Representative pictures of H&E staining from lung sections are shown on the left, and representative pictures of immunofluorescence staining from adjacent lung sections are shown on the right (MPO [red] and Cit-H3 [red] merged with DAPI [blue]). The black box on the left indicates the zone shown by immunofluorescence on the right. MPO + Cit-H3 + NETs are indicated by arrowheads. Examples of NETs found (A) in a terminal bronchiole and alveoli, (B) in small bronchi, (C) in the interstitial compartment, and (D) in a microthrombus within an arteriole are shown. Scale bars, 50 \u00b5m.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "No evidence of NETs in postmortem biopsy specimens from other organs in COVID-19 patients. (A-D) Representative confocal microscopy pictures of immunofluorescence staining from (A) liver, (B) pancreas, (C) kidney, and (D) heart sections from two COVID-19 patients are shown (MPO [red] and Cit-H3 [red] merged with DAPI [blue]). Areas containing MPO + neutrophils are shown. Scale bars, 20 \u00b5m. Radermecker et al. Journal of Experimental Medicine S2 Lung NETs in COVID-19 patients https://doi.org/10.1084/jem.20201012",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Demographic and clinical characteristics, and hematological and clinical biochemistry findings of COVID-19 patientsFor hematological and clinical biochemistry values, references ranges are indicated in brackets. ACE, angiotensin-converting enzyme; CRP, C-reactive protein; CS, corticosteroids; F, female; M, male; SSRI, selective serotonin reuptake inhibitor.Values below the reference range. b Values above the reference range.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Lung histopathological analysis of NET-infiltrating area in COVID-19 patients",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Dr Alexandre Hego from the Grappe Interdisciplinaire de G\u00e9noprot\u00e9omique Appliqu\u00e9e Flow Cytometry and Cell Imaging Platform; Dr Beno\u00eet Misset, Head of the Intensive Care Unit Department; Dr. Alexandra Belayew for helpful discussions; and Pauline Mar\u00e9chal, Raja Fares, and Ilham Sbai for their excellent technical and administrative support.C. Oury is Research Director at the National Funds for Scientific Research, Belgium. P. Delvenne is supported by the Leon Fredericq Foundation (Liege, Belgium). T. Marichal is supported by an \"Incentive Grant for Scientific Research\" of the National Funds for Scientific Research, Belgium (grant no. F.4508.18 Disclosures: E. Cavalier reported \"other\" from Diasorin, Fujirebio, BioMerieux, IDS, Menarini, and Nittobo outside the submitted work. No other disclosures were reported.Submitted: 2 June 2020 Revised: 10 July 2020 Accepted: 10 August 2020",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ]
+}

@@ -1,0 +1,1039 @@
+{
+    "paper_id": "0b09ca32d660b0f19e098955e0ee2a7135aedd3a",
+    "metadata": {
+        "title": "Journal Pre-proof Coronavirus testing in women attending antenatal care",
+        "authors": [
+            {
+                "first": "Daniel",
+                "middle": [
+                    "L"
+                ],
+                "last": "Rolnik",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Monash University",
+                    "location": {
+                        "settlement": "Clayton",
+                        "region": "Victoria",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tony",
+                "middle": [
+                    "M"
+                ],
+                "last": "Korman",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Andrea",
+                "middle": [],
+                "last": "Rindt",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rhonda",
+                "middle": [
+                    "L"
+                ],
+                "last": "Stuart",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Monash University",
+                    "location": {
+                        "settlement": "Clayton",
+                        "region": "Victoria",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Michelle",
+                "middle": [
+                    "L"
+                ],
+                "last": "Giles",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Monash University",
+                    "location": {
+                        "settlement": "Clayton",
+                        "region": "Victoria",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Janine",
+                "middle": [],
+                "last": "Rawlins",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Kirsten",
+                "middle": [
+                    "R"
+                ],
+                "last": "Palmer",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Andrew",
+                "middle": [],
+                "last": "Stripp",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Monash University",
+                    "location": {
+                        "settlement": "Clayton",
+                        "region": "Victoria",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Euan",
+                "middle": [
+                    "M"
+                ],
+                "last": "Wallace",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ryan",
+                "middle": [
+                    "J"
+                ],
+                "last": "Hodges",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Monash University",
+                    "location": {
+                        "settlement": "Clayton",
+                        "region": "Victoria",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ryan",
+                "middle": [],
+                "last": "Hodges",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Monash University",
+                    "location": {
+                        "settlement": "Clayton",
+                        "region": "Victoria",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "word count: 214 Main text word count: 2,436 Twitter Handles: @RolnikDaniel @euan_wallace Abstract J o u r n a l P r e -p r o o f Background: Universal screening has been proposed as a strategy to identify asymptomatic individuals infected with the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and mitigate transmission. Aim: To investigate the rate of positive tests among pregnant women in Melbourne, Australia.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Methods: We performed a cross-sectional prevalence study at three maternity hospitals (one tertiary referral hospital and two secondary maternities) in Melbourne, Australia. SARS-CoV-2 testing was offered to all pregnant women attending face-to-face antenatal visits and to those attending the hospital with symptoms of possible coronavirus disease, between 6 th and 19 th of May 2020. Testing was performed by multiplex-tandem polymerase chain reaction (PCR) on combined oropharyngeal and nasopharyngeal swabs. The primary outcome was the proportion of positive SARS-CoV-2 tests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Findings: SARS-CoV-2 testing was performed in 350 women, of whom 19 had symptoms of possible COVID-19. The median maternal age was 32 years (IQR 28 to 35 years), and the median gestational age at testing was 33 weeks and four days (IQR 28 weeks to 36 weeks and two days). All 350 tests returned negative results (p\u0302 = 0%, 95% CI 0 to 0.86%).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "In a two-week period of low disease prevalence, the rate of asymptomatic coronavirus infection among pregnant women in Australia during the study period was negligible, reflecting low levels of community transmission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Since the first report of an outbreak of pneumonia cases caused by a novel severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in December 2019 in Wuhan, China, the disease has rapidly spread around the world and was defined as a pandemic by the World Health Organization in March 2020. As of 10 th of August, more than twenty million infections and over 700,000 deaths related to coronavirus disease (COVID-19) have been confirmed worldwide 1 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Different countries have adopted varying degrees of physical distancing and mitigation strategies with diverse impacts on their transmission rates, death toll and economies 2, 3 . It has been proposed that testing of asymptomatic individuals with the isolation of cases and contact tracing could reduce the prevalence of the disease and end the pandemic 4 . In Australia, restriction measures were first implemented on 23 rd of March (with the closure of bars, clubs, cinemas, places of worship, casinos and gyms), and two days later the country closed its borders 5 . As part of the mitigation strategy, the Victorian state government implemented a screening \"blitz\" in the last week of April. The purpose of this was to screen a large number of people and therefore allow for contact tracing and physical isolation of positive asymptomatic individuals prior to easing of restrictions. After a peak in the number of cases at the end of March both in Australia and the state of Victoria, a steep decline in the daily number of new cases became evident, and restrictions were gradually and progressively eased since the second half of May 5 . Estimates of the infection rates among asymptomatic individuals in Australia are currently scarce and, given that physiological changes imposed by pregnancy could lead to increased susceptibility, it is unknown whether the prevalence of asymptomatic infection in pregnancy reflects that of the general population.",
+            "cite_spans": [
+                {
+                    "start": 176,
+                    "end": 177,
+                    "text": "3",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 354,
+                    "end": 355,
+                    "text": "4",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 565,
+                    "end": 566,
+                    "text": "5",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Preliminary data suggest that pregnant women are not at increased risk of severe disease and its complications compared to the general population, nor is there convincing evidence of vertical transmission 6, 7 . However, within the pandemic context, pregnancy represents a unique situation as women have multiple interactions with the health care system and most are ultimately admitted to the hospital for childbirth. Therefore, pregnant women may be a source of infection to others who they encounter during their frequent attendance to healthcare facilities, so it is vital to understand the rates of asymptomatic infection in this population. While pregnant women with symptoms may be undergoing testing in general clinics, few studies opportunistically targeted a population of asymptomatic pregnant women.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Knowing the rates of infection in pregnant women and whether they reflect the prevalence of infection in the general population may inform decisions regarding the need to test pregnant women (for example, before admission for childbirth) depending on the pandemic context and the general population infection rates. This study aims to assess the prevalence of SARS-CoV-2 positive tests among pregnant women during hospital visits within a defined study period during the coronavirus disease pandemic in Melbourne, Australia.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "We performed a cross-sectional study at Victoria's largest maternity service that provides birthing services across three hospitals in southeast metropolitan Melbourne, Australia. There are about 10,000 births in the service each year (nearly one in seven of all Victorian births).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "During the two-week period from 6 th to 19 th May 2020, inclusive, women attending routine antenatal visits were offered SARS-CoV-2 testing. We also included pregnant women who had testing in other sectors of the hospital (maternity ward, birth suite, pregnancy assessment unit, or COVID-19 screening clinic) with possible symptoms of the disease. In the weeks that preceded testing of asymptomatic women, we had adopted the following strategies in our three maternity hospitals to reduce exposure of patients, relatives and staff: a significant number of antenatal consultations (approximately 60%) were shifted to a telehealth model, with face-to-face appointments reserved for visits at 28, 36 and 40 weeks of pregnancy, or when deemed necessary by the attending health professional; all women were routinely asked about recent travel, known contacts and the presence of recognised COVID-19 symptoms; if symptoms were present, women were advised to attend the COVID-19 screening clinic and not to attend their antenatal appointment; all women attending the clinic or the hospital had body scanning temperature check on arrival; no support persons were allowed during clinic J o u r n a l P r e -p r o o f consultations or ultrasound examinations, and only one support person was allowed during labour and birth; and all health care professionals attending births wore personal protective equipment (PPE) after appropriate training. Since the beginning of the pandemic, antenatal clinic staff wore face masks and face shields when in contact with patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Combined oropharyngeal and nasopharyngeal swabs were collected as recommended 8 and according to national guidelines 9 using FLOQSwabs \u00ae and transported in UTM medium (Copan, Brescia, Italy) by a trained health professional (nurse or midwife) wearing appropriate PPE consisting of a gown, nonsterile gloves, eye protection and a protective mask. SARS-CoV-2 testing was then performed utilising multiplex-tandem polymerase chain reaction (PCR, AusDiagnostics, Mascot, Australia), an assay with demonstrated high sensitivity and specificity (>99.9%) 10 . Turnaround times for test results are usually between 24 to 48 hours. In case of positive results, the Department of Health is notified for further management and contact tracing, and patients immediately contacted and told to stay at home unless concerning symptoms are present, in which case they should seek health care through their local hospital.",
+            "cite_spans": [
+                {
+                    "start": 548,
+                    "end": 550,
+                    "text": "10",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "In the screening period, additional data were collected regarding maternal age, weight, height, parity, gestational age, recent overseas travel since the beginning of the pandemic and presence or absence of COVID-19 symptoms during the week that preceded the test.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Gestational age was calculated according to the first day of the last menstrual period, or by the sonographic measurement of fetal biometric parameters when the gestational age given by ultrasound differed from that provided by the last menstrual period by more than one",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "week. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Tests were performed from 6 th to 19 th May 2020, after a decline in the number of daily cases in the first wave of the disease in Australia (Figure 1) . Overall, 351 women consented SARS-CoV-2 testing. Of those, 332 (94.6%) were tested in the antenatal clinic, and 19 (5.4%) were tested in the maternity ward, birth suite, pregnancy assessment unit, or the COVID-19 screening clinic due to possible symptoms of COVID-19. One woman (0.3%) in the routine screening group could not tolerate the test, and therefore 350 women underwent testing.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 141,
+                    "end": 151,
+                    "text": "(Figure 1)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The baseline characteristics of the screened population are summarised in Table 1 . The median maternal age of the study population was 32 years (IQR 28 to 35 years). The median J o u r n a l P r e -p r o o f gestational age at testing was 33 weeks and four days (IQR 28 weeks to 36 weeks and two days), 148 women (42.2%) were nulliparous and 203 (57.8%) were parous. Ten women (2.9%) were in the first trimester (less than 14 weeks of gestational age), 77 (21.9%) were in the second trimester (from 14 to 28 weeks of gestational age), and 264 (75.2%) were in the third trimester of pregnancy (gestational age of 28 weeks or more).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 74,
+                    "end": 81,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "In the routine screening group, two women (0.6%) reported possible COVID-19 symptoms in the days that preceded the test (one reported headache and one reported rhinorrhea). In the symptomatic group, the most common symptoms were fever (13, 68.4%), respiratory changes including cough and dyspnoea (5, 26.3%) and sore throat (4, 21%). No woman reported recent overseas travel or contact with known infected persons.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "All 350 tests were negative for SARS-CoV-2, including those performed in women with symptoms. We estimate with 95% confidence that the true proportion of positive tests in the population during the study period was between 0 and 1% (p\u0302 = 0%, 95% CI 0% to 1.0%).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The severe acute respiratory syndrome coronavirus 2 is highly contagious. Each infected person is likely to infect on average, a measure known as R0, between 2.2 and 5.7 individuals 11, 12 , if measures to reduce transmission such as physical distancing and hands hygiene are not implemented. Universal testing has been proposed not only to reduce transmission rates and avoid an overload of the health systems but also as an alternative strategy to reduce economic and social damage during relaxation of restriction measures, with strict household quarantine after a positive test 13 . Feasibility, cost and effectiveness of such policy have not, however, been evaluated. In addition, it is unlikely that one single strategy will be enough to assuage the disease burden. Instead, it is the combination of J o u r n a l P r e -p r o o f different effective measures that will be able to mitigate the enormous consequences of the pandemic 2, 3 .",
+            "cite_spans": [
+                {
+                    "start": 182,
+                    "end": 185,
+                    "text": "11,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 186,
+                    "end": 188,
+                    "text": "12",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 582,
+                    "end": 584,
+                    "text": "13",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In this study, we report the results of SARS-CoV-2 testing of a large sample of pregnant women screened during antenatal care and a smaller number of women who pursued testing due to symptoms of possible coronavirus infection. We found no positive tests in either group during this low prevalence period, which was consistent with the population estimates at the time. The findings of this study suggest that widespread testing of asymptomatic pregnant women may not be necessary in periods of low community transmission. Additionally, since pregnant women are no more susceptible to infection than others 6, 7, 14 , population prevalence estimates may be reliably extrapolated to pregnant women. In Australia, mitigation measures such as the closure of the borders and restriction rules were implemented relatively early in the pandemic. The early introduction of these measures likely explains the lower prevalence and fatality rates than most other high-income countries. Indeed, of all tests performed in Victoria since the beginning of the pandemic, 0.8% were positive 5 . The real positivity (prevalence) rates were likely even lower because community testing has been focussed on those with symptoms, albeit with a progressively lowering threshold for those symptoms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "A similar universal screening study performed in New York City examined 215 pregnant women admitted at the time of labour and found that 15.4% of them had a positive result, of whom nearly 88% (29 of 33 with a positive test) were asymptomatic 15 . At that time, the number of reported cases in New York ranged from five to over eleven thousand per day 1 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Similarly, a recently published seroprevalence study in Spain reported that 14% of the women had positive anti-SARS-CoV-2 IgM antibodies, of whom 40% were symptomatic 16 .",
+            "cite_spans": [
+                {
+                    "start": 167,
+                    "end": 169,
+                    "text": "16",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In a smaller study in Japan, 52 obstetric patients admitted to the hospital were tested with PCR, and two (3.8%) had positive results without any symptoms 17 . The differences observed between the studies can be explained by the diverse regional prevalence of the disease, with J o u r n a l P r e -p r o o f much higher asymptomatic community transmission levels in some areas of the United States and of Europe.",
+            "cite_spans": [
+                {
+                    "start": 155,
+                    "end": 157,
+                    "text": "17",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "A second wave of infections has affected Australia and particularly Victoria since our study was conducted, requiring stricter physical distance measures to be implemented. The number of daily cases is decreasing. Although the reassuringly low disease prevalence among pregnant women found in our study may not hold in higher prevalence periods, our findings remain valid to inform policy as Victoria makes its way through the \"roadmap to recovery\" outlined by the State Government. The threshold of community transmission above which testing of asymptomatic childbearing women is warranted remains to be investigated. In the state of Victoria, there are currently 1,008 confirmed active cases 1 . Considering a state population of 6.63 million inhabitants 18 , the prevalence rate of the infection is estimated at 152 per one million inhabitants (as compared to 52 cases per one million inhabitants during the study period). The interpretation of the epidemiology will need to be revisited as the community transmission rates rapidly change with the pandemic dynamics. Our study was conducted between the first and the second infections waves and, although the prevalence found can no longer be considered representative of current disease rates due to markedly increased community transmission, infection rates in pregnancy can still be assumed to be similar to those of the general population. In high prevalence periods, identifying pregnant women who carry the virus is important to allow for treatment of symptomatic individuals, physical isolation of carriers, contact tracing, and implementation of correct PPE to reduce transmission risk during antenatal consultations, laboratory testing, ultrasound examinations and during birth that may involve an aerosol-generating procedure such as maternal effort in the second stage of labour or endotracheal intubation for general anaesthesia (if required) during caesarean deliveries.",
+            "cite_spans": [
+                {
+                    "start": 757,
+                    "end": 759,
+                    "text": "18",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our sample represents the population of pregnant women from a large geographical area in metropolitan Melbourne covered by catchments of our three maternity hospitals during a defined period in the constantly changing pandemic. The main limitation of this study is the fact that testing was performed on a limited number of mostly asymptomatic pregnant women as an opt-in test, and at a single point in time. Our sample did, however, include a group of women with potential symptoms of COVID-19, whose test results were negative. A single nasopharyngeal swab may potentially fail to identify a proportion of infected individuals 19 , and it has been suggested that serial testing may be necessary to minimise false-negative results 13 . These issues are, however, less problematic in low prevalence populations, in which the predictive value of a negative result is high, reliably ruling infection out in asymptomatic individuals.",
+            "cite_spans": [
+                {
+                    "start": 732,
+                    "end": 734,
+                    "text": "13",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "In summary, our findings reflect a period of low disease prevalence and suggest that first, the rates of infection among pregnant women are no different from those of the general population and, second, that testing of asymptomatic individuals may not be necessary in periods of low disease prevalence. While screening reliably rules out the disease in low prevalence periods, the costs, harms and benefits of asymptomatic screening need to be carefully weighed considering the rapidly changing landscape of the pandemic in different scenarios, and focussing on testing of symptomatic individuals or subjects who live in disease clusters may be more appropriate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "The authors report no conflicts of interest. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of interest:"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Coronavirus 10-day forecast as of 16",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Quantifying the impact of physical distance measures on the transmission of COVID-19 in the UK",
+            "authors": [],
+            "year": 2020,
+            "venue": "BMC Med",
+            "volume": "18",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Physical distancing, face masks, and eye protection to prevent person-to-person transmission of SARS-CoV-2 and COVID-19: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Akl",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Duda",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Solo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yaacoub",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schunemann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1973--87",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Covid-19 mass testing facilities could end the epidemic rapidly",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Peto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "368",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Coronavirus disease (COVID-19) epidemiology reports, Australia",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Coronavirus disease 2019 in pregnant women: a report based on 116 cases",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Juan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am J Obstet Gynecol",
+            "volume": "223",
+            "issn": "1",
+            "pages": "111--112",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Characteristics and outcomes of pregnant women admitted to hospital with confirmed SARS-CoV-2 infection in UK: national population based cohort study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Knight",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bunch",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Vousden",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Morris",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Simpson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gale",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "369",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "How to Obtain a Nasopharyngeal Swab Specimen",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Marty",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Verrill",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Australian Government Department of Health. Public Health Laboratory Network",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "PHLN guidance on laboratory testing for SARS-CoV-2 (the virus that causes COVID-19)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Clinical evaluation of AusDiagnostics SARS-CoV-2 multiplex tandem PCR assay",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Attwood",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Francis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hamblin",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Korman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Druce",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Graham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Virol",
+            "volume": "128",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "13",
+            "pages": "1199--207",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "High Contagiousness and Rapid Spread of Severe Acute Respiratory Syndrome Coronavirus 2",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sanche",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Romero-Severson",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hengartner",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ke",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Universal weekly testing as the UK COVID-19 lockdown exit strategy",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Peto",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Alwan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Godfrey",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Burgess",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hunter",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Riboli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1420--1421",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Maternal transmission of SARS-COV-2 to the neonate, and possible routes for such transmission: a systematic review and critical analysis",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Walker",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "O&apos;donoghue",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Grace",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dorling",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Comeau",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BJOG",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Universal Screening for SARS-CoV-2 in Women Admitted for Delivery",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sutton",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Fuchs",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "&apos;alton",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Goffman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "22",
+            "pages": "2163--2167",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Seroprevalence and presentation of SARS-CoV-2 in pregnancy",
+            "authors": [],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "396",
+            "issn": "",
+            "pages": "530--531",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "CoV-2 in asymptomatic obstetric patients in Tokyo",
+            "authors": [],
+            "year": 2020,
+            "venue": "Japan. Int J Gynaecol Obstet",
+            "volume": "150",
+            "issn": "2",
+            "pages": "268--277",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "0 -Australian Demographic Statistics",
+            "authors": [],
+            "year": 2019,
+            "venue": "Woloshin S, Patel N, Kesselheim AS. False Negative Tests for SARS",
+            "volume": "3101",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Infection -Challenges and Implications",
+            "authors": [],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "383",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "the context in which the tests were performed in the antenatal clinic, statistics concerning the daily number of cases in Australia and the state of Victoria were obtained from the Australian Government Department of Health website 5 . The primary outcome of the study was the proportion of pregnant women with a positive SARS-CoV-2 test. Continuous variables were assessed for normality by inspection of histograms and quantile-quantile (Q-Q) plots. Since the distributions of continuous baseline variables were not Gaussian, metric and ordinal variables were summarised as the median and interquartile range (IQR). Categorical variables were expressed as absolute number and percentage. The proportion of positive results was reported with its 95% confidence interval, obtained by the exact binomial method. Statistical analysis was performed in Stata version 16.1 (StataCorp. 2019. Stata Statistical Software: Release 16 for Macintosh. College Station, TX: StataCorp LLC). Review of the screening results was approved by the local Human Research Ethics Committee (approval number QA/66029/MonH-2020-219471).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Figure Legend",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Daily number of novel severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) positive cases in Australia (light blue bars) and in Victoria (dark blue bars), with local polynomial regression (LOESS) fitting curves representing seven-day moving average.The shaded area represents the asymptomatic testing study period.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": ". Baseline characteristics of the screened population (N = 351).",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

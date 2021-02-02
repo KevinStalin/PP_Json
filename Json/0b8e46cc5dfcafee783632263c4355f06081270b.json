@@ -1,0 +1,1323 @@
+{
+    "paper_id": "0b8e46cc5dfcafee783632263c4355f06081270b",
+    "metadata": {
+        "title": "Journal Pre-proofs Vitamin K epoxide reductase complex subunit 1 (VKORC1) gene polymor- phism as determinant of differences in Covid-19-related disease severity Medical hypothesis Vitamin K epoxide reductase complex subunit 1 (VKORC1) gene polymorphism as determinant of differences in Covid-19-related disease severity",
+        "authors": [
+            {
+                "first": "Rob",
+                "middle": [],
+                "last": "Janssen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Canisius-Wilhelmina Hospital",
+                    "location": {
+                        "settlement": "Nijmegen",
+                        "country": "The Netherlands"
+                    }
+                },
+                "email": "rob.janssen@cwz.nl"
+            },
+            {
+                "first": "Jona",
+                "middle": [],
+                "last": "Walk",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Canisius-Wilhelmina Hospital",
+                    "location": {
+                        "addrLine": "Canisius-Wilhelmina Hospital, Weg door Jonkerbos 100",
+                        "postCode": "6532 SZ",
+                        "settlement": "Nijmegen, Nijmegen",
+                        "country": "The Netherlands, The Netherlands"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "word count: 189",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "1 Abstract Covid-19, caused by SARS-CoV-2, has major world-wide health-related and socio-economic consequences. There are large disparities in the burden of Covid-19 with an apparent lower risk of poor outcomes in East Asians compared to populations in the West. A recent study suggested that Covid-19 leads to a severe extrahepatic vitamin K insufficiency, which could lead to impaired activation of extrahepatic proteins like endothelial anticoagulant protein S in the presence of normal hepatic procoagulant activity. This would be compatible with the enhanced thrombogenicity in severe Covid-19. The same study showed that vitamin K antagonists (VKA) that inhibit vitamin K recycling, had a greater impact on procoagulant activity than on the activation of extrahepatic vitamin K-dependent proteins during SARS-CoV-2 infections. A genetic polymorphism in the vitamin K epoxide reductase complex 1, VKORC1 -1639A, is particularly prevalent in East Asia and associates with low vitamin K recycling rates. Carriage of the allele may be regarded as bioequivalent to low-dose VKA use.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "We speculate that VKORC1 -1639A confers protection against thrombotic complications of Covid-19 and that differences in its allele frequency are partially responsible for the differences in Covid-19 severity between East and West.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The emergence and global spread of severe acute respiratory syndrome coronavirus 2 (SARS-CoV)-2 has led to far-reaching changes in modern societies, reminiscent of descriptions of the 14 th century plague in Europe. Although it is generally assumed that the bacterium Yersinia pestis is responsible for the 'black death', others have argued that evidence pleads against this and hold a yet unidentified virus responsible for the medieval catastrophe [1] .",
+            "cite_spans": [
+                {
+                    "start": 450,
+                    "end": 453,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background to hypothesis"
+        },
+        {
+            "text": "We recently found severely reduced extrahepatic vitamin K status in Dutch patients with coronavirus disease 2019 (Covid- 19) , and particularly in those who needed invasive ventilation and/or died [2] . Activation of procoagulant factor II by vitamin K in the liver, however, was hardly affected and not different between Covid-19 patients with good and poor outcomes [2] .",
+            "cite_spans": [
+                {
+                    "start": 121,
+                    "end": 124,
+                    "text": "19)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 197,
+                    "end": 200,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 368,
+                    "end": 371,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background to hypothesis"
+        },
+        {
+            "text": "There are remarkably lower Covid-19-related morbidity and mortality rates in East Asia than in The Americas and Western Europe [3] . We hypothesize that this may be in part due to genetic differences in vitamin K metabolism.",
+            "cite_spans": [
+                {
+                    "start": 127,
+                    "end": 130,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background to hypothesis"
+        },
+        {
+            "text": "Vitamin K is a cofactor for the activation of various pro-and anticlotting factors as well as proteins outside the coagulation cascade [4] . In contrast to other vitamin K-dependent coagulation factors, a significant proportion of anticoagulant protein S is extrahepatically synthesized [5] . Protein S produced in endothelial cells seems to be an important inhibitor of local thrombosis formation [5] . Vitamin K1, representing the main source of vitamin K in for most people, is preferentially transported to the liver [4] . Evidence indicates that during times of mild vitamin K insufficiency hepatic factors coagulation factors are preferentially activated over extrahepatic ones [6, 7] . Vitamin K-dependent matrix Gla protein (MGP) is a critical inhibitor of soft tissue mineralization and elastic fiber degradation [8] . Unpublished data from our research group suggest that MGP synthesis is strongly enhanced in the lungs of patients with SARS-CoV-2 pneumonia, plausibly to protect the pulmonary extracellular matrix from inflammation-induced degradation. Accelerated vitamin K utilization in the lungs may readily deplete extrahepatic vitamin K stores and prevent endothelial protein S from being activated [4, 5] . Vitamin K1 consumed during Covid-19 hospitalization will preferentially be directed to the liver for activation of hepatic coagulation factors [4] . This suggests that activation of endothelial protein S in these patients will be more severely compromised than activation of hepatic procoagulant factors [4] , which is compatible with enhanced thrombogenicity in Covid-19 [9] .",
+            "cite_spans": [
+                {
+                    "start": 135,
+                    "end": 138,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 287,
+                    "end": 290,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 398,
+                    "end": 401,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 521,
+                    "end": 524,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 684,
+                    "end": 687,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 688,
+                    "end": 690,
+                    "text": "7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 822,
+                    "end": 825,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1216,
+                    "end": 1219,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1220,
+                    "end": 1222,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1368,
+                    "end": 1371,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1529,
+                    "end": 1532,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1597,
+                    "end": 1600,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Vitamin K metabolism"
+        },
+        {
+            "text": "A greater proportion of vitamin K2 than of K1 is directly transported to extrahepatic tissues after absorption from the gut [10]. Vitamin K2 may therefore be more suitable than vitamin K1 for supplementation in Covid-19 patients to activate pulmonary MGP and endothelial protein S. Natto is a Japanese breakfast dish of fermented soybeans containing extremely high amounts of vitamin K2 [11] . Incidence of SARS-CoV-2 infections was remarkably low in Japanese regions where average natto intake is high [12] . Although fascinating, this does not provide an explanation for the low incidence of Covid-19-related morbidity and mortality in parts of East Asia where less natto is consumed [11] .",
+            "cite_spans": [
+                {
+                    "start": 387,
+                    "end": 391,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 503,
+                    "end": 507,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 686,
+                    "end": 690,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Vitamin K metabolism"
+        },
+        {
+            "text": "After being utilized during vitamin K-dependent protein activation, vitamin K is repeatedly reactivated in the vitamin K cycle [13] . The rate of vitamin K recycling depends on a polymorphism in the promoter region of the vitamin K epoxide reductase complex subunit 1 (VKORC1) gene [13] . In East Asia, positive selection for an allele that is associated with low vitamin K recycling rates started around 4,500 years ago [14] . Allele frequency of this derived -1639A VKCORC1 allele is around 75-100% in East Asians, whereas it is below 10% in Africans and intermediate in Europeans [15] . The near complete selective sweep in East Asian populations is remarkable due to the recent and rapid occurrence, and strongly suggests a survival benefit rather than the loss of redundant function [14] . However, it is an enigma why a polymorphism associated with reduced vitamin K recycling would carry a significant survival benefit, given that even high-dose vitamin K intake is not associated with adverse side effects [16] . Based on our recent data demonstrating pronounced extrahepatic vitamin K insufficiency and normal hepatic vitamin K status in Covid-19 [2] , we suggest a hypothesis by which this allele might give a survival benefit in Covid-19 patients.",
+            "cite_spans": [
+                {
+                    "start": 127,
+                    "end": 131,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 282,
+                    "end": 286,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 421,
+                    "end": 425,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 583,
+                    "end": 587,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 788,
+                    "end": 792,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1014,
+                    "end": 1018,
+                    "text": "[16]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1156,
+                    "end": 1159,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Vitamin K epoxide reductase complex subunit 1 polymorphism"
+        },
+        {
+            "text": "Vitamin K antagonists (VKAs) are anticoagulant drugs that inhibit VKORC1, constraining vitamin K recycling rates and leading to vitamin K deficiency [13] . When this deficiency is severe enough, it impairs the activation of hepatic coagulation factors (e.g. factor II) increasing clotting time. While levels of inactive factor II were low in most Covid-19 patients, unsurprisingly, Covid-19 patients using VKA had strongly increased levels of inactive factor II. However, there was much less difference in activation of MGP between Covid-19 patients with and without VKAs, suggesting that Covid-19 had already induced complete extrahepatic vitamin K deficiency without any additional effect from VKAs [2] . Since protein S is also significantly extrahepatically produced [5] , we expect that the relative effect of VKA use on protein S activation in Covid-19 patients is also less pronounced than on factor II activation.",
+            "cite_spans": [
+                {
+                    "start": 149,
+                    "end": 153,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 701,
+                    "end": 704,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 771,
+                    "end": 774,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hypothesis"
+        },
+        {
+            "text": "Given the high incidence of thrombotic complication in Covid-19 [9] , the simultaneous decrease of both pro-and anticoagulant factors in patients using VKA might be advantageous compared with a decrease in only anticoagulant protein S activation. The VKORC1 -1639A allele is associated with low vitamin K recycling rates, which may be regarded as a natural equivalent of using low-dose VKA. Therefore, we hypothesize that VKORC1 -1639A 5 protects against thrombosis during SARS-CoV-2 infection and thereby from poor disease outcomes. If this is indeed the case, the high incidence of VKORC1 -1639A in East Asia may form an explanation for the lower Covid-19-related morbidity and mortality rates.",
+            "cite_spans": [
+                {
+                    "start": 64,
+                    "end": 67,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hypothesis"
+        },
+        {
+            "text": "Strong genetic selection in a short period of time appears to be extremely rare in human populations [17] and has to be caused by a cataclysmic event. Driving a gene to near fixation, as appears to be the case for the VKORC1 -1639A allele in East Asia, also requires some degree of sustained selection pressure [18] . Endemic diseases with a moderate or high mortality rate can rapidly drive such genetic selection in humans. Some of the most wellknown examples of this are the influences of the malaria parasites Plasmodium vivax on the frequency of the Duffy blood group FY*O allele [19] and Plasmodium falciparum on the frequency of the sickle-cell allele [20] in Sub-Saharan Africa. We speculate that the VKORC1 -1639A allele might have given a survival advantage to a previous infectious disease with a higher mortality rate than Covid-19.",
+            "cite_spans": [
+                {
+                    "start": 101,
+                    "end": 105,
+                    "text": "[17]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 311,
+                    "end": 315,
+                    "text": "[18]",
+                    "ref_id": null
+                },
+                {
+                    "start": 585,
+                    "end": 589,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 659,
+                    "end": 663,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hypothesis"
+        },
+        {
+            "text": "An interesting candidate for this infection is the disease known as the 'black death' that raged across Europe starting in the 14 th century and was thought to have emerged from Asia.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hypothesis"
+        },
+        {
+            "text": "Several researchers have theorized that this pandemic plague was caused by a virus, and medieval writings suggest the disease had coagulopathic manifestations [1] . For instance, hemorrhagic purplish splotches (i.e. God's tokens) typically appeared in black death victims shortly before their demise [1] . Unfortunately, no specimens have remained from victims to assess whether organs were affected by microvessel thrombosis, like those found in postmortem lung examinations of Covid-19 patients [21] . If black death was indeed accompanied by coagulopathic manifestations, then VKORC1 -1639A might have conferred a survival benefit. Considering the epidemic also emerged from East Asia and was probably endemic in those regions for extended periods of time before arriving in Europe, we speculate this could be the reason for the near fixation of the VKORC1 -1639A allele in East Asian 6 populations and intermediate prevalence in European populations. Black death probably did not pass the Sahara, which would be compatible with low carriage of VKORC1 -1639A in African populations [15] .",
+            "cite_spans": [
+                {
+                    "start": 159,
+                    "end": 162,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 300,
+                    "end": 303,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 497,
+                    "end": 501,
+                    "text": "[21]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1085,
+                    "end": 1089,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hypothesis"
+        },
+        {
+            "text": "We hypothesize that the VKORC1 -1639A allele may be protective against thrombotic disease manifestations and disease-related mortality of Covid-19. The most straightforward method of testing our hypothesis is by determination of VKORC1 -1639 in European patients who have been admitted with Covid-19. Our hypothesis would be supported if the VKORC1 -1639A allele frequency were higher in controls than in individuals who developed respiratory failure and/or died due to Covid-19. It would also be relevant to assess whether the VKORC1 -1639A allele has a lower frequency among hospitalized Covid-19 patients with thrombotic complications than those without.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Evaluation of the hypothesis"
+        },
+        {
+            "text": "We speculate that the disparity in morbidity and mortality from Covid-19 between East and West may be at least partially explained by differences in the allele distribution of a VKORC1 polymorphism determining the rate of vitamin K recycling. If the VKORC1 -1639A allele is shown to be associated with decreased thrombotic complications and/or death, it would further support the hypothesis that vitamin K metabolism is an important determinant of Covid-19-related disease severity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Concluding remarks"
+        },
+        {
+            "text": "RJ discloses application of a patent on vitamin K in Covid-19. RJ and JW have a scientific collaboration with Kappa Bioscience AS, a manufacturer of vitamin K2 (MK-7).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest statements"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "What caused the Black Death?",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Duncan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Scott",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Postgrad Med J",
+            "volume": "81",
+            "issn": "",
+            "pages": "315--335",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Reduced Vitamin K Status as A Potentially Modifiable Prognostic Risk Factor in COVID-19",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Dofferhoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Piscaer",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schurgers",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Walk",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Van Den Ouweland",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hackeng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Researchers ponder why covid-19 appears deadlier in the U.S. and Europe than in Asia. The Washington Post",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Vitamin K, an example of triage theory: is micronutrient inadequacy linked to diseases of aging?",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mccann",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Ames",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Am J Clin Nutr",
+            "volume": "90",
+            "issn": "",
+            "pages": "889--907",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Human endothelial cells synthesize protein S",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fair",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Marlar",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Levin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Blood",
+            "volume": "67",
+            "issn": "",
+            "pages": "1168--71",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Dietary phylloquinone depletion and repletion in older women",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Booth",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Martini",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Peterson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Saltzman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dallal",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wood",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J Nutr",
+            "volume": "133",
+            "issn": "",
+            "pages": "2565--2574",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Effect of vitamin K intake on the stability of oral anticoagulant treatment: dose-response relationships in healthy subjects",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schurgers",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Shearer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hamuly\u00e1k",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "St\u00f6cklin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Vermeer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Blood",
+            "volume": "104",
+            "issn": "",
+            "pages": "2682--2691",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Vitamin K-dependent carboxylation of matrix Gla-protein: a crucial switch to control ectopic mineralization",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schurgers",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Uitto",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Reutelingsperger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Trends Mol Med",
+            "volume": "19",
+            "issn": "",
+            "pages": "217--243",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Incidence of thrombotic complications in critically ill ICU patients with COVID-19",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Klok",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mjha",
+                    "middle": [],
+                    "last": "Kruip",
+                    "suffix": ""
+                },
+                {
+                    "first": "Njm",
+                    "middle": [],
+                    "last": "Van Der Meer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Arbous",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dampj",
+                    "middle": [],
+                    "last": "Gommers",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kant",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Thromb Res",
+            "volume": "191",
+            "issn": "",
+            "pages": "145--152",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Low-dose menaquinone-7 supplementation improved extrahepatic vitamin K status, but had no effect on thrombin generation in healthy subjects",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Theuwissen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cranenburg",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Knapen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Magdeleyns",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Teunissen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schurgers",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Japanese fermented soybean food as the major determinant of the large geographic difference in circulating levels of vitamin K2: possible implications for hip-fracture risk",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kaneki",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hodges",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hosoi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fujiwara",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lyons",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Crean",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Nutrition",
+            "volume": "17",
+            "issn": "",
+            "pages": "315--336",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "This Japanese Region Has No Coronavirus. The Wall Street Journal",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "VKORC1 and the vitamin K cycle",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Reitsma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Vitam Horm",
+            "volume": "78",
+            "issn": "",
+            "pages": "23--33",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Positive selection in the chromosome 16 VKORC1 genomic region has contributed to the variability of anticoagulant response in humans",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Patillon",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Luisi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Blanch\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "Patin",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Cann",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "G\u00e9nin",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS One",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Worldwide allele frequency distribution of four polymorphisms associated with warfarin dose requirements",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ross",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Bigham",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Edwards",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gozdzik",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Suarez-Kurtz",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Parra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Hum Genet",
+            "volume": "55",
+            "issn": "",
+            "pages": "582--591",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Institute of Medicine (US) Panel on Micronutrients",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "For Vitamin",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Vitamin",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Arsenic",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Boron",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Chromium",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Copper",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Iodine",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Iron",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Manganese",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Molybdenum",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Nickel",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Silicon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zinc",
+                    "middle": [],
+                    "last": "Vanadium",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Dietary Reference Intakes",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Classic selective sweeps were rare in recent human evolution",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hernandez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kelley",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Elyashiv",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Melton",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Auton",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mcvean",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Science",
+            "volume": "331",
+            "issn": "",
+            "pages": "920--924",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "The genetics of human adaptation: hard sweeps, soft sweeps, and polygenic adaptation",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Pritchard",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Pickrell",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Coop",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Curr Biol",
+            "volume": "20",
+            "issn": "",
+            "pages": "208--223",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Detection of the signature of natural selection in humans: evidence from the Duffy blood group locus",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Hamblin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Rienzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Am J Hum Genet",
+            "volume": "66",
+            "issn": "",
+            "pages": "1669--79",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Malaria continues to select for sickle cell trait in Central Africa",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Elguero",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "D\u00e9licat-Loembet",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Rougeron",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Arnathau",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Roche",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Becquart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "112",
+            "issn": "",
+            "pages": "7051--7055",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Pulmonary Vascular Endothelialitis, Thrombosis, and Angiogenesis in Covid-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ackermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Verleden",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kuehnel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Haverich",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Welte",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Laenger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "383",
+            "issn": "",
+            "pages": "120--128",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Conflict of interest statements RJ discloses application of a patent on vitamin K in Covid-19. RJ and JW have a scientific collaboration with Kappa Bioscience AS",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": []
+}

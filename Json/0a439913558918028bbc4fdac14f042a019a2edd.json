@@ -1,0 +1,1369 @@
+{
+    "paper_id": "0a439913558918028bbc4fdac14f042a019a2edd",
+    "metadata": {
+        "title": "Using quality improvement to implement consensus guidelines for postnatal steroid treatment of preterm infants with developing bronchopulmonary dysplasia",
+        "authors": [
+            {
+                "first": "Taylor",
+                "middle": [
+                    "P"
+                ],
+                "last": "Hansen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Alexandra",
+                "middle": [],
+                "last": "Oschman",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Eugenia",
+                "middle": [
+                    "K"
+                ],
+                "last": "Pallotto",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rebecca",
+                "middle": [],
+                "last": "Palmer",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Darian",
+                "middle": [],
+                "last": "Younger",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Alain",
+                "middle": [],
+                "last": "Cuna",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Objective Achieve over 90% adherence to consensus guidelines on use of postnatal steroids (PNS) in preterm infants for bronchopulmonary dysplasia (BPD) within 6 months. Methods A multidisciplinary team formulated and implemented consensus guidelines using the Plan-Do-Study-Act method of quality improvement. Outcome measure was rate of compliance to guidelines, process measure was age of starting PNS treatment, and balancing measure was rate of repeat steroid courses. Results Retrospective application of guidelines to preceding 10 months showed mean baseline compliance rate of 71% (n = 42). After implementation, compliance escalated to a mean rate of 96% within 6 months. Rate of PNS treatment \u2264 30 days of life increased from 50 to 80%, while rate of repeat PNS was unchanged. Conclusions Compliance with new guidelines for PNS treatment of BPD was quickly attained using simple quality improvement interventions. Further study is needed to evaluate effects of these guidelines on clinical outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Bronchopulmonary dysplasia (BPD), a type of chronic lung disease characterized by arrest in normal lung development, remains the most important respiratory complication of prematurity with long-term pulmonary and neurologic sequelae [1] [2] [3] . Postnatal steroids (PNS) are powerful antiinflammatory agents that can be helpful in improving lung function, facilitating extubation, and reducing the burden of BPD [4, 5] . While routine use of PNS is not recommended because of its adverse effects on the developing brain, using PNS selectively in premature infants at high risk for developing BPD has been shown to decrease the risk of BPD without adversely affecting neurodevelopment [6] [7] [8] . Translating this selective strategy to clinical practice, however, is challenging and the lack of evidence-based guidelines has led to wide variation in clinical practice [9] .",
+            "cite_spans": [
+                {
+                    "start": 233,
+                    "end": 236,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 237,
+                    "end": 240,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 241,
+                    "end": 244,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 413,
+                    "end": 416,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 417,
+                    "end": 419,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 685,
+                    "end": 688,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 689,
+                    "end": 692,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 693,
+                    "end": 696,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 870,
+                    "end": 873,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Since 2010, our unit has implemented a standard dosing regimen of dexamethasone (0.78 mg/kg weaned over 7 days or 0.89 mg/kg weaned over 10 days) to prevent or treat BPD [10] . A selective strategy of PNS treatment was adopted, but recommendations on which infants qualified as high risk for PNS treatment were lacking. With over 30 neonatal faculty members of differing training backgrounds, this lack of guidance led to wide practice variation in timing of treatment and severity of lung disease used for patient selection. The lack of guidelines also contributed to dissatisfaction amongst the care teams and made it challenging to understand the impact of steroid treatment on clinical outcomes. To address these concerns, a multidisciplinary team was assembled to develop guidelines for patient selection and timing of initial PNS treatment for high-risk infants with developing BPD, and implement these guidelines using quality improvement (QI) methodology. The smart aim of the project was to achieve adherence to local clinical practice guidelines on the use of PNS in preterm infants for BPD above 90% within a 6-month period.",
+            "cite_spans": [
+                {
+                    "start": 170,
+                    "end": 174,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The neonatal intensive care unit at Children's Mercy Kansas City is an 84-bed level IV unit staffed by more than 30 neonatologists and more than 80 neonatal nurse practitioners. The Children's Mercy Kansas City Pediatric Institutional Review Board reviewed this project and determined it did not meet the definition of research involving human subjects. Data collected and analyzed were unit based and contained no patient identifiers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Setting"
+        },
+        {
+            "text": "Prior to this QI project, our unit did not have specific protocols regarding PNS treatment of preterm infants for BPD. Decisions regarding timing and selection of infants for PNS treatment were left at the discretion of the attending neonatologist, leading to an unstable process and wide practice variations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Setting"
+        },
+        {
+            "text": "The multidisciplinary team leading this QI project included neonatal faculty, a neonatal fellow, pharmacists, nurses, and individuals from the neonatal QI program committee at Children's Mercy. The team reviewed evidence from the existing literature as well as analyzed local data regarding PNS use for BPD. The resulting consensus guidelines focused on two main aspects of PNS use for BPD: patient selection and timing of treatment (Fig. 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 433,
+                    "end": 440,
+                    "text": "(Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Development of a consensus-based guideline"
+        },
+        {
+            "text": "The guideline uses the web-based BPD estimator developed by the Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD) Neonatal Research Network to identify infants at high risk for BPD who may benefit from PNS treatment [11] . The calculator incorporates readily available demographic data (gestational age, birth weight, race, and sex) and respiratory support data (postnatal day, ventilator type, and fraction of inspired oxygen) to estimate the percent risk for death or varying severity of BPD at different time points. Based on a study conducted at our institution [12] , we used the combined risk of severe BPD or death \u226535% at day of life 14, 21, or 28 days to identify high-risk infants for PNS treatment. Conversely, preterm infants with <35% risk for severe BPD or death are deemed low-risk and PNS treatment is not recommended.",
+            "cite_spans": [
+                {
+                    "start": 254,
+                    "end": 258,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 604,
+                    "end": 608,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Development of a consensus-based guideline"
+        },
+        {
+            "text": "Our guideline also recommends evaluation and treatment with PNS by 30 days of life for infants identified as high risk by the BPD calculator ( Fig. 1 ). This recommendation was informed in part by our previous study that found an association between delayed PNS treatment beyond 28 days of life and worse short-term outcomes, including longer days on mechanical ventilation, increased oxygen support, and increased length of hospital stay [13] .",
+            "cite_spans": [
+                {
+                    "start": 439,
+                    "end": 443,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 143,
+                    "end": 149,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Development of a consensus-based guideline"
+        },
+        {
+            "text": "We limited the guidelines to intubated infants \u2264 30 weeks' gestation at birth and \u226430 days of life. Infants admitted after 30 days of life or those who died before 14 excluded. The guidelines also recommend consideration of other comorbidities that could potentially explain severity of lung disease such as sepsis, necrotizing enterocolitis, or symptomatic patent ductus arteriosus before treatment with PNS.",
+            "cite_spans": [
+                {
+                    "start": 164,
+                    "end": 166,
+                    "text": "14",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Patient population"
+        },
+        {
+            "text": "The Plan-Do-Study-Act (PDSA) model of QI was adopted to implement the finalized guidelines [14] . A total of four interventions were introduced in the context of several PDSA cycles. These interventions were designed to target primary and secondary drivers identified as leading factors that directly contribute toward achievement of our project aim (Fig. 2 ). These interventions included (1) education of care providers; (2) easy availability of guidelines; (3) reminder system with just-in-time emails; and (4) incorporation into existing small-baby team meetings.",
+            "cite_spans": [
+                {
+                    "start": 91,
+                    "end": 95,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 350,
+                    "end": 357,
+                    "text": "(Fig. 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Interventions"
+        },
+        {
+            "text": "The rationale and evidence behind the guidelines were summarized and presented to neonatology faculty and fellows at two division research meetings. The process of how the guidelines were developed was shared, additional input and clarifications from faculty were discussed, and a voting process was conducted to obtain final approval of the guidelines. We also conducted multiple informal educational updates at the bedside, especially at the start of the project and throughout as needed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Care provider education"
+        },
+        {
+            "text": "Copies of the guidelines were posted in workrooms for easy reference. An online copy was also posted on an already existing helpful hints website. A hyperlink to the online BPD calculator was made available within the guidelines for providers to quickly access the NICHD website tool.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Availability of guidelines"
+        },
+        {
+            "text": "A just-in-time email reminder system was implemented to aid with recall and compliance with the guidelines. These emails were sent on day of life 14, 21, and 28 summarizing an eligible infant's risk for severe BPD or death and outlining a recommended course per the guidelines (Fig. 3 ). Reminders were sent to the neonatologist on service for the involved patient through private, secure email for Health Insurance Portability and Accountability Act compliance. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 277,
+                    "end": 284,
+                    "text": "(Fig. 3",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Just-in-time email"
+        },
+        {
+            "text": "The small-baby interest group at Children's Mercy is a multidisciplinary team of neonatologists, pharmacists, nurses, and respiratory therapists that meets bimonthly to discuss the care of all admitted infants less than 32 weeks gestational age. As the overall focus of this group aligns closely with the target population of the QI project, we reached out to the small-baby team regarding a potential collaboration to improve PNS guideline compliance. After a formal conference, it was mutually decided to incorporate discussions surrounding PNS treatment into the small-baby team meeting workflow. During these bimonthly meetings, each eligible patient is reviewed as to whether they needed steroids and where they fit within the guidelines.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Incorporation into small-baby team meetings"
+        },
+        {
+            "text": "Data were retrospectively acquired from infants admitted during the preceding 10-month period (October 2017-July 2018) to obtain baseline numbers. Following implementation of guidelines, data on demographics (gestational age, birth weight, sex, and race) and respiratory support at day of life 14, 21, and 28 were prospectively collected to calculate risk estimates for severe BPD or death using the NICHD BPD outcome estimator. The postintervention study period lasted 20 months. The outcome measure was rate of compliance to guidelines as determined by the percentage of infants treated and not treated with PNS \u2264 30 days of life based on underlying risk for severe BPD or death. The process measure was rate of initiation of PNS treatment \u2264 30 days of life, and the balancing measure was rate of repeat steroid courses. Clinical outcomes of interest included rate of severe BPD and rate of mechanical ventilation at 36 weeks postmenstrual age (PMA).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study of the intervention"
+        },
+        {
+            "text": "A p-control chart was used to analyze compliance with consensus guidelines using Shewhart control chart rules to identify special-cause variation [15] . By analyzing the proportion of infants compliant every month instead of actual counts, the p-chart accounted for the variation in number of infants eligible for management by consensus guidelines from month to month. Comparison of baseline demographic characteristics between infants admitted during baseline and implementation periods was performed using Chi-square test, Kruskal-Wallis test, or Student's t test, as appropriate. Statistical significance was set at a P value of <0.05, and all statistical tests were two-sided. Statistical analysis was performed using SPSS 23 (Armonk, NY).",
+            "cite_spans": [
+                {
+                    "start": 146,
+                    "end": 150,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Analysis"
+        },
+        {
+            "text": "A total of 137 infants were included in the QI project, with 42 infants from the baseline period and 95 infants from the implementation period. Demographics of the included patients are referenced in Table 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 200,
+                    "end": 207,
+                    "text": "Table 1",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Retrospective application of the consensus guidelines to the 42 eligible infants admitted during the preceding 10 months before QI implementation showed a mean baseline rate of compliance of 71% (Fig. 4) . After consensus guidelines were implemented, an upward shift in compliance was realized and a new mean rate of 96% was achieved, meeting our goal of \u226590% compliance rate within 6 months. After scale back of the just-in-time email reminder system to test sustainability, a downward shift in compliance was noted. To facilitate recall and sustainability of the project, discussions regarding PNS eligibility of preterm infants were incorporated into small-baby team meetings. Continuing monitoring of compliance rates has demonstrated increasing compliance rates following this latest intervention (Fig. 4) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 195,
+                    "end": 203,
+                    "text": "(Fig. 4)",
+                    "ref_id": null
+                },
+                {
+                    "start": 802,
+                    "end": 810,
+                    "text": "(Fig. 4)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Steroid use remained similar between the two periods [14 of 42 (33%) in baseline period vs 31 of 95 (32%) in the implementation period]. Six of the 31 steroid-treated infants in the implementation period had risk of severe BPD or death \u226535% but received PNS beyond 30 days of life because of underlying conditions deemed to contribute to their lung disease at the time of evaluation for PNS eligibility (3 with sepsis, 2 with symptomatic patent ductus arteriosus, and 1 with necrotizing enterocolitis). Excluding these infants, the number of high-risk infants treated with PNS \u2264 30 days of life increased from 50% to 80%. No increase in the rate of repeat steroid use was noted, despite this earlier steroid use [4 of 14 (29%) in baseline period vs 11 of 31 (35%) in the implementation period].",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "During the study period, seven infants died and two infants were transferred back to referring hospital before 36 weeks PMA. Of the remaining 128 infants with available data on clinical outcomes, no differences in rate of severe ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Despite improvements in neonatal-perinatal medicine, BPD remains an ongoing cause of morbidity and mortality for preterm infants. In infants at high risk of developing BPD, treatment with PNS may be beneficial in decreasing lung disease; however, the lack of guidelines contributes to wide variation in clinical practice. As consistent processes and decreased variation have been shown to improve clinical outcomes [16, 17] , we assembled a multidisciplinary team to synthesize and implement consensus guidelines for identification and timely treatment with PNS of preterm infants at highest risk for BPD. Using the PDSA method of QI, we successfully increased adherence to our local guideline recommendations from 71% to 96% within 6 months. In doing so, we reduced variability in practice and increased timely treatment of high-risk infants. Notably, our interventions did not lead to an increase in rate of repeat PNS treatment indicating that the guidelines were not associated with increased steroid exposure.",
+            "cite_spans": [
+                {
+                    "start": 415,
+                    "end": 419,
+                    "text": "[16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 420,
+                    "end": 423,
+                    "text": "17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Several questions remain unanswered regarding best practices for PNS treatment of preterm infants for BPD prevention or treatment [4, 18] . In crafting our local guidelines, we reviewed best-available evidence from published studies as well as input from our own local data. We adopted the selective strategy of treating only infants at high risk for BPD as first described by Doyle et al. [7] and subsequently recommended by the American Academy of Pediatrics (AAP) [6] . However, instead of using mechanical ventilation status at 7 or 14 days per AAP as a surrogate marker of high BPD risk, we used the online BPD risk calculator developed by the NICHD [11] . We defined high-risk infants as those with combined risk of severe BPD or death \u226535% based on our previous study that identified this cut-off as most predictive of our local practice of PNS treatment. We also adopted a strategy of earlier treatment based on studies from the NICHD Neonatal Research Network suggesting that delayed PNS treatment was associated with worse clinical outcomes. One study by Wilson-Costello et al. [19] showed that PNS treatment after 33 weeks' PMA was associated with greatest odds for death or neurodevelopmental impairment. Another study by Harmon et al. [20] showed higher odds of severe BPD among infants treated with PNS \u2265 50 days of life. Our own local data also suggested an association between PNS treatment after 28 days of life and worse outcomes, including longer days on mechanical ventilation and longer length of hospital stay [13] . Initial buy-in from neonatal faculty through education and the consensus guidelines was high but inadequate in enacting a consistent change in clinical practice. To ramp up the project, a just-in-time email reminder system was implemented, which facilitated recall and increased compliance. Long-term feasibility was challenging, however, because the system was labor-intensive and dependent on one neonatal fellow tracking infants who met guidelines and sending the just-in-time emails [21, 22] . Realizing the value of regular discussions regarding PNS treatment for maintaining compliance, our team solicited the assistance of the small-baby team to formally review infants for their eligibility for PNS treatment at their bimonthly team meetings. Initial results from this latest intervention have been positive.",
+            "cite_spans": [
+                {
+                    "start": 130,
+                    "end": 133,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 134,
+                    "end": 137,
+                    "text": "18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 390,
+                    "end": 393,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 467,
+                    "end": 470,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 655,
+                    "end": 659,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1088,
+                    "end": 1092,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1234,
+                    "end": 1252,
+                    "text": "Harmon et al. [20]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1532,
+                    "end": 1536,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 2026,
+                    "end": 2030,
+                    "text": "[21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 2031,
+                    "end": 2034,
+                    "text": "22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The PNS guidelines were carefully designed to be consistent with existing evidence as well as reflect local unit practices. While this feature was intentional to facilitate buy-in from stakeholders, it may limit generalizability to other units. While no significant organizational or practice changes outside implementation of PNS guidelines occurred during the study period, the effect of our consensus guidelines on clinical outcomes remain undetermined. The focus of this QI project was to change a highly variable PNS treatment practice to a more standardized system. With the successful transition into a stable PNS clinical practice, continued monitoring of compliance and outcomes will allow us to properly evaluate effect on clinical outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Future directions to improve and sustain guideline compliance include focused education to nurses and nurse practitioners as many of the prior educational meetings had low attendance by these important stakeholders. Reviewing the literature and presenting findings from the QI project to them would facilitate additional buy-in and help with recall from another group of care providers. The addition of NICHD BPD calculator link in the electronic medical record and incorporation of severe BPD or death risk estimate calculation into the daily workflow are other interventions under consideration.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Compliance with locally developed consensus guidelines for PNS treatment of BPD was quickly attained using simple interventions including education and just-in-time email reminders. Continued compliance was challenging, but incorporating the QI project into established systems facilitated long-term sustainability of the project.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Epidemiology of bronchopulmonary dysplasia",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Schmidt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Birth defects Res Part A Clin Mol Teratol",
+            "volume": "100",
+            "issn": "",
+            "pages": "145--57",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Neonatal outcomes of extremely preterm infants from the NICHD Neonatal Research Network",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Stoll",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Hansen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Bell",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shankaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Laptook",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Walsh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Pediatrics",
+            "volume": "126",
+            "issn": "",
+            "pages": "443--56",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Causes and timing of death in extremely premature infants from",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kandefer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Walsh",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Bell",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Carlo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Laptook",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "N Engl J Med",
+            "volume": "372",
+            "issn": "",
+            "pages": "331--371",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Postnatal corticosteroids to prevent or treat bronchopulmonary dysplasia-who might benefit?",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Doyle",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jly",
+                    "middle": [],
+                    "last": "Cheong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Semin Fetal Neonatal Med",
+            "volume": "22",
+            "issn": "",
+            "pages": "290--295",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Update on postnatal steroids",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Halliday",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Neonatology",
+            "volume": "111",
+            "issn": "",
+            "pages": "415--437",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "American Academy of Pediatrics Committee on Fetus and Newborn. Policy statement-postnatal corticosteroids to prevent or treat bronchopulmonary dysplasia",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Watterberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Pediatrics",
+            "volume": "126",
+            "issn": "",
+            "pages": "800--808",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Impact of postnatal systemic corticosteroids on mortality and cerebral palsy in preterm infants: effect modification by risk for chronic lung disease",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Doyle",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Halliday",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ehrenkranz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Sinclair",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Pediatrics",
+            "volume": "115",
+            "issn": "",
+            "pages": "655--61",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "An update on the impact of postnatal systemic corticosteroids on mortality and cerebral palsy in preterm infants: effect modification by risk of bronchopulmonary dysplasia",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Doyle",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Halliday",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ehrenkranz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Sinclair",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Pediatr",
+            "volume": "165",
+            "issn": "",
+            "pages": "1258--60",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Stopping the swinging pendulum of postnatal corticosteroid use",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Demauro",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Dysart",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kirpalani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Pediatr",
+            "volume": "164",
+            "issn": "",
+            "pages": "9--11",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "A comparison of 7-day versus 10-day course of low-dose dexamethasone for chronically ventilated preterm infants",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cuna",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Govindarajan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Oschman",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Dai",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Brophy",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Norberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Perinatol",
+            "volume": "37",
+            "issn": "",
+            "pages": "301--306",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Prediction of bronchopulmonary dysplasia by postnatal age in extremely premature infants",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Laughon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Langer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bose",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ambalavanan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kennedy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "183",
+            "issn": "",
+            "pages": "1715--1737",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Usefulness of an online risk estimator for bronchopulmonary dysplasia in predicting corticosteroid treatment in infants born preterm",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cuna",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Govindarajan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Queen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Dai",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Truog",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Pediatr",
+            "volume": "197",
+            "issn": "",
+            "pages": "23--31",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Timing of postnatal corticosteroid treatment for bronchopulmonary dysplasia and its effect on outcomes",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cuna",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Dai",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nyp",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Truog",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Pediatr Pulmonol",
+            "volume": "54",
+            "issn": "",
+            "pages": "165--70",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A primer on PDSA: executing plan-dostudy-act cycles in practice, not just in name",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Leis",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Shojania",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "BMJ Qual Saf",
+            "volume": "26",
+            "issn": "",
+            "pages": "572--579",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The p-control chart: a tool for care improvement",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Duclos",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Voirin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Int J Qual Health Care",
+            "volume": "22",
+            "issn": "",
+            "pages": "402--409",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Learning from practice variation to improve the quality of care",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Tomson",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Van Der Veer",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Clin Med",
+            "volume": "13",
+            "issn": "",
+            "pages": "19--23",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "New ways to reduce unnecessary variation and improve outcomes in the intensive care unit",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Holcomb",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Wheeler",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Ely",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Curr Opin Crit Care",
+            "volume": "7",
+            "issn": "",
+            "pages": "304--315",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Postnatal corticosteroids to treat or prevent chronic lung disease in preterm infants",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jefferies",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Paediatr Child Health",
+            "volume": "17",
+            "issn": "",
+            "pages": "573--577",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Impact of postnatal corticosteroid use on neurodevelopment at 18 to 22 months' adjusted age: effects of dose, timing, and risk of bronchopulmonary dysplasia in extremely low birth weight infants",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wilson-Costello",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Walsh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Langer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Guillet",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Laptook",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Stoll",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Pediatrics",
+            "volume": "123",
+            "issn": "",
+            "pages": "430--437",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Timing of postnatal steroids for bronchopulmonary dysplasia: association with pulmonary and neurodevelopmental outcomes",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Harmon",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chaudhary",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Slaughter",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Bell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Perinatol",
+            "volume": "40",
+            "issn": "",
+            "pages": "616--643",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "The role of the champion in primary care change efforts: from the State Networks of Colorado Ambulatory Practices and Partners (SNOCAP)",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Shaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Howard",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "West",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Crabtree",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nease",
+                    "middle": [],
+                    "last": "De",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Tutt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Am Board Fam Med",
+            "volume": "25",
+            "issn": "",
+            "pages": "676--85",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "The role of the organizational champion in achieving health system change",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hendy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Barlow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Soc Sci Med",
+            "volume": "74",
+            "issn": "",
+            "pages": "348--55",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Using quality improvement to implement consensus guidelines for postnatal steroid treatment of preterm",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Example of BPD outcome estimator calculation and just-intime email reminder. In this example, the infant has a combined risk of severe BPD or death of 64.4% at 21 days of life. Per our consensus guidelines, PNS treatment is recommended for this infant.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "BPD [14 of 39 (36%) in baseline period vs 46 of 89 (52%) in the implementation period, P = 0.1] or rate of mechanical ventilation at 36 weeks PMA [2 of 39 (5%) in baseline period vs 5 of 89 (6%) in the implementation period, P = 0.9] were noted.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "days of life were Infants' \u2264 30 weeks at birth AND \u2264 30 days of life AND intubated",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Demographics of included patients.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Fig. 4P-control chart showing compliance before and after implementation of consensus guidelines. Baseline mean rate of compliance was 71%. After implementation of guidelines and just-intime emails, compliance increased to a mean rate of 96%. In April 2020, when just-in-time emails were scaled back, a small downward shift in compliance was noted. Compliance is defined as (1) infant with severe BPD/death risk <35% and did not get PNS; or (2) infant with severe BPD/death risk \u2265 35% risk and received PNS \u2264 30 days unless clinically contraindicated.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Acknowledgements We would like to thank the Medical Writing Center at Children's Mercy Kansas City for their assistance in reviewing and editing the manuscript.Author contributions TPH and AC designed QI project and analyzed data. TPH collected data and executed project with supervision from AC. Guidelines were formulated with aid from AO, EKP, AC, TPH, DY, and BP. Authors TPH and AC wrote the manuscript in consultation with EKP, DY, AO, and BP.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        },
+        {
+            "text": "Conflict of interest The authors declare that they have no conflict of interest.Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with ethical standards"
+        }
+    ]
+}

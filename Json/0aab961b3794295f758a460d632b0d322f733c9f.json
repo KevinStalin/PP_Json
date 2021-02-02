@@ -1,0 +1,2928 @@
+{
+    "paper_id": "0aab961b3794295f758a460d632b0d322f733c9f",
+    "metadata": {
+        "title": "Responsible Translational Pathways for Germline Gene Editing?",
+        "authors": [
+            {
+                "first": "(y Fan &amp; J",
+                "middle": [],
+                "last": "Genome Editing",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Section",
+                "middle": [],
+                "last": "Chan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Editors",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Purpose of Review Continued development of gene editing techniques has raised the real possibility of clinical application of germline gene editing. These results, as well as reports of an unethical experiment which resulted in the birth of at least two children from edited embryos in 2018, have highlighted the urgency and importance of ethical issues about translational pathways for editing of human germline cells. Charting responsible translational pathways for germline gene editing requires tackling some significant and complex ethical issues. Recent Findings A literature on development of clinical applications of germline gene editing is emerging, and several key ethical issues are coming into focus as major challenges for responsible translational pathways. Summary Potential clinical utility, clinical justification, and human subjects research for germline gene editing raise outstanding ethical questions. Work on these questions will help provide guidance to researchers and clinicians and direct translational projects toward justifiable applications.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Making heritable changes to the genome of prospective persons by editing germline cells has held enduring fascination for scientists and non-scientists alike, but until very recently the prospects for actually doing it seemed squarely in the realm of science fiction. The continuous development of powerful, accurate, and efficient gene editing techniques over the past decade has now taken this from science fiction to medical possibility [1] [2] [3] . Some vivid research results within the past 5 years have raised real questions about translation of gene editing tools for clinical use. This research has raised serious questions about the ethics of translational pathways for germline gene editing [4] [5] [6] .",
+            "cite_spans": [
+                {
+                    "start": 440,
+                    "end": 443,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 444,
+                    "end": 447,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 448,
+                    "end": 451,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 703,
+                    "end": 706,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 707,
+                    "end": 710,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 711,
+                    "end": 714,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The questions addressed by this literature were given new urgency by the revelations in November 2018 that He Jiankui, a biophysicist working at Southern University of Science and Technology in China, used edited embryos to start pregnancies that resulted in the birth of at least two children, twin girls nicknamed \"Lulu\" and \"Nana\" [7, 8, 9\u2022\u2022] . He Jiankui was attempting to disable the CCR5 gene in these embryos in order to prevent HIV transmission to prospective persons where the male progenitor was HIV positive, a clinical goal for which there are multiple other existing mechanisms [9\u2022\u2022] . Without question, He's experiment was deeply unethical, and given the availability of other means for preventing vertical transmission of HIV, had little to no clinical justification [10] [11] [12] . But the He case has, for many, underlined the urgency of questions about-in the words of the Summary Statement of the Second International Summit on Human Genome Editing-\"responsible translational pathways\" for human germline gene editing [13] .",
+            "cite_spans": [
+                {
+                    "start": 334,
+                    "end": 345,
+                    "text": "[7, 8, 9\u2022\u2022]",
+                    "ref_id": null
+                },
+                {
+                    "start": 591,
+                    "end": 596,
+                    "text": "[9\u2022\u2022]",
+                    "ref_id": null
+                },
+                {
+                    "start": 782,
+                    "end": 786,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 787,
+                    "end": 791,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 792,
+                    "end": 796,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1038,
+                    "end": 1042,
+                    "text": "[13]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This article will review this emerging literature on translation of germline gene editing for potential clinical use. The article is organized around three questions about the current state of the ethics of gene editing and outstanding issues on translational pathways. Crucially, work on these questions can serve as a guide to researchers and clinicians engaged in different translational projects, by showing which pathways for future clinical application of germline gene editing face significant ethical hurdles and which are smoother and straighter. Ultimately the biggest question is whether there are any responsible translational pathways at all. This article will eschew taking a position on this question, in favor of surveying This article is part of the Topical Collection on Genome Editing the many issues that will need to be considered as part of this larger question. Ultimately \"to edit or not to edit\" human germline cells will need to be a decision reached collectively, not just by affected stakeholders but possibly by the human community as a whole. Along the way, there are multiple interesting and pressing ethical issues that are aspects of this larger question.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Where Are We Are Now in the Ethics of Gene Editing?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This article will not review the extensive technical literature on gene editing or on the current status of translational projects on human germline gene editing (GGE). There are a number of excellent recent papers that chart \"where we are now\" on GGE and its potential therapeutic applications [1-3, 14, 15\u2022] . Both the ethics and the (still nascent) legal and regulatory framework for gene editing subsume issues about GGE under existing ethical and policy frameworks for assisted reproductive technologies, stem cells, gene therapy, and human genetics research [16] . The legal and regulatory status of GGE in humans is not clear; different national regulations and international treaties create a complicated global patchwork of regulations [17] . For example, Article 13 of the Oviedo Convention of the Council of Europe states that an intervention \"seeking to modify the human genome\" can only be done \"if its aim is not to introduce any modification in the genome of any descendants\" [18] . This appears to be a de facto ban on GGE. In the USA, while there is no outright ban on GGE, the largest public funder of biomedical research, the National Institutes of Health, \"will not fund any use of gene editing technologies in human embryos\" [19] .",
+            "cite_spans": [
+                {
+                    "start": 295,
+                    "end": 309,
+                    "text": "[1-3, 14, 15\u2022]",
+                    "ref_id": null
+                },
+                {
+                    "start": 564,
+                    "end": 568,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 745,
+                    "end": 749,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 991,
+                    "end": 995,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1246,
+                    "end": 1250,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A large number of professional associations, national bioethics commissions, and government advisory bodies have issued statements and reports on the ethics of gene editing [20\u2022, 21\u2022\u2022, 22, 23, 24, 25, 26] . These statements converge on a core set of ideas that currently serve as a de facto ethical framework for translational research into GGE. These are as follows: (1) GGE is nowhere near ready for clinical use, and there should be a worldwide moratorium on creating pregnancies from edited embryos for the foreseeable future; (2) research on in vitro editing of human embryos and ex vivo editing of other germline cells (such as gametocytes) should continue, subject to existing ethical guidelines and best practices; (3) translational research should be confined to \"therapeutic\" applications of GGE, and should eschew research into uses of GGE for \"enhancement\"; and (4) GGE is a matter of serious societal concern, and moving forward with GGE should not happen without input from all of the relevant stakeholders and a transparent and inclusive public discussion.",
+            "cite_spans": [
+                {
+                    "start": 173,
+                    "end": 204,
+                    "text": "[20\u2022, 21\u2022\u2022, 22, 23, 24, 25, 26]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "There are some exceptions to this consensus. Most prominently, a recent report from the UK Nuffield Council on Bioethics left the door open for permissible uses of GGE for non-therapeutic purposes [22] . There are also prominent voices opposed to translational research into GGE, as they see GGE as of limited or no potential clinical utility and beset with too many ethical problems to ever be feasible [27, 28] . Others have taken a more moderate approach and argued for more research coupled with a moratorium over the near-term on creation of pregnancies with edited embryos [29\u2022, 30\u2022] . As of the writing of this paper (Spring 2020), work is currently underway by the World Health Organization on a global governance plan for gene editing [31] . A joint commission of the US National Academy of Science, US National Academy of Medicine, and the UK Royal Society is also at work on a report on translational research and future clinical use of gene editing, which is likely to be very influential [32] . Whether these replace the current de facto ethical regime with a more formal framework remains to be seen (it also remains to be seen how much the ongoing COVID-19/SARS-CoV-2 pandemic will disrupt and delay this work).",
+            "cite_spans": [
+                {
+                    "start": 197,
+                    "end": 201,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 404,
+                    "end": 408,
+                    "text": "[27,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 409,
+                    "end": 412,
+                    "text": "28]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 579,
+                    "end": 589,
+                    "text": "[29\u2022, 30\u2022]",
+                    "ref_id": null
+                },
+                {
+                    "start": 744,
+                    "end": 748,
+                    "text": "[31]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1001,
+                    "end": 1005,
+                    "text": "[32]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Though most work on the ethics of GGE is focused on research and the first steps toward clinical use, an interesting (though possibly premature) discussion about governance of future clinical uses of GGE is emerging [33] [34] [35] [36] [37] [38] . A major driver of this discussion has been the He Jiankui case mentioned in the \"Introduction\" section. Among the topics in this emerging literature are concerns about monitoring how reproductive medical service providers communicate the risks and benefits of GGE to potential patients, ensuring that GGE is used only for therapeutic and not non-medical purposes, and crafting global ethical standards for GGE. It will be difficult to settle these issues, or even fully explore them, before clinical applications of GGE take a more definitive shape (though some of this discussion includes governance of research, which is very relevant at the moment) [33, 35] . Professional societies representing clinicians will have an important role to play in governing clinical applications and should be actively involved in these debates.",
+            "cite_spans": [
+                {
+                    "start": 216,
+                    "end": 220,
+                    "text": "[33]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 221,
+                    "end": 225,
+                    "text": "[34]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 226,
+                    "end": 230,
+                    "text": "[35]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 231,
+                    "end": 235,
+                    "text": "[36]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 236,
+                    "end": 240,
+                    "text": "[37]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 241,
+                    "end": 245,
+                    "text": "[38]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 900,
+                    "end": 904,
+                    "text": "[33,",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 905,
+                    "end": 908,
+                    "text": "35]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Much of the edifice of the current de facto ethical framework is built on the assumed moral importance of two fundamental distinctions, between therapy and enhancement as goals of GGE, and between somatic and germline gene editing [21\u2022\u2022, 29\u2022, 30\u2022, 39, 40] . Both of these distinctions, however, are beset with serious conceptual and normative ambiguities that complicate their usefulness for the ethics of GGE. The therapy/enhancement distinction has long exercised bioethicists and philosophers of medicine, and there is an extensive literature on the difficulties of drawing a clear line between the two types and sorting interventions accordingly [39] . This complicates attempts to draw lines of permissibility around different applications of GGE based on whether they are therapies or enhancements. While there are some clear examples of each (for instance, preventing sickle cell anemia in future persons vs. increasing height or muscle mass), there are many ambiguous cases (such as increasing disease resistance or reducing risk to non-communicable disease through GGE, discussed briefly at the end of the next section). There are also hypothetical applications that would only count as therapeutic if we classified certain conditions as diseases (instead of, for instance, common polymorphisms that are only disadvantageous against a background of ableism and injustice, such as achondroplasia or hereditary deafness) [41, 42] . These ambiguities and difficulties make the therapy/enhancement distinction too fraught to do much work in practical tasks for the ethics of GGE, such as drafting a policy for the regulation of future clinical uses [39, 43] .",
+            "cite_spans": [
+                {
+                    "start": 231,
+                    "end": 255,
+                    "text": "[21\u2022\u2022, 29\u2022, 30\u2022, 39, 40]",
+                    "ref_id": null
+                },
+                {
+                    "start": 650,
+                    "end": 654,
+                    "text": "[39]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1428,
+                    "end": 1432,
+                    "text": "[41,",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1433,
+                    "end": 1436,
+                    "text": "42]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 1654,
+                    "end": 1658,
+                    "text": "[39,",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1659,
+                    "end": 1662,
+                    "text": "43]",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "There is a clear biological difference between somatic and germline cells, and so the somatic/germline distinction may seem on better footing. The moral importance of the germline is usually based on the heritability of changes made to germline cells [29\u2022, 30\u2022] . Most ethical discussion focuses on human embryos but editing of other germline cells can also result in heritable changes (such as editing of spermatogonial stem cells) [44] . Because GGE, unlike somatic gene editing, results in heritable changes, it is held to raise significant ethical issues and deserve additional ethical scrutiny; it is common to refer to the germline as an ethical \"red line\" [29\u2022, 40, 45] . However, not all applications of GGE are alike, and even if there are common ethical issues, the category \"germline gene editing\" may be too crude to capture morally significant differences between the various translational projects [46] . As translational research progresses, a much more finegrained understanding of the different translational projects and future clinical applications, and their attendant ethical issues, will need to replace sorting interventions by therapy/enhancement or somatic/germline (one is proposed in Cwik [46] ).",
+            "cite_spans": [
+                {
+                    "start": 251,
+                    "end": 261,
+                    "text": "[29\u2022, 30\u2022]",
+                    "ref_id": null
+                },
+                {
+                    "start": 433,
+                    "end": 437,
+                    "text": "[44]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 663,
+                    "end": 676,
+                    "text": "[29\u2022, 40, 45]",
+                    "ref_id": null
+                },
+                {
+                    "start": 912,
+                    "end": 916,
+                    "text": "[46]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 1216,
+                    "end": 1220,
+                    "text": "[46]",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "What Is the Potential Clinical Utility of Germline Gene Editing?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Perhaps the major ethical question about translational research into GGE concerns its possible clinical utility. Whether translational research into GGE should be done at all depends largely on whether the potential clinical utility of GGEbased interventions justify the investment of energy, resources, and time. GGE research also involves research on human embryos and stem cells, which faces a higher level of ethical scrutiny. There is significant disagreement about the potential clinical utility of GGE [2, 15\u2022, 28, 47-49] . Opinions run the spectrum: with some arguing there is no potential utility for GGE specifically, and others arguing that there is significant-enough promise to justify continuing research.",
+            "cite_spans": [
+                {
+                    "start": 509,
+                    "end": 528,
+                    "text": "[2, 15\u2022, 28, 47-49]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "At the moment, the greatest clinical potential for GGE appears to be in the prevention of monogenic diseases that have so far proven intractable to other therapeutic interventions [1] [2] [3] 14] . This is a very large class of diseases, and includes conditions such as infantile Tay-Sachs, cystic fibrosis, Huntington's disease, hypertrophic cardiomyopathy, \u03b2-thalassemia, and sickle cell anemia, among others. Though the overall mortality and morbidity from any one of these may be low, collectively they account for a not-insignificant amount of death and disability, and therapeutic interventions that prevent their occurrence would have more than just marginal public health benefit [50] .",
+            "cite_spans": [
+                {
+                    "start": 180,
+                    "end": 183,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 184,
+                    "end": 187,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 188,
+                    "end": 191,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 192,
+                    "end": 195,
+                    "text": "14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 688,
+                    "end": 692,
+                    "text": "[50]",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "There are significant ethical questions about the clinical utility of GGE for the prevention of monogenic diseases [51, 52\u2022, 53] . Prevention of these conditions in prospective persons is currently possible through preimplantation genetic diagnosis (PGD) as part of assisted reproduction. It is an open question whether GGE offers an improvement over PGD [50, 54, 55] . For some individuals, such as those going through in vitro fertilization (IVF) with a low number of oocytes to work with, GGE may offer a better chance of success than selection of embryos through PGD. For those with religious or other objections to the screening and selection of embryos through PGD, GGE could (if, in the future, it reaches a high level of technical sophistication) offer a better alternative. And there are also at least some individuals who wish to have a child but where both the female and male progenitors are homozygous for a recessive disease, or one of the progenitors is homozygous for a dominant disease, and so GGE would be required to get an embryo free from the targeted pathogenic genotype at all [55] .",
+            "cite_spans": [
+                {
+                    "start": 115,
+                    "end": 128,
+                    "text": "[51, 52\u2022, 53]",
+                    "ref_id": null
+                },
+                {
+                    "start": 355,
+                    "end": 359,
+                    "text": "[50,",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 360,
+                    "end": 363,
+                    "text": "54,",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 364,
+                    "end": 367,
+                    "text": "55]",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 1100,
+                    "end": 1104,
+                    "text": "[55]",
+                    "ref_id": "BIBREF55"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "How many individuals will fall under these descriptions depends heavily on personal factors, such as strength of preference for genetically related children, willingness to consider surrogacy, adoption, or gamete donation, or other factors. It is likely that for most individuals, PGD or other means to starting a family will remain better options than GGE, when the issue is prevention of a monogenic disease. In the near future then, GGE will most likely have limited clinical utility as one among a portfolio of interventions for the prevention of monogenic diseases. This could change if it turns out there is some significant advantage for GGE-if it is much lower in cost, much more reliable, or less burdensome (for instance, requires fewer cycles of IVF or oocyte retrieval). It is not possible to judge relative benefits along these dimensions before specific clinical applications of GGE become feasible.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Some bioethicists have argued that GGE is only justifiable in the first place if people's preferences for genetically related children carry moral weight [28, 41] . Given that people can adopt or start families in other ways, the argument is that there is little reason to invest resources in developing new assisted reproductive technologies. As with all projects aimed at preventing disease, great care should be taken with arguments that new interventions are not necessary because all that is required to prevent a disease is for people to change their behaviors and preferences, especially when these concern something as intimate as the decision to have a (genetically related) child. Consider a parallel argument: people will likely continue to eat red meat, have stressful lifestyles, and not get enough sleep or enough exercise. Imagine an argument that research into treating cardiovascular exercise is only justifiable in the first place if all of these choices carry moral weight, an argument which concluded that since we can all choose to abstain from beef, quit our stressful jobs, or not have families so as to make time for sleep and exercise, cardiovascular disease is the result of our preferences and so there is little reason to invest in new therapies. Such an argument is antithetical to the therapeutic mission of biomedical research, which must deal with the health challenges we have, not the ones we think we should have if only people behaved as we wished. To paraphrase the philosopher Jean-Jacques Rousseau in a different context, medicine must take people as they are and therapies as they might be.",
+            "cite_spans": [
+                {
+                    "start": 154,
+                    "end": 158,
+                    "text": "[28,",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 159,
+                    "end": 162,
+                    "text": "41]",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Many of the conditions that GGE would be appropriate for can also potentially be treated via somatic gene editing. There is currently a gene therapy for spinal muscular atrophy, and there are some promising results in developing gene therapies for \u03b2-thalassemia, sickle cell anemia, and Duchenne's muscular dystrophy [1, [56] [57] [58] . Even so, there may be some reasons to prefer GGE to somatic cell editing-based gene therapies, such as the smaller number of target cells and potential for GGE-based therapies to remove diseases from family lineages [2] . Weighing the two requires having more precise metrics on the accuracy, precision, efficacy, and safety of different gene editing applications. There is still an imperfect understanding of just how accurate gene editing has to be in order to be safe. There are many potential health risks and risks to development from unintended changes to DNA as a result of the editing process (most importantly, risks from offtarget edits resulting in unintended mutagenesis and mosaicism) [59, 60] . Determining whether unintended effects are pathogenic or inert requires having a better understanding of what abnormalities or mutations in an embryo raise risks to an unacceptable level for transferring an embryo to start a pregnancy (this is also an issue in screening embryos during PGD) [61, 62] . Research into editing of human embryos has also generated some surprises; for example, over the role of homology directed repair of double strand breaks in the DNA of embryos [63] [64] [65] . The controversy generated by these results shows that the cellular mechanisms involved in DNA repair in human embryos still require a lot more deciphering [1] . Progress on metrics for accuracy and precision of gene editing, improved understanding of DNA repair mechanisms in human embryos, and more data on the effects of gene editing on embryogenesis and development from edited embryos are all necessary not just to judge if GGE is ready for the clinic but also to weigh the relative clinical utility of GGE, in terms of risks and benefits, against other potential interventions. This requires much more basic research, but it also requires setting ethical standards for things like acceptable thresholds of risks for transferring edited embryos to create a pregnancy.",
+            "cite_spans": [
+                {
+                    "start": 317,
+                    "end": 320,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 321,
+                    "end": 325,
+                    "text": "[56]",
+                    "ref_id": null
+                },
+                {
+                    "start": 326,
+                    "end": 330,
+                    "text": "[57]",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 331,
+                    "end": 335,
+                    "text": "[58]",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 554,
+                    "end": 557,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1036,
+                    "end": 1040,
+                    "text": "[59,",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 1041,
+                    "end": 1044,
+                    "text": "60]",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 1338,
+                    "end": 1342,
+                    "text": "[61,",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 1343,
+                    "end": 1346,
+                    "text": "62]",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 1524,
+                    "end": 1528,
+                    "text": "[63]",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 1529,
+                    "end": 1533,
+                    "text": "[64]",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 1534,
+                    "end": 1538,
+                    "text": "[65]",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 1696,
+                    "end": 1699,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Though current translational projects are mostly focused on prevention of monogenic disorders, there are other potential applications of GGE that have received some attention. The most prominent is the use of GGE to lower risk of communicable or non-communicable disease, such as editing to confer limited or full immunity to common pathogens or to lower risk of chronic conditions such as heart disease [66] [67] [68] . The experiments conducted by He Jiankui were of this type-as discussed in the \"Introduction\" section, He was attempting to disable the CCR5 gene and so confer some immunity to HIV infection. These potential applications are mostly speculative, as the genetic bases (if there are any) of conditions such as high risk of cardiovascular disease are still unknown (or at least, not completely known). Should legitimate targets for intervention emerge through research on medical genetics, there will be significant questions about clinical utility for this application of GGE, and very significant questions about whether these uses are therapeutic or cross the line into nonmedical applications that are unacceptable.",
+            "cite_spans": [
+                {
+                    "start": 404,
+                    "end": 408,
+                    "text": "[66]",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 409,
+                    "end": 413,
+                    "text": "[67]",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 414,
+                    "end": 418,
+                    "text": "[68]",
+                    "ref_id": "BIBREF68"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Should GGE research advance to a point at which clinical application becomes feasible, there will be significant ethical issues in conducting human subjects research. These include issues about informed consent, accurately judging the risk/benefit profile for prospective persons, the general family of concerns about research on neonates and children, and the real possibility of societal stigma that could affect the first generation of edited subjects [15\u2022, 69, 70, 71\u2022] . One of the biggest problems, however, will be determining the longterm effects of GGE on prospective persons. No matter how much progress is made on translation of GGE for clinical use, the long-term effects of GGE on health and development will not be completely known until there is a sufficient sample of individuals born from edited embryos walking around in the world [3, 21] . An analogous situation has occurred with the long-term effects of IVF. IVF carries small risks of detrimental effects on health, risks which were not appreciated until decades after IVF entered clinical use [72, 73] . It is still a matter of debate where these risks come from, whether they are from the procedure itself or have more to do with, for instance, features of the population of people who undergo IVF (such as higher average age, or underlying fertility problems). It would be na\u00efve to assume that such a situation for GGE could be ruled out ex-ante. It is best to assume, instead, that long-term follow-up of subjects is going to be a necessary feature of clinical trials of GGE and that it may even be advisable for the first generation of people born from edited embryos altogether.",
+            "cite_spans": [
+                {
+                    "start": 455,
+                    "end": 473,
+                    "text": "[15\u2022, 69, 70, 71\u2022]",
+                    "ref_id": null
+                },
+                {
+                    "start": 849,
+                    "end": 852,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 853,
+                    "end": 856,
+                    "text": "21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1066,
+                    "end": 1070,
+                    "text": "[72,",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 1071,
+                    "end": 1074,
+                    "text": "73]",
+                    "ref_id": "BIBREF73"
+                }
+            ],
+            "ref_spans": [],
+            "section": "How Do We Monitor Heritable Changes?"
+        },
+        {
+            "text": "Further, because changes made at the germline will be heritable, any negative impacts on health and development from GGE could be passed on to future generations. Many statements of professional societies and ethics committees have therefore noted the potential need for intergenerational monitoring of subjects and their descendants as part of human subjects research for clinical applications of GGE [21\u2022\u2022, 23, 24] . How such monitoring could be done ethically is a significant question about a responsible translational pathway for GGE.",
+            "cite_spans": [
+                {
+                    "start": 402,
+                    "end": 416,
+                    "text": "[21\u2022\u2022, 23, 24]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "How Do We Monitor Heritable Changes?"
+        },
+        {
+            "text": "There are three sets of ethical questions about intergenerational monitoring [74] . The first set concerns the scope of monitoring-the kinds and amounts of data on subjects that will need to be gathered, the types of physiological effects that need to be monitored, and the frequency of check-ups and data gathering. The more burdensome this would be on subjects, the more invasive the procedures required for successful monitoring, and the later into life that monitoring has to stretch, the more difficult it becomes to do it ethically, and to justify the use of GGE. Applications that generate greater burdens of this kind are perhaps not good candidates for the first ever clinical uses of GGE, and researchers should select translational projects with this in mind. Second, there are questions about the relationship between subjects and the researchers monitoring them. What is required for informed consent, whether something offered as part of the monitoring process (such as some form of free care) counts as an undue inducement, what researchers are allowed to do to recruit subjects (say, to keep individuals who have been monitored from birth enrolled in the study, once they are no longer children and can consent for themselves)-all of these will need to be dealt with, and before clinical trials begin. These are not necessarily intractable; they are all variations on familiar problems in research ethics for cohort studies, clinical trials of artificial reproductive technologies, and research on children and neonates [69, 71\u2022, 74] .",
+            "cite_spans": [
+                {
+                    "start": 77,
+                    "end": 81,
+                    "text": "[74]",
+                    "ref_id": "BIBREF74"
+                },
+                {
+                    "start": 1536,
+                    "end": 1549,
+                    "text": "[69, 71\u2022, 74]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "How Do We Monitor Heritable Changes?"
+        },
+        {
+            "text": "A third set of problems is more difficult. A protocol for what to do if a heritable adverse effect manifests will need to be in place, managing such a risk involves some complications [69] . Subjects may need to be notified that there is a risk to themselves that they may pass on to their descendants. Such notification automatically comes with information about parentage, and it is possible that this may be unknown to some of the subjects. This risk increases the later in life the adverse effect manifests, once there are more generations involved than just the edited subjects. Once heritable adverse effects are identified, it is unclear what needs to be done to reduce risk to future generations. Some form of reproductive counseling, at a minimum, will seem to be necessary, but possibly also treatment and maybe even reproductive medical services. These are also concerns for mitochondrial replacement therapy, where there is also a potential need for intergenerational monitoring [75, 76] . The crucial point here is not that intergenerational monitoring will be a regulatory hoop that researchers will have to jump through in order to move GGE from bench to bedside. Rather, for all the reasons discussed here, it will likely just be unknowable what the long-term effects of GGE are and whether there are any heritable risks to health and development unless intergenerational monitoring is done [3] .",
+            "cite_spans": [
+                {
+                    "start": 184,
+                    "end": 188,
+                    "text": "[69]",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 991,
+                    "end": 995,
+                    "text": "[75,",
+                    "ref_id": "BIBREF75"
+                },
+                {
+                    "start": 996,
+                    "end": 999,
+                    "text": "76]",
+                    "ref_id": "BIBREF76"
+                },
+                {
+                    "start": 1407,
+                    "end": 1410,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "How Do We Monitor Heritable Changes?"
+        },
+        {
+            "text": "There is also a significant ethical question about whether this means GGE could ever be justifiable. Some have argued that because knowing the full panoply of risks and benefits from GGE requires intergenerational monitoring, any use of GGE would be unethical, because it would be unethical to subject multiple generations of future persons to unknown risks without extremely strong clinical benefit [28, 77] . This feeds back into questions about clinical utility and justification [74] . Given that there (likely) will be many unknowns about the long-term impacts of GGE even once it is ready for human subjects research, the known benefits to prospective persons-and the clinical utility relative to other available interventions-better be really significant.",
+            "cite_spans": [
+                {
+                    "start": 400,
+                    "end": 404,
+                    "text": "[28,",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 405,
+                    "end": 408,
+                    "text": "77]",
+                    "ref_id": "BIBREF78"
+                },
+                {
+                    "start": 483,
+                    "end": 487,
+                    "text": "[74]",
+                    "ref_id": "BIBREF74"
+                }
+            ],
+            "ref_spans": [],
+            "section": "How Do We Monitor Heritable Changes?"
+        },
+        {
+            "text": "As research on GGE continues, these issues will need to be continuously revisited and positions reexamined and rethought. New questions will introduce themselves, and the relevance of existing issues will no doubt change. The \"anticipatory\" nature of the ethical discussion here must always be kept in mind-these issues are subject to the same constraints as all debates about emerging technologies, and as with other areas of current concern (such as artificial intelligence), some issues just will have to wait until the technology takes clearer forms [38] . Lessons can be applied here from approaches to governance for other emerging technologies [78] .",
+            "cite_spans": [
+                {
+                    "start": 554,
+                    "end": 558,
+                    "text": "[38]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 651,
+                    "end": 655,
+                    "text": "[78]",
+                    "ref_id": "BIBREF79"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "While research has progressed, the ethics of gene editing has not moved forward at the same pace, and work on the issues outlined here (and others in this terrain) is urgently needed. As the discussion above has shown at several points, work on these issues can help point out areas in which further research is necessary (e.g., on improving rates of off-target edits) and help direct research toward justifiable applications (e.g., by showing where justification for a potential application is on shaky ground). Good work on these topics is being done but much work in bioethics still, unfortunately, is focused on science fiction applications of gene editing such as radical life extension or enhancement of intelligence. It is high time for bioethicists to redirect their attention and energy to more constructive issues about gene editing. Progress in biomedicine requires progress on ethics, and good work on the ethics of gene editing can help advance the science by mapping out possibilities for responsible research, development, and clinical use [79] . A literature on the complex ethics of translational pathways for gene editing that is more closely in dialog with the scientific literature and research, and more attentive to the specific issues raised by research into possible clinical applications, is emerging. There are many interesting and relevant avenues for future work that can help add to this literature and generate a better understanding of the ethics of gene editing.",
+            "cite_spans": [
+                {
+                    "start": 1055,
+                    "end": 1059,
+                    "text": "[79]",
+                    "ref_id": "BIBREF80"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Funding Information Work on this paper was supported by the National Human Genome Research Institute of the National Institutes of Health under Award Number R03HG010417. The content is solely the responsibility of the author and does not necessarily represent the official views of the National Institutes of Health.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Conflict of Interest Dr. Cwik reports grants from the National Human Genome Research Institute during the conduct of the study; and the author is a member of the external advisory board for the Oregon Health and Science University Center for Embryonic Cell and Gene Therapy. Members of this center were involved in public research discussed in this paper.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with Ethical Standards"
+        },
+        {
+            "text": "Human and Animal Rights and Informed Consent This article does not contain any studies with human or animal subjects performed by any of the authors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with Ethical Standards"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The promise and challenge of therapeutic genome editing",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Doudna",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "578",
+            "issn": "",
+            "pages": "229--265",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Principles of and strategies for germline gene therapy",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Wolf",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mitalipov",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mitalipov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nat Med",
+            "volume": "25",
+            "issn": "",
+            "pages": "890--897",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Refining strategies to translate genome editing to the clinic",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Cornu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mussolino",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Cathomen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nat Med",
+            "volume": "23",
+            "issn": "",
+            "pages": "415--438",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Brave new genome",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lander",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "N Engl J Med",
+            "volume": "373",
+            "issn": "",
+            "pages": "5--8",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Toward responsible human genome editing",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Hynes",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Coller",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Porteus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "JAMA",
+            "volume": "317",
+            "issn": "",
+            "pages": "1829--1859",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "After the storm-a responsible path for genome editing",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Daley",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lovell-Badge",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Steffann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "380",
+            "issn": "",
+            "pages": "897--906",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Genome-edited baby claim provokes international outrage",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Cyranoski",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ledford",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nature",
+            "volume": "563",
+            "issn": "",
+            "pages": "607--615",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "The future of gene editing-toward scientific and social consensus",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Rosenbaum",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "380",
+            "issn": "",
+            "pages": "971--976",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "A tour de force summary of the He Jiankui case and the ethical issues raised by it",
+            "authors": [
+                {
+                    "first": "\u2022\u2022 Greely",
+                    "middle": [],
+                    "last": "Ht",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J law Biosci",
+            "volume": "6",
+            "issn": "",
+            "pages": "111--83",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Ten ways He Jiankui violated ethics",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Krimsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nat Biotechnol",
+            "volume": "37",
+            "issn": "",
+            "pages": "19--20",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "CRISPR's unwanted anniversary",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Doudna",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Science",
+            "volume": "366",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Realigning gene editing with clinical research ethics: what the \"CRISPR twins\" debacle means for Chinese and international research ethics governance",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kleiderman",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Ogbogu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Account Res",
+            "volume": "26",
+            "issn": "",
+            "pages": "257--64",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Carry on editing",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Greenfield",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Brit Med Bull",
+            "volume": "127",
+            "issn": "",
+            "pages": "23--31",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Exceptional overview article with an excellent summary of research through writing of this review",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Niemiec",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Howard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Comput Struct Biotech J",
+            "volume": "18",
+            "issn": "",
+            "pages": "887--96",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Editing policy to fit the genome?",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Isasi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kleiderman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Knoppers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Science",
+            "volume": "351",
+            "issn": "",
+            "pages": "337--346",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "The landscape for human genome editing",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ledford",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nature",
+            "volume": "526",
+            "issn": "",
+            "pages": "310--311",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Convention for the protection of human rights and dignity of the human being with regard to the application of biology and medicine",
+            "authors": [
+                {
+                    "first": "Europe",
+                    "middle": [],
+                    "last": "Council Of",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Statement on NIH funding of research using gene-editing technologies in human embryos",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Collins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "A summary and analysis of major ethics statements on germline gene editing",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Brokowski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "CRISPR J",
+            "volume": "1",
+            "issn": "",
+            "pages": "115--140",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Human genome editing: science, ethics, and governance. Washington: National Academies Press; 2017. A major review of the science and ethics of gene editing",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "\u2022\u2022 Committee On Human Genome",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Editing",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Genome editing and human reproduction: social and ethical Issues",
+            "authors": [],
+            "year": 2018,
+            "venue": "London: Nuffield Council on Bioethics",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Human germline genome editing",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ormond",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Mortlock",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Scholes",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bombard",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Brody",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Faucett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Am J Hum Genet",
+            "volume": "101",
+            "issn": "",
+            "pages": "167--76",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "ASGCT and JSGT joint position statement on human genomic editing",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Friedman",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Jonlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nmp",
+                    "middle": [],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Torbett",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wivel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kaneda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Mol Ther",
+            "volume": "23",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "International Society for Stem Cell Researchers: The ISSCR statement on human germline genome editing",
+            "authors": [],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Accessed 11",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Human germline gene editing: recommendations of ESHG and ESHRE",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "De Wert",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Pennings",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Clarke",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Eichenlaub-Ritter",
+                    "suffix": ""
+                },
+                {
+                    "first": "Van",
+                    "middle": [],
+                    "last": "El",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Forzano",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Hum Reprod Open",
+            "volume": "2018",
+            "issn": "",
+            "pages": "1--5",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/hropen/hox025"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Don't edit the human germ line",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lanphier",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Urnov",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Haecker",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Werner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Smolenski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nature",
+            "volume": "519",
+            "issn": "",
+            "pages": "410--411",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "The case for banning heritable genome editing",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Botkin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Genet Med",
+            "volume": "22",
+            "issn": "",
+            "pages": "487--496",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "A prudent path forward for genomic engineering and germline gene modification",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Baltimore",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Berg",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Botchan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Carroll",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Charo",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Church",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Science",
+            "volume": "348",
+            "issn": "",
+            "pages": "36--44",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Call for a moratorium on germline gene editing by a significant group of ethicists and researchers",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lander",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Baylis",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Charpentier",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Berg",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bourgain",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature",
+            "volume": "567",
+            "issn": "",
+            "pages": "165--173",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Global health ethics: human genome editing",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Project: international commission on the clinical use of human germline genome editing",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Getting serious about the challenge of regulating germline gene therapy",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Caplan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "PLoS Biol",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pbio.3000223"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Heritable genome editing: who speaks for \"future\" children?",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Knoppers",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kleiderman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "CRISPR J",
+            "volume": "2",
+            "issn": "",
+            "pages": "285--92",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "A global observatory for gene editing",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jasanoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hurlbut",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nature",
+            "volume": "555",
+            "issn": "",
+            "pages": "435--442",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Focusing on human rights: a framework for CRISPR germline genome editing ethics and regulation",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Doxzen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Halpern",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Perspect Biol Med",
+            "volume": "63",
+            "issn": "",
+            "pages": "44--53",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Human germline CRISPR-Cas modification: toward a regulatory framework",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Evitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mascharak",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Altman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "American J Bioeth",
+            "volume": "15",
+            "issn": "",
+            "pages": "25--34",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "What to expect when expecting CRISPR baby number four",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Scott",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Selin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Am J Bioeth",
+            "volume": "19",
+            "issn": "",
+            "pages": "7--9",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Shaping the CRISPR gene editing debate: questions about enhancement and germline modification",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Johnston",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Perspect Biol Med",
+            "volume": "63",
+            "issn": "",
+            "pages": "141--54",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "The human gene editing debate",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Evans",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Altered inheritance: CRISPR and the ethics of human germline genome editing",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Baylis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Who goes first? Deaf people and CRISPR germline editing",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Padden",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Humphries",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Perspect Biol Med",
+            "volume": "63",
+            "issn": "",
+            "pages": "54--65",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Moving beyond 'therapy' and 'enhancement' in the ethics of gene editing",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cwik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Camb Q Heathc Eth",
+            "volume": "28",
+            "issn": "",
+            "pages": "695--707",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Correction of a genetic disease by CRISPR-Cas9-mediated gene editing in mouse spermatogonial stem cells",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Cell Res",
+            "volume": "25",
+            "issn": "",
+            "pages": "67--79",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Playing it safe? Precaution, risk, and responsibility in human genome editing",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Perspect Biol Med",
+            "volume": "63",
+            "issn": "",
+            "pages": "111--136",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Revising, correcting, and transferring genes",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cwik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am J Bioeth",
+            "volume": "",
+            "issn": "",
+            "pages": "20--27",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Human genome editing: ask whether, not how",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hurlbut",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature",
+            "volume": "565",
+            "issn": "",
+            "pages": "135--141",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Questioning the proposed translational pathway for germline genome editing",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Baylis",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nat Hum Behav",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Compelling reasons for repairing human germlines",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Church",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "N Engl J Med",
+            "volume": "377",
+            "issn": "",
+            "pages": "1909--1920",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Estimating demand for germline genome editing: an in vitro fertilization clinic perspective",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Viotti",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Victor",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Groob",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Brake",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Zouves",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "CRISPR J",
+            "volume": "2",
+            "issn": "",
+            "pages": "304--319",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Genome editing and assisted reproduction: curing embryos, society or prospective parents? Med Health Care Philos",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Cavaliere",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "21",
+            "issn": "",
+            "pages": "215--240",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "A thorough and philosophically rich analysis of questions about choosing targets for clinical applications of germline gene editing",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "\u2022 Kleiderman",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Ravitsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Knoppers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Med Eth",
+            "volume": "45",
+            "issn": "",
+            "pages": "508--521",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Reproductive CRISPR does not cure disease",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Rulli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Bioeth",
+            "volume": "33",
+            "issn": "",
+            "pages": "1072--82",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Could failure in preimplantation genetic diagnosis justify editing the human embryo genome?",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Steffann",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Jouannet",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Bonnefont",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chneiweiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Frydman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cell Stem Cell",
+            "volume": "22",
+            "issn": "",
+            "pages": "481--483",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Germline genome editing versus preimplantation genetic diagnosis: is there a case in favour of germline interventions?",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ranisch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Bioeth",
+            "volume": "34",
+            "issn": "",
+            "pages": "60--69",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "From clinical trials to clinical practice: practical considerations for gene replacement therapy in SMA type 1",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Al-Zaidy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mendell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Pediatr Neurol",
+            "volume": "100",
+            "issn": "",
+            "pages": "3--11",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Gene therapy as a curative option for beta-thalassemia",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Biffi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "N Engl J Med",
+            "volume": "378",
+            "issn": "",
+            "pages": "1551--1553",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Mosaicism in CRISPR/Cas9-mediated genome editing",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mehravar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shirazi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nazari",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Banan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Dev Biol",
+            "volume": "445",
+            "issn": "",
+            "pages": "156--62",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "The technical risks of human gene editing",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Davies",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Hum Reprod",
+            "volume": "34",
+            "issn": "",
+            "pages": "2104--2115",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Clinical germline genome editing: when will good be good enough?",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "O&apos;neill",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Perspect Biol Med",
+            "volume": "63",
+            "issn": "",
+            "pages": "101--111",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "The impact of mosaic embryos on procreative liberty and procreative responsibility: time to put innovative technology on \"pause",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Takahashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Patrizio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Curr Stem Cell Rep",
+            "volume": "5",
+            "issn": "4",
+            "pages": "125--157",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Correction of a pathogenic gene mutation in human embryos",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Marti-Gutierrez",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nature",
+            "volume": "548",
+            "issn": "",
+            "pages": "413--422",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Repair of double-strand breaks induced by CRISPR-Cas9 leads to large deletions and complex rearrangements",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kosicki",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tomberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bradley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nat Biotechol",
+            "volume": "36",
+            "issn": "",
+            "pages": "765--71",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Inter-homologue repair in fertilized human eggs?",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Egli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Zuccaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kosicki",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Church",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bradley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jasin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nature",
+            "volume": "560",
+            "issn": "",
+            "pages": "5--7",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Disease resistance and the definition of genetic enhancement",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "So",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kleiderman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Tour\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Joly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Front Gen",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fgene.2017.00040"
+                ]
+            }
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Yesterday's child: how gene editing for enhancement will produce obsolescence-and why it matters",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sparrow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Am J Bioeth",
+            "volume": "19",
+            "issn": "",
+            "pages": "6--15",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Is enhancement the price of prevention in human gene editing?",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Juengst",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Henderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Walker",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Conley",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mackay",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Meagher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "CRISPR J",
+            "volume": "1",
+            "issn": "",
+            "pages": "351--355",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Designing ethical trials of germline gene editing",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cwik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "New Engl J Med",
+            "volume": "377",
+            "issn": "",
+            "pages": "1911--1914",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Germline genome editing research: what are gamete donors (not) informed about in consent forms?",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Niemiec",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Howard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "CRISPR J",
+            "volume": "3",
+            "issn": "",
+            "pages": "52--63",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Exceptional treatment of informed consent issues, both in current research and future possible clinical settings",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "\u2022 Jonlin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Stem Cell Rep",
+            "volume": "14",
+            "issn": "",
+            "pages": "530--537",
+            "other_ids": {}
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Time to re-evaluate ART protocols in the light of advances in knowledge about methylation and epigenetics: an opinion paper",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Menezo",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Dale",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Elder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Hum Fertil (Camb)",
+            "volume": "21",
+            "issn": "",
+            "pages": "158--62",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Epigenetics and assisted reproductive technology: a call for investigation",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Niemitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Feinberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Am J Hum Genet",
+            "volume": "74",
+            "issn": "",
+            "pages": "599--609",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "Intergenerational monitoring in clinical trials of germline gene editing",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cwik",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cwik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Eth",
+            "volume": "46",
+            "issn": "",
+            "pages": "183--190",
+            "other_ids": {}
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "Germline modification and policymaking: the relationship between mitochondrial replacement and gene editing",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cussins",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lowthorp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "New Bioeth",
+            "volume": "24",
+            "issn": "",
+            "pages": "74--94",
+            "other_ids": {}
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "Should long-term follow-up post-mitochondrial replacement be left up to physicians, parents, or offspring?",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ishii",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "New Bioeth",
+            "volume": "25",
+            "issn": "",
+            "pages": "318--349",
+            "other_ids": {}
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "Curr Stem Cell Rep",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF78": {
+            "ref_id": "b78",
+            "title": "CRISPR-Cas9 and germline modification: new difficulties in obtaining informed consent",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Smolenski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Am J Bioeth",
+            "volume": "15",
+            "issn": "",
+            "pages": "35--42",
+            "other_ids": {}
+        },
+        "BIBREF79": {
+            "ref_id": "b79",
+            "title": "Precaution and governance of emerging technologies",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kaebnick",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Heitman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Collins",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Delborne",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Landis",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sawyer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Science",
+            "volume": "354",
+            "issn": "",
+            "pages": "710--711",
+            "other_ids": {}
+        },
+        "BIBREF80": {
+            "ref_id": "b80",
+            "title": "Genome editing: bioethics shows the way",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Neuhaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Caplan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS Biol",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pbio.2001934"
+                ]
+            }
+        },
+        "BIBREF81": {
+            "ref_id": "b81",
+            "title": "Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": []
+}

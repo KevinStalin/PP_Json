@@ -1,0 +1,3758 @@
+{
+    "paper_id": "0aa348a9a65b674e629228e25297fae4cba21c31",
+    "metadata": {
+        "title": "The Covid-19 containment effects of public health measures -A spatial difference-in-differences approach",
+        "authors": [
+            {
+                "first": "Reinhold",
+                "middle": [],
+                "last": "Kosfeld",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Timo",
+                "middle": [],
+                "last": "Mitze",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Southern Denmark, RWI and RCEA",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Johannes",
+                "middle": [],
+                "last": "Rode",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Technical University Darmstadt",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Klaus",
+                "middle": [],
+                "last": "W\u00e4lde",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Johannes Gutenberg University Mainz, CESifo and Visiting Research Fellow IZA",
+                    "location": {}
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Since mid-March 2020 the Federal and state governments in Germany agreed on comprehensive public health measures to contain the spread of Covid-19. We study the effects of the policy actions on the progression of the pandemic in the first containment period in spring 2020 before easing of measures have started to work by the end of April. To exploit both the time and spatial dimension in the dissemination of the virus, we conduct a spatial data panel analysis for German NUTS-3 regions. Specifically, we employ a spatial differencein-differences approach to identify the effects of individual public health measures. We find that contact restrictions and closure of schools substantially contributed to flattening the infection curve. Additionally, a strong treatment effect of wearing face masks is established in the few treated regions during the containment phase. No incremental effect is evidenced for closure of establishments and shutdown of shopping malls and other stores. These findings prove to be highly robust to changes in model specification. By contrast, the dampening effect of restaurant closure is sensitive to model variation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The disruptions caused by the Covid-19 pandemic might turn out to be greater than any other event since the Second World War. Governments and authorities around the world therefore have taken drastic measures to slow down the pandemic. Measures include the closing of schools and shops, wearing face masks, travel and contact restrictions and even contact bans. It is no surprise that these measures encounter partially fierce protests by some politicians and parts of the public. It is high time to understand how effective the various measures were in reducing the spread of Covid-19. This is the purpose of this paper.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Evaluating the effectiveness of public health measures is not trivial. When we take the example of Germany, there was initially a strong political consensus that policy measures should be identical across federal states. In fact, apart from some exceptions (see Kleyer et al., 2020, for details) , first measures decided upon on Friday March 13 were introduced across federal states in a relatively uniform matter. Yet, given the federal structure of Germany, some variation exists. The regulations were usually enacted at the level of federal states. For each of the 6 public health measures we are taking into account, we find differences in the timing of implementation of up to one week. Additionally, in a few urban and rural regions within the states, regulations come into force on still different dates.",
+            "cite_spans": [
+                {
+                    "start": 262,
+                    "end": 295,
+                    "text": "Kleyer et al., 2020, for details)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We exploit this variation to identify the effect of the measures on the spread of Covid-19. We start the period of investigation at the beginning of the last week in February, where positive counts are registered in the vast majority of regions. Depending on the specific action, the pre-treatment period lasts between three and four weeks. As there is evidence that tightening effects are stronger than easing impacts (Deb et al. 2020) , the evaluation period terminates at the end of the penultimate week of April before first easing effects become apparent.",
+            "cite_spans": [
+                {
+                    "start": 419,
+                    "end": 436,
+                    "text": "(Deb et al. 2020)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We employ a spatial difference-in-differences (DiD) approach (Delgado and Florax 2015; Chagas, Azoni and Almeida 2016) to identify the effects of public health measures. To exploit both the time and space dimension in the dissemination of SARS-CoV-2, we conduct a spatial panel data analysis for 401 German NUTS-3 regions. A spatialisation of the usual DiD estimator is necessary to avoid biased and inconsistent treatment effects in presence of substantial spatial spillovers (Kolak and Anselin 2020) . Pure spatial regressions fail to establish causal effects. Being relatively new, up to now -to the best of our knowledge -no other Covid-19 studies took advantage of the benefits of the spatial DiD approach.",
+            "cite_spans": [
+                {
+                    "start": 61,
+                    "end": 86,
+                    "text": "(Delgado and Florax 2015;",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 87,
+                    "end": 118,
+                    "text": "Chagas, Azoni and Almeida 2016)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 477,
+                    "end": 501,
+                    "text": "(Kolak and Anselin 2020)",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We use official data on registered Covid-19 counts for the sample period from 24 February to 24 April 2020. Taking account for a pre-treatment period of at least three weeks, this time frame covers the containment phase that ends when first easing measures might become effective. In order to account for regional spillovers in increase of infections and local treatment effects, data analysis is performed in the framework of the spatial Durbin model (SDM) . For the purpose of comparison, we disregard both substantial spatial effects in the baseline model. To check the robustness of identifying causal effects, we also make use of alternative spatial panel data models. Given the temporal and regional variation in their implementation, we analyze the effectiveness of six sets of containment measures.",
+            "cite_spans": [
+                {
+                    "start": 452,
+                    "end": 457,
+                    "text": "(SDM)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The study reveals considerable differences in the potency of implemented public health measures to flatten the pandemic curve in Germany. Contact restrictions have proved to be most effective to dampen the growth of infection rates. Their highly significant incremental impact amounts to nearly 14 percentage points. The treatment effect of 13 \u00bd percentage points of wearing face masks is only based on a few regions treated in the containment phase. In consequence, the impact of the mask duty can be estimated with less precision in our sample settings than that of contact restrictions (see for an alternative study design focusing specifically on the Covid-19 effects of face masks). A highly significant dampening effect of 5 \u00bd percentage point is also found for the closure of schools and daycare facilities. No significant incremental effects are identified for closure of establishments and the shutdown of shopping malls and other stores. These findings are highly robust with respect to various changes in model specification. By contrast, the negative significant impact of restaurant closure on the progress of Covid-19 turns out to be sensitive to model variation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The remainder of the paper is structured as follows. With a special focus on Covid-19 studies, section 2 reviews the literature on impact of non-pharmaceutical interventions to curb infectious diseases. In section 3, public health measures for Covid-19 prevention are outlined and data are described. The spatial differences-in-difference (DiD) approach is introduced in section 4. In section 5, empirical findings on the effectiveness of the measures are presented and discussed. Robustness checks are conducted in section 6. Section 7 concludes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Here we review earlier empirical evidence on the effectiveness of non-pharmaceutical interventions to suppress the spread of Covid-19 in Germany. To approach this issue in a systematic manner against the background of a considerable number of research contributions on Covid-19, we mainly confine our literature review to studies that incorporate an explicit regional dimension and focus on those papers that have already undergone a peer review process. Complementary studies at the aggregate national level, which deal with the question if governmental restrictions to public and private life have managed to \"flatten\" Germany's infection curve during the first wave of the pandemic in spring 2020, can, for instance, be found in Dehning et al. (2020) , Hartl et al. (2020) , Donsimoni et al. (2020a/b) , Glogowsky et al. (2020) , and Wieland (2020a) . These studies mainly conclude that policy interventions, particularly the \"full\" lockdown (including contact bans) implemented on March 23 helped to significantly slow down the spread of Covid-19 -although some studies, such as Wieland (2020a) , find that a decline in the infection dynamics may already have taken place prior to this date, i.e. in early March when large events have been banned.",
+            "cite_spans": [
+                {
+                    "start": 732,
+                    "end": 753,
+                    "text": "Dehning et al. (2020)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 756,
+                    "end": 775,
+                    "text": "Hartl et al. (2020)",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 778,
+                    "end": 804,
+                    "text": "Donsimoni et al. (2020a/b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 807,
+                    "end": 830,
+                    "text": "Glogowsky et al. (2020)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 837,
+                    "end": 852,
+                    "text": "Wieland (2020a)",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 1083,
+                    "end": 1098,
+                    "text": "Wieland (2020a)",
+                    "ref_id": "BIBREF67"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Literature Review"
+        },
+        {
+            "text": "A potential limitation of aggregate studies tracking the development of the German-wide infection curve is that these studies typically use an indirect identification approach, based on tests for structural breaks in the data over time which is then associated with a certain policy event, and/or group policy interventions into few or even a singular policy \"lockdown\" shock(s). This limits the interpretation in terms of the underlying causal mechanisms and prevents the studies from differentiating between the specific effects of alternative of policy measures implemented over time. The international comparison study of Flaxman et al. (2020) tries to account for the latter by estimating disaggregate effects for different types of non-pharmaceutical interventions (including full lockdown, ban on public event, school closure, self-isolation and social distancing) on Covid-19 reproduction and death rates in European countries (including Germany). Similar to the above-mentioned single country studies for Germany, this cross-country approach finds that large-scale lockdowns of populations have an identifiable large effect on disease transmission, i.e. reduce Covid-19 infection rates by approx. 81%. However, with regard to the attempt of disentangling the effects of different policy measures, the authors have to conclude that the close spacing of interventions in time does not allow to properly identify the individual effects of other interventions than large-scale lockdowns.",
+            "cite_spans": [
+                {
+                    "start": 626,
+                    "end": 647,
+                    "text": "Flaxman et al. (2020)",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Literature Review"
+        },
+        {
+            "text": "From an empirical identification perspective, the estimation results reported in Flaxman et al. (2020) provide an argument for using regional rather than national data when assessing the effectiveness of non-pharmaceutical interventions in the context of Germany. Given the federal organization of German health policy with state-level governments in the 16 federal states (Bundesl\u00e4nder) being in charge for the design and implementing of public health interventions, this specific institutional setup allows the researcher to exploit space-time discontinuities in the implementation of non-pharmaceutical, which may overcome the above-mentioned identification problems reported in Flaxman et al. (2020) . Besides, the use of disaggregate data below the national level can account for spatial heterogeneities in regional infection dynamics and consider spatial transmission processes across regions as an important mechanism of disease spread when assessing the effectiveness of public interventions on Covid-19.",
+            "cite_spans": [
+                {
+                    "start": 81,
+                    "end": 102,
+                    "text": "Flaxman et al. (2020)",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 682,
+                    "end": 703,
+                    "text": "Flaxman et al. (2020)",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Literature Review"
+        },
+        {
+            "text": "There are some earlier papers that have already exploited the regional dimension when modelling Covid-19 infections in Germany. However, only very few have placed a distinct focus on studying the effectiveness of policy interventions by systematically exploiting space-time dis-continuities therein. The studies that are most closely related to our approach taken here are Berlemann and Haustein (2020) , Wieland (2020b) and Kergassner et al. (2020) . All three studies encompass in the spatio-temporal dynamics of the Covid-19 epidemic in Germanyboth in terms of data and estimation. Berlemann and Haustein (2020) use data at the county level (NUTS3 regions) to estimate an epidemic-endemic model for regional counts of newly infected persons. Their empirical model chiefly builds on an autoregressive process of disease dynamics augmented by spatial lag terms (comprising the epidemic part of the model) together with a deterministic time trend (endemic part) and random regional effects. The authors use this model to evaluate the effectiveness of three waves of containment measures, namely 1. ban of mass events, 2. closure of educational institutions, leisure facilities and retail facilities together with and international traveling restrictions, 3. Social distancing on the spread of Covid-19 within and across German counties.",
+            "cite_spans": [
+                {
+                    "start": 373,
+                    "end": 402,
+                    "text": "Berlemann and Haustein (2020)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 405,
+                    "end": 420,
+                    "text": "Wieland (2020b)",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 425,
+                    "end": 449,
+                    "text": "Kergassner et al. (2020)",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 585,
+                    "end": 614,
+                    "text": "Berlemann and Haustein (2020)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Literature Review"
+        },
+        {
+            "text": "The estimation results reported in Berlemann and Haustein indicate that only the first wave of containment measures clearly contributed to flatten the curve of new infections; however, the authors acknowledge that interpretations need to be done only carefully as in their empirical setup the estimated effect of the adopted measures is contingent on which measures were adopted before. Although Berlemann and Haustein do not explicitly consider space-time discontinuities in the implementation of policy interventions across federal states, their analysis of regional responses to a common intervention shock further indicates that a one size-fits-all policy is not optimal from a regional perspective, i.e. implemented policy measures helped to slowdown the infection dynamics in those federal states that were most severely affected by Covid-19 but did note change infection trajectories in other states. Similar to Berlemann and Haustein, the results reported in Wieland (2020b) provide mixed evidence for a regional trend change in infections around the timing of non-pharmaceutical interventions. As the author points out, in nearly two thirds of German counties the flattening of the infection curve was found to occur before the full lockdown came into force on March 23 and one in eight counties even experienced a decline of infections even before the closures of schools, child day care facilities and retail stores. Kergassner et al. (2020) model the regional infection dynamics in Germany considering the three waves of containment measures as studied by Berlemann and Haustein and, in addition, account for federal-state-specific starting dates of these measures. The results from a coupled SIQRD epidemic and mobility network model show that infection rates during the time period considered show a significant degree of heterogeneity across federal states and, accounting for this spatial heterogeneity, significantly improves model predictions at the federal state and county level. Kergassner et al. use the spatially resolved model to infer the effect of infections stemming from selected seeds such as 1) Heinsberg in Germany during the Carnival season and 2) returning travelers from Ischgl in Austria. Based on their empirical findings the authors conclude that refraining from traveling and large events are two key interventions that can effectively attenuate the spreading of Covid-19 at the subnational level. Felbermayr et al. (2020) similarly report that the road distance to Ischgl is an important predictor of infection cases across German counties. When assessing the superspreader effects over time, Felbermayr et al. find that restrictions in mobility after March 23 have helped contain the virus imported from Ischgl in those counties where it first arrived.",
+            "cite_spans": [
+                {
+                    "start": 1428,
+                    "end": 1452,
+                    "text": "Kergassner et al. (2020)",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 2000,
+                    "end": 2017,
+                    "text": "Kergassner et al.",
+                    "ref_id": null
+                },
+                {
+                    "start": 2436,
+                    "end": 2460,
+                    "text": "Felbermayr et al. (2020)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 2632,
+                    "end": 2649,
+                    "text": "Felbermayr et al.",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Literature Review"
+        },
+        {
+            "text": "While the above approaches broadly account for the role of spatial transmission, no detailed account is given on the specific transmission mechanisms. This is done in Bluhm and Pinkovskiy (2020) and , who investigate the role of commuting flows across regions as a determinant for the regional evolution of Covid-19 cases. Blum and Pinkovskiy particularly focus on analysing discontinuities in Covid-19 cases along the West-East internal German border. Starting from the hypothesis that the observed macro-regional heterogeneities between West and East Germany may be driven by different vaccination policies during the Cold War era (especially linked to the BCG vaccine against tuberculosis), in the course of their empirical investigation the authors do not find empirical support for this BCG hypothesis but show that commuting patterns and regional demographic structures are significant factors explaining regional differences in Covid-19 cases and deaths per capita.",
+            "cite_spans": [
+                {
+                    "start": 167,
+                    "end": 194,
+                    "text": "Bluhm and Pinkovskiy (2020)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Literature Review"
+        },
+        {
+            "text": "A significant propagation effect of commuting to work is also found in when employing a spatial econometric model to model the spatio-temporal dynamics of Covid-19 cases at the county level. The authors further find that this commuting channel of disease transmission breaks down after the imposition of professional and social contact constraints during the German lockdown period after March 23. Another route is taken in Fritz and Kauermann (2020) , who study the role of mobility and social connectivity derived from Facebook activities on the spatio-temporal dynamics of Covid-19 cases at the county level in Germany. Fritz and Kauermann find evidence for a significant correlation between reduced social activity and lower infection rates and that the extent of social distancing has an overall negative effect on the incidence of infections.",
+            "cite_spans": [
+                {
+                    "start": 424,
+                    "end": 450,
+                    "text": "Fritz and Kauermann (2020)",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Literature Review"
+        },
+        {
+            "text": "Finally, Huber and Langen (2020) study the effect of public health measures on cumulative Covid-related hospitalization and death rates in Germany and Switzerland. For effect identification, the study exploits the fact that the epidemic was more advanced in some regions than in others when certain lockdown measures came into force. This difference is used to define alternative treatment groups based on the days between the county-specific start of the epidemic and the lockdown measured through retail closures between March 17 and 20, which are grouped into an early, intermediate and late intervention group. The results indicate that regions in the late intervention group, i.e. those regions that have experienced a longer temporal lag between the start of the local infection and the German-wide lockdown, indeed come with higher death rates. Huber and Langen attribute the estimated effect to federally imposed contact restriction but find no additional effect for curfews introduced in some federal states.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Literature Review"
+        },
+        {
+            "text": "One particular strength of the study of Huber and Langen is the combination of multiple data datasets and estimation routines, which allows to assess the robustness of the estimated effects. For the sample of German regions, Huber and Langen do so by applying both simple OLS and doubly robust estimation to account for the endogeneity of the treatment. The authors also control for county-specific characteristics and state-specific policy measures entering into force prior to the general lockdown. However, a limitation is that regressions are only run in a cross-sectional setup and that spatial effects are not considered. We will explicitly consider . CC-BY-NC-ND 4.0 International license It is made available under a perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Literature Review"
+        },
+        {
+            "text": "is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Literature Review"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10.1101 https://doi.org/10. /2020 both of these limitations in the estimation of spatial difference-in-difference models to comprehensively assess the effectiveness of non-pharmaceutical interventions in Germany.",
+            "cite_spans": [
+                {
+                    "start": 50,
+                    "end": 70,
+                    "text": "December 16, 2020. ;",
+                    "ref_id": null
+                },
+                {
+                    "start": 71,
+                    "end": 94,
+                    "text": "https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 95,
+                    "end": 120,
+                    "text": "https://doi.org/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Literature Review"
+        },
+        {
+            "text": "There are 16 federal states (NUTS-1 regions) and 401 NUTS-3 districts in Germany. In Table 4 of Appendix A, we quote the number NUTS-3 regions (districts) in each federal state.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 85,
+                    "end": 92,
+                    "text": "Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Containment Measures and Data"
+        },
+        {
+            "text": "We make use of six categories of containment measures. In Table 4 of Appendix A, we show the dates of their implementation. In most cases, the containment measures were put into force at the federal state level. If this is the case, the measure is binding for all NUTS-3 regions within the corresponding federal state. We did our best to check for differing implementation dates in specific NUTS-3 regions. If we found differences, we account for them and state them in the following.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 58,
+                    "end": 65,
+                    "text": "Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Containment Measures"
+        },
+        {
+            "text": "Establishment closure. This containment measure refers to the closure of public and private establishments including museums, theaters, cinemas, swimming pools, fitness studios, zoological gardens, public parks and playgrounds. We use the differences in the day of implementation in federal states to ascertain treatment effects of this measure. Berlin and Schleswig Holstein were the first to close establishments on March 15. For a period of one day, our treatment group includes 16 districts. Hamburg and North Rhine-Westphalia followed on March 16. For another one-day period, our treatment group consists of 70 districts in total. Brandenburg, Saarland and Saxony were last and closed establishments on March 19. The remaining states implemented the containment measure on March 17 or 18.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Containment Measures"
+        },
+        {
+            "text": "School closure. This containment measure also refers to other educational institutions (e.g. universities) and daycare facilities (kindergartens). Again, we exploit that federal states did not implement the containment measure at the same time. Bavaria, Bremen, Hamburg, Mecklenburg-West Pomerania, Rhineland-Palatinate, Saxony-Anhalt and Schleswig-Holstein closed schools on March 16. The treatment group includes 296 districts for one day. Baden-Wurttemberg, Berlin and Thuringia followed on March 17. For another day, the treatment group consists of 364 districts in total. Brandenburg, Saarland and Saxony were last and closed schools on March 18.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Containment Measures"
+        },
+        {
+            "text": "Shopping mall and retail store closure. According to the regulations on business operations, shopping malls and further retail stores (excluding pharmacies, building centers drug-and food stores) had to be closed. The shutdown also applies to service activities like hairdressers, cleaners and launderettes. Shopping malls and other stores were closed first in Hamburg and Lower Saxony on March 17. For one day, 46 districts are included in the treatment group. is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Containment Measures"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10. 1101 /2020 North Rhine-Westphalia waited until March 23. Saxony-Anhalt was last and closed restaurants on March 25.",
+            "cite_spans": [
+                {
+                    "start": 91,
+                    "end": 95,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 96,
+                    "end": 101,
+                    "text": "/2020",
+                    "ref_id": "BIBREF60"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Containment Measures"
+        },
+        {
+            "text": "Contact restrictions. We estimate treatment effects from contact restrictions by exploiting the early implementation of this containment measure in two states. While Bavaria and the Saarland put the measure into force on March 21, the Federation-State Agreement for all German states was announced on the evening of March 22. Thus, for a short period of a weekend the 102 districts of Bavaria and Saarland belong to the treatment group, whereas the 300 districts of all other German states form the control group. While in most German states the regulation on contact restrictions came into force in accordance to the Federation-L\u00e4nder Agreement (Bund-L\u00e4nder-Vereinbarung) on March 23, it was officially enforced on March 24 in Rhineland-Palatinate and on March 25 in Thuringia and Saxony-Anhalt.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Containment Measures"
+        },
+        {
+            "text": "Mask duty. Saxony was first federal state to make face masks mandatory (in public transport and sales shops) on April 20. Saxony-Anhalt followed with its 14 districts two days later and Thuringia 4 days later with another 23 districts. The remaining states (but Schleswig-Holstein) made face masks mandatory on April 27. Schleswig-Holstein implemented the obligation to wear face masks on April 29. Face masks became mandatory early on in some NUTS-3 districts: Jena (Thuringia) was first on April 6, Nordhausen (Thuringia) followed on April 14, Landkreis Rottweil (Baden Wurttemberg) on April 17, and Main-Kinzig-Kreis (Hesse) and Wolfsburg (Lower Saxony) on April 20. In consequence, our treatment group consists of one district between April 6 and April 13. For the following three days, it includes two districts, and for another three days, three districts. For April 20 and 21, we have 18 districts in our control group. For April 22 and 23, there are 32 districts in the treatment group. For April 24, we have 53 districts in the treatment group.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Containment Measures"
+        },
+        {
+            "text": "The introduction of these groups of containment measures thus took place over a time interval between March 15 to April 29. For a convincing analysis, we need a sufficiently long pre-treatment period. That is why, our period of analysis starts three weeks before the first implementation of a containment measure on March 15. Because of expected asymmetries (Deb et al. 2020) , we have to assure that there is no relevant overlap between the implementation and easing of containment measures during our investigation period. The first easing measure has been introduced on April 20. On that day, Brandenburg re-opened establishments and all federal states (but Bavaria) allowed shopping malls and other stores to re-open (under certain restrictions). report a median delay of 10.5 days (and 5.7 days for the 10th percentile) until a change in a containment measure can be expected to be visible in the reported Covid-19 cases in Germany. We are cautious and stick to the 10th percentile and end our analysis on April 24.",
+            "cite_spans": [
+                {
+                    "start": 358,
+                    "end": 375,
+                    "text": "(Deb et al. 2020)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Containment Measures"
+        },
+        {
+            "text": "We employ the official German regional statistics on reported Covid-19 cases from the Robert Koch Institute (RKI, 2020a). We build a balanced panel for 401 NUTS-3 districts and 61 days spanning the period from February 24 to April 24, 2020 (24,461 observations). Figure 1 illustrates the spatial distribution of cumulative reported Covid-19 cases at the beginning, in the mid and at the end of our period of analysis. On February 24, there were only 13 NUTS-3 regions with one or more reported cases. With four reported cases, Landkreis Traunstein was the district with most cases. In the following month, we observe a large increase. On March 24, ten districts had more than 400 cumulative cases: Hamburg had most and reported 1617, Munich followed with 1571 and Berlin was third with 1501. At the same time, 91 districts had . CC-BY-NC-ND 4.0 International license It is made available under a perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 263,
+                    "end": 271,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Data"
+        },
+        {
+            "text": "is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10.1101/2020.12.15.20248173 doi: medRxiv preprint less than 25 cases. Another increase followed. At the end of the investigation period, we see only in nine NUTS-3 regions less than 25 cumulative reported cases. Most of the districts with a low number lie in the north or east of Germany. Again, the largest cities reported the highest number of cumulative cases: Berlin reported 5600, Munich 5464 and Hamburg 4705 cases. We wish to establish impacts of the containment measures on the growth of the pandemic curve. To account for varying sizes of NUTS 3 regions, we normalize the number of daily Covid-19 cases by population of each district. The normalized cumulative cases are used to calculate the logarithmic cumulative incidence rates for district at day :",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data"
+        },
+        {
+            "text": "log Cumulative incidence rate , log Cumulative cases , 1 Population r \u2022 100,000 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data"
+        },
+        {
+            "text": "The cumulative incidence growth rate is formed as the difference of temporally consecutive values of the logarithms of cumulative Covid-19 incidence rates:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data"
+        },
+        {
+            "text": "\uf044 log Cumulative incidence rate , log Cumulative incidence rate , log Cumulative incidence rate , .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data"
+        },
+        {
+            "text": "a) As of February 24, 2020 N b) As of March 24, 2020 c) As of April 24, 2020",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data"
+        },
+        {
+            "text": "Cumulative reported Covid-19 cases 0 to 1 1 to 100 100 to 200 200 to 400 400 to 800 800 to 1,600 1,600 to 10,000",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data"
+        },
+        {
+            "text": "is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10.1101/2020.12.15.20248173 doi: medRxiv preprint Summary statistics of Covid-19 variables and containment measures are reported in Table 1 . German authorities (RKI, 2020a) measure the number of reported infections by day of reporting and by day of appearance of first symptoms. Because around one third of the observations lack accurate information on day of first symptoms, we use the day of reporting in our study. In Appendix B, we discuss the advantages and disadvantages of this approach in detail. The containment measures provide information on their length of implementation during the period of investigation.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 219,
+                    "end": 226,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Data"
+        },
+        {
+            "text": "In assessing the effectiveness of policy measures, their impacts are often established from the differences between the treatment and control group after and before an action (Angrist and Pischke 2009, p. 169-174) . When measures are adopted at different points in time, policy impacts can not only be exploited from variations between different entities at the same time but as well as from temporal changes of the variable of interest due to group changes of entities (Goodman-Bacon 2018). Public health measures to curb the spread of Covid-19 have been implemented staggered in time. Difference-in-difference (DiD) approaches can be founded on a panel model approach in order to analyze incremental treatment effects of static and dynamic type (Wooldridge 2010, p. 968-975) .",
+            "cite_spans": [
+                {
+                    "start": 175,
+                    "end": 213,
+                    "text": "(Angrist and Pischke 2009, p. 169-174)",
+                    "ref_id": null
+                },
+                {
+                    "start": 747,
+                    "end": 776,
+                    "text": "(Wooldridge 2010, p. 968-975)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "Standard DiD estimators presuppose that a treatment of a unit does not affect the outcome of another unit. This observation rule is implied by the stable unit treatment value (SUTVA)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10. 1101 /2020 assumption that excludes any kind of spillover effects from treated units (Angrist, Imbens and Rubin 1996; Wooldridge 2010, 509) . The SUTVA assumption is clearly violated when people interact with one another across regional borders. As Covid-19 has spread across countries and regions, effective actions in one region are expected to exert dampening effects in surrounding areas. As infection spillovers are not restricted to local surroundings, we have equally to account of global spillovers to identify causal effects of the public health measures. This demands a spatialisation of the DiD approach in establishing treatment effects from panel data models with interacting regions.",
+            "cite_spans": [
+                {
+                    "start": 91,
+                    "end": 95,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 96,
+                    "end": 101,
+                    "text": "/2020",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 176,
+                    "end": 208,
+                    "text": "(Angrist, Imbens and Rubin 1996;",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 209,
+                    "end": 230,
+                    "text": "Wooldridge 2010, 509)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "In view of the different sizes of regions, we make use of incidence rates instead of the registered numbers of infections. Specifically, we utilize the logarithmic differences of cumulative infections rates, rt cir \uf044 , as the dependent variable of the panel data models. The subscript r\uf0ce {r=1,2,\u2026,n} is the region index and t\uf0ce{1,2,\u2026,T} the day number. In order to establish the causal effects of K public health measures, we define K intervention variables",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "that take the value 1 if action k is enforced in region r at day t. Otherwise, the variable k rt D takes the value 0. In the case of regional interaction, particularly due to commuter flows within travel-to-work regions, neighbouring districts will as well be affected by the policy actions. Conversely, infection growth in a region will be impacted by the introduction of effective containment measures in its local surroundings. In such a case, a spatial lag",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "with w rs as elements of the nxn spatial weights matrix W = [ w rs ] nxn has to be included in the panel model.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "The spatial weights matrix provides an operationalisation of connectivity of regions in space. The can be accomplished by using contiguity-based or distance-based weights (Anselin and Bera 1998, 243; Arbia 2006, 37-38) . For the application of the contiguity approach 2 , we define the elements of a binary weights matrix W* by",
+            "cite_spans": [
+                {
+                    "start": 171,
+                    "end": 199,
+                    "text": "(Anselin and Bera 1998, 243;",
+                    "ref_id": null
+                },
+                {
+                    "start": 200,
+                    "end": 218,
+                    "text": "Arbia 2006, 37-38)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "The spatial weights * rs w are 0 for r=s and non-adjacent regions. With row-standardised weights, \uf0e5 \uf03d \uf03d n 1 l * rl * rs rs w / w w , the spatial lag ) SL(D k rt gives the share of treated areas with regard to policy action k in the surrounding of region r at day t.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "As is well known from the usual DiD approach, the parallel trend assumption must be met for a valid identification of treatment effects. This assumption presupposes homogeneity of infection dynamics across regions in the pre-treatment period. In the presence of heterogenous trajectories 3 , we accommodate trend differentials by including region-specific trends t \u03b2 r \uf0d7 in the panel model (Angrist and Pischke 2015; Jaeger, Joyce and Kaestner 2018; Deb et al. 2020) . Controlling for region fixed effects \uf061 i , time fixed effects \uf064 t , and daily 2 We use a distance-based weights matrix in robustness analysis (sect. 6). 3 Development trends of infection cases vary considerably across German (cf. Donsimoni et al. 2020) . is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [
+                {
+                    "start": 390,
+                    "end": 416,
+                    "text": "(Angrist and Pischke 2015;",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 417,
+                    "end": 449,
+                    "text": "Jaeger, Joyce and Kaestner 2018;",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 450,
+                    "end": 466,
+                    "text": "Deb et al. 2020)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 699,
+                    "end": 721,
+                    "text": "Donsimoni et al. 2020)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10.1101/2020.12.15.20248173 doi: medRxiv preprint seasonalities (day j ) 4 , the panel data model underlying the localised spatial DiD approach is given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "In the panel data model (1)-(2), the focus is directed on the response coefficients \uf067 k and \uf071 k of policy variables k \u03c4 t r, D \uf02d and their spatial lag ) SL(D k \u03c4 t r, \uf02d , respectively. In view of an incubation period and a reporting delay (Linton et al., 2020; Lauer et al., 2020; , the treatment variables enter the model with a temporal lag of \u03c4 days. As the time index t refers to days, no observable time-varying regional traits are available as explanatory variables. They are captured by a spatially autocorrelated error process, where \uf0e5 \uf0d7 \uf03d \uf03d n 1 s st rs rt u w ) SL(u is the spatial lag in the disturbances u rt . \uf072 is the spatially autoregressive parameter of the error process. Time-constant variables like regional shares of young and elderly people, skilled workers and female, that are expected to affect the risk of infection, are captured by regional fixed effects.",
+            "cite_spans": [
+                {
+                    "start": 239,
+                    "end": 260,
+                    "text": "(Linton et al., 2020;",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 261,
+                    "end": 280,
+                    "text": "Lauer et al., 2020;",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "We adopt a spatial error process from the start to prevent a potential omitted variable bias in absence of additional time-varying regressors at the level of daily data. Therefore, not the disturbances u rt but the innovations rt \u03bd are assumed to be independently identically normally In this case, the SDEM coincides with SLX panel data model (Vega and Elhorst 2015) .",
+            "cite_spans": [
+                {
+                    "start": 344,
+                    "end": 367,
+                    "text": "(Vega and Elhorst 2015)",
+                    "ref_id": "BIBREF66"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "To identify treatment effects for spatial data, Delgado and Florax (2015) develop a two-period difference-in-differences (DiD) model with local interregional interaction. Chagas, Azzoni and Almeida (2016) generalize the spatial DiD approach with respect to the type of interactions and number of time periods. They show that the average treatment effect on the treated (ATET) in an SLX-type model depends on the response coefficients of the treatment variable and its spatial lag as well as the average proportion of treated neighbours. As the error structure does not add an additional element, the ATET in the superordinate SDEM model is identically structured:",
+            "cite_spans": [
+                {
+                    "start": 48,
+                    "end": 73,
+                    "text": "Delgado and Florax (2015)",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": ". 5 4 Daily seasonalities occur as troughs at the weekend and peaks in the middle of the weak in infection cases (RKI 2020b). 5 Delgado and Florax (2015) introduce a spillover parameter \uf072 that implies \uf071 k = \uf072\uf0d7\uf067 k . This relation can be helpful for estimating the combined effect in case of multicollinearity.",
+            "cite_spans": [
+                {
+                    "start": 128,
+                    "end": 153,
+                    "text": "Delgado and Florax (2015)",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10. 1101 /2020 The treatment effect in (3) ",
+            "cite_spans": [
+                {
+                    "start": 91,
+                    "end": 95,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 96,
+                    "end": 101,
+                    "text": "/2020",
+                    "ref_id": "BIBREF60"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "Equation (4) is known as the spatial Durbin model (SDM) (LeSage and Pace 2009, 32-36; Ehlhorst 2014, 37-38) . If the disturbances u rt are generated by the spatial autocorrelation process (2), equation (4) would represent the general nested spatial (GNS) model (Elhorst 2014, 37-38) . However, because of its overparameterization and weak identifiability (Elhorst 2014, 32-39; Floch Le Saout 2018, 154-155) , the GNS model is considered of minor empirical relevance. 7 The spatial lag ) cir SL( rt \uf044 reflects the average log difference of cumulative infections per 100,000 inhabitants in the bordering areas of region r. Its regression coefficient \uf06c is the spatial autoregressive parameter. While the within estimator is consistent with fixed T for n\uf0ae\uf0a5 in the SLX model (1) (cf. Pesaran 2015, 640-644) , this property gets lost in the spatial Durbin model in virtue of the presence of the endogenous spatial lag. To eliminate the simultaneity bias of the fixed effects (FE) estimator, the spatial panel data model (4) is estimated by maximum likelihood techniques (Lee and Yu, 2010) .",
+            "cite_spans": [
+                {
+                    "start": 56,
+                    "end": 85,
+                    "text": "(LeSage and Pace 2009, 32-36;",
+                    "ref_id": null
+                },
+                {
+                    "start": 86,
+                    "end": 107,
+                    "text": "Ehlhorst 2014, 37-38)",
+                    "ref_id": null
+                },
+                {
+                    "start": 261,
+                    "end": 282,
+                    "text": "(Elhorst 2014, 37-38)",
+                    "ref_id": null
+                },
+                {
+                    "start": 355,
+                    "end": 376,
+                    "text": "(Elhorst 2014, 32-39;",
+                    "ref_id": null
+                },
+                {
+                    "start": 377,
+                    "end": 406,
+                    "text": "Floch Le Saout 2018, 154-155)",
+                    "ref_id": null
+                },
+                {
+                    "start": 779,
+                    "end": 801,
+                    "text": "Pesaran 2015, 640-644)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1064,
+                    "end": 1082,
+                    "text": "(Lee and Yu, 2010)",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "Having accounted for the SUTVA and parallel trends assumption in the modelling approach for identifying causal effects of the public health measures, light needs to be shed on the issue of exogeneity. The use of the policy variables with temporal lags itself does not resolve the problem. Reverse causation will be present when local authorities introduce the measures, for instance, in response to increasing regional infection rates (Wooldridge 2010, p. 321) .",
+            "cite_spans": [
+                {
+                    "start": 435,
+                    "end": 460,
+                    "text": "(Wooldridge 2010, p. 321)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "Here, however, actions are taken at a higher regional level in the framework of the Federal-State-Agreement (BLV). The regulations are then set in force by the states partially staggered 6 When the common factor assumption \uf071 k = -\uf06c\uf0d7\uf062 k holds for all k, endogenous spatial spillovers can be captured by the SEM model (cf. LeSage and Pace 2009, 164-165) . 7 The GNS model is also termed Manski model (Floch Le Saout 2018, 169) . We use the GNS model (Manski model) for robustness checking. is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [
+                {
+                    "start": 321,
+                    "end": 351,
+                    "text": "LeSage and Pace 2009, 164-165)",
+                    "ref_id": null
+                },
+                {
+                    "start": 398,
+                    "end": 424,
+                    "text": "(Floch Le Saout 2018, 169)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10.1101/2020.12.15.20248173 doi: medRxiv preprint in time. 8 The implementation of public health measures at a subordinate level backs the validity of the exogeneity assumption (Carpenter and Dobkin 2011; Angrist and Pischke 2015) .",
+            "cite_spans": [
+                {
+                    "start": 146,
+                    "end": 147,
+                    "text": "8",
+                    "ref_id": null
+                },
+                {
+                    "start": 264,
+                    "end": 291,
+                    "text": "(Carpenter and Dobkin 2011;",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 292,
+                    "end": 317,
+                    "text": "Angrist and Pischke 2015)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "In the presence of endogenous spillovers, the treatment effects are influenced by feedback effects that are not reflected in the response coefficients. Using matrix representation it can be shown that their influence is captured by the inverse matrix \uf028 \uf029 1 \u03bb \uf02d \uf0d7 \uf02d W I with I as an nxn identity matrix. In the spatial Durbin model (4) ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "allows a decomposition of the impacts on first-order neighbours (W), second-order neighbours (W 2 ), ..., qth-order neighbours (W q ) after which the terms on the right-hand side with 1 \u03bb \uf03c become virtually zero.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "By employing (5) at each point in time, different average impact measures can easily be computed. For a row-standardised weights matrix, the average total impact amounts to \u03bb) -\u03b8)/(1 (\u03b3 \uf02b . In accordance with (3), we can account for the share of treated neighbouring regions, _________ k ) D ( SL , to obtain the average treatment effect on the treated (ATET) for policy action k in the spatial Durbin model (4):",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "As regions are included into the treatment successively, ATET(SDM) k eventually amounts to \u03bb) -)/(1 \u03b8 (\u03b3 k k \uf02b .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "In estimating the spatial panel data models (1)/(2), (4) and (4)/(2), we have to make allowance for the fact that multicollinearity is provoked by a high correlation between the policy variable k rt D and its spatial lag ) SL(D k rt . While the combined effect of the own and adjacent regions, k k \u03b8 \u03b3 \uf02b , can be precisely estimated, its partitioning becomes more and more arbitrary with increasing strength of correlation. This is particularly the case here where the panel data analysis covers a large number of points in time at which the regions are consecutively included into the intervention. Hence, first we estimate the combined policy effects k k \u03b8 \u03b3 \uf02b in the SDEM and SDM model. In the latter model, we thereafter identify the total treatment effects (7) by impact analysis. Finally, a spatial partitioning of the total impacts with respect 8 Only in exceptional cases an early adoption of a measure took place in single regions. In these exceptions, an additional control is given by the inclusion of region-specific time trends (Kolak and Anselin 2020) . is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [
+                {
+                    "start": 1041,
+                    "end": 1065,
+                    "text": "(Kolak and Anselin 2020)",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10. 1101 /2020 to their feedback effects is accomplished. Significance testing is performed by Monte Carlo simulation (Piras 2013).",
+            "cite_spans": [
+                {
+                    "start": 91,
+                    "end": 95,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 96,
+                    "end": 101,
+                    "text": "/2020",
+                    "ref_id": "BIBREF60"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Econometric Modelling"
+        },
+        {
+            "text": "In adopting the spatial difference-in-difference approach, causal effects of public health measures to contain the spread of Covid-19 are worked out. According to our quasiexperimental design, we aim to identify incremental impacts of the different categories of containment measures on the spread of Covid-19 until late April. In order to control for the pre-treatment development, the sample period starts on February 24, 2020. Prior to that time, only occasional infection cases were reported to local public health authorities. In order to avoid overlapping with easing measures, the period of investigation ends on April 24, 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Empirical Evidence"
+        },
+        {
+            "text": "All spatial panel data models account for region and time fixed effects. Region fixed effects capture typical regional characteristics like the shares of young and old people, skilled workers and females that can be viewed to be largely constant in a short period of two months. At the same time, they are well-suited to absorb singular events such as temporary infection hot spots in areas like Heinsberg, Tirschenreuth, Greiz, Coesfeld and Rosenheim. The Space-Time Moran's I (STMI) of 0.3223 (p<0.001) reveals that infection rates are highly significant spatially autocorrelated across German NUTS-3 regions. The presence of spatial spillovers in the spreading of Covid-19 is a breach of the Stable Unit Treatment Value Assumption (SUTVA) on which the usual DiD approach is based. Thus, we make use of the spatial DiD approach that explicitly allows for interactions between regional populations in estimating impacts of the containment measures. Furthermore, the parallel trend assumption is addressed by the including region-specific trends. With only some exceptions, the estimated trend coefficients are statistically significant at least at the 5% level.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Empirical Evidence"
+        },
+        {
+            "text": "Because of peculiarities in reporting behavior over the week, the day of the week effect is included in spatial regressions. Strong differences between days illustrate the necessity to adjust for daily seasonality (Figure 8 , Appendix C). Highly significant deviations from the reference day (Sunday) are observed for all days. Particularly because of limited testing on weekends, figures begin to rise at the start of the week and fall after a peak in the middle of the week on Thursday. The maximum difference amounts to almost 5 percentage points.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 214,
+                    "end": 223,
+                    "text": "(Figure 8",
+                    "ref_id": "FIGREF18"
+                }
+            ],
+            "section": "Empirical Evidence"
+        },
+        {
+            "text": "The econometric estimation of spatial panel data models is the first step in identifying causal effects of the spatial DiD approach. To account for incubation time and reporting delay, the policy dummies are introduced into the model with a one-week lag. 9 In this step, the SEM and SDEM models are estimated as spatial baseline models to check robustness and to test the common factor hypothesis. The maximum likelihood (ML) estimates of the response coefficients and the spatial autoregressive parameter of the SDM model are used in a second step to establish the feedback and total effects by impact analysis. Because the implementation of a measure is closely staggered in time across the regions, the treatment variable tends to be highly correlated with its spatial lag. While the combined effect of each policy action is estimated correctly, the attribution of influences from the own and 9 As the 25% percentile of total delay coincides with the selected lag, infection effects are expected to be visible in the registered cases after one week (Appendix E, Mitze et al. 2020, Appendix E) . In sect. 6 we examine the sensitivity of treatment effects with respect to alternative lag selections. is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [
+                {
+                    "start": 1065,
+                    "end": 1095,
+                    "text": "Mitze et al. 2020, Appendix E)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Empirical Evidence"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10.1101 https://doi.org/10. /2020 neighbouring regions becomes arbitrary. We therefore focus on the combined effect that is uniformly reported for all estimated panel models. In accordance to the STMI test, spatial spillovers show up in spatial autoregressive process of infection growth in all models. Although the spatial autoregressive has a different interpretation in the SEM and SDEM model, its estimate is in all panel data models close to 0.08 (Table 2 ). The relatively low value presumably reflects restrictions in spatial interaction like job commuting and travelling across regions during the period of investigation. However, the estimates are highly significant. The necessitiy to incorporate spatial effects is strongly corroborated by Pesaran's local CD test and Breusch and Pagan's local scaled LM test.",
+            "cite_spans": [
+                {
+                    "start": 50,
+                    "end": 70,
+                    "text": "December 16, 2020. ;",
+                    "ref_id": null
+                },
+                {
+                    "start": 71,
+                    "end": 94,
+                    "text": "https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 95,
+                    "end": 120,
+                    "text": "https://doi.org/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 539,
+                    "end": 547,
+                    "text": "(Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Empirical Evidence"
+        },
+        {
+            "text": "While all estimated response coefficients of the public health measures show the expected negative sign, not all are statistically significant (Table 2 ). Substantial effects of the closure of establishment and the shutdown of shopping malls and other stores suggested by the baseline SEM model are not confirmed by the spatial models with intervention spillovers. This indicates an omitted variable bias in the SEM model. As the common factor hypothesis is clearly rejected (LR=47.2, p<0.001), its interpretation as a simplified SDM model also fails. Because of LogLik(SDM) > LogLik(SDEM) with the same number of explanatory variables, information criteria AIC and BIC select the SDM model as the optimal setting.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 143,
+                    "end": 151,
+                    "text": "(Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Empirical Evidence"
+        },
+        {
+            "text": "We therefore focus on the estimated regression coefficients of the SDM model that reflect the raw effect sizes of the policy interventions in the own and surrounding areas. Feedback is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Empirical Evidence"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10.1101 https://doi.org/10. /2020 effects are neglected at this step. With estimated values of about -0.125, the absolutely largest sizes are found for contact restrictions and face mask wearing. The lower statistical significance of the estimated face mask effect results from the small number of treated areas in the containment phase. A smaller but still strong response coefficient of nearly -0.05 is estimated for closure of schools, further educational institutions and daycare facilities. As in the case of contact restrictions, the estimated regression coefficient of school closure is highly significant. An incremental containment effect may possibly also be attributed to the closure of restaurants and other leisure facilities. However, the value of -0.02 indicates at best a limited impact of this policy action. In the second step, we enhance the raw effects of the public health measures by feedback effects. People may infect inhabitants in surrounding areas who \uf02d in turn \uf02d infect residents in region of origin. Total treatment effects and their composition can be obtained by impact analysis (LeSage and Pace 2010, 366-372). In Table 4 impact estimates are reported for the SDM model with policy actions according to state regulations. The spatial DiD approach clearly reveals the relevance and strength of public health measures to curb the pandemic. As suggested by ML estimation of spatial panel data models, the highest impacts arise from contact restrictions and face mask wearing. Effects from school closure follow with a clear gap.",
+            "cite_spans": [
+                {
+                    "start": 50,
+                    "end": 70,
+                    "text": "December 16, 2020. ;",
+                    "ref_id": null
+                },
+                {
+                    "start": 71,
+                    "end": 94,
+                    "text": "https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 95,
+                    "end": 120,
+                    "text": "https://doi.org/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1233,
+                    "end": 1240,
+                    "text": "Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Empirical Evidence"
+        },
+        {
+            "text": "The closure of restaurants may additionally exert a marginal impact on infection growth. Because of the inclusion of feedback effects, the total effects are nearly 10 percent larger than the response coefficients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Empirical Evidence"
+        },
+        {
+            "text": "Having witnessed daily growth of incidence rates of more than 50 percent in the pretreatment period, the dampening effect of contact restrictions is estimated by almost 14 percentage points. The total treatment effect of school closure amounts to just 5\u00bd percentage points. Both effects turn out to be highly significant. With 2\u00bc percentage points, the effect of restaurant closure appears to be low. At the end of the containment phase, a reduction effect of face mask wearing is found. Contrary to the other measures, the strong impact of 13\u00bd percentage points only relates to the few treated regions during this subperiod. This explains its relatively low level of significance. No significant treatment effects are found for closure of establishments and the shutdown of shopping malls and other stores. While their impacts exhibit the expected sign, no substantial contribution of these policy actions to flatten the infection curve is apparent.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Empirical Evidence"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Empirical Evidence"
+        },
+        {
+            "text": "is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Empirical Evidence"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. Given the estimated response coefficients of the SDM model (Table 2) , the impacts are not uniform and vary across space (LeSage and Pace 2009, 33-39). In Table 3 concise summary measures of impacts are reported. As average values they are representative for the whole area but not necessarily for each region individually. The density plots of in Figure 2 show the distributions of the total impacts from the SDM model. They provide particularly an impression on their variability across space. While the effects of contact restrictions and school closure are precisely estimated, the impact of face masks varies more broadly. This lower degree of estimation precision results from a comparatively large sample error as a consequence of a small number of treatment regions during the containment period. More generally, the density plots provide information on the extent of spatial non-stationarity that is involved with the implementation of the public health measures.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 128,
+                    "end": 137,
+                    "text": "(Table 2)",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 224,
+                    "end": 231,
+                    "text": "Table 3",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 417,
+                    "end": 425,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF11"
+                }
+            ],
+            "section": "Empirical Evidence"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Empirical Evidence"
+        },
+        {
+            "text": "is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Empirical Evidence"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10.1101/2020.12.15.20248173 doi: medRxiv preprint is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Empirical Evidence"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10. 1101 /2020 Above we have estimated the treatment effects of the most important public health measures. Contact restrictions, face mask wearing and school closure are shown to yield substantial containment effects in treated regions. Additionally, a weak impact may be attributed to restaurant and further leisure facility closure. While the treatment effects of school and restaurant closure are established before other measures were enacted, the impact of the mask duty arises as an add-on effect. We now set our sights from infections in the treated regions to the pandemic curve in Germany as a whole. To show the overall containment effect of individual measures, we have constructed a counterfactual curve by aggregating regional containment effects at different points in time.",
+            "cite_spans": [
+                {
+                    "start": 91,
+                    "end": 95,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 96,
+                    "end": 101,
+                    "text": "/2020",
+                    "ref_id": "BIBREF60"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Empirical Evidence"
+        },
+        {
+            "text": "In Figure 3 the temporal impacts of the policy actions on the German pandemic curve are illustrated. For this purpose, the region-specific treatment effects are translated into reduction effects of the national pandemic curve. The comparison between the actual and counterfactual infection curve exposes the incremental contribution of a policy action to dampening the propagation of the virus. Each illustration starts with a pre-treatment period of one week. After the vertical dashed line, the actual and counterfactual trajectories of cumulative disease cases are shown on the logarithmic scale for a two weeks treatment period. While the black lines display the real evolution of the pandemic, the blue lines reflect its counterfactual course without implementing the particular health measure. The red lines exhibit the 95% confidence bands. Figure 3 exhibits the substantial contributions of contact restrictions and closure of schools to flatten the pandemic curve. Although the confidence intervals widen with increasing total infection rates, the counterfactual curves and their significance bands of both measures lie well above the actual curve. While the containment effect of contact restrictions is great, the impact of school closing is still noticeable. The overall effect of the closure of restaurants is markedly smaller. Its lower 95% confidence band is only just above the observed infection trajectory. The visibility of the impacts at different points in time after the one-week delay is mainly due to the fact that the interventions are not uniformly implemented staggered in time. Policy-specific aspects like announcement effects may additionally play a role.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 11,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF12"
+                },
+                {
+                    "start": 848,
+                    "end": 856,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF12"
+                }
+            ],
+            "section": "Empirical Evidence"
+        },
+        {
+            "text": "Although the treatment effect for face mask wearing is strong, this policy action appears to only marginally affects the national infection curve. The reason for this is, however, that we analyze impacts in the containment phase where the face mask duty is only implemented in a few regions. While we establish a strong treatment effect in these regions, the overall impact on cumulative infections in the whole area is small. This would surely change if more regions were included in the treatment group -conditional on the fact that the estimated coefficient would remain statistically significant and negative. For establishment closing and the shutdown of shopping malls and other stores, the actual infection curve runs inside the confidence areas of the counterfactual curves. This behaviour reflects the estimated nonsignificant treatment effects of both policy actions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Empirical Evidence"
+        },
+        {
+            "text": "In sensitivity analyses we check the robustness of containment effects of public health measures with respect to various changes in modeling design. We already showed the robustness of the treatment effects of the SDM model against baseline fixed-effects models with spatially autocorrelated disturbances. Here we first analyze the robustness of the findings . CC-BY-NC-ND 4.0 International license It is made available under a perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustness"
+        },
+        {
+            "text": "is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustness"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10.1101 https://doi.org/10. /2020 as related to variations of the spatial DiD approach with endogenous spillovers. Two alternative spatial panel data models appear to be of special interest. One is the spatial autoregressive (SAR) model that makes allowance for endogenous spatial spillovers but neglects policy intervention. in neighbouring regions. The other is the general nesting spatial (GNS) model that accounts for spatial spillovers in the endogenous variables, the policy variables and the disturbances. Figure 4 shows limited variations between the effect estimates of the three spatial models. The estimated response coefficients of contact restrictions, wearing of face mask, school closure and restaurant closure are statistically significant in all models. While weak significant effects of establishment and shopping mall closure is suggested by the SAR model (blue bars), the nonsignificance of both containment measures is corroborated by the GNS model (red bars). However, the problems of overparameterization and weakly identifiability of the GNS model becomes evident (Elhorst 2014, 32-33) . Estimates of the spatial autoregressive coefficients for endogenous spillovers (0.1721) and error dependence (-0.1038) are blown up with opposing signs (Elhorst 2017) . Along with the fact that only the difference of the spillover parameters conforms with the estimates of more parsimonious spatial representations, this makes the empirical relevance of the GNS model highly doubtful.",
+            "cite_spans": [
+                {
+                    "start": 50,
+                    "end": 70,
+                    "text": "December 16, 2020. ;",
+                    "ref_id": null
+                },
+                {
+                    "start": 71,
+                    "end": 94,
+                    "text": "https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 95,
+                    "end": 120,
+                    "text": "https://doi.org/10. /2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 1175,
+                    "end": 1196,
+                    "text": "(Elhorst 2014, 32-33)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1351,
+                    "end": 1365,
+                    "text": "(Elhorst 2017)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 600,
+                    "end": 608,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF13"
+                }
+            ],
+            "section": "Robustness"
+        },
+        {
+            "text": "Next, we examine the robustness of treatment effects with respect to the choice of the temporal lag. In view of the incubation time and reporting delay, we expect that after about one week one fourth of new infections are reflected in registered cases ). According to the joint distribution of both lags, official figures will capture different shares of . CC-BY-NC-ND 4.0 International license It is made available under a perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustness"
+        },
+        {
+            "text": "is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustness"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10.1101 https://doi.org/10. /2020 infected people with varying delays. If containment effects are substantial, they should not only be observed at a unique lag. Thus, we check the effects for some days back and ahead of the reference lag of one week. In this context, we also review the stability of the estimated spatial spillover coefficient. Lag a) Response coefficients for lags between 5 and 10 days b) Spatial spillover coefficient for lags between 5 and 10 days The outcomes of the robustness checks on lag variation are depicted in Figure 5 . The delay between the outbreak and the report of infections is varied between 5 and 10 days. The left panel (Figure 5a ) shows the high stability of estimated response coefficients. This holds especially for the effects of contact restrictions and mandatory face mask wearing. Statistical significance of school closure and restaurant closure is most notably confirmed with increased delays. For school closure, significance comes along with an intensified treatment effect. The deviations for the lag of 5 days may be due to the short interval for identifying impacts arising from this specific measure. In the right panel (Figure 5b ) a slight tendency of decreasing spillover coefficients is apparent with increasing lag. However, all estimates are around 0.08 and their differences remain within reasonable limits.",
+            "cite_spans": [
+                {
+                    "start": 50,
+                    "end": 70,
+                    "text": "December 16, 2020. ;",
+                    "ref_id": null
+                },
+                {
+                    "start": 71,
+                    "end": 94,
+                    "text": "https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 95,
+                    "end": 120,
+                    "text": "https://doi.org/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 627,
+                    "end": 635,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF14"
+                },
+                {
+                    "start": 746,
+                    "end": 756,
+                    "text": "(Figure 5a",
+                    "ref_id": "FIGREF14"
+                },
+                {
+                    "start": 1262,
+                    "end": 1272,
+                    "text": "(Figure 5b",
+                    "ref_id": "FIGREF14"
+                }
+            ],
+            "section": "Robustness"
+        },
+        {
+            "text": "The dashboard data of the Robert Koch Institute (RKI) on Covid-19 cases reflect some anomalies of reporting over the week. Generally, infection cases are less reported on weekends and holidays than on workdays. In our modeling approach we capture cyclicity over the week by a day-of-the-week factor. Through this, we also account for erratic reporting of with low and large numbers of newly confirmed cases occurring in immediate succession. One can alternatively control for intra-week seasonalities by smoothing the data. To check the . CC-BY-NC-ND 4.0 International license It is made available under a perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustness"
+        },
+        {
+            "text": "is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustness"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10. 1101 /2020 robustness of treatment effects to modeling the cyclical reporting pattern, we re-estimate the SDM model with three and five-days moving averages of incidence rates. Figure 6 compares the estimation results for the original and smoothed infection data. It is evident that the response coefficients of public health measure are not substantially affected by the filtering procedure. With increasing order of the moving average, the nonsignificant regression coefficient of shopping mall closure approaches zero. Also, the estimated effects of contact restrictions and face mask wearing decrease, but without losing their relative strength. However, filtering newly registered cases is a data transformation that changes their dispersion. Thus, averaging the original data has expected attenuation effects on the standard errors. For the 3-days and 5-days moving averages the standard errors of the estimated regression coefficients are reduced by factors of about 1.6 and 2, respectively. This impact, that favors the detection of treatment effects, is not considered by Brauner et al. (2020) , who establish the effectiveness of non-pharmaceutical interventions in 41 countries on the basis of smoothed death and cases. To avoid a dependence of testing results on the order of moving averages, we rely final significance testing on the original data.",
+            "cite_spans": [
+                {
+                    "start": 91,
+                    "end": 95,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 96,
+                    "end": 101,
+                    "text": "/2020",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 1172,
+                    "end": 1193,
+                    "text": "Brauner et al. (2020)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 268,
+                    "end": 276,
+                    "text": "Figure 6",
+                    "ref_id": "FIGREF15"
+                }
+            ],
+            "section": "Robustness"
+        },
+        {
+            "text": "Finally, we assess the sensitivity of the response coefficients with respect to the choice of the spatial weights matrix. Figure 7 displays a comparison of the policy effects obtained from ML estimation of the SDM model with the contiguity-and distance-based weights matrices. In the . CC-BY-NC-ND 4.0 International license It is made available under a perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 122,
+                    "end": 130,
+                    "text": "Figure 7",
+                    "ref_id": "FIGREF16"
+                }
+            ],
+            "section": "Robustness"
+        },
+        {
+            "text": "is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustness"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10. 1101 /2020 latter case, we make use of inverse distances with cut-off thresholds of 75 km, 100 km and 150 km. For comparative purposes, all spatial weights matrices are row-standardized. Figure 7 exhibits a high degree of robustness of estimated policy impacts across all spatial weights matrices. Regardless of the selected type of weights matrix, contacts restrictions prove to be the most effective measure to curb the pandemic. The strong treatment effect of mandatory face mask wearing is clearly confirmed with distance-based weights matrices. Sizable infection effects of closure of schools and daycare facilities hold as well independently of the employed spatial weights concept. On the contrary, the significant impact of restaurant closure on infection growth is not backed with distance-based weights matrices. Sensitivity analysis corroborates the lack of a substantial influence of establishment and shopping mall closure on the German pandemic curve.",
+            "cite_spans": [
+                {
+                    "start": 91,
+                    "end": 95,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 96,
+                    "end": 101,
+                    "text": "/2020",
+                    "ref_id": "BIBREF60"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 278,
+                    "end": 286,
+                    "text": "Figure 7",
+                    "ref_id": "FIGREF16"
+                }
+            ],
+            "section": "Robustness"
+        },
+        {
+            "text": "We have tackled the challenge of analyzing the impacts of public health measures to curb the spread of Covid-19 in Germany. In view of the constrains to identify causal effects in the case of incremental implementation, we have assessed six types of measures. After the closure of establishments, educational institutions including schools and daycare facilities as of mid-March, shopping malls, retail stores, restaurants and other leisure facilities were shut down. Strict contact restrictions have been introduced in the second half of March. During the . CC-BY-NC-ND 4.0 International license It is made available under a perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10.1101/2020.12.15.20248173 doi: medRxiv preprint containment phase, the wearing of face masks has become mandatory in some NUTS 3 regions before the regulation has been implemented by state governments. Parallel to this, other restrictions have been gradually lifted to allow for a re-opening of the economy. Our identification strategy takes up temporal changes and regional differences of implemented regulations. The spatial differences-in-differences (DiD) model exploits the variations of the policy actions to identify their infection effects. In the quasi-experimental approach, we involve region-specific trends to account for the parallel trend assumption. We are convinced that the study design is adequate to identify causal effects of the public health measures. The spatial econometric framework allows for inter-regional policy effects as well as endogenous spatial infections spillovers. We control for omitted time-invariant variables and nationwide infection trends. Finally, we are aware of the necessity to control for pronounced day-of-theweek anomalies in identifying the treatment effects.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Various tests on the existence of spatial spillovers clearly back the spatial econometric approach. In the presence of endogenous infection spillovers, we have to account for feedback effects to adequately identify treatment effects of policy interventions. On that score, the response coefficients of the spatial Durbin model have been re-assessed by impact analysis. We found the greatest containment effect of nearly 14 percentage points for contact restrictions, followed by wearing of face masks with about 13\u00bd percentage points. While the impact of contact restrictions is grounded on comprehensive regional implementations during the period of study, that of face mask wearing is only based on a few treated regions during the covered containment phase until April 24. But both measures are thus effective in flattening the German pandemic curve. However, the more variable (and in absolute terms smaller) impact of mask wearing is a consequence of our sample design to not confound the effects from containment and easing measures.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "We also find evidence for a substantial influence of the closure of schools and daycare facilities in suppressing the spread of Covid-19. The highly significant impact amounts to almost 5\u00bd percentage points. While the impacts of contact restrictions, face mask wearing and school closure prove to be robust against changes in model specification, the relatively small containment effect of about 2 percentage points for closure of restaurants and other leisure facilities does not emerge for all variations of the modeling approach. No significant effects to curb the growth of infections are found for the shutdown of shopping malls and other stores as well as the closure of establishments. This finding proves to be robust in our sensitivity analysis. Spatial spillovers account for almost 10 percent to growth of infection rates.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Some caveats in interpreting the impacts of the policy actions as causal effects should be highlighted. Reverse causation is always a concern when policymakers just react to accelerating infection rates. We believe that the design of our study is suitable to avoid a noticeable endogeneity bias. However, this strictly applies only to the measures being in the specific chronological order of their implementation. Thus, the containment effect of closure of schools and daycare facilities is backed under the condition that the intervention takes place before contact restrictions and the mask duty are introduced. The same holds for the unstable effect of restaurant closure. In this light, particularly the face mask effect appears to be significant and well grounded (also . Also, the continued imposition of the contact restrictions by the states turns out to be well justified. In particular, a low impact of this measure on infection growth would question the efficacy of such severe constraints. Considering the strong treatment effects of contact restrictions and face mask wearing, the interaction between both measures should become a future research issue (Seres et al. 2020) . is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [
+                {
+                    "start": 1167,
+                    "end": 1186,
+                    "text": "(Seres et al. 2020)",
+                    "ref_id": "BIBREF63"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10. 1101 /2020 An optimal instrument mix has to take account of the economic costs of tightening or easing public health actions to curb the spread of the coronavirus. While detailed cost-benefit analyses are scarcely available yet, some studies aim to tackle this issue for selected measures. Fuchs-Sch\u00fcndeln, Kuhn and Tertilt (2020) find strong labor market effects in the wake of school and child-care center closures. They estimate that 8.4 percent of total working hours will be lost, corresponding to 11.7 million employed persons in short-time-work. Beyond this short-term effect, intergenerational mobility and gender equality in the workplace is likely negatively affected. The macroeconomic impact of this public health measure is considered large. Based on simulation, B\u00fcrgi and Gorgulu (2020) assess a 2 percentage points larger drop in Q2 GDP in the United States for social distancing at the level of most European countries.",
+            "cite_spans": [
+                {
+                    "start": 91,
+                    "end": 95,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 96,
+                    "end": 101,
+                    "text": "/2020",
+                    "ref_id": "BIBREF60"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Substantial GDP impacts of closures of retail stores, restaurants and other business outlets are found by Basurto et al. (2020) under various degrees of easing restrictions. Because the lack of robust treatment effects of these measures, their efficiency must be strongly challenged. Economic effects of several interventions are examined by Stannard, Steven and McDonald (2020) for the economy of New Zealand. While a moderate decline in DGP of 0.7 percent is estimated for the ban of mass gatherings and closure of public venues, restricting domestic travel may induce a large reduction up to 6 percent. Economic effects of social-distancing policies are investigated by Strong and Welburn (2020) and Fernand\u00e9z-Villaverde and Jones (2020). Compared with other common measures, the implied economic costs for community masks seem comparatively low. However, further cost-benefit analyses are needed to verify whether wearing face masks is not only an effective but also cost-efficient measure for fighting Covid-19. Similar considerations need also be done for other measure taken in the past (and future) to fight the Covid-19 pandemic.",
+            "cite_spans": [
+                {
+                    "start": 106,
+                    "end": 127,
+                    "text": "Basurto et al. (2020)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 342,
+                    "end": 378,
+                    "text": "Stannard, Steven and McDonald (2020)",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 673,
+                    "end": 698,
+                    "text": "Strong and Welburn (2020)",
+                    "ref_id": "BIBREF65"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "When we use data by day of reporting, we need an additional delay of 5 to 6 days for the patient to visit a doctor and the reporting procedure to reach this threshold. This enters further imprecision in measurement.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "We therefore need to choose between a dataset that may be more precise but is not homogenous (day of first symptoms) and a dataset where we need to add additional days for reporting. In order to employ the comprehensive RKI dataset, we relate infection cases to the day of reporting. With a delay of 7 days between infection and reporting, about 25% of infection cases are expected to be statistically visible. As in accompanying work (Kleyer et al. 2020) we capture cyclicality over the week by the day of the week effect.",
+            "cite_spans": [
+                {
+                    "start": 435,
+                    "end": 455,
+                    "text": "(Kleyer et al. 2020)",
+                    "ref_id": "BIBREF45"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Appendix C: Day of the Week Effect Particularly because of limited testing on weekends, figures begin to rise at the start of the week. The highest growth of incidence rates of additional 7 \u00bd percentage points is observed on Wednesday. Growth rates are almost as high on Tuesday and Thursday. The low weekend effect is also clearly visible for Saturday. All weekday impacts are highly significant.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "is the author/funder, who has granted medRxiv a license to display the preprint in (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 16, 2020. ; https://doi.org/10. 1101 /2020 ",
+            "cite_spans": [
+                {
+                    "start": 91,
+                    "end": 95,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 96,
+                    "end": 101,
+                    "text": "/2020",
+                    "ref_id": "BIBREF60"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Identification of causal effect using instrumental variables",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Angrist",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Imbens",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Rubin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Journal of the American Statistical Association",
+            "volume": "91",
+            "issn": "",
+            "pages": "444--472",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Mostly Harmless Econometrics: An Empiricist's Companion",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Angrist",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-S",
+                    "middle": [],
+                    "last": "Pischke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Mastering Metrics: The Path from Cause to Effect",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Angrist",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-S",
+                    "middle": [],
+                    "last": "Pischke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Spatial dependence in linear regression models with an introduction to spatial econometrics",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Anselin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bera",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "237--289",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The Econometrics of Panel Data -Fundamentals and Recent Developments in Theory and Practice",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "Le"
+                    ],
+                    "last": "Anselin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gallo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jayet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "901--969",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Spatial Econometrics",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Arbia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Design-based analysis in difference-in-differences settings with staggered adoption",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Athey",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Imbens",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Impact of nonpharmaceutical interventions on documented cases of COVID-19",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Banholzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Van Weenen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Kratzwald",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Seeliger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.16.20062141"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Economic and epidemic implications of virus containment policies: insights from agent-based simulations, Working Papers in Economics and Management",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Basurto",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Dawid",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Harting",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hepp",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kohlweyer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.4119/unibi/2944282"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Right and Yet Wrong: A Spatio-Temporal Evaluation of Germany's Covid-19 Containment Policy",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Berlemann",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Haustein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Can labor regulation hinder economic performance? Evidence from India",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Besley",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Burgess",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Quarterly Journal of Economics",
+            "volume": "119",
+            "issn": "1",
+            "pages": "91--134",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The Spread of COVID-19 and the BCG Vaccine: A Natural Experiment in Reunified Germany",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bluhm",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pinkovskiy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2139/ssrn.3604314"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Handbook of spatial analysis -Theory and practical application with R. INSEE Eurostat",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bouayad-Agha",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Le Gallo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "V\u00e9drine",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "179--203",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "The effectiveness of eight nonpharmaceutical interventions against COVID-19 in 41 countries",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Brauner",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mindermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Stephenson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Gaven\u010diak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.05.28.20116129"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Social Distancing and the Economic Impact of COVID-19 in the United States",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "B\u00fcrgi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Gorgulu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The Minimum Legal Drinking Age and Public Health",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Carpenter",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Dobkin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Journal of Economic Perspectives",
+            "volume": "25",
+            "issn": "",
+            "pages": "133--156",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Catastrophic Natural Disasters and Economic Growth",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Cavallo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Galiani",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Noy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pantano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Review of Economics and Statistics",
+            "volume": "95",
+            "issn": "5",
+            "pages": "1549--1561",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "A spatial difference-in-difference analysis of the impact of sugarcane production on respiratory diseases",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "L S"
+                    ],
+                    "last": "Chagas",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Azoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Almeida",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Regional Science and Urban Economics",
+            "volume": "59",
+            "issn": "",
+            "pages": "24--36",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Tracking the Economic Impact of COVID-19 and Mitigation Policies in Europe and the United States",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Igan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Pierri",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Presbitero",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Physical distancing, face masks, and eye protection to prevent person-to-person transmission of SARS-CoV-2 and COVID-19: a systematic review and meta-analysis. The Lancet",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Akl",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Duda",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Solo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yaacoub",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Sch\u00fcnmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "31142--31151",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "The Effects of Containment Measures on the COVID-19 Pandemic",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Deb",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Furceri",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ostry",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Tawk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Covid Economics: Vetted and Real-Time Papers",
+            "volume": "19",
+            "issn": "",
+            "pages": "53--86",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Inferring change points in th spread of COVID-19 reveals the effectiveness of interventions",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dehning",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zierenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Spitzner",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wibral",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Neto",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wilczek",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Priesemann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abb9789"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Difference-in-Differences Techniques for Spatial Data: Local Autocorrelation and Spatial Interaction",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Delgado",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J G M"
+                    ],
+                    "last": "Florax",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Economics Letters",
+            "volume": "137",
+            "issn": "",
+            "pages": "123--126",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Spatial-difference-in-differences models for impact of new mass rapid transit line on private housing values",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Diao",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Leonard",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Sing",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Regional Science and Urban Economics",
+            "volume": "67",
+            "issn": "",
+            "pages": "64--77",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Projecting the Spread of COVID-19 for Germany",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Donsimoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Glawion",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Plachter",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "W\u00e4lde",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "German Economic Review",
+            "volume": "21",
+            "issn": "",
+            "pages": "181--216",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Should Contact Bans Be Lifted in Germany? A Quantitative Prediction of Its Effects",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Donsimoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Glawion",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Plachter",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "W\u00e4lde",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Weiser",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Covid-19 in Deutschland -Erkl\u00e4rung, Prognose und der Einfluss gesundheitspolitischer Ma\u00dfnahmen",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Donsimoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Glawion",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hartl",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Plachter",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Timmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "W\u00e4lde",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Weiser",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Perspektiven der Wirtschaftspolitik",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1515/pwp-2020-0019"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Spatial panel data models",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Elhorst",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Handbook of Applied Spatial Analysis",
+            "volume": "",
+            "issn": "",
+            "pages": "377--407",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Spatial Econometrics -From Cross-Sectional Data to Spatial Panels",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Elhorst",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Spatial Panel Data Analysis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Elhorst",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Encyclopedia of GIS",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/978-3-319-17885-1_1641"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "The Impact of Naloxone Access Laws on Opioid Overdose Deaths in the U",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Erfanian",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Colins",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Grossman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "S. Review of Regional Science",
+            "volume": "49",
+            "issn": "",
+            "pages": "45--72",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Apr\u00e8s-ski: The Spread of Coronavirus from Ischgl through Germany. Covid Economics: Vetted and Real-Time Papers",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Felbermayr",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hinz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chowdhry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "22",
+            "issn": "",
+            "pages": "177--204",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Estimating the effects of nonpharmaceutical interventions on COVID-19 in Europe",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Flaxman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mishra",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gandy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Unwin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "584",
+            "issn": "",
+            "pages": "257--261",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Estimating and Simulating a SIRD Model of COVID-19 for Many Countries, States, and Cities. NBER Working Papers 27128",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fernand\u00e9z-Villaverde",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "National Bureau of Economic Research",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Spatial econometrics -common models",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Floch",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Le Saout",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Handbook of Spatial Analysis: Theory and Practical Application with R. Insee-Eurostat",
+            "volume": "",
+            "issn": "",
+            "pages": "149--177",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "On the Interplay of Regional Mobility, Social Connectedness, and the Spread of COVID-19 in Germany",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fritz",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kauermann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "The Short-Run Macro Implications of School and Child-Care Closures, CRC TR 224 Discussion Paper Series crctr224_2020_183",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Fuchs-Sch\u00fcndeln",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kuhn",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tertilt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "How Effective Are Social Distancing Policies? Evidence on the Fight Against COVID-19 from Germany",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Glogowsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Hansen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "&amp;sch\u00e4chtele",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Difference-in-differences with variation in treatment timing",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Goodman-Bacon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "National Bureau of Economic Research",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Econometric Analysis",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Greene",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Measuring the impact of the German public shutdown on the spread of Covid-19",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hartl",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "W\u00e4lde",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Weber",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Covid Economics: Vetted and Real-Time Papers",
+            "volume": "1",
+            "issn": "",
+            "pages": "25--32",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "The economic impact of greening urban vacant land: a spatial difference-in-diff erences analysis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Heckert",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mennis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Environment and Planning",
+            "volume": "44",
+            "issn": "",
+            "pages": "3010--3027",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "The Impact of Response Measures on COVID-19-Related Hospitalization and Death Rates in Germany and Switzerland",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Huber",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Langen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "A Cautionary Tale of Evaluating Identifying Assumptions: Did Reality TV Really Cause a Decline in Teenage Childbearing?",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jaeger",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Joyce",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kaestner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Journal of Business and Economic Statistics",
+            "volume": "38",
+            "issn": "12",
+            "pages": "1--44",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Meso-scale modeling of COVID-19 spatio-temporal outbreak dynamics in Germany",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kergassner",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Burkhardt",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Lippold",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nistler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.06.10.20126771"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Public health measures concerning Covid-19 in Germany: a systematic overview",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kleyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kosfeld",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mitze",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "W\u00e4lde",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "A Spatial Econometric Perspective of Program Evaluation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kolak",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Anselin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Regional Science Review",
+            "volume": "43",
+            "issn": "",
+            "pages": "128--153",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Infectious Diseases as Socio-Spatial Processes: The COVID-19",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kuebart",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Stabler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "The Incubation Period of Coronavirus Disease 2019 (COVID-19) From Publicly Reported Confirmed Cases: Estimation and Application",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Grantz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Bi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Meredith",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Azman",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Reich",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lessler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Annals of Internal Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7326/M20-0504)"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "The Estimation of Causal Effects by Difference-in-Difference Methods",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lechner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Foundations and Trends(R) in Econometrics",
+            "volume": "4",
+            "issn": "",
+            "pages": "165--224",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Estimation of spatial autoregressive panel data models with fixed effects",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Journal of Econometrics",
+            "volume": "154",
+            "issn": "",
+            "pages": "165--185",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Incubation period and other epidemiological characteristics of 2019 novel Coronavirus infections with right truncation: A statistical analysis of publicly available case data",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Linton",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kobayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Akhmetzhanov",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.-M",
+                    "middle": [],
+                    "last": "Jung",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kinoshita",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nishiura",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Clinical Medicine",
+            "volume": "9",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Spatial Econometric Models",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Lesage",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Pace",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Handbook of Applied Spatial Analysis",
+            "volume": "",
+            "issn": "",
+            "pages": "355--376",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Covid-19 and the propagation effect of commuting to work: A spatial econometric analysis of the epidemic spread in Germany",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mitze",
+                    "suffix": ""
+                },
+                {
+                    "first": "&amp;",
+                    "middle": [],
+                    "last": "Kosfeld",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.6084/m9.figshare.12789941.v1"
+                ]
+            }
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Face masks considerably reduce Covid-19 cases in Germany -A synthetic control method approach",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mitze",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kosfeld",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rode",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "W\u00e4lde",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Possibilities of exponential or Sigmoid growth of Covid19 data in different states of India",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mondal",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ghosh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "General Diagnostic Tests for Cross Section Dependence in Panels",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Pesaran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "255--260",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Time Series and Panel Data Econometrics",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Pesaran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Covid-19 Infektionen",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Rki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "General Website",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Coronavirus SARS-CoV-2. Rober Koch Institut",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Rki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Monitoring the spatiotemporal epidemiology of Covid-19 incidence and mortality: a small-area analysis in Germany",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rohleder",
+                    "suffix": ""
+                },
+                {
+                    "first": "&amp;",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Bozorgmehr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.21203/rs.3.rs-34572/v1"
+                ]
+            }
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Face mask use and physical distancing before and after mandatory masking: Evidence from public waiting lines",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Seres",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Balleyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Cerutti",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Friedrichsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "S\u00fcer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Discussion Papers, Research Unit: Economics of Change SP II 2020-305",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Economic impacts of COVID-19 containment measures. Reserve Bank of New Zealand Analytical Notes AN2020/04",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Stannard",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Steven &amp; Mcdonald",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "An Estimation of Economic Costs of Social-Distancing Policies",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Strong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Welburn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "The SLX model",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Vega",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Elhorst",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Journal of Regional Science",
+            "volume": "55",
+            "issn": "",
+            "pages": "339--363",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "A phenomenological approach to assessing the effectiveness of COVID-19 related nonpharmaceutical interventions in Germany",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wieland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Safety Science",
+            "volume": "131",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Flatten the Curve! Modeling SARS-CoV-2/COVID-19 Growth in Germany at the County Level",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wieland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.05.14.20101667"
+                ]
+            }
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Designing difference in difference studies: Best practices for public health policy research",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wing",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Simon",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bello-Gomez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Annual Review of Public Health",
+            "volume": "39",
+            "issn": "1",
+            "pages": "453--469",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Econometric Analysis of Cross Section and Panel Data",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wooldridge",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "While 11 other federal states followed on March 18, Saxony closed shopping malls on March 19, Thuringia on March 20 and Berlin on March 23. Restaurant closure. Restaurants, bars and further leisure facilities (e.g. bars and clubs) were closed in German federal states from March 18 onwards starting with Schleswig-Holstein. For two days our treatment group thus consists of 15 districts. Lower Saxony (45 districts) and Thuringia (23 districts) followed on March 20. Nine of the remaining states implemented the containment measures on March 21. While Berlin followed on March 22, Brandenburg and",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Cumulative reported COVID-19 Cases at the beginning and the end of our period of analysis at the NUTS-3 level Notes: The data comes from RKI (2020a). Our unit of analysis are 401 NUTS-3 regions. Bold greylines indicate the borders of the 16 federal states.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "distributed. Equations (1)-(2) represent a spatial Durbin error model (SDEM)(Elhorst 2014, 10- 12, 37-39; Bouayad-Agad, Le Gallo and V\u00e9drine 2018). The SDEM nests two simpler spatial models. Without policy spillovers, \uf071 k =0, the spatial error model (SEM) is obtained. When other time-variant variables do not matter, \uf072=0, the disturbances u rt become white noise (u rt = rt \u03bd ).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Because of disregarding local treatment effects, the standard DiD estimator is biased and inconsistent(Delgado and Florax 2015). In the spatial error model (SEM), the average treatment effect reduces to k k \u03b3 ATET(SEM) \uf03d .In view of the worldwide spreading of the virus, the spatial model (1)-(2) is still incomplete. People infect other people living within their residential areas and across administrative borders. While the propagation of infection is globally in nature, a distance decay from the origins is expected. Such global infection spillovers of Covid-19 can be captured by an endogenous spatial lag, c , as an additional explanatory variable in the spatial panel data model(1): 6",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Simulated standard errors (in parentheses): Monte Carlo simulation (Piras 2013), ** 1% significance level, * 5% significance level, ( * ) 10% significance level",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Density plots for total impacts of public health measures",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Temporal impacts of health measures on the German pandemic curve Notes: Vertical dashed line: Separation between pre-treatment period and treatment period; Length of pre-treatment period: one week; length of treatment period: two weeks",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "Comparison of response coefficients of SDM, SAR and GNS models Notes: Horizontal axis: Public health measures, vertical axis: Response coefficients of spatial panel data models, Black bars: SDM model, blue bars: SAR model, red bars: GNS model, EC: Establishment closure, SC: School and daycare facilities closure, SHC: Shopping mall closure, RC: Restaurant closure, CR: Contact restrictions, MD: Mask duty",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "Comparison of response and spillover coefficients for varying lags Notes: Horizontal axis: Public health measures, vertical axis: Response coefficients of spatial panel data models, Yellow bars: Lag 5, Orange bars: Lag 6, Black bars: Lag 7, Red bars: Lag 8, Green bars. Lag 9, Blue bars: Lag 10, EC: Establishment closure, SC: School and daycare facilities closure, SHC: Shopping mall closure, RC: Restaurant closure, CR: Contact restrictions, MD: Mask duty",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": "Smoothing effects on response coefficients Notes: Horizontal axis: Public health measures, vertical axis: Response coefficients of spatial panel data models, Black bars: SDM model with original data, blue bars: SDM model with three days moving averages, red bars: GDM model with five days moving averages, EC: Establishment closure, SC: School and daycare facilities closure, SHC: Shopping mall closure, RC: Restaurant closure, CR: Contact restrictions, MD: Mask duty",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "Comparison of response coefficients for different spatial weights matrices Notes: Horizontal axis: Public health measures, vertical axis: Response coefficients of spatial panel data models, Black bars: Contiguity weights matrix, Grey bars: Inverse distance weights matrix (cut-off threshold: 75 km), Blue bars: Inverse distance weights matrix (cut-off threshold: 100 km), Red bars: Inverse distance weights matrix (cut-off threshold: 150 km), EC: Establishment closure, SC: School and daycare facilities closure, SHC: Shopping mall closure, RC: Restaurant closure, CR: Contact restrictions, MD: Mask duty",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF18": {
+            "text": "Day of the week effect Figure 8 exhibits the pattern of the day of the week effect with Sunday as the reference day.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Summary statisticsRaw data on number of cases:Note: Data comes from RKI (2020a). We conduct our analysis on the NUTS-3 level with 401 regions. Our analysis starts on February 24 and ends on April 24, 2020, which results in 61 days and 24,451 observations in total. Incidence rates are defined by Covid-19 cases per 100,000 inhabitants. We report the descriptive statistics for the containment measures without time lag.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": ", impacts involving spillover effects are given by",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "ML estimated spatial panel data models",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Impact decomposition of containment measures",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Note: There are 16 federal states (NUTS-1 regions) in Germany. The federal states are sub-divided into 401 NUTS-3 districts. In most cases, the containment measures were put in place at the federal state level. If this is the case, the measure is binding for all NUTS-3 districts within the corresponding federal state. We did our best to check for different implementation dates in specific NUTS-3 districts. If we found differences, we account for them and state them in the main text.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Appendix A: Implementation dates of containment measures"
+        },
+        {
+            "text": "German authorities (RKI, 2020a) measure the number of reported infections by day of reporting and by day of first appearance of symptoms. Both ways of reporting have their advantages and disadvantages. Data by date of reporting is cyclical over the week. Incidences systematically fall over the weekend and are highest around the mid of the week. At weekends, testing is reduced and local health authorities are usually closed (RKI, 2020b). As reporting does not relate one-to-one to the spread of infections, employing reporting data introduces additional measurement uncertainty. This would suggest working with incidence data by day of diagnosis.However, data by day of diagnosis has disadvantages as well. Not all cases reported to the RKI come with the date of diagnosis. In many cases, we only know the day of reporting. As the figures show, more than one fourth of the data of the data is still by day of reporting. For these cases, knowledge on the day of first appearance of symptoms is missing. The share the data provided by day of reporting seems to increase over time.There is one great advantage of using data by day of diagnosis. The median delay between infection and appearance of symptoms is 5.2 days with 95% lying between 2 and 12 days (Linton et al., 2020 and Lauer et al., 2020) . When we are interested in the effect of some containment measure on the number of infections and use data by day of diagnosis, we would expect that the about 50% of the effect is visible five days after the measure was implemented.",
+            "cite_spans": [
+                {
+                    "start": 1256,
+                    "end": 1280,
+                    "text": "(Linton et al., 2020 and",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 1281,
+                    "end": 1300,
+                    "text": "Lauer et al., 2020)",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Appendix B: Day of Diagnosis and Day of Reporting"
+        }
+    ]
+}

@@ -1,0 +1,2170 @@
+{
+    "paper_id": "0ad99b1509923811d9406961254a09bdb9f7fb2d",
+    "metadata": {
+        "title": "Can climatic factors explain the differences in COVID-19 incidence and severity across the Spanish regions?: An ecological study",
+        "authors": [
+            {
+                "first": "Pedro",
+                "middle": [
+                    "Mu\u00f1oz"
+                ],
+                "last": "Cacho",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "\u2020",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jos\u00e9",
+                "middle": [
+                    "L"
+                ],
+                "last": "Hern\u00e1ndez",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Marcos",
+                "middle": [],
+                "last": "L\u00f3pez-Hoyos",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "V\u00edctor",
+                "middle": [
+                    "M"
+                ],
+                "last": "Mart\u00ednez-Taboada",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: Environmental factors play a central role in seasonal epidemics. SARS-CoV-2 infection in Spain has shown a heterogeneous geographical pattern This study aimed to assess the influence of several climatic factors on the infectivity of SARS-CoV-2 and the severity of COVID-19 among the Spanish Autonomous Communities (AA.CC.). Methods: Data on coronavirus infectivity and severity of COVID-19 disease, as well as the climatic variables were obtained from official sources (Ministry of Health and Spanish Meteorological Agency, respectively). To assess the possible influence of climate on the development of the disease, data on ultraviolet radiation (UVR) were collected during the months before the start of the pandemic. To analyze its influence on the infectivity of SARS-CoV-2, data on UVR, temperature, and humidity were obtained from the months of highest contagiousness to the peak of the pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results: From October 2019 to January 2020, mean UVR was significantly related not only to SARS-CoV-2 infection (cumulative incidence -previous 14 days-\u00d7 10 5 habitants, rho = \u2212 0.0,666; p = 0.009), but also with COVID-19 severity, assessed as hospital admissions (rho = \u2212 0.626; p = 0.017) and ICU admissions (rho = \u2212 0.565; p = 0.035). Besides, temperature (February: rho = \u2212 0.832; p < 0.001 and March: rho = \u2212 0.904; p < 0.001), was the main climatic factor responsible for the infectivity of the coronavirus and directly contributed to a different spread of SARS-CoV-2 across the Spanish regions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Conclusions: Climatic factors may partially explain the differences in COVID-19 incidence and severity across the different Spanish regions. The knowledge of these factors could help to develop preventive and public health actions against upcoming outbreaks of the disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Although we still do not know whether the SARS-CoV-2 pandemic will follow a seasonal pattern, several lines of evidence seem to support this possibility [1] . The appearance of the initial cases in China during the wintertime and the extraordinary spread of the infection during this period of the year are noted first [2] . Secondly, epidemics caused by other coronaviruses including SARS-CoV also occur during the winter months [3, 4] . In this sense, the fast spread of viral infection around the world, especially in temperate climates, resembles the similar seasonal pattern of other respiratory viral epidemics [5, 6] . Finally, based on epidemiologic models, a theoretical new wave of SARS-CoV-2 infection would be expected during the autumn/winter of 2020-2021 [7, 8] .",
+            "cite_spans": [
+                {
+                    "start": 153,
+                    "end": 156,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 319,
+                    "end": 322,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 430,
+                    "end": 433,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 434,
+                    "end": 436,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 617,
+                    "end": 620,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 621,
+                    "end": 623,
+                    "text": "6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 769,
+                    "end": 772,
+                    "text": "[7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 773,
+                    "end": 775,
+                    "text": "8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background"
+        },
+        {
+            "text": "If a seasonal pattern is expected, the analysis of environmental factors potentially involved in SARS-CoV-2 spreading, including the effect of climatic factors, might be an important issue to consider [4] . In fact, data on the influence of both temperature and humidity, reveals a clear association between these climatic parameters and virus survival and infectivity [9, 10] . Other factors, such as the amount of ultraviolet radiation (UVR), have not been explored in detail for SARS-CoV-2, but might be also critical to explain the epidemiological characteristics of this infection, as occur with other viral diseases [11, 12] . Although these environmental factors are not modifiable, some host defense mechanisms can interact or be directly related to them. In this regard, UVR has been used as a surrogate marker of vitamin D status in multiple studies [1, 13] , and low UVR during the wintertime has been associated with the seasonal pattern of several viral infections [13, 14] . Vitamin D is a hormone related to multiple effects on the innate and acquired immune system and also involved in the proper production of antimicrobial peptides [13, 15] . Furthermore, there is some evidence to support the use of vitamin D supplements for the prevention of influenza or other respiratory viral infections [16] .",
+            "cite_spans": [
+                {
+                    "start": 201,
+                    "end": 204,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 369,
+                    "end": 372,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 373,
+                    "end": 376,
+                    "text": "10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 622,
+                    "end": 626,
+                    "text": "[11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 627,
+                    "end": 630,
+                    "text": "12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 860,
+                    "end": 863,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 864,
+                    "end": 867,
+                    "text": "13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 978,
+                    "end": 982,
+                    "text": "[13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 983,
+                    "end": 986,
+                    "text": "14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1150,
+                    "end": 1154,
+                    "text": "[13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1155,
+                    "end": 1158,
+                    "text": "15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1311,
+                    "end": 1315,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background"
+        },
+        {
+            "text": "Italy and Spain, two Southern European countries, have been hit by the COVID-19 pandemic in an extremely virulent way. Both are located in temperate zones of the Northern hemisphere, share a similar latitude, and have reached very high rates of SARS-CoV-2 infection and lethality [17] . Interestingly, SARS-CoV-2 infection in both countries has shown a heterogeneous geographical pattern. In fact, some differences between Autonomous Communities (AA.CC) in Spain are especially striking. Different factors might explain these regional differences, including human and environmental ones (5) , and therefore, the assessment of climatic factors might provide a clue to deepen understanding about these differences and to design preventive measures.",
+            "cite_spans": [
+                {
+                    "start": 280,
+                    "end": 284,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 587,
+                    "end": 590,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background"
+        },
+        {
+            "text": "Taking into account the above considerations, we aimed to assess the possible influence of UVR, temperature, and humidity on the incidence of SARS-CoV-2 infection and the severity of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Background"
+        },
+        {
+            "text": "This is an ecological study (multiple-group design) [18] , with data from different Spanish geographic areas correlating two variables: national epidemiological indicators of COVID-19 and three meteorological variables: UVR, temperature, and relative humidity.",
+            "cite_spans": [
+                {
+                    "start": 52,
+                    "end": 56,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Material and methods"
+        },
+        {
+            "text": "Data on infectivity and severity of COVID-19 as well as climatic variables were obtained from national official sources (Ministry of Health; https://www.mscbs.gob.es) and Spanish Meteorological Agency (upon request: until March 31, 2020), respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "To assess the possible influence of the climatic factors on the development of the disease, data of UVR were collected during the months before the start of the pandemic in Spain (October 201 9-January 2020). UVR was measured in joules per square meter (J/m 2 ), calculating the monthly averages of total radiation for the 4 months before the pandemic onset in Spain. Data on UVR was provided for 14 out of the 17 AA.CC. (official data provided were lacking for La Rioja, Navarra, and Asturias, which represents approximately 4.2% of the total Spanish population). We use the cumulative incidence (previous 14 days) \u00d7 10 5 inhabitants, preceding March 30 as the infectivity indicator, the date when the peak of the incidence of new cases in Spain was reached.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "To assess the possible influence on the infectivity of SARS-CoV-2 [9] [10] [11] , data on UVR (J/m 2 ), temperature (\u00b0C), and relative humidity (%) were also collected from the months with the highest infectivity (February and March 2020) to the peak of the pandemic in our country. For temperature and relative humidity, we used data from the same AA.CC of which we had UVR information. The meteorological variables of February and March have correlated with the cumulative incidence (previous 14 days) \u00d7 10 5 inhabitants, on March 15 and April 15, respectively, to capture the whole impact of the previous month [19] . Data on cumulative incidence (previous 14 days) \u00d7 10 5 inhabitants at the different time points of the study are shown in Supplementary Table 1 .",
+            "cite_spans": [
+                {
+                    "start": 66,
+                    "end": 69,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 70,
+                    "end": 74,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 75,
+                    "end": 79,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 614,
+                    "end": 618,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 743,
+                    "end": 764,
+                    "text": "Supplementary Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Data collection"
+        },
+        {
+            "text": "Climatic parameters (temperature, UVR, and relative humidity) were considered as independent variables and epidemiological variables related to COVID-19 (cumulative incidence during the previous 14 days, total cases, newly diagnosed cases, hospital admissions, intensive care unit (ICU) admissions, and mortality, all referring to the period from 1 to 30 March 2020) were analyzed as dependent variables. Linear regression models were built to assess the relationship between variables [20] , and R 2 was used to quantify the percentage of variation in the values of the dependent variable that can be explained by the variation in the independent variables. Spearman's rho was used to analyze the correlation between variables. The Jonckheere-Terpstra test was used to determine the significance of a trend in the climatic data. A p-value < 0.05 was considered significant in all the calculations. All the statistical analysis of data was carried out with the IBM SPSS Statistics for Windows, version 25 (IBM Corp., Armonk, N.Y., USA).",
+            "cite_spans": [
+                {
+                    "start": 486,
+                    "end": 490,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "As solar radiation, primarily acting through UVR, is the main factor involved in vitamin D synthesis [13] , we first explore the accumulated dose of UVR during the months before the start of the pandemic in Spain. The average UVR from October 2019 to January 2020 was significantly related to SARS-CoV-2 infection (cumulative incidence during the previous 14 days, rho = \u2212 0.666; p = 0.009) ( Fig. 1 and Table 1 ). Regions with the highest accumulated UVR radiation during the previous months displayed the lowest cumulative incidence of SARS-CoV-2 infection. The association between UVR and SARS-CoV-2 infection remained significant after excluding the Canary Islands (a Spanish region located at a quite different latitude than Southern Spain) ( Table 1 and Supplementary Figure 1 ). Furthermore, accumulated UVR was also related to COVID-19 severity assessed as hospital admissions (rho = \u2212 0.626; p = 0.017) and ICU admissions (rho = \u2212 0.565; p = 0.035) ( Table 1) .",
+            "cite_spans": [
+                {
+                    "start": 101,
+                    "end": 105,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 393,
+                    "end": 399,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 404,
+                    "end": 411,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 748,
+                    "end": 755,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 774,
+                    "end": 782,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 960,
+                    "end": 968,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Previous studies have suggested that both temperature and humidity are relevant for viral survival and infectivity [10, 20] and, therefore, we have also explored whether differences in these factors among the Spanish AA.CC. might explain the different incidence of COVID-19 in Spain. Furthermore, direct UVR might also contribute to viral load and inactivation, although data for SARS-CoV on this matter are scarce [21] .",
+            "cite_spans": [
+                {
+                    "start": 115,
+                    "end": 119,
+                    "text": "[10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 120,
+                    "end": 123,
+                    "text": "20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 415,
+                    "end": 419,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The impact of climatic conditions on SARS-CoV-2 infectivity was studied independently during February and March 2020 for several reasons. Firstly, and from a climatological point of view, both months have been characterized by atypical weather conditions in Spain. Thus, February has been a drier and warmer month than usual and, on the other hand, March had a particularly high rainfall. Besides, February can more accurately reflect the influence of meteorological variables on infectivity after the arrival of SARS-CoV-2 infection in Spain from abroad. However, in March, in addition to having increased person-to-person transmission, the impact of outdoor conditions could be less relevant due to the strict confinement measures imposed on March 13, 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "As shown in Fig. 2 , the main climatic factor responsible for the differences in SARS-CoV-2 infection (in terms of cumulative incidence during the previous 14 Fig. 1 Relationship between cumulative UV radiation before the pandemic and cumulative incidence of SARS-CoV-2 infection across the Spanish AA.CC. Ultraviolet radiation was measured in joules per square meter (J/m 2 ), calculating the monthly average total radiation for the 4 months (October to January) before the pandemic onset in Spain days \u00d7 10 5 habitants) was the temperature, both during February (rho = \u2212 0.832; p < 0.001) and March (rho = \u2212 0.904; p < 0.001). Spanish regions with the highest temperature had the lower incidence of infection ( Fig. 2a  and d) . However, statistical significance of the association with SARS-CoV-2 infectivity was not reached for direct UVR (Fig. 2b and e) and relative humidity ( Fig. 2c and f) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 12,
+                    "end": 18,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 159,
+                    "end": 165,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 713,
+                    "end": 728,
+                    "text": "Fig. 2a  and d)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 843,
+                    "end": 858,
+                    "text": "(Fig. 2b and e)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 883,
+                    "end": 897,
+                    "text": "Fig. 2c and f)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Additional evidence for a hierarchy in climatic factors, depending on the time of infection, is shown in Fig. 3 . As can be seen, the temperature (Fig. 3a) , both at the beginning of the infection and during March 2020, shows a significant association with SARS-CoV-2 infection. On the other hand, during the same month, and despite increased UV radiation, no significant effect on infectivity was clearly shown (Fig. 3b) . Again, we found no significant differences regarding relative humidity according to the tertiles of SARS-Cov-2 infection (Fig. 3c ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 105,
+                    "end": 111,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 146,
+                    "end": 155,
+                    "text": "(Fig. 3a)",
+                    "ref_id": null
+                },
+                {
+                    "start": 412,
+                    "end": 421,
+                    "text": "(Fig. 3b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 545,
+                    "end": 553,
+                    "text": "(Fig. 3c",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Our study shows that differences in SARS-CoV-2 infection rates and COVID-19 severity across Spanish regions are related to UVR exposure in the preceding months. Furthermore, temperature seems to also play a crucial role in SARS-CoV-2 infectivity and could explain, at least in part, the differences across the different AA.CC.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The two major contributing factors for the seasonal pattern of the respiratory viruses are the changes in the environmental parameters and human behavior [5] . Here, we show data that provide a clue to understanding one of the main environmental parameters, such as climatic conditions. Thus, regardless of other relevant factors, we found that low UVR in the months preceding the pandemic could explain, at least in part, the differences in the infectivity and severity of SARS-CoV-2 infection across the different Spanish regions. The possible influence of UVR in the severity of SARS-CoV-2 infection might be related to the selection of patients tested for SARS-CoV-2 in Spain, although the role of sun exposure should not be discarded. In fact, UVR is the main source of vitamin D (13) , and it is tempting to speculate that vitamin D deficiency could predispose individuals to SARS-CoV-2 infection. Without a high dietary (or supplemental) intake of vitamin D, sun exposure is essential to avoid vitamin D insufficiency. Furthermore, previous studies suggest that low serum 25-hydroxyvitamin D (25OHD) levels are associated with an increased risk of acute respiratory infections in a dose-dependent manner and irrespective of age [22] . The accumulated UVR before starting the pandemic was not only associated with the rate of SARS-CoV-2 infection but also significantly related to the severity of the disease, in terms of hospitalization and ICU admission. In Spain, the majority of serious cases have affected Fig. 3 Relationship between climatic factors and infectivity across the Spanish AA.CC grouped according to tertiles of cumulative incidence of SARS-CoV-2. Data on UVR (J/m 2 ), temperature (\u00b0C), and relative humidity (%) were collected from the months with the highest infectivity (February and March 2020). T1, T2, and T3 tertiles refer to AA.CC with low, medium, or high cumulative incidence (previous 14 days) \u00d7 10 5 inhabitants, of SARS-CoV-2 infection. Statistical differences* (p) in tertiles of the cumulative incidence in the two periods analyzed, for each of the meteorological variables elderly patients, those with associated comorbidities and, with special virulence, nursing home residents (Ministry of Health; https://www.mscbs.gob.es). In a great number of these individuals, serum 25OHD levels are usually low [23] [24] [25] [26] , and therefore might contribute to the exceedingly high COVID-19 severity and lethality they present. Besides, vitamin D deficiency has been found to also contribute to acute respiratory distress syndrome [27] , the most frequent severe complication related to COVID-19 mortality [28] . Preliminary data from our group suggests that patients with COVID-19 have especially low levels of circulating 25OHD at hospital admission (data not shown). Although we do not have information on serum 25OHD levels in patients with a mild disease not requiring hospitalization, advice on personal sun exposure or treatment with vitamin D supplements (if needed) might be an easy, cheap and effective option to decrease SARS-CoV-2 impact.",
+            "cite_spans": [
+                {
+                    "start": 154,
+                    "end": 157,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 785,
+                    "end": 789,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1235,
+                    "end": 1239,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 2343,
+                    "end": 2347,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 2348,
+                    "end": 2352,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 2353,
+                    "end": 2357,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 2358,
+                    "end": 2362,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 2569,
+                    "end": 2573,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 2644,
+                    "end": 2648,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1517,
+                    "end": 1523,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "On the other hand, several studies have pointed out the role of climatic factors on the SARS-CoV-2 infectivity. In this regard, the impact of temperature and humidity on respiratory virus stability and transmission rates seems to be crucial (5) . Furthermore, as previously reported, heating and UVR can efficiently eliminate the viral infectivity of other SARS coronaviruses [21] . Therefore, investigating the effect of these climatic aspects on SARS-CoV-2 infection might also provide a clue to explain the differences in the spread of new cases of COVID-19 across the Spanish regions. We have found, in agreement with previous reports [4] , that cold temperature usually provides a conducive environmental condition for virus survival. Here, we demonstrate that temperature is the most relevant factor in explaining the extrinsic variation in the survival of the virus.",
+            "cite_spans": [
+                {
+                    "start": 241,
+                    "end": 244,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 376,
+                    "end": 380,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 639,
+                    "end": 642,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Although there are no data on the impact of UVR on the infectivity of SARS-CoV-2, the trend towards a possible role of UVR during February (rho = \u2212 0.455; p = 0.102), could suggest that in months with higher solar radiation, it could have a certain effect on it. Despite a higher UVR during March, the data may be masked by the confinement measures imposed by the Spanish Government. It is interesting to highlight that changes in host behavior, especially more time spent indoors, might also be followed by a less relevant role of some outdoor factors [29] .",
+            "cite_spans": [
+                {
+                    "start": 553,
+                    "end": 557,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Although low humidity seems to be a more critical environmental factor influencing the outbreak of human coronavirus disease in China [4, 10] , our results in Spain did not show the same pattern. These divergences with the data reported from China may have several explanations. Thus, the narrow range of relative humidity in Spain during this winter might not allow detecting this effect of humidity on the risk of infection. Besides, we do not have data on absolute humidity, which, as some authors have suggested, may be a better indicator of the impact of this climatic variable [19] . As previously stated, this divergence might be the result of differences in temperature or other climatic factors, and also of changes in host behavior induced by the pandemic itself and by the imposed confinement measures. Wintertime in temperate climates is usually linked to more time spent indoors where contacts are closer. Furthermore, the number of people-to-people contacts significantly increases on indoor settings during the progression of the pandemic, especially in hospitals and nursing homes, the two places that include the population hardest hit by the SARS-CoV-2 pandemic in Spain (elderly people and health care workers), while local weather conditions might have minor effects on the contacts. This seasonal and confinement situation also translates into low indoor relative humidity, which might also accelerate the spread of the virus [5] . Finally, contradictory results regarding the influence of climatic factors in other countries have also been obtained with other coronaviruses, such as MERS-SARS [30, 31] . Thus, it could be possible that viral infectivity might change depending on the particular climate conditions of each location.",
+            "cite_spans": [
+                {
+                    "start": 134,
+                    "end": 137,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 138,
+                    "end": 141,
+                    "text": "10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 583,
+                    "end": 587,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1447,
+                    "end": 1450,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1615,
+                    "end": 1619,
+                    "text": "[30,",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1620,
+                    "end": 1623,
+                    "text": "31]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our study has several limitations. Firstly, data on patients infected with SARS-CoV-2 are obtained from the Spanish Government official sources. This data might underestimate the real data on infection as only patients with more symptomatic and severe manifestations have been tested up to now. However, we consider that this aspect does not influence the findings of this study since the same national policy has been applied in all Spanish regions since the start of the pandemic. Secondly, the number of hospitalizations and ICU admissions are more reliable markers of disease severity, although the inverse association of severity and UVR might also reflect the selection of only moderate to severe COVID-19 symptomatic cases. Nevertheless, the number of deaths might also be underestimated, since many deaths that occur outside of hospitals have probably not been accounted as related to SARS-CoV-2 infection. Thirdly, epidemiological data might have been affected by the time of interventions since March 13, 2020, when the alarm status was imposed by the Spanish Government. However, it is possible that the confinement of the population did not have a relevant effect on our results of accumulated UVR impact since the analysis was performed with data from April 1, 2020 and, given the incubation period of the disease, the impact on the results has likely been minimal. Thirdly, official climatic data on three regions of Spain (La Rioja, Navarra, and Asturias) were not provided, but we thought that the findings we have presented provide also relevant information as representing more than 95% of the Spanish population. Finally, a possible limitation of the study is that the so-called ecological fallacy may have been committed, that is to failure in reasoning that arises when an inference is made about an individual based on aggregate data for a group. Therefore, the design used serves to propose hypotheses that must be corroborated with other epidemiological designs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In summary, the results of our study support the influence of climatic factors on the incidence and severity of SARS-COV-2 infection and might explain, at least in part, the differences observed across the different Spanish regions. Thus, meteorological information should be integrated into a future forecast of a potential new outbreak of SARS-CoV-2. If the influence of UVR on circulating serum 25OHD levels in patients with COVID-19 is confirmed, the potential preventive treatment with vitamin D supplementation in high-risk groups for SARS-CoV-2 infection, especially in those individuals with vitamin D deficiency, merits further investigation in well-designed randomized controlled trials.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Supplementary information accompanies this paper at https://doi.org/10. 1186/s12940-020-00660-4.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary information"
+        },
+        {
+            "text": "Additional file 1: Supplementary Table 1 . Cumulative incidence -previous 14 days-\u00d7 10 5 inhabitants in the different study periods across the Spanish regions. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 33,
+                    "end": 40,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Supplementary information"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The seasonality of pandemic and non-pandemic influenzas: the roles of solar radiation and vitamin D",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Juzeniene",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kwitniewski",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Polev",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Lagunova",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dahlback",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Int J Infect Dis",
+            "volume": "14",
+            "issn": "",
+            "pages": "1099--105",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2010.09.002"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "1199--207",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001316"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Epidemiology and clinical presentations of the four human coronaviruses 229E, HKU1, NL63, and OC43 detected over 3 years using a novel multiplex real-time PCR method",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Gaunt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hardie",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Claas",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Simmonds",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Templeton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Clin Microbiol",
+            "volume": "48",
+            "issn": "",
+            "pages": "2940--2947",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JCM.00636-10"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Potential factors influencing repeated SARS outbreaks in China",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Thilakavathy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph17051633"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Seasonality of respiratory viral infections",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Moriyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hugentobler",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Iwasaki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1146/annurev-virology-012420-022445"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Global environmental drivers of influenza",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Deyle",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Maher",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hernandez",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Basu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sugihara",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "113",
+            "issn": "",
+            "pages": "13081--13087",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1607747113"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Potential impact of seasonal forcing on a SARS-CoV-2 pandemic",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Neher",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Dyrdak",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Druelle",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hodcroft",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Albert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Swiss Med Wkly",
+            "volume": "150",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.4414/smw.2020.20224"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Projecting the transmission dynamics of SARS-CoV-2 through the postpandemic period",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kissler",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tedijanto",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Goldstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Grad",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lipsitch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "",
+            "pages": "860--868",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abb5793"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The effects of temperature and relative humidity on the viability of the SARS coronavirus",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Peiris",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Poon",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yuen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Seto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Adv Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1155/2011/734690"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "High Temperature and High Humidity Reduce the Transmission of COVID-19. Rochester: Social Science Research Network",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lv",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Low temperature and low UV indexes correlated with peaks of influenza virus activity in northern Europe during",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ianevski",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Zusinaite",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Shtaida",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kallio-Kokko",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Valkonen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Viruses",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/v11030207"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The relationship of meteorological conditions to the epidemic activity of respiratory syncytial virus",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yusuf",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Piedimonte",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Auais",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Demmler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Krishnan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Van Caeseele",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Epidemiol Infect",
+            "volume": "135",
+            "issn": "",
+            "pages": "1077--90",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/S095026880600776X"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The role of UV radiation and vitamin D in the seasonality and outcomes of infectious disease",
+            "authors": [
+                {
+                    "first": "Coussens",
+                    "middle": [],
+                    "last": "Abhimanyu",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Photochem Photobiol Sci",
+            "volume": "16",
+            "issn": "",
+            "pages": "314--338",
+            "other_ids": {
+                "DOI": [
+                    "10.1039/c6pp00355a"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "High-dose vitamin D3 reduces deficiency caused by low UVB exposure and limits HIV-1 replication in urban southern Africans",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Coussens",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Naude",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Goliath",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chaplin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wilkinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Jablonski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "112",
+            "issn": "",
+            "pages": "8052--8059",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1500909112"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Age and low levels of circulating vitamin D are associated with impaired innate immune function",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Alvarez-Rodriguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lopez-Hoyos",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Garcia-Unzueta",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Amado",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Cacho",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Martinez-Taboada",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Leukoc Biol",
+            "volume": "91",
+            "issn": "",
+            "pages": "829--867",
+            "other_ids": {
+                "DOI": [
+                    "10.1189/jlb.1011523"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Vitamin D supplementation to prevent acute respiratory tract infections: systematic review and meta-analysis of individual participant data",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Martineau",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jolliffe",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hooper",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Greenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Aloia",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Bergman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "BMJ",
+            "volume": "356",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.i6583"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Cross-Country Comparison of Case Fatality Rates of COVID-19/SARS-COV-2. Osong Public Health Res Perspect",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Khafaie",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Rahim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "11",
+            "issn": "",
+            "pages": "74--80",
+            "other_ids": {
+                "DOI": [
+                    "10.24171/j.phrp.2020.11.2.03"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Modern epidemiology",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Rothman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Greenland",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Lash",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "511--532",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Humidity and Latitude Analysis to Predict Potential Spread and Seasonality for COVID-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sajadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Habibzadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vintzileos",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shokouhi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Miralles-Wilhelm",
+                    "suffix": ""
+                },
+                {
+                    "first": "Amoroso",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Temperature",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Social Science Research Network. Available",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Applied regression analysis and generalized linear models",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fox",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Stability of SARS coronavirus in human specimens and environment and its sensitivity to heating and UV irradiation",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Duan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Pi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Biomed Environ Sci",
+            "volume": "16",
+            "issn": "",
+            "pages": "246--55",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Vitamin D: Immunomodulatory Aspects",
+            "authors": [
+                {
+                    "first": "Miraglia",
+                    "middle": [],
+                    "last": "Del Giudice",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Indolfi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Strisciuglio",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proceedings from the 9th Probiotics, Prebiotics and New Foods, Nutraceuticals and Botanicals for Nutrition & Human and Microbiota Health Meeting",
+            "volume": "52",
+            "issn": "",
+            "pages": "86--88",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/mcg.0000000000001112"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Vitamin D deficiency in Spain: a population-based cohort study",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Gonz\u00e1lez-Molero",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Morcillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Vald\u00e9s",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "P\u00e9rez-Valero",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Botas",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Delgado",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Eur J Clin Nutr",
+            "volume": "65",
+            "issn": "",
+            "pages": "321--329",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/ejcn.2010.265"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Relation between vitamin D andgeriatric syndrome",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Azzam",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Elsabbagh",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Elgayar",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Younan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Nutr ESPEN",
+            "volume": "35",
+            "issn": "",
+            "pages": "123--130",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.clnesp.2019.10.016"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Level of vitamin 25 (OH) D and B group vitamins and functional efficiency among the chronically ill elderly in domiciliary care -a pilot study",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kocka",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "\u015alusarska",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Nowicki",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Bartoszek",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rudnicka-Dro\u017cak",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Panasiuk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Ann Agric Environ Med",
+            "volume": "26",
+            "issn": "",
+            "pages": "489--95",
+            "other_ids": {
+                "DOI": [
+                    "10.26444/aaem/105801"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "High prevalence of hypovitaminosis D in institutionalized elderlyiIndividuals is associated with summer in a region with high ultraviolet radiation levels",
+            "authors": [
+                {
+                    "first": "Ses",
+                    "middle": [],
+                    "last": "Sousa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Sales",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jrt",
+                    "middle": [],
+                    "last": "Ara\u00fajo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kcm",
+                    "middle": [],
+                    "last": "Sena-Evangelista",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lima",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lfc",
+                    "middle": [],
+                    "last": "Pedrosa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nutrients",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/nu11071516"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Vitamin D deficiency contributes directly to the acute respiratory distress syndrome (ARDS)",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Dancer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Parekh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lax",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Souza",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bassford",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Thorax",
+            "volume": "70",
+            "issn": "",
+            "pages": "617--641",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/thoraxjnl-2014-206680"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a singlecentered, retrospective, observational study",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Respir Med",
+            "volume": "8",
+            "issn": "",
+            "pages": "475--81",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2213-2600(20)30079-5"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Influenza seasonality: lifting the fog",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lipsitch",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Viboud",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "106",
+            "issn": "",
+            "pages": "3645--3651",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.0900933106"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Stability of Middle East respiratory syndrome coronavirus (MERS-CoV) under different environmental conditions",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Van Doremalen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bushmaker",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Munster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Euro Surveill",
+            "volume": "18",
+            "issn": "40",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2807/1560-7917.es2013.18.38.20590"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Climate factors and incidence of Middle East respiratory syndrome coronavirus",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Altamimi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ahmed",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect Public Health",
+            "volume": "13",
+            "issn": "",
+            "pages": "704--712",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jiph.2019.11.011"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Publisher's Note",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Relationship between climatic factors and infectivity of SARS-CoV-2 across the Spanish AA.CC. Data on UVR (J/m 2 ), temperature (\u00b0C), and relative humidity (%) were collected from the months with the highest infectivity. These meteorological variables were correlated with the cumulative incidence (previous 14 days) \u00d7 10 5 inhabitants, on March 15 for February climate variables and on April 15 for March climate variables. *p < 0.001",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "from the pandemic onset until March 30, 2020 14 AA.CC: Autonomous Communities in Spain without La Rioja, Navarra, and Asturias (see Material and Methods); 13 AA.CC: all Autonomous Communities in Spain with data available excluding the Canary Islands",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Relationship between cumulative UV radiation before the pandemic and cumulative incidence of SARS-CoV-2 infection across the Spanish AA.CC. except Canary Islands. Abbreviations AA.CC.: Spanish Autonomous Communities; UVR: Ultraviolet ration; ICU: Intensive Care Unit; 25OHD: 25-hydroxyvitamin D",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Relationship between total UVB radiation from October 2019 to January 2020 and epidemiological and severity parameters of COVID-19 disease \u00d7 100,000 inhabitants in the Spanish Autonomous Communities (AA.CC.) with official data",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Andr\u00e9 Renaldo for help with English editing.Authors' contributions PM and VMT designed the research and collected data; PM analyzed the data; VMT and JLH wrote the manuscript; MLH critically revised the manuscript. All authors discussed the results and contributed to the final paper. The author(s) read and approved the final manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "Not applicable. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "Not applicable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests"
+        }
+    ]
+}

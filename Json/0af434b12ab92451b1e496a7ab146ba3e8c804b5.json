@@ -1,0 +1,1121 @@
+{
+    "paper_id": "0af434b12ab92451b1e496a7ab146ba3e8c804b5",
+    "metadata": {
+        "title": "Prospective validation study of prognostic biomarkers to predict adverse outcomes in patients with COVID-19: a study protocol",
+        "authors": [
+            {
+                "first": "Benjamin",
+                "middle": [],
+                "last": "Tang",
+                "suffix": "",
+                "affiliation": {},
+                "email": "benjamin.tang@sydney.edu.au"
+            },
+            {
+                "first": "Maryam",
+                "middle": [],
+                "last": "Shojaei",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ya",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Marek",
+                "middle": [],
+                "last": "Nalos",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Anthony",
+                "middle": [],
+                "last": "Mclean",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ali",
+                "middle": [],
+                "last": "Afrasiabi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tim",
+                "middle": [
+                    "N"
+                ],
+                "last": "Kwan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Win",
+                "middle": [
+                    "Sen"
+                ],
+                "last": "Kuan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yoann",
+                "middle": [],
+                "last": "Zerbib",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Velma",
+                "middle": [],
+                "last": "Herwanto",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Gunawan",
+                "middle": [],
+                "last": "Gunawan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Davide",
+                "middle": [],
+                "last": "Bedognetti",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Gabriele",
+                "middle": [],
+                "last": "Zoppoli",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Alberto",
+                "middle": [],
+                "last": "Ballestrero",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Darawan",
+                "middle": [],
+                "last": "Rinchai",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Paolo",
+                "middle": [],
+                "last": "Cremonesi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Michele",
+                "middle": [],
+                "last": "Bedognetti",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Martin",
+                "middle": [],
+                "last": "Matejovic",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Thomas",
+                "middle": [],
+                "last": "Karvunidis",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Stephen",
+                "middle": [
+                    "P J"
+                ],
+                "last": "Macdonald",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Amanda",
+                "middle": [
+                    "J"
+                ],
+                "last": "Cox",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nicholas",
+                "middle": [
+                    "P"
+                ],
+                "last": "West",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Allan",
+                "middle": [
+                    "William"
+                ],
+                "last": "Cripps",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Klaus",
+                "middle": [],
+                "last": "Schughart",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Andrea",
+                "middle": [],
+                "last": "De Maria",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Damien",
+                "middle": [],
+                "last": "Chaussabel",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jonathan",
+                "middle": [],
+                "last": "Iredell",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Stephen",
+                "middle": [],
+                "last": "Weng",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "ethics committee with approval number 2020/ETH00886. The results of this project will be disseminated in international peer-reviewed scientific journals.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Introduction Accurate triage is an important first step to effectively manage the clinical treatment of severe cases in a pandemic outbreak. In the current COVID-19 global pandemic, there is a lack of reliable clinical tools to assist clinicians to perform accurate triage. Host response biomarkers have recently shown promise in risk stratification of disease progression; however, the role of these biomarkers in predicting disease progression in patients with COVID-19 is unknown. Here, we present a protocol outlining a prospective validation study to evaluate the biomarkers' performance in predicting clinical outcomes of patients with COVID-19. Methods and analysis This prospective validation study assesses patients infected with COVID-19, in whom blood samples are prospectively collected. Recruited patients include a range of infection severity from asymptomatic to critically ill patients, recruited from the community, outpatient clinics, emergency departments and hospitals. Study samples consist of peripheral blood samples collected into RNA-preserving (PAXgene/Tempus) tubes on patient presentation or immediately on study enrolment. Real-time PCR (RT-PCR) will be performed on total RNA extracted from collected blood samples using primers specific to host response gene expression biomarkers that have been previously identified in studies of respiratory viral infections. The RT-PCR data will be analysed to assess the diagnostic performance of individual biomarkers in predicting COVID-19-related outcomes, such as viral pneumonia, acute respiratory distress syndrome or bacterial pneumonia. Biomarker performance will be evaluated using sensitivity, specificity, positive and negative predictive values, likelihood ratios and area under the receiver operating characteristic curve. Ethics and dissemination This research protocol aims to study the host response gene expression biomarkers in severe respiratory viral infections with a pandemic potential (COVID-19). It has been approved by the local",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "An enhanced ability to predict disease progression is central to the management of the current COVID-19 crisis. As the COVID-19 crisis escalates, health services can be overwhelmed by the rapid rise in infected cases. In some locations, such as northern Italy, Mexico, Brazil and some US states, hospital beds and ventilator requirements exceeded the maximum capacity at the peak of the outbreak. In these circumstances, clinicians are often confronted with difficult triage questions: (1) Which patients should be hospitalised? (2) Which patients will need",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Strengths and limitations of this study \u25ba The study has a prospective study design, optimised to evaluate the performance of predictive biomarkers. \u25ba Data generated from this study will enhance triage across a diverse range of clinical settings during COVID-19 pandemic. \u25ba All outcomes are prespecified and have high clinical relevance to the management of patients with COVID-19. \u25ba Study limitations include potential heterogeneity in management protocols of patients with COVID-19 across different countries (eg, medications administered to patients will vary depending on clinician preference or local institutional protocol).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Open access an intensive care bed? (3) Which patients can be safely sent home for self-isolation? There is currently a lack of clinical tools to address these questions, especially in the early phase of COVID-19 illness when symptoms are often very non-specific (eg, fever, cough, anosmia), and thus not informative. Furthermore, initial symptoms may correlate poorly with clinical trajectory (eg, recovery vs deterioration). Other clinical observations such as radiographic evidence (eg, chest CT/ CT) suggestive of pneumonia or signs of hypoxaemia (eg, cyanosis, desaturation) are helpful. However, those are often late signs of impending respiratory failure. Therefore, there is an urgent need to develop new biomarkers to help identify high-risk patients with COVID-19 in the early stage of the disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "A number of biomarkers have been identified as potential candidates for risk stratification in patients with COVID-19. These biomarkers fall mainly into three broad categories: (1) routine laboratory parameters (eg, D-dimers, lactate dehydrogenase (LDH), lymphopenia), 1 2 (2) inflammatory biomarkers (eg, interleukin 6 (IL-6), C-reactive protein (CRP)), 3 4 and (3) research-only immune assays (eg, surface markers on CD4 and CD8 lymphocytes). 5 However, there are major limitations to the use of these biomarkers for risk stratification. First, they are not specific to viral illness. For example, CRP, D-dimers or IL-6 can be elevated in many non-viral conditions, such as trauma, thromboembolism and sepsis. Second, these biomarkers do not correlate well with the immune response to SARS-CoV-2, the key driver of progression in viral pneumonia. Therefore, there is a need to develop and validate biomarkers that (1) are specific to viral pneumonia, and (2) predict the risk of COVID-19 complications, such as acute respiratory distress syndrome (ARDS).",
+            "cite_spans": [
+                {
+                    "start": 355,
+                    "end": 358,
+                    "text": "3 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 445,
+                    "end": 446,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Recent studies have identified a number of immune response biomarkers that are specific to viral pneumonia. [6] [7] [8] In this study, we hypothesise that virally induced gene expression biomarkers can predict outcomes of patients with COVID-19. Here, we present a protocol for a prospective validation study to evaluate the prognostic performance of these biomarkers in patients with COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 111,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 112,
+                    "end": 115,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 116,
+                    "end": 119,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "This is a prospective validation study of previously identified gene expression biomarkers in respiratory viral infections (figure 1). All biomarkers have been identified or validated in previous studies in respiratory virus infections (except in COVID-19). [6] [7] [8] The primary objective of the study is to prospectively validate these biomarkers in a new cohort of patients with COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 258,
+                    "end": 261,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 262,
+                    "end": 265,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 266,
+                    "end": 269,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "METHOD Study design"
+        },
+        {
+            "text": "The reporting of the study will follow international best practice guidelines for prognostic studies, according to the Transparent Reporting of a Multivariable Prediction Model for Individual Prognosis or Diagnosis guideline. 9 This guideline includes a checklist to ensure completeness and transparency in reporting findings of the study.",
+            "cite_spans": [
+                {
+                    "start": 226,
+                    "end": 227,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Reporting of study findings"
+        },
+        {
+            "text": "Real-time PCR will be performed to measure the gene expression levels of selected biomarkers in peripheral blood samples of study participants. A list of representative biomarkers is shown in table 1, which are selected because they represent key molecular pathways in the host response to respiratory viral infection, and their diagnostic or prognostic performance in viral respiratory infection has already been demonstrated in recent studies. [6] [7] [8] To account for multiplicity issues, some biomarkers will be summarised as a single genomic score in data analysis. An example of a genomic score is given in table 1, where five of the selected biomarkers (TGFBI, DEFA4, LY86, BATF and HK3) are condensed into a single genomic score, based on recent analyses performed on patients with respiratory viral infection. 8 Additional novel biomarkers in respiratory infection or COVID-19 may be added pending new evidence emerging from the most recent literature.",
+            "cite_spans": [
+                {
+                    "start": 446,
+                    "end": 449,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 450,
+                    "end": 453,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 454,
+                    "end": 457,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 821,
+                    "end": 822,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Candidate biomarkers"
+        },
+        {
+            "text": "To capture the full spectrum of disease severity, we will recruit a heterogeneous patient population using convenience sampling. The target populations will be drawn from preselected sites representing six clinical settings, including: \u25ba The community. \u25ba Outpatient clinics (eg, 'Fever clinic'). \u25ba Hospital wards. \u25ba Emergency departments. \u25ba Field clinics (eg, 'Cruise ship clinic'). \u25ba Intensive care units (ICU).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient recruitment and sampling Clinical settings"
+        },
+        {
+            "text": "Eligible participants include patients whose respiratory samples, such as nasopharyngeal swab, sputum or bronchoalveolar lavage (BAL), are positive for SARS-CoV-2, as confirmed by standard virological testing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Eligible participants"
+        },
+        {
+            "text": "Respiratory samples (nasal/throat swab/sputum/BAL) collected from patients are tested for SARS-CoV-2 virus. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Virological testing"
+        },
+        {
+            "text": "Nucleic acid amplification testing using established WHO primers will be performed and, where appropriate, other tests (eg, rapid antigen assay, viral culture or serology) are used.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Open access"
+        },
+        {
+            "text": "PAXgene/Tempus blood samples are collected from study participants at presentation to the hospital/clinic or, in the case of asymptomatic patients, as soon as virus testing is performed. Follow-up blood sample collection is performed during hospitalisation or follow-up visits. We anticipate that the number of follow-up samples from each patient and the interval between follow-up samples will vary across the entire cohort. This is because the study is undertaken in multiple hospitals/institutions, with different management protocols implemented at each institution. We estimate, on average, that between one and three follow-up samples will be available for collection from each study participant. To account for this variability, we will undertake the following approaches during the analysis phase of the study, including (1) performing analysis in cohorts with matched time points (eg, days 1, 3 and 5); (2) stratifying patients into different disease stages (eg, mild vs severe); and (3) using an unbalanced linear mixed effects model to account for sampling variability.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample collection"
+        },
+        {
+            "text": "Sample processing Blood samples will be collected from individuals using the PAXgene/Tempus blood RNA system. Collected tubes will be incubated at room temperature for 4 hours following blood collection and then stored at \u221280\u00b0C. Prior to RNA isolation, tubes will be removed from \u221280\u00b0C and allowed to thaw at room temperature overnight. Total RNA will be isolated following the manufacturer's recommended protocol (PAXgene Blood RNA Kit; QIAGEN/ Tempus Spin RNA Isolation; Thermo Fisher). Quality of the resulting RNA samples will be verified on an Agilent 2100 Bioanalyzer (Agilent Technologies, Palo Alto, California); RNA concentrations will be determined using a NanoDrop ND-1000 spectrophotometer (NanoDrop Technologies, Wilmington, Delaware). Reverse transcription will be performed using the qScript cDNA SuperMix per the manufacturer's protocol (Gene Target Solutions, Australia). Quantitative PCR will be carried out using TaqMan Gene Expression Master Mix (Thermo Fisher Scientific, Australia) on a CFX384 Real-Time PCR Detection System (Bio-Rad Laboratories, Hercules, California). CFX Maestro Software will be used for gene expression analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample collection"
+        },
+        {
+            "text": "This study aims to assess the performance of an individual biomarker or a single genomic score in predicting complications of COVID-19. The types of complications are predefined in accordance with international guidelines (see below) and are included as part of the definitions for primary and secondary outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study outcomes"
+        },
+        {
+            "text": "A composite outcome is used as defined by the first occurrence of (1) any International Severe Acute Respiratory and Emerging Infection Consortium (ISARIC)-defined complications, such as viral pneumonia, ARDS or bacterial pneumonia (table 2); or (2) prolonged virus shedding; or (3) ICU admission; or (4) hospital stay >7 days. The study period to record the first occurrence of an outcome will be 28 days. Ascertainment of outcome Study participants are followed up for up to 28 days after their enrolment into the study to ascertain the occurrence of outcomes (outlined above). The outcome data will be independently assessed by a clinician who is blinded to the biomarker data and has not been involved in the design of this project or the analysis of the biomarker data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Primary outcomes"
+        },
+        {
+            "text": "Clinical data An electronic case report form (eCRF) is designed and developed based on best practice guidelines. 10 Clinical data to be collected are prespecified, again using ISARIC guidelines. These clinical data include ISARIC-defined outcomes (outlined above), study participants' demographics (age and gender), common COVID-19 symptoms, routine laboratory results and treatment. Examples of items to be included in the eCRF are provided in table 2.",
+            "cite_spans": [
+                {
+                    "start": 113,
+                    "end": 115,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Primary outcomes"
+        },
+        {
+            "text": "Study-related information is stored securely at designated study sites in accordance with ethics and research governance guidelines of each participating institution. To maintain study participant confidentiality, all laboratory ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data security and confidentiality"
+        },
+        {
+            "text": "The statistical analysis aims to generate data to evaluate the prognostic performance of an individual biomarker (or a genomic score) in predicting clinical outcomes using a prospective validation cohort. In evaluating predictive performance (see below), a prevalidated cutoff threshold (for each biomarker) or a prevalidated summary genomic score from previous studies will be used.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "STATISTICAL ANALYSIS"
+        },
+        {
+            "text": "The main predictor variable is biomarker expression level or genomic score. The main analysis (eg, sensitivity, specificity, positive and negative predictive values) is based on predetermined cut-off values for each biomarker or genomic score. Additional risk factors (eg, age, comorbidities, CRP level, lymphocyte count) will be included as predictor variables in a multivariate analysis. These additional risk factors are prespecified prior to the analyses ( ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Variable selection"
+        },
+        {
+            "text": "Multiple imputation with chained questions will be used to estimate missing values for continuous variables (eg, CRP, LDH, PCT, lymphocyte counts). 12 All other available data will be included in imputation models to create 10 imputed data sets. We will compare the distributions of each imputation data set with that of the original data to explore their stability and convergence. Using Robin's rules, we will pool the regression equations estimated from each imputation data set to generate a combined model. 13 Performance of prediction accuracy We will assess the prognostic performance of each biomarker using an established method by Metz and Zhou, as implemented in the NCSS statistical software (Utah, USA). 14 Sensitivity, specificity, positive predictive values, negative predictive values, positive likelihood ratio and negative likelihood ratio will be generated using the previously established cut-off values. For positive and negative predictive values, a range of prevalence will be provided in 5% increments (20%-40%). For all performance metrics, 95% CIs will be calculated based on the Exact (Clopper-Pearson) method. 15 Net reclassification improvement Net reclassification improvement provides an additional measure of prediction accuracy. It is performed by adding the sum total of 'true positive' and 'true negative' values Open access for each predictor variable (biomarker, age, comorbidity, symptom scores, CRP). We will also calculate the concordant and disconcordant cases. Concordant cases are defined as cases where biomarker and clinical variables (eg, age, comorbidity or symptoms) are both correct in predicting outcome. Disconcordant cases are defined as cases where either biomarker variables are correct but clinical variables are incorrect, or biomarker variables are incorrect but clinical variables are correct. Based on these data, we will calculate the net reclassification improvement index.",
+            "cite_spans": [
+                {
+                    "start": 148,
+                    "end": 150,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 512,
+                    "end": 514,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1138,
+                    "end": 1140,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data imputation"
+        },
+        {
+            "text": "Decision curve analysis will be performed to provide additional insight into the possible consequence of misclassification error. In this analysis, we assume that the harm arising from false positive is relatively limited, for example, unnecessarily admitting a patient to hospital for further monitoring but the patient does not develop any adverse outcome. We also assume that the harm of false negative is relatively serious, for example, discharging a high-risk patient to home quarantine where the patient subsequently deteriorates and dies at home. We will assign an appropriate harm to benefit ratio to determine an optimal decision threshold for clinicians. This is done by calculating the net benefit of one or more models (for instance, with and without predictive biomarker), in comparison to a default strategy of treating all or no patients. Net benefit can be defined as: the sensitivity \u00d7 prevalence \u2212 (1-specificity) \u00d7 (1-prevalence) \u00d7 w, where w is the odds at threshold probability. By defining a low threshold (treat many), an assumption can be made that harms arising from false positive are relatively limited but may increase costs and capacity, whereas defining a high threshold (treat few) could result in fewer false positives but introduce more false negatives, individuals who are still at high risk.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Decision curve analysis"
+        },
+        {
+            "text": "Assuming an event rate of 0.2 (eg, 20% of recruited subjects develop COVID-19 complications such as respiratory failure) and a sample sensitivity of 0.80, the sample size needed for a two-sided 95% sensitivity CI with a width of at most 0.2 is 350. Assuming an event rate of 0.2 and a sample specificity of 0.8, the sample size needed for a two-sided 95% specificity CI with a width of at most 0.2 is 88. The whole table sample size required is 350, so that both CIs have widths less than 0.2, the larger of the two sample sizes. Therefore, the appropriate sample size for this study is 350 patients. The sample size calculation was estimated using PASS V.15 (NCSS, Kaysville, Utah, USA).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample size calculation"
+        },
+        {
+            "text": "Study participants are not directly involved in the study design or the formulation of hypotheses, nor will they be involved in conducting the study. However, the research protocol has been reviewed by local ethics committees, which include representatives from the local community who act as a bridge between the researchers and the local population. Study results that can positively change clinical practice will be disseminated through local meetings and, when appropriate, via selected media outlets (as determined by each participating institution). Individual data will not be reported back to study participants.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "PATIENT AND PUBLIC INVOLVEMENT"
+        },
+        {
+            "text": "Informed consents are obtained from study participants or next of kin (if study participants are unable to give consent). The participant information sheet contains details of the study, the implications and constraints of the study protocols and the known side effects or any risks involved in participating in the study. It also states that a participant is free to withdraw himself/herself from the study at any time for any reason without prejudice to future care and with no obligation to give the reason to withdraw. All data will be deidentified and no patientrelated information will be revealed during analysis. The WSLHD Ethics Committee has approved the study (reference number: 2020/ETH00886). The result of this study will be published in international peer-reviewed journals.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ETHICS AND DISSEMINATION"
+        },
+        {
+            "text": "Only anonymised data will be presented for publication of the study findings.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ETHICS AND DISSEMINATION"
+        },
+        {
+            "text": "In the current COVID-19 literature, many studies that evaluate the performance of prognostic biomarkers (or clinical scores) have a high risk of bias. 11 11 The sources of biases include: (1) studies often being retrospective in design; (2) the lack of independent, external validation for identified biomarkers; (3) overfitting (this is a common problem); and (4) the lack of transparent reporting procedure in information relating to study methodologies. In this study, we have incorporated several study design features to reduce potential sources of bias. These features include: (1) using a prospective study design; (2) transparency in the study protocol and analysis workflow; and (3) all study endpoints being prespecified prior to analysis.",
+            "cite_spans": [
+                {
+                    "start": 151,
+                    "end": 156,
+                    "text": "11 11",
+                    "ref_id": null
+                },
+                {
+                    "start": 622,
+                    "end": 625,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The most common problem in prognostic studies is model overfitting. This occurs when the sample size is relatively small compared with the number of candidate biomarkers and is frequently seen in high-dimensional data sets (eg, RNA sequencing data) where hundreds of candidate biomarkers are tested against a small number of patient samples (eg, less than 30 patients). Here, we limit the number of predictor variables by preselecting a small number of candidate biomarkers that have already been validated in previous studies. To further minimise overfitting, five of these candidate biomarkers are condensed into a composite genomic score. In total, three candidate biomarkers and one composite genomic score will be validated in this prospective study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Another common problem in prognostic biomarker study design is the lack of separation between internal and external validation. Internal validation, involving trainingtesting splits of the available data or cross-validation, is usually performed during the discovery phase of the biomarkers. This is done by using a 'training' cohort (to build a prediction model) and a 'test' cohort (to test model performance). External validation, on the other hand, is usually performed using an independent data set that is distinct from the 'training' and 'test' cohorts. Many biomarker studies either do not perform external validation or do not separate internal and external validation (ie, the same data set is used for 'training', 'testing' and external validation). In this study, all selected biomarkers have already undergone internal validation in previous studies. [6] [7] [8] The new COVID-19 cohort, assembled for this study, represents a completely independent cohort that is separate from the original studies (from which these biomarkers were first discovered). This clear separation of the internal and external validation cohorts strengthens the external validity of our study.",
+            "cite_spans": [
+                {
+                    "start": 864,
+                    "end": 867,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 868,
+                    "end": 871,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 872,
+                    "end": 875,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Open access"
+        },
+        {
+            "text": "In conclusion, we have presented a detailed protocol that aims to independently evaluate the prognostic performance of several previously published gene expression biomarkers using a new cohort of patients with COVID-19 assembled for the purpose of this study. To our knowledge, this study represents the first systematic evaluation of gene expression biomarkers to predict clinical outcomes in patients with COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Open access"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Risk factors associated with acute respiratory distress syndrome and death in patients with coronavirus disease 2019 pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Intern Med",
+            "volume": "180",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamainternmed.2020.0994"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1054--62",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30566-3"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Detectable serum SARS-CoV-2 viral load (RNAaemia) is closely associated with drastically elevated interleukin 6 (IL-6) level in critically ill COVID-19 patients",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.29.20029520"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "C-Reactive protein levels in the early stage of COVID-19",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ling",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Med Mal Infect",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.medmal.2020.03.007"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Characteristics of peripheral lymphocyte subset alteration in COVID-19 pneumonia",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Nie",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect Dis",
+            "volume": "221",
+            "issn": "",
+            "pages": "1762--1771",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/infdis/jiaa150"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "A novel immune biomarker IFI27 discriminates between influenza and bacteria in patients with suspected respiratory infection",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shojaei",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Parnell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Eur Respir J",
+            "volume": "49",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1183/13993003.02098-2016"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Neutrophils-related host factors associated with severe disease and fatality in patients with influenza infection",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shojaei",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Teoh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nat Commun",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41467-019-11249-y"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "A generalizable 29-mRNA neural-network classifier for acute bacterial and viral infections",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Mayhew",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Buturovic",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Luethy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Commun",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41467-020-14975-w"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD)",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Collins",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Reitsma",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Altman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Circulation",
+            "volume": "131",
+            "issn": "",
+            "pages": "211--220",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/CIRCULATIONAHA.114.014508"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Basics of case report form designing in clinical research",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bellary",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Krishnankutty",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Latha",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Perspect Clin Res",
+            "volume": "5",
+            "issn": "",
+            "pages": "159--66",
+            "other_ids": {
+                "DOI": [
+                    "10.4103/2229-3485.140555"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Prediction models for diagnosis and prognosis of covid-19 infection: systematic review and critical appraisal",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wynants",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Van Calster",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Collins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "369",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.m1328"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Multiple imputation of missing values: update",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Royston",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Stata J",
+            "volume": "5",
+            "issn": "",
+            "pages": "188--201",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/1536867X0500500204"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Combining estimates of interest in prognostic modelling studies after multiple imputation: current practice and guidelines",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Marshall",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Altman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Holder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "BMC Med Res Methodol",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1471-2288-9-57"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Basic principles of ROC analysis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Metz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "Semin Nucl Med",
+            "volume": "8",
+            "issn": "",
+            "pages": "283--98",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0001-2998(78)80014-2"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Interval estimation for a binomial proportion",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Cai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Statist Sci",
+            "volume": "16",
+            "issn": "",
+            "pages": "101--134",
+            "other_ids": {
+                "DOI": [
+                    "10.1214/ss/1009213286"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Overall schema including recruitment and study period. Examples of COVID-19 complication include acute respiratory distress syndrome or intensive care unit admission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Hospital mortality; (2) ICU length of stay; and (3) ventilation-free days (if admitted to ICU). Definition of COVID-19 complications COVID-19 complications are defined by ISARIC (https:// isaric. tghn. org/) and represent internationally agreed consensus definitions that are endorsed by the WHO. A list of the predefined COVID-19-related complications is found in table 2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Representative examples of gene expression biomarkers selected from literature specimens, reports, collected data and administrative forms are identified by coded study identification number only. The study participants are assigned unique study IDs, administered by each participating institution.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Acknowledgements We would like to thank Derek Blankenship for his helpful review on the statistical section of the manuscript.Collaborators The \"Predicting disease progression in severe viral respiratory infections and COVID-19\" (PREDICT-19) Consortium is an international consortium formed by a group of researchers who share common interests in identifying, developing and validating clinical and/or bioinformatic tools to improve patient triage in a pandemic such as COVID-19. Competing interests AM, BT and MS hold a patent on IFI27.Patient and public involvement Patients and/or the public were not involved in the design, or conduct, or reporting, or dissemination plans of this research.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        },
+        {
+            "text": "Provenance and peer review Not commissioned; externally peer reviewed.Open access This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-commercial. See: http:// creativecommons. org/ licenses/ by-nc/ 4. 0/.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient consent for publication Not required."
+        },
+        {
+            "text": "Ya Wang http:// orcid. org/ 0000-0002-0297-8227 Win Sen Kuan http:// orcid. org/ 0000-0002-2134-7842",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ORCID iDs"
+        }
+    ]
+}

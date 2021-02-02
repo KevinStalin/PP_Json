@@ -1,0 +1,442 @@
+{
+    "paper_id": "0a7642a84828e55a3856efb09104787c8a08355c",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Brecht",
+                "middle": [],
+                "last": "Devleesschauwer",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Scott",
+                "middle": [
+                    "A"
+                ],
+                "last": "Mcdonald",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Institute for Public Health and the Environment (RIVM)",
+                    "location": {
+                        "settlement": "Bilthoven",
+                        "country": "The Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Niko",
+                "middle": [],
+                "last": "Speybroeck",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Catholic University of Louvain",
+                    "location": {
+                        "settlement": "Brussels",
+                        "country": "Belgium"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\u2022",
+                "middle": [],
+                "last": "Grant",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [
+                    "A"
+                ],
+                "last": "Wyper",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Public Health Scotland",
+                    "location": {
+                        "settlement": "Glasgow",
+                        "country": "Scotland, UK"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "The only thing that is certain about death is that upon it, no life remains, and that the risk of death during a person's lifetime is 1. These facts cannot be disputed; however, assessments over how much life has been prematurely lost upon death have led to polarised views. The impact of COVID-19 is drawing increased attention on how we approach putting a value on the life prematurely lost by death (Appleby 2020; Hanlon et al. 2020; Kirigia and Muthuri 2020) .",
+            "cite_spans": [
+                {
+                    "start": 402,
+                    "end": 416,
+                    "text": "(Appleby 2020;",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 417,
+                    "end": 436,
+                    "text": "Hanlon et al. 2020;",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 437,
+                    "end": 462,
+                    "text": "Kirigia and Muthuri 2020)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Years of life lost to premature mortality (YLL) is a frequently used population health metric, originating back to the 1940s (Haenszel 1950) . The idea is appealingly simple-instead of merely counting the number of deaths, each death is weighted as a function of the age at death, reflecting the common appreciation that deaths at young ages are more severe than deaths at advanced ages. However, there is no single unique way to operationalise the concept, reflecting the reality that YLL can never be observed. Indeed, the estimation of YLL requires assumptions on the counterfactual, parallel world that did not happen-how long would the person have lived had they not have died?",
+            "cite_spans": [
+                {
+                    "start": 125,
+                    "end": 140,
+                    "text": "(Haenszel 1950)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The debate around this normative assumption is largely centred on the choice of mortality risk that residual values for age-conditional life expectancy in YLL calculations are based on. Should they be based upon mortality risks that are country-specific, or risks that are external to the population studied, and are chosen to be aspirationally low? It may seem rational to use national life tables, reflecting the country-specific mortality risks, until we estimate residual life expectancy for sub-national units. This highlights that particular groups, such as those with a socioeconomic disadvantage, have very different mortality risks. Take Singapore, which has the highest life expectancy in the world (Institute for Health Metrics and Evaluation. GBD results tool. Global Health Data Exchange 2020). The mortality risk in Singapore is not representative for that in Scotland-for instance, the former country has a residual life expectancy for females aged 75 that is 3.67 years higher than the latter. However, looking at differences between the most and least deprived areas for this demographic in Scotland also yields a large disparity, of 2.91 years (National Records of Scotland 2016). This raises the issue of why people are comfortable with the idea that life could be valued differently between countries, but are then uncomfortable with the idea of assigning different values of residual life expectancy on the basis of an individual's sub-national location. Using a national life table furthermore creates a paradox by which increased mortality risks, of for instance the COVID-19 pandemic, could cause life expectancy to go down, which could result in a contradictory reduction in estimates of YLL (McCartney et al. 2020) .",
+            "cite_spans": [
+                {
+                    "start": 1717,
+                    "end": 1740,
+                    "text": "(McCartney et al. 2020)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "A second major point of discussion is whether YLL should be corrected for comorbidities of the deceased (Hanlon et al. 2020; Cassini et al. 2019 ). This is particularly the case for COVID-19, which frequently causes death in the old and frail, and those with underlying chronic conditions. Some thus argue that valuing the death of a 90-year-old nursing home resident with advanced cardiac decompensation using the national life expectancy for 90-year olds would ''overestimate'' YLL due to COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 124,
+                    "text": "(Hanlon et al. 2020;",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 125,
+                    "end": 144,
+                    "text": "Cassini et al. 2019",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "What these discussions make clear is the importance of transparency in documenting the exact method used to calculate YLL. Since YLL cannot be observed, they can only be estimated, and obviously, the choice of counterfactual will have a major influence on the resulting estimates. Conversely, YLL can never be ''overestimated'' or ''underestimated'', since there is no ''true'' value of YLL.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The paradoxes and pitfalls described here can be circumvented by using a ''standard'' life table, based on aspirational mortality risks. Although these mortality risks may be lower than are currently observed in countries, they have many comparative and ethical advantages. This approach ensures that we do not accept a level of mortality risk merely because we are used to it, as to do this means we lose focus of the factors and environment that are responsible for it. Importantly, assessments on the value of human life are equal between, and within, countries. This is important as it means we are upfront about the extent of national and global inequalities, and the World Health Organisation's goal of health for all and what that means (World Health Organisation 2020). Finally, through assuming a counterfactual based on a world free of disease, standard life tables allow measuring the impact of different diseases at the same level, which is essential for comparative studies such as the Global Burden of Disease study (GBD 2017 DALYs and HALE Collaborators 2018) .",
+            "cite_spans": [
+                {
+                    "start": 1030,
+                    "end": 1049,
+                    "text": "(GBD 2017 DALYs and",
+                    "ref_id": null
+                },
+                {
+                    "start": 1050,
+                    "end": 1074,
+                    "text": "HALE Collaborators 2018)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Conflict of interest BD reports he is Chair of COST Action CA18218-European Burden of Disease Network (www.burden-eu. net). SM, NS and GW report they are members of COST Action CA18218.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with ethical standards"
+        },
+        {
+            "text": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons. org/licenses/by/4.0/.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with ethical standards"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Tackling covid-19: are the costs worth the benefits?",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Appleby",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "369",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.m1496"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Attributable deaths and disability-adjusted life-years caused by infections with antibiotic-resistant bacteria in the EU and the European Economic Area in 2015: a population-level modelling analysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cassini",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "H\u00f6gberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Plachouras",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Lancet Infect Dis",
+            "volume": "19",
+            "issn": "1",
+            "pages": "30605--30609",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1473-3099(18)30605-4"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Global, regional, and national disability-adjusted life-years (DALYs) for 359 diseases and injuries and healthy life expectancy (HALE) for 195 countries and territories, 1990-2017: a systematic analysis for the Global Burden of Disease Study",
+            "authors": [
+                {
+                    "first": "Hale",
+                    "middle": [],
+                    "last": "Dalys",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Collaborators",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "GBD 2017",
+            "volume": "392",
+            "issn": "",
+            "pages": "1260--1344",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "A standardized rate for mortality defined in units of lost years of life",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Haenszel",
+                    "suffix": ""
+                }
+            ],
+            "year": 1950,
+            "venue": "Am J Public Health Nations Health",
+            "volume": "40",
+            "issn": "",
+            "pages": "17--26",
+            "other_ids": {
+                "DOI": [
+                    "10.2105/ajph.40.1.17"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "COVID-19-exploring the Implications of long-term condition type and extent of multimorbidity on years of life lost: a modelling study",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hanlon",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Chadwick",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "GBD results tool. Global Health Data Exchange",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The fiscal value of human lives lost from coronavirus disease (COVID-19) in China",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kirigia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rndk",
+                    "middle": [],
+                    "last": "Muthuri",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "BMC Res Notes",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s13104-020-05044-y"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Scaling COVID-19 against inequalities: should the policy response consistently match the mortality challenge? medRxiv",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mccartney",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Leyland",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Walsh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.05.04.20090761"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Life Expectancy for Administrative Areas within Scotland",
+            "authors": [],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "World Health Organization (2020) Priorities: Health for all",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": [
+        {
+            "text": "Acknowledgements This publication is based upon work from COST Action CA18218 (European Burden of Disease Network), supported by COST (European Cooperation in Science and Technologywww.cost.eu).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        },
+        {
+            "text": "Authors' contributions BD generated the idea for this article. GW drafted the article with substantial input from SM, NS and BD. All authors approved the submitted version of the article.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}

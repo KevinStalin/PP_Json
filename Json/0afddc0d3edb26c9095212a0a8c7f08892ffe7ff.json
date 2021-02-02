@@ -1,0 +1,1449 @@
+{
+    "paper_id": "0afddc0d3edb26c9095212a0a8c7f08892ffe7ff",
+    "metadata": {
+        "title": "Impact of the COVID-19 Pandemic on Manual Therapy Service Utilization within the Australian Private Healthcare Setting",
+        "authors": [
+            {
+                "first": "Reidar",
+                "middle": [
+                    "P"
+                ],
+                "last": "Lystad",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Macquarie University",
+                    "location": {
+                        "postCode": "2109",
+                        "settlement": "Sydney",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Benjamin",
+                "middle": [
+                    "T"
+                ],
+                "last": "Brown",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Macquarie University",
+                    "location": {
+                        "postCode": "2109",
+                        "settlement": "Sydney",
+                        "country": "Australia"
+                    }
+                },
+                "email": "benjamin.brown@mq.edu.aub.t.b."
+            },
+            {
+                "first": "Michael",
+                "middle": [
+                    "S"
+                ],
+                "last": "Swain",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Macquarie University",
+                    "location": {
+                        "postCode": "2109",
+                        "settlement": "Sydney",
+                        "country": "Australia"
+                    }
+                },
+                "email": "michael.swain@mq.edu.aum.s.s."
+            },
+            {
+                "first": "Roger",
+                "middle": [
+                    "M"
+                ],
+                "last": "Engel",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Macquarie University",
+                    "location": {
+                        "postCode": "2109",
+                        "settlement": "Sydney",
+                        "country": "Australia"
+                    }
+                },
+                "email": "roger.engel@mq.edu.aur.m.e.*correspondence:reidar.lystad@mq.edu.au"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The COVID-19 pandemic has impacted a wide range of health services. This study aimed to quantify the impact of the COVID-19 pandemic on manual therapy service utilization within the Australian private healthcare setting during the first half of 2020. Quarterly data regarding the number and total cost of services provided were extracted for each manual therapy profession (i.e., chiropractic, osteopathy, and physiotherapy) for the period January 2015 to June 2020 from the Australian Prudential Regulation Authority. Time series forecasting methods were used to estimate absolute and relative differences between the forecasted and observed values of service utilization. An estimated 1.3 million (13.2%) fewer manual therapy services, with a total cost of AUD 84 million, were provided within the Australian private healthcare setting during the first half of 2020. Reduction in service utilization was considerably larger in the second quarter (21.7%) than in the first quarter (5.7%), and was larger in physiotherapy (20.6%) and osteopathy (12.7%) than in chiropractic (5.2%). The impact varied across states and territories, with the largest reductions in service utilization observed in New South Wales (17.5%), Australian Capital Territory (16.3%), and Victoria (16.2%). The COVID-19 pandemic has had a profound impact on manual therapy service utilization in Australia. The magnitude of the decline in service utilization varied considerably across professions and locations. The long-term consequences of this decline in manual therapy utilization remain to be determined.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The novel coronavirus disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) that emerged in Wuhan, China, in December 2019 (COVID- 19) was declared a global pandemic by the World Health Organization on 11 March 2020 [1] . Major human events and natural calamities such as global pandemics have the potential to affect human behavior and access to resources, including healthcare seeking behavior and service utilization. There is emerging evidence that the COVID-19 pandemic has impacted a wide range of health services, including stroke emergency services [2] [3] [4] , medical imaging services [5, 6] , and hospice care [7] . However, the impact of the COVID-19 pandemic on manual therapy service utilization is unknown.",
+            "cite_spans": [
+                {
+                    "start": 156,
+                    "end": 159,
+                    "text": "19)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 241,
+                    "end": 244,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 582,
+                    "end": 585,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 586,
+                    "end": 589,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 590,
+                    "end": 593,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 621,
+                    "end": 624,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 625,
+                    "end": 627,
+                    "text": "6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 647,
+                    "end": 650,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In Australia, chiropractors, osteopaths, and physiotherapists are registered healthcare practitioners trained to diagnose, treat, and manage patients with musculoskeletal conditions. As of the first quarter of 2020, there were 5383 chiropractors, 2627 osteopaths, and 33,299 physiotherapists with general registration to practice in Australia [8] [9] [10] . The manual therapy services provided by these professions are predominately paid for by non-government sources (i.e., private health insurers and individuals). Studies have documented increased utilization of manual therapy services over time in Australia, albeit with diverging trends across professions [11, 12] . It has been estimated that approximately 21.6 million manual therapy services with a total cost of AUD 1.4 billion were provided within the Australian private healthcare setting annually in the period between 2013 and 2017, which represented a significant increase from the preceding five-year period [12] . It remains to be determined how these trends and figures have been impacted by the COVID-19 pandemic.",
+            "cite_spans": [
+                {
+                    "start": 343,
+                    "end": 346,
+                    "text": "[8]",
+                    "ref_id": null
+                },
+                {
+                    "start": 347,
+                    "end": 350,
+                    "text": "[9]",
+                    "ref_id": null
+                },
+                {
+                    "start": 351,
+                    "end": 355,
+                    "text": "[10]",
+                    "ref_id": null
+                },
+                {
+                    "start": 604,
+                    "end": 614,
+                    "text": "Australia,",
+                    "ref_id": null
+                },
+                {
+                    "start": 663,
+                    "end": 667,
+                    "text": "[11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 668,
+                    "end": 671,
+                    "text": "12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 975,
+                    "end": 979,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This study aimed to quantify the impact of the COVID-19 pandemic on manual therapy service utilization within the private healthcare setting in Australia. The specific objectives were to quantify the absolute and relative difference between forecasted and observed number and total cost of services during the first half of 2020 for each manual therapy profession.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Statistics on private health insurance industry activity in Australia are available from the Australian Prudential Regulation Authority (APRA) [13] . For the present study, we extracted quarterly data on the number and total cost of services for each manual therapy profession (i.e., chiropractic, osteopathy, and physiotherapy) from the first quarter (Q1) of 2015 to the second quarter (Q2) of 2020. We also extracted quarterly data on the estimated number of persons covered under private health insurance general treatment cover. A pyramid plot of the number of persons insured by sex and age group in 2020 Q2 is provided in Section A of the Supplementary Materials ( Figure S1 ). Statistics on registered healthcare practitioners are available from the Australian Health Practitioner Regulation Agency (AHPRA) and each profession's registration board [8] [9] [10] 14] . For this study, we extracted quarterly data on the number of registered providers from each manual therapy profession from 2015 Q1 to 2020 Q2. We did not include registrants listed as limited or non-practicing. We then estimated the number of providers working in the private sector for each profession as follows: For chiropractic and osteopathy, 100% of registrants were taken to be working in the private sector because neither of these professions contribute to service provision in the public sector. For physiotherapy, 63.5% of registrants were taken to be working in the private sector, as estimated by a National Health Workforce Report [15] .",
+            "cite_spans": [
+                {
+                    "start": 143,
+                    "end": 147,
+                    "text": "[13]",
+                    "ref_id": null
+                },
+                {
+                    "start": 855,
+                    "end": 858,
+                    "text": "[8]",
+                    "ref_id": null
+                },
+                {
+                    "start": 859,
+                    "end": 862,
+                    "text": "[9]",
+                    "ref_id": null
+                },
+                {
+                    "start": 863,
+                    "end": 867,
+                    "text": "[10]",
+                    "ref_id": null
+                },
+                {
+                    "start": 868,
+                    "end": 871,
+                    "text": "14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1519,
+                    "end": 1523,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 671,
+                    "end": 680,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Data Sources"
+        },
+        {
+            "text": "There are three types of private health insurance coverage in Australia: hospital treatment only, general treatment only, and combined hospital and general treatment. General treatment cover includes most services for preventing or managing injuries, diseases, and conditions that are provided outside of the hospital setting. However, it excludes services for chronic disease management that are covered by Medicare. A service was defined as one visit to a healthcare provider.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Operational Definitions"
+        },
+        {
+            "text": "All dollar values were adjusted for inflation using the Reserve Bank of Australia's online inflation calculator and reported in second quarter of 2020 Australian dollars [16] . The main outcome variables were number of services per quarter and total cost of services per quarter. The number of providers was used as the denominator to calculate the following secondary outcome variables: number of services per provider per quarter and total cost per provider per quarter. The number of individuals with general treatment cover was used as the denominator to calculate the following secondary outcome variables: number of services per 100,000 insured population per quarter and total cost of services per 100,000 insured population per quarter.",
+            "cite_spans": [
+                {
+                    "start": 170,
+                    "end": 174,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data Management and Analysis"
+        },
+        {
+            "text": "Time series forecasting involved fitting seasonal autoregressive integrated moving average (ARIMA) models of service utilization data from 2015 to 2019 using the methods described by Hyndman and Athanasopoulos [17] . The seasonal ARIMA models provided estimates that account for seasonality and trends over time. Point forecast estimates with 95% prediction intervals for 2020 Q1 and Q2 were calculated from the seasonal ARIMA models and compared against observed values. The resulting mean errors and mean percentage errors were used as measures of absolute and relative impact. All statistical analyses were conducted using R, version 3.5.1 (R Foundation for Statistical Computing, Vienna, Austria) using the forecast and hts packages.",
+            "cite_spans": [
+                {
+                    "start": 210,
+                    "end": 214,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data Management and Analysis"
+        },
+        {
+            "text": "For the three manual therapy professions combined, an estimated 1,322,370 (13.2%) fewer services were provided during the first half of 2020. The estimated reduction in total cost of services provided amounted to AUD 83,972,816 (11.5%). The combined estimated relative reduction in quarterly number and total cost of services provided was greater in Q2 (21.7% and 16.6%, respectively) than in Q1 (5.7% and 6.8%, respectively).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "During the first half of 2020, the estimated relative reduction in number of services provided was considerably larger in physiotherapy (20.6%) and osteopathy (12.7%) than in chiropractic (5.2%). Figure 1 shows a time series plot of observed values and point forecast estimates with 95% prediction intervals of the quarterly number of services provided by each manual therapy profession from 2015 to 2020 Q2. Similarly, the estimated relative reduction in the quarterly total cost of services provided was considerably larger in physiotherapy (17.0%) and osteopathy (13.1%) than in chiropractic (4.7%). Figure 2 shows a time series plot of observed values and point forecast estimates with 95% prediction intervals of the quarterly total cost of services provided by each manual therapy profession from 2015 to 2020 Q2. Table 1 provides an overview of observed values, point forecast estimates, mean absolute error, and mean absolute percentage error of the quarterly number and total cost of services provided by each manual therapy profession during 2020 Q1 and Q2. Hyndman and Athanasopoulos [17] . The seasonal ARIMA models provided estimates that account for seasonality and trends over time. Point forecast estimates with 95% prediction intervals for 2020 Q1 and Q2 were calculated from the seasonal ARIMA models and compared against observed values. The resulting mean errors and mean percentage errors were used as measures of absolute and relative impact. All statistical analyses were conducted using R, version 3.5.1 (R Foundation for Statistical Computing, Vienna, Austria) using the forecast and hts packages.",
+            "cite_spans": [
+                {
+                    "start": 1095,
+                    "end": 1099,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 196,
+                    "end": 204,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 603,
+                    "end": 611,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 820,
+                    "end": 827,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "For the three manual therapy professions combined, an estimated 1,322,370 (13.2%) fewer services were provided during the first half of 2020. The estimated reduction in total cost of services provided amounted to AUD 83,972,816 (11.5%). The combined estimated relative reduction in quarterly number and total cost of services provided was greater in Q2 (21.7% and 16.6%, respectively) than in Q1 (5.7% and 6.8%, respectively).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "During the first half of 2020, the estimated relative reduction in number of services provided was considerably larger in physiotherapy (20.6%) and osteopathy (12.7%) than in chiropractic (5.2%). Figure 1 shows a time series plot of observed values and point forecast estimates with 95% prediction intervals of the quarterly number of services provided by each manual therapy profession from 2015 to 2020 Q2. Similarly, the estimated relative reduction in the quarterly total cost of services provided was considerably larger in physiotherapy (17.0%) and osteopathy (13.1%) than in chiropractic (4.7%). Figure 2 shows a time series plot of observed values and point forecast estimates with 95% prediction intervals of the quarterly total cost of services provided by each manual therapy profession from 2015 to 2020 Q2. Table 1 provides an overview of observed values, point forecast estimates, mean absolute error, and mean absolute percentage error of the quarterly number and total cost of services provided by each manual therapy profession during 2020 Q1 and Q2. The estimated relative reduction in number and cost of services provided during the first half of 2020 varied by Australian state and territory. The estimated relative reduction in number of services provided was largest in New South Wales (17.5%), followed by Australian Capital Territory (16.3%), Victoria (16.2%), Tasmania (15.0%), South Australia (10.3%), Queensland (8.7%), Western Australia (7.9%), and Northern Territory (0.3%). Similarly, the estimated relative reduction in total cost of services provided was largest in New South Wales (15.6%) and Australian Capital Territory (15.6%), followed by Victoria (15.0%), Tasmania (11.2%), South Australia (9.3%), Western Australia (7.9%), Queensland (6.4%), and Northern Territory (0.9%). Figures 3 and 4 are heatmaps depicting the estimated mean percentage error in number and total cost of services, respectively, provided by the three manual therapy professions during the first half of 2020 across Australian states and territories.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 196,
+                    "end": 204,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 603,
+                    "end": 611,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 820,
+                    "end": 827,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1812,
+                    "end": 1827,
+                    "text": "Figures 3 and 4",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Healthcare 2020, 8, x FOR PEER REVIEW 5 of 9",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The estimated relative reduction in number and cost of services provided during the first half of 2020 varied by Australian state and territory. The estimated relative reduction in number of services provided was largest in New South Wales (17.5%), followed by Australian Capital Territory (16.3%), Victoria (16.2%), Tasmania (15.0%), South Australia (10.3%), Queensland (8.7%), Western Australia (7.9%), and Northern Territory (0.3%). Similarly, the estimated relative reduction in total cost of services provided was largest in New South Wales (15.6%) and Australian Capital Territory (15.6%), followed by Victoria (15.0%), Tasmania (11.2%), South Australia (9.3%), Western Australia (7.9%), Queensland (6.4%), and Northern Territory (0.9%). Figures 3 and 4 are heatmaps depicting the estimated mean percentage error in number and total cost of services, respectively, provided by the three manual therapy professions during the first half of 2020 across Australian states and territories. The estimated relative reduction in number and cost of services provided during the first half of 2020 varied by Australian state and territory. The estimated relative reduction in number of services provided was largest in New South Wales (17.5%), followed by Australian Capital Territory (16.3%), Victoria (16.2%), Tasmania (15.0%), South Australia (10.3%), Queensland (8.7%), Western Australia (7.9%), and Northern Territory (0.3%). Similarly, the estimated relative reduction in total cost of services provided was largest in New South Wales (15.6%) and Australian Capital Territory (15.6%), followed by Victoria (15.0%), Tasmania (11.2%), South Australia (9.3%), Western Australia (7.9%), Queensland (6.4%), and Northern Territory (0.9%). Figures 3 and 4 are heatmaps depicting the estimated mean percentage error in number and total cost of services, respectively, provided by the three manual therapy professions during the first half of 2020 across Australian states and territories. Because the number of individuals with general treatment cover and the number of manual therapy providers varied from quarter to quarter, supplementary analyses were conducted using secondary outcome variables and are presented in the Supplementary Materials (Sections B and C, respectively). These supplementary analyses generated similar estimates of the percentage change in manual therapy service utilization.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 744,
+                    "end": 759,
+                    "text": "Figures 3 and 4",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1736,
+                    "end": 1751,
+                    "text": "Figures 3 and 4",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "This is the first study to estimate the impact of the COVID-19 pandemic on manual therapy service utilization. During the first half of 2020, the COVID-19 pandemic coincided with approximately 1.3 million fewer chiropractic, osteopathy, and physiotherapy services provided within the Australian private healthcare system. The associated loss of revenue was estimated to be AUD 84 million. Physiotherapy incurred the largest relative reduction in service provision and revenue, while chiropractic was found to be the least impacted of the three manual therapy professions. Geographically, the largest relative reductions in manual therapy service utilization were observed in the south-eastern corner of mainland Australia (i.e., New South Wales, Australian Capital Territory, and Victoria).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our findings show that the COVID-19 pandemic has had a profound impact on manual therapy service utilization in Australia. It is not unexpected to observe disruption of health services during a global pandemic. While much of the initial disruption of health services has been characterized by the surge in demand for front-line care of COVID-19 patients, there has also been a concomitant reduction in or discontinuation of prevention and rehabilitation services for noncommunicable diseases. For instance, the World Health Organization reported that more than half of the countries surveyed had partially or completely disrupted services for the treatment or clinical management of hypertension, diabetes and diabetes-related complications, cancer, and cardiovascular emergencies [18] . A similar situation exists in Australia, where there have been marked reductions in a wide range of health services, including breast and prostate cancer screenings [19, 20] , pediatric orthopedic hospital services [21] , trauma care in Emergency Departments [22, 23] , and initiation of cardiopulmonary resuscitation by Emergency Medical Services in public areas [24] . It is important to note that our findings encompass only the initial disruption caused by the COVID-19 pandemic. It remains to be determined whether the decline in manual therapy service utilization persists beyond the first half of 2020, whether manual therapy service utilization returns to pre-pandemic levels after the virus has been eliminated, and whether economic factors such as sustained or transient changes in disposable income, uptake of private health insurance, and cost of services have any lasting effects on healthcare-seeking behavior and manual therapy service utilization. Future studies are encouraged to explore these unresolved questions.",
+            "cite_spans": [
+                {
+                    "start": 781,
+                    "end": 785,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 953,
+                    "end": 957,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 958,
+                    "end": 961,
+                    "text": "20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1003,
+                    "end": 1007,
+                    "text": "[21]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1047,
+                    "end": 1051,
+                    "text": "[22,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1052,
+                    "end": 1055,
+                    "text": "23]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1152,
+                    "end": 1156,
+                    "text": "[24]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The magnitude of the decline in manual therapy service utilization during the COVID-19 pandemic was not uniform across the three professions, with physiotherapy and chiropractic experiencing the largest and smallest relative reductions, respectively. The exact reason for this difference is unclear, but it may be related to differences in revenue streams (e.g., proportion derived from private health insurance) and patient characteristics (e.g., level of disposable income) across the three professions [12] . For instance, as the COVID-19 pandemic has unfolded and loss of income became more prevalent in the population, perhaps Australians have forfeited their private health insurance with general treatment cover as a cost-saving measure. While this explanation may sound reasonable given the circumstances, it does not explain why there was a larger decline in physiotherapy service utilization relative to chiropractic and osteopathy. Nor does it explain the fact that the results from our supplementary analyses of service utilization per 100,000 insured persons were very similar to our main findings, which suggests that any changes in the number of insured persons are unlikely to explain the observed differences. An alternative explanation may be differences in case-mix across the three manual therapy professions. Although this explanation is not supported by the scope of practice of the three professions, which all state that they diagnose and treat musculoskeletal conditions, industry reports indicate that physiotherapy provides more specialized services (e.g., neurological rehabilitation, geriatric services, and sports injury prevention and rehabilitation) than osteopathy and chiropractic [25, 26] . Thus, it is conceivable that public health orders and social restrictions related to the COVID-19 pandemic (e.g., stay-at-home directives, limited access to aged care facilities, and shutdown of community sport activities) may have resulted in a marked reduction in utilization of specialist physiotherapy services. Although this may explain the larger relative reduction in physiotherapy service utilization (20.6%), it does not adequately explain the differences in relative reduction in services between osteopathy (12.7%) and chiropractic (5.2%). Further research is needed to examine the factors influencing healthcare-seeking behavior and manual therapy service utilization during the COVID-19 pandemic and to elucidate the underlying reasons for the observed differences across the three manual therapy professions.",
+            "cite_spans": [
+                {
+                    "start": 505,
+                    "end": 509,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1715,
+                    "end": 1719,
+                    "text": "[25,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1720,
+                    "end": 1723,
+                    "text": "26]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "There are strengths and limitations of the present study. This research builds on our previous reports of manual therapy service utilization within the Australian private healthcare setting [11, 12] . We added an inflation adjustment for all dollar values to remove the effect of inflation from our analyses. More importantly, we applied sophisticated analytical techniques to produce forecasts that account for both seasonal variation and long-term trends across professions and geographical regions (i.e., states and territories). In an attempt to account for changes in the number of providers and people with private health insurance, we provided supplementary analyses using secondary outcome variables (i.e., number and total cost of services provided per provider and per 100,000 persons with private health insurance). These supplementary analyses produced very similar estimates of the impact of the COVID-19 pandemic on manual therapy service utilization. Lastly, because our study was limited to private health insurance data, the estimates presented herein can only be generalized to services provided under private health insurance general treatment cover.",
+            "cite_spans": [
+                {
+                    "start": 190,
+                    "end": 194,
+                    "text": "[11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 195,
+                    "end": 198,
+                    "text": "12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The COVID-19 pandemic has had a profound impact on manual therapy service utilization in Australia. The magnitude of the decline in service utilization varied considerably across professions and locations. The long-term consequences of this decline in manual therapy utilization remains to be determined.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The following are available online at http://www.mdpi.com/2227-9032/8/4/558/s1, Section A: Figure S1 : Pyramid plot depicting the number of persons insured under general treatment cover by sex and age group in the second quarter of 2020; Section B: Figure S2 : Time series plot of observed values and point forecast estimates with 95% prediction intervals of the quarterly number of services provided per 100,000 insured persons by each manual therapy profession from 2015 to 2020 Q2; Figure S3 : Time series plot of observed values and point forecast estimates with 95% prediction intervals of the quarterly total cost of services provided per 100,000 insured persons by each manual therapy profession from 2015 to 2020 Q2; Table S1 : Observed values, forecast point estimates with 95% prediction intervals, mean errors, and mean percentage errors of the quarterly number and total cost of services provided per 100,000 insured persons by each manual therapy profession in Australia during 2020 Q1 and Q2; Figure S4 : Heatmap of the estimated mean percentage error in number of services provided per 100,000 insured persons by each manual therapy profession during the first half of 2020 across Australian states and territories; Figure S5 : Heatmap of the estimated mean percentage error in total cost of services provided per 100,000 insured persons by each manual therapy profession during the first half of 2020 across Australian states and territories; Section C: Figure S6 : Time series plot of observed values and point forecast estimates with 95% prediction intervals of the quarterly number of services provided per provider by each manual therapy profession from 2015 to 2020 Q2; Figure S7 : Time series plot of observed values and point forecast estimates with 95% prediction intervals of the quarterly total cost of services provided per provider by each manual therapy profession from 2015 to 2020 Q2; Table S2 : Observed values, forecast point estimates with 95% prediction intervals, mean errors, and mean percentage errors of the quarterly number and total cost of services provided per provider by each manual therapy profession in Australia during 2020 Q1 and Q2; Figure S8 : Heatmap of the estimated mean percentage error in number of services provided per provider by each manual therapy profession during the first half of 2020 across Australian states and territories; Figure S9 : Heatmap of the estimated mean percentage error in total cost of services provided per provider by each manual therapy profession during the first half of 2020 across Australian states and territories. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 91,
+                    "end": 100,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 249,
+                    "end": 258,
+                    "text": "Figure S2",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 485,
+                    "end": 494,
+                    "text": "Figure S3",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 725,
+                    "end": 733,
+                    "text": "Table S1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1007,
+                    "end": 1016,
+                    "text": "Figure S4",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1231,
+                    "end": 1240,
+                    "text": "Figure S5",
+                    "ref_id": null
+                },
+                {
+                    "start": 1470,
+                    "end": 1479,
+                    "text": "Figure S6",
+                    "ref_id": null
+                },
+                {
+                    "start": 1691,
+                    "end": 1700,
+                    "text": "Figure S7",
+                    "ref_id": null
+                },
+                {
+                    "start": 1916,
+                    "end": 1924,
+                    "text": "Table S2",
+                    "ref_id": null
+                },
+                {
+                    "start": 2183,
+                    "end": 2192,
+                    "text": "Figure S8",
+                    "ref_id": null
+                },
+                {
+                    "start": 2392,
+                    "end": 2401,
+                    "text": "Figure S9",
+                    "ref_id": null
+                }
+            ],
+            "section": "Supplementary Materials:"
+        },
+        {
+            "text": "The authors declare no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of Interest:"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "World Health Organization. WHO Director-General's Opening Remarks at the Media Briefing on COVID-19-11",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Collateral damage-Impact of a pandemic on stroke emergency services",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Desai",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Guyette",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Martin-Gill",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Jadhav",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Stroke Cerebrovasc. Dis",
+            "volume": "29",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jstrokecerebrovasdis.2020.104988"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Effect of COVID-19 pandemic on stroke admission rates in a Norwegian population",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kristoffersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Jahr",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Thommessen",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "R\u00f8nning",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Acta Neurol. Scand",
+            "volume": "142",
+            "issn": "",
+            "pages": "632--636",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/ane.13307"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Stroke care during the COVID-19 pandemic: Experience from three large European countries",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bersano",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kraemer",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Touz\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Alamowitch",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Sibon",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pantoni",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Eur. J. Neurol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1794--1800",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/ene.14375"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "COVID-19 Pandemic impact on decreased imaging utilization: A single institutional experience",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Parikh",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Ramaiya",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Kikano",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Tirumani",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Pandya",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Stovicek",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Sunshine",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Plecha",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Acad. Radiol",
+            "volume": "27",
+            "issn": "",
+            "pages": "1204--1213",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.acra.2020.06.024"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Characteristics of coronavirus disease 2019 (COVID-19) community practice declines in noninvasive diagnostic imaging professional work",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Duszak",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Maze",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sessa",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Fleishon",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Golding",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Nicola",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hughes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Am. Coll. Radiol",
+            "volume": "17",
+            "issn": "",
+            "pages": "1453--1459",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jacr.2020.06.031"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Impact of the COVID-19 pandemic on the utilization of hospice care services: A cohort study in Taiwan",
+            "authors": [
+                {
+                    "first": "Y.-C",
+                    "middle": [],
+                    "last": "Chou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-F",
+                    "middle": [],
+                    "last": "Yen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.-C",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.-P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-L",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.-J",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Curtis",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.-Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Pain Symptom Manag",
+            "volume": "60",
+            "issn": "",
+            "pages": "1--6",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jpainsymman.2020.07.005"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "The provision of chiropractic, physiotherapy and osteopathic services within the Australian private health-care system: A report of recent trends",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Engel",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Swain",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Lystad",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Chiropr. Man. Therap",
+            "volume": "22",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/2045-709X-22-3"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Service utilisation trends in the manual therapy professions within the Australian private healthcare setting between",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Lystad",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Swain",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Engel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Chiropr. Man. Therap",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12998-020-00338-1"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Australian Health Practitioner Regulation Agency",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Australian Institute of Health and Welfare. Allied Health Work Force 2012; Australian Institute of Health and Welfare",
+            "authors": [],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Reserve Bank of Australia. Inflation Calculator",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Forecasting: Principles and Practice",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hyndman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Athanasopoulos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "COVID-19 Significantly Impacts Health Services for Noncommunicable Diseases",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Review of the Impact of COVID-19 on",
+            "authors": [
+                {
+                    "first": "Cancer",
+                    "middle": [],
+                    "last": "Australia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Medical Services and Procedures in Australia Utilising MBS Data: Skin, Breast and Colorectal Cancers, and Telehealth Services",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Australian Institute of Health and Welfare. Cancer Screening and COVD-19 in Australia",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Healthcare 2020",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Disruption of paediatric orthopaedic hospital services due to the COVID-19 pandemic in a region with minimal COVID-19 illness",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Antoniou",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Williams",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cundy",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Child. Orthop",
+            "volume": "2020",
+            "issn": "",
+            "pages": "245--251",
+            "other_ids": {
+                "DOI": [
+                    "10.1302/1863-2548.14.200140"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Impact of COVID-19 social restrictions on trauma presentations in South Australia",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Harris",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ellis",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gorman",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Foo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Haustead",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg. Med. Australas",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/1742-6723.13680"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Impact of COVID-19-related social restrictions on orthopaedic trauma in a level 1 trauma centre in Sydney: The first wave",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Probert",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Sivakumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "An",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Nicholls",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Shatrov",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Symes",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ellis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "ANZ J. Surg",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/ans.16375"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Collateral damage: Hidden impact of the COVID-19 pandemic on the out-of-hospital cardiac arrest system-of-care",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ball",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Nehme",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bernard",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Stub",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Stephenson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Resuscitation",
+            "volume": "156",
+            "issn": "",
+            "pages": "157--163",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.resuscitation.2020.09.017"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Chiropractic and Osteopathic Services in Australia",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Richardson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "IBISWorld",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": "Time series plot of observed values and point forecast estimates with 95% prediction intervals of the quarterly number of services provided by each manual therapy profession from 2015 to 2020 Q2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Time series plot of observed values and point forecast estimates with 95% prediction intervals of the quarterly number of services provided by each manual therapy profession from 2015 to 2020 Q2. Healthcare 2020, 8, Time series plot of observed values and point forecast estimates with 95% prediction intervals of the quarterly total cost of services provided by each manual therapy profession from 2015 to 2020 Q2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Time series plot of observed values and point forecast estimates with 95% prediction intervals of the quarterly total cost of services provided by each manual therapy profession from 2015 to 2020 Q2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Heatmap of the estimated mean percentage error in number of services provided by each manual therapy profession during the first half of 2020 across Australian states and territories.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Heatmap of the estimated mean percentage error in total cost of services provided by each manual therapy profession during the first half of 2020 across Australian states and territories.Because the number of individuals with general treatment cover and the number of manual therapy providers varied from quarter to quarter, supplementary analyses were conducted using secondary outcome variables and are presented in the Supplementary Materials (Sections B and C, respectively). These supplementary analyses generated similar estimates of the percentage change in manual therapy service utilization.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Heatmap of the estimated mean percentage error in number of services provided by each manual therapy profession during the first half of 2020 across Australian states and territories.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Heatmap of the estimated mean percentage error in number of services provided by each manual therapy profession during the first half of 2020 across Australian states and territories.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Heatmap of the estimated mean percentage error in total cost of services provided by each manual therapy profession during the first half of 2020 across Australian states and territories.Because the number of individuals with general treatment cover and the number of manual therapy providers varied from quarter to quarter, supplementary analyses were conducted using secondary outcome variables and are presented in the Supplementary Materials (Sections B and C, respectively). These supplementary analyses generated similar estimates of the percentage change in manual therapy service utilization.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Heatmap of the estimated mean percentage error in total cost of services provided by each manual therapy profession during the first half of 2020 across Australian states and territories.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Contributions: Conceptualization, R.P.L., B.T.B., M.S.S., and R.M.E.; methodology, R.P.L., B.T.B., M.S.S., and R.M.E.; formal analysis, R.P.L.; writing-original draft preparation, R.P.L., B.T.B., and M.S.S.; writing-review and editing, R.P.L., B.T.B., M.S.S., and R.M.E.; visualization, R.P.L. All authors have read and agreed to the published version of the manuscript.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "This research received no external funding.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "Observed values, forecast point estimates, mean errors, and mean percentage errors of the quarterly number and total cost of services provided by each manual therapy profession in Australia during 2020 Q1 and Q2.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Observed values, forecast point estimates, mean errors, and mean percentage errors of the quarterly number and total cost of services provided by each manual therapy profession in Australia during 2020 Q1 and Q2.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

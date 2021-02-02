@@ -1,0 +1,1371 @@
+{
+    "paper_id": "0a83479aa168ffc29b511e295696df601d5bbbff",
+    "metadata": {
+        "title": "Journal Pre-proof Effects of tocilizumab on mortality in hospitalized patients with COVID-19: A multicenter cohort study Effects of Tocilizumab on Mortality in Hospitalized Patients with COVID-19: A Multicenter Cohort Study 2 3",
+        "authors": [
+            {
+                "first": "Javier",
+                "middle": [],
+                "last": "Mart\u00ednez-Sanz",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "IRYCIS",
+                    "location": {
+                        "settlement": "Madrid",
+                        "country": "Spain"
+                    }
+                },
+                "email": "16javier.martinez.sanz@salud.madrid.org."
+            },
+            {
+                "first": "Alfonso",
+                "middle": [],
+                "last": "Muriel",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Clinical Biostatistic Unit, Hospital Universitario Ram\u00f3n y Cajal",
+                    "institution": "Universidad de Alcal\u00e1",
+                    "location": {
+                        "settlement": "Madrid",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Raquel",
+                "middle": [],
+                "last": "Ron",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "IRYCIS",
+                    "location": {
+                        "settlement": "Madrid",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sabina",
+                "middle": [],
+                "last": "Herrera",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "IRYCIS",
+                    "location": {
+                        "settlement": "Madrid",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jos\u00e9",
+                "middle": [
+                    "A"
+                ],
+                "last": "P\u00e9rez-Molina",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Santiago",
+                "middle": [],
+                "last": "Moreno",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "IRYCIS",
+                    "location": {
+                        "settlement": "Madrid",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sergio",
+                "middle": [],
+                "last": "Serrano-Villar",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "IRYCIS",
+                    "location": {
+                        "settlement": "Madrid",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "A",
+                "middle": [],
+                "last": "P\u00e9rez-Molina",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "IRYCIS",
+                    "location": {
+                        "settlement": "Madrid",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "26 27 28 J o u r n a l P r e -p r o o f 2 ABSTRACT 29 Objectives 30 Tocilizumab has been proposed as a candidate therapy for patients with severe 31 (ceic.hrc@salud.madrid.org, approval number 191/20). 106 107 Endpoint 108 J o u r n a l P r e -p r o o f",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "There are still no treatments with proven efficacy to prevent mortality in patients with 60 severe coronavirus disease 2019 (COVID-19) pneumonia, with the exception of 61 corticosteroids in selected patient groups [1] . However, various medications such as 62 hydroxychloroquine, azithromycin, and lopinavir/ritonavir have been prescribed off-63 label worldwide. [2] Tocilizumab is an FDA-approved humanized monoclonal 64 antibody against the soluble interleukin-6 (IL-6) receptor. It is widely used in the 65 treatment of autoimmune disorders such as rheumatoid arthritis or cytokine release 66 syndrome.[3,4] IL-6 determination is rarely available in clinical settings. However, C-67 reactive protein (CRP)-an inflammatory biomarker upstream in the IL-6 pathway-, 68",
+            "cite_spans": [
+                {
+                    "start": 214,
+                    "end": 217,
+                    "text": "[1]",
+                    "ref_id": null
+                },
+                {
+                    "start": 363,
+                    "end": 366,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "59"
+        },
+        {
+            "text": "is commonly used to monitor the activity of inflammatory diseases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "59"
+        },
+        {
+            "text": "[5] 69",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "59"
+        },
+        {
+            "text": "Tocilizumab has been suggested as an effective treatment for severe COVID-19 70 pneumonia due to the increased interleukin 6 (IL-6) blood levels in patients with 71 COVID-19[6] and its correlation with a more severe lung damage,[7] however, it is 72 not currently approved for use by any regulatory body in COVID-19 patients. 73",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "59"
+        },
+        {
+            "text": "To date, very few efficacy results from clinical trials in this disease have been 74 and Related Health Problems (ICD-10) classification. [17] 102",
+            "cite_spans": [
+                {
+                    "start": 138,
+                    "end": 142,
+                    "text": "[17]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "59"
+        },
+        {
+            "text": "We excluded patients younger than 18 years and those who died or were transferred 103 to another facility within 24 hours after admission to the emergency department. This 104 study was approved by the Ethics Committee at University Hospital Ram\u00f3n y Cajal 105",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "59"
+        },
+        {
+            "text": "The primary end point was the time from study baseline (defined as the first day of 109 hospitalization) to in-hospital death for any cause. The secondary outcome was a 110 composite event including admission to the ICU or death (hereafter ICU/death). 111",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "59"
+        },
+        {
+            "text": "Patients were censored at the endpoint or at the end of follow-up (hospital discharge 112 or end of data collection in the database). 113",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "59"
+        },
+        {
+            "text": "114 Statistical analysis 115 We tested the associations among the preadmission variables with treatment variable 116 by Chi-square tests for categorical variables and Wilcoxon rank sum tests for 117 continuous variables. We calculated the crude incidence rates of death and ICU/death 118 using Kaplan-Meier methods. We fitted marginal structural models to estimate We assumed that once a patient received tocilizumab, they remained on it until the end 124 of follow-up. This assumption helped obtain a conservative estimate of the treatment 125 hazard ratio analogous to intention-to-treat analysis in an unblinded randomized 126 controlled trial. We structured the data set to allow for time-dependent covariates to 127 change daily after admission. Propensity score logistic models predicted exposure at tocilizumab and CRP was significant, and thus we report the adjusted (weighted) 148 hazard ratios (HRs) derived from marginal structural models for the primary and 149 secondary outcomes segregated by CRP levels. 150",
+            "cite_spans": [
+                {
+                    "start": 25,
+                    "end": 28,
+                    "text": "115",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "59"
+        },
+        {
+            "text": "We planned exploratory sensitivity analyses restricted to patients who received 151 specific concomitant treatments against SARS-CoV-2. Due to the recognized 152 prognostic value of lymphocyte counts and D-dimer levels, we also performed 153 sensitivity analysis to explore the possible confounding effect of D-dimer >1000 154 ng/mL (upper limit of the normal range in the reference laboratory) or absolute 155 lymphocyte count <1000/uL (lower limit of the normal range in our reference 156 laboratory). Statistical analyses were performed using Stata v. 16.0 (StataCorp LP 157",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "59"
+        },
+        {
+            "text": "College Station, TX, USA). 158",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "59"
+        },
+        {
+            "text": "We analyzed 1,229 patients accounting for 10,673 person-days of follow-up who were 162 diagnosed with COVID-19 in HM hospitals between January 31 st and April 23 rd , 2020 163 and have the information needed for IPTW estimation. We excluded 99 patients 164 because they died, were discharged, or were transferred to a different hospital within 165 24 hours after admission to the emergency department (Appendix Figure 1) Individuals with baseline CRP levels higher than 150 mg/L who received tocilizumab 203 maintained a lower risk of death and ICU/death, but no significant effects of 204 tocilizumab were found among those with low CRP levels. 205",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 411,
+                    "end": 420,
+                    "text": "Figure 1)",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": "Study population 161"
+        },
+        {
+            "text": "We also explored the effects of concomitant therapies against SARS-COV-2 in 206 sensitivity analyses restricted to patients who received corticosteroids (n=582), 207 hydroxychloroquine (n=1,134), azithromycin (n=812), or lopinavir/ritonavir (n=753) 208 (Appendix Table 3 generating. In addition, we could not analyze the rate of new infectious, which was 276 higher with tocilizumab in a previous observational study. [8] 277",
+            "cite_spans": [
+                {
+                    "start": 418,
+                    "end": 421,
+                    "text": "[8]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 263,
+                    "end": 270,
+                    "text": "Table 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Study population 161"
+        },
+        {
+            "text": "In summary, we analyzed a large number of consecutive patients hospitalized with 278 COVID-19 and found that tocilizumab was associated with a lower risk of mortality or 279 ICU admission/mortality among patients with CRP >150 mg/L, but not among those Weighted hazard ratios derived from marginal structural models adjusted for sex, age, comorbidities 403 (hypertension, diabetes, ischemic heart disease, chronic kidney disease, congestive heart failure, lung 404 disease), need for oxygen therapy at baseline, oxygen blood saturation, and time-varying parameters of 405 severity (blood pressure, heart rate, total lymphocyte and neutrophil count, LDH, ALT, urea, D-dimer, Weighted hazard ratios derived from marginal structural models adjusted for sex, age, 416 comorbidities (hypertension, diabetes, ischemic heart disease, chronic kidney disease, 417 congestive heart failure, lung disease), need for oxygen therapy at baseline, oxygen blood 418 saturation, and time-varying parameters of severity (blood pressure, heart rate, total 419 lymphocyte and neutrophil count, LDH, ALT, urea, D-dimer, and CRP). ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study population 161"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Dexamethasone in Hospitalized Patients 312 with Covid-19 -Preliminary Report",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Horby",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Emberson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Treating COVID-19 -Off-Label Drug Use, Compassionate Use",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kalil",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Randomized Clinical Trials during Pandemics",
+            "authors": [],
+            "year": 2019,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Tocilizumab in 317 rheumatoid arthritis: A meta-analysis of efficacy and selected clinical 318 conundrums",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Navarro",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Taroumian",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Barroso",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Duan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Furst",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Semin Arthritis Rheum",
+            "volume": "43",
+            "issn": "4",
+            "pages": "458--469",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Therapeutic efficacy of humanized 320 recombinant anti-interleukin-6 receptor antibody in children with systemic-321 onset juvenile idiopathic arthritis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yokota",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Miyamae",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Imagawa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Arthritis Rheum",
+            "volume": "52",
+            "issn": "3",
+            "pages": "818--825",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "From C-Reactive Protein to Interleukin-6 to Interleukin-1: Moving 323 Upstream to Identify Novel Targets for Atheroprotection",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ridker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Circ Res",
+            "volume": "324",
+            "issn": "1",
+            "pages": "145--156",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Clinical course and risk factors for mortality of adult 326 inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1054--1062",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "The cytokine release syndrome 329 (CRS) of severe COVID-19 and Interleukin-6 receptor",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Tocilizumab may be the key to reduce the mortality",
+            "authors": [],
+            "year": null,
+            "venue": "Int J Antimicrob Agents",
+            "volume": "331",
+            "issn": "2020",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Tocilizumab in patients with 333 severe COVID-19: a retrospective cohort study",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Guaraldi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Meschiari",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cozzi-Lepri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Rheumatol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Pilot prospective open, single-arm multicentre 336 study on off-label use of tocilizumab in patients with severe COVID-19",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sciascia",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Apr\u00e0",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Baffa",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Effective treatment of severe COVID-19 patients with",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Use of Tocilizumab for COVID-19-Induced",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Radbel",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Narayanan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bhatt",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Cytokine Release Syndrome: A Cautionary Case Report",
+            "authors": [],
+            "year": 2020,
+            "venue": "Chest",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Tocilizumab treatment in COVID-19: A 344 single center experience",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Tocilizumab for the treatment of severe",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Toniati",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Piva",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cattalini",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "COVID-19 pneumonia with hyperinflammatory syndrome and acute respiratory 347 failure: A single center study of 100 patients in",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "348",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "A Study to Evaluate the Safety and Efficacy of Tocilizumab in Patients With",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Severe COVID-19 Pneumonia -ClinicalTrials.gov. Available at",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Evaluation of the Efficacy and Safety of Sarilumab in Hospitalized Patients",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "With COVID-19 -ClinicalTrials.gov. Available",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Request Form 'Covid Data Save Lives",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Marginal structural models to estimate 363 the causal effect of zidovudine on the survival of HIV-positive men",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "\u00c1"
+                    ],
+                    "last": "Hern\u00e1n",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Brumback",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Robins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Epidemiology",
+            "volume": "364",
+            "issn": "5",
+            "pages": "561--570",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Time-dependent Confounding using Marginal Structural Models",
+            "authors": [],
+            "year": null,
+            "venue": "Stata J",
+            "volume": "367",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Development and Validation of a Clinical Risk 369 Score to Predict the Occurrence of Critical Illness in Hospitalized Patients With 370 COVID-19",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Intern Med",
+            "volume": "180",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Baseline Characteristics and 372 Outcomes of 1591 Patients Infected with SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Grasselli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zangrillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zanella",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "SARS-CoV-2 Cell Entry 375 Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven 376",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kleine-Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schroeder",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "A crucial role of angiotensin converting enzyme 2 378 (ACE2) in SARS coronavirus-induced lung injury",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kuba",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Imai",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nat Med",
+            "volume": "11",
+            "issn": "8",
+            "pages": "875--379",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Sanofi and Regeneron provide update on Kevzara\u00ae (sarilumab) Phase 3 U.S. 381 trial in COVID-19 patients -Sanofi",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Roche -Roche provides an update on the phase III COVACTA trial of",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Actemra/RoActemra in hospitalised patients with severe COVID-19 associated 386 pneumonia",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Covid-19: Risk factors for severe disease and 389 death",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Jordan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Adab",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "368",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Arterial review and meta-analysis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zuin",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Rigatelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zuliani",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rigatelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mazza",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Roncon",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J Infect",
+            "volume": "2020",
+            "issn": "",
+            "pages": "84--86",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Problem of immortal time bias in 394 cohort studies: Example using statins for preventing progression of diabetes",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "L\u00e9vesque",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hanley",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kezouh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Suissa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "BMJ",
+            "volume": "340",
+            "issn": "",
+            "pages": "907--911",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Marginal structural models in clinical research: When 397 and how to use them?",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Williamson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ravani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nephrol Dial Transplant",
+            "volume": "32",
+            "issn": "",
+            "pages": "84--90",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Systolic blood pressure (mmHg), median (IQR)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "128",
+            "issn": "",
+            "pages": "115--141",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Temperature (\u00baC), median (IQR)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Peripheral oxygen saturation (%), median (IQR)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "91",
+            "issn": "",
+            "pages": "86--94",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Absolute lymphocyte count (cells/mm3)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Absolute neutrophil count (cells/mm3)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "ALT (U/L), median (IQR)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "26",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Creatinine (mg/dL), median (IQR)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Urea (mg/dL), median (IQR)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "33",
+            "issn": "",
+            "pages": "26--46",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "C-reactive protein (mg/L), median (IQR)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "64",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "/mL), median (IQR)",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "D-Dimer",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "720",
+            "issn": "",
+            "pages": "519--1270",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Abbreviations: ALT, aspartate alanine transferase; ICU, intensive care unit",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "All variables were available in the 1,229 subjects, with exception of IL-6, which was measured only in 88 individuals",
+            "authors": [
+                {
+                    "first": "Lactate",
+                    "middle": [],
+                    "last": "Ldh",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Dehydrogenase",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "119 discrete time hazards of death according to tocilizumab use via an inverse probability 120 treatment weight (IPTW) estimation to account for the non-randomized treatment 121 administration of tocilizumab, baseline confounding, and time-varying confounders 122 (explained below), with the aim of minimizing the indication bias.[18,19] 123",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "128 baseline and censoring over time as a result of recognized confounders of severe 129 COVID-19.[20,21] Weighted hazard ratios derived from marginal structural models 130 were adjusted for age, gender, comorbidities (hypertension, diabetes, ischemic heart 131 disease, kidney disease, congestive heart failure, lung disease), oxygen blood saturation 132 and need for oxygen therapy at baseline, and time-varying parameters of clinical dehydrogenase, alanine aminotransferase, urea, D-dimers, and CRP) that could be 135 affected by treatment exposure. 136 There were 1,229 patients in the dataset with the information needed to fit marginal 137 structural models. The characteristics of the individuals not included due to missing 138 data in the information required for the statistical modelling strategy are shown in the 139 Appendix Tables 1 and 2. The main differences between groups in the analyzed 140 population were comparable to those found in the population with missing 141 information. IPTW were stabilized and truncated below the first percentile and above 142 the 99th percentile. The models included a main term for the exposure and a flexible 143 functional form of time, that is, restricted cubic splines with 5 knots set at the first, 144 25 th , 50 th , 75 th , and 99 th percentiles of the subjects' day of follow-up, and the 145 interaction term between tocilizumab and elevated CRP levels (>150 mg/L, cut-off 146 selected based on the 75 th percentile value, 143 mg/L). The interaction term between 147",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": ". A total 166 of 181 patients (14.7%) died, 82 (6.7%) were admitted to the ICU, and 186 had a 167 composite outcome of death or ICU admission (15.1%). Of the total number of 168 deceased patients, 22 (12%) were admitted to the ICU and 159 (88%) were not 169 admitted. 170 Of the 1,229 patients, 260 (21%) received a median total dose of 600 mg (IQR 600-800 171 mg) of tocilizumab. The first dose was administered at a median time of 4 (IQR 3 -5) 172 days from inpatient admission. The median time to censoring date was 13 (IQR 10-17) 173 and 8 (IQR 5-10) days for tocilizumab and control groups, respectively. The 174 distribution of patient's characteristics as well as mortality and ICU admission rates 175 according to the use of tocilizumab is shown in Table 1. Compared to the control 176 group, there was a higher frequency of men and previous lung disease in the 177 tocilizumab group while controls were significantly older and had a higher prevalence 178 of diabetes. As expected, there were small differences between both groups in some of 179 the baseline vital signs and laboratory parameters that were indicative of greater 180 disease severity in the tocilizumab group than in the control group. 181 182 Primary and secondary endpoints 183 The 1,229 subjects accounted for 11,900 observations, and the crude incidence rate of 184 death was 17.8 (95% CI, 13.8 -22.8) per 1000 persons-days in the tocilizumab group 185 vs. 16.6 (95% CI, 13.9 -19.8) per 1000 persons-days in the control group. In the 186 unadjusted analysis (logistic regression analysis with no covariates entered into the 187 model), tocilizumab was associated with a higher risk of death (in the adjusted analyses in which we found a significant interaction 190 between tocilizumab use and CRP values (p=0.023 and p=0.012 for primary and 191 secondary endpoints, respectively). Patients who received tocilizumab and had baseline 192 CRP levels above 150 mg/L experienced lower rates of death (aHR 0.34, 95% CI 0.17 193 -0.71, p=0.005) and ICU admission/death (aHR 0.39, 95% CI 0.19 -0.80, p=0.011) 194 than those who did not receive tocilizumab. This effect was not observed among 195 patients with baseline CRP levels \u2264150 mg/L (aHR 1.21 95%; CI 0.65 -2.23 in the 196 primary outcome, and aHR 1.41; 95% CI 0.77 -2.58 in the secondary outcome) 197 (Figure 1). 198",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Appendix Table 3show the adjusted hazard ratios for exploratory 199 sensitivity analyses restricted to patients with added risk factors for poor prognosis 200 (i.e., baseline lymphocyte count <1000 cell/\u00b5l and baseline D-dimer >1000 ng/mL), 201 segregated by CRP levels. The results are consistent with the principal analysis. 202",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "). The estimates of the effect of tocilizumab among subjects with 209 baseline CRP >150 mg/L who received these concomitant treatments were very 210 similar to those observed in the principal analyses for both the primary and secondary outcomes (all p-values <0.05 except azithromycin and lopinavir/ritonavir, with 212 p=0.105 in the primary and p=0.079 in the secondary outcome, respectively). 213 214 Discussion 215While the overall risk of death or ICU admission did not differ among patients who 216 received tocilizumab to those who did not and had CRP levels \u2264150 mg/L, we found a 217 66% reduction in the risk of mortality in patients with baseline CRP levels >150 mg/L 218 who received tocilizumab. Exploratory sensitivity analyses to account for the use of219 concomitant therapies against SARS-CoV-2 or the presence of other analytical 220 parameters predictive of poor prognosis yielded consistent treatment effect estimates. 221 Early reports suggest that systemic inhibition of IL-6 signaling is beneficial in the 222 treatment of severe COVID-19.[7,22,23] The original observational study of 21 223 patients with COVID-19 in Wuhan reported that tocilizumab resulted in resolution of 224 fever in all patients one day after treatment and improvement of peripheral oxygen 225 saturation and lymphopenia. Moreover, 19 of 20 patients who received tocilizumab 226 presented a radiological improvement in the CT scan after 5 days.[10] In a single-arm 227 study of 63 patients with a pro-inflammatory and pro-thrombotic state due to severe 228 COVID-19, treatment with tocilizumab was associated with a decrease in CRP, D-229 dimer, and ferritin levels.[9] Thus, tocilizumab and other repurposed medications 230 have been widely used off-label to treat COVID-19 in an attempt to mitigate the 231 dramatic clinical consequences of SARS-Cov-2 infection, despite the lack of robust 232 information on the effects of tocilizumab on clinical outcomes. Recent press releases of 233 clinical trials with anti-IL-6 agents (sarilumab and tocilizumab) have reported that 234 these drugs have not met their endpoints, although studies are still being conducted in 235 different treatment settings. [24,25] In our cohort, controls were significantly older and had a higher prevalence of 237 hypertension, which are the risk factors that have been more robustly associated with 238 severe COVID-19 and death.[6,20,26,27] However, subjects who received 239 tocilizumab tended to have a greater prevalence of other potential risk factors for 240 disease severity such as previous lung disease, as well as differences in baseline vital 241 signs and laboratory parameters indicative of greater immune activation. All of these 242 factors were included as covariates, and the estimates were consistent across the two 243 endpoints analyzed. 244 The selection of the modeling strategy was a critical decision. Longitudinal studies in 245 which exposures, confounders, and outcomes are measured repeatedly over time can 246 facilitate causal inferences about the effects of exposure on outcome.[19] However, 247 there are key analytical issues in this setting, including the risk of immortal time bias 248 (i.e., the requirement for patients to survive long enough to receive the intervention of 249 interest, which can lead to a potentially incorrect estimation of a positive treatment 250 effect), and indication bias from time-varying confounding (e.g., the use of tocilizumab 251 following elevations of CRP).[19,28] Standard regression models for the analysis of 252 cohort studies with time-updated measurements may result in biased estimates of 253 treatment effects if time-dependent confounders affected by prior treatment are 254 present.[19,29] Marginal structural models, similarly to the time-dependent Cox 255 proportional hazards models, are a powerful method of controlling for confounding in 256 longitudinal study designs that collect time-varying information on exposure, 257 outcome, and other covariates, such as the present one.[18,19] These models aim to 258 appropriately control for the effects of time-varying confounders that are affected by 259 prior treatment (exposure), and attempt to enhance group comparability and estimate 260 causal effects in a similar way. [29]Our study has a number of limitations. As with any observational study, there is still a 262 risk of unmeasured confounding, as well as indication and immortal time biases, 263 despite having focused the methodology on avoiding them. Tocilizumab targets the 264 IL-6 receptor, and thus using baseline IL-6 levels instead of CRP in the interaction 265 term with tocilizumab use could have helped to better discriminate the population 266 benefiting most from tocilizumab treatment. Although IL-6 measurements are rarely 267 available in clinical settings, CRP is widely accessible and is an inflammatory 268 biomarker upstream of the IL-6 pathway.[5] Hence, we doubt that the use of CRP 269 instead of IL-6 limited the scope of the results. Ongoing trials of tocilizumab in 270 COVID-19 have also considered CRP instead of IL-6 to identify patients with 271 heightened inflammation and, therefore, potential greater benefit with this treatment 272 (clinicaltrials.gov: NCT04346355 and NCT04356937). Despite the fact that the size 273 effects observed in the sensitivity analyses were consistent with those obtained in the 274 principal analyses, they should be interpreted as exploratory and hypothesis-275",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "280 with lower CRP levels. Although the results of ongoing clinical trials of tocilizumab in 281 patients with COVID-19 are mandatory to establish its safety and efficacy, our 282 findings might be helpful in the design of future clinical trials. 283 284 Funding 285 This study represents authors' own work and no funding was required for its 286 completion. 287 Acknowledgments 289 We acknowledge all study participants who made this research possible. We thank HM 290 Hospitales group for releasing the dataset used to perform this research to the the submitted work, S. S.-V. reports personal fees from ViiV Healthcare, Janssen 295 Cilag, Gilead Sciences, and MSD as well as non-financial support from ViiV Healthcare and 296 Gilead Sciences and research grants from MSD and Gilead Sciences. J.M.-S. reports non-297 financial support from ViiV Healthcare, non-financial support from Jannsen Cilag, non-298 financial support from Gilead Sciences. JA.P. reports grants, personal fees and non-financial 299 support from ViiV Healthcare, and grants from MSD, outside the submitted work. S.M.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "300reports grants, personal fees and non-financial support from ViiV Healthcare, personal fees 301 and non-financial support from Janssen, grants, personal fees and non-financial support from302 MSD, grants, personal fees and non-financial support from Gilead, outside the submitted 303 work. There are no potential conflicts of interest. and design: JM-S, AM, SM, SS-V. Acquisition, analyses and interpretation of 307 data: JM-S, RR, SH, JAP-M, SM, SS-V. Manuscript draft: JM-S, SS-V. Manuscript critical 308 revision: AM, RR, SH, JAP-M, SM.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Figure legends",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Adjusted hazard ratios for primary and secondary endpoints. 402",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "-values for interaction between tocilizumab use and C-reactive protein values were p = 0.023 and p = 408 0.012 for primary and secondary endpoint, respectively.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Abbreviations: ALT, alanine aminotransferase; CI, confidence interval; ICU, intensive care unit; LDH, Adjusted hazard ratios for sensitivity analyses according to baseline 414 laboratory absolute lymphocyte counts and D-dimer. 415",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "Abbreviations: ALT, alanine aminotransferase; CI, confidence interval; ICU, intensive care unit; LDH,",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "published.[1] Available data on the use of tocilizumab comes from retrospective 75 observational studies with confounding factors [8], or small studies with surrogate 76 endpoints that are underpowered to detect significant clinical effects or lack a control 77 group.[9-13] There are currently ongoing clinical trials with both tocilizumab and 78 sarilumab, but the results have not yet been published. [14,15] 79Here, we investigate the association between tocilizumab use and mortality in a large80 cohort of hospitalized COVID-19 patients in Spain. We hypothesized that tocilizumab 81 use would be associated with a lower risk of death and influenced by baseline systemic 82 inflammation levels. We used marginal structural modeling to account for baseline and 83 time-varying confounders. 84 J o u r n a l P r e -p r o o f Study design, setting, and data sources We analyzed data from 2,047 patients included in the HM Hospitales cohort-a 88 multicenter cohort of people admitted to any of the 17 hospitals in the HM Group in 89 Spain and diagnosed with COVID-19 from January 31 st to April 23 rd , 2020. HM 90 Hospitales made their anonymous dataset freely accessible to the international medical 91 and scientific community.[16] The dataset includes comprehensive clinical 92 information on patients with SARS-CoV-2 infection, confirmed by polymerase chain 93 reaction on nasopharyngeal swabs or other respiratory specimens. The dataset collects 94 the different interactions in the COVID-19 treatment process, including detailed 95 information on diagnoses, treatments, admissions, ICU admissions, diagnostic imaging 96tests, laboratory results, discharge or death. It includes more than 60,000 drug 97 records, 54,000 vital sign records, and more than 398,000 laboratory records, which 98 include all the requests made to each patient during admission and in the previous 99 emergency, if any. Moreover, more than 1,900 diagnostic and procedural records are 100 collected and coded according to the International Statistical Classification of Disease 101",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Population baseline characteristics according to the use of tocilizumab",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Non-ICU length of stay (days), median ( ",
+            "cite_spans": [
+                {
+                    "start": 38,
+                    "end": 39,
+                    "text": "(",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Outcome"
+        }
+    ]
+}

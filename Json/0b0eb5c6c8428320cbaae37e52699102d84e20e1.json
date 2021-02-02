@@ -1,0 +1,1292 @@
+{
+    "paper_id": "0b0eb5c6c8428320cbaae37e52699102d84e20e1",
+    "metadata": {
+        "title": "Biomarkers for Overweight in Adult-Onset Asthma",
+        "authors": [
+            {
+                "first": "Hiroki",
+                "middle": [],
+                "last": "Tashiro",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Saga University",
+                    "location": {
+                        "settlement": "Saga",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Koichiro",
+                "middle": [],
+                "last": "Takahashi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Saga University",
+                    "location": {
+                        "settlement": "Saga",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hironori",
+                "middle": [],
+                "last": "Sadamatsu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Saga University",
+                    "location": {
+                        "settlement": "Saga",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yuki",
+                "middle": [],
+                "last": "Kurihara",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Saga University",
+                    "location": {
+                        "settlement": "Saga",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tetsuro",
+                "middle": [],
+                "last": "Haraguchi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Saga University",
+                    "location": {
+                        "settlement": "Saga",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ryo",
+                "middle": [],
+                "last": "Tajiri",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Saga University Hospital",
+                    "location": {
+                        "settlement": "Saga",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ayako",
+                "middle": [],
+                "last": "Takamori",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Saga University Hospital",
+                    "location": {
+                        "settlement": "Saga",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shinya",
+                "middle": [],
+                "last": "Kimura",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Saga University",
+                    "location": {
+                        "settlement": "Saga",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Naoko",
+                "middle": [],
+                "last": "Sueoka-Aragane",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Saga University",
+                    "location": {
+                        "settlement": "Saga",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Overweight and obesity are associated with one of the severe phenotypes of asthma, with an increased rate of exacerbations, low level of lung function, and reduced responses to corticosteroid therapy. [1] [2] [3] Because effective treatment for asthma with obesity is limited to reducing weight, 4 useful biomarkers associated with severity should be identified to help find new therapeutic targets. Recently, cluster analysis showed that the clinical features of asthma associated with obesity have at least two different phenotypes: the first phenotype includes patients with early-onset asthma usually triggered by allergens with eosinophilia and high serum immunoglobulin E (IgE) titers, which are exacerbated by obesity, and a second phenotype that includes patients with adult-onset asthma, who are predominantly female without type 2 markers such as eosinophils and IgE. 1, 5, 6 Considering the previous study by To et al, which reported significantly higher rates of annual exacerbations and frequent exacerbators in overweight asthma patients with adult-onset compared to patients with carryover or outgrowth from childhood asthma, 7 the present study focused on identifying useful biomarkers of severity in overweight patients with adult-onset asthma using real-world data.",
+            "cite_spans": [
+                {
+                    "start": 201,
+                    "end": 204,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 205,
+                    "end": 208,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 209,
+                    "end": 212,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 296,
+                    "end": 297,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 878,
+                    "end": 880,
+                    "text": "1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 881,
+                    "end": 883,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 884,
+                    "end": 885,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1141,
+                    "end": 1142,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A total of 56 patients with asthma who visited Saga University Hospital between 2018 and 2019 were retrospectively reviewed. All patients were diagnosed with asthma by two expert pulmonary physicians referring to the Global Initiative for Asthma (GINA) guidelines. This study was approved by the ethics committee of Saga University Hospital (approval number: 2019-08-02, approval date: December 27, 2019) and was performed in accordance with the 1964 Declaration of Helsinki. To focus on adult-onset asthma, patients who developed asthma when they were older than 20 years were enrolled; patients with a history of childhood asthma were excluded from the present study. Overweight was defined as a body mass index (BMI) greater than 25 kg/m 2 referring to a previous study. 7 The asthma control test (ACT) score, the details of therapy for asthma, pulmonary function test results, fractional exhaled nitric oxide (FeNO), and blood examinations including cytokines and chemokines were evaluated in the stable phase, defined as no additional use of oral corticosteroids or antibiotics, no unscheduled doctor's visits, or no hospitalizations due to exacerbations of asthma in the past 4 weeks. Treatments for asthma were selected at the physicians' discretion. Doses of inhaled corticosteroid (ICS) were divided into 3 groups, low, moderate, and high, referring to the GINA guidelines. FeNO was measured using the NIOX VERO (CHEST Inc., Tokyo, Japan). Forty-two serum cytokines and chemokines were measured by multiplex assay (Eve Technologies, Calgary, Canada) and ELISA (for high-sensitivity interleukin-6 (hsIL-6)) (R&D Systems, Minneapolis, MN); however, results for 13 were excluded because they were below the detection limit, and 29 cytokines and chemokines were examined. To accurately evaluate the interactions between asthma pathophysiology and blood biomarkers, patients treated with systemic corticosteroids and/or molecular targeting drugs were excluded from the examinations of serum cytokines and chemokines. Therefore, 20 non-overweight patients with asthma and 11 overweight patients with asthma were evaluated after obtaining their informed consent. As comorbidities, gastroesophageal reflux disease (GERD), diabetes mellitus, hyperlipidemia, hypertension, and sleep apnea syndrome were diagnosed by physicians. Eosinophilic chronic rhinosinusitis (ECRS) was diagnosed using the JESREC score. Briefly, the JESREC score includes 4 factors, including bilateral lesion sites (3 points), nasal polyps (2 points), ethmoid-dominant lesion on computed tomography (CT) (2 points), and the percentage of blood eosinophils (4 points for >2% to \u22645%, 8 points for >5% to \u226410%, and 10 points for >10%). ECRS was diagnosed when the total JESREC score was \u226511. 8 The clinical data were analyzed by the Mann-Whitney U-test for continuous variables or the chi-squared test for categorical variables. For correlation analysis, Spearman's rank correlation coefficient between the percentage of blood eosinophils and BMI was calculated to determine whether it was zero or not. For comparison analyses of serum cytokines and chemokines, the chi-squared test was performed referring to the previous report 9 because of the small sample size, which might lead to low power for continuous comparisons. Cut-off values of 29 cytokines and chemokines were set the value where Youden's index is the maximum by drawing the receiver operating characteristic (ROC) curve. In addition, Benjamini and Hochberg false discovery rate adjustments were performed for multiple comparisons on biomarker analysis. Multivariate analysis was not performed because of the small sample size. Statistical analysis was performed with JMP Pro version 14.2.0 software (SAS Institute Inc., Cary, NC).",
+            "cite_spans": [
+                {
+                    "start": 774,
+                    "end": 775,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 2761,
+                    "end": 2762,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 3199,
+                    "end": 3200,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Patients and Methods"
+        },
+        {
+            "text": "The data of 56 adult-onset asthma patients were analyzed. To evaluate the clinical impact of overweight in adultonset asthma, the 56 patients were divided into 39 nonoverweight patients with asthma (BMI\u226425 kg/m 2 ) and 17 overweight patients with asthma (BMI>25 kg/m 2 ). There were more female patients in the overweight group than in the non-overweight group, but the difference was not significant. Smoking history and ACT scores were not different between the two groups. The annual exacerbation rate was significantly higher, at 1.5 times per year, in overweight patients than in non-overweight patients (0.4 times per year; p=0.04). Use of long-acting \u03b2 2 adrenergic agonists, long-acting muscarinic antagonists, leukotriene receptor antagonists, oral corticosteroids, and molecular targeted drugs was not different between the two groups. Low-dose ICS tended to be used more in the nonoverweight than in the overweight patients with asthma, and high-dose ICS was used significantly more in the overweight than in the non-overweight patients with asthma (p=0.05 and p<0.01, respectively) ( Table 1 ). The duration of asthma and the rate of aspirin sensitivity were not different between the two groups. In terms of commodities, including those related to allergic diseases, there were more patients with sleep apnea syndrome in the overweight than in the non-overweight patients with asthma (p<0.01), but the rates of GERD, diabetes mellitus, hyperlipidemia, hypertension, allergic rhinitis, atopic dermatitis, food allergy, drug allergy, and ECRS were no difference between the two groups (Table E1 ). On pulmonary function testing, forced vital capacity (FVC) and forced expiratory volume in 1 second (FEV1) tended to be lower in overweight than in non-overweight patients with asthma (p=0.05 and p=0.06, respectively) (Table E1) . On hematology, the percentage of eosinophils and the eosinophil count were significantly lower in overweight patients, at 3.8% and 247.0/mL, respectively, than in nonoverweight patients with asthma, at 7.6% and 512.3/mL, respectively (p<0.01, p=0.03) ( Table 1) . Moreover, the percentage of eosinophils was significantly negatively correlated with BMI (\u03c1=\u22120.38, p<0.01) (Figure 1) . Immunoglobulin E (IgE) was lower in overweight than in non-overweight patients with asthma, but there was no significant difference (Table 1 ). On serum cytokine and chemokine analyses, the overweight group included significantly more patients with a lower level of tissue growth factor \u03b1 (TGF-\u03b1) (1.1 pg/mL) and higher levels of hsIL-6 (2.5 pg/mL) RANTES/CCL5 (298.5 pg/mL), and vascular endothelial growth factor A (VEGF-A) (63.7 pg/mL), than the non-overweight group (p=0.02, p<0.01, p=0.02, and p=0.01, respectively) even after adjustment by the Benjamini and Hochberg method ( Table 2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1096,
+                    "end": 1103,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1596,
+                    "end": 1605,
+                    "text": "(Table E1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1827,
+                    "end": 1837,
+                    "text": "(Table E1)",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 2093,
+                    "end": 2101,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 2211,
+                    "end": 2221,
+                    "text": "(Figure 1)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 2356,
+                    "end": 2364,
+                    "text": "(Table 1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 2806,
+                    "end": 2813,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The clinical characteristics of overweight patients with asthma in the present study provide evidence that overweight is associated with a severe phenotype of asthma, especially in adult-onset cases. 1, 7 Overweight patients with asthma showed a higher rate of annual exacerbations and worse lung function ( Table 1, Table E1 ), which are clinical factors indicating severe asthma, compared to non-overweight patients with asthma. 1,2 Importantly, high-dose ICS was more frequent in the overweight group than in the non-overweight group (Table 1) , which suggested a reduced response to corticosteroids, one of the features associated with severity in overweight and obese patients with asthma. 10 Exploring biomarkers including blood eosinophils in overweight and obese patients with asthma is challenging because of the clinical heterogeneities reported by the cluster analysis. 6 In fact, a previous report of overweight asthma patients in Japan showed no difference in blood eosinophils compared to non-overweight patients with asthma, even though the exacerbation rate was significantly higher in the overweight population with asthma when targeting adult-onset asthma. 7 Thus, the present study focused only on adult-onset asthma and showed that blood eosinophil counts were significantly lower in overweight patients with asthma than in non-overweight patients with asthma (Table 1) , and they were negatively correlated with BMI (Figure 1 ), consistent with low type 2 inflammation, as described in previous reports. 6 Although it was not significantly different, levels of serum IgE, which is one of the markers of atopic and type 2 inflammation status, were also lower in overweight patients with asthma than in non-overweight patients with asthma, which is also consistent with previous reports indicating the non-atopic features of asthma with obesity. 1 The phenotype of low type 2 inflammation in overweight patients with adult-onset asthma in the present study was also supported by the results of the blood cytokine and chemokine analyses ( Table 2) . For example, low levels of IL-9, which are considered type 2 cytokines, 11 tended to be more common in overweight patients than in non-overweight patients with asthma. A low level of TGF-\u0251, which is expressed on human eosinophils, 12 was also significantly more common in overweight patients with asthma. In addition, a high level of hsIL-6, reflecting severity in obese patients with asthma through systemic inflammation, 13 was significantly more common in overweight patients with asthma. It was recently reported that plasma IL-6 is significantly higher in asthmatic patients than in control subjects, and BMI is significantly higher in the IL-6-high asthma group than in the IL-6-low asthma group. 14 Additionally, the IL-6 level was not correlated with the cellular characteristics of type 2 asthma, such as greater blood eosinophils and total serum IgE, 15 which is also consistent with the present results. RANTES/CCL5, which is upregulated in adipose tissue of obese individuals 16 and associated with obesity-induced pathophysiology, such as atherosclerosis and sleep apnea syndrome, 17, 18 was significantly higher in overweight asthma patients than in non-overweight asthma patients. RANTES/CCL5 is also associated with airway inflammation and airway hyperresponsiveness, as we and others previously reported, 19, 20 which is also supported by the present results. Interestingly, a high level of VEGF-A, which is correlated with decreased pulmonary function, 21 was also significantly more common in overweight patients with asthma, supporting the lower FVC and FEV1, compared to non-overweight asthma patients. There are two limitations in this study. First, the present study compared biomarkers between 2 groups, non-overweight asthma and overweight asthma groups, without comparison of non-overweight and overweight healthy controls, which might show that differences in biomarkers are related to overweight itself, but not asthma with overweight. Second, the present study involved a small number of patients at a single hospital with limited ethnic diversity. To confirm the validity of the present results, multicenter, prospective studies designed with appropriate controls and larger numbers of patients should be performed. ",
+            "cite_spans": [
+                {
+                    "start": 200,
+                    "end": 202,
+                    "text": "1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 203,
+                    "end": 204,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 695,
+                    "end": 697,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 881,
+                    "end": 882,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1175,
+                    "end": 1176,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1525,
+                    "end": 1526,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1865,
+                    "end": 1866,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 2299,
+                    "end": 2301,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 2929,
+                    "end": 2931,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 3056,
+                    "end": 3058,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 3162,
+                    "end": 3165,
+                    "text": "17,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 3166,
+                    "end": 3168,
+                    "text": "18",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 3390,
+                    "end": 3393,
+                    "text": "19,",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 3394,
+                    "end": 3396,
+                    "text": "20",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 3539,
+                    "end": 3541,
+                    "text": "21",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 308,
+                    "end": 325,
+                    "text": "Table 1, Table E1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 537,
+                    "end": 546,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1380,
+                    "end": 1389,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1437,
+                    "end": 1446,
+                    "text": "(Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 2057,
+                    "end": 2065,
+                    "text": "Table 2)",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "The present study showed that overweight patients with adult-onset asthma were characterized by a higher rate of annual exacerbations and worse lung function despite treatment with high-dose ICS and lower blood eosinophil counts than non-overweight patients with asthma. On blood cytokine and chemokine analyses, a low level of TGF-\u03b1 and high levels of hsIL-6, RANTES/CCL5, and VEGF-A might be biomarkers reflecting the pathophysiology in overweight patients with asthma.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Professor Naoko Sueoka-Aragane reports grants, lecture fees from Taiho Pharmaceutical, Chugai Pharmaceutical and Boehringer Ingelheim, outside the submitted work. The authors report no other conflicts of interest in this work. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disclosure"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Obesity and severe asthma",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tashiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Shore",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Allergol Int",
+            "volume": "68",
+            "issn": "2",
+            "pages": "135--142",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.alit.2018.10.004"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Obesity increases the prevalence and the incidence of asthma and worsens asthma severity",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Barros",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Moreira",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Padrao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Clin Nutr",
+            "volume": "36",
+            "issn": "4",
+            "pages": "1068--1074",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.clnu.2016.06.023"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Body mass index and response to emergency department treatment in adults with severe asthma exacerbations: a prospective cohort study",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rodrigo",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Plaza",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Chest",
+            "volume": "132",
+            "issn": "5",
+            "pages": "1513--1519",
+            "other_ids": {
+                "DOI": [
+                    "10.1378/chest.07-0936"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Effects of weight loss on airway responsiveness in obese adults with asthma: does weight loss lead to reversibility of asthma?",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pakhale",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Baron",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Dent",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Vandemheen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Aaron",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Chest",
+            "volume": "147",
+            "issn": "6",
+            "pages": "1582--1590",
+            "other_ids": {
+                "DOI": [
+                    "10.1378/chest.14-3105"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Cluster analysis and clinical asthma phenotypes",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Haldar",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Pavord",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Shaw",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "178",
+            "issn": "3",
+            "pages": "218--224",
+            "other_ids": {
+                "DOI": [
+                    "10.1164/rccm.200711-1754OC"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Asthma phenotypes: the evolution from clinical to molecular approaches",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wenzel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Nat Med",
+            "volume": "18",
+            "issn": "5",
+            "pages": "716--725",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nm.2678"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Obesity-associated severe asthma in an adult Japanese population",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "To",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hitani",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kono",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Respir Investig",
+            "volume": "56",
+            "issn": "6",
+            "pages": "440--447",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.resinv.2018.07.003"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Novel scoring system and algorithm for classifying chronic rhinosinusitis: the JESREC study",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tokunaga",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sakashita",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Haruna",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Allergy",
+            "volume": "70",
+            "issn": "8",
+            "pages": "995--1003",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/all.12644"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Risk factors for severity and mortality in adult COVID-19 inpatients in Wuhan",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Allergy Clin Immunol",
+            "volume": "146",
+            "issn": "1",
+            "pages": "110--118",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jaci.2020.04.006"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Body mass and glucocorticoid response in asthma",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Sutherland",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Goleva",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Strand",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Beuther",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "178",
+            "issn": "7",
+            "pages": "682--687",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Phosphatase wild-type p53-induced phosphatase 1 controls the development of TH9 cells and allergic airway inflammation",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Allergy Clin Immunol",
+            "volume": "141",
+            "issn": "6",
+            "pages": "2168--2181",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jaci.2017.06.026"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Human eosinophils express transforming growth factor alpha",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Weller",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Galli",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "J Exp Med",
+            "volume": "172",
+            "issn": "3",
+            "pages": "673--681",
+            "other_ids": {
+                "DOI": [
+                    "10.1084/jem.172.3.673"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Plasma interleukin-6 concentrations, metabolic dysfunction, and asthma severity: a cross-sectional analysis of two cohorts",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Peters",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Mcgrath",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hawkins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Lancet Respir Med",
+            "volume": "4",
+            "issn": "7",
+            "pages": "574--584",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2213-2600(16)30048-0"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Evidence for an IL-6-high asthma phenotype in asthmatic patients of African ancestry",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "White",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Laxman",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Naureckas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Allergy Clin Immunol",
+            "volume": "144",
+            "issn": "1",
+            "pages": "304--310",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jaci.2019.04.007"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Investigation of the relationship between IL-6 and type 2 biomarkers in patients with severe asthma",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Hastie",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Peters",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Allergy Clin Immunol",
+            "volume": "145",
+            "issn": "1",
+            "pages": "430--433",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jaci.2019.08.031"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "T-cell accumulation and regulated on activation, normal T cell expressed and secreted upregulation in adipose tissue in obesity",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ghosh",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Perrard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Circulation",
+            "volume": "115",
+            "issn": "8",
+            "pages": "1029--1038",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/CIRCULATIONAHA.106.638379"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Abbreviations: EGF, epithelial growth factor; FGF-2, fibroblast growth factor 2",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "TGF-\u03b1, tissue growth factor-\u03b1",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "growth regulated oncogene-granulocyte macrophage colony-macrophage derived chemokine",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Gro\u0251",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "PDGF, platelet-derived growth factor; sCD40L, soluble CD40 ligand",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "IL-1R\u0251, interleukin-1 receptor-\u0251; hsIL-6, high-sensitivity interleukin-6; IP-10",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "MCP-1, monocyte chemotactic protein-1",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "tumor necrosis factor-\u03b1; VEGF-A, vascular endothelial growth factor-A",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Tnf\u03b1",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Disrupting functional interactions between platelet chemokines inhibits atherosclerosis in hyperlipidemic mice",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Koenen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Von Hundelshausen",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Nesmelova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Nat Med",
+            "volume": "15",
+            "issn": "1",
+            "pages": "97--103",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nm.1898"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Profile of circulating cytokines: impact of OSA, obesity and acute cardiovascular events",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Testelmans",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tamisier",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Barone-Rochette",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Cytokine",
+            "volume": "62",
+            "issn": "2",
+            "pages": "210--216",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cyto.2013.02.021"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "The non-antibiotic macrolide EM900 attenuates HDM and poly(I:C)-induced airway inflammation with inhibition of macrophages in a mouse model",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sadamatsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Takahashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tashiro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Inflamm Res",
+            "volume": "69",
+            "issn": "1",
+            "pages": "139--151",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00011-019-01302-3"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "RANTES (CCL5) regulates airway responsiveness after repeated allergen challenge",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Koya",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Takeda",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kodama",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Am J Respir Cell Mol Biol",
+            "volume": "35",
+            "issn": "2",
+            "pages": "147--154",
+            "other_ids": {
+                "DOI": [
+                    "10.1165/rcmb.2005-0394OC"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Serum IL-8 and VEGFA are two promising diagnostic biomarkers of asthma-COPD overlap syndrome",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ding",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Chron Obstruct Pulmon Dis",
+            "volume": "15",
+            "issn": "",
+            "pages": "357--365",
+            "other_ids": {
+                "DOI": [
+                    "10.2147/COPD.S233461"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Correlation between percentage of eosinophils and body mass index. The percentage of eosinophils is significantly negatively correlated with body mass index (BMI) (\u03c1=\u22120.38, p<0.01). Tashiro et al Dovepress submit your manuscript | www.dovepress.com DovePress Journal of Asthma and Allergy 2020:13 412",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Tashiro et al Dovepress submit your manuscript | www.dovepress.com Journal of Asthma and Allergy 2020:13",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Comparison of Clinical Characteristics and Laboratory Data Between Non-Overweight and Overweight Asthma Patients",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Comparison of Blood Cytokines and Chemokines Between Non-Overweight and Overweight Asthma Patients",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The Journal of Asthma and Allergy is an international, peer-reviewed open-access journal publishing original research, reports, editorials and commentaries on the following topics: Asthma; Pulmonary physiology; Asthma related clinical health; Clinical immunology and the immunological basis of disease; Pharmacological interventions and new therapies. The manuscript management system is completely online and includes a very quick and fair peer-review system, which is all easy to use. Visit http://www.dovepress.com/testimonials.php to read real quotes from published authors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Publish your work in this journal"
+        }
+    ]
+}

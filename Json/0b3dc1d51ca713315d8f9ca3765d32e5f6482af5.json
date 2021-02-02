@@ -1,0 +1,908 @@
+{
+    "paper_id": "0b3dc1d51ca713315d8f9ca3765d32e5f6482af5",
+    "metadata": {
+        "title": "Journal Pre-proof Clinical and epidemiological features discriminating confirmed COVID-19 patients from SARS-CoV-2 negative patients at screening centres in Madagascar Clinical and epidemiological features discriminating confirmed COVID-19 patients from SARS-CoV-2 negative patients at screening centres in Madagascar Corresponding author Mihaja Raberahona",
+        "authors": [
+            {
+                "first": "Mihaja",
+                "middle": [],
+                "last": "Raberahona",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University Hospital Joseph Raseta Befelatanana",
+                    "location": {
+                        "settlement": "Antananarivo",
+                        "country": "Madagascar"
+                    }
+                },
+                "email": "raberahona@gmail.com"
+            },
+            {
+                "first": "Rado",
+                "middle": [],
+                "last": "Rakotomalala",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University Hospital Joseph Raseta Befelatanana",
+                    "location": {
+                        "settlement": "Antananarivo",
+                        "country": "Madagascar"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Etienne",
+                "middle": [],
+                "last": "Rakotomijoro",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University Hospital Joseph Raseta Befelatanana",
+                    "location": {
+                        "settlement": "Antananarivo",
+                        "country": "Madagascar"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tokinandrianina",
+                "middle": [],
+                "last": "Rahaingoalidera",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University Hospital Tambohobe",
+                    "location": {
+                        "settlement": "Fianarantsoa",
+                        "country": "Madagascar"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Christophe",
+                "middle": [
+                    "Elody"
+                ],
+                "last": "Andry",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University Hospital Joseph Raseta Befelatanana",
+                    "location": {
+                        "settlement": "Antananarivo",
+                        "country": "Madagascar"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Natacha",
+                "middle": [],
+                "last": "Mamilaza",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University Hospital Joseph Raseta Befelatanana",
+                    "location": {
+                        "settlement": "Antananarivo",
+                        "country": "Madagascar"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lova",
+                "middle": [],
+                "last": "Dany",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ella",
+                "middle": [],
+                "last": "Razafindrabekoto",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University Hospital Andrainjato",
+                    "location": {
+                        "settlement": "Fianarantsoa",
+                        "country": "Madagascar"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Efrasie",
+                "middle": [],
+                "last": "Rafanomezantsoa",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University Hospital Joseph Raseta Befelatanana",
+                    "location": {
+                        "settlement": "Antananarivo",
+                        "country": "Madagascar"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Volatiana",
+                "middle": [],
+                "last": "Andriananja",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University Hospital Joseph Raseta Befelatanana",
+                    "location": {
+                        "settlement": "Antananarivo",
+                        "country": "Madagascar"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Radonirina",
+                "middle": [
+                    "Lazasoa"
+                ],
+                "last": "Andrianasolo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University Hospital Joseph Raseta Befelatanana",
+                    "location": {
+                        "settlement": "Antananarivo",
+                        "country": "Madagascar"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "H\u00e9lio",
+                "middle": [],
+                "last": "Soloniaina",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rivonirina",
+                "middle": [
+                    "Andy"
+                ],
+                "last": "Razafimahefa",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jean",
+                "middle": [],
+                "last": "Rakotoarivelo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "De Dieu Randria",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Soloniaina",
+                "middle": [],
+                "last": "H\u00e9lio Razafimahefa",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University Hospital Andrainjato",
+                    "location": {
+                        "settlement": "Fianarantsoa",
+                        "country": "Madagascar"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rivonirina",
+                "middle": [
+                    "Andy"
+                ],
+                "last": "Rakotoarivelo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University Hospital Andrainjato",
+                    "location": {
+                        "settlement": "Fianarantsoa",
+                        "country": "Madagascar"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mamy",
+                "middle": [],
+                "last": "Jean De Dieu Randria",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University Hospital Joseph Raseta Befelatanana",
+                    "location": {
+                        "settlement": "Antananarivo",
+                        "country": "Madagascar"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "University",
+                "middle": [],
+                "last": "Hospital",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Joseph",
+                "middle": [],
+                "last": "Raseta Befelatanana",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "J o u r n a l P r e -p r o o f Highlights \uf0b7 Fast detection of cases is essential to limit the transmission of the COVID-19 \uf0b7 Combination of signs and epidemiological features could help detect cases \uf0b7 A clinical screening score could be helpful to assess the probability of COVID-19 \uf0b7 A patient with high screening score has higher probability of COVID-19",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Early and fast detection of COVID-19 patients help limit the transmission and the widespread of the virus in the community and will have impact on mortality by reducing the incidence of infection among vulnerable people. Therefore, communitybased screening is critical. We aimed to identify clinical signs and symptoms and for SARS-CoV-2 (",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "epidemiological features that could help discriminate confirmed cases of COVID-19 from SARS-CoV-2 negative patients. We found that age (aOR:1.02, 95%CI:1.02-1.03, p<0.001), symptoms onset between 3 and 14 days (aOR:1.35, 95%CI:1.09)1.68, p=0.006), fever or history of fever (aOR:1.75, 95%CI:1.42-2.14, p<0.001), cough (aOR:1.68, 95%CI:1.31-2.04), sore throat (aOR:0.65, 95%CI:0.49-0.85, p=0.002), ageusia (aOR:2.24, 95%CI:1.42-3.54, p=0.001), anosmia (aOR:6.04, p<0 .001), chest pain (aOR:0.63, 95%CI:0.47-0.85, p=0.003), myalgia and/or arthralgia (aOR:1.64, 95%CI:1.31-2.04, p<0.001), household cluster (aOR:1.49, 95%CI:1.17-1.91, p=0.001) and evidence of confirmed cases in the J o u r n a l P r e -p r o o f neighbourhood (aOR:1.92, 95%CI:1.56-2.37, p<0.001) could help discriminate COVID-19 patients from SARS-CoV-2 negative. A screening score derived from multivariate logistic regression was developed to assess the probability of COVID-19 in patients. We suggest that a patient with a score \u2265 14 should undergo SARS-CoV-2 PCR testing. A patient with a score \u2265 30 should be considered at high risk of COVID-19 and should undergo testing but also need prompt isolation and contact tracing.",
+            "cite_spans": [
+                {
+                    "start": 462,
+                    "end": 465,
+                    "text": "p<0",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "COVID-19; SARS-CoV-2; clinical findings; screening; score; prediction Prompt detection, contact tracing and quarantine of cases are estimated to be highly effective in controlling the transmission and reducing mortality from COVID-19 (Kretzschmar et al. 2020; Nussbaumer-Streit et al. 2020) . Therefore, screening based on clinical features is critical at community level especially in a context of local transmission of the virus. We aimed to assess whether some symptoms and combination of several of them could help discriminate COVID-19 among patients attending 2 screening centres.",
+            "cite_spans": [
+                {
+                    "start": 234,
+                    "end": 259,
+                    "text": "(Kretzschmar et al. 2020;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 260,
+                    "end": 290,
+                    "text": "Nussbaumer-Streit et al. 2020)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Keywords"
+        },
+        {
+            "text": "We included in this analysis routinely collected data on patients attending the screening centre at the Centre Hospitalier Universitaire Joseph Raseta Befelatanana J o u r n a l P r e -p r o o f (CHUJRB), Antananarivo from May, 6 to July, 1 and from July, 4 to August, 14 for those attending the screening centre at the Centre Hospitalier Universitaire Tambohobe (CHUT), Fianarantsoa. We excluded patients with unknown or inconclusive PCR results. We have also investigated whether the patient lives in a neighbourhood or an area where COVID-19 patients were previously confirmed (neighbourhood) and whether other people living in the same dwelling are symptomatic (household cluster).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Keywords"
+        },
+        {
+            "text": "We compared clinical and epidemiological features of confirmed cases with those with negative test for SARS-CoV-2 by univariate and multivariate analysis by logistic regression model. We used \u03b2-coefficient multiplied by 10 and rounded to the nearest multiple of 2 derived from the logistic regression model to generate a screening score to ascertain the probability of COVID-19 in patients aged\u226515 years considering a combination of clinical signs and epidemiological features. The performance of the model was assessed by ROC curve. The sensitivity (Se), specificity (Sp), positive likelihood ratio (LR+) and negative likelihood ratio (LR-) were estimated for each cutoff. Statistical analysis was performed with Stata 14.0 (StataCorp, LP). We collected data on 3154 patients. Overall characteristics and comparison between patients with negative and positive PCR results among those symptomatic were detailed in can be obtained with a cut-off point of 30 but with a Se of 34.4%. A cut-off of 34 will provide a LR+ of at least 5 which can be considered red flags according to J o u r n a l P r e -p r o o f commonly arbitrary definition (Struyf et al. 2020) . The area under the ROC curve was 0.7723 (95%CI: 0.75-0.79). The internal validation using 1000 bootstrap samples from the original dataset found a ROC curve area of 0.7614.",
+            "cite_spans": [
+                {
+                    "start": 1138,
+                    "end": 1158,
+                    "text": "(Struyf et al. 2020)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Keywords"
+        },
+        {
+            "text": "We suggest that a patient with a score \u2265 14 should undergo SARS-CoV-2 PCR testing. A patient with a score \u2265 30 should be considered at high risk of COVID-19 and should undergo testing but also need prompt isolation and contact tracing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Keywords"
+        },
+        {
+            "text": "Previous study has shown that prediction models that include routine blood tests in addition to clinical findings are efficient to assess the probability for COVID-19 (Sun et al. 2020 ). However, availability, access and affordability of blood tests limit their use in resource-limited settings. A trade-off between sensitivity and specificity is challenging when considering screening tool for suspect cases. Nevertheless, more sensitive tool is often needed and preferred in an ongoing outbreak. A recent systematic review of signs and symptoms in COVID-19 showed low sensitivity of these signs when taken separately (Struyf et al. 2020) . A recent study in Somalia showed that the current WHO case definition for COVID-19 had only 32.7% (95%CI: 20-48) sensitivity that could be slightly improved when integrating anosmia in the case definition (Ahmed et al. 2020) . Anosmia and ageusia are highly specific of COVID-19 and have the highest scores in the model even if they were present in only 27.3% and 16.2% of patients (La Torre et al., 2020; Liou et al., 2020) . Surprisingly, dyspnoea was not associated with positive SARS-CoV-2 test and was associated with negative test in univariate analysis. Similarly, self-reported contact with confirmed case did not help discriminate SARS-CoV-2 positive patients.",
+            "cite_spans": [
+                {
+                    "start": 167,
+                    "end": 183,
+                    "text": "(Sun et al. 2020",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 619,
+                    "end": 639,
+                    "text": "(Struyf et al. 2020)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 847,
+                    "end": 866,
+                    "text": "(Ahmed et al. 2020)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1028,
+                    "end": 1047,
+                    "text": "Torre et al., 2020;",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1048,
+                    "end": 1066,
+                    "text": "Liou et al., 2020)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Keywords"
+        },
+        {
+            "text": "Patients may have exaggerated when reporting symptoms like dyspnoea and other subjective signs or contact with confirmed cases because of panic and fear. The same situation has been observed in previous outbreak in Madagascar (Salam et al., J o u r n a l P r e -p r o o f 2020). In addition, epidemiological link is difficult to identify when community transmission occurs. More objective signs like respiratory rate or measure of Sp02 by simple pulse oximetry that may be helpful in detecting silent hypoxia in COVID-19 were more reliable (Dhont et al. 2020; Jouffroy et al. 2020) .",
+            "cite_spans": [
+                {
+                    "start": 226,
+                    "end": 240,
+                    "text": "(Salam et al.,",
+                    "ref_id": null
+                },
+                {
+                    "start": 540,
+                    "end": 559,
+                    "text": "(Dhont et al. 2020;",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 560,
+                    "end": 581,
+                    "text": "Jouffroy et al. 2020)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Keywords"
+        },
+        {
+            "text": "It is also anticipated that considering neighbourhood as a criterion for screening will be less relevant as the epidemic progresses in the community.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Keywords"
+        },
+        {
+            "text": "This study had several limitations. We could not assess other type of cluster that may be relevant like occupational clusters. Using level of transmission for each neighbourhood or area by considering attack rate would have been more accurate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Keywords"
+        },
+        {
+            "text": "Finally, a prospective external validation of the score is needed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Keywords"
+        },
+        {
+            "text": "A screening score based on combination of clinical and epidemiological features could help front-line healthcare workers to classify patients according to their probability of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Keywords"
+        },
+        {
+            "text": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interests"
+        },
+        {
+            "text": "https://doi.org/10.1093/cid/ciaa322. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interests"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Evidence for significant COVID-19 community transmission in Somalia using a clinical case definition",
+            "authors": [
+                {
+                    "first": "Mam",
+                    "middle": [],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Colebunders",
+                    "suffix": ""
+                },
+                {
+                    "first": "Siewe",
+                    "middle": [],
+                    "last": "Fodjo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "98",
+            "issn": "",
+            "pages": "206--213",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2020.06.068"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The pathophysiology of \"happy\" hypoxemia in COVID-19",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dhont",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Derom",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Van Braeckel",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Depuydt",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Lambrecht",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Respir Res",
+            "volume": "21",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Prehospital pulse oximetry: a red flag for early detection of silent hypoxemia in COVID-19 patients",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jouffroy",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Jost",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Prunet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Crit Care",
+            "volume": "24",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s13054-020-03036-9"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Impact of delays on effectiveness of contact tracing strategies for COVID-19: a modelling study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kretzschmar",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Rozhnova",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mcj",
+                    "middle": [],
+                    "last": "Bootsma",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Van Boven",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jhhm",
+                    "middle": [],
+                    "last": "Van De Wijgert",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mjm",
+                    "middle": [],
+                    "last": "Bonten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Public Health",
+            "volume": "5",
+            "issn": "",
+            "pages": "452--461",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Anosmia and Ageusia as Predictive Signs of COVID-19 in Healthcare Workers in Italy: A Prospective Case-Control Study",
+            "authors": [
+                {
+                    "first": "La",
+                    "middle": [],
+                    "last": "Torre",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Massetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Antonelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fimiani",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fantini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Marte",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Med",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Alteration of taste or smell as a predictor of COVID-19",
+            "authors": [
+                {
+                    "first": "J-M",
+                    "middle": [],
+                    "last": "Liou",
+                    "suffix": ""
+                },
+                {
+                    "first": "M-J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T-C",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "M-S",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gut",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/gutjnl-2020-322125"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Quarantine alone or in combination with other public health measures to control COVID-19: a rapid review",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Nussbaumer-Streit",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Mayr",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Dobrescu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chapman",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Persad",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Klerings",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cochrane Database Syst Rev",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/14651858.CD013574"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Factors Influencing Atypical Clinical Presentations during the 2017 Madagascar Pneumonic Plague Outbreak: A Prospective Cohort Study",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Razafinambinintsoa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am J Trop Med Hyg",
+            "volume": "102",
+            "issn": "",
+            "pages": "1309--1324",
+            "other_ids": {
+                "DOI": [
+                    "10.4269/ajtmh.19-0576"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Signs and symptoms to determine if a patient presenting in primary care or hospital outpatient settings has COVID-19 disease",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Struyf",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Deeks",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dinnes",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Takwoingi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Davenport",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leeflang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cochrane Database Syst Rev",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/14651858.CD013665"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Epidemiological and Clinical Predictors of COVID-19",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Koh",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Marimuthu",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Young",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Vasoo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "71",
+            "issn": "",
+            "pages": "786--92",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "The screening score derived from the \u03b2-coefficient of the logistic regression model is detailed inTable 2. The ROC curve analysis suggested that a cut-off point of 10, 12, 14, 16, 18 and 20 will provide a Se/Sp/LR+/LR-respectively of 0.963/0.221/1.24/0.17, 0.945/0.328/1.40/0.17, 0.907/0.421/1.57/0.22, 0.856/0.516/1.77/0.28, 0.795/0.604/2.00/0.34 and 0.729/0.679/2.27/0.40. A Sp>90%",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Comparison of clinical findings and epidemiological features betweenCOVID-19 confirmed cases and SARS-CoV-2 negative patients \u00b6 \u03c7 2 test or Fischer's exact test for categorical variables, Wilcoxon-Mann-Whitney test for continuous variables Table 2. Multivariate analysis of clinical signs and epidemiological features associated with COVID-19 and derived screening score",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors would like to thank the Ministry of Public Health and the medical staff that has been involved in the screening of COVID-19 patients at the Centre Hospitalier Universitaire Joseph Raseta Befelatanana, Antananarivo, the Centre Hospitalier Universitaire Tambohobe, Fianarantsoa and the Centre Hospitalier Universitaire Andrainjato. We also thank the laboratories that have performed PCR",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgment"
+        }
+    ]
+}

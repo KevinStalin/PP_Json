@@ -1,0 +1,2722 @@
+{
+    "paper_id": "0b9e25546560fabfd259368b85f098207334bb62",
+    "metadata": {
+        "title": "Berberine derivatives with a long alkyl chain branched by hydroxyl group and methoxycarbonyl group at 9-position show improved anti-proliferation activity and membrane permeability in A549 cells",
+        "authors": [
+            {
+                "first": "Yi",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Ke-Xin Zhu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Lei",
+                "middle": [],
+                "last": "Cao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Zhi-Fu",
+                "middle": [],
+                "last": "Xie",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Min",
+                "middle": [],
+                "last": "Gu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Wei",
+                "middle": [],
+                "last": "L\u00fc",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jing-Ya",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Fa-Jun",
+                "middle": [],
+                "last": "Nan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Berberine (BBR) exhibits diverse bioactivities, including anticancer activity; but its poor druggability limits its applications. In this study, we designed and synthesized a series of 9-O position modified BBR derivatives aiming to improve its cell permeability and anticancer activity, utilizing a long alkyl chain branched by hydroxyl group and methoxycarbonyl group. Among these compounds, B10 showed 3.6-fold higher intracellular concentration than BBR, as well as 60-fold increased anti-proliferation activity against human lung cancer A549 cells compared with BBR. Treatment with B10 (1, 2 \u03bcM) induced apoptosis of A549 cells. Further investigations showed that B10 treatment dose-dependently affected mitochondrial functions, including oxygen consumption rate (OCR), mitochondrial membrane potential (MMP) and the morphology of mitochondria in A549 cells. Therefore, this work offers a new way for BBR structural modification through improving cell membrane permeability to affect mitochondrial functions and potential anti-tumor therapy in the future.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Berberine (BBR) is an isoquinoline quaternary alkaloid isolated from Rhizoma coptidis (Fig. 1a) , which has been widely used for decades as a nonprescription drug to treat diarrhea in China with good safety [1] . It has been reported in many studies that BBR possesses diverse bioactivities, including antidiarrheal [2] , antibacterial [3, 4] , anti-inflammatory [5] , antidiabetic [6, 7] and antihyperlipidemic [2, 8] effects. Particularly, some recent studies have shown that BBR exhibits inhibitory effects on a variety of tumors, such as lymphoma [9] , breast [10] , colorectal [11] , hepatocellular [12] , lung [13] , esophageal [14] and pancreatic [15] cancers. The antitumor activity of BBR has been confirmed by many studies that revealed that BBR could inhibit the growth of cancer cells, induce cell apoptosis and arrest the cell cycle [16, 17] .",
+            "cite_spans": [
+                {
+                    "start": 207,
+                    "end": 210,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 316,
+                    "end": 319,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 336,
+                    "end": 339,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 340,
+                    "end": 342,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 363,
+                    "end": 366,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 382,
+                    "end": 385,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 386,
+                    "end": 388,
+                    "text": "7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 412,
+                    "end": 415,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 416,
+                    "end": 418,
+                    "text": "8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 551,
+                    "end": 554,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 564,
+                    "end": 568,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 582,
+                    "end": 586,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 604,
+                    "end": 608,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 616,
+                    "end": 620,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 634,
+                    "end": 638,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 654,
+                    "end": 658,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 846,
+                    "end": 850,
+                    "text": "[16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 851,
+                    "end": 854,
+                    "text": "17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 86,
+                    "end": 95,
+                    "text": "(Fig. 1a)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Some studies have indicated that BBR can inhibit the migration and invasion of tumor cells by affecting the related proteins. For example, the expression of E-cadherin, which is a significant mediator that regulates cell-cell adhesion and is an important molecule for maintaining the morphological and structural integrity of epithelial cells, can be enhanced by BBR in A549 lung cancer cells [18] . BBR also inhibits the expression of matrix metalloproteinases, an important class of proteins involved in the degradation of the extracellular matrix barrier, as the first step in tumor cell metastasis [19, 20] . Vascular endothelial growth factor (VEGF) plays a vital role in tumor cell neovascularization. BBR shows an inhibitory effect on VEGF expression in the melanoma cell line B16F-10 [21, 22] . In colon cancer cells, BBR can significantly inhibit the synthesis of COX-2 and block the activation of the STAT3 signaling pathway induced by COX-2, thereby inhibiting the invasion and metastasis of tumor cells [23] . Moreover, BBR affects apoptosis-related proteins and pathways, which lead to the inhibition of tumor cell proliferation and the induction of tumor cell apoptosis. Caspase can be activated by BBR on different tumor cells [24] [25] [26] . In addition, BBR inhibits the proliferation of various tumor cells by inducing cell cycle arrest in in vitro cell experiments [27] [28] [29] .",
+            "cite_spans": [
+                {
+                    "start": 393,
+                    "end": 397,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 602,
+                    "end": 606,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 607,
+                    "end": 610,
+                    "text": "20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 792,
+                    "end": 796,
+                    "text": "[21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 797,
+                    "end": 800,
+                    "text": "22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1015,
+                    "end": 1019,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1242,
+                    "end": 1246,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1247,
+                    "end": 1251,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1252,
+                    "end": 1256,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1385,
+                    "end": 1389,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1390,
+                    "end": 1394,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1395,
+                    "end": 1399,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Mitochondria play a key role in the antitumor effects of BBR. Since most cancer cells have a higher mitochondrial membrane potential (MMP) than nontransformed cells [30] , the positively charged alkaloid can selectively accumulate in mitochondria driven by the negatively charged inner mitochondrial membranes (IMMs). BBR treatment results in decreased MMP, inhibition of respiratory chain complex I, increased mitochondrial permeability transition (MPT), damage to the mitochondrial structure, and decreased mitochondrial oxidative stress and mitochondrial DNA copy number, which together finally causes mitochondrial dysfunction and leads to cell death [31] [32] [33] .",
+            "cite_spans": [
+                {
+                    "start": 165,
+                    "end": 169,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 655,
+                    "end": 659,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 660,
+                    "end": 664,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 665,
+                    "end": 669,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "However, the poor druggability of BBR leads to extremely low plasma exposure and oral bioavailability (<5%) or acute toxicity after intravenous injection (LD 50 < 10 mg/kg), which limits its further development as a potential drug candidate [34, 35] . To solve these problems, some studies have been carried out that mainly focused on modifications to C-8, C-9, C-10, C-12 and C-13 ( Fig. 1b) [36] [37] [38] .",
+            "cite_spans": [
+                {
+                    "start": 241,
+                    "end": 245,
+                    "text": "[34,",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 246,
+                    "end": 249,
+                    "text": "35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 393,
+                    "end": 397,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 398,
+                    "end": 402,
+                    "text": "[37]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 403,
+                    "end": 407,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 384,
+                    "end": 392,
+                    "text": "Fig. 1b)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Most of these studies focused on lipophilic modifications by introducing long chain alkyl groups. For example, 8-cetylberberine is a long chain alkylate derivative of BBR, which can inhibit the growth of lung cancer in vitro and in vivo [39] . A palmitate ester at the 9-position of BBR showed enhanced lipid-lowering efficacy [40] . 13-N-Octylberberine derivatives had more effective antimycobacterial activity [4] . Similarly, the replacement of other nonalkylate moieties also improved BBR activity. Kang et al. synthesized 9-Obenzoyl-substituted analogs that exerted triglyceride-lowering effects [41] . 9-N-Substituted BBR derivatives were synthesized and evaluated as a new class of G-quadruplex binding ligands or as cancer immunotherapy agents [42] . Although the majority of the modifications were centralized at the 9-position, there was a limited report on applying this strategy to improve anticancer activity.",
+            "cite_spans": [
+                {
+                    "start": 237,
+                    "end": 241,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 327,
+                    "end": 331,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 412,
+                    "end": 415,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 601,
+                    "end": 605,
+                    "text": "[41]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 752,
+                    "end": 756,
+                    "text": "[42]",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "To explore whether the modification of the 9-position could improve the anticancer activity of BBR, we creatively designed and synthesized several compounds by introducing a long alkyl chain branched by hydroxyl group and a methoxycarbonyl group at the 9-position. The substituted group shared a similar structure with the known antihyperlipidemic drug ETC-1002 (Fig. 1c) . We evaluated the effects on proliferation and mitochondrial functions in A549 lung cancer cells. Some compounds exhibited better anticancer effects than BBR. Further, we found that improved cell membrane permeability was crucial in the enhancement of antiproliferative activity. Therefore, we offer a new approach to develop BBR derivatives as potential anticancer drug candidates.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 362,
+                    "end": 371,
+                    "text": "(Fig. 1c)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The experimental procedures and characterization of all compounds are provided in the Supplementary Information.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthesis"
+        },
+        {
+            "text": "Biological assay A549 cells were purchased from the Cell Bank of the Chinese Academy of Sciences (TCHu150, Shanghai, China). The A549 cell lines were maintained in F12K medium (Gibco, CA, USA) supplemented with 10% fetal bovine serum (FBS) (Gibco, CA, USA) and cultured at 37\u00b0C in 5% CO 2 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthesis"
+        },
+        {
+            "text": "Cellular proliferation assays (dose-dependent) A549 cells were plated into 96-well plates at a density of 3 \u00d7 10 4 cells/mL in triplicate and incubated with escalating concentrations of different compounds for 72 h. CellTiter 96 AQueous One Solution reagent (G5430, Promega) (20 \u03bcL) was added per well. The absorbance at 490 nm was measured using a 340PC384 SpectraMAX microplate reader (Molecular Devices). IC 50 values are reported as the mean of three independent experiments performed in triplicate. The inhibitor concentration range for IC 50 determinations was 0-200 \u03bcM.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthesis"
+        },
+        {
+            "text": "Proliferation (time-dependent) A549 cells were cultured in 96-well plates at a density of 3 \u00d7 10 4 cells/mL and incubated overnight for adherence before blank treatment or treatment with different compounds. CellTiter 96 AQueous One Solution reagent (G5430, Promega) (20 \u03bcL) was added per well. The absorbance at 490 nm was measured using a 340PC384 SpectraMAX microplate reader (Molecular Devices) at 0, 24, 48 and 72 h to determine cell proliferation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthesis"
+        },
+        {
+            "text": "Cell energy metabolic analysis A549 cells were cultured in Seahorse XF96 plate at a density of 3 \u00d7 10 5 cells/mL and incubated 24 h for adherence. Then, the medium was replaced by preheated oxygen consumption rate (OCR) assay buffer after the cells were gently rinsed with phosphate-buffered saline (PBS). Each measurement consisted of four injections, and the working compound and final concentration were as follows: injection A, test compounds of various concentrations; injection B, 1 \u03bcM oligomycin as an ATP synthase inhibitor; injection C, 0.6 \u03bcM FCCP (carbonyl cyanide-p-tri-fluoromethoxyphenyl-hydrazone) as a mitochondrial uncoupler; and injection D, 10 \u03bcM rotenone and 10 \u03bcM antimycin as electron transport chain (ETC) of oxidative phosphorylation inhibitors. After incubation at 37\u00b0C without CO 2 for~1 h, the OCR of the cells was measured with a Seahorse XF extracellular flux analyzer.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthesis"
+        },
+        {
+            "text": "Compounds cell permeability A549 cells at a density of 2.5 \u00d7 10 5 cells/mL were seeded into 12well plates in triplicate and incubated overnight at 37\u00b0C. After 8 h of exposure to 5 \u03bcM different compounds, the medium was removed by aspiration from the wells. Then, the cells were washed three times with ice-cold PBS and lysed on ice for 20 min in 1 mL of lysis buffer (acetonitrile:PBS = 1:2). After sonication, the supernatants were collected and centrifuged for 10 min at 12,000 rpm (4\u00b0C) to remove cell debris. The supernatants were dried in a vacuum, and then 100 \u03bcL of acetonitrile was added to the residue. The mixture was vortexed for 3 min, and after centrifugation at 9600 \u00d7 g for 5 min, the supernatant was collected. The concentration of compounds was determined by LC-MS.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthesis"
+        },
+        {
+            "text": "Imaging and quantification of TMRE mitochondrial fluorescence staining A549 cells were seeded in 96-well \u03bcCLEAR black F-bottom plates at a density of 3 \u00d7 10 5 cells/mL and incubated overnight for adherence. Then, the cells were treated with different concentrations of compounds for 24 h. Next, cells were incubated with 100 nM tetramethylrhodamine ethyl ester perchlorate (TMRE) for 30 min and 1 \u03bcg/mL Hoechst 33342 (the final concentration) for the next 10 min in the dark before analysis. Then, the medium was replaced with PBS. Cells were analyzed with an Operetta high content screening system. Images of bright field, TMRE and Hoechst were captured with a 40\u00d7 microscope, and the fluorescence intensity of TMRE was measured.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthesis"
+        },
+        {
+            "text": "Mitochondrial morphological observation by Mito Tracker Green fluorescence staining A549 cells were seeded in 96-well \u03bcCLEAR black F-bottom plates at a density of 1.5 \u00d7 10 5 cells/mL and incubated overnight for adherence. Cells were then incubated with different concentrations of compounds for 24 h. Twenty minutes before the end of incubation, a final concentration of 100 nM Mito Tracker Green was added to each well and incubation continued in the dark. After the medium was replaced with PBS, the cells were analyzed with an Opera Phenix high content screening system. Confocal images of Mito Tracker Green were captured under a 63\u00d7 microscope.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthesis"
+        },
+        {
+            "text": "Western blots Proteins of cell lysates or the cytoplasm (without mitochondria) were separated using SDS-PAGE (10%) and transferred to NC membranes. Nonspecific binding was blocked with 5% milk (in TBST) for 1 h, and membranes were probed with antibodies against \u03b2-actin (ABGENT, #AM1021B), cytochrome c (11940, Cell Signaling Technologies), Bcl-2 (2764s, Cell Signaling Technologies), cleaved-caspase-3 (9542, Cell Signaling Technologies) and Mcl-1 (5453s, Cell Signaling Technologies). Membranes were incubated with secondary anti IgG-HRP, and chemiluminescence was detected using ECL substrate (GE Healthcare, #RPN2232) and captured with a ChemiDoc MP imaging system.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthesis"
+        },
+        {
+            "text": "Apoptosis analysis by flow cytometry A549 cells (1.5 \u00d7 10 5 ) were cultured for 24 h in 12-well plates with or without BBR or B10 (1 \u03bcM or 2 \u03bcM) treatment. Twenty-four hours after incubation, the cells were harvested, washed with PBS and centrifuged at 400 \u00d7 g for 2 min three times. The cells were resuspended in 100 \u03bcL of 1\u00d7 binding buffer and then incubated with 2 \u03bcL of Annexin-V-APC and 2 \u03bcL of PI (Meilunbio, MA0220) for 10 min and then diluted with 100 \u03bcL of 1\u00d7 binding buffer. Flow cytometric data were acquired from 1 \u00d7 10 4 cells with a FACS Calibur cytometer (NovoCyte, D2060R), and data were analyzed by Flowjo software.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthesis"
+        },
+        {
+            "text": "Statistical analysis Data were analyzed and are expressed as the mean \u00b1 standard error of the mean (S.E.M.). Difference between the two groups were analyzed using Student's t-tests. The differences among multiple groups were compared by one-way ANOVA. Differences were considered significant when P < 0.05.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthesis"
+        },
+        {
+            "text": "Eleven new BBR derivatives were designed and synthesized as displayed in Schemes 1-5. As shown in Scheme 1, taking the commercially available BBR as the starting material, intermediates 1-4 were obtained according to a previous report [42] .",
+            "cite_spans": [
+                {
+                    "start": 235,
+                    "end": 239,
+                    "text": "[42]",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Synthesis"
+        },
+        {
+            "text": "The synthetic route for compound B1 is illustrated in Scheme 2. Starting from the commercially available ETC-1002, intermediate 5 was synthesized using Dess-Martin oxidation (DMP), followed by condensation with intermediate 1. The reaction was quenched with methanol to give the methyl esterification intermediate 6.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthesis"
+        },
+        {
+            "text": "We chose sodium borohydride (NaBH 4 ) to achieve the reduction of 6, followed by oxidation with iodine to afford the final compound B1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthesis"
+        },
+        {
+            "text": "Derivative B2, with a free carboxyl group, was synthesized as shown in Scheme 3. Starting from intermediate 5, one of the carboxyl groups of intermediate 5 was selectively protected with a benzyl group. The resulting intermediate 8 was then condensed with intermediate 2 to give compound 9. After reduction, deprotection and oxidation reactions, derivative B2 was obtained.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthesis"
+        },
+        {
+            "text": "To further explore the structure activity relationship (SAR), we introduced different side chain substitutions with the same length of 15 carbons and synthesized compounds B3-B7 (Scheme 4). Different substituted pentadecanoic acids 12-15 were reacted with oxalyl chloride and condensed with intermediate 1 to obtain the derivatives B3-B6. Reagent 16 was condensed with intermediate 2 to give compound 17. After reduction and oxidation reactions, derivative B7 was obtained.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthesis"
+        },
+        {
+            "text": "To further enrich the diversity of structures, we used similar methods to those used for the synthesis of B1 and B2 to synthesize amide derivatives B8 and B9 (Scheme 5). To simplify the synthesis, we removed the two \u03b1-methyl groups and obtained ether derivatives B10 and B11. Alkyl bromide 26 was obtained by starting with the reported intermediate 24 according to a previous procedure [43] . Finally, derivative B10 was obtained by condensation of intermediate 1 with intermediate 26. Derivative B11 was obtained by the heating and hydrolysis of B10.",
+            "cite_spans": [
+                {
+                    "start": 386,
+                    "end": 390,
+                    "text": "[43]",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Synthesis"
+        },
+        {
+            "text": "We tested the activity of compound B1 on the A549 cell line (Table 1) , and the results showed a considerable increase in potency (8.6 \u03bcM) compared with BBR (54.5 \u03bcM). Compound B1 showed a dramatic increase in cLog P (cLog P = 3.175) compared with BBR (cLog P = \u22120.771), indicating that B1 might have better lipophilicity and cell membrane permeability. BBR can inhibit cell proliferation in a dose-dependent manner and achieves complete suppression at the concentration of 60 \u03bcM [33] . To investigate whether B1 could inhibit cell proliferation as well, A549 cells were incubated in the absence and presence of increasing concentrations of drug (0.5, 1 \u03bcM) for 24, 48 and 72 h. BBR and ETC-1002 had no obvious effect on A549 cells (Fig. 2a, b) . However, at the same concentration, B1 had a dose-and timedependent effect on cell proliferation (Fig. 2c) . We speculated that one of the reasons might be the improved permeability. our speculation, we conducted a cell membrane permeability experiment in which A549 cells were incubated with BBR and B1 (5 \u03bcM) for 8 h. The results showed that the concentration of intracellular compound B1 was higher than that of intracellular BBR, which was consistent with the IC 50 value (Fig. 2e) . Therefore, we found a compound (B1) with better permeability and antitumor activity than BBR. Encouraged by the results above, we next introduced different side chain substitutions with the same length of 15 carbons to further investigate the SAR. After deprotecting the methyl group, the acid from compound B2 completely lost its activity, revealing that the ester moiety was important to maintain the anticancer activity in A549 cells. To simplify the structure, the four \u03b1-methyl groups were removed, and compounds B3-B7 were designed and synthesized. Unfortunately, all of them showed dramatic declines in their IC 50 values toward A549 cells compared with B1. Several of the compounds were completely inactive. The above results indicated that the \u03b1methyl groups were beneficial for maintaining the activity. Amide derivatives B8 and B9 both displayed weaker activity compared to B1, indicating the importance of the oxygen at the 9-position. We then kept the 9-position oxygen to synthesize ester derivatives B10 and B11. To our surprise, compound B10 exhibited a 60-fold increase in activity compared to BBR (IC 50 = 0.9 \u03bcM). In addition, the acid form compound B11 had no activity in accordance with the above SAR. We selected compound B10 with good potency to test its effects on cell proliferation and cell membrane permeability. As shown in Fig. 2d , B10 significantly inhibited cell proliferation in a dose-dependent manner. Moreover, the inhibitory effect of B10 was stronger than that of B1, which matched well with their IC 50 values in A549 cells. We also evaluated the activity of compounds B2 and B11 in the MTS assay ( Supplementary Fig. S1a, b) , and compounds B2 and B11 showed no inhibitory effect. There was no doubt that the permeability experiment showed that the concentration of intracellular compound B10 was higher than that of BBR (Fig. 2f) . The membrane permeabilities of compounds B2 and B11 were worse than that of BBR, which demonstrated that the increase in activity was correlated with the increase in permeability (Supplementary Fig. S1c) . Due to the positive charge on BBR and its derivatives, they could accumulate into the mitochondria, driven by the strong negative charge on the mitochondrial inner membrane. Moreover, mitochondria play a vital role in the physiological activity of BBR. As a membrane fluorescent potential-dependent mitochondrial indicator dye, TMRE fluorescence would increase with the enlarged MMP difference and vice versa, which could reflect the morphology and membrane potential of the mitochondria. To confirm the effect of the compounds on the mitochondria, we investigated the effects of B1, B10 and BBR on mitochondria via TMRE MMP experiments and fluorescence microscopy experiments.",
+            "cite_spans": [
+                {
+                    "start": 480,
+                    "end": 484,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 60,
+                    "end": 69,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 732,
+                    "end": 744,
+                    "text": "(Fig. 2a, b)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 844,
+                    "end": 853,
+                    "text": "(Fig. 2c)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1223,
+                    "end": 1232,
+                    "text": "(Fig. 2e)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 2587,
+                    "end": 2594,
+                    "text": "Fig. 2d",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 2873,
+                    "end": 2899,
+                    "text": "Supplementary Fig. S1a, b)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 3096,
+                    "end": 3105,
+                    "text": "(Fig. 2f)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 3287,
+                    "end": 3311,
+                    "text": "(Supplementary Fig. S1c)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Activities of the BBR derivatives"
+        },
+        {
+            "text": "The results revealed that B10 dramatically decreased the MMP in a dose-dependent manner, while BBR did not affect the MMP even at the highest concentration (10 \u03bcM). B10 was obviously much stronger than B1 in the TMRE-based MMP assay, which was consistent with their IC 50 values (Fig. 3b) . The MMP was almost fully lost after treatment with high concentrations of B10 (10 \u03bcM). In the fluorescence microscopy experiment, the results confirmed that B10 could lower the MMP in a dose-dependent manner, and the fluorescent signal of TMRE fully disappeared at the 10 \u03bcM concentration of B10, which was much stronger than that of B1. In addition, the fluorescence intensity had no obvious change with BBR treatment, indicating that BBR had no effect on MMP at this concentration (Fig. 3a) . In addition, we noticed that treatment with B1 and B10 could lead to changes in mitochondrial morphology. BBR can induce mitochondrial structure collapse and fragmentation at 60 \u03bcM in HepG2 cells [33] . Our results showed that 10 \u03bcM B1 could slightly change the mitochondrial morphology, while 2.5 \u03bcM B10 initiated significant mitochondrial fragmentation. On the other hand, 10 \u03bcM BBR treatment had no obvious effects on mitochondrial morphology, as indicated in Fig. 4 . These results revealed that B1 and B10 could influence mitochondrial functions and change the normal mitochondrial structure, which could finally lead to the death of cancer cells.",
+            "cite_spans": [
+                {
+                    "start": 982,
+                    "end": 986,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 279,
+                    "end": 288,
+                    "text": "(Fig. 3b)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 774,
+                    "end": 783,
+                    "text": "(Fig. 3a)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1249,
+                    "end": 1255,
+                    "text": "Fig. 4",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Activities of the BBR derivatives"
+        },
+        {
+            "text": "To investigate the effects of the compounds on mitochondrial ETC function, we then investigated the OCR after B1 and B10 treatment (Fig. 5) . The results showed that BBR could only slightly inhibit OCR at high concentrations (>20 \u03bcM), while ETC-1002 did not affect the OCR. The OCR dramatically decreased in a dosedependent manner after treatment with compound B1. In summary, the anticancer activity of compound B1 was better than BBR. Compound B10 significantly caused a decline in the OCR at the lowest concentration (5 \u03bcM) and lead to a sharp and rapid loss of OCR, reaching 30% after 10 min of incubation with high concentration treatment (>20 \u03bcM). In addition, the mitochondrial uncoupler FCCP did not elicit the full percent of oligomycin-blocked ETC respiration, indicating that the ETC respiration capacity of treated A549 cells was suppressed by compound B10 in a dose-dependent manner. However, compounds B2 and B11 had no obvious effect on the OCR (Supplementary Fig. S1d, e) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 131,
+                    "end": 139,
+                    "text": "(Fig. 5)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 960,
+                    "end": 987,
+                    "text": "(Supplementary Fig. S1d, e)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Activities of the BBR derivatives"
+        },
+        {
+            "text": "In addition to proliferation inhibition, we regarded apoptosis promotion as another marker of anticancer efficacy. BBR has been reported to induce apoptosis in SiHa and HeLa cells at doses of 100 \u03bcg/mL (297.6 \u03bcM) and 250 \u03bcg/mL (744.0 \u03bcM). In our case, we conducted flow cytometry to evaluate whether B10 could promote A549 apoptosis with a higher capability than BBR. We chose 1 \u03bcM and 2 \u03bcM to maintain consistency with the proliferation inhibitory assay, in which 24 h was the intermediate duration of treatment. As shown in Fig. 6a , the percent of apoptotic cells was significantly increased after B10 treatment for 24 h in a dose-dependent manner, and B10 showed increased potency compared to BBR (Fig. 6a) . To further confirm the induced apoptotic mechanism, A549 cells were treated with BBR and B10 to examine the effect on caspase-3 cleavage by Western blot. As shown in Fig. 6b , significant caspase-3 cleavage was observed after B10 treatment, which indicated that B10 induced A549 cell apoptosis. Mitochondrial membrane depolarization is an early event in apoptosis. Cytosolic cytochrome c was necessary for the initiation of the apoptotic program. B10 treatment induced A549 cell apoptosis, so we next detected the levels of mitochondrial proteins related to apoptosis. After B10 treatment for 24 h, the expressions of Bcl-2 and MCL-1, the key proteins that prevent apoptosis, were much lower than the levels in the control group as well as the levels in the BBRtreated group (Fig. 6b ). More importantly, the release of cytochrome c from the mitochondria into the cytoplasm was much greater than in the control group after B10 treatment. These experiments showed that B10 induces apoptosis in A549 cells and that this induction may be associated with the modulation of mitochondria.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 526,
+                    "end": 533,
+                    "text": "Fig. 6a",
+                    "ref_id": null
+                },
+                {
+                    "start": 701,
+                    "end": 710,
+                    "text": "(Fig. 6a)",
+                    "ref_id": null
+                },
+                {
+                    "start": 879,
+                    "end": 886,
+                    "text": "Fig. 6b",
+                    "ref_id": null
+                },
+                {
+                    "start": 1488,
+                    "end": 1496,
+                    "text": "(Fig. 6b",
+                    "ref_id": null
+                }
+            ],
+            "section": "Activities of the BBR derivatives"
+        },
+        {
+            "text": "Although BBR may be used as a lead compound for the prevention of human cancer, the poor druggability of BBR has limited its applications. Inspired by previous studies of BBR derivatives, we introduced long chains at the 9-position to design and synthesize derivatives (B1-B11) that possessed different substituent groups, such as hydroxyl and methoxycarbonyl. Among these derivatives, compound B10 showed dramatically increased anti-proliferative activity compared with BBR. Various factors can lead to this phenotype. First, the physical properties and accessibility to cells were considered. We detected the intracellular concentration after treatment for 8 h. B1 and B10 both showed significantly higher concentrations compared to BBR due to the introduction of the lipophilic side chains at the 9position. Thus, higher activities and druggability became possible and were deserving of further research. Second, the positive charges as another physical property of the compounds were taken into consideration. Positively charged BBR accumulates in the negatively charged inner membrane of the mitochondria. Thus, we assumed that the derivatives could also accumulate in and affect the mitochondria. In addition to the generation of reactive oxygen species, oxidation and reduction of materials and regulation of related signaling, mitochondria, as the energy plant of the whole cell, generates ATP to maintain physiological activities through aerobic respiration. Furthermore, for cancer cells, the specific role varies according to both genetic and environmental factors. Generally, mitochondrial metabolism, bioenergetics, oxidative stress regulation, fission and fusion dynamics, cell death susceptibility, mitochondria biogenesis, turnover, and retrograde signaling can all contribute as mediators of tumorigenesis. The roles of mitochondria differ with different stages of cancer proliferation [44] . During the initial stages of cancer, genesis can be induced by oxidative stress and signaling pathway alterations in mitochondria. Then, in the growth stage, in addition to the factors mentioned above, mitochondria biogenesis and structural dynamics can be involved. During the survival stage, mitochondria may experience metabolic reprogramming and morphological changes. In the metastasis stage, reprogramming, biogenesis and dynamics are considered to be relative. Recent experimental results indicate that the mitochondrial ultrastructure is involved in the relationship between the bioenergetics and apoptotic (cell life/death decision) roles of mitochondria [45] . The drop in the MMP and ETC respiration rate is the first stage of the apoptosis process by mediation of cytochrome c release. In these processes, the imbalanced distributions of protons and other various ions contribute to the MMP between the two sides of the inner membrane to store energy. Stable MMP is necessary for oxidative phosphorylation and ATP generation. Thus, the MMP assay was regarded as a classical evaluation method for mitochondrial function, in which we chose the potential-related fluorescent dye TMRE to indicate. The intracellular intensity of TMRE is positively correlated to the MMP. Not surprisingly, B10 represented a significant ability to reduce the MMP compared to BBR and B1, indicating more severe mitochondrial dysfunction.",
+            "cite_spans": [
+                {
+                    "start": 1903,
+                    "end": 1907,
+                    "text": "[44]",
+                    "ref_id": null
+                },
+                {
+                    "start": 2574,
+                    "end": 2578,
+                    "text": "[45]",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Third, under normal circumstances, mitochondria in the cell are thought to connect with each other dynamically, forming a clear web structure. In the MMP assay, fluorescent images indicated that not only did the MMP decrease, but the structures of some mitochondria were also altered after treatment with B10. To further confirm this morphological change with relatively stable intensity, we turned to Mito Tracker Green as an MMP-independent mitochondria labeling tool. In representative images, mitochondria lost their clear and web-like structures in the blank control group, tending to be obscure and dot-like after treatment with B10, especially in the relatively high dose groups. Thus, these two aspects-MMP and morphology-reflected the negative effects on mitochondria caused by B10, which could lead to obstacles in energy generation, mutual cooperation or dynamic balance among the mitochondria. OCR detection representing respiration capability also consisted of the assumptions mentioned above. On one hand, damages to the energy-generation ability may fail to meet the requirements of cell activities; thus, apoptosis may be induced; on the other hand, the initial anti-proliferative effects observed can also result from enhanced apoptosis. Thus, the apoptosis rate was compared with the control group after treatment with compounds by flow cytometry. The results showed that the rates of apoptosis were significantly improved after treatment with B10 compared to both the blank control group and BBR group.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Taken together, with the novel modification strategy of introducing a long chain alkyl chain branched by a hydroxyl group and a methoxycarbonyl group at the 9-position, we found one BBR derivative, B10, with a higher anti-proliferative effect in A549 cells and had initial trials to investigate the molecular mechanism, in which we thought that the mitochondria and Fig. 6 B10 induced apoptosis in A549 cells. a Flow cytometry plots of Annexin V/PI assay in A549 cells, following 24 h treatment with BBR or B10. b Immunoblot analysis of A549 cells lysate following 24 h treatment with blank, BBR or B10 for detection of apoptosis-related proteins. All data were shown as mean \u00b1 S.E.M. of three independent replications. Asterisks indicate P-values ( **P < 0.01, ***P < 0.001) of control versus treated groups. ### P < 0.001 of BBR versus the same dose of B10.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 366,
+                    "end": 372,
+                    "text": "Fig. 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "High membrane permeable berberine derivatives Y Liu et al.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "caspase-3-related apoptosis were at least partly involved. Further pharmacological activity evaluations, such as specific targets and druggability, still deserve systematic investigation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Berberine: new perspectives for old remedies",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tillhon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Guaman",
+                    "middle": [],
+                    "last": "Ortiz",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lombardi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Scovassi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Biochem Pharmacol",
+            "volume": "84",
+            "issn": "",
+            "pages": "1260--1267",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Berberine is a novel cholesterollowering drug working through a unique mechanism distinct from statins",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Kong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Abidi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Inaba",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nat Med",
+            "volume": "10",
+            "issn": "",
+            "pages": "1344--51",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Delivery system for berberine chloride based on the nanocarrier ZnAl-layered double hydroxide: physicochemical characterization, release behavior and evaluation of anti-bacterial potential",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Djebbi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Elabed",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Bouaziz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sadiki",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Elabed",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Namour",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Int J Pharm",
+            "volume": "515",
+            "issn": "",
+            "pages": "422--452",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Synthesis, structure-activity relationship and in vitro anti-mycobacterial evaluation of 13-n-octylberberine derivatives",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Eur J Med Chem",
+            "volume": "52",
+            "issn": "",
+            "pages": "151--159",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Anti-inflammatory treatment in patients after percutaneous coronary intervention: another potential use for berberine?",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Dart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Clin Exp Pharmacol Physiol",
+            "volume": "39",
+            "issn": "",
+            "pages": "404--409",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Berberine lowers blood glucose in type 2 diabetes mellitus patients through increasing insulin receptor expression",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Xue",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Metabolism",
+            "volume": "59",
+            "issn": "",
+            "pages": "285--92",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Efficacy of berberine in patients with type 2 diabetes mellitus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Xing",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Metabolism",
+            "volume": "57",
+            "issn": "",
+            "pages": "712--719",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Berberine analogues as a novel class of the low-density-lipoprotein receptor up-regulators: synthesis, structure-activity relationships, and cholesterol-lowering efficacy",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Zuo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Med Chem",
+            "volume": "52",
+            "issn": "",
+            "pages": "492--501",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Antitumor effect of berberine against primary effusion lymphoma via inhibition of NF-kappaB pathway",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Goto",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kariya",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shimamoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kudo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Taura",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Katano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Cancer Sci",
+            "volume": "103",
+            "issn": "",
+            "pages": "775--81",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Effects of berberine on proliferation, cell cycle distribution and apoptosis of human breast cancer T47D and MCF7 cell lines",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Barzegar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fouladdel",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Movahhed",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Atashpour",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Ghahremani",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Ostad",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Iran J Basic Med Sci",
+            "volume": "18",
+            "issn": "",
+            "pages": "334--376",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Berberine inhibits the growth of human colorectal adenocarcinoma in vitro and in vivo",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Nat Med",
+            "volume": "68",
+            "issn": "",
+            "pages": "53--62",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Berberine induces cell death in human hepatoma cells in vitro by downregulating CD147",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Hou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Jing",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Cancer Sci",
+            "volume": "102",
+            "issn": "",
+            "pages": "1287--92",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "p53 Cooperates berberine-induced growth inhibition and apoptosis of non-small cell human lung cancer cells in vitro and tumor xenograft growth in vivo",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Katiyar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Meeran",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Katiyar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Akhtar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Mol Carcinog",
+            "volume": "48",
+            "issn": "",
+            "pages": "24--37",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Inhibitory effect of coptidis rhizoma and berberine on the proliferation of human esophageal cancer cell lines",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Iizuka",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Miyamoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Okita",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tangoku",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yosino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Cancer Lett",
+            "volume": "148",
+            "issn": "",
+            "pages": "19--25",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Berberine induces apoptosis via ROS generation in PANC-1 and MIA-PaCa2 pancreatic cell lines",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Sung",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Braz J Med Biol Res",
+            "volume": "48",
+            "issn": "",
+            "pages": "111--120",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Induction of G1 cell cycle arrest and apoptosis by berberine in bladder cancer cells",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hou",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Eur J Pharmacol",
+            "volume": "661",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Effect of berberine on cell cycle arrest and cell survival during cerebral ischemia and reperfusion and correlations with p53/cyclin D1 and PI3K/Akt",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chai",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Eur J Pharmacol",
+            "volume": "708",
+            "issn": "",
+            "pages": "44--55",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Epithelial-to-mesenchymal transition markers to predict response of Berberine in suppressing lung cancer invasion and metastasis",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Qi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Xin",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Ji",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Fan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Transl Med",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Modulation of adenylate cyclase signaling in association with MKK3/6 stabilization under combination of SAC and berberine to reduce HepG2 cell survivability",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sengupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Chowdhury",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chatterjee",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sarkar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Paul",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Sur",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Apoptosis",
+            "volume": "22",
+            "issn": "",
+            "pages": "1362--79",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Berberine inhibits pulmonary metastasis through downregulation of MMP in metastatic B16F-10 melanoma cells",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Hamsa",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kuttan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Phytother Res",
+            "volume": "26",
+            "issn": "",
+            "pages": "568--78",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Antiangiogenic activity of berberine is mediated through the downregulation of hypoxia-inducible factor-1, VEGF, and proinflammatory mediators",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Hamsa",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kuttan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Drug Chem Toxicol",
+            "volume": "35",
+            "issn": "",
+            "pages": "57--70",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Effect of berberine on angiogenesis and HIF-1\u03b1 / VEGF signal transduction pathway in rats with cerebral ischemia-reperfusion injury",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Coll Physicians Surg Pak",
+            "volume": "28",
+            "issn": "",
+            "pages": "753--760",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Effect of berberine on the antioxidant status, ultrastructural modifications and protein bound carbohydrates in azoxymethane-induced colon cancer in rats",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Thirupurasundari",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Padmini",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Devaraj",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Chem Biol Interact",
+            "volume": "177",
+            "issn": "",
+            "pages": "190--195",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Berberine activates caspase-9/ cytochrome c-mediated apoptosis to suppress triple-negative breast cancer cells in vitro and in vivo",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Jing",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lv",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Biomed Pharmacother",
+            "volume": "95",
+            "issn": "",
+            "pages": "18--24",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Berberine induces apoptotic cell death via activation of caspase-3 and -8 in HL-60 human leukemia cells: nuclear localization and structure-activity relationships",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Okubo",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Uto",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Goto",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tanaka",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nishioku",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yamada",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Am J Chin Med",
+            "volume": "45",
+            "issn": "",
+            "pages": "1497--511",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Antitumor effects of berberine on gliomas via inactivation of caspase-1-mediated IL-1beta and IL-18 release",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Front Oncol",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Berberine inhibits the proliferation of prostate cancer cells and induces G(0)/G(1) or G(2)/M phase arrest at different concentrations",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Mol Med Rep",
+            "volume": "11",
+            "issn": "",
+            "pages": "3920--3924",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Berberine induces apoptosis via the mitochondrial pathway in liver cancer cells",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Yip",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Oncol Rep",
+            "volume": "30",
+            "issn": "",
+            "pages": "1107--1119",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Berberine could inhibit thyroid carcinoma cells by inducing mitochondrial apoptosis, G0/G1 cell cycle arrest and suppressing migration via PI3K-AKT and MAPK signaling pathways",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sharvan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Biomed Pharmacother",
+            "volume": "95",
+            "issn": "",
+            "pages": "1225--1256",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Delocalized lipophilic cations selectively target the mitochondria of carcinoma cells",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Modica-Napolitano",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Aprille",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Adv Drug Deliv Rev",
+            "volume": "49",
+            "issn": "",
+            "pages": "63--70",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "10-dimethoxybenzo(g)-1,3-benzodioxolo(5,6-a) quinolizinium] on K1735-M2 mouse melanoma cells: comparison with direct effects on isolated mitochondrial fractions",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Pereira",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Branco",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Matos",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Pereira",
+                    "suffix": ""
+                },
+                {
+                    "first": "Parke",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Perkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Pharmacol Exp Ther",
+            "volume": "5",
+            "issn": "",
+            "pages": "636--685",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Berberine as a promising safe anti-cancer agent-is there a role for mitochondria?",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Diogo",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Machado",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Barbosa",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Serafim",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Burgeiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Oliveira",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Curr Drug Targets",
+            "volume": "12",
+            "issn": "",
+            "pages": "850--859",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Mitochondria play an important role in the cell proliferation suppressing activity of berberine",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Sci Rep",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "P-glycoprotein-mediated transport of berberine across Caco-2 cell monolayers",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Maeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Yoo",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chung",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Shim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "J Pharm Sci",
+            "volume": "91",
+            "issn": "",
+            "pages": "2614--2635",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Acute toxicity of berberine and its correlation with the blood concentration in mice",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kheir",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hua",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Food Chem Toxicol",
+            "volume": "48",
+            "issn": "",
+            "pages": "1105--1115",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Pharmacological effects of berberine and its derivatives: a patent update",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Khadka",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Expert Opin Ther Pat",
+            "volume": "26",
+            "issn": "",
+            "pages": "229--272",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Berberine and its derivatives: a patent review",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mahajan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Expert Opin Ther Pat",
+            "volume": "23",
+            "issn": "",
+            "pages": "215--246",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Discovery of mitochondriatargeting berberine derivatives as the inhibitors of proliferation, invasion and migration against rat C6 and human U87 glioma cells",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "MedChemComm",
+            "volume": "6",
+            "issn": "",
+            "pages": "164--73",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "8-Cetylcoptisine, a new coptisine derivative, induces mitochondria-dependent apoptosis and G 0 /G 1 cell cycle arrest in human A549 cells",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Chem Biol Interact",
+            "volume": "299",
+            "issn": "",
+            "pages": "27--36",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Design, synthesis, and cholesterol-lowering efficacy for prodrugs of berberrubine",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kong",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "You",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Bioorg Med Chem",
+            "volume": "18",
+            "issn": "",
+            "pages": "6422--6430",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "9-O-benzoyl-substituted berberine exerts a triglyceride-lowering effect through AMPK signaling pathway in human hepatoma HepG2 cells",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Environ Toxicol Pharmacol",
+            "volume": "64",
+            "issn": "",
+            "pages": "11--18",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Synthesis and biological evaluation of new berberine derivatives as cancer immunotherapy agents through targeting IDO1",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Pang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Jiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Eur J Med Chem",
+            "volume": "143",
+            "issn": "",
+            "pages": "1858--68",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Hydroxyl compounds and compositions for cholesterol management and related uses. United States Patent. WO2004067489A2",
+            "authors": [
+                {
+                    "first": "Jlh",
+                    "middle": [],
+                    "last": "Dasseux",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Oniciu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Mitochondria, bioenergetics and apoptosis in cancer",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Burke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Trends Cancer",
+            "volume": "3",
+            "issn": "",
+            "pages": "857--70",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Structures of berberine, its derivatives and ETC-1002.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Oxalyl chloride, dry DCM, DMF, rt, 2 h, (2) 4, pyridine, CH 3 CN, overnight, CH 3 OH; b NaBH 4 , CH 3 OH, 0\u00b0C, 1 h; c I 2 , KOAc, EtOH, 2 h; d (1) oxalyl chloride, dry DCM, DMF, rt, 2 h, (2) 4, pyridine, CH 3 CN, overnight; e Pd/C, H 2 , CH 3 OH, rt, 3 h; f (1) 1, 7-Dibromoheptane, potassium tert-butoxide, dry DMF, rt, 2 h, (2) HCl (12 N), DCM, 2 h; g 1, CH 3 CN, overnight, reflux; h sodium hydroxide, CH 3 OH : H 2 O = 2:1, reflux, overnight.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Anti-proliferative activities and permeability of compounds B1 and B10 on A549 cells. a-d Relative optical density (OD) value measured at 490 nm on A549 cells after treatment of BBR, ETC-1002, B1 and B10 at 0, 24, 48 and 72 h. All data were shown as mean \u00b1 S.E.M of three independent replications. Asterisks indicate P-values (*P < 0.05, **P < 0.01, ***P < 0.001) of control versus treated groups. e, f Permeability experiment performed in A549 cells with 5 \u03bcM compounds treatment for 8 h to measure intracellular concentration.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "B10 reduced mitochondrial membrane potential in A549. TMRE assay in A549 cells following 24 h treatment with BBR, B1 or B10. a Representative merged fluorescent images of A549 cells under Operetta 40\u00d7 objective. Blue: Hoechst for nuclei; orange: TMRE for mitochondria. Images were presented under same parameters. b Quantification of TMRE intensity in a. All data were shown as mean \u00b1 S.E.M of three independent replications. Asterisks indicate P-values (*P < 0.05, **P < 0.01) of control versus treated groups.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Mitochondrial morphological observation after compounds treatment for 24 h. The fluorescent signal of Mito Tracker Green was observed at the concentrations of 1.25, 2.5, 5.0 and 10 \u03bcM B1, B10 and BBR under 63\u00d7 microscope. Scale bar = 10 \u03bcm.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Inhibition of OCR by BBR (a), ETC-1002 (b), B1 (c) and B10 (d) in A549 cells. Mean \u00b1S.E.M. Asterisks indicate P-values (**P < 0.01, ***P < 0.001) of control versus treated groups.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "To verify Scheme 1 a 195\u00b0C, 30-40 mmHg, 15 min; b NaBH 4 , CH 3 OH, 0\u00b0C, 30 min; c 2,4-Dimethoxybenzylamine, 120\u00b0C; d HCl, CH 3 OH. Scheme 4 a (1) Oxalyl chloride, dry DCM, DMF, rt, 2 h, (2) 1, pyridine, CH 3 CN, overnight, reflux; b 2, EDCI, DMAP, dry DCM, rt, overnight; c NaBH 4 , CH 3 OH, 0\u00b0C, 1 h; d I 2 , KOAc, EtOH, 2 h. Scheme 3 a Benzyl chloride, K 2 CO 3 , DMF, 50\u00b0C, overnight; b (1) oxalyl chloride, dry DCM, DMF, room temperature (rt), 2 h, (2) 2, Et 3 N, DMAP, dry DCM overnight; c NaBH 4 , CH 3 OH, 0\u00b0C, 1 h; d Pd/C, H 2 , MeOH, rt, 3 h; e I 2 , KOAc, EtOH, 2 h.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Structures, cLog P values a and effects on the survival rate (IC 50 ) of A549 cells by B1-B11.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "This work was supported by a grant from the Shanghai Commission of Science and Technology (16JC1405000); the \"Personalized Medicines-Molecular Signature-based Drug Discovery and Development\" Strategic Priority Research Program of the Chinese Academy of Sciences (XDA12040328); and the China Postdoctoral Science Foundation (2018M632186).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGEMENTS"
+        },
+        {
+            "text": "YL and KXZ conducted the key experiments and contributed equally to this work; YL conducted the chemical experiments, analyzed the results and wrote the paper; KXZ conducted the biological experiments and analyzed the results; LC and ZFX performed part of the cell studies and analyzed the results; MG performed the LC/MS analysis; FJN, JYL, and WL conceived the idea for the project, analyzed the results and wrote the paper. All authors reviewed the results and approved the final version of the manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "AUTHOR CONTRIBUTIONS"
+        },
+        {
+            "text": "The online version of this article (https://doi.org/10.1038/s41401-019-0346-1) contains supplementary material, which is available to authorized users.Competing interests: The authors declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ADDITIONAL INFORMATION"
+        }
+    ]
+}

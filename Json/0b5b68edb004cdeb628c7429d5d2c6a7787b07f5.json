@@ -1,0 +1,1578 @@
+{
+    "paper_id": "0b5b68edb004cdeb628c7429d5d2c6a7787b07f5",
+    "metadata": {
+        "title": "Journal Pre-proof Recent Trends on Omics and Bioinformatics Approaches to Study SARS-CoV-2: A Bibliometric Analysis and mini-review Rodr\u00edguez, Recent Trends on Omics and Bioinformatics Approaches to Study SARS-CoV-2: A Bibliometric Analysis and mini-review, Recent Trends on Omics and Bioinformatics Approaches to Study SARS-CoV-2: A Bibliometric Analysis and mini-review",
+        "authors": [
+            {
+                "first": "Julieth",
+                "middle": [],
+                "last": "Murillo",
+                "suffix": "",
+                "affiliation": {},
+                "email": "juliethmurillo@javerianacali.edu.co"
+            },
+            {
+                "first": "Lina",
+                "middle": [
+                    "Mar\u00eda"
+                ],
+                "last": "Villegas",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidad del Valle",
+                    "location": {
+                        "settlement": "Cali",
+                        "country": "Colombia"
+                    }
+                },
+                "email": "lina.villegas@correounivalle.edu.co"
+            },
+            {
+                "first": "Marcela",
+                "middle": [],
+                "last": "Ulloa-Murillo",
+                "suffix": "",
+                "affiliation": {},
+                "email": "ulloa_murillo@af.czu.cz"
+            },
+            {
+                "first": "Alejandra",
+                "middle": [],
+                "last": "Roc\u00edo Rodr\u00edguez",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidad del Valle",
+                    "location": {
+                        "settlement": "Cali",
+                        "country": "Colombia"
+                    }
+                },
+                "email": "alejandra.rodriguez@correounivalle.edu.co"
+            },
+            {
+                "first": "Marcela",
+                "middle": [],
+                "last": "Leidy",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Ulloa-Murillo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Czech University of Life Sciences",
+                    "location": {
+                        "settlement": "Prague",
+                        "country": "Czech Republic"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The successful sequencing of SARS-CoV-2 cleared the way for the use of omics technologies and integrative biology research for combating the COVID-19 pandemic. Currently, many research groups have slowed down their respective projects to concentrate efforts in the study of the biology of SARS-CoV-2. In this bibliometric analysis and mini-review, we aimed to describe how computational methods or omics approaches were used during the first months of the COVID-19 pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We analyzed bibliometric data from Scopus, BioRxiv, and MedRxiv (dated June 19 th , 2020) using quantitative and knowledge mapping approaches. We J o u r n a l P r e -p r o o f 2 complemented our analysis with a manual process of carefully reading the selected articles to identify either the omics or bioinformatic tools used and their purpose.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results: From a total of 184 articles, we found that metagenomics and transcriptomics were the main sources of data to perform phylogenetic analysis aimed at corroborating zoonotic transmission, identifying the animal origin and taxonomic allocation of SARS-CoV-2. Protein sequence analysis, immunoinformatics and molecular docking were used to give insights about SARS-CoV-2 targets for drug and vaccine development.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Most of the publications were from China and USA. However, China, Italy and India covered the top 10 most cited papers on this topic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We found an abundance of publications using omics and bioinformatics approaches to establish the taxonomy and animal origin of SARS-CoV-2. We encourage the growing community of researchers to explore other lesser-known aspects of COVID-19 such as virus-host interactions and host response.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The single-stranded RNA virus SARS-COV-2 is the causative agent of the COVID-19 disease that impacts the lower respiratory tract, with the potential to spread and injure other tissues (1). Since the first step in SARS-CoV-2 infection is the binding to host cell receptor angiotensin-converting enzyme 2 (ACE2) (2,3), it has been a focus of interest to identify the pattern of expression of this receptor across different cells and tissues. To the date, we know that there is a variety of host cells expressing it in different tissues, such as lung AT2, nasal epithelial cells, tongue keratinocytes, liver cholangiocyte, colon colonocytes, esophagus keratinocytes, ileum and rectum enterochromaffin cells, J o u r n a l P r e -p r o o f counting method to produce two co-occurrence networks of the most-used terms for author and corpus text keywords, with a minimum of 2 occurrences for each term.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Additionally, we extended the analysis by developing a bibliographic coupling graph, where the connection between two publications is determined by the third set of publications (minimum three) that were cited by these two.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "To identify omics and computational relevant methodologies used in each publication and the purpose for what they were used, two researchers (AR and JM) accessed the abstracts in the reference editor Mendeley (version1.19.3) where the articles from Scopus were downloaded. Because the search engine in BioRxiv and MedRxiv lacks the option to download the set of retrieved results in any format, two researchers (LV and JM) accessed the abstracts directly on the webpage. To enrich the discussion, we also highlight some of the main findings of the articles selected in the mini-review section.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "RESULTS",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "By June 19th, 2020 we retrieved 100 articles from Scopus and 176 from MedRxiv and BioRxiv. The distribution of the type of article based on the citation overview tool in Scopus showed that there were 77 original articles, 12 reviews, 6 letters, 2 editorials, 2 notes, and 1 data article. Only 62 of the original articles were eligible for further analysis (Supplemental material 2). As the second consulted database does not have a citation download option, we selected the relevant articles by reading the abstracts and J o u r n a l P r e -p r o o f",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "stomach epithelial cells, and kidney proximal tubules (4) (5) (6) . Accordingly, there is a broad set of symptoms that ranges from asymptomatic infections, mild respiratory symptoms, severe pneumonia, acute kidney injury (7), digestive and circulatory system affection, to fatality (1).",
+            "cite_spans": [
+                {
+                    "start": 54,
+                    "end": 57,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 58,
+                    "end": 61,
+                    "text": "(5)",
+                    "ref_id": null
+                },
+                {
+                    "start": 62,
+                    "end": 65,
+                    "text": "(6)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "It is becoming common knowledge that the surface-anchored spike protein mediates coronavirus entry through the binding to ACE2, however, it less explored that it has also been reported that coronaviruses exploit many other surface molecules according to the cell type in order to make the internalization more efficient (8). Surface virus-host triggers a subsequent series of biological events including the formation of vesicles, enzymes activation/repression, host molecules recruitment, synthesis of viral components, among others. Integrated multi-omics studies offer an unbiased approach to study the host-virus interactomics that ultimately can result in the detection of therapeutic marks for this novel infection, which has a pivotal role in drug repurposing as well as developing new drugs and vaccines in a precise and efficient manner (9) .",
+            "cite_spans": [
+                {
+                    "start": 846,
+                    "end": 849,
+                    "text": "(9)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Consequently, arousing omics-scale studies on this viral infection are offering a great potential to study the pathobiology of the infection, and ways forward for diagnostic and therapeutic innovation (9) .",
+            "cite_spans": [
+                {
+                    "start": 201,
+                    "end": 204,
+                    "text": "(9)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Since SARS-CoV-2 is highly contagious, this oftentimes restricts the provisions for clinical samples handling in omics research facilities, making it a challenge to implement systems-level molecular studies. Given this limitation, it would be useful for scientists in this field to be aware of trends in omics approaches and computational methods to address COVID-19 related issues. Hence, in this bibliometric analysis and J o u r n a l P r e -p r o o f mini-review, we aimed to describe how computational methods or omics approaches were used during the first months of the COVID-19 pandemic. We hope that our work will serve as a roadmap to allow the identification of key knowledge gaps and research priorities. Furthermore, we hope that in future pandemics or infectious outbreaks, this document may be useful in helping future researchers quickly understand how omics data and computational methods can be used to help discern the first unknowns that arise in these scenarios.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Searches were conducted in Scopus and preprint servers (BioRxiv and MedRxiv) on June 19, 2020 (Search formula in supplemental material 1), and it was not constrained regarding language, publication stage and time. Nevertheless, document type was refined to journal articles. Ethical approval was not required in this study, because no human subjects were enrolled.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sources of data and search strategy"
+        },
+        {
+            "text": "We analyzed the bibliographic data through a quantitative analysis approach and a knowledge mapping technique using bibliometric data. For the quantitative analysis the information was sourced from Scopus. Knowledge mapping was performed using VOSviewer (V1.6.14) (10), focalizing on \"link strength\" of networks based on author keywords, and the text corpus (title and abstract). To identify emerging terms, we manually edited the thesaurus list to exclude expected terms such as COVID-19 and SARS-CoV-2 and to avoid irrelevant terms (i.e., mean and order). We used the full J o u r n a l P r e -p r o o f 6 in some cases, we were required to review the methodology session in the publication; 122 fulfilled the inclusion criteria in MedRxiv and BioRxiv.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data analysis"
+        },
+        {
+            "text": "The most active countries publishing about COVID-19 using omics or computational approaches are China, USA, India, and the United Kingdom; figure 1 shows the number of published articles per country, differentiating the ones from Scopus and pre-prints articles at MedRxiv and BioRxiv. Table 1 shows bibliometric information of journals that contributed more than 2 articles related to within defined fields research of omics Docking (cluster 4). As a complement, in the corpus co-occurrence network for Scopus (figure 3 B) divided into three clusters, the most frequent terms were bat, receptor binding, and phylogenetic analysis (cluster 1), receptor, model, and prediction (cluster J o u r n a l P r e -p r o o f 2) and, ACE2, interaction, and expression (cluster 3). All these frequent keywords allowed us to see that in indexed publications, omics and bioinformatics tools are used to research urgent questions such as the animal origin of the virus, the taxonomy of the new infectious agent, and therapeutics strategies.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 139,
+                    "end": 147,
+                    "text": "figure 1",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 285,
+                    "end": 292,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Data analysis"
+        },
+        {
+            "text": "We also constructed a keyword co-occurrence network, based on corpus text using the pre-print databases MedRxiv and BioRxiv ( Figure 3 ). The network formed by 76 nodes is divided into 3 clusters; cluster 1 has terms with similar frequencies, such as disease, protein and cell, cluster 2 has 20 terms including immune response, detection, and ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 126,
+                    "end": 134,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF8"
+                }
+            ],
+            "section": "Data analysis"
+        },
+        {
+            "text": "The outbreak of COVID-19 has caused more than 1.1 million of deaths worldwide, primarily of older-people, according to the World Health Organization as of October 25, 2020 (18) , which has caused a rapidly increasing number of publications. Since computational approaches could play a crucial role in different aspects of the pandemic, we aimed to analyze the SARS-CoV-2 literature published by authors that used bioinformatics and omics data to help to make informative and urgent decisions.",
+            "cite_spans": [
+                {
+                    "start": 172,
+                    "end": 176,
+                    "text": "(18)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "According to our search by June 19th, 2020, China, the USA, the United Kingdom, and India accounted for the highest proportion of published research. These results are consistent with previous bibliometric analysis regarding the scientific production in bioinformatics around the world that is led by the wealthiest countries (19) . It is remarkable that the effort by the Indian government in developing bioinformatics infrastructure and human resources, which shows its results during this pandemic. India is not only among the most productive countries but together with China, it is the origin of the most cited articles during this short and active period (20) . I n terms of international collaborations, we found only a few of the studies were made with researchers from other countries. This is commensurate with the fact that most of the studies worked with stored sequences. The genome sequence of the SARS-CoV-2 is ",
+            "cite_spans": [
+                {
+                    "start": 326,
+                    "end": 330,
+                    "text": "(19)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 661,
+                    "end": 665,
+                    "text": "(20)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Early in the pandemic, it was established that SARS-CoV-2 is a zoonotic virus that jumped from an animal to a human, presumably in the \"wet market\" in Wuhan China. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Metagenome Assembly Suggests Pangolins as Potential Hosts of SARS-CoV-2"
+        },
+        {
+            "text": "Out of the 62 articles related to omics that we found, 13 used proteomics data in primary analysis or secondary analysis combined with bioinformatics tools. Two of the main purposes of the authors who used proteomics were to elucidate the mechanism of host-pathogen interactions, its association with the severity of COVID-19, and to find possible therapeutic targets. Khan and Khan (26) ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Proteomics for host-pathogen interaction studies and researching potential therapeutic targets"
+        },
+        {
+            "text": "None declared ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest statement"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "New understanding of the damage of SARS-CoV-2 infection outside the respiratory system",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Geng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Biomedicine and Pharmacotherapy",
+            "volume": "127",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Receptor Recognition by the Novel Coronavirus from Wuhan: an Analysis Based on Decade-Long Structural Studies of SARS Coronavirus",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Baric",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Virol",
+            "volume": "",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Functional assessment of cell entry and receptor usage for SARS-CoV-2 and other lineage B betacoronaviruses. Nat Microbiol",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Letko",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Marzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Munster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Single cell RNA sequencing of 13 human tissues identify cell types and receptors of human coronaviruses",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Qian",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Matsuyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Taguchi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Biochem Biophys Res Commun",
+            "volume": "83",
+            "issn": "21",
+            "pages": "11133--11174",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "SARS-CoV-2 entry factors are highly expressed in nasal epithelial cells together with innate immune genes",
+            "authors": [],
+            "year": 2020,
+            "venue": "Nat Med",
+            "volume": "26",
+            "issn": "5",
+            "pages": "681--688",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "COVID-19 Pandemic: Hopes from Proteomics and Multiomics Research. Omi A",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ray",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Srivastava",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Integr Biol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Software survey: VOSviewer, a computer program for bibliometric mapping",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Van Eck",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Waltman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Scientometrics",
+            "volume": "84",
+            "issn": "2",
+            "pages": "523--561",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-M",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wang",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z-G",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "7798",
+            "pages": "265--274",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Genomic characterization of the 2019 novel human-pathogenic coronavirus isolated from a patient with atypical pneumonia after visiting Wuhan",
+            "authors": [
+                {
+                    "first": "Jf-W",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K-H",
+                    "middle": [],
+                    "last": "Kok",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kk-W",
+                    "middle": [],
+                    "last": "To",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Microbes Infect",
+            "volume": "9",
+            "issn": "1",
+            "pages": "221--257",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "RNA based mNGS approach identifies a novel human coronavirus from two individual pneumonia cases in 2019 Wuhan outbreak",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Microbes Infect",
+            "volume": "9",
+            "issn": "1",
+            "pages": "313--322",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Preliminary identification of potential vaccine targets for the COVID-19 Coronavirus (SARS-CoV-2) Based on SARS-CoV Immunological Studies",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Quadeer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mckay",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Viruses",
+            "volume": "12",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Development of epitope-based peptide vaccine against novel coronavirus 2019 (SARS-COV-2): Immunoinformatics approach",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bhattacharya",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Patra",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ghosh",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Patra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "92",
+            "issn": "6",
+            "pages": "618--649",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Epidemiological, clinical and virological characteristics of 74 cases of coronavirus-infected disease 2019 (COVID-19) with gastrointestinal symptoms",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J-S",
+                    "middle": [],
+                    "last": "Lian",
+                    "suffix": ""
+                },
+                {
+                    "first": "J-H",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-M",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gut",
+            "volume": "69",
+            "issn": "6",
+            "pages": "1002--1009",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Transcriptomic J o u r n a l P r e -p r o o f characteristics of bronchoalveolar lavage fluid and peripheral blood mononuclear cells in COVID-19 patients",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Microbes Infect",
+            "volume": "9",
+            "issn": "1",
+            "pages": "761--70",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "World Health Organization. Weekly epidemiological update -27",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The bioinformatics wealth of nations",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chasapi",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Promponas",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ouzounis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Bioinformatics",
+            "volume": "36",
+            "issn": "9",
+            "pages": "2963--2968",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Advancing India's bioinformatics education and research: an assessment and outlook",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Som",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kumari",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ghosh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Proteins Proteomics",
+            "volume": "10",
+            "issn": "3",
+            "pages": "257--67",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "A Scientometric Analysis of Global Health Research",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "17",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Abstracts from the 3rd International Genomic Medicine Conference",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Shay",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Homma",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Naseer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Chaudhary",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Al-Qahtani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "BMC Genomics",
+            "volume": "17",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Protein Structure and Sequence Reanalysis of 2019-nCoV Genome Refutes Snakes as Its Intermediate Host and the Unique Similarity between Its Spike Protein Insertions and HIV-1",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Bell",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Proteome Res",
+            "volume": "19",
+            "issn": "4",
+            "pages": "1351--60",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "An Extensive Meta-Metagenomic Search Identifies SARS-CoV-2-Homologous Sequences in Pangolin Lung Viromes",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wahba",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Jain",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Fire",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Shoura",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Artiles",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mccoy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "mSphere",
+            "volume": "5",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "coronavirus main proteases enzyme",
+            "authors": [
+                {
+                    "first": "Tt-Y",
+                    "middle": [],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mh-H",
+                    "middle": [],
+                    "last": "Shum",
+                    "suffix": ""
+                },
+                {
+                    "first": "H-C",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-G",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                },
+                {
+                    "first": "X-B",
+                    "middle": [],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-S",
+                    "middle": [],
+                    "last": "Liao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Struct Chem",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Withanone and caffeic acid phenethyl ester are predicted to interact with main protease (Mpro) of SARS-CoV-2 and inhibit its activity",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Dhanjal",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kaul",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wadhwa",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sundar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Biomol Struct Dyn",
+            "volume": "",
+            "issn": "",
+            "pages": "1--17",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "The Prediction of miRNAs in SARS-CoV-2 Genomes: hsa-miR Databases Identify 7",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Arisan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dart",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Grant",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Arisan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cuhadaroglu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lange",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Key miRs Linked to Host Responses and Virus Pathogenicity-Related KEGG Pathways Significant for Comorbidities. Viruses",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Exploring potential effect of Shengjiang San on SARS-CoV-2 based on network pharmacology and molecular docking",
+            "authors": [
+                {
+                    "first": "X-L",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-L",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R-F",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L-Q",
+                    "middle": [],
+                    "last": "Ni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chinese Tradit Herb Drugs",
+            "volume": "51",
+            "issn": "7",
+            "pages": "1795--803",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Identification of new anti-nCoV drug chemical compounds from Indian spices exploiting SARS-CoV-2 main protease as target",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Umesh",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kundu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Selvaraj",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Dubey",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J Biomol Struct Dyn",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Evolutionary trajectory for the emergence of novel coronavirus SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Rehman",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shafique",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ihsan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pathogens",
+            "volume": "9",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Emerging novel coronavirus (2019-nCoV)-current scenario, evolutionary perspective based on genome analysis and recent developments",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Malik",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sircar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bhat",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sharun",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Dhama",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dadar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Vet Q",
+            "volume": "40",
+            "issn": "1",
+            "pages": "68--76",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Structural genomics of SARS-COV-2 indicates evolutionary conserved functional regions of viral proteins",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Srinivasan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Cui",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Mkandawire",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Viruses",
+            "volume": "12",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "technologies and integrative biology research approaches for combating the COVID-19 pandemic. These journals correspond to 16,88% of the total number of articles found in Scopus. The other 83.12% of the articles are published in 64 different journals, with one article each. These journals are mainly ranked in top 25 % of SCImago Journal Rank (SJR), which is referred as Q1. Across the journals, the dominant subject categories are linked to Immunology and Microbiology and Medicine. Bibliometric analysis shows that omics and bioinformatics tools are focused on virus animal origin, taxonomy, and receptor entry to the host cell research. The keyword co-occurrence network was constructed by the VOSviewer software based on author's keywords (figure 2A) and corpus text for Scopus (figure 2B), and corpus text for pre-prints articles (figure 3). The author keywords from Scopus were grouped into four clusters (figure 2A). The nodes with the highest frequency were bioinformatics (cluster 1), phylogenetics analysis and RT-PCR (cluster 2), Vaccine (cluster 3) and",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "biomarker and cluster 3, the terms analysis, pandemic and transmission receptor have the highest frequency. Transcriptomics data and genome sequence analysis facilitated phylogenetic analysis to address the COVID-19 pandemic during the first stages. By reading the abstracts and in some cases the methodology session, we identified the omics technology or the bioinformatic approach, and the overall purpose of the research. Genome and protein sequence analysis account for the 43.47% of the Scopus articles, from which 58.33% are focused on establishing SARS-CoV-2 taxonomy and determining the animal origin. (figure 4). Molecular docking was the third bioinformatic approach most explored by June 19th, 2020, focusing on the identification of potential antiviral drugs (figure 4). Transcriptomics and metagenomics approaches were the main omics source data to perform phylogenetic analysis in SARS-CoV-2. Once the taxonomic position was consistently established by different authors, the goal of using the aforementioned approaches was redirected to exploring the virus-host interaction, treatment options, virus detection, and pathogenesis. J o u r n a l P r e -p r o o f China, Italy, and India publications using omics or bioinformatics approaches to study COVID-19 pandemic, between the top 10 most cited articles. Table 2 shows the top ten cited articles along with the number and the name of the journal, country, number of authors, affiliated institutions, the specific omics or bioinformatic approach used and the purpose of the study. China led the research with 8 of 10 articles, in co-authorship with Australia in 2 articles and 1 with Saudi Arabia and USA. The number of authors varied from 2 to 46, with a mean of 15.7 authors and of 3.4 affiliated institutions per article referent. As it has been pointed out from the above results, table 2 reaffirms that at the beginning of the pandemic, omics data and bioinformatic tools were mainly used to perform phylogenetic analysis to either taxonomically classify or identify the animal origin of the virus. Wu et al. (11), is the most cited article; published on February 3, 2020, in Nature, by 19 authors from 5 different institutions different from China and one in Australia, followed by Chan et al. (12), whose publication is the continuation of what was presented by Wu et al. (11). The bibliographic coupling network (figure 5) shows Wu et al. (11), together with Chan et al. (12), and Chen et al. (13), in the same cluster. These studies gave the first insights about the taxonomy and animal origin of the virus, by working with samples comingfrom the lung of a patient who worked in the wet-market in Wuhan(11,12), and patients who presumptively were not in contact with the wet-market(13). In the green cluster, Ahmed et al.(14), and Bhattacharya et al.(15), in independent studies applied immunoinformatics to proposed SARS-CoV-2 epitopes as potential targets for vaccine development. While in the blue cluster, Jin et al.(16), and Xiong et al.(17), in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "made available to the public via the U.S National Library of Medicine website (https://www.ncbi.nlm.nih.gov/labs/virus). J o u r n a l P r e -p r o o f Nevertheless, international collaborations have great impact for scientific progress. That is why scholars have used Scientometrics and found that it provides a fast, reliable, and global overview of research(21). As shown in the bibliometric mapping of keywords in indexed publications and pre-prints articles, omics and bioinformatics tools were used to answer urgent questions such as the animal origin of the virus, its taxonomy, and therapeutics strategies. Wu et al.(11), together with Chan et al.(12), and Chen et al.(13), gave the first insights about the taxonomy and animal origin of the SARS-CoV-2, by working with samples coming from the lung of a patient who worked in the wetmarket in Wuhan(11,12) and patients that presumptively were not in contact with this place(13). Conversely, Ahmed et al.(14), and Bhattacharya et al.(15), in independent studies applied immunoinformatics to proposed SARS-CoV-2 epitopes as potential targets for vaccine development. While Jin et al.(14), and Xiong et al.(15), in independent studies, gave important contributions to the understanding of the COVID-19 clinical characteristics. This bibliometric description and mapping provided a birdseye view of information on the use of bioinformatics approaches and the use of omics data related research.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "The closure of this site was part of temporary containment measures, while the identification of the potential intermediate species or natural hosts of the virus, may hold the key to preventing further introductions of the virus into the human population, and it may also provide useful insights to reduce the risk of the future spillover events J o u r n a l P r e -p r o o f from animals to humans (22). Three out of 62 articles are focused on researching the animal origin for SARS-CoV-2 through phylogenetics analysis from metagenomic data of animals viromes and SARS-CoV-2 genome sequences data (23-25). Lam et al. (25), Wahba et al. (24) and Zhang et al. (23), in independent analysis showed that coronaviruses found in lungs of pangolins bare a similarity between 85.5% to 93% with assembly coverages between 73-75%. Manis coronaviruses and Guangdong coronaviruses are closer to SARS-CoV-2 base on genome sequence and the RBD (receptor-binding domain) on the spike protein, respectively. Despite bat coronaviruses (RaTG13) hold a higher genome sequence similarity with SARS-CoV-2, the critical domain in RBD is more conserved between pangolin coronaviruses and SARS-CoV-2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": ", predicted the interaction of the receptor ACE2, which is mainly expressed on the surface of airway epithelium and parenchyma of lung, with the glycoprotein found on the surface of SARS-CoV-2. Also, these authors suggest a possible role of Prevotella in the severity of COVID-19 by increasing severity of pneumonia. Bojkova et al. (27) on the other hand, used primary analysis of proteomics data to identified host cell pathways that are modulated by SARS-CoV-2 infection, which can be useful, as the authors suggests, for developing J o u r n a l P r e -p r o o f therapy options for COVID-19 by preventing viral replication in human cells. Robson (28), used protein sequences deposited in GenBank, and simulation tools to predict binding sites used by SARS-CoV-2. The author proposed a sialic acid glycan binding function for the spike protein of SARS-CoV-2, which can be potentially targeted for therapeutic agents to tackle SARS-CoV-2. This would be a different way of interaction between the virus and host cells other than the receptor ACE2.All studies approaching vaccine development were computational in spirit, and Robson has many publications regarding this matter (28-30). In one of his studies he found, through a Q-UEL language, that the sequence of amino acids KRSFIEDLLFNKV was particularly well conserved and corresponded to a region of the SARS virus that are believed to be required for virus activation for cell entry (30). According to the author, this sequence motif and surrounding variations can lay the foundation to outline a specific synthetic vaccine epitope and peptidomimetic agent. Regarding the development of antivirals, they were also mainly approached by in-silico analysis.Studies by Neogi et al. (31), Sepay et al. (32), Kumar et al. (33), among others, aimed to identify drugs or strategies against SARS-CoV-2, such as miRNAs in SARS-CoV-2 (34), the effect of Shengjiang San on SARS-CoV-2 (35), chromone derivatives as inhibitor of SARS-CoV-2 (21), or even the use of chemical compounds from Indian spices as anti SARS-CoV-2 drugs (36). Phylogenetic analysis, as we mentioned before, were one if the main objectives of the studies included. Lam et al. (25), for instance, focused on identifying SARS-CoV-2 related coronaviruses in Malayan pangolins, finding multiple lineages of pangolin coronavirus similar to SARS-CoV-2, which, according to the authors, suggests that pangolins should be considered as possible reservoirs in the emergence of new J o u r n a l P r e -p r o o f coronaviruses and, hence, in order to prevent zoonotic transmission, they should be removed from wet markets. Other authors considered bat_SARS like coronaviruses, as phylogenetically closer to SARS-Cov-2. Therefore, there are some studies comparing structurally the genome and proteome of SARS-Cov-2 isolated from patients, against coronavirus sequences with bat origins (37-39). Rehman et al. (37), found that mutations in different genomic regions, but especially over the Spike gene, of this new virus, influence its reproductive adaptability, making it better in quickly adapting to the changing environments. Malik et al. (38), also support Rheman findings, by showing that in their genomic analysis, the S gene of SARS-Cov-2 was found to exhibit lower sequence identity with other Betacoronaviruses, which might me explaining their success to jump to the human host. Additionally, since the Spike protein interacts with the human receptor ACE2, these divergent features might be potentially altering functional effects on the interactions with the ACE2 receptor. Likewise, Srinivasan et al. (39) analysis converged to similar conclusions as to the above, adding an extra potential effect of the mutations in the Spike protein, relating to antibody binding sites that were used to inhibit infections with other coronaviruses.CONCLUSIONSBibliometric analysis and visualized mapping can help monitor research methodologies focused in omics or computational sciences regarding the SARS-CoV-2 recent outbreak. During the first 7 months of the pandemic, the researchers took advantage of stored sequence data to identify and taxonomically and molecularly characterize the etiological agent of the COVID-19 pandemic. This information was essential for the policy makers across the globe to take public measures to track and control the the virus. The trends in omics and bioinformatics approaches are now moving towards the study of host-virus interaction and characterization of pathogenesis from the perspective of system biology.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "AA, Khan Z. COVID-2019 associated overexpressed Prevotella proteins mediated host-pathogen interactions and their role in coronavirus outbreak. Bioinformatics. 2020; 27. Bojkova D, Klann K, Koch B, Widera M, Krause D, Ciesek S, et al. Proteomics of SARS-CoV-2-infected host cells reveals therapy targets. Nature. 2020;583(7816), 469-472 28. Robson B. Bioinformatics studies on a function of the SARS-CoV-2 spike glycoprotein as the binding of host sialic acid glycans. Comput Biol Med. 2020;122. 29. Robson B. COVID-19 Coronavirus spike protein analysis for synthetic vaccines, a peptidomimetic antagonist, and therapeutic drugs, and analysis of a proposed achilles' heel conserved region to minimize probability of escape mutations and drug resistance. Comput Biol Med. 2020;121. 30. Robson B. Computers and viral diseases. Preliminary bioinformatics studies on the design of a synthetic vaccine and a preventative peptidomimetic antagonist against the SARS-CoV-2 (2019-nCoV, COVID-19) coronavirus. Comput Biol Med. 2020;119. 31. Neogi U, Hill KJ, Ambikan AT, Heng X, Quinn TP, Byrareddy SN, et al. Feasibility of known rna polymerase inhibitors as anti-sars-cov-2 drugs. Pathogens. 2020;9(5):320 32. Sepay N, Sepay N, Al Hoque A, Mondal R, Halder UC, Muddassir M. In silico fight against novel coronavirus by finding chromone derivatives as inhibitor of J o u r n a l P r e -p r o o f Table 1. Journals that contributed whit more 2 articles n: number articles; SJR (2019): Q1 corresponds to journal ranking top 25%, Q2 corresponds to journal ranking 25%-50%. H index: expresses the journal's number of articles (h) that have received at least h citations. Subject area: IM: Immunology and Microbiology; M: Medicine; MU: Multidisciplinary; PTP: Pharmacology, Toxicology and Pharmaceutics; BGM: Biochemistry, Genetics and Molecular Biology; CS: Computer Science; ABS: Agricultural and Biological Sciences; N: Neuroscience; MT: Mathematics.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "The countries most active in publications where omic or computational approaches are used to address questions related to COVID-19. The search covered articles published in journals indexed in Scopus or preprints found in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Keywords co-occurrence network exploring the use of omics and bioinformatic tools to address COVID-19 pandemic, based on 62 articles retrieved from Scopus A. Author's keywords network was built with a total of 133 out of 149 terms (manual edition of the thesaurus list to avoid synonyms, or connectors that had no J o u r n a l P r e -p r o o f stand-alone meaning was needed). B. Corpus text network was built with 96 out of 1904 terms.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Corpus text co-occurrence network exploring the use of omics and bioinformatic tools to address COVID-19 pandemic, based on 122 articles retrieved from MedRxiv and BioRxiv; the network was built with 119 out of 5330 terms.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Omics technologies and bioinformatics approaches, covered by indexed articles in Scopus by June 19th, 2020 to address the COVID-19 pandemic. In colors are shown the main purposes of the publications and in the y-axis A, the bioinformatics approaches and B, omics data used to achieve them. Bibliographic coupling network of indexed articles in Scopus using omics technologies and bioinformatics approaches to address the COVID-19 pandemic. J o u r n a l P r e -p r o o f",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Epidemiological, clinical and virological characteristics of 74 cases of coronavirus-infected disease 2019 (COVID-19) with gastrointestinal symptoms",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

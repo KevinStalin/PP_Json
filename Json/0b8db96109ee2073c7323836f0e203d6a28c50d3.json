@@ -1,0 +1,936 @@
+{
+    "paper_id": "0b8db96109ee2073c7323836f0e203d6a28c50d3",
+    "metadata": {
+        "title": "Control Intervention Strategies for Within-Host, Between-Host and their Efficacy in the Treatment, Spread of COVID-19 : A Multi Scale Modeling Approach",
+        "authors": [
+            {
+                "first": "Bhanu",
+                "middle": [],
+                "last": "Prakash D",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sri Sathya Sai Institute of Higher Learning -SSSIHL",
+                    "location": {
+                        "country": "India"
+                    }
+                },
+                "email": "bhanuprakash@sssihl.edu.in"
+            },
+            {
+                "first": "D",
+                "middle": [
+                    "K K"
+                ],
+                "last": "Vamsi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sri Sathya Sai Institute of Higher Learning -SSSIHL",
+                    "location": {
+                        "country": "India"
+                    }
+                },
+                "email": "dkkvamsi@sssihl.edu.in"
+            },
+            {
+                "first": "D",
+                "middle": [
+                    "Bangaru"
+                ],
+                "last": "Rajesh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sri Sathya Sai Institute of Higher Learning -SSSIHL",
+                    "location": {
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Carani",
+                "middle": [
+                    "B"
+                ],
+                "last": "Sanjeevi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sri Sathya Sai Institute of Higher Learning -SSSIHL",
+                    "location": {
+                        "country": "India"
+                    }
+                },
+                "email": "sanjeevi.carani@sssihl.edu.in"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The COVID-19 pandemic has resulted in more than 14.5 million infections and 6,04,917 deaths in 212 countries over the last few months. Different drug intervention acting at multiple stages of pathogenesis of COVID-19 can substantially reduce the infection induced,thereby decreasing the mortality. Also population level control strategies can reduce the spread of the COVID-19 substantially. Motivated by these observations, in this work we propose and study a multi scale model linking both within-host and between-host dynamics of COVID-19. Initially the natural history dealing with the disease dynamics is studied. Later, comparative effectiveness is performed to understand the efficacy of both the within-host and population level interventions. Findings of this study suggest that a combined strategy involving treatment with drugs such as Arbidol, remdesivir, Lopinavir/Ritonavir that inhibits viral replication and immunotherapies like monoclonal antibodies, along with environmental hygiene and generalized social distancing proved to be the best and optimal in reducing the basic reproduction number and environmental spread of the virus at the population level.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "control measures. The multi scale model and the corresponding interventions study which is being attempted here is the first of its kind for Covid-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The multi scale model for COVID-19 disease dynamics across two scales that are within-host and between-host. The model consists of eight compartments involving susceptible epithelial cells S h , infected epithelial cells I h , SARS-CoV-2 viral load V h at within-host scale and susceptible human population S p , exposed population E p , infected population I p , recovered populations R p and environmental viral load V p at between-host scale. The assumptions for the proposed model include the following.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Multi Scale Model Formulation"
+        },
+        {
+            "text": "1. The within-host dynamics are assumed to occur at fast time scale s while the dynamics of the between-host scale variables is assumed to occur at slow time scale t.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Multi Scale Model Formulation"
+        },
+        {
+            "text": "2. We assume that SARS-CoV-2 virus can be transmitted only through environmental(indirect) transmission. 3 . We do not consider the asymptomatic patients for this study as there is no sufficient evidence of withinhost dynamics of asymptomatic patients. We employ the basic SEIR model at between-host level.",
+            "cite_spans": [
+                {
+                    "start": 105,
+                    "end": 106,
+                    "text": "3",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Multi Scale Model Formulation"
+        },
+        {
+            "text": "Based on the above assumptions we propose the following multi scale model for .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Multi Scale Model Formulation"
+        },
+        {
+            "text": "The first compartment in the model 1 deals with the dynamics of susceptible epithelial cells S h (s). They decrease at a rate \u03b2 following contact with the virus. The second compartment deals with the dynamics of infected epithelial cells. They are increased through infection of susceptible cells and are decreased through clearance by cytokines and chemokines such as IL-6, TNF-\u03b1, CCL5, CXCL8, CXCL10 at the rate d 1 , d 2 , d 3 , d 4 , d 5 and d 6 respectively and through natural death at a rate \u00b5. Compartment three deals with SARS-CoV-2 viral load. The viral load is increased due to reproduction of virus in the infected cells at the rate \u03b1. This viral load is decreased due to clearance by cytokines and chemokines such as IL-6, TNF-\u03b1, CCL5, CXCL8, CXCL10 at the rate b 1 , b 2 , b 3 , b 4 , b 5 and b 6 respectively and they are released into environment at a rate \u03b1 h . The term \u03b1 h links within-host and between-host scales in a uni-directional way.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Multi Scale Model Formulation"
+        },
+        {
+            "text": "We assume that the total human population N p in the between-host dynamics is divided into four subgroups denoted by S p , E p , I p and R p which represent respectively, the susceptible, exposed, infected and recovered or the removed population. Compartment 4 in the model (1) describes the dynamics of susceptible humans. They are assumed to be supplied at a constant rate \u03c0 p through birth and are removed at the natural death rate \u00b5 p . They are also reduced by interaction with infected cells and virus in the environment through the terms",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Multi Scale Model Formulation"
+        },
+        {
+            "text": "and \u03b7 w S p (t)V p (t) respectively. Compartment 5 describes the dynamics of exposed humans. They become exposed due to contacts with either infected people or virus particles through the terms",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Multi Scale Model Formulation"
+        },
+        {
+            "text": "and \u03b7 w S p (t)V p (t) respectively. They are removed at the natural death rate \u00b5 p and the rate at which they become infected through \u03c9 p . Compartment 6 describes the dynamics of infected humans. Exposed humans become infected after the incubation period at the rate \u03c9 p . They are reduced through medication or natural death at the rate \u03c4 p and \u00b5 p respectively. Compartment 7 describes the dynamics of recovered individuals. Infected humans are recovered at the rate \u03c4 p and are removed due to natural death at the rate \u00b5 p . Finally compartment 8 describes the dynamics of viral load in the environment.The viral load in the environment is contributed by infected cells at the rate \u03b1 h V h through coughing/sneezing. The virus particles cannot live in environment without invading into host cell for long time. The virus will get killed at the rate \u03c0. The values for these various parameters is given in table 1. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Multi Scale Model Formulation"
+        },
+        {
+            "text": "are removed because of the release of 250",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Multi Scale Model Formulation"
+        },
+        {
+            "text": "cytokines IL-6,TNF-\u03b1,CCL 5, CXCL 8,CXCL-10,INF-\u03b1 respectively As discussed in [4] these problems can be overcome by changing the measure of host-infectiousness from V h (s) to a new quantity N h (the area under the viral load curve). In similar lines to reduction of order done in [4] , we get the reduced multi scale model as",
+            "cite_spans": [
+                {
+                    "start": 78,
+                    "end": 81,
+                    "text": "[4]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 281,
+                    "end": 284,
+                    "text": "[4]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Multi Scale Model Formulation"
+        },
+        {
+            "text": "where",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Multi Scale Model Formulation"
+        },
+        {
+            "text": "In similar lines to the work [4] , the basic reproductive number for the within-host scale sub model in model 1 is given by",
+            "cite_spans": [
+                {
+                    "start": 29,
+                    "end": 32,
+                    "text": "[4]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Multi Scale Model Formulation"
+        },
+        {
+            "text": "Adding the compartments for the sub model 2, we get the dynamics of total population governed by the following equation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Multi Scale Model Formulation"
+        },
+        {
+            "text": "The feasible region for the model (2) is given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Multi Scale Model Formulation"
+        },
+        {
+            "text": "In this section, we do the stability analysis for the reduced multi scale model 2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Stability Analysis of the reduced multi scale model"
+        },
+        {
+            "text": "The disease-free equilibrium for the model 2 is given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disease free equilibrium and R 0"
+        },
+        {
+            "text": "We now calculate the basic reproduction number of the multi scale model 2 using the next generation matrix approach [9] .",
+            "cite_spans": [
+                {
+                    "start": 116,
+                    "end": 119,
+                    "text": "[9]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Disease free equilibrium and R 0"
+        },
+        {
+            "text": "The Jacobian evaluated at the disease-free equilibrium, E 0 , is given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disease free equilibrium and R 0"
+        },
+        {
+            "text": "where F is the transmission and non-negative matrix describing the generation of secondary infections and V is the transition and nonsingular matrix, describing the changes in individual states such as removal by death, recovery and excretion of SARS-CoV-2 into the environment by infected human in the community. Since the environment acts as a reservoir of the infective pathogen, we have,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disease free equilibrium and R 0"
+        },
+        {
+            "text": "The basic reproductive number is given by the spectral radius (dominant eigenvalue) of the matrix F V \u22121 . So in this case, we have the basic reproduction number of the system 2 to be",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disease free equilibrium and R 0"
+        },
+        {
+            "text": "Theorem 1: The DFE E 0 of the system 2 is locally asymptotically stable if R 0 < 1. Proof: The Jacobian matrix evaluated at E 0 is given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disease free equilibrium and R 0"
+        },
+        {
+            "text": "From the above jacobian matrix, it can be seen that the two of the eigen values are given by -\u00b5 p (repeated twice). The rest can be obtained through the characteristic equation given below.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disease free equilibrium and R 0"
+        },
+        {
+            "text": "When R 0 \u00a1 1, a 2 , a 3 are positive. Since a 1 has all positive terms, all the coefficients of the characteristic equation are positive when R 0 \u00a1 1. Further, by Routh-Hurtwiz criterion for a third order polynomial, we get that all the eigen values of the characteristic polynomial to be negative as a i s > 0, for i = 1, 2, 3. [2] . Hence the DFE E 0 is locally asymptotically stable when R 0 < 1 as all the eigen values of the jacobian matrix are negative.",
+            "cite_spans": [
+                {
+                    "start": 329,
+                    "end": 332,
+                    "text": "[2]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Disease free equilibrium and R 0"
+        },
+        {
+            "text": "Let E = (S p , E p , I p , R p , V p ) denote the endemic equilibrium point of the system 2. To get the endemic equilibrium, we set the left-hand side of the equations of the model system 2 equal to zero and determine the nontrivial solution of the resulting algebraic equations, which gives",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Endemic equilibrium"
+        },
+        {
+            "text": "It can be seen from the definition of I p that the endemic equilibrium E exists only when R 0 > 1. Theorem 2: The endemic equilibrium E of the system 2 is locally asymptotically stable if R 0 > 1. Proof: It can be seen from the above discussions that the endemic equilibrium E exists only when R 0 > 1. And also from theorem 1 the DFE E 0 is unstable in such a case. Moreover, as the system 2 admits only two equilibria from the uniqueness and boundedness of solutions for the system 2 we conclude that the endemic equilibrium E is asymptotically stable whenever it exists i.e., whenever R 0 > 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Endemic equilibrium"
+        },
+        {
+            "text": "The multi scale model 1 is uni-directionally coupled such that only the within-host scale sub model influences the between-host scale sub model without any reciprocal feedback. Owing to this, in this section, we study and numerically illustrate the influence of the four within-host scale sub model parameters, namely \u03b2, \u03b1, d(= d 1 + \u00b7 \u00b7 \u00b7 + d 6 ) and b(= b 1 + \u00b7 \u00b7 \u00b7 + b 6 ) on the between-host scale sub model variables ( S p , E p , I p , R p , V p ). Figure 12 depicts that as the rate of killing of infected cells by immune system increases, SARS-CoV-2 transmission in the community also decreases slightly. Therefore, immunotherapies such as monoclonal antibodies that kill infected cells have potential community level benefits of reducing SARS-CoV-2 transmission at between-host scale apart from benefits to the infected individual.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 455,
+                    "end": 464,
+                    "text": "Figure 12",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Numerical simulations"
+        },
+        {
+            "text": "In this section we do the comparative effectiveness studies. We consider the following four health interventions dealing with within-host and between-host scales.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Evaluating the comparative effectiveness of health interventions dealing with within-host and between-host scales"
+        },
+        {
+            "text": "1. Antiviral drugs:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Evaluating the comparative effectiveness of health interventions dealing with within-host and between-host scales"
+        },
+        {
+            "text": "a. Drugs that inhibit viral replication: Drugs such as Arbidol, remdesivir, Lopinavir/Ritonavir inhibit viral replication in infected cells. So we choose \u03b1 to be \u03b1(1 \u2212 ).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Evaluating the comparative effectiveness of health interventions dealing with within-host and between-host scales"
+        },
+        {
+            "text": "b. Drugs that block virus binding to susceptible cells : Drugs such as Hydroxychloroquine (HCQ) does this job. So we choose \u03b2 to be \u03b2(1 \u2212 \u03b3).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Evaluating the comparative effectiveness of health interventions dealing with within-host and between-host scales"
+        },
+        {
+            "text": "In this intervention the rate of clearance of virus increases due to antibodies. This in turn reduces the number of infected cells. So we choose (",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunotherapies :"
+        },
+        {
+            "text": "3. Environmental hygiene: Decontamination from frequently touched spaces like door handles etc., reduces environmental virus. So we choose \u03c0 to be \u03c0(1 + \u03b4).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunotherapies :"
+        },
+        {
+            "text": "4. Generalized Social distancing: No mass gatherings, prayer meetings and educational institutions reduces contact with community viral load. So we choose \u03b7 w to be \u03b7 w (1 \u2212 \u03c3).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunotherapies :"
+        },
+        {
+            "text": "R 0 plays a crucial role in understanding the spread of infection in the individual and V p determines the infectivity of virus in an individual. Taking these four health interventions into consideration, we now have modified basic reproductive number R E and modified virus count V E of the endemic equilibrium to be",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunotherapies :"
+        },
+        {
+            "text": "where, N e is the modified N h given by,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunotherapies :"
+        },
+        {
+            "text": ",",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunotherapies :"
+        },
+        {
+            "text": "We now do the comparative effectiveness study of these interventions by calculating the percentage reduction of R 0 and V p for single and multiple combination of these interventions at different efficacy levels such as (a) low efficacy of 0.3, (b) medium efficacy of 0.6, and (c)high efficacy of 0.9.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunotherapies :"
+        },
+        {
+            "text": "Percentage reduction of R 0 and V p are given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunotherapies :"
+        },
+        {
+            "text": "where j stands for , \u03b4, \u03ba, \u03b4, \u03c3 or combinations thereof. We now consider 20 different combinations of these four health interventions. The comparative effectiveness is calculated and measured on a scale from 1 to 20 with 1 denoting the lowest comparative effectiveness while 20 denoting the highest comparative effectiveness.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunotherapies :"
+        },
+        {
+            "text": "The outcomes of the comparative effectiveness study suggest the following.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunotherapies :"
+        },
+        {
+            "text": "1. When a single strategy is implemented, treatment with drugs such as Arbidol, remdesivir, Lopinavir/Ritonavir that inhibits viral replication show significant decrease of R 0 relative to other four interventions at all efficacy levels.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunotherapies :"
+        },
+        {
+            "text": "2. Considering the severity of this pandemic, one single strategy is not sufficient to tackle this infection at the earliest. When environmental hygiene and generalized social distancing are implemented along with treatment of single drug, treating with drugs that inhibits viral replication performs better again at all efficacy levels. 3. Now that governments are accepting the fact that we have to live with the virus for long and planning for unlock strategies, generalized social distancing like closure of schools does not seem practical. By considering only environmental hygiene, along with the drugs that inhibits viral replication seem to perform twice better than other drugs at all efficacy levels. 4 . A combined strategy involving treatment with drugs such as Arbidol, remdesivir, Lopinavir/Ritonavir that inhibits viral replication and immunotherapies like monoclonal antibodies, along with environmental hygiene and generalized social distancing seems to perform the best among all combinations considered at all efficacy levels.",
+            "cite_spans": [
+                {
+                    "start": 711,
+                    "end": 712,
+                    "text": "4",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Immunotherapies :"
+        },
+        {
+            "text": "In this work a novel nested multi scale model for COVID-19 is proposed and studied. We initially study the dynamics of this system and do the stability analysis. Later using the technique of comparative effectiveness we study the efficacy of four health interventions dealing with within-host and between-host scales. The results suggest that a combined strategy involving treatment with drugs such as Arbidol, remdesivir, Lopinavir/Ritonavir that inhibits viral replication and immunotherapies like monoclonal antibodies, along with environmental hygiene and generalized social distancing proved to be the best and optimal in reducing the basic reproduction number and environmental virus at the population level. With a lot of research happening in the field of multi-drug therapy, our results offer some basic insights of their efficiency and effectiveness at population scale. These results can be helpful in public health measures and policies. With more availability of data of within-host dynamics in COVID-19 patients, a better refined and comprehensive models can be framed based on this model that can more closer to real life situations. The multi scale modeling studies done here is the first of its kind for COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion and Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Routh-hurwitz criterion in the examination of eigenvalues of a system of nonlinear ordinary differential equations",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Edmund",
+                    "suffix": ""
+                },
+                {
+                    "first": "Charles",
+                    "middle": [],
+                    "last": "Dejesus",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Kaufman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Physical Review A",
+            "volume": "35",
+            "issn": "12",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Hiv treatment as prevention: systematic comparison of mathematical models of the potential impact of antiretroviral therapy on hiv incidence in south africa",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jeffrey W Eaton",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Leigh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Joshua",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "Till",
+                    "middle": [],
+                    "last": "Salomon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Eran",
+                    "middle": [],
+                    "last": "B\u00e4rnighausen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Anna",
+                    "middle": [],
+                    "last": "Bendavid",
+                    "suffix": ""
+                },
+                {
+                    "first": "David",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bershteyn",
+                    "suffix": ""
+                },
+                {
+                    "first": "Valentina",
+                    "middle": [],
+                    "last": "Bloom",
+                    "suffix": ""
+                },
+                {
+                    "first": "Christophe",
+                    "middle": [],
+                    "last": "Cambiano",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jan",
+                    "middle": [
+                        "Ac"
+                    ],
+                    "last": "Fraser",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hontelez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS Med",
+            "volume": "9",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Development and application of multiscale models of acute viral infections in intervention research",
+            "authors": [
+                {
+                    "first": "Winston",
+                    "middle": [],
+                    "last": "Garira",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dephney",
+                    "middle": [],
+                    "last": "Mathebula",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Mathematical Methods in the Applied Sciences",
+            "volume": "43",
+            "issn": "6",
+            "pages": "3280--3306",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Modelling the covid-19 epidemic and implementation of population-wide interventions in italy",
+            "authors": [
+                {
+                    "first": "Giulia",
+                    "middle": [],
+                    "last": "Giordano",
+                    "suffix": ""
+                },
+                {
+                    "first": "Franco",
+                    "middle": [],
+                    "last": "Blanchini",
+                    "suffix": ""
+                },
+                {
+                    "first": "Raffaele",
+                    "middle": [],
+                    "last": "Bruno",
+                    "suffix": ""
+                },
+                {
+                    "first": "Patrizio",
+                    "middle": [],
+                    "last": "Colaneri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alessandro",
+                    "middle": [
+                        "Di"
+                    ],
+                    "last": "Filippo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Angela",
+                    "middle": [
+                        "Di"
+                    ],
+                    "last": "Matteo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Marta",
+                    "middle": [],
+                    "last": "Colaneri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "1--6",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Modeling the dynamics of novel coronavirus (2019-ncov) with fractional derivative",
+            "authors": [
+                {
+                    "first": "Abdon",
+                    "middle": [],
+                    "last": "Muhammad Altaf Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Atangana",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Alexandria Engineering Journal",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Early dynamics of transmission and control of covid-19: a mathematical modelling study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Adam",
+                    "suffix": ""
+                },
+                {
+                    "first": "Timothy",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Kucharski",
+                    "suffix": ""
+                },
+                {
+                    "first": "Charlie",
+                    "middle": [],
+                    "last": "Russell",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yang",
+                    "middle": [],
+                    "last": "Diamond",
+                    "suffix": ""
+                },
+                {
+                    "first": "John",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sebastian",
+                    "middle": [],
+                    "last": "Edmunds",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rosalind",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Funk",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fiona",
+                    "middle": [],
+                    "last": "Eggo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mark",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "James",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Jit",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Munday",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The lancet infectious diseases",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The within-host viral kinetics of sars-cov-2, bioRxiv",
+            "authors": [
+                {
+                    "first": "Chentong",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jinhu",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jiawei",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yicang",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Reproduction numbers and sub-threshold endemic equilibria for compartmental models of disease transmission",
+            "authors": [
+                {
+                    "first": "Pauline",
+                    "middle": [],
+                    "last": "Van Den Driessche",
+                    "suffix": ""
+                },
+                {
+                    "first": "James",
+                    "middle": [],
+                    "last": "Watmough",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Mathematical biosciences",
+            "volume": "180",
+            "issn": "1-2",
+            "pages": "29--48",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "-host modelling of covid-19 kinetics in humans, medRxiv",
+            "authors": [
+                {
+                    "first": "Esteban",
+                    "middle": [
+                        "Abelardo"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hernandez",
+                    "middle": [],
+                    "last": "Vargas",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jorge",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Velasco-Hernandez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "How can viral dynamics models inform endpoint measures in clinical trials of therapies for acute viral infections?",
+            "authors": [
+                {
+                    "first": "Carolin",
+                    "middle": [],
+                    "last": "Vegvari",
+                    "suffix": ""
+                },
+                {
+                    "first": "Christoforos",
+                    "middle": [],
+                    "last": "Hadjichrysanthou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Emilie",
+                    "middle": [],
+                    "last": "Cauet",
+                    "suffix": ""
+                },
+                {
+                    "first": "Emma",
+                    "middle": [],
+                    "last": "Lawrence",
+                    "suffix": ""
+                },
+                {
+                    "first": "Anne",
+                    "middle": [],
+                    "last": "Cori",
+                    "suffix": ""
+                },
+                {
+                    "first": "Frank",
+                    "middle": [
+                        "De"
+                    ],
+                    "last": "Wolf",
+                    "suffix": ""
+                },
+                {
+                    "first": "Roy M",
+                    "middle": [],
+                    "last": "Anderson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "PloS one",
+            "volume": "11",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Theoretical frameworks for multiscale modeling and simulation",
+            "authors": [
+                {
+                    "first": "Huan-Xiang",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Current opinion in structural biology",
+            "volume": "25",
+            "issn": "",
+            "pages": "67--76",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "are two difficulties in working with the proposed multi scale model. 1. Time scale mismatch: The within-host scale is in terms of a fast time scale s, while the between-host scale is in terms of a slow time scale t.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Transient V h (s) : V h (s) remains non-zero only for a short period since the infection remains only for few days.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Effects of variation of production rate of virus from within-host infected cells (\u03b1).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "depicts that as the infected cell burst rate increases, SARS-CoV-2 transmission in the community also increases. Therefore, drugs that inhibit viral replication (such as Arbidol, remdesivir, Lopinavir/Ritonavir) which in turn reduce the production rate of virus at within-host scale will likely reduce transmission of SARS-CoV-2 at between-host scale.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Effects of variation of infection transmission probability (\u03b2).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "depicts that the antiviral drugs (such as Hydroxychloroquine (HCQ)) that reduce infection rate of susceptible epithelial cells may have individual level benefits but have insignificant population level benefits.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Effects of variation of clearance rate of virus by immune system (b).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "depicts that as the rate of clearance of free virus particles increases, SARS-CoV-2 transmission in the community also decreases. Therefore, treatments that increase the rate of clearance of free virus particles in an infected individual have potential community-level benefits of reducing SARS-CoV-2 transmission at between-host scale apart from benefits to the infected individual.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Effects of variation of rate of killing of infected cells by immune system (d).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "Table describing the parameter values The initial values for the different between-host human population are listed in the table 2.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Table describing the initial values for between-host compartments",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Comparative effectiveness for R Comparative effectiveness for V p",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,927 @@
+{
+    "paper_id": "0ab92cf59e74e50bdc0fd543fdfa72b70331c313",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "20-3386-App1.pdf). The nucleotide and amino acid sequences of Rc-o319 were more homologous to those of viruses belonging to SARS-CoV-2 clade than the SARS-CoV clade (Table) . These data suggest that Rc-o319 genetically is related to SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 165,
+                    "end": 172,
+                    "text": "(Table)",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "To gain insight into the zoonotic potential of Rc-o319, we focused on angiotensin-converting enzyme 2 (ACE2) receptor binding motif (RBM) of the S protein ( Figure 1 , panel E). RBM has 2 regions (1 and 2); both are essential to human ACE2 (hACE2) recognition (5, 6) . Several S proteins of bat-origin sarbecoviruses that lack the ability to bind the hACE2 contain amino acid deletions in both regions ( Figure 1 , panel E) (5). However, the RBM of Rc-o319 S is unique because it has 9 aa deletions in region 2 only, which was not observed in other bat sarbecoviruses. Of note, most residues that contact hACE2, which were detected in the S protein of SARS-CoV-2 and SARS-CoV, were different or missing in the S protein of Rc-o319. Thus, current data do not enable inference for whether the Rc-o319 can use hACE2 as a cell entry receptor.",
+            "cite_spans": [
+                {
+                    "start": 260,
+                    "end": 263,
+                    "text": "(5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 264,
+                    "end": 266,
+                    "text": "6)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 157,
+                    "end": 165,
+                    "text": "Figure 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 404,
+                    "end": 412,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "To evaluate the potential of ACE2 as a receptor for Rc-o319, we adopted a pseudotyped vesicular stomatitis virus (VSV) system, in which VSV glycoprotein envelope (G) gene is replaced by green fluorescent protein (GFP) gene. We generated VSV pseudotyped with S proteins of Rc-o319 (VSV-Rc-o319), SARS-CoV (VSV-SARS), SARS-CoV-2 (VSV-SARS-2), or VSV-G (VSV-VSV-G) in human embryonic kidney 293T (HEK293T) cells. We also constructed ACE2 expression plasmids from hACE2, R. ferrumequinum bats (Rf-ACE2), and R. sinicus bats (Rs-ACE2). R. ferrumequinum is another bat species inhabiting in Japan, and R. sinicus bats are a major host reservoir of bat sarbecoviruses. We also prepared a chimeric bat ACE2 from R. cornutus and R. ferrumequinum bats, Rc/Rf chimera, which has the N terminus of S protein interaction domain of Rc-ACE2 and the remaining region from Rf-ACE2 (Appendix Figure 2) . The HEK293T cells expressing Rc-ACE2, Rf-ACE2, Rs-ACE2, Rc/Rf-ACE2, or hACE2 were produced by transfecting each ACE2-expression plasmid (Appendix Figure 3 ) and inoculating them with pseudotyped VSVs; their infectivity was titrated by counting GFP-positive cells at 20 hours postinfection (Figure 2 ). Our results showed that VSV-Rc-o319 infected Rc-ACE2-and Rc/Rf-ACE2-expressing cells, but not Rf-ACE2-, Rs-ACE2-, or hACE2-expressing cells or control cells transfected with empty vector plasmid. In contrast, VSV-SARS and VSV-SARS-2 more effectively infected hACE2expressing cells than bat ACE2-expressing cells and control cells. VSV-VSV-G infected all tested cells to comparable levels, confirming ACE2-independent infectivity of VSV. These results suggest high specificity of ACE2 receptor between sarbecovirus and host cells and possibly a limited zoonotic potential of Rc-o319 in terms of cell receptor usage without adaptation to humans.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 874,
+                    "end": 883,
+                    "text": "Figure 2)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1032,
+                    "end": 1040,
+                    "text": "Figure 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 1175,
+                    "end": 1184,
+                    "text": "(Figure 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "We next analyzed the membrane fusion step of Rc-o319 S. A previous study showed that human sarbecovirus S protein was proteolytically activated by cellular transmembrane serine protease 2 (TM-PRSS2), in vitro and in vivo, inducing efficient virus-cell membrane fusion at the cell surface (7). We prepared a fusion assay, in which HEK293T cells were cotransfected with S-expression plasmid of Rc-o319, SARS-CoV, or SARS-CoV-2 and Rc-ACE2-, Rf-ACE2-, Rs-ACE2-, or hACE2-expression plasmid, together with fluorescent reporter Venus-expression plasmid with and without TMPRSS2-expression plasmid, and incubated for 24 h to assess syncytium formation. We observed that the S protein of SARS-CoV and SARS-CoV-2 required both hACE2 and TMPRSS2 for fusion activity (Appendix Figure 4 ), confirming the previous findings (7, 8) . In contrast, the S protein of Rc-o319 induced cell fusion only in Rc-ACE2-expressing cells, both in the presence and absence of TMPRSS2. These results suggest that unlike human sarbecoviruses, Rc-o319 uses Rc-ACE2 as a functional receptor, leading to membrane fusion independent of S-cleavage by TMPRSS2.",
+            "cite_spans": [
+                {
+                    "start": 812,
+                    "end": 815,
+                    "text": "(7,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 816,
+                    "end": 818,
+                    "text": "8)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 767,
+                    "end": 775,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Among R. cornutus bats in Japan, we detected sarbecovirus Rc-o319, which is phylogenetically positioned in the same clade as SARS-CoV-2. Sarbecoviruses belonging to this clade previously were detected from other Rhinolophus spp. bats and pangolins (family Manidae) in China and could have played a role in the emergence of SARS-CoV-2 (9-11). We provide a hypothesis that a bat sarbecovirus with zoonotic potential might exist even outside China, because Rhinolophus spp. bats inhabit Asia, Europe, and Africa (12) .",
+            "cite_spans": [
+                {
+                    "start": 509,
+                    "end": 513,
+                    "text": "(12)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Receptor usage is one factor for cross-species transmission of viruses. Unlike a previous report that showed that some bat SARS-CoV-related viruses could use human and civet ACE2 and R. sinicus ACE2 as entry receptors (5, 13, 14) , VSV-Rc-o319 was found to use only homologous Rc-ACE2, which arguably suggests that Rc-o319 and its related viruses might not jump the species barrier easily and cause infection. However, Rc-o319 and its related viruses could be transmitted accidentally from R. cornutus bats to cohabitant animals, such as civets, which are potential intermediate hosts for human infection (15) . Therefore, further epidemiologic surveillance of bat betacoronaviruses, including evaluation of their zoonotic potential, is essential because betacoronaviruses that caused SARS, MERS, and COVID-19 outbreaks in humans during the past 20 years likely originated from bat betacoronaviruses. ",
+            "cite_spans": [
+                {
+                    "start": 218,
+                    "end": 221,
+                    "text": "(5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 222,
+                    "end": 225,
+                    "text": "13,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 226,
+                    "end": 229,
+                    "text": "14)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 605,
+                    "end": 609,
+                    "text": "(15)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Genomic characterization of severe acute respiratory syndrome-related coronavirus in European bats and classification of coronaviruses based on partial RNA-dependent RNA polymerase gene sequences",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Drexler",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gloza-Rausch",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Glende",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Muth",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Goettsche",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Virol",
+            "volume": "84",
+            "issn": "",
+            "pages": "11336--11385",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.00650-10"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Discovery of a rich gene pool of bat SARS-related coronaviruses provides new insights into the origin of SARS coronavirus",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS Pathog",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.ppat.1006698"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Complete genome sequence of a severe acute respiratory syndrome-related coronavirus from Kenyan bats. Microbiol Resour Announc",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "8",
+            "issn": "",
+            "pages": "548--567",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Group B betacoronavirus in rhinolophid bats",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sato",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kobayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Aoi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Harasawa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Japan. J Vet Med Sci",
+            "volume": "76",
+            "issn": "",
+            "pages": "1267--1276",
+            "other_ids": {
+                "DOI": [
+                    "10.1292/jvms.14-0012"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Functional assessment of cell entry and receptor usage for SARS-CoV-2 and other lineage B betacoronaviruses",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Letko",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Marzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Munster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Microbiol",
+            "volume": "5",
+            "issn": "",
+            "pages": "562--571",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41564-020-0688-y"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Structure of the SARS-CoV-2 spike receptor-binding domain bound to the ACE2 receptor",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "581",
+            "issn": "",
+            "pages": "215--235",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Evidence that TMPRSS2 activates the severe acute respiratory syndrome coronavirus spike protein for membrane fusion and reduces viral control by the humoral immune response",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Glowacka",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bertram",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "M\u00fcller",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Allen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Soilleux",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pfefferle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Virol",
+            "volume": "85",
+            "issn": "",
+            "pages": "4122--4156",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.02232-10"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The anticoagulant nafamostat potently inhibits SARS-CoV-2 S protein-mediated fusion in a cell fusion assay system and viral infection in vitro in a cell-type-dependent manner",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yamamoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kiso",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sakai-Tagawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Iwatsuki-Horimoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Imai",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Takeda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Viruses",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/v12060629"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "",
+            "pages": "270--273",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2012-7"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Possible bat origin of severe acute respiratory syndrome coronavirus 2",
+            "authors": [
+                {
+                    "first": "Skp",
+                    "middle": [],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hkh",
+                    "middle": [],
+                    "last": "Luk",
+                    "suffix": ""
+                },
+                {
+                    "first": "Acp",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ksm",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Infect Dis",
+            "volume": "26",
+            "issn": "",
+            "pages": "1542--1549",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid2607.200092"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Probable pangolin origin of SARS-CoV-2 associated with the COVID-19 outbreak",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Curr Biol",
+            "volume": "30",
+            "issn": "",
+            "pages": "1346--51",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cub.2020.03.022"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Molecular phylogenetics and historical biogeography of Rhinolophus bats",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Stoffberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Jacobs",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mackie",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Matthee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Mol Phylogenet Evol",
+            "volume": "54",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ympev.2009.09.021"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Chmura",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Epstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nature",
+            "volume": "503",
+            "issn": "",
+            "pages": "535--543",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nature12711"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Isolation and characterization of a novel bat coronavirus closely related to the direct progenitor of severe acute respiratory syndrome coronavirus",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Virol",
+            "volume": "90",
+            "issn": "",
+            "pages": "3253--3259",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.02582-15"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Isolation and characterization of viruses related to the SARS coronavirus from animals in southern China",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Zhuang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Cheung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Science",
+            "volume": "302",
+            "issn": "",
+            "pages": "276--284",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.1087139"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Author affiliations: The University of Tokyo, Tokyo, Japan (S. Murakami, T. Kitamura, M. Fujii, H. Matsugo, H. Kamiki, H. Ishida, A. Takenaka-Uema, T. Horimoto); Yamaguchi University, Yamaguchi, Japan (J. Suzuki); Iwate University, Iwate, Japan (R. Sato, T. Aoi); National Institute of Infectious Diseases, Tokyo, Japan (M. Shimojima) DOI: https://doi.org/10.3201/eid2612.203386 1 These authors contributed equally to this article.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "S.M. is supported by a Kakenhi Grant-in-Aid for Challenging Research (Exploratory) from the Japan Society for the Promotion of Science (grant no. 17K19319).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Infectivity titers of sarbecoviruses from bats and humans used to investigate bat sarbecovirus Rc-o319, which is genetically related to human SARS-CoV-2, Japan. Cells expressing each host-origin angiotensin-converting enzyme 2 were inoculated with VSV pseudotyped with spike proteins of Rc-o319 (A), SARS-CoV (B), SARS-CoV-2 (C), or glycoprotein of VSV (D). At 20 hours postinfection, GFP-positive cells were counted and the infectivity titers were calculated. Error bars indicate SDs from 3 independent experiments. CoV, coronavirus; GFP, green fluorescent protein; Rc/Rf, chimera of Rhinolophus cornutus and R. ferrumequinum; SARS, severe acute respiratory syndrome; VSV, vesicular stomatitis virus.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "of R. cornutus, but not humans, as an entry receptor. Emerging Infectious Diseases \u2022 www.cdc.gov/eid \u2022 Vol. 26, No. 12, December 2020Figure 1. Phylogenetic analysis of sarbecovirus sequenced from little Japanese horseshoe bats (Rhinolophus cornutus) and genetically related to human SARS-CoV-2, Japan. A-D) Phylogenetic trees were generated by using maximum-likelihood analysis combined with 500 bootstrap replicates and show relationships between bat-, human-, and pangolin-derived sarbecoviruses. Phylogenetic trees are shown for nucleotide sequences of the full genome (A), the S protein gene and amino acid sequences (B), the ORF1ab (C), and the S protein (D). Red text indicates positions of Rc-o319, the sarbecovirus sequenced in this study. For panels B and D, magenta bands indicate viruses with S proteins that bind to human ACE2; blue bands indicate viruses with S proteins that do not bind to human ACE2. Bootstrap values are shown above and to the left of the major nodes. Scale bars indicate nucleotide or amino acid substitutions per site.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Emerging Infectious Diseases \u2022 www.cdc.gov/eid \u2022 Vol. 26, No. 12, December 2020 3027",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Dr. Murakami is an associate professor at the Graduate School of Agricultural and Life Sciences, University of Tokyo, Tokyo, Japan. His research interests include epidemiologic and molecular biological studies of animal viruses, including coronaviruses and influenza viruses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "About the Author"
+        }
+    ]
+}

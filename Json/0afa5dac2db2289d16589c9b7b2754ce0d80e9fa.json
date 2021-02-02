@@ -1,0 +1,691 @@
+{
+    "paper_id": "0afa5dac2db2289d16589c9b7b2754ce0d80e9fa",
+    "metadata": {
+        "title": "HTTP-level e-commerce data based on server access logs for an online store HTTP-level e-commerce data based on server access logs for an online store Corresponding author(s)",
+        "authors": [
+            {
+                "first": "Grzegorz",
+                "middle": [],
+                "last": "Chodak",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Wroclaw University of Science and Technology",
+                    "location": {
+                        "addrLine": "Wyb. Wyspianskiego 27",
+                        "postCode": "50-370",
+                        "settlement": "Wroclaw",
+                        "country": "Poland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gra\u00fa",
+                "middle": [],
+                "last": "Zyna Suchacka",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yash",
+                "middle": [],
+                "last": "Chawla",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Wroclaw University of Science and Technology",
+                    "location": {
+                        "addrLine": "Wyb. Wyspianskiego 27",
+                        "postCode": "50-370",
+                        "settlement": "Wroclaw",
+                        "country": "Poland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gra\u017cyna",
+                "middle": [],
+                "last": "Suchacka",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Opole",
+                    "location": {
+                        "addrLine": "Pl. Kopernika 11a",
+                        "postCode": "45-040",
+                        "settlement": "Opole",
+                        "country": "Poland, Poland"
+                    }
+                },
+                "email": "gsuchacka@uni.opole.pl"
+            },
+            {
+                "first": "Affiliations",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Web server logs have been extensively used as a source of data on the characteristics of Web traffic and users' navigational patterns. In particular, Web bot detection and online purchase prediction using methods from artificial intelligence (AI) are currently key areas of research. However, in reality, it is hard to obtain logs from actual online stores and there is no common dataset that can be used across different studies. Moreover, there is a lack of studies exploring Web traffic over a longer period of time, due to the unavailability of long-term data from server logs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The need to develop reliable models of Web traffic, Web user navigation, and e-customer behaviour calls for an up-to-date, large-volume e-commerce dataset on Web traffic. Similarly, AI problems require a sufficient amount of solid, real-life data to train and validate new models and methods. Thus, to meet a demand of a publicly available long-term e-commerce dataset, we collected access log data describing the operation of an online store over a six-month period. Using a program written in the C# language, data were aggregated, transformed, and anonymized. As a result, we release this EClog dataset in CSV format, which covers 183 days of HTTP-level e-commerce traffic. The data will be beneficial for research in many areas, including computer science, data science, management, and sociology.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Computer Science Applications",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Specifications"
+        },
+        {
+            "text": "Analysis of Web server access log data for an e-commerce website ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Specific subject area"
+        },
+        {
+            "text": "Raw (anonymized and structured)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data format"
+        },
+        {
+            "text": "\uf0b7 Data were recorded with standard Web servers' 1-second time resolution. \uf0b7 Data recording period was from 1st December, 2019 to 31st May, 2020. \uf0b7 Log format is NCSA Combined.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Parameters for data collection"
+        },
+        {
+            "text": "\uf0b7 Data were saved in log files with one file corresponding to each day, files were uploaded to an external server. \uf0b7 Collected log data were aggregated, transformed, and pre-processed. \uf0b7 Sensitive data were masked. \uf0b7 Data were exported to a CSV file.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Description of data collection"
+        },
+        {
+            "text": "Country: Poland",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data source location"
+        },
+        {
+            "text": "Repository name: Harvard Dataverse Data identification number: https://doi.org/10.7910/DVN/Z834IK Direct URL to data: https://dataverse.harvard.edu/privateurl.xhtml?token=4737ed88-8e4e-480b-b359-67f3cc378f70",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data accessibility"
+        },
+        {
+            "text": "The work was partially supported by the National Science Centre (NCN) in Poland under grant no. 2018/29/B/HS4/02857 \"Logistics, trade and consumer decisions in the age of the Internet\", 2019 -2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Related project(s)"
+        },
+        {
+            "text": "\uf0b7 Research into reliable models of Web traffic, discovery of hidden behavioural patterns of ecustomers, or the increasing interest in solving machine learning and AI problems call for an up-todate, large-volume dataset of HTTP requests coming to an e-commerce website. In this respect, the following problems occur in practice: difficulty with obtaining logs from actual online stores, lack of a benchmarking dataset that can be used across various studies, and unavailability of long-term data from server logs. The EClog dataset, representing the operation of an online store over a sixmonth period, aims to remedy these problems.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Value of the Data"
+        },
+        {
+            "text": "\uf0b7 The dataset may be of interest to researchers from various fields, including, but not limited to, computer science, data science, management, and sociology. It will be particularly useful for network/Web researchers. Examples of research using similar data, obtained from other ecommerce websites, include discovering Web user profiles [1] , [2] , predicting purchases in online stores [3] , or detecting Web bots [4] , just to name a few.",
+            "cite_spans": [
+                {
+                    "start": 338,
+                    "end": 341,
+                    "text": "[1]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 344,
+                    "end": 347,
+                    "text": "[2]",
+                    "ref_id": null
+                },
+                {
+                    "start": 388,
+                    "end": 391,
+                    "text": "[3]",
+                    "ref_id": null
+                },
+                {
+                    "start": 416,
+                    "end": 419,
+                    "text": "[4]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Value of the Data"
+        },
+        {
+            "text": "\uf0b7 The data may be used to develop Web traffic models and benchmark the performance of Web servers, either as a source of traffic using data-driven black-box approaches or as a basis for developing generators of synthetic, parametrized Web traffic. On the other hand, the data may be used to study online navigation and clicks by Web users, investigate Web bot traffic patterns, and develop novel AI approaches to identify types of users, recommend products, personalize and improve Web service, etc.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Value of the Data"
+        },
+        {
+            "text": "\uf0b7 The additional value of the data is the possibility to investigate long-term customer behavior, customers' returning and purchasing patterns, as well as to investigate the re-visiting and crawling patterns of Web bots over a longer period of time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Value of the Data"
+        },
+        {
+            "text": "\uf0b7 The dataset may be used as a source of longitudinal stream data for time series analysis and classification.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Value of the Data"
+        },
+        {
+            "text": "\uf0b7 The time period covered by the data encompasses the beginning of the COVID-19 pandemic: the period before the lockdown due to COVID-19 in Poland (which occurred in mid-March 2020), the lockdown period in Poland (from mid-March to early May 2020), and the period just after it (to the end of May 2020). Thus, the data (maybe in combination with other types of data) may be useful for researchers and businesses to obtain an insight into how this unique time has affected Web traffic and consumer behaviour.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Value of the Data"
+        },
+        {
+            "text": "The full EClog dataset, saved in eclog.csv file compressed into the eclog.zip, comprises a six-month dataset representing the stream of HTTP requests coming to a real e-commerce website.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "eclog.csv"
+        },
+        {
+            "text": "The size of the whole EClog dataset is 9.13 GB. It contains 35,157,691 records reflecting the Web server traffic from 30th November, 2019 23:00:00 to 31st May, 2020 21:59:59 UTC. The dataset is saved in the widely used CSV format with record's fields being separated with commas (since URIs, referrers, and user agents may contain commas, these fields are delimited by double quotes). The first line of the file contains field names.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "eclog.csv"
+        },
+        {
+            "text": "Due to the very large volume of the EClog dataset, we decided to extract and save an example one-day trace in a separate file, to allow researchers to quickly download a subset of the data and familiarize themselves with their nature and format. The eclog_1day.csv, compressed into the eclog_1day.zip, contains a 1-day sample from EClog for the traffic registered on 11th December, 2019. Table 1 summarizes the key properties of the generated data. Both files are freely available to download from the Harvard Dataverse repository [5] . ",
+            "cite_spans": [
+                {
+                    "start": 531,
+                    "end": 534,
+                    "text": "[5]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 388,
+                    "end": 395,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "eclog_1day.csv"
+        },
+        {
+            "text": "Each dataset record contains ten fields, corresponding to the original or transformed fields from HTTP headers:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Format of the dataset"
+        },
+        {
+            "text": "\uf0b7 IpId -the unique identifier of a Web client's IP address, composed of an integer and a two-letter code representing the country of origin to which the IP was allocated. Country codes are consistent with ISO 3166-1 Alpha-2 codes [6] .",
+            "cite_spans": [
+                {
+                    "start": 230,
+                    "end": 233,
+                    "text": "[6]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Format of the dataset"
+        },
+        {
+            "text": "\uf0b7 UserId -identifier of the Web user. \uf0b7 TimeStamp -long integer value specifying the UTC date and time of the arrival of a request, coded as the number of 100-nanosecond intervals that have elapsed since 00:00:00 UTC on 1st January, 1 A.D.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Format of the dataset"
+        },
+        {
+            "text": "\uf0b7 HttpMethod -the HTTP method indicating the action to be performed for the target server resource (URI).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Format of the dataset"
+        },
+        {
+            "text": "\uf0b7 Uri is the string identifier (URI) of a target server resource. Some URIs were masked to protect sensitive data (see the section \"Experimental Design, Materials, and Methods\" for details).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Format of the dataset"
+        },
+        {
+            "text": "\uf0b7 HttpVersion specifies the version of the HTTP protocol used by the client (HTTP/1.0 or HTTP/1.1). \uf0b7 ResponseCode is a numeric code for the HTTP response status indicating whether a given request is successfully processed by the server.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Format of the dataset"
+        },
+        {
+            "text": "\uf0b7 Bytes indicates the volume of data (in bytes) sent by the server in response to the client's request. \uf0b7 Referrer is the string identifier of the Web page that referred the client to the current Web object. Some referrers were partially camouflaged to protect sensitive data (see the section \"Experimental Design, Materials, and Methods\" for details).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Format of the dataset"
+        },
+        {
+            "text": "\uf0b7 UserAgent is a string describing the client's software and usually contains the application type, operating system, software vendor, and software version.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Format of the dataset"
+        },
+        {
+            "text": "The dataset records do not contain a client identifier -the value of this field was equal to \"-\" for all the requests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Format of the dataset"
+        },
+        {
+            "text": "In this section, we discuss our methodology applied to generate EClog. The general workflow diagram of the data preparation process is depicted in Fig. 1 . ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 147,
+                    "end": 153,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Experimental Design, Materials, and Methods"
+        },
+        {
+            "text": "The shop under consideration is a Polish online store. The assortment range is very diverse: from conventional books, audiobooks, movies, computer and board games, multimedia software, to greeting cards, clothes, and sweets. The store is implemented in PHP 7.0 and hosted on an Apache Web server on Linux with a MySQL database.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "Server access logs for busy websites contain a huge amount of text data. Due to this, using a standard Web server configuration, previously recorded data are replaced by newer data every few days, to save disk space. To avoid losing older data, we introduced a special method for data recording, by saving data in files with names containing the current date (with one file corresponding to each day) and uploading the files to an external server. The server log configuration code was implemented by the company hosting the Web store, after agreement with the store manager. The code is presented below (the server IP address, login, and password are masked and presented in italics; the store name is replaced by \"shop.our-internet-company.pl\"): This line represents a HTTP request sent from the IP address 40.77.167.2 on 1st December, 2019 at 00:02:59 according to Central European Time (the time zone offset from GMT is \"+0100\"). Neither a client identifier nor a user identifier used for authentication are provided (\"--\"). However, the useragent \"Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\" indicates that the client was a bot related to the Bing search engine. It used the HTTP protocol ver. 1.1. The request was to download (by using the GET method) a server resource identified by the Uniform Resource Identifier (URI) \"/zapytanie-o-produkt-produkt.html/produkt=4282\". The referring page is not assigned (\"-\"). The request was successfully served (the code describing the status of the server response is 200) and 8,720 bytes were sent to the client.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "To process the collected data and generate the output file, we implemented a C# program. Log entries were read from files and transformed into request records (objects). Request fields were extracted from individual text lines after replacing '\"' by '*' and applying the following regular expression: In the aforementioned rule, three fields: HTTP method, URI, and HTTP version, are extracted into one common string, because some of these fields may be missing in erroneous requests, as in the examples presented below (original log entries with the IP addresses masked):",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "X.X.X.X --[02/Dec/2019:07:45:54 +0100] \"\\x01\\x00\\x00\\x00\" 400 172 \"-\" \"-\" X.X.X.X --[13/Jan/2020:23:15:15 +0100] \"\" 400 0 \"-\" \"-\"",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "On the other hand, for valid requests, these three fields may be further extracted by applying the following rule: ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "During the monitored period, the time in Poland changed from CET (Central European Time) to CEST (Central European Summer Time) on 29th March, 2020. At 2:00 a.m., the clock was moved forward to 3:00 a.m. This change is reflected in the log data and has to be taken into account when characterizing Web traffic (e.g., interarrival times) and reconstructing time series or user sessions covering this sensitive time period. To facilitate further analyses based on the EClog data, all the timestamps of requests were transformed to UTC (Coordinated Universal Time) and coded binary, i.e. as the number of 100-nanosecond intervals that have elapsed since 00:00:00 UTC on 1st January 1 A.D.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Transforming timestamps"
+        },
+        {
+            "text": "According to GDPR (General Data Protection Regulation), IP addresses are online identifiers and should be considered as personal data. Thus, we anonymized the original IP addresses by replacing them by unique identifiers (successive integers). Furthermore, motivated by the possible use of the dataset in bot detection problems, each IP identifier was augmented by a two-letter code denoting the country of the organisation to which the IP allocation was made. The procedure for determining the country was based on the IPToCountry database [7] , which is being updated every 24 hours. Three fields of IPV4 records in this database were used in our procedure:",
+            "cite_spans": [
+                {
+                    "start": 541,
+                    "end": 544,
+                    "text": "[7]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Masking IP addresses"
+        },
+        {
+            "text": "\u2022 IP_FROM and IP_TO are the delimiters of a given IP range; delimiters are numerical representations of IP addresses as illustrated by the following example: After transforming and processing the selected request fields, all the request records were exported to a common output CSV file. Fig. 2 presents a sample of a dataset. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 288,
+                    "end": 294,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Masking IP addresses"
+        },
+        {
+            "text": "The technical validation of the data involved two aspects: verifying the completeness of the registered data stream and the correctness of the transformed IP addresses, timestamps, URIs, and referrers. Regarding the operations of reading the data from log files, extracting requests' fields, their reformatting and masking, all of the necessary testing was carried out on an ongoing basis during the implementation of the C# computer code. To additionally verify the correctness of the extracted request fields, unique field values for each kind of field (HTTP method, response code, etc.), were exported to external files and subjected to careful introspection of the recorded values. The rules of transformation were examined on the basis of the set of unique URIs and referrers. Additionally, the whole final set of masked unique strings was thoroughly examined using a spreadsheet.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Technical Validation"
+        },
+        {
+            "text": "To confirm the continuity of the server's operation and the data logging process, we exported and sorted the arrival times of requests, computed the times between requests (interarrival times), and analysed them. This revealed that there are breaks in data logging in the early morning (between 6:00 and 6:25 a.m. of a local time), due to technical reasons on the server's side. Besides these early morning hours, all of the traffic was registered continuously.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Technical Validation"
+        },
+        {
+            "text": "Basic statistics for the processed data were additionally verified using the online Google Analytics platform, which is integrated with the store's website. Comparison of the statistics regarding the number of Web accesses and visitors, as well as referrers, user-agents and clients' activities did not reveal mismatches or errors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Technical Validation"
+        },
+        {
+            "text": "The authors declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of Competing Interests"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Masking customers' personal data: e-mail addresses and phone numbers, as well as IP addresses: /inne/rejestracja.php?email&tok=idg34gr01u3lw56dfe1o&email=email22",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "and \"kartapdf-\"), product categories and subcategories (strings containing \"c-\"), as well as manufacturers (strings containing \"m-\"), the original Polish names were removed and only identifiers were left",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Masking names of images: /images/1_4_2_luty/image1363.jpg",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Masking user queries embedded in URIs after keywords \"szukaj=\" (\"search for\"), \"q=\" and \"/wyszukiwanie-\" (\"searching for\"), and queries related to managerial activities embedded after \"fraza=\" (\"phrase\") and \"kod=",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Masking external queries embedded in referrers from multiple search engines (over 50 different tools, each with its own delimiters",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Masking phrases embedded in external referrers from websites related to school supplies, entertainment, forums, hobbies, private web pages",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Masking URLs of some entertainment shop's pages in a recursive way: /page1/file159.swf",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Application of the Information Bottleneck method to discover user profiles in a Web store",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Iwa\u0144ski",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Suchacka",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chodak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Journal of Organizational Computing and Electronic Commerce",
+            "volume": "28",
+            "issn": "2",
+            "pages": "98--121",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/10919392.2018.1444340"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Identifying legitimate Web users and bots with different traffic profiles -an Information Bottleneck approach. Knowledge-Based Systems",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Suchacka",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Iwa\u0144ski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "197",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.knosys.2020.105875"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Using association rules to assess purchase probability in online stores",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Suchacka",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chodak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Information Systems and e-Business Management",
+            "volume": "15",
+            "issn": "3",
+            "pages": "751--780",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10257-016-0329-4"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Bot recognition in a Web store: An approach based on unsupervised learning",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rovetta",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Suchacka",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Masulli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Network and Computer Applications",
+            "volume": "157",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jnca.2020.102577"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "EClog: HTTP-level e-commerce data based on server access logs for an online store, Harvard Diverse, DRAFT VERSION",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chodak",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Suchacka",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chawla",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7910/DVN/Z834IK"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "ISO 3166 Country Codes -OBP",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Webnet77. IPV4 CSV -IpToCountry database",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Schematic overview of the workflow used for data preparation.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "string ruleRegex2 = @\"(?#HTTP method)([\\w]+)\\s(?#URI)(.*)\\s[\\w]+\\/(?#HTTP version)(\\d\\.\\d)\";",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "A piece of EClog data.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Basic information on the data.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "\u2022 CTRY is an ISO 3166 two-letter country code[6]  with the inclusion of: AP (non-specific Asia-Pacificlocation), CS (Serbia and Montenegro), YU (Serbia and Montenegro -formerly part of Yugoslavia), EU (non-specific European Union location), FX (Metropolitan [European] France), PS (Palestinian Territory), UK (United Kingdom), and *ZZ (IETF reserved address space).Each IP address from our dataset was transformed into the aforementioned numerical representation and replaced by a unique integer identifier; then, the corresponding country code was searched and attached to it. For example, 40.77.167.2, an IP address of BingBot is represented in EClog as 47US. IP",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "This work was partially supported by the National Science Centre (NCN) in Poland under grant no. 2018/29/B/HS4/02857. The authors thank David Ramsey for his valuable help and advice in the final editing of this paper.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ]
+}

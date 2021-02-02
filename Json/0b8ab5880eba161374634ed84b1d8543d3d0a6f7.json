@@ -1,0 +1,532 @@
+{
+    "paper_id": "0b8ab5880eba161374634ed84b1d8543d3d0a6f7",
+    "metadata": {
+        "title": "WISSENSCHAFT \u00b7 METHODEN The COVID-19 pandemic highlights the need for fast and simple assays for nucleic acid detection. As an isothermal alternative to RT-qPCR, we outline the development of a detection scheme for SARS-CoV-2 RNA based on reverse transcription recombinase polymerase amplifi cation (RT-RPA) technology. RPA uses recombination proteins in combination with a DNA polymerase for rapid amplifi cation of target DNA at a con- stant temperature (39-42 \u00b0C) within 10 to 20 minutes and can be mo ni- tored in real-time with fl uorescent probes",
+        "authors": [
+            {
+                "first": "Ole",
+                "middle": [],
+                "last": "Behrmann",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "MEDIZINISCHE HOCHSCHULE BRANDENBURG THEODOR FONTANE (MHB)",
+                    "location": {
+                        "settlement": "NEURUPPIN"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Iris",
+                "middle": [],
+                "last": "Bachmann",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "MEDIZINISCHE HOCHSCHULE BRANDENBURG THEODOR FONTANE (MHB)",
+                    "location": {
+                        "settlement": "NEURUPPIN"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Frank",
+                "middle": [],
+                "last": "Hufert",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "MEDIZINISCHE HOCHSCHULE BRANDENBURG THEODOR FONTANE (MHB)",
+                    "location": {
+                        "settlement": "NEURUPPIN"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gregory",
+                "middle": [],
+                "last": "Dame",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "MEDIZINISCHE HOCHSCHULE BRANDENBURG THEODOR FONTANE (MHB)",
+                    "location": {
+                        "settlement": "NEURUPPIN"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "BIOspektrum | 06.20 | 26. Jahrgang initiiert, was zu einem exponentiellen Kopierprozess der Ziel-DNA f\u00fchrt. Als weitere Komponenten sind dNTPs als Bausteine f\u00fcr die DNA-Synthese sowie ATP als Energiequelle und hochmolekulares PEG zur Steigerung der Reaktivit\u00e4t im RPA-Mix enthalten. Durch Hinzuf\u00fcgen einer reversen Transkriptase (RT) kann die RPA-Reaktion auch zum Nachweis von RNA verwendet werden. Hierf\u00fcr erfolgt zun\u00e4chst die Synthese komplement\u00e4rer DNA (cDNA) ausgehend von dem zur Ziel-RNA komplement\u00e4ren Primer. Die so entstandene komplement\u00e4re DNA wird sofort vom eigentlichen RPA-Mechanismus erkannt und, wie zuvor beschrieben, kopiert. Die f\u00fcr die RPA verwendeten Primer sind mit 30 nt bis 35 nt l\u00e4nger als typische PCR-Primer, da nicht die Schmelztemperatur, sondern die Bindungsf\u00e4higkeit an UvsX f\u00fcr die Funktionalit\u00e4t bestimmend ist [6].",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Da der RPA-Prozess in vielen F\u00e4llen neben dem gew\u00fcnschten Produkt weitere Nebenprodukte erzeugt, ist ein Echtzeitnachweis der RPA durch interkalierende Fluoreszenzfarbstoffe, wie z. B. SYBR Green, nicht empfehlenswert. F\u00fcr den fl uoreszenzbasierten Nachweis stehen exo-Sonden zur Verf\u00fcgung. Hierbei handelt es sich um zum gew\u00fcnschten RPA-Produkt komplement\u00e4re einzelstr\u00e4ngige DNA-Oligonukleotide mit einer L\u00e4nge von mindestens 46 nt. Intern ist das Oligonukleotid mit einer Struktur bestehend aus einem Fluorophor, einer fehlenden Base (AP-Stelle) sowie einem Fluoreszenzquencher modifiziert (Abb. 2). Hybridisiert dieses Sondenmolek\u00fcl an das komplement\u00e4re RPA-Produkt, wird die nun im Doppelstrang enthaltene AP-Stelle von der AP-Endonukleaseaktivit\u00e4t der Exonuklease III (ExoIII) erkannt und gespalten. Dies f\u00fchrt zu einer r\u00e4umlichen Trennung von Fluorophor und Quencher, wodurch ein zur DNA-Kopienzahl proportionales Fluoreszenzsignal entsteht. Zudem dient das nun freigewordene 3'-Ende als weite rer Primer und wird von der DNA-Polymerase verl\u00e4ngert.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "BIOspektrum | 06.20 | 26. Jahrgang initiiert, was zu einem exponentiellen Kopierprozess der Ziel-DNA f\u00fchrt.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "WISSENSCHAFT \u00b7 METHODEN"
+        },
+        {
+            "text": "Als weitere Komponenten sind dNTPs als Bausteine f\u00fcr die DNA-Synthese sowie ATP als Energiequelle und hochmolekulares PEG zur Steigerung der Reaktivit\u00e4t im RPA-Mix enthalten. Durch Hinzuf\u00fcgen einer reversen Transkriptase (RT) kann die RPA-Reaktion auch zum Nachweis von RNA verwendet werden. Hierf\u00fcr erfolgt zun\u00e4chst die Synthese komplement\u00e4rer DNA (cDNA) ausgehend von dem zur Ziel-RNA komplement\u00e4ren Primer. Die so entstandene komplement\u00e4re DNA wird sofort vom eigentlichen RPA-Mechanismus erkannt und, wie zuvor beschrieben, kopiert. Die f\u00fcr die RPA verwendeten Primer sind mit 30 nt bis 35 nt l\u00e4nger als typische PCR-Primer, da nicht die Schmelztemperatur, sondern die Bindungsf\u00e4higkeit an UvsX f\u00fcr die Funktionalit\u00e4t bestimmend ist [6] . The COVID-19 pandemic highlights the need for fast and simple assays for nucleic acid detection. As an isothermal alternative to RT-qPCR, we outline the development of a detection scheme for SARS-CoV-2 RNA based on reverse transcription recombinase polymerase amplifi cation (RT-RPA) technology. RPA uses recombination proteins in combination with a DNA polymerase for rapid amplifi cation of target DNA at a constant temperature (39-42 \u00b0C) within 10 to 20 minutes and can be mo nitored in real-time with fl uorescent probes. DOI: 10.1007/s12268-020-1458-3 \u00a9 Die Autoren 2020 \u00f3 Die derzeitigen Protokolle zur Diagnose von SARS-CoV-2-Infektionen beruhen auf der quantitativen reversen Transkriptions-PCR (RT-qPCR) f\u00fcr den Direktnachweis der viralen RNA [1] . PCR-basierte Methoden sind jedoch aufgrund des notwendigen energieintensiven Thermocyclings f\u00fcr schnelles und dezentrales Screening vor Ort schwierig umsetzbar. Alternativ sind seit einigen Jahren isotherme Verfahren -wie die loop-mediated isothermal amplifi cation (LAMP) [2] oder die recombinase polymerase amplification (RPA) [3] -verf\u00fcgbar, welche der PCR hinsichtlich Sensitivit\u00e4t und Spezifi t\u00e4t gleichwertig sind. Diese Methoden erfordern keine hochent wickelten Thermocycling-Instrumente und beruhen auf enzymatischen Prozessen. Aufgrund ihres vergleichsweise einfachen Design ansatzes, milder Prozesstemperatur (39-42 \u00b0C), einer rasanten Amplifi kationsgeschwindigkeit (10-20 min.) und der Verf\u00fcgbarkeit von Reagenzien in lyophilisierter Form sehen wir die RPA als vielversprechende isotherme Nukleins\u00e4ure-Nachweismethode f\u00fcr die Vor-Ort-Diagnostik (Point-of-Care-Testing, POCT) an. Aufbauend auf vorhergehenden Arbeiten, in welchen der Nachweis anderer Coronaviren wie MERS-CoV [4] und Bovines Coronavirus (BCoV) [5] mittels RPA demonstriert wurde, stellen wir in diesem Artikel die Entwicklung eines RPA-Assays f\u00fcr den Schnellnachweis von SARS-CoV-2 vor. Zus\u00e4tzlich zum eigentlichen Assay design pr\u00e4sentieren wir auch einen neuartigen Ansatz f\u00fcr die Konstruktion von fl uoreszenzmarkierten Oligonukleotidsonden f\u00fcr den Echtzeitnachweis der RPA.",
+            "cite_spans": [
+                {
+                    "start": 737,
+                    "end": 740,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1495,
+                    "end": 1498,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1774,
+                    "end": 1777,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1830,
+                    "end": 1833,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 2489,
+                    "end": 2492,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 2524,
+                    "end": 2527,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "WISSENSCHAFT \u00b7 METHODEN"
+        },
+        {
+            "text": "Funktionsprinzi p der recombinase polymerase amplifi cation (RPA) Das ",
+            "cite_spans": [
+                {
+                    "start": 66,
+                    "end": 69,
+                    "text": "Das",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Sondensysteme f\u00fcr die RPA"
+        },
+        {
+            "text": "Das f\u00fcr den Virusnach w eis gew\u00e4hlte Zielgen muss hochspezifi sch sein und einer geringen Mutationswahrscheinlichkeit unterliegen sowie vorzugsweise etwa 1 kb lang sein, um gen\u00fcgend Flexibilit\u00e4t in der Positionierung der RPA-Primer und exo-IQ-Sonde zu gew\u00e4hrleisten. Im Fall der Coronaviren bietet sich hierf\u00fcr das Nukleoprotein-Gen (N-Gen) mit einer L\u00e4nge von etwa 1,2 kb an, da dieses zus\u00e4tzlich w\u00e4hrend der viralen Replikation auch in sehr hoher Kopienzahl vorliegt, wodurch die diagnostische Sensitivit\u00e4t erh\u00f6ht werden kann. Geeignete RPA-Primerund Sondensequenzen konnten bisher lediglich semi-automatisch unter Zuhilfenahme von angepasster PCR-Designsoftware erstellt werden. Seit 2019 kann dies jedoch mit PrimedRPA [9] erfolgen, der ersten Designsoftware speziell f\u00fcr RPA-exo-Assays. Ausgehend von diesen Daten werden zun\u00e4chst alle Sonden ausgew\u00e4hlt, welche ein Thymin an Position 30 besitzen und die gew\u00e4hlten Sequenzen werden mittels Alignment auf ihre Selektivit\u00e4t bez\u00fcglich der gew\u00fcnschten Zielsequenz gepr\u00fcft. Bei der Entwicklung einer SARS-CoV-2-RPA muss hier insbesondere auf die Selektivit\u00e4t gegen\u00fcber SARS-CoV sowie weiterer respiratorischer Viren, welche ein \u00e4hnliches klinisches Bild hervorrufen, geachtet werden. Da der Nachweis von SARS-CoV-2 aus Nasen-/ Rachenabstrichen erfolgen soll, muss zus\u00e4tzlich eine Kreuzreaktivit\u00e4t mit humaner DNA ausgeschlossen sein. Ist eine Sondensequenz gefunden, die alle theoretischen Bedingungen erf\u00fcllt, werden zwei bis vier Paare fl ankierender Primer aus der von PrimedRPA generierten Liste ausgew\u00e4hlt. Nach der Synthese der Primerpaare und der Sonde wird jede m\u00f6gliche Kombination aus Vorw\u00e4rtsund R\u00fcckw\u00e4rtsprimer in Kombination mit der Sonde getestet. Als Zielsequenz wird ein in vitro-Transkript des SARS-CoV-2 N-Gens hang mit weiteren Designregeln bez\u00fcglich Homo-und Heterodimerbildung von exo-Sonde und Primern f\u00fchrt dieses oft zu Einschr\u00e4nkungen in der Wahl der Zielsequenz [7] . Unsere Arbeitsgruppe konnte jedoch k\u00fcrzlich mit der Entwicklung des exo-IQ (internally quenched)-Sondenprinzips eine L\u00f6sung f\u00fcr dieses Problem pr\u00e4sentieren [8] . ",
+            "cite_spans": [
+                {
+                    "start": 723,
+                    "end": 726,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1937,
+                    "end": 1940,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 2099,
+                    "end": 2102,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Design eines RPA-exo-IQ-Assays am Beispiel von SARS-CoV-2"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "2019-nCoV) Realtime rRT-PCR panel primers and probes",
+            "authors": [],
+            "year": null,
+            "venue": "CDC (2020) 2019-Novel Coronavi rus",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Loop-mediated isothermal amplifi cation of DNA",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Notomi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Nucleic Acids Res",
+            "volume": "28",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "06) DNA detection using recombination proteins",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Piepenburg",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Stemple",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "PLoS Biol",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Reverse transcription recombinase polymerase amplification assay for the detection of m iddle East respiratory syndrome coronavirus",
+            "authors": [
+                {
+                    "first": "Abd",
+                    "middle": [],
+                    "last": "El Wahed",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Heidenreich",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS Curr",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "A new approach for diagnosis of bovine coronavirus using a reverse transcription recombina se polymerase amplifi cation assay",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Amer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Abd",
+                    "middle": [
+                        "El"
+                    ],
+                    "last": "Wahed",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shalaby",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Virol Methods",
+            "volume": "193",
+            "issn": "",
+            "pages": "337--340",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Review: a comprehensive summary of a decade development of the recombinase polymerase amplifi cation",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Macdonald",
+                    "suffix": ""
+                },
+                {
+                    "first": "Von",
+                    "middle": [],
+                    "last": "Stetten",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Analyst",
+            "volume": "144",
+            "issn": "",
+            "pages": "31--67",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "TwistAmp\u00ae DNA amplifi cation kits assay design manual",
+            "authors": [
+                {
+                    "first": "Twistdx",
+                    "middle": [],
+                    "last": "Ltd",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Rapid detection of SARS-CoV-2 by low volume real-time single tube reverse transcription recomb inase polymerase amplifi cation using an exo probe with an internally linked quencher (exo-IQ)",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Behrmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Bachmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Spiegel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Chem",
+            "volume": "66",
+            "issn": "",
+            "pages": "1047--1054",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "PrimedRPA: Primer design for recombinase polymerase amplifi cation assays",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Higgins",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ravenhall",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ward",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Bioinformatics",
+            "volume": "35",
+            "issn": "",
+            "pages": "682--688",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Diagnostics-in-a-Suitcase: Development of a portable and rapid assay for the detection of the em erging avian infl uenza A (H7N9) virus",
+            "authors": [
+                {
+                    "first": "Abd",
+                    "middle": [],
+                    "last": "El Wahed",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Weidmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hufert",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Clin Virol",
+            "volume": "69",
+            "issn": "",
+            "pages": "16--21",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Wissenschaftlicher Mitarbeiter an der Profess ur f\u00fcr Sen soren, IMTEK, Universit\u00e4t Freiburg. Seit 2016 Doktorand an der Universit\u00e4t Freiburg und der Medizinischen Hochschule Brandenburg",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ladha",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Joung",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Abudayyeh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Wissenschaftlicher Mitarbeiter am Institut f\u00fcr Mikrobiologie und Virologie",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.05.07"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Biologiestudium an der Universit\u00e4t Freiburg",
+            "authors": [
+                {
+                    "first": "Gregory",
+                    "middle": [],
+                    "last": "Dame",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Da der RPA-Prozess in vielen F\u00e4llen neben dem gew\u00fcnschten Produkt weitere Nebenprodukte erzeugt, ist ein Echtzeitnachweis der RPA durch interkalierende Fluoreszenzfarbstoffe, wie z. B. SYBR Green, nicht empfehlenswert. F\u00fcr den fl uoreszenzbasierten Nachweis stehen exo-Sonden zur Verf\u00fcgung. Hierbei handelt es sich um zum gew\u00fcnschten RPA-Produkt komplement\u00e4re einzelstr\u00e4ngige DNA-Oligonukleotide mit einer L\u00e4nge von mindestens 46 nt. Intern ist das Oligonukleotid mit einer Struktur bestehend aus einem Fluorophor, einer fehlenden Base (AP-Stelle) sowie einem Fluoreszenzquencher modifiziert (Abb. 2). Hybridisiert dieses Sondenmolek\u00fcl an das komplement\u00e4re RPA-Produkt, wird die nun im Doppelstrang enthaltene AP-Stelle von der AP-Endonukleaseaktivit\u00e4t der Exonuklease III (ExoIII) erkannt und gespalten. Dies f\u00fchrt zu einer r\u00e4umlichen Trennung von Fluorophor und Quencher, wodurch ein zur DNA-Kopienzahl proportionales Fluoreszenzsignal entsteht. Zudem dient das nun freigewordene 3'-Ende als weite rer Primer und wird von der DNA-Polymerase verl\u00e4ngert. OLE BEHRMANN 1,2 , IRIS BACHMANN 1 , FRANK HUFERT 1 , GREGORY DAME 1 1 MEDIZINISCHE HOCHSCHULE BRANDENBURG THEODOR FONTANE (MHB), NEURUPPIN 2 PROFESSUR F\u00dcR SENSOREN, INSTITUT F\u00dcR MIKROSYSTEMTECHNIK (IMTEK),",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "grundlegende Funktionsprinzip der RPA ist dem nat\u00fcrlichen Replikationsmechanismus von Bakteriophage T4 nachempfunden (Abb. 1). Im ersten Schritt bindet das Enzym T4 UvsX (recombinase) mit T4 UvsY (loading factor) als Koenzym an die Primer. Dieser Nukleoproteinkomplex bindet unter Ausbildung einer Verdr\u00e4ngungsschleife (D-Loop, in Abb. 1C angedeutet) an die zum Primer komplement\u00e4re doppelstr\u00e4ngige Ziel-DNA. Nach der Hybridisierung l\u00f6st sich UvsX vom Primer, w\u00e4hrend die ge\u00f6ffnete Verdr\u00e4ngungsschleife durch einzelstrangbindenende Proteine (T4 gp32) stabilisiert wird. Nun wird das freie 3'-Ende des Primers von einer mesophilen DNA-Polymerase mit Strangverdr\u00e4ngungsaktivit\u00e4t, z. B. Bsu oder Sau, verl\u00e4ngert. Dieser Prozess wird sowohl vom Vorw\u00e4rtsals auch vom R\u00fcckw\u00e4rtsprimer gleichzeitig Nukleins\u00e4ureamplifikation Schnellnachweis von SARS-CoV-2 mit recombinase polymerase amplifi cation eingebaut werden. Dadurch ist lediglich das Vorhandensein eines Thymins notwendig. Durch die so gewonnene Flexibilit\u00e4t in der Auswahl der Sondensequenz kann die exo-IQ-Sonde nach einem festen Schema erstellt werden. Hierdurch ist zudem gew\u00e4hrleistet, dass sich Fluorophor und Quencher immer im geringen Abstand von nur zwei Basen positionieren lassen, was eine deutlich bessere Funktion der Sonde durch ein h\u00f6heres Signal-Rausch-Verh\u00e4ltnis wahrscheinlicher macht.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Eine Herausforderung im Design von Sonden nach dem exo-Prinzip ist der interne Einbau von Fluorophor-und Quenchermolek\u00fclen. Diese sind kommerziell zu einem vertretbaren Preis nur als an Thymin gebundene Bausteine verf\u00fcgbar. Da ein ausreichendes Quenching nur dann gegeben ist, wenn Fluorophor und Quencher nicht weiter als ein bis f\u00fcnf Nukleotide voneinander entfernt sind, muss die Sondensequenz zwei Thymine in diesem Abstand aufweisen. Im Zusammen-Abb. 1: Prinzip der recombinase polymerase amplifi cation (RPA). A, Bildung des Nukleoproteinkomplexes. B, Die Nukleoproteinkomplexe fi nden ihre Komplement\u00e4rsequenzen in der Ziel-DNA. C, Anbindung der Primer unter Ausbildung einer Verdr\u00e4ngungsschleife. D, Stabilisierung der Verdr\u00e4ngungsschleife durch gp32 und Anlagerung der DNA-Polymerase. E, Verl\u00e4ngerung der Primer durch DNA-Polymerase. F, Die Zielsequenz wurde kopiert.AusblickNach der Entwicklung des RT-RPA-Assays steht nun die Integration in ein mobiles Gesamtsystem nach dem Vorbild eines portab l en Kofferlabors[10] f\u00fcr den schnellen Vor-Ort-Einsatz an. Da eine traditionelle Probenpr\u00e4paration \u00fcber selektive Festphasenbindung f\u00fcr den mobilen Einsatz ungeeignet ist, sollen schnelle Einschritt-Pr\u00e4parationsverfahren, wie z. B. bereits von A. Ladha et al.[11] vorgestellt, auf ihre Kompatibilit\u00e4t mit der RPA untersucht werden. Zudem soll versucht werden, den bestehenden Assay zu einem Multiplex-Assay auszubauen. Hierf\u00fcr soll der Assay um eine humane Extraktionskontrolle f\u00fcr die Bewertung der Probenqualit\u00e4t sowie weitere SARS-CoV-2-Zielgene erweitert werden. Zuk\u00fcnftig sind Projekte f\u00fcr den Schnellnachweis weiterer respiratorischer Erreger geplant.Abb. 3: Ablaufschema des SARS-CoV-2-Schnellnachweises mittels RT-RPA. A, Probennahme mittels Nasen-/Rachenabstrich. B, Extraktion der SARS-CoV-2-RNA aus der Patientenprobe. C, Durchf\u00fchrung der SARS-CoV-2-spezifi schen RT-RPA. D, Ergebnisinterpretation/Befundung anhand der Fluoreszenzsignalverl\u00e4ufe.Funding Open Access funding enabled and organized by Projekt DEAL. Access Dieser Artikel wird unter der Creative Commons Namensnennung 4.0 International Lizenz ver\u00f6ffentlicht, welche die Nutzung, Vervielf\u00e4ltigung, Bearbeitung, Verbreitung und Wiedergabe in jeglichem Medium und Format erlaubt, sofern Sie den/die urspr\u00fcnglichen Autor(en) und die Quelle ordnungs gem\u00e4\u00df nennen, einen Link zur Creative Commons Lizenz beif\u00fcgen und angeben, ob \u00c4nderungen vorgenommen wurden. Die in diesem Artikel enthaltenen Bilder und sonstiges Drittmaterial unterliegen ebenfalls der genannten Creative Commons Lizenz, sofern sich aus der Abbildungslegende nichts anderes ergibt. Sofern das betreffende Material nicht unter der genannten Creative Commons Lizenz steht und die betreffende Handlung nicht nach gesetzlichen Vorschriften erlaubt ist, ist f\u00fcr die oben aufgef\u00fchrten Weiterverwendungen des Materials die Einwilligung des jeweiligen Rechteinhabers einzuholen. Weitere Details zur Lizenz entnehmen Sie bitte der Lizenzinformation auf http://creativecommons.org/licenses/by/4.0/deed.de.Diese Arbeit wurde zum Teil durch das BMBF-Projekt \"R & C.net\" (FKZ 01ZZ2051B) gef\u00f6rdert.\u00f3",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

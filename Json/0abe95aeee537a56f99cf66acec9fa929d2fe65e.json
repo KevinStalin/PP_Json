@@ -1,0 +1,2858 @@
+{
+    "paper_id": "0abe95aeee537a56f99cf66acec9fa929d2fe65e",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Jose",
+                "middle": [],
+                "last": "Storopoli",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Gustavo",
+                "middle": [
+                    "S"
+                ],
+                "last": "Mesch",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "In December 2019, scientists identified a novel coronavirus (COVID-2019) that was associated with an outbreak of pneumonia in Wuhan, China (Garfin, Silver and Holman, 2020) . In a matter of weeks, over 100,000 cases and thousands of deaths were confirmed globally, with numbers rapidly increasing daily (WHO, 2020) . On January 30, 2020, the World Health Organization (WHO 2020) designated the COVID-2019 outbreak a public health emergency of international concern. Public health officials started working to communicate critical information to the public to allow communities, organizations and individuals to take the necessary and appropriate precautions and governments to develop plans and respond accordingly (Perlman, 2020; Sabat, et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 60,
+                    "end": 72,
+                    "text": "(COVID-2019)",
+                    "ref_id": null
+                },
+                {
+                    "start": 139,
+                    "end": 172,
+                    "text": "(Garfin, Silver and Holman, 2020)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 303,
+                    "end": 314,
+                    "text": "(WHO, 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 715,
+                    "end": 730,
+                    "text": "(Perlman, 2020;",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 731,
+                    "end": 751,
+                    "text": "Sabat, et al., 2020)",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In most developed countries, a major focus of the policy has been minimizing the transmission of the virus through the implementation of lockdowns, social distance and isolation of infected populations (Sabat, et al, 2020; Pasterlini, 2020; Anderson, Heesterbeek, Klinkenberg, and Hollingsworth, 2020) . The goal was to flatten the curve as much as possible, this is, inhibiting new infections to reduce the number of cases at any given time (Block, et al, 2020) . These measures were expected to decrease overburdening healthcare systems, enable severe cases to be treated successfully and reduce overall mortality (Arshed, Meo and Farooq, 2020) . The success of these measures is particularly critical in the case of COVID-19 due to the Countries have taken different steps to contain and delay the spread of the virus within their borders, with differing degrees of success. China, for example, appeared to have halted the exponential increase of confirmed cases of the virus by limiting the freedom of citizens to move around their cities, provinces, and the country (Ding, et al., 2020) . The Italian government, as of March 9th has implemented a similar strategy, placing much of the country in lockdown and preventing groups of people from congregating in public spaces, encouraging measures of social distancing homogeneously throughout the country (Chiara, et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 202,
+                    "end": 222,
+                    "text": "(Sabat, et al, 2020;",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 223,
+                    "end": 240,
+                    "text": "Pasterlini, 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 241,
+                    "end": 301,
+                    "text": "Anderson, Heesterbeek, Klinkenberg, and Hollingsworth, 2020)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 442,
+                    "end": 462,
+                    "text": "(Block, et al, 2020)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 616,
+                    "end": 646,
+                    "text": "(Arshed, Meo and Farooq, 2020)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1071,
+                    "end": 1091,
+                    "text": "(Ding, et al., 2020)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1357,
+                    "end": 1379,
+                    "text": "(Chiara, et al., 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Other countries have been slower to respond with such drastic action. The US, for example, waited more than two weeks after the first confirmed case within its borders to enact localized testing procedures (Courtemanche, Garuccio, Pinkston and Yelowitz, 2020) . The British government followed the instructions of its scientific advisors to delay the mass gatherings and the closure of schools, instead favoring a policy that looked akin to pursuing herd immunity, in which vulnerable groups are isolated, and healthier individuals are exposed to the virus to achieve large-scale immunity (Fine et al. 2011; Anderson, Heesterbeek, Klinkenberg, and Hollingsworth, 2020) . In addition, measures were taken to restrict public gatherings, international travelling, use of face masks and recommendations of social distance. If measures like these are adopted, experts suggest that the deaths caused by coronavirus would drop (Ferguson et al. 2020; . Despite the variation in the measures and the timing across countries, adherence and implementation of protective measures is dependent on institutional and behavioral factors. As Van Bavel et al, (2020) had argued, slowing the viral transmission during pandemics requires significant shifts in behavior and social context influence the extent and speed of behavioral change. The J o u r n a l P r e -p r o o f purpose of this study is to assess the factors associated with these dramatic behavioral responses. Following recreancy theory, elements included in this assessment are trust in social institutions, perceived vulnerability to becoming infected by the virus and perceived self-efficacy in implementing the measures (Freudenberg, 1993) .",
+            "cite_spans": [
+                {
+                    "start": 206,
+                    "end": 259,
+                    "text": "(Courtemanche, Garuccio, Pinkston and Yelowitz, 2020)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 589,
+                    "end": 607,
+                    "text": "(Fine et al. 2011;",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 608,
+                    "end": 668,
+                    "text": "Anderson, Heesterbeek, Klinkenberg, and Hollingsworth, 2020)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 920,
+                    "end": 942,
+                    "text": "(Ferguson et al. 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1142,
+                    "end": 1148,
+                    "text": "(2020)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1670,
+                    "end": 1689,
+                    "text": "(Freudenberg, 1993)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Brazil is an important case to study in this regard for several reasons. The first confirmed case of COVID-19 in Brazil was on February 26 th . As in other countries, the first confirmed case was a resident coming back from overseas (Jesus et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 233,
+                    "end": 253,
+                    "text": "(Jesus et al., 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The number of cases increased rapidly, and as of March 31, 5,933 reported cases and 206 deaths had been registered in Brazil (Croda, et al., 2020) . Since then, the disease has been spreading rapidly. Brazil has the fourth highest number of deaths and the second highest number of confirmed infections. According to the coronavirus website of Brazilian Ministry of Health, there were more than 700,000 confirmed cases and almost 40,000 deaths, as of June 9, 2020. This estimation is considered low because underreporting of cases. In Brazil, underreporting is due to the low rate of testing per 1 million inhabitants. Additionally, there is significant delay in the reporting of test results (e .",
+            "cite_spans": [
+                {
+                    "start": 125,
+                    "end": 146,
+                    "text": "(Croda, et al., 2020)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Brazil declared a public health emergency in early March, just a few days after the World Health Organization did (Croda, et al, 2020) . The President of Brazil, Jair Bolsonaro, dismissed the danger posed by the virus, and rejected state-mandated social distancing and other measures (Freitas, Silva and Cidade, 2020) . Fake news had often dominated the discussion about the pandemic and had the potential to create a lack of trust in the media (Aquino et al., 2020) . A recent study concluded that the pandemic management in Brazil was dysfunctional, the health sector adopted a risk management policy through social distance to reduce contagion often at odds with the positions adopted by the President (Freitas, Silva and Cidade, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 114,
+                    "end": 134,
+                    "text": "(Croda, et al, 2020)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 284,
+                    "end": 317,
+                    "text": "(Freitas, Silva and Cidade, 2020)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 445,
+                    "end": 466,
+                    "text": "(Aquino et al., 2020)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 705,
+                    "end": 738,
+                    "text": "(Freitas, Silva and Cidade, 2020)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Thus, Brazil's response to COVID-19 has been limited by institutional paralysis driven by its president. The lack of trust in institutions has prompted some population groups to adopt the denialist discourse of the President (Filho 2020) . The conflicting messages from the President and health authorities, and the declining trust in social institutions have left the population uncertain about the merits of protective measures to avoid the spread of the virus (Ortega and Orsini, 2020) . For this reason, Brazil is a perfect case for our study, which investigates the role of confidence in social institutions and perceived vulnerability and efficacy in the adoption of recommended protective behaviors.",
+            "cite_spans": [
+                {
+                    "start": 225,
+                    "end": 237,
+                    "text": "(Filho 2020)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 463,
+                    "end": 488,
+                    "text": "(Ortega and Orsini, 2020)",
+                    "ref_id": "BIBREF45"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "There is limited evidence on the factors associated with behavior changes in prior pandemics in the early stages when preventive and protective measures are most necessary (Bish and Michie, 2010) . While some studies have investigated the role of trust in social institutions and risk perceptions on preventive behaviors, these often take place either in anticipation of an outbreak or long after its emergence (Jones and Salathe, 2009) . Furthermore, they are not driven by a conceptual theoretical framework (Bish and Michie, 2010). Our study is unique in that it provides a test of these hypotheses in real time, after the WHO declared COVID-19 a worldwide pandemic, in a country where there is a conflict between the public health officials and central government recommendations. Thus, we contribute to the literature by investigating the factors associated with the adoption of preventive measures in real time in a country in which the federal government has been slow to take measures and health system have issued policies inconsistent with the federal government. In doing this, we rely on recreancy theory, which argues that confidence in the ability of social institutions and perceived vulnerability to the disease are central factors predicting the J o u r n a l P r e -p r o o f adoption of protective behaviors (Freudenburg, 2001; Sapp and Downing-Matibag, 2009 ).",
+            "cite_spans": [
+                {
+                    "start": 172,
+                    "end": 195,
+                    "text": "(Bish and Michie, 2010)",
+                    "ref_id": null
+                },
+                {
+                    "start": 411,
+                    "end": 436,
+                    "text": "(Jones and Salathe, 2009)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 1327,
+                    "end": 1346,
+                    "text": "(Freudenburg, 2001;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1347,
+                    "end": 1377,
+                    "text": "Sapp and Downing-Matibag, 2009",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Recreancy is the concept used to describe the relationship between trust and risk. In our model the element of trust refers to the public's trust that social institutions will respond to social risks (Freudenberg, 1993) . Trust is central to the public's perception of the legitimacy of the actions of the social agencies that oversee implementing social policy designed to reduce risks. Trust in institutions is important for individuals because the former have more resources than do individuals (Freudenburg, 1993) . Therefore, if they function appropriately, they can help individuals achieve their goals (Khodyakov 2007) . Lack of trust in how agencies manage risk can amplify public health concerns and increase public hesitancy to adopt preventive and avoidant behaviors (McComas 2004; Slovic 2000) . Given that we do not know all the people engaged in the activities required in a pandemic crisis, we extend them a measure of trust that they are performing in a responsible and dependable manner until something disabuses us of this belief (Freudenburg,1993; Khodyakov 2007) .",
+            "cite_spans": [
+                {
+                    "start": 200,
+                    "end": 219,
+                    "text": "(Freudenberg, 1993)",
+                    "ref_id": null
+                },
+                {
+                    "start": 498,
+                    "end": 517,
+                    "text": "(Freudenburg, 1993)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 609,
+                    "end": 625,
+                    "text": "(Khodyakov 2007)",
+                    "ref_id": null
+                },
+                {
+                    "start": 778,
+                    "end": 792,
+                    "text": "(McComas 2004;",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 793,
+                    "end": 805,
+                    "text": "Slovic 2000)",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 1048,
+                    "end": 1066,
+                    "text": "(Freudenburg,1993;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1067,
+                    "end": 1082,
+                    "text": "Khodyakov 2007)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theoretical framework"
+        },
+        {
+            "text": "According to recreancy theory, the confidence that individuals have in society's institutions is based on their perceptions of two important considerations: the institution's competency to perform the tasks normally associated with it, and the institution's fiduciary responsibility in the sense that it is consciously working for the best interests of the population (Freudenburg, 1993; Slovic, 2000) . Recreancy is evident in the extent to which systems are perceived as failing or unable to do their jobs (Sapp and Downing-Matibag, 2009 ). In other words, the institutions are violating the trust put in them to be capable and operate in the best interests of all (Slovic, J o u r n a l P r e -p r o o f 2000). At the extreme, the recreant system may be perceived to be not only negligent, but also to be working against society's best interests (Sapp and Downing-Maribag, 2009 ).",
+            "cite_spans": [
+                {
+                    "start": 368,
+                    "end": 387,
+                    "text": "(Freudenburg, 1993;",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 388,
+                    "end": 401,
+                    "text": "Slovic, 2000)",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 508,
+                    "end": 539,
+                    "text": "(Sapp and Downing-Matibag, 2009",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 667,
+                    "end": 675,
+                    "text": "(Slovic,",
+                    "ref_id": null
+                },
+                {
+                    "start": 849,
+                    "end": 880,
+                    "text": "(Sapp and Downing-Maribag, 2009",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theoretical framework"
+        },
+        {
+            "text": "Institutionally based trust is a specific response to the complexity of modern societies, which involves many interdependent transactions between social groups and across extensive distances of time and space (Gilson 2003) . Trust and confidence in social institutions is important as it provides the basis for the legitimate exercise of state authority. The notion of legitimacy refers to whether governments are entitled to be obeyed (Robertson 1985) . The effective implementation of any public policy requires that state action be legitimate and so be accepted and acceptable (Shao and Hao, 2020) . Such legitimacy is reflected in the extent to which citizens tolerate the interventions of public organizations, accept these organizations' decisions and cooperate to achieve the goals (Rothstein 1998) . In social risk situations, such as epidemics, trust in the government to respond effectively, trust in health institutions to provide accurate information on prevention and treatment, and trust in the media to provide accurate information are important for the public to feel that their health interests will be attended to in the best manner possible (Shao and Hao, 2020) . Public organizations build their legitimacy when they demonstrate the values and norms that underlie or are associated with trust through their organizational and managerial practices (Gregory 1995; Levi 1998) .",
+            "cite_spans": [
+                {
+                    "start": 209,
+                    "end": 222,
+                    "text": "(Gilson 2003)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 436,
+                    "end": 452,
+                    "text": "(Robertson 1985)",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 580,
+                    "end": 600,
+                    "text": "(Shao and Hao, 2020)",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 789,
+                    "end": 805,
+                    "text": "(Rothstein 1998)",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 1160,
+                    "end": 1180,
+                    "text": "(Shao and Hao, 2020)",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 1367,
+                    "end": 1381,
+                    "text": "(Gregory 1995;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1382,
+                    "end": 1392,
+                    "text": "Levi 1998)",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theoretical framework"
+        },
+        {
+            "text": "Social institutions such as the government and health systems may be viewed as a problem-solving system organized to improve the health of its residents and to be the main line of defense against contagions (Giles, et al, 2011) . The health care system, therefore, comes under public scrutiny and is ultimately deemed to be positive or recreant (Giles, et al, 2011) . In Brazil, President Bolsonaro has given little J o u r n a l P r e -p r o o f importance to taking measures to address the COVID-19 pandemic. He is one of the few world leaders who refused to recognize the threat constituted by the virus and even encouraged his followers to disobey social distancing recommendations (Aquino, et al; Ortega and Orsini, 2020) . For this reason, we distinguished between trust in the government's ability to fight outbreaks and trust in the hospitals' and health workers' ability. We expect that confidence in the Brazilian government will be negatively associated with adopting protective measures, while confidence in the hospitals' and health workers' will be positively associated with adopting protective measures. This expectation is the result of contradictory recommendations that were provided by the national government and the health sector.",
+            "cite_spans": [
+                {
+                    "start": 207,
+                    "end": 227,
+                    "text": "(Giles, et al, 2011)",
+                    "ref_id": null
+                },
+                {
+                    "start": 345,
+                    "end": 365,
+                    "text": "(Giles, et al, 2011)",
+                    "ref_id": null
+                },
+                {
+                    "start": 686,
+                    "end": 701,
+                    "text": "(Aquino, et al;",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 702,
+                    "end": 726,
+                    "text": "Ortega and Orsini, 2020)",
+                    "ref_id": "BIBREF45"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theoretical framework"
+        },
+        {
+            "text": "Another important institution is the media. During a global COVID-19 pandemic, the public depends on the media to convey accurate information in order to make informed decisions regarding health protective behavior (Garfin, Silver and Holman, 2020) . Given its role in society's information flow, the mass media is uniquely positioned to analyze and inform the population of serious hazards and risks (Cottle 1998; Garfin, Silver and Holman, 2020) . Thus, the media can potentially influence what the public regards as a health hazard and its assessment of how successful the government and public health institutions are in dealing with the threat (Mesch, Schwirian and Kolobov 2013) . Consequently, trust in the information provided by the media is viewed as an important influence on people's beliefs, attitudes and behavior. The acceptance of information depends on trusted sources transmitted by the media on the incidence, fatalities and coping measures depends on the extent to which we trust the quality of the information (Garfin, Silver and Holman, 2020) . Trusted media provides information to the public to promote appropriate health protective behavior and effective institutional responses. During the 2015 MERS J o u r n a l P r e -p r o o f pandemic, it was found that exposure to traditional media affected the adoption of recommended protective behaviors (Seo, 2019) . Thus, trust in the media is expected to have a positive effect on the adoption of preventive behaviors.",
+            "cite_spans": [
+                {
+                    "start": 215,
+                    "end": 248,
+                    "text": "(Garfin, Silver and Holman, 2020)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 401,
+                    "end": 414,
+                    "text": "(Cottle 1998;",
+                    "ref_id": null
+                },
+                {
+                    "start": 415,
+                    "end": 447,
+                    "text": "Garfin, Silver and Holman, 2020)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 649,
+                    "end": 684,
+                    "text": "(Mesch, Schwirian and Kolobov 2013)",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 1031,
+                    "end": 1064,
+                    "text": "(Garfin, Silver and Holman, 2020)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1373,
+                    "end": 1384,
+                    "text": "(Seo, 2019)",
+                    "ref_id": "BIBREF56"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theoretical framework"
+        },
+        {
+            "text": "In addition to confidence in social institutions, another important dimension of recreancy theory is perceived vulnerability. Risk is the likelihood of a hazard causing harm to individuals, groups or society at a given time and place (Fitzpatrick and La Gory 2011) . According to Ulrich Beck (1995) , modern societies have become \"risk societies\" in that a large amount of their organizational structure and resources are spent in calculating the risks of specific serious hazards. In turn, risk calculation leads to the development of strategies and procedures to manage or reduce those hazards. A central component of risk calculation is the perceived threat of disease (Kraut, Graff and McLean 2011) . People are likely to engage in disease prevention behaviors if they perceive that the pandemic's social risk is translated in a perception that they are highly susceptible to the disease and that the disease has severe consequences (Glanz, Rimer and Lewis 2002) . In addition, studies have found that perceptions of the risk of personal and family infection are associated with the willingness to engage in preventive behaviors including vaccination (Kraut, Graff and McLean 2011; Kumar et al. 2012 ).",
+            "cite_spans": [
+                {
+                    "start": 234,
+                    "end": 264,
+                    "text": "(Fitzpatrick and La Gory 2011)",
+                    "ref_id": null
+                },
+                {
+                    "start": 287,
+                    "end": 298,
+                    "text": "Beck (1995)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 672,
+                    "end": 702,
+                    "text": "(Kraut, Graff and McLean 2011)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 937,
+                    "end": 966,
+                    "text": "(Glanz, Rimer and Lewis 2002)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1155,
+                    "end": 1185,
+                    "text": "(Kraut, Graff and McLean 2011;",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1186,
+                    "end": 1203,
+                    "text": "Kumar et al. 2012",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theoretical framework"
+        },
+        {
+            "text": "In recent years, an affective dimension (e.g., fear, apprehension, worry, anxiety) has been added to the model and has proven to be a strong predictor of health behavior. According to Ahorsu et al. (2020) , one unique feature of viral pandemics is the fear that it can affect a large percentage of the population. Fear is a negative emotion evident in extreme levels of emotive avoidance in relation to specific stimuli Barr, et al., 2008) As such, the potential utility of perceived vulnerability in the current context should be explored.",
+            "cite_spans": [
+                {
+                    "start": 184,
+                    "end": 204,
+                    "text": "Ahorsu et al. (2020)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 420,
+                    "end": 439,
+                    "text": "Barr, et al., 2008)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theoretical framework"
+        },
+        {
+            "text": "In addition, previous studies directed at understanding the experience and response to an infectious disease outbreak have indicated that self-confidence in the ability to implement social isolation and protective measures is an important component of social distance and protective behavior adoption (Balicer et al. 2010; Zhang, Kong and Chang 2015) . Self-confidence refers to people's beliefs in their ability to manage a difficult task despite existing barriers to doing so (Bandura 1997) .",
+            "cite_spans": [
+                {
+                    "start": 301,
+                    "end": 322,
+                    "text": "(Balicer et al. 2010;",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 323,
+                    "end": 350,
+                    "text": "Zhang, Kong and Chang 2015)",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 478,
+                    "end": 492,
+                    "text": "(Bandura 1997)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theoretical framework"
+        },
+        {
+            "text": "Self-efficacy is the belief that one has the skills and can successfully complete the behavior of interest despite barriers to doing so (Rosenstock, Strecher and Becker, 1988; Farooq, Jeske and Isoaho, 2019) . Assessment of self-efficacy are critical for compliance with avoidant behaviors in a pandemic (Schwarzer and Fuchs, 1995) .",
+            "cite_spans": [
+                {
+                    "start": 136,
+                    "end": 175,
+                    "text": "(Rosenstock, Strecher and Becker, 1988;",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 176,
+                    "end": 207,
+                    "text": "Farooq, Jeske and Isoaho, 2019)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 304,
+                    "end": 331,
+                    "text": "(Schwarzer and Fuchs, 1995)",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theoretical framework"
+        },
+        {
+            "text": "Such beliefs about their capabilities influence their behavior. During the 2009 influenza and SARS pandemics, studies identified self-confidence as a strong predictor of engaging in preventive behavior (Bults et al. 2011; Cheng and Ng 2006) .",
+            "cite_spans": [
+                {
+                    "start": 202,
+                    "end": 221,
+                    "text": "(Bults et al. 2011;",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 222,
+                    "end": 240,
+                    "text": "Cheng and Ng 2006)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theoretical framework"
+        },
+        {
+            "text": "More recently, self-confidence has been positively associated with intentions to wash hands and utilize the appropriate etiquette when coughing (Kim and Niederdeppe 2013; Yoo, Choi and Park 2016) . The assessment of adopting recommended social distance and protective behaviors has been found to be associated with additional socio-demographic factors.",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 170,
+                    "text": "(Kim and Niederdeppe 2013;",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 171,
+                    "end": 195,
+                    "text": "Yoo, Choi and Park 2016)",
+                    "ref_id": "BIBREF62"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theoretical framework"
+        },
+        {
+            "text": "Gender is an important factor in health behavior (Barr, et al., 2008) . This point has been underscored in various studies conducted during the SARS epidemic (Bish and Michie, 2010) and a recent meta-analysis of the association of gender and protective behaviors during respiratory disease pandemics (Moran and Del Valle, 2016) . These studies indicate that women are more likely to adopt protective measures than men. It is possible that gender traditional roles of caring for the family drive women to adopt at a higher rate protective measures than men. While explanation of this association still requires more research, the empirical findings are consistent (Bish and Michie, 2010; Moran and Del Valle, 2016) .",
+            "cite_spans": [
+                {
+                    "start": 49,
+                    "end": 69,
+                    "text": "(Barr, et al., 2008)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 300,
+                    "end": 327,
+                    "text": "(Moran and Del Valle, 2016)",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 687,
+                    "end": 713,
+                    "text": "Moran and Del Valle, 2016)",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theoretical framework"
+        },
+        {
+            "text": "The association between income and the willingness to adopt preventive behaviors is unclear. Some studies have reported a direct effect, meaning that those with higher income and wealth are more likely to adopt protective measures (Linn, Guralnik and Patel, 2010) Yet, more recent reviews have argued that the association is not direct but mediated by perceived risks. Given that income is positively associated with health awareness and risk perceptions, it might have an effect on the willingness to take preventive behaviors (Nguyen et al. 2011) . Following these arguments in this study we control for age, gender and income.",
+            "cite_spans": [
+                {
+                    "start": 231,
+                    "end": 263,
+                    "text": "(Linn, Guralnik and Patel, 2010)",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 528,
+                    "end": 548,
+                    "text": "(Nguyen et al. 2011)",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theoretical framework"
+        },
+        {
+            "text": "The data for this study were collected through an online survey (Google Forms). A questionnaire with 55 items was e-mailed to undergraduate, graduate and professional students of a large, private, not-for-profit university in the city of Sao Paulo, Brazil. There were no incentives used, we only asked to answer if possible and specified that it would help the university's research group to understand behavior J o u r n a l P r e -p r o o f during the challenging times of COVID-19 while also declaring the estimated time that it would take to fill the survey (around 10 minutes). According to ethics guidelines of the surveys respondent's university, it was not necessary IRB approval because there were no intrusive questions, no incentives and respondents were invited to participate and could decline to participate at all or drop out of the study at any step of answering the questionnaire. We've removed 39 respondents that chose not to report their race or gender. A total of 7,554 questionnaires were completed and no missing values were found.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Method"
+        },
+        {
+            "text": "In terms of socio-demographic variables, 28 percent were men and 72 percent were women. In terms of age distribution, 65 percent were between 18 and 30 years old, and 30 percent were between 31 and 50 years old. Thus, at least 95 percent of our sample was not in the over-60 category, which is the group with the greatest risk of contracting COVID-19. As for income, 56 percent earned a monthly salary of between R$1,009 and R$3,566 (around USD $183 to USD $646 using the exchange rate of $1 USD equals 5.50 BRL).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Method"
+        },
+        {
+            "text": "The dependent variable is the adoption of protective measures. We asked respondents to indicate on a Likert scale from 1 to 5 how frequently they engage in 18 behaviors. Examples of the items are \"wash your hands with soap and water,\" \"avoid touching your mouth and nose with your hands,\" \"cough in your elbow,\" \"maintain at least a meter of distance from other people,\" \"avoid visiting friends and family members not living with you\" and \"put on a face mask when going outside\" (\u03b1=.89).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Method"
+        },
+        {
+            "text": "Our independent variable is confidence in social institutions. To measure this concept, we used several variables. Confidence in the government was measured with an item that asked the respondents to indicate \"How confident are you in the government's ability to deal with the coronavirus pandemic?\" Confidence in the J o u r n a l P r e -p r o o f We introduced socio-demographic variables as control variables. Age was measured as a continuous variable. Gender was measured as a dummy variable with women coded 1 and men coded 0. Marital status was measured as a series of dummy variables with single being the omitted category, and married, divorced and widowed J o u r n a l P r e -p r o o f included in the analysis. In order to measure income, respondents were provided with six categories of income and asked to indicate the one closest to their level.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Method"
+        },
+        {
+            "text": "In Table 1 ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 10,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Findings"
+        },
+        {
+            "text": "The correlations between the variables in the analysis are presented in Table 2 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 72,
+                    "end": 79,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "[INSERT TABLE 1 ABOUT HERE]"
+        },
+        {
+            "text": "Overall, the correlations were low and moderate, so multicollinearity does not appear to be of concern. As expected, preventive behaviors were positively associated with self-confidence, and confidence in the hospitals, health workers and the media.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "[INSERT TABLE 1 ABOUT HERE]"
+        },
+        {
+            "text": "However, there was a negative association between confidence in the government and preventive behaviors (r=-.007). Indeed, the lower the confidence in the government the greater the number of preventive behaviors individuals adopted. In addition, there was a negative relationship between confidence in the government and vulnerability (r=-.019). Together, these findings are an indication that, in the case of Brazil, having a great deal of confidence in the government might be dangerous for the residents, as it is associated with fewer perceptions of vulnerability and a low level of adoption of protective behaviors. As expected, perceived vulnerability was positively associated with the number of behaviors adopted (r=.026).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "[INSERT TABLE 1 ABOUT HERE]"
+        },
+        {
+            "text": "In the next step we conducted an Ordinary Least Squares (O.L.S.) multivariate analysis. We used the Hierarchical Regression Analysis approach with three block models (Jaccard and Turrisi, 2003) . We used R Statistics version 4.0.0 using the built-in linear model function for the regressions. We tested for multicollinearity by assessing the variance inflation factors (VIF) of all the variables.",
+            "cite_spans": [
+                {
+                    "start": 166,
+                    "end": 193,
+                    "text": "(Jaccard and Turrisi, 2003)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "[INSERT TABLE 2 ABOUT HERE]"
+        },
+        {
+            "text": "The VIFs, in all models, ranged from 1.0 to 1.6, which tells us that our models did not suffer from multicollinearity. For all the models listed in Table 3 , we included the mean estimate and 95% confidence intervals for all regression coefficients, along with the associate p-value (because of our large sample, care must be taken to interpret significance and one should rely on confidence intervals to estimate effect sizes). The The older the respondents the greater the number of protective behaviors they adopted. As to gender, women adopted more protective behaviors than men 95% CI [3.00, 4.20]. We found no difference in the behavior of married people and singles (95% CI capture 0). However, those who were divorced 95% CI [-2.90, -0.17] and J o u r n a l P r e -p r o o f widowed 95% CI [-10 .00, -0.73] were likely to adopt fewer protective behaviors than singles. Income was also related to the adoption of protective behaviors 95% CI [0.33, 0.86], with those who earned more being more likely to adopt more protective behaviors.",
+            "cite_spans": [
+                {
+                    "start": 798,
+                    "end": 802,
+                    "text": "[-10",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 148,
+                    "end": 155,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "[INSERT TABLE 2 ABOUT HERE]"
+        },
+        {
+            "text": "In the second model we added our independent variables. Even after controlling for the socio-demographic variables, the variables were statistically significant. Self-confidence in the ability to engage in the protective behaviors was positively related to the adoption of such behavior 95% CI ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "[INSERT TABLE 2 ABOUT HERE]"
+        },
+        {
+            "text": "We utilized a sociological perspective to identify the factors involved in people's choice to adopt preventive measures in the wake of COVID-19. Using recreancy theory, we explored the relationship between confidence, perceived risk and social behavior in the presence of social risks (Freudenburg, 1993) . Confidence in social institutions is a central concept in the recreancy theory (Khodyakov, 2007; Freudenburg, 2001) . It reflects the public's belief that social institutions have the competency, knowledge and ability to manage a major public health crisis and the perception that the policies developed by these institutions are in the best interests of the population (Shao and Hao, 2020) . In the case of the COVID-19 pandemic in Brazil, the voice of the government and the voice of health institutions and the media were not consistent in the evaluation of the risk and the social policy and responses required (Freitas, Silva and Cidade, 2020) . As the correlation matrix and the regression model revealed, confidence in the government was negatively related to preventive behaviors, indicating that the more confident people were in the national government that rejected social distance measures, the less likely they were to adopt protective measures. In contrast, confidence in hospitals and health workers and the media were positively associated with the adoption of such behaviors. The differences in the role of confidence in social institutions on the adoption of protective behaviors apparently reflects the discrepancies and inconsistencies in the messages from the government and the messages from the media and health system.",
+            "cite_spans": [
+                {
+                    "start": 285,
+                    "end": 304,
+                    "text": "(Freudenburg, 1993)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 386,
+                    "end": 403,
+                    "text": "(Khodyakov, 2007;",
+                    "ref_id": null
+                },
+                {
+                    "start": 404,
+                    "end": 422,
+                    "text": "Freudenburg, 2001)",
+                    "ref_id": null
+                },
+                {
+                    "start": 677,
+                    "end": 697,
+                    "text": "(Shao and Hao, 2020)",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 922,
+                    "end": 955,
+                    "text": "(Freitas, Silva and Cidade, 2020)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Another component of recreancy theory is perceived vulnerability (Sapp and Downing-Matibag, 2009 ). The theory posits a correlation between confidence in social institutions, perceived vulnerability and adoption of protective behaviors. As expected, vulnerability was correlated with both measures. Those who felt more vulnerable were more likely to adopt protective measures. In addition, we found a correlation between vulnerability and confidence in the government and hospitals and mass media. As expected, there was a negative correlation between confidence in the government and vulnerability. The greater the confidence in the government's messages that tended to downplay the seriousness of the virus, the less likely people were to regard the disease as a threat or see themselves as vulnerable to it. However, confidence in the media worked differently. The alarming messages and constant reporting increased the perceived vulnerability and the number of protective actions taken. Vulnerability reduced the confidence in the hospitals but also increased the number of protective actions taken.",
+            "cite_spans": [
+                {
+                    "start": 65,
+                    "end": 96,
+                    "text": "(Sapp and Downing-Matibag, 2009",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Self-confidence was positively associated with trust in social institutions and vulnerability. In turn, the correlation matrix and the regression analysis showed that self-confidence had a positive effect on the adoption of preventive measures. This is an important finding indicating that adopting preventive measures requires that people feel they have the ability to do so successfully (Bish and Michie, 2010) . A possible explanation, reported in a recent comparative study on the adoption of protective measures in China and Israel, is that self-confidence helps to overcome social constraints in the implementation of social distance and protective behaviors (Liu and Mesch, 2020) . Without such self-confidence, social policies may not be effective and not achieve the goal of reducing the contagion.",
+            "cite_spans": [
+                {
+                    "start": 389,
+                    "end": 412,
+                    "text": "(Bish and Michie, 2010)",
+                    "ref_id": null
+                },
+                {
+                    "start": 674,
+                    "end": 686,
+                    "text": "Mesch, 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our final question has to do with the mechanism through which vulnerability and risk, the central concepts in recreancy theory, work. The theory highlights both concepts as having main effects on protective behaviors but does not consider the interrelationship between them (Freudenburg, 2001) . We found that the effect of social institutions was not consistent, as confidence in the government actually reduced the number of preventive behaviors adopted. Therefore, we investigated the possibility that perceived vulnerability, measured as the emotional feeling of fear and the cognitive evaluation of risk, mediated the effect of confidence social institutions on the adoption of behaviors. Our findings indicate that the effect of vulnerability on protective behaviors depends on self-confidence, confidence in the government and confidence in health workers. Thus, the effect of confidence in social institutions on the adoption of protective behaviors is enhanced or muted based on variation in levels of perceived vulnerability. This finding is the innovation of our study. It identifies a mechanism that was previously not mentioned with regard to recreancy theory on the J o u r n a l P r e -p r o o f way the central constructs of the theory motivate the adoption of protective measures during a pandemic.",
+            "cite_spans": [
+                {
+                    "start": 274,
+                    "end": 293,
+                    "text": "(Freudenburg, 2001)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our study has various limitations. First, while the study includes a large sample of respondents, it is based on a population of students at a large university in the State of Sao Paulo. Thus, the sample is limited in its representativeness of the population of Brazil and cannot be generalized to the total population. Future studies should investigate the extent to which our findings may be generalized. Second, we found that vulnerability is an important mediator of the effect of confidence in social institutions on protective behaviors. Given the centrality of this measure, future studies should conduct a more in-depth investigation of the sources of perceived vulnerability.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "One possible source is exposure to the media, including specific channels such as television and social media. However, additional sources should be included to understand the cognitive process through which people evaluate their personal risk, which is a central component of the vulnerability measure. Finally, our measure of confidence in the government did not distinguish between the federal, state and local government. Confidence in these institutions might vary. Many people may have more positive assessments of the local government with which they interact more often than the federal and state governments that seem more remote.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Despite these limitations, our study makes an important and innovative contribution to the understanding of the factors associated with the adoption of protective behaviors during a worldwide pandemic. Our main contribution is in highlighting the mediating role of vulnerability in the effect of confidence in social institutions on the adoption of social distancing and protective behaviors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f J o u r n a l P r e -p r o o f J o u r n a l P r e -p r o o f",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The Health Belief Model",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Abraham",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sheeran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Predicting Health Behaviour",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The fear of COVID-19 scale: development and initial validation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Ahorsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Imani",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Saffari",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Griffiths",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Pakpour",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International journal of mental health and addiction",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "How will country-based mitigation measures influence the course of the COVID-19 epidemic",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Heesterbeek",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Klinkenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hollingsworth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "931--934",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "COVID-19 spread in the UK: the end of the beginning",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hollingsworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Baggaley",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Maddren",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Vegvari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "396",
+            "issn": "",
+            "pages": "587--590",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Empirical assessment of government policies and flattening of the COVID 19 curve",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Arshed",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Meo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Farooq",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Public Affairs",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Social distancing measures to control the COVID-19 pandemic: potential impacts and challenges in Brazil",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Aquino",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Silveira",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Pescarini",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Aquino",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A D"
+                    ],
+                    "last": "Souza-Filho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ci\u00eancia and Sa\u00fade Coletiva",
+            "volume": "25",
+            "issn": "",
+            "pages": "2423--2446",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Characterizing hospital workers' willingness to report to duty in an influenza pandemic through threat and efficacy based assessment",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Balicer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Barnett",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Catlett",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Waton",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Links",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Perceived self efficacy in the exercise of control over AIDS infection",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bandura",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "Evaluation and Program Planning",
+            "volume": "13",
+            "issn": "1",
+            "pages": "9--17",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Pandemic influenza in Australia: using telephone surveys to measure perceptions of threat and willingness to comply",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Barr",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Raphael",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Stevens",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Jorm",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Giffin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lujic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "BMC infectious diseases",
+            "volume": "8",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Ecological Enlightenment: Essays in the Politics of the Risk Society",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Beck",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Social network-based distancing strategies to flatten the COVID-19 curve in a post-lockdown world",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Block",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoffman",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Raabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Dowd",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Rahal",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kashyap",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mills",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature Human Behaviour",
+            "volume": "",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Perceived risk, anxiety, and behavioural responses of the general public during the early phase of the influenza (H1N1) pandemic in the Netherlands",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bults",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Beaujean",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "De Zwart",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kok",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Van Empelen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Van Steenbergen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Voeten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "BMC Public Health",
+            "volume": "11",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Psychosocial factor predicting SARS affected regions",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "A-K",
+                    "middle": [],
+                    "last": "Ng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Journal of Applied Social Psychology",
+            "volume": "36",
+            "issn": "",
+            "pages": "222--247",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The COVID-19 pandemic in Italy: policy and technology impact on health and non-health outcomes. Health Policy and Technology. Cottle, Simon",
+            "authors": [],
+            "year": 1998,
+            "venue": "European Journal of Communication",
+            "volume": "13",
+            "issn": "1",
+            "pages": "5--32",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Strong Social Distancing Measures In The United States Reduced The COVID-19 Growth Rate: Study evaluates the impact of social distancing measures on the growth rate of confirmed COVID-19 cases across the United States",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Courtemanche",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Garuccio",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Le",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pinkston",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yelowitz",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "10--1377",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "COVID-19 in Brazil: advantages of a socialized unified health system and preparation to contain cases",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Croda",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "K D"
+                    ],
+                    "last": "Oliveira",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Frutuoso",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mandetta",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Baia-Da-Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Brito-Sousa",
+                    "suffix": ""
+                },
+                {
+                    "first": ".",
+                    "middle": [
+                        "."
+                    ],
+                    "last": "Lacerda",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "V G"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Revista da Sociedade Brasileira de Medicina Tropical",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Risk perception of coronavirus disease 2019 (COVID-19) in China during quarantine",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ding",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PLoS ONE",
+            "volume": "15",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0237626"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Predicting students' security behavior using information-motivation-behavioral skills model",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Farooq",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Jeske",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Isoaho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "ICT Systems Security and Privacy Protection",
+            "volume": "2019",
+            "issn": "",
+            "pages": "238--252",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Impact of non-pharmaceutical interventions (NPIs) to reduce COVID19 mortality and healthcare demand",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dighe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "How Brazil became the second-worst COVID-hit country in the world",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Filho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Herd immunity\": a rough guide",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Fine",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Eames",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Heymann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Clinical infectious diseases",
+            "volume": "52",
+            "issn": "7",
+            "pages": "911--916",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Unhealthy Cities. Poverty, Race, and Place in America",
+            "authors": [
+                {
+                    "first": "Kevin",
+                    "middle": [],
+                    "last": "Fitzpatrick",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mark",
+                    "middle": [],
+                    "last": "Lagory",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Risk and Recreancy: Weber, the Division of Labor, and the Rationality of Risk Perceptions",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Freudenburg",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Social Forces",
+            "volume": "71",
+            "issn": "4",
+            "pages": "909--932",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Risk, Responsibility, and Recreancy",
+            "authors": [],
+            "year": 2001,
+            "venue": "Research in Social Problems and Public Policy",
+            "volume": "9",
+            "issn": "",
+            "pages": "87--108",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "A Covid-19 as a Global disaster: Challenge to risk governance and social vulnerability in Brazil",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Freitas",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "V M"
+                    ],
+                    "last": "Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cidade",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Revista Ambiente & Sociedade",
+            "volume": "23",
+            "issn": "",
+            "pages": "1--12",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "The novel coronavirus outbreak: amplification of public health consequences by media exposure",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Garfin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Silver",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Holman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Health Psychology",
+            "volume": "39",
+            "issn": "5",
+            "pages": "355--357",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Trust in medical organizations predicts pandemic (H1N1) 2009 vaccination behavior and perceived efficacy of protection measures in the Swiss public",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Gilles",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bangerter",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cl\u00e9mence",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Krings",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Staerkl\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wagner-Egger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "European journal of epidemiology",
+            "volume": "26",
+            "issn": "3",
+            "pages": "203--210",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Trust and the Development of Health Care as a Social Institution",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gilson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Social Science & Medicine",
+            "volume": "56",
+            "issn": "7",
+            "pages": "1453--1468",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Health Behaviour and Health Jesus",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Glanz",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Rimer",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M. ; J G D"
+                    ],
+                    "last": "Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sacchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "D S"
+                    ],
+                    "last": "Candido",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Claro",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "C S"
+                    ],
+                    "last": "Sales",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Manuli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Importation and early local transmission of COVID-19 in",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        ", ."
+                    ],
+                    "last": "Hill",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Revista do Instituto de Medicina Tropical de S\u00e3o Paulo",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Brazil",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Early assessment of anxiety and behavioral response to novel Swine-origin Influenza",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Salathe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "PLoS One",
+            "volume": "4",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Exploring optimistic bias and the integrative model of behavioral prediction in the context of a campus influenza outbreak",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Niederdeppe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Journal of Health Communication",
+            "volume": "18",
+            "issn": "2",
+            "pages": "206--222",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Behavioral Change in Influenza Vaccination; Factors Influencing Increased Uptake of the Pandemic H1N1",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kraut",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Graff",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mclean",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Versus Seasonal Influenza Vaccine in Health Care Personal",
+            "authors": [],
+            "year": null,
+            "venue": "Vaccine",
+            "volume": "29",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "The Social Ecological Model as a Framework for Determinants of the 2009 H1N1 Influenza Vaccine Uptake in the US",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Quin",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Crouse",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Musa",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hyliard",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Freimuth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Health Education Behavior",
+            "volume": "39",
+            "issn": "2",
+            "pages": "229--243",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Disparities in influenza vaccine coverage in the United States",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Linn",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Guralnik",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Journal of the American Geriatrics Society",
+            "volume": "58",
+            "issn": "7",
+            "pages": "1333--1340",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Risk Perceptions Related to SARS and Avian Influenza: Theoretical Foundations of Current Empirical Research",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Leppin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Aro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "International Journal of Behavioral Medicine",
+            "volume": "16",
+            "issn": "1",
+            "pages": "7--29",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "A State of Trust",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Levi",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Trust and Governance",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "When Even The Best Laid Plans Go Wrong",
+            "authors": [
+                {
+                    "first": "Katherine",
+                    "middle": [],
+                    "last": "Mccomas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "EMBO Reports",
+            "volume": "5",
+            "issn": "1",
+            "pages": "61--65",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Attention to the Media and Worry over Becoming Infected: The Case of the Swine Flu (H1N1)",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mesch",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Schwirian",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kolobov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Pandemics and Emerging Infectious Diseases",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "A meta-analysis of the association between gender and protective behaviors in response to respiratory epidemics and pandemics",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Moran",
+                    "suffix": ""
+                },
+                {
+                    "first": "Del",
+                    "middle": [],
+                    "last": "Valle",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "PloS one",
+            "volume": "11",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Acceptance of a pandemic influenza vaccine: a systematic review of surveys of the general public",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Henningsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Brehaut",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Hoe",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wilson",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Governing COVID-19 without government in Brazil: Ignorance, neoliberal authoritarianism, and the collapse of public health leadership",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ortega",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Orsini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Global public health",
+            "volume": "15",
+            "issn": "9",
+            "pages": "1257--1277",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "On the front lines of coronavirus: the Italian response to covid-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Paterlini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Bmj",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Another decade, another coronavirus",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Perlman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The New England Journal of Medicine",
+            "volume": "382",
+            "issn": "",
+            "pages": "760--762",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Social learning theory and the health belief model",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rosenstock",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Strecher",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Becker",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Health ducation quarterly",
+            "volume": "15",
+            "issn": "2",
+            "pages": "175--183",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "The Penguin Dictionary of Politics",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Robertson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "United but divided: policy responses and people's perceptions in the EU during the COVID-19 outbreak",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Sabat",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Neuman-B\u00f6hme",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Varghese",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Barros",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Brouwer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Van Exel",
+                    "suffix": ""
+                },
+                {
+                    "first": ".",
+                    "middle": [
+                        "."
+                    ],
+                    "last": "Stargardt",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Health Policy",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Consumer acceptance of food irradiation: a test of recreancy theorem",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Sapp",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Downing-Matibag",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "International Journal of Consumer Studies",
+            "volume": "33",
+            "issn": "",
+            "pages": "417--424",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Changing risk behaviors and adopting health behaviors: The role of self-efficacy beliefs. Self-efficacy in changing societies",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Schwarzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fuchs",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "",
+            "volume": "259",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Confidence in political leaders can slant risk perceptions of COVID-19 ina highly polarized environment",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shao",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Hao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Social Science and Medicine",
+            "volume": "261",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "The Perception of Risk",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Slovic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Just Institutions Matter: The Moral and Political Logic of the Universal Welfare State",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Rothstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Amplifying panic and facilitating prevention: multifaceted effects of traditional and social media use during the 2015 MERS crisis in South Korea",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Seo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Journalism and Mass Communication Quarterly",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Using social and behavioural science to support COVID-19 pandemic response",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Drury",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature Human Behaviour",
+            "volume": "",
+            "issn": "",
+            "pages": "1--12",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Mortality Underreporting in Brazil: Analysis of Data from Government Internet Portals",
+            "authors": [],
+            "year": null,
+            "venue": "Journal of Medical Internet Research",
+            "volume": "22",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "The effects of SNS communication: How expressing and receiving information predict MERS preventive behavioral intentions in South Korea",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yoo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Computers in Human Behavior",
+            "volume": "6",
+            "issn": "",
+            "pages": "34--43",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Media Use and health behavior in H1N1 flu crisis: the mediating role of perceived knowledge and fear",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chang",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Atlantic Journal of Communication",
+            "volume": "3",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Perin et al. 2015). Despite the documented negative implications of fear and anxiety for wellbeing, these negative emotions also motivate the engagement in protective",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Following our discussion of the role of confidence in social institutions, perceived vulnerability to infection and self-efficacy, Figure 1, presents the study's framework. [INSERT FIGURE 1 ABOUT HERE] J o u r n a l P r e -p r o o f",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "health system was measured with an item that asked the respondents to indicate \"How confident are you with the ability of the hospitals to deal with the Corona virus pandemic?\" \"How confident are you with the ability of medical workers to deal with the coronavirus pandemic?\" and \"How confident are you with the ability of the media to transfer useful information about the coronavirus pandemic?\" The respondents answered on a 4-item Likert scale ranging from \"not at all confident\" to \"very confident.\" In the measurement of the responses on a 4-point likert scale, we followed the practice of the Gallup surveys that study of trust in social institutions (see(https://news.gallup.com/poll/1597/confidence-institutions.aspx) that use a 4 point Likert scale. Our moderator variable is vulnerability. To measure the concept of vulnerability, we followed the work of Ding et al. (2019) and used four items. Two are measures of estimation of risk (5-item Likert): \"Do you think you are at high risk of getting sick from COVID-19?\" \"Do you think that if you get sick, the disease will be serious. Another two measures were used to tap the emotional or fear component of the virus: \"How afraid are you of getting the coronavirus?\" How afraid are you that one of your close family members will contract the COVID-19 virus?\" The responses were measured using a Likert scale ranging from \"not at all\" to \"very afraid/a high risk.\" The variables were combined into a single scale by adding the values of the responses to individual items. (\u03b1=.69).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "we present the descriptive statistics of the sample (n=7554). As the table indicates we found a high frequency of the adoption of protective measures. While the maximum possible value of the adoption of protective measures scale was 90, the average of the sample reported a value of 75 (S.D. 11). In terms of confidence in social institutions, the results indicate variability in the extent of confidence in each social institution. The highest level of trust was in health workers (M=2.9, S.D.=0.81), followed by hospitals (M=2.4, S.D.=0.8) and the media (M=2.3, S.D.=0.88). The respondents had the least confidence in the government's ability to deal with the COVID-19 crisis (M=1.7, S.D.=0.78).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "first model included the socio-demographic control variables, the second model added our main variables and in the third model we tested a number of interactions. In the first model we only included control variables for clarifying its effects onto the dependent variable. This is done to show how the control variables are associated with the dependent variable. Running a model with the control variables only, adding later on the variables of interest allows us to estimate the net contribution of the model variables to the explained variance beyond the control variables. Age was positively associated with the use of preventive measures 95% CI [0.34, 1.40].",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "and the media were positively related to the adoption of protective measures 95% CI [0.77, 1.50]. However, confidence in hospitals did not affect the adoption of protective measures 95% CI [-0.50, 0.22], despite not being statistically significant it shows a negative tendency. In addition, consistent with the bivariate results, there was a negative relationship between confidence in the government and the adoption of protective measures 95% CI [-1.60, -0.94]. The explained variance of the model was R 2 =0.15, higher than the explained variance by the control variables alone (R 2 =0.02). In the final model we introduced the moderating variable, vulnerability, which represents both people's emotional fear and cognitive evaluation of their personal risk of becoming infected. By respecting the hierarchical principle that any interaction effect must also be included as a main effect, we also included vulnerability as an independent variable in the model. Our analysis revealed that vulnerability had a positive effect, indicating the crucial role of fear and risk evaluations in the adoption of protective measures 95% CI [7.00, 8.50]. The addition of all of the study's variables increased the explained variance significantly compared to the baseline ], and vulnerability*confidence in health workers 95% CI [-0.29, -0.07]. However, there was a positive interaction between vulnerability*confidence in the government 95% CI [0.08, 0.27]. These three statistically significant effects indicate that the effect of vulnerability on protective behaviors depends on selfconfidence, confidence in the government and confidence in health workers. More specifically, vulnerability mitigates the positive effect between self-confidence and the adoption of protective behaviors. In addition, perceptions of vulnerability enhance the negative effect between confidence in the government's ability to cope with the public health crisis and the adoption of protective behaviors. Finally, perceptions of vulnerability to the COVID-19 virus enhance the positive effect between confidence in health workers and the adoption of protective behavior measures. [INSERT TABLE 3 ABOUT HERE]",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Descriptive Statistics of Study Variables",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Pearson Correlation Matrix of Study Variables * p < 0.05, ** p < 0.01, *** p < 0.001, \u2020 p < 0.0001 J o u r n a l P r e -p r o o f",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Multivariate Analysis Predicting Avoidant Behaviors J o u r n a l P r e -p r o o f",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": ".600 *** .400 *** .420 *** ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Income"
+        }
+    ]
+}

@@ -1,0 +1,841 @@
+{
+    "paper_id": "0b7f6422a36ed66ed82a2fbcc0df91c44b668532",
+    "metadata": {
+        "title": "Ensemble Docking Coupled to Linear Interaction Energy Calculations for Identification of Coronavirus Main Protease (3CL pro ) Non-Covalent Small-Molecule Inhibitors",
+        "authors": [
+            {
+                "first": "Marko",
+                "middle": [],
+                "last": "Juki\u010d",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory of Physical Chemistry and Chemical Thermodynamics",
+                    "institution": "University of Maribor",
+                    "location": {
+                        "addrLine": "Smetanova ulica 17",
+                        "postCode": "SI-2000",
+                        "settlement": "Maribor",
+                        "country": "Slovenia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Du\u0161anka",
+                "middle": [],
+                "last": "Jane\u017ei\u010d",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Primorska",
+                    "location": {
+                        "addrLine": "Glagolja\u0161ka 8",
+                        "postCode": "SI-6000",
+                        "settlement": "Koper",
+                        "country": "Slovenia"
+                    }
+                },
+                "email": "dusanka.janezic@upr.sid.j."
+            },
+            {
+                "first": "Urban",
+                "middle": [],
+                "last": "Bren",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory of Physical Chemistry and Chemical Thermodynamics",
+                    "institution": "University of Maribor",
+                    "location": {
+                        "addrLine": "Smetanova ulica 17",
+                        "postCode": "SI-2000",
+                        "settlement": "Maribor",
+                        "country": "Slovenia"
+                    }
+                },
+                "email": "urban.bren@um.siu.b."
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Pre-filtering of compounds was performed with OpenEye FILTER software and exact parameters used were: min_molwt 250, max_molwt 800, min_solubility moderately, eliminate known and predicted aggregators and allowed elements: H,C,N,O,F,S,Cl,Br,I,P.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Library preparation and pre-filtering criteria"
+        },
+        {
+            "text": "Small molecules with nonspecific binding potential have been removed by min_molwt 250 parameter while large molecules with poor optimisation potential were removed with max_molwt 800 parameter.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Library preparation and pre-filtering criteria"
+        },
+        {
+            "text": "Compounds have been filtered according to favourable XlogP using min_solubility moderately parameter. The solubility predictions are based on using the atom-types from the XLogP algorithm, and reparameterizing them based on available solubility data (The 6 allowable categories are: insoluble, poorly, moderately, soluble, very, highly). [1] Furthermore known and predicted aggregators were removed using AGGREGATORS true \"Eliminate known aggregators\" and PRED_AGG true \"Eliminate predicted aggregators\" parameters.",
+            "cite_spans": [
+                {
+                    "start": 338,
+                    "end": 341,
+                    "text": "[1]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Library preparation and pre-filtering criteria"
+        },
+        {
+            "text": "Aggregators are small molecules that can interfere with assay results by sequestering protein in an aggregation of small molecules in solution. They appear to have activity in many assays, but in fact are usually not specific inhibitors of the protein in question. Includes two measures of whether a molecule is one of the aggregators defined by Shoichet et. al. The first measure, AGGREGATORS, is whether the molecule is an exact match to one of the approximately 400 published aggregators. The second measure, PRED_AGG, is whether the molecule hits in Shoichet's QSAR model for predicting aggregators. [2, 3] Compounds were also filtered if they contained other elements than H,C,N,O,F,S,Cl,Br,I,P in order to filter out metal complexes and reactive compounds.",
+            "cite_spans": [
+                {
+                    "start": 604,
+                    "end": 607,
+                    "text": "[2,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 608,
+                    "end": 610,
+                    "text": "3]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Library preparation and pre-filtering criteria"
+        },
+        {
+            "text": "On examination of SARS-CoV-2 3CL pro complexes, we identified a main protease in complex with N3 inhibitor was found at the active site and was covalently bound to the catalytic Cys145 residue.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "TARGET PREPARATION"
+        },
+        {
+            "text": "Covalent bond was cleaved, the N3 residue was removed and the cysteine amino-acid residue regenerated (Open Source PyMOL, release 2.1). Using Schr\u00f6dinger Small-Molecule Discovery Suite (release 2018-3, Schr\u00f6dinger LLC, New York) the missing hydrogen atoms were added, steric clashes corrected and water molecules deleted. Protonation and optimization of sidechains within the protein was performed using the PROPKA tool (Schr\u00f6dinger at pH = 7.4) and the resulting structure used for similarity search. To expand the binding pocket, we examined similar protein complexes reported in the PDB database using ProBiS Charmming server (https://probis.nih.gov/). [4] [5] [6] This identified one selective binding site (binding site 1; proximity of Cys145) and several ligands from the locally aligned (relative to the binding site 1) similar protein structures were superimposed on the examined complex (PDB IDs: 2op9, 2gz8, 4mds, 3v3m, 4twy, 3vb4, 2hob, 3tnt, 3vb6, 2gx4 and 2gtb) ( Figure S1 ). ",
+            "cite_spans": [
+                {
+                    "start": 656,
+                    "end": 659,
+                    "text": "[4]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 660,
+                    "end": 663,
+                    "text": "[5]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 664,
+                    "end": 667,
+                    "text": "[6]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 977,
+                    "end": 986,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "TARGET PREPARATION"
+        },
+        {
+            "text": "VS was conducted using Fred software from OpenEye (OpenEye Scientific Software, Inc., Santa Fe, NM, USA; www.eyesopen.com). In the protocol normal resolution docking parameter and Chemgauss4 scoring function were used. [7] [8] [9] VS or HTVS was performed on Intel \u00ae Xeon\u00ae E5-2630 v4 CPU and 32 GB of memory machines using Linux operating system. The obtained results as tops scoring hits are gathered in Table S2 . As a proof-of-concept experiment, crystal structure (PDB ID: 6LU7) native ligand N3 covalent bond with Cys145 was cleaved, target prepared and noncovalent ligand re-docking performed with a docking score of -5.1.",
+            "cite_spans": [
+                {
+                    "start": 219,
+                    "end": 222,
+                    "text": "[7]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 223,
+                    "end": 226,
+                    "text": "[8]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 227,
+                    "end": 230,
+                    "text": "[9]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 405,
+                    "end": 413,
+                    "text": "Table S2",
+                    "ref_id": "TABREF6"
+                }
+            ],
+            "section": "VIRTUAL SCREENING"
+        },
+        {
+            "text": "Theseus clustering [11] < BEGIN THESEUS 1. Figure S2 : Compound 1 MD run 1. Ensemble conformations: C=CC=CC=2(N1) )))CCC3))C ",
+            "cite_spans": [
+                {
+                    "start": 19,
+                    "end": 23,
+                    "text": "[11]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 43,
+                    "end": 52,
+                    "text": "Figure S2",
+                    "ref_id": null
+                },
+                {
+                    "start": 100,
+                    "end": 113,
+                    "text": "C=CC=CC=2(N1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "MD CLUSTERING"
+        },
+        {
+            "text": "Query: 6LU7_1|Chain A|main protease|Severe acute respiratory syndrome coronavirus 2 ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sequence alignment SARS-Cov and SARS-CoV-2 (Figure S24)"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "CC=4(NC=CC=4)))C5(=CC=CC=C5)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "CC)CC1))C=C2))C5(=C(C=4 (OC(C3(=CC=CC=C3))=CN=4))C=CC=C5)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "O=C(NCC1(C[NH+](CCC1)CC2(=CC=CC=C2)))CCC3(=NC= 4(C=CC=CC=4(N3)))",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": ")C))C2(CC(O)C2))",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "O=C2(NC=3(C=C(CNC(=O)C(N1(N=CC=C1))CC)C=CC=3",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "O=C(NC(C1(=CC=CC=C1))C(=O)NCC=2(OC=CC=2))C=3(N C=4(C=C(OC)C=CC=4(C=3)))",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "As an experiment, crystal structure (PDB ID: 6LU7) native ligand N3 covalent bond towards Cys145 was cleaved, compound prepared and noncovalent ligand re-docking was performed with FRED docking score of -Figure S24: Alignment of SARS-Cov and SARS-CoV-2 sequence",
+            "authors": [],
+            "year": null,
+            "venue": "SUPPORTING INFORMATION REFERENCES",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "A new atom-additive method for calculating partition coefficients",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ying",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lai",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "J. Chem. Inf. Comput. Sci",
+            "volume": "37",
+            "issn": "",
+            "pages": "615--621",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "A Specific Mechanism of Nonspecific Inhibition",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mcgovern",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Helfand",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Shoichet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J. Med. Chem",
+            "volume": "46",
+            "issn": "",
+            "pages": "4265--4272",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Identification and Prediction of Promiscuous Aggregating Inhibitors Among Known Drugs",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Seidler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mcgovern",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Doman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Shoichet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J. Med. Chem",
+            "volume": "46",
+            "issn": "",
+            "pages": "4477--4486",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "ProBiS-CHARMMing: web interface for prediction and optimization of ligands in protein binding sites",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Konc",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "\u0160tular",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Les\u030cnik",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Woodcock",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Brooks",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Janez\u030cic\u030c",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J. Chem. Info. Model",
+            "volume": "55",
+            "issn": "",
+            "pages": "2308--2314",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "ProBiS-database: precalculated binding site similarities and local pairwise alignments of PDB structures",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Konc",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "\u010cesnik",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Konc",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Penca",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Janez\u030cic\u030c",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "ProBiS tools (algorithm, database, and web servers) for predicting and modeling of biologically interesting proteins",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Konc",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Janez\u030cic\u030c",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Prog. Biophys. Mol. Biol",
+            "volume": "128",
+            "issn": "",
+            "pages": "24--32",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "FRED and HYBRID docking performance on standardized datasets",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mcgann",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Comp.-Aid. Mol. Design",
+            "volume": "2012",
+            "issn": "8",
+            "pages": "897--906",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "FRED Pose Prediction and Virtual Screening Accuracy",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mcgann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J. Chem. Inf. Model",
+            "volume": "51",
+            "issn": "3",
+            "pages": "578--596",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Gaussian docking functions",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mcgann",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Almond",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nicholls",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Grant",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Biopolymers",
+            "volume": "68",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "ClusCo: clustering and comparison of protein models",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jamroz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kolinski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Bmc Bioinformatics",
+            "volume": "14",
+            "issn": "1",
+            "pages": "1--6",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "THESEUS: maximum likelihood superpositioning and analysis of macromolecular structures",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Theobald",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Wuttke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Bioinformatics",
+            "volume": "22",
+            "issn": "17",
+            "pages": "2171--2172",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "peptide-like covalent inhibitor ((phenylmethyl) (4~{S})-4-[[(2~{S})-4-methyl-2-[[(2~{S})-3-methyl-2-[[(2~{S})-2-[(5-methyl-1,2-oxazol-3yl)carbonylamino]propanoyl]amino]butanoyl]amino]pentanoyl]amino]-5-[(3~{S})-2oxidanylidenepyrrolidin-3-yl]pent-2-enoate; ) published by Liu, X et al. (PDB ID: 6LU7). N3",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "main-text). ProBiS output on binding site 1 (the only predicted selective active site). Due to redundancy, 10 first ligands were used along with the N3 for binding site definition: 2S)-2-({[(3S,4AR,8AS)-2-(BIPHENYL-4-YLCARBONYL) DECAHYDROISOQUINOLIN-3-YL]METHYL}AMINO)-3-(1H-IMIDAZOL-5-METHYLISOXAZOL-3-YL)CARBONYL]-L-ALANYL-L-VALYL-N~1~-((1S)-4-ETHOXY-4-OXO-1-{[(3S)OXOPYRROLIDIN[(BENZYLOXY)CARBONYL]-O-TERT-BUTYL-L-THREONYL-N-[(1R)-4-CYCLOPROPYL-4-OXO-1-{[(3S)OXOPYRROLIDIN5S,8S,11R)-8-BENZYL-5-(3-TERT-BUTOXY-3-OXOPROPYL)-3,6,9-TRIOXO-11-{[(3S)-2-OXOPYRROLIDIN-3-YL]METHYL}-1-PHENYL-2-OXA-4,7,10-TRIAZATETRADECAN-14-",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "FUROYL)-D-VALYL-L-VALYL-N~1~-((1R,2Z)-4-ETHOXY-4-OXO-1-{[(3S)-2-OXOPYRROLIDIN-3-YL]METHYL}BUT-4R)-4-{[(2R,5S)-5-{[N-(TERT-BUTOXYCARBONYL)-L-SERYL]AMINO}-6-METHYL-2-(3-METHYLBUT-2-EN-1-YL)-4-OXOHEPTANOYL]AMINO}-5-[(3R)-2-OXOPYRROLIDIN-3-YL]PENTANOATE CYV 2qiq 4.34 Specific",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "METHYLISOXAZOL-3-YL)CARBONYL]ALANYL-L-VALYL-N~1~-((1R,2Z)-4-(BENZYLOXY)-4-OXO-1-{[(3R)METHYLISOXAZOL-3-YL)CARBONYL]ALANYL-L-VALYL-N~1~-((1R,2Z)-4-(BENZYLOXY)-4-OXO-1-{[(3R)METHYLISOXAZOL-3-YL)CARBONYL]ALANYL-L-VALYL-N~1~-((1R,2Z)-4-(BENZYLOXY)-4-OXO-1-{[(3R)[(BENZYLOXY)CARBONYL]-O-TERT-BUTYL-L-SERYL-N-{(2R)-5-ETHOXY-5-OXO-1-[(3S)-2-OXOPYRROLIDIN-3-YL]PENTAN-1S,2S)-2-({N-[(BENZYLOXY)CARBONYL]-L-LEUCYL}AMINO)-1-HYDROXY-3-[(3S)-2-OXOPYRROLIDIN-3-YL]PROPANE-1S,2S)-2-({N-[(BENZYLOXY)CARBONYL]-L-LEUCYL}AMINO)-1-HYDROXY-3-[(3S)-2-OXOPYRROLIDIN-3-YL]PROPANE1S,2S)-2-({N-[(BENZYLOXY)CARBONYL]-L-LEUCYL}AMINO)-1-HYDROXY-3-[(3S)-2-OXOPYRROLIDIN-3-YL]PROPANE-",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Left: PDB ID: 6LU7 crystal structure of the COVID-19 main protease C2 global symmetry. Two asymmetric units are depicted in gray-colored cartoon model with two active sites emphasized by gray-red space filled ligand moieties. Symmetry axis is presented in green; Right: The defined docking volume on the generated SARS-CoV-2 N3-3CL pro crystal complex \"receptor\". The blue mesh depicts the docking volume while the central green mesh denotes the \"inner contour\". Molecular docking using the inner contour and OpenEye Fred software results in a rejection of any pose examined by the exhaustive search that does not touch this shape. Touching is obtained if the centre of at least one heavy atom from the examined ligand falls within this shape.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-=I I THESEUS: Maximum likelihood multiple superpositioning I I=-===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-===I",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "a fractional precision of 7.8e-08 I===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-==I Transforming coordinates ... Writing transformed coordinates PDB file ... Writing average coordinate file ... Done. I===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-==I < END THESEUS 1.3.5 >MD trajectory clustering with ClusCo[10]",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Compound 1 MD run 2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Compound 1 MD run 3.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Compound 1 MD run 4.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Compound 1 MD run 5.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Compound 1 MD run 6.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Compound 1 MD run 7.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "Compound 2 MD run 1.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "Compound 2 MD run 2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": "Compound 2 MD run 3.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "Compound 2 MD run 4.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF17": {
+            "text": "Compound 2 MD run 5.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF18": {
+            "text": "Compound 2 MD run 6.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF19": {
+            "text": "Compound 2 MD run 7.6. BINDING MODE ANALYSIS (Figure S16, S17) Left: PDB ID: 6LU7 crystal structure of the COVID-19 main protease with N3 crystalized inhibitor depicted in stick model colored green and compound 1 in blue colored stick model representation. Emphasized is catalytic Cys145 in stick model. Right: Emphasized contacts of compound 1 with its target SARS-CoV-2 3CL pro .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF20": {
+            "text": "Left: PDB ID: 6LU7 crystal structure of the COVID-19 main protease with N3 crystalized inhibitor depicted in stick model colored green and compound 2 in blue colored stick model representation. Emphasized is catalytic Cys145 in stick model. Right: Emphasized contacts of compound 2 with its target SARS-CoV-2 3CL pro .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF21": {
+            "text": "Left: MD ensemble of the SARS-CoV-2 main protease with compound 1 indicating protein flexibility. Right: MD ensemble of the PDB ID: 6LU7 with compound 2 and analogous ligand positioning.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF22": {
+            "text": "Compound rank vs FRED Chemgauss4 score.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF23": {
+            "text": "Compound MW vs FRED Chemgauss4 score.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF24": {
+            "text": "Compound PSA vs FRED Chemgauss4 score.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF25": {
+            "text": "Compound cLogP vs FRED Chemgauss4 score.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF26": {
+            "text": "Compound MW vs compound cLogP.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF2": {
+            "text": "with applied central inner volume of 113 \u00c5 3 for pose restriction. No constraints were used and active-site residue conformations or protonation states were maintained (",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Reading pdb file ...Successfully read 101 models and/or structuresSelecting coordinates for superposition ...",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Hydrophobic interactions of Compound 1 with its target.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Hydrogen bonds of Compound 1 with its target.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "Hydrophobic interactions of Compound 2 with its target. Index Residue AA Distance Ligand Atom Protein Atom",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF8": {
+            "text": "Hydrogen bonds of Compound 2 with its target.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF9": {
+            "text": "Top hits from the performed virtual screening (VS) or high throughput virtual screening (HTVS) on the SARS-CoV-2 main protease",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF10": {
+            "text": "Subject: 2QIQ_1|Chain A|Replicase polyprotein 1ab|SARS coronavirus (694009)",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

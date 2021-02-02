@@ -1,0 +1,1557 @@
+{
+    "paper_id": "0b7e355cb36f5f0639bd30f7c6bf730df79d0409",
+    "metadata": {
+        "title": "Next Generation Influenza Vaccines: Looking into the Crystal Ball",
+        "authors": [
+            {
+                "first": "Carlos",
+                "middle": [
+                    "Alberto"
+                ],
+                "last": "Guzm\u00e1n",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Helmholtz Centre for Infection Research",
+                    "institution": "",
+                    "location": {
+                        "addrLine": "Inhoffenstrasse 7",
+                        "postCode": "38124",
+                        "settlement": "Braunschweig",
+                        "country": "Germany"
+                    }
+                },
+                "email": "carlosalberto.guzman@helmholtz-hzi.de"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Influenza infections are responsible for significant number of deaths and overwhelming costs worldwide every year. Vaccination represents the only cost-efficient alternative to address this major problem in human health. However, current vaccines are fraught by many limitations, being far from optimal. Among them, the need to upgrade vaccines every year through a time-consuming process open to different caveats, and the critical fact that they exhibit poorer efficacy in individuals who are at high risk for severe infections. Where are we? How can knowledge and technologies contribute towards removing current roadblocks? What does the future offer in terms of next generation vaccines?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Influenza viruses periodically cause large epidemics, which are associated with significant health care costs. Depending on the influenza season, between 290,000 and 650,000 people die yearly worldwide from influenza virus infection [1] . However, there are seasons in which the number of deaths is considerably higher, like in the 2016/2017 season. Despite the availability of antiviral drugs, the emergence of resistant strains, modest efficacy in severe influenza cases and/or a narrow therapeutic window [2] make vaccines still the most cost-efficient tool to fight seasonal and pandemic outbreaks. Accordingly, seasonal influenza vaccination is particularly recommended for those who are \u226560 years of age, as well as for persons with increased risks for severe influenza, such as pregnant women and individuals with comorbidities (e.g., chronic lung or heart diseases, diabetes). However, responsiveness to vaccination is often suboptimal in these groups at high-risk for severe infections [3] [4] [5] .",
+            "cite_spans": [
+                {
+                    "start": 233,
+                    "end": 236,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 995,
+                    "end": 998,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 999,
+                    "end": 1002,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1003,
+                    "end": 1006,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The presence of a segmented viral genome and a low-fidelity RNA polymerase, together with the existence of viral zoonotic reservoirs, results in the accumulation of mutations over time (i.e., antigenic drift), as well as the sporadic emergence of viruses exhibiting major antigenic changes due to re-assorted genomes (i.e., antigenic shift). This rapid viral evolution promotes viral escape and renders necessary the revision of the influenza vaccine formulation every flu season. This represents a major manufacturing challenge for the vaccine industry, considering the currently existing technologies. The review by Harding and Heaton describe in detail the major current vaccine manufacturing approach based on virus replication in embryonated eggs [6] . The authors further analyzed the advantages and drawbacks of this approach, which allows producing over 1.5 billion doses every year [7] . They also benchmarked the two major alternatives exploited in approved vaccines, aimed at increasing the consistency of vaccine efficacy across seasons. On the one hand, the cell-based approaches, which not only eliminate the adverse events resulting from allergies to egg products and the constraints of egg-shortages, and reduce production times, but most importantly, reduce the risk of altered antigenicity as a result of the emergence of mutations during the adaptation to eggs [8] . It is important to highlight that mutations in the genes encoding the major vaccine antigens were also observed using this approach [9] . The authors also analyzed how the constraints of egg-produced vaccines affected their efficacy in recent",
+            "cite_spans": [
+                {
+                    "start": 752,
+                    "end": 755,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 891,
+                    "end": 894,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1380,
+                    "end": 1383,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1518,
+                    "end": 1521,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "seasons. On the other hand, they presented the pros and cons of protein-based vaccines produced using a Baculovirus-based approach, which eliminates the constraints resulting from relying on influenza virus replication. Nevertheless, practical considerations, like manufacturing capacity to serve the huge demand for influenza vaccines and considerably higher production costs still represent a bottleneck.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In their review article, the authors also presented a comprehensive summary of the current efforts to improve the influenza vaccines produced using standard existing technologies. In this regard, the use of adjuvants to improve the overall efficacy of vaccines for specific subpopulation groups is discussed, as well as the exploitation of nanotechnologies to increase the immunogenicity of protein-based vaccines. An elegant approach enables the engineering of recombinant viruses for vaccine production, which co-expresses the vaccine relevant hemagglutinin together with a helper hemagglutinin [10] . This strategy prevents the emergence of egg-adaptive mutations and reduces the overall production times. They also address the use of peptide-based vaccines as a potential alternative. Although promising, the presented drawbacks suggest that considerable time and effort will be required to make it a viable approach for implementation in the influenza vaccine field. The review by Clemens et al. further elaborates on the potential and limitations of harnessing T cells for the development of influenza vaccines [11] . In this particular context, animal studies support the potential of exploiting this strategy to generate universal or at least broader next generation vaccines providing heterosubtypic protection by stimulating long-lasting T cell resident memory cells. Nevertheless, this approach faces several major constraints. As described in the review, a universal vaccine based on peptides should mimic more closely the immune responses observed after natural infections by inducing both cross-reactive peripheral and tissue resident CD8 T cells in addition to cross-reactive antibodies and CD4 T follicular and helper cells. However, as described in the review, special vaccination strategies will be needed to promote the seeding of tissue resident memory T cells in the respiratory tract and prevent their attrition. Furthermore, universal protection will require addressing human leucocyte antigen (HLA)-restriction by the inclusion of appropriate peptides. Such vaccines should not only stimulate multiple cross-reactive epitope-specific T cells, but also encompass epitopes recognized by rare HLA types from minor ethnicities. Finally, current influenza vaccines are approved dependent on the accepted correlates for protection based on the stimulation of functional antibodies recognizing the hemagglutinin. Large-scale clinical studies will be needed to define similar robust correlates for a conceptually novel class of T cell influenza vaccines.",
+            "cite_spans": [
+                {
+                    "start": 597,
+                    "end": 601,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1117,
+                    "end": 1121,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "New disruptive technologies, such as the use of nucleic acid vaccines (e.g., DNA or RNA), which render unnecessary the production of proteins, can be also exploited to develop next generation influenza vaccines. In this regard, RNA vaccines represent a cutting-edge approach, which dramatically reduces production times, ensure the fidelity of the encoded sequences, and are insulated from shortages of eggs or the constraints attached to cell factories. This renders this technology particularly appealing for potential emerging influenza pandemics. Preclinical studies in different animal species and first-in-man studies also demonstrated the intrinsic value of this approach [12, 13] . However, these studies, as well as some of the trials carried out in the context of the COVID-19 pandemic [14, 15] showed that the higher reactogenicity of RNA vaccines respect to what observed for influenza vaccines developed using conventional standard technologies might be an issue for the global acceptance of an RNA-based prophylactic vaccine. In the review by Scorza and Pardi, the authors summarize the current state of the art in terms of preclinical and clinical studies, as well as the major roadblocks that need to be overcome for implementation [16] . In this context, they describe the strategies exploited to increase the half-life, stability, cellular uptake and translatability of both self-amplifying and non-replicating mRNA. A distinctive strength of this class of vaccines is their rapid scalable egg-independent production. Of particular interest is the analysis presented in this review benchmarking the strengths and limitations of this class of vaccines in terms of the World Health Organization guidelines for the preferred product characteristics of next generation influenza vaccines [17] .",
+            "cite_spans": [
+                {
+                    "start": 679,
+                    "end": 683,
+                    "text": "[12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 684,
+                    "end": 687,
+                    "text": "13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 796,
+                    "end": 800,
+                    "text": "[14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 801,
+                    "end": 804,
+                    "text": "15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1248,
+                    "end": 1252,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1802,
+                    "end": 1806,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The availability of innovative technologies will certainly positively affect the development of next generation influenza vaccines. However, influenza vaccines based on both traditional and emerging technologies face the major constraint represented by the immune history of the individual vaccinees. The review article from Lewnard and Cobey analyze the specific constraints and provide examples on how the dynamics of immune memory can affect vaccine effectiveness [18] . It is critical to understand the underlying mechanisms driving these processes, which go far beyond the potential impact of the original antigenic sin during immune imprinting. This will allow dissecting differential patterns of vaccine effectiveness in vaccinees depending on immune imprinting and memory. Immediately after birth, human beings lose their naivety, and previous infection and vaccination events condition responsiveness, for good or bad, from season to season, according to age and the antigen contact history.",
+            "cite_spans": [
+                {
+                    "start": 467,
+                    "end": 471,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The rational design of next generation influenza vaccines able to confer protection in all age and vulnerable groups is an ambitious and challenging venture. Different approaches can be exploited to stimulate the production of broadly protective vaccine responses [19] . Among them, the more conserved structures of the virus are used as an antigenic target, such as the stalk region of the hemagglutinin, or the matrix protein 2, which is highly conserved between influenza subtypes. An alternative approach relies on the exploitation of in silico tools to develop consensus sequences for computationally optimized broadly reactive hemagglutinin antigen variants (COBRA), which are able to stimulate broadly reactive antibodies [20] . The use of some of these approaches might require the development of alternative tools to assess vaccine efficacy. Current surrogated correlates of protection, which are accepted for the standard influenza vaccines, may not be relevant for next generation vaccines. In fact, the stimulated clearance mechanism might go far beyond traditional neutralization by blocking the virus binding to the receptor (e.g., the inhibition of viral membrane fusion and maturation, antibody-dependent and -independent cytotoxicity, the inhibition of viral replication or spreading).",
+            "cite_spans": [
+                {
+                    "start": 264,
+                    "end": 268,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 729,
+                    "end": 733,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Outlook:"
+        },
+        {
+            "text": "Interestingly, the adjuvantation of conventional influenza vaccines has also proven effective, not only for improving responsiveness in certain subpopulation groups [21] , but also at broadening responsiveness to other influenza subtypes [22, 23] . A critical aspect for the development of a vaccine conferring broad cross-protective immunity against influenza is the determination of vaccine efficacy. The clinical trials required to achieve this goal may prove a roadblock. However, the availability of controlled human infection models for the influenza virus is an effective alternative to address this issue [24] . Whether these approaches can lead to a true universal influenza vaccine or to next generation vaccines with a broader efficacy profile, rendering possible to boost against seasonal influenza every 5-10 years instead of every year, or to be prepared for a broad range of strains with a potential to cause pandemics, remains to be elucidate. However, the crystallization of any of these two scenarios will represent a significant improvement with respect to the current situation.",
+            "cite_spans": [
+                {
+                    "start": 165,
+                    "end": 169,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 238,
+                    "end": 242,
+                    "text": "[22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 243,
+                    "end": 246,
+                    "text": "23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 613,
+                    "end": 617,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Outlook:"
+        },
+        {
+            "text": "It is important to highlight that regardless of the fact that upcoming next generation vaccines are formulated with well known standard antigens or innovative components promoting cross-protective immunity, or that they will be based on well established or emerging technology platforms for vaccine formulation or delivery, the key problem in vaccine-mediated immunity against influenza will remain. Namely, key influenza-specific issues of interference due to pre-existent immunity and overall poor responsiveness to vaccines in vulnerable individuals (e.g., the elderly, the very young, those affected by co-morbidities) often result in unpredictable poor responsiveness to vaccination. Therefore, the problem of poor protection against influenza infection post vaccination is, by and large, defined by a knowledge gap in key aspects of human immunology, such as the underlying mechanisms involved in poor individual responsiveness, and how to tailor vaccines according to the needs of subpopulation groups to generate broadly protective and long-lasting immunity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outlook:"
+        },
+        {
+            "text": "This current knowledge gap can be addressed by performing comprehensive and standardized profiling at baseline and post immunization of responders and non-responders to influenza vaccination in different age groups, both in healthy individuals as well as in those affected by co-morbidities known to affect responses to vaccination. The in-depth analysis and comparison of the obtained immunological and molecular signatures using artificial intelligence tools will enable the identification of the putative underlying mechanisms. These mechanisms will provide intervention targets to develop more efficient tailored vaccination strategies, as well as potential predictive biomarkers of responsiveness to develop innovative diagnostics for the stratification and follow-up of vaccinees.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outlook:"
+        },
+        {
+            "text": "Funding: This work was supported in part by grants from the EU (TRANSVAC2-730964; INCENTIVE-874866).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outlook:"
+        },
+        {
+            "text": "The author declares no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of Interest:"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Global seasonal influenza-associated mortality collaborator network. Estimates of global seasonal influenza-associated respiratory mortality: A modelling study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Iuliano",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Roguski",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Muscatello",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Palekar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tempia",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gran",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Schanzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Lancet",
+            "volume": "391",
+            "issn": "",
+            "pages": "1285--1300",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(17)33293-2"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Drugs for influenza treatment: Is there significant news? Front",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Principi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Camilloni",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alunno",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Polinori",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Argentiero",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Esposito",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fmed.2019.00109"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Factors that influence the immune response to vaccination",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zimmermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Curtis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Clin. Microbiol. Rev",
+            "volume": "32",
+            "issn": "",
+            "pages": "161--177",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/CMR.00084-18"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Immunogenicity and safety of an adjuvanted influenza vaccine in patients with decompensated cirrhosis",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Gaeta",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Stornaiuolo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Precone",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Amendola",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Zanetti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Vaccine",
+            "volume": "20",
+            "issn": "",
+            "pages": "33--35",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0264-410X(02)00510-8"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Humoral immune response to influenza vaccination in patients from high risk groups",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Brydak",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Machala",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Drugs",
+            "volume": "60",
+            "issn": "",
+            "pages": "35--53",
+            "other_ids": {
+                "DOI": [
+                    "10.2165/00003495-200060010-00004"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Efforts to improve the seasonal influenza vaccine",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Harding",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Heaton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/vaccines6020019"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The 2015 global production capacity of seasonal and pandemic influenza vaccine",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mclean",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Golding",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Nannei",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sparrow",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Torelli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "34",
+            "issn": "",
+            "pages": "5410--5413",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.vaccine.2016.08.019"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Molecular changes associated with adaptation of human influenza A virus in embryonated chicken eggs",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Widjaja",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ilyushina",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Webster",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Webby",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Virology",
+            "volume": "350",
+            "issn": "",
+            "pages": "137--1451",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.virol.2006.02.020"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The characteristics and antigenic properties of recently emerged subclade 3c.3a and 3c.2a human influenza A (H3N2) viruses passaged in mdck cells. Influenza Other Respir",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wharton",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Whittaker",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dai",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ermetal",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pontoriero",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Baumeister",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Daniels",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Mccauley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "11",
+            "issn": "",
+            "pages": "263--274",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/irv.12447"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Rationally designed influenza virus vaccines that are antigenically stable during growth in eggs",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Harding",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Heaton",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dumm",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Heaton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "8",
+            "issn": "",
+            "pages": "669--686",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/mBio.00669-17"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Harnessing the power of T cells: The promising hope for a universal influenza vaccine",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Clemens",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Van De Sandt",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wakim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Valkenburg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/vaccines6020018"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Protective efficacy of in vitro synthesized, specific mrna vaccines against influenza a virus infection",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Petsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schnee",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Vogel",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lange",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Voss",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Schlake",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Thess",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kallen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Stitz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Nat. Biotechnol",
+            "volume": "30",
+            "issn": "",
+            "pages": "1210--1216",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nbt.2436"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Preclinical and clinical demonstration of immunogenicity by mRNA vaccines against H10N8 and H7N9 influenza viruses",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bahl",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Senn",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Yuzhakov",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bulychev",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Brito",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hassett",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Laska",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u00d6",
+                    "middle": [],
+                    "last": "Almarsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Thompson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Mol. Ther",
+            "volume": "25",
+            "issn": "",
+            "pages": "1316--1327",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ymthe.2017.03.035"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Phase 1/2 study to describe the safety and immunogenicity of a COVID-19 RNA vaccine candidate (BNT162b1) in adults 18 to 55 years of age: Interim report",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mulligan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lyke",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kitchin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Absalon",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gurtman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lockhart",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Neuzil",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Raabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bailey",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Swanson",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.06.30.20142570"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "An mRNA vaccine against SARS-CoV-2-preliminary report",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jackson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Rouphael",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Roberts",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Makhene",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Coler",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Mccullough",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Chappell",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Denison",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Stevens",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N. Engl. J. Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2022483"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "New kids on the block: RNA-based influenza virus vaccines",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Scorza",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Pardi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/vaccines6020020"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "WHO Preferred Product Characteristics for Next-Generation Influenza Vaccines; World Health Organization",
+            "authors": [],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Immune history and influenza vaccine effectiveness",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lewnard",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cobey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/vaccines6020028"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Roads to advanced vaccines: Influenza case study",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Riese",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Guzman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Microb. Biotechnol",
+            "volume": "10",
+            "issn": "",
+            "pages": "1036--1040",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/1751-7915.12835"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "A computationally optimized broadly reactive antigen (COBRA) based H5N1 VLP vaccine elicits broadly reactive antibodies in mice and ferrets",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Giles",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ross",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "29",
+            "issn": "",
+            "pages": "3043--3054",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.vaccine.2011.01.100"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Effectiveness of MF59-adjuvanted seasonal influenza vaccine in the elderly: A systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Domnich",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Arata",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Amicizia",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Puig-Barbera",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gasparini",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Panatto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "35",
+            "issn": "",
+            "pages": "513--520",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.vaccine.2016.12.011"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Seeking help: B cells adapting to flu variability",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Van Der Most",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Roman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Innis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Hanon",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Vaughn",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gillard",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Walravens",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wettendorff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Sci. Transl. Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/scitranslmed.3008409"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Mucosal administration of cycle-di-nucleotide-adjuvanted virosomes efficiently induces protection against influenza H5N1 in mice",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ebensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Debarry",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Pedersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Blazejewska",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Weissmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Schulze",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mccullough",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cox",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Guzm\u00e1n",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Front. Immunol",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fimmu.2017.01223"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "The human viral challenge model: Accelerating the evaluation of respiratory antivirals, vaccines and novel diagnostics",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lambkin-Williams",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Noulin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mann",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Catchpole",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gilbert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Respir. Res",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12931-018-0784-1"
+                ]
+            }
+        }
+    },
+    "ref_entries": {},
+    "back_matter": [
+        {
+            "text": "Vaccines 2020, 8, 464 ",
+            "cite_spans": [
+                {
+                    "start": 15,
+                    "end": 17,
+                    "text": "8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 18,
+                    "end": 21,
+                    "text": "464",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}

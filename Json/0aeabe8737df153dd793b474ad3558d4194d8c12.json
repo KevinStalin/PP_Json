@@ -1,0 +1,1737 @@
+{
+    "paper_id": "0aeabe8737df153dd793b474ad3558d4194d8c12",
+    "metadata": {
+        "title": "COVID-19 PANDEMICS: HOW FAR ARE WE FROM HERD IMMUNITY?",
+        "authors": [
+            {
+                "first": "Carlos",
+                "middle": [],
+                "last": "Hernandez-Suarez",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Efren",
+                "middle": [],
+                "last": "Murillo-Zamora",
+                "suffix": "",
+                "affiliation": {},
+                "email": "efren.murilloza@imss.gob.mx"
+            },
+            {
+                "first": "Francisco",
+                "middle": [],
+                "last": "Espinoza G\u00f3mez",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Objectives: to estimate the current number of total infections in a region in order to measure the progress of the epidemic with the purpose of reopening activities and planning the deployment of vaccines.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We recovered estimates of the basic reproductive number (R0) and the Infection Fatality Risk (IFR) as well as the number of confirmed cases and deaths in several countries.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Methods: this works presents an expression to estimate the number of remaining susceptible in a population using the observed number of SARS-CoV-2 related deaths and current estimates of R0 and IFR.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": ": the epidemic will infect most of the population causing 2.5 deaths per thousand inhabitants on average, and herd immunity will be achieved when the number of deaths per thousand inhabitants is close to two. This work introduces an expression to provide estimates of the number of remaining susceptible in a region using the reported number of deaths.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Conclusions: any region with fewer than 2.5 deaths per thousand individuals will continue accumulating deaths until this average is achieved, and the infection rate will exceed the removal rate until the number of deaths is about two deaths per thousand, when herd immunity is reached. Waves may occur in any region where the number of deaths is below the herd immunity level.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Although the COVID-19 pandemic possesses a relative low lethality rate, the actual burden of the disease thus far has been enormous. Many economic activities have had to be suspended or reduced and the pressure to reopen schools has been quite substantial. More information is required for policymakers and the general public to make informed decisions and to avoid potential civil unrest. The competition for developing a vaccine is intense, with about 321 vaccine candidates with 32 clinical trials currently in progress [1] . Besides the safety concerns [2, 3] the additional economic cost for the purchase and deployment of vaccines has not been factored into the substantial burden of the disease. To date, three vaccines have ended phase III trials and appear to show promising efficacy: Moderna, Pfizer-BioNTech and AstraZeneca-Oxford.",
+            "cite_spans": [
+                {
+                    "start": 523,
+                    "end": 526,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 557,
+                    "end": 560,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 561,
+                    "end": 563,
+                    "text": "3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "At present, without available vaccines or effective pharmaceutical treatments, the decision on whether to reopen activities or not depends primarily on the number of additional projected infections and deaths caused because by opening schools, allowing public gatherings, opening tourist sites, increasing number of people allowed in cinemas, restaurants, buses, planes, etc. For a highly infectious virus like SARS-CoV-2, any change in policy should be based on the remaining susceptible population in the affected region, that is, in the progress of the disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Using the number of individuals accessing private or public hospitals as a surrogate of the current number of infections, or even the number of confirmed cases, is not very accurate. This is the case because numbers strongly depend on the availability of medical services that are not always accessible to large segments of the population in many countries, either because of a lack of resources for test deployment or because of policies that disregard testing. The number of deaths is a more accurate indicator.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "If one calculates the IFR, that is, average number of infections that result in the death of one individual, this number can be used to estimate the number of infections that were required to observe the current number of deaths and the share of susceptible individuals in a well-defined population. Even though deaths are not reported as COVID-19 related, records may exist that shed light on the likelihood that the deaths were or were not caused by SARS-CoV-2. This strategy forms part of the policy adopted by some countries like Belgium, which is, without doubt, one of the reasons why this country reports one of the highest number of deaths per capita in Europe.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "In order to estimate the progress of the epidemic in a region of interest we need to estimate two quantities: how many individuals will be infected (X) and how many infected there are at the moment (Y). The quotient Y/X is an estimate of the progress of the disease. In here we attempt to provide estimates of both quantities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Two facts form the basis of this work. The first proposes that, with few exceptions, it is almost impossible to stop this pandemic by mitigation and control measures, and that the most that can be done is to reduce the infection rate (at a huge economic and social cost), which is commonly referred to as flattening the curve. These measures may be implemented effectively for some time, but it is extremely difficult to maintain due to the enormous social and economic costs. The second establishes that there are now several reliable estimates of the IFR available, from different studies. It is the confluence of these two facts that permits us to establish a surrogate for the progression of the epidemic in a region and calculate the share of susceptible available, which can be used as the basis to reopen activities and deploy vaccines.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODOLOGY"
+        },
+        {
+            "text": "The basic reproductive number (R0) of a disease is the potential of disease transmission in the absence of any control or mitigation measures, and it is this potential that comes into play as soon as control or mitigation measures are suspended. Several studies have shown that the basic reproductive number R0 may be as high as 5.7 [4, 5, 6, 7, 8] . Here, we use the Susceptible-",
+            "cite_spans": [
+                {
+                    "start": 333,
+                    "end": 336,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 337,
+                    "end": 339,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 340,
+                    "end": 342,
+                    "text": "6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 343,
+                    "end": 345,
+                    "text": "7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 346,
+                    "end": 348,
+                    "text": "8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The expected number of SARS-CoV-2 infections"
+        },
+        {
+            "text": "[9] For this model, the estimated fraction of final, infected f, is . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Infected-Removed (SIR) model introduced by Kermack and McKendrick"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 22, 2020. ; https://doi.org/10.1101/2020.12.19.20248571 doi: medRxiv preprint approximately:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Infected-Removed (SIR) model introduced by Kermack and McKendrick"
+        },
+        {
+            "text": "(for a probabilistic derivation, see [10] ). For instance, if R0 = 5.7 the fraction of infected will be f = 0.99. However, a reduction of R0 by half will make f = 0.93, that is, it does not result in a very large difference in the size of the epidemic. However, reducing R0 by half is an incredibly difficult task that, in the absence of vaccines, involves mainly lockdowns and the use of face masks, which has a huge social and economic cost that cannot be sustained for long periods, except for rich countries or countries whos e political or cultural organization allows their implementation.",
+            "cite_spans": [
+                {
+                    "start": 37,
+                    "end": 41,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Infected-Removed (SIR) model introduced by Kermack and McKendrick"
+        },
+        {
+            "text": "Nevertheless, even if a country manages to implement actions to reduce R0 to a value of less than one and can support citizens economically to maintain the lockdown for long periods, a handful of infected individuals who enter the country from abroad can restart the infection process if lockdowns are lifted, resulting in repeated waves (see Fig. 1 for examples in Belgium, France, Italy, Spain and Sweden). This is particularly true for a disease where the number of asymptomatic individuals is by far larger than that the number of symptomatic, making it difficult to control. For instance, the probability that n infected individuals will cause an epidemic is approximately 1 \u2212 (1/ 0 ) , which, for R0=5.7 and n=1 is about 0.82.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 343,
+                    "end": 349,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Infected-Removed (SIR) model introduced by Kermack and McKendrick"
+        },
+        {
+            "text": "Nevertheless, if we start with just 3 infectious, the probability grows to . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Infected-Removed (SIR) model introduced by Kermack and McKendrick"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 22, 2020. ;  0.99, this is the reason why it is unlikely that lockdowns will be effective to control the spread of the virus. As a consequence, Equation 1 can be seen as a quota of infections that must be fulfilled, as long as the fraction of remaining susceptible is larger than f. The lethality of SARS-COV-2 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [
+                {
+                    "start": 50,
+                    "end": 70,
+                    "text": "December 22, 2020. ;",
+                    "ref_id": null
+                },
+                {
+                    "start": 71,
+                    "end": 71,
+                    "text": "",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Infected-Removed (SIR) model introduced by Kermack and McKendrick"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 22, 2020. ; https://doi.org/10.1101/2020. 12.19.20248571 doi: medRxiv preprint In here we use the notation 'IFR' to indicate the true overall Infection Fatality Risk Fatality of SARS-CoV-2, given in expected deaths per thousand infections, whereas we use 'IFR*' to indicate the observed number of deaths per thousand individuals in a region of interest. Some attempts have been made to estimate IFR which would be a remarkable surrogate to measure the progress of epidemics in an arbitrarily defined region or population. However, the main drawback is that although the number of deaths from SARS-CoV-2 can be approximated, the total number of infected from the disease is elusive, especially considering that a large fraction of individuals that are infected are asymptomatic. Besides, the efficacy of immunity tests to detect who has been infected and recovered has been challenged with the findings that the ability to detect antibodies is reduced in a few days, especially in those with mild or no symptoms [12, 13] . Recently, Eyre et al. [14] reported that a high fraction of individuals with none or mild symptoms may be undiagnosed mainly due to the calibration strategies of some standardized tests and concluded that samples from individuals with mild/asymptomatic infection should be included in SARS-CoV-2 immunoassay evaluations.",
+            "cite_spans": [
+                {
+                    "start": 101,
+                    "end": 137,
+                    "text": "12.19.20248571 doi: medRxiv preprint",
+                    "ref_id": null
+                },
+                {
+                    "start": 1070,
+                    "end": 1074,
+                    "text": "[12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1075,
+                    "end": 1078,
+                    "text": "13]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1103,
+                    "end": 1107,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Infected-Removed (SIR) model introduced by Kermack and McKendrick"
+        },
+        {
+            "text": "Some studies to estimate the IFR have been recently released for Iceland [15] , India [16] , Germany [17] and Denmark [18] among others. A median of 0.25% is reported in a review of 23 studies where the IFR was estimated by Ioannidis [19] which is about 2.5 deaths for each 1000 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [
+                {
+                    "start": 73,
+                    "end": 77,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 86,
+                    "end": 90,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 101,
+                    "end": 105,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 118,
+                    "end": 122,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 234,
+                    "end": 238,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Infected-Removed (SIR) model introduced by Kermack and McKendrick"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 22, 2020. ;  individuals. The study in Iceland, [15] , the most comprehensive to date, proposes an IFR of 3 per thousand (95% CI, 2 to 6). This estimate deserves some caution since Iceland has a population of 322 thousand inhabitants with only 29 deaths when the estimate was calculated. In other studies that used transmission models fed with serological data, the IFR estimates were as high as 2.5-5 [20] and 3-8 [21 per thousand infections.",
+            "cite_spans": [
+                {
+                    "start": 50,
+                    "end": 70,
+                    "text": "December 22, 2020. ;",
+                    "ref_id": null
+                },
+                {
+                    "start": 71,
+                    "end": 71,
+                    "text": "",
+                    "ref_id": null
+                },
+                {
+                    "start": 107,
+                    "end": 111,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Infected-Removed (SIR) model introduced by Kermack and McKendrick"
+        },
+        {
+            "text": "Due to the high R0 of SARS-CoV-2 we conclude that most of individuals will be infected and the degree of advance of the epidemics can be estimated by measuring how far we are from the expected share of deaths, that is, using IFR*/ IFR. Thus, one can estimate the fraction of total infected at time t, asymptomatic or not, with:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RESULTS"
+        },
+        {
+            "text": "where xt is the number of observed deaths at time t and N is the population size. The estimated fraction of susceptible as a function of the IFR in New Jersey and New York is shown in Fig. 2 . We can see that if the IFR=2.5/1000, the fraction of remaining susceptible in New Jersey and New York is 18% and 26%, respectively.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 184,
+                    "end": 190,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Herd immunity"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 22, 2020. ; https://doi.org/10.1101/2020.12.19.20248571 doi: medRxiv preprint Herd immunity is achieved when the rate at which new infections are acquired equals the rate at which infected die or recover, which in an SIR occurs when the fraction of infected is 1 \u2212 1/R0. Since a fraction IFR of these infected die, herd immunity occurs when the fraction of deaths equals IFR(1 \u2212 1/R 0 ). Using a conservative estimate of R 0 = 5 and IFR = 2.5 per thousand infected, we conclude herd immunity occurs when the share of infected is 80%, that is, when the number of deaths equals 2 individuals per thousand. It is important to stress that herd immunity does not mark the end of the epidemic, but only the point at which recoveries are more likely than new infections. is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review) preprint"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 22, 2020. ; https://doi.org/10.1101/2020. 12.19.20248571 doi: medRxiv preprint and New York as a function of the lethality of SARS-CoV-2.",
+            "cite_spans": [
+                {
+                    "start": 101,
+                    "end": 137,
+                    "text": "12.19.20248571 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review) preprint"
+        },
+        {
+            "text": "Using the IFR and the current number of deaths seems to be useful to estimate the progress of the disease and every effort has to be made to improve current estimates of the IFR. Hernandez-Suarez et al. [22] suggested that because of the high contagiousness of SARS-CoV-2, secondary cases resulting in fatalities in a household with at least one confirmed infected individual may be useful to estimate the IFR. This approach is significant because it would provide a large amount of data and require minimal testing.",
+            "cite_spans": [
+                {
+                    "start": 203,
+                    "end": 207,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Antibody testing in New York shows to date (12/12/2020) that out of 3 007 758 tests, 731 512 were positive for antibodies [23] , that is, 24% of the population may be immune. This contradicts our findings that for an IFR as high as 2.5 per thousand the percentage of infected should already be close to 75% (see Fig. 3 ). Nevertheless, the fraction of people with antibodies is not a good surrogate of the fraction of infected individuals with SARS-CoV-2 because it underestimates the number of infected for two reasons: first, antibody testing is voluntary and it is natural to expect individuals with no symptoms to be less compelled to get tested than those who are symptomatic, resulting in a large percentage of infected not being tested, and second, some failures in testing have been reported, apparently . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [
+                {
+                    "start": 122,
+                    "end": 126,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 312,
+                    "end": 318,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 22, 2020. ; https://doi.org/10.1101/2020.12.19.20248571 doi: medRxiv preprint due to calibration procedures that tend to fail in individuals with none or mild symptoms [14] .",
+            "cite_spans": [
+                {
+                    "start": 227,
+                    "end": 231,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The use of deaths as a more reliable surrogate of the number of infected is illustrated in Fig. 3 . The current IFR* calculated for the states of New Jersey and New York is 2.049 and 1.856, respectively. In the las two months from 10/18/2020 to 12/18/2020, the percentage of the state of New Jersey's population confirmed with SARS-CoV-2 and that of deaths increased 2.25% and 0.021%, respectively, that is, confirmed cases grew 107 more times than deaths. For the state of New York, the increase was 1.7% and 0.013% respectively, that is, 133 times more confirmed than deaths. Any attempt to attribute this uneven growth between confirmed and deaths to improvements in medical treatment, would be unreasonable. It is more rational to assume that the interest in being tested has increased.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 91,
+                    "end": 97,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 22, 2020. ; Fig. 3 : Percentage of the population that has been confirmed or died from SARS-CoV-2 in the states of New Jersey and New York. While the share of confirmed cases exhibits a second wave, that of deaths has remained steady. The current number of deaths per thousand inhabitants is: New Jersey: 2.049; New York: 1.856. Data updated to 12/18/2020 from [11] .",
+            "cite_spans": [
+                {
+                    "start": 420,
+                    "end": 424,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 71,
+                    "end": 77,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The idea that the share of susceptible in New Jersey is relatively small depicted in Fig. 2 is supported by the number of active cases reported to date in the state (12/18/2020) is about 200 000. Unless they are fully quarantined, the infectious pressure from these individuals and those unreported must be huge, however, no new significant peak in deaths has been observed (see Fig. 3 ). The same happens in New York, with 371 000 active cases to date, although the share of susceptible is higher.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 85,
+                    "end": 91,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 379,
+                    "end": 385,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 22, 2020. ; https://doi.org/10.1101/2020. 12.19.20248571 doi: medRxiv preprint It is important to add that the uncertainty of how far the state is from achieving herd immunity is mainly driven by the uncertainty in the IFR estimate. Every effort should be made to obtain more accurate estimates.",
+            "cite_spans": [
+                {
+                    "start": 101,
+                    "end": 137,
+                    "text": "12.19.20248571 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The possibility of achieving herd immunity requires the existence of immunity after infection. New research indicates the presence of immunity for at least 6 months after infection [24, 25, 26] . In this study, spike IgG was relatively stable over 6 months after infection although CD4+ T cells and CD8+ T cells declined with a half-life of 3-5 months. This conveys good news for those regions well advanced in the epidemics that will soon achieve herd immunity and for those waiting for a vaccine.",
+            "cite_spans": [
+                {
+                    "start": 181,
+                    "end": 185,
+                    "text": "[24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 186,
+                    "end": 189,
+                    "text": "25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 190,
+                    "end": 193,
+                    "text": "26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Manaus, in Brazil, is a city where the COVID-19 pandemics has hit hard, with an estimated 76% attack rate in October based in an analysis of antibodies in a sample of blood donors [27] . To date (12/18/2020), there has been 3 167 confirmed deaths of COVID-19 [28] . The estimated population in Manaus is over 2 million, thus, using expression (2) we estimate that to date the share of infected in Manaus is 63%, which is our estimate of the progress of the epidemic so far in the city.",
+            "cite_spans": [
+                {
+                    "start": 180,
+                    "end": 184,
+                    "text": "[27]",
+                    "ref_id": null
+                },
+                {
+                    "start": 259,
+                    "end": 263,
+                    "text": "[28]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "If we believe that only a fraction p of the COVID-19 related deaths was recorded, then expression (2) can be modified to:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "to obtain an improved estimate of the progress of the disease. For instance, if we believe 15% of deaths was unrecorded in Manaus, p=0.85 and this . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 22, 2020. ;  would increase our previous estimate of 63% infected to 74%, much closer to the estimated value in October [27] .",
+            "cite_spans": [
+                {
+                    "start": 50,
+                    "end": 70,
+                    "text": "December 22, 2020. ;",
+                    "ref_id": null
+                },
+                {
+                    "start": 71,
+                    "end": 71,
+                    "text": "",
+                    "ref_id": null
+                },
+                {
+                    "start": 179,
+                    "end": 183,
+                    "text": "[27]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Everything leads to the following question: what will be the purpose of a vaccine in a region where the number of deaths per thousand is already large enough to suggest there is only a small fraction of susceptible with limited chance of infection? This question is especially valid from the comprehensive study in Iceland that strongly suggests the existence of immunity due to infection [15] . Unless it is proven that immunity wanes beyond a protective level after some time, everything seems to indicate that those regions where the share of estimated susceptible is already low should have less priority in the distribution of vaccines. If these considerations are not taken into account, a vaccination campaign in a region where the proportion of deaths among the population is close to 2 will just give the impression of being effective but will not play a significant role, regardless of the efficacy of the vaccine.",
+            "cite_spans": [
+                {
+                    "start": 389,
+                    "end": 393,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Competing interests: none declared Ethical approval: Not required: There is no data resulting from experimentation or sensitive whatsoever. All data used has been published elsewhere and the source has been properly referenced.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding: none"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding: none"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 22, 2020. ; https://doi.org/10.1101/2020.12.19.20248571 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding: none"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Evolution of the COVID-19 vaccine development landscape",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Le",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Cramer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mayhew",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Rev Drug Discov",
+            "volume": "19",
+            "issn": "10",
+            "pages": "667--675",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Vaccine confidence in the time of COVID-19. European journal of epidemiology",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Harrison",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "35",
+            "issn": "",
+            "pages": "325--355",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Avoiding pitfalls in the pursuit of a COVID-19 vaccine",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Peeples",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "News Feature",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "117",
+            "issn": "",
+            "pages": "8218--8239",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "High Contagiousness and Rapid Spread of Severe Acute Respiratory Syndrome Coronavirus 2",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sanche",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Romero-Severson",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hengartner",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Infect Dis",
+            "volume": "26",
+            "issn": "7",
+            "pages": "1470--1477",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Assessment of the SARS-CoV-2 basic reproduction number, R0, based on the early phase of COVID-19 outbreak in Italy",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "D&apos;arienzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Coniglio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Bios Health",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Estimation of basic reproduction number for COVID-19 and the reasons for its differences",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Najafimehr",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mohamed",
+                    "middle": [],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Safari",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yousefifard",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hosseini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Clin Pract",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The reproductive number of COVID-19 is higher compared to SARS coronavirus",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Gayle",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wilder-Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rockl\u00f6v",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Travel Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "The estimate of the basic reproduction number for novel coronavirus disease (COVID-19): a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Alimohamadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Taghdir",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sepandi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Prev Med Pub Health",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "A contribution to the mathematical theory of epidemics",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Kermack",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Mckendrick",
+                    "suffix": ""
+                }
+            ],
+            "year": 1927,
+            "venue": "Proc R Soc Lon Ser-A",
+            "volume": "115",
+            "issn": "772",
+            "pages": "700--721",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Applications of occupancy urn models to epidemiology",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hernandez-Suarez",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Mendoza-Cano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Math Biosci Eng",
+            "volume": "6",
+            "issn": "3",
+            "pages": "509--520",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "An interactive web-based dashboard to track COVID-19 in real time",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gardner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "20",
+            "issn": "5",
+            "pages": "533--534",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Clinical and immunological assessment of asymptomatic SARS-CoV-2 infections",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Long",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lv",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Med",
+            "volume": "26",
+            "issn": "8",
+            "pages": "1200--1204",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Rapid decay of anti-SARS-CoV-2 antibodies in persons with mild Covid-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hausner",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Ferbas",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Tobin",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Aldrovandi",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "383",
+            "issn": "11",
+            "pages": "1085--1092",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Stringent thresholds for SARS-CoV-2 IgG assays result in under-detection of cases reporting loss of taste/smell. medRxiv",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Eyre",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Lumley",
+                    "suffix": ""
+                },
+                {
+                    "first": "O&apos;",
+                    "middle": [],
+                    "last": "Donnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Stoesser",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Matthews",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Howarth",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hatch",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Marsden",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Cox",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "James",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Cornall",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.07.21.20159038"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Humoral Immune Response to SARS-CoV-2 in Iceland",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gudbjartsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Norddahl",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Melsted",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gunnarsdottir",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Holm",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Eythorsson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Estimation of Undetected Covid-19 Infections in India. medRxiv",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mukhopadhyay",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Chakraborty",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.20.20072892"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Infection fatality rate of SARS-CoV2 in a super-spreading event in Germany",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Streeck",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Schulte",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ku Mmerer",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Richter",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Fuhrmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Commun",
+            "volume": "11",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Estimation of SARS-CoV-2 infection fatality rate by real-time antibody screening of blood donors. medRxiv",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Erikstrup",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hother",
+                    "suffix": ""
+                },
+                {
+                    "first": "Obv",
+                    "middle": [],
+                    "last": "Pedersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "M\u00f8lbak",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Skov",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Holm",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "The infection fatality rate of COVID-19 inferred from seroprevalence data. medRxiv",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ioannidis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.05.13.20101253"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Inferring the infection fatality rate (ifr) of Covid-19 from the behaviour of Lombardy, Madrid and London relative to the remainder of Italy",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Thorne",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2005.00495"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Using early data to estimate the actual infection fatality ratio from COVID-19 in France",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Roques",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Klein",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Papaix",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Soubeyrand",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Biology",
+            "volume": "9",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Estimation of the infection fatality rate and the total number of SARS-CoV-2 infections. medRxiv",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hernandez-Suarez",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Verme",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Murillo-Zamora",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.23.20077446"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "COVID-19: Data",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Nyc-Health",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2020--2031",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Immunological memory to SARS-CoV-2 assessed for greater than six months after infection. bioRxiv",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Dan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mateus",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kato",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hastie",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Faliti",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Ramirez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.11.15.383323"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Evolution of Antibody Immunity to SARS-CoV-2. bioRxiv",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gaebler",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jcc",
+                    "middle": [],
+                    "last": "Lorenzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Muecksch",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Finkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tokuyama",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.11.03.36739"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Serological follow-up of SARS-CoV-2 asymptomatic subjects. Sci Rep",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Milani",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Dioni",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Favero",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cantone",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Macchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Delbue",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bonzini",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Montomoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Bollati",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "10",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Three-quarters attack rate of SARS-CoV-2 in the Brazilian Amazon during a largely unmitigated epidemic",
+            "authors": [],
+            "year": 1928,
+            "venue": "Science",
+            "volume": "",
+            "issn": "",
+            "pages": "2020--2038",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "The appearance of a second wave. Accumulated number of deaths per thousand population. The use of fatalities instead of confirmed cases delays the detection of a wave but is more efficient in the sense that it does not depend on testing policies, availability or panic. The current number of deaths per thousand inhabitants for is Belgium: 1.58; France: 0.91; Italy: 1.11; Spain: 1.04; Sweden: 0.789. Data updated to 12/18/2020 from [11])",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "The fraction of remaining susceptible in the states of New Jersey",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

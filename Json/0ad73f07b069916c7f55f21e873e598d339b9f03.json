@@ -1,0 +1,2788 @@
+{
+    "paper_id": "0ad73f07b069916c7f55f21e873e598d339b9f03",
+    "metadata": {
+        "title": "ERK1/2-HNF4\u03b1 axis is involved in epigallocatechin-3-gallate inhibition of HBV replication",
+        "authors": [
+            {
+                "first": "Zi-Yu",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yu-Qi",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Zhi-Wei",
+                "middle": [],
+                "last": "Guo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Xing-Hao",
+                "middle": [],
+                "last": "Zhou",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mu-Dan",
+                "middle": [],
+                "last": "Lu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tong-Chun",
+                "middle": [],
+                "last": "Xue",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Bo",
+                "middle": [],
+                "last": "Gao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Epigallocatechin gallate (EGCG), a major polyphenol in green tea, exhibits diverse biological activities. Previous studies show that EGCG could effectively suppress HBV gene expression and replication, but the role of EGCG in HBV replication and its underlying mechanisms, especially the signaling pathways involved, remain unclear. In this study we investigated the mechanisms underlying EGCG inhibition on HBV replication with a focus on the signaling pathways. We showed that EGCG (12.5\u221250 \u03bcM) dose-dependently inhibited HBV gene expression and replication in HepG2.2.15 cells. Similar results were observed in HBV mice receiving EGCG (25 mg\u00b7 kg \u22121 \u00b7 d \u22121 , ip) for 5 days. In HepG2.2.15 cells, we showed that EGCG (12.5\u221250 \u03bcM) significantly activate ERK1/2 MAPK signaling, slightly activate p38 MAPK and JAK2/STAT3 signaling, while had no significant effect on the activation of JNK MAPK, PI3K/ AKT/mTOR and NF-\u03baB signaling. By using specific inhibitors of these signaling pathways, we demonstrated that ERK1/2 signaling pathway, but not other signaling pathways, was involved in EGCG-mediated inhibition of HBV transcription and replication. Furthermore, we showed that EGCG treatment dose-dependently decreased the expression of hepatocyte nuclear factor 4\u03b1 (HNF4\u03b1) both at the mRNA and protein levels, which could be reversed by pretreatment with the ERK1/2 inhibitor PD98059 (20 \u03bcM). Moreover, we revealed that EGCG treatment dose-dependently inhibited the activity of HBV core promoter and the following HBV replication. In summary, our results demonstrate that EGCG inhibits HBV gene expression and replication, which involves ERK1/2mediated downregulation of HNF4\u03b1.These data reveal a novel mechanism for EGCG to inhibit HBV gene expression and replication.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Hepatitis B virus (HBV) infection remains a major world health threat, despite the availability of an effective vaccine. Approximately 260 million people are chronically infected with HBV worldwide, and these individuals may develop end-stage liver diseases, such as liver fibrosis and hepatocellular carcinoma [1, 2] . Interferon-\u03b1 (IFN-\u03b1) and nucleos(t)ide analogs (such as lamivudine, entecavir) have been approved for the treatment of HBV infection; however, the relatively lower cure rate, side effects and drug resistance have limited their application [3, 4] . Thus, there is a strong need for novel anti-HBV agents.",
+            "cite_spans": [
+                {
+                    "start": 311,
+                    "end": 314,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 315,
+                    "end": 317,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 559,
+                    "end": 562,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 563,
+                    "end": 565,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Green tea is one of the most widely consumed beverages worldwide. In traditional Chinese medicine, green tea is regarded as a panacea, possessing antidiarrheal, antidotal, and antipyretic properties, indicating anti-infective activity in our modern concept [5, 6] . Epigallocatechin-3-gallate (EGCG) is the main component of green tea and is considered to account for most of its beneficial effects [7, 8] . Recent experimental evidence shows that EGCG displays an inhibitory effect on a variety of viruses [9] [10] [11] [12] [13] [14] . We and others have also demonstrated that EGCG could effectively suppress HBV gene expression and replication [15] [16] [17] [18] ; however, the role of EGCG in HBV replication and its underlying mechanisms, especially the signaling pathways involved, remain to be further explored.",
+            "cite_spans": [
+                {
+                    "start": 257,
+                    "end": 260,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 261,
+                    "end": 263,
+                    "text": "6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 399,
+                    "end": 402,
+                    "text": "[7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 403,
+                    "end": 405,
+                    "text": "8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 507,
+                    "end": 510,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 511,
+                    "end": 515,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 516,
+                    "end": 520,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 521,
+                    "end": 525,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 526,
+                    "end": 530,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 531,
+                    "end": 535,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 648,
+                    "end": 652,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 653,
+                    "end": 657,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 658,
+                    "end": 662,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 663,
+                    "end": 667,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "In natural infection, HBV transcription and replication are mainly restricted to the hepatocytes in the livers of humans and a limited number of primates [19, 20] . The reason for HBV tropism is largely unknown. Although it is assumed that infection is limited to the liver because of the tissue-restricted expression of the viral receptor [21, 22] , liver-enriched transcription factors, especially hepatocyte nuclear factor 4\u03b1 (HNF4\u03b1), are found to contribute to the hepatocyte-specific tropism of HBV [23] . Accumulating evidence indicates that the regulation of the expression of HNF4\u03b1 may play an important role in determining HBV transcription and replication [24, 25] . For example, the activation of signaling pathways, such as MAPKs, has been reported to affect the expression level of HNF4\u03b1 and contribute to the regulation of HBV replication [26] .",
+            "cite_spans": [
+                {
+                    "start": 154,
+                    "end": 158,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 159,
+                    "end": 162,
+                    "text": "20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 340,
+                    "end": 344,
+                    "text": "[21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 345,
+                    "end": 348,
+                    "text": "22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 504,
+                    "end": 508,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 666,
+                    "end": 670,
+                    "text": "[24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 671,
+                    "end": 674,
+                    "text": "25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 853,
+                    "end": 857,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "In the present investigation, we found that EGCG inhibited HBV gene expression and replication both in vitro and in vivo. Furthermore, our data showed that EGCG treatment could activate the p38 MAPK, ERK1/2 MAPK, and JAK2/STAT3 signaling pathways; however, it is the inhibition of ERK1/2, but not other signaling pathways, that contributed to the EGCG-mediated inhibition of HBV gene expression and replication. Furthermore, our data demonstrated that the ERK1/2 signaling pathway was implicated in the EGCG-mediated inhibition of HNF4\u03b1 and thus contributed to the EGCG-mediated suppression of HBV gene expression and replication.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Materials EGCG was purchased from Sigma Chemical (St Louis, MO, USA), MEK1/2 inhibitor, PD98059, p38 inhibitor SB203580, and JAK2/ STAT3 inhibitor AG490 were purchased from Calbiochem (La Jolla, CA, USA). Antibodies against p-AKT (#9271), AKT (#9272), p-mTOR (#2971), mTOR (#2972), p-ERK1/2 (#9101), ERK1/2 (#9102), p-p38 (#9211), p38 (#9212), p-JNK (#9251), JNK (#9252), p-JAK2 (#3771), p-STAT3 (#9138), STAT3 (#9139), p-I\u03baB\u03b1 (#2859), and p-NF-\u03baB-p65 (#3033) were obtained from Cell Signaling Technology (Beverly, MA, USA). Antibodies against HNF4\u03b1 (BS6888) and GAPDH (AP0063) were obtained from BioWorld Biotechnology (Minneapolis, MN, USA).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "Cell culture and transfection HepG2.2.15 cells were maintained at 37\u00b0C in DMEM containing 10% FBS in a 5% CO 2 atmosphere. For transfection, the cells were subjected to electrotransfection using Amaxa Nucleofector Technology (Amaxa GmbH, Koln, Germany).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "To establish an HBV infection mouse model, ten micrograms of pAAV-HBV1.2 was hydrodynamically injected into the tail veins of C57BL/6 mice in a volume of PBS equivalent to 8% of the mouse body weight as described previously [27] . Four weeks after the injection, serum HBsAg was detected to confirm the successful establishment of the HBV mouse model. For EGCG administration, HBV mice were injected intraperitoneally (ip) with EGCG (25 mg/ kg) daily for 5 consecutive days. The mouse sera were then collected and assayed for HBsAg and HBV-DNA, and liver tissues were collected for Western blotting or immunohistochemical staining. All animal experiments were conducted according to the Guide for the Care and Use of Medical Laboratory Animals (Ministry of Health, PR China, 1998) and with the approval of the Ethics Committee of Fudan University (Shanghai, China).",
+            "cite_spans": [
+                {
+                    "start": 224,
+                    "end": 228,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Animal study"
+        },
+        {
+            "text": "Western blot analysis Western blot analysis was performed as described previously [15, 28, 29] . Briefly, the proteins were denatured in SDS, resolved by SDS-PAGE, and transferred onto polyvinylidene fluoride membranes. The membranes were blocked for 2 h with nonfat dry milk solution (5% in TBS) containing 0.05% Tween-20 and then sequentially probed with the indicated primary antibodies and peroxidase-conjugated secondary antibodies. The bands were visualized by using SuperSignal chemiluminescent substrate (CWbiotech, Beijing, China).",
+            "cite_spans": [
+                {
+                    "start": 82,
+                    "end": 86,
+                    "text": "[15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 87,
+                    "end": 90,
+                    "text": "28,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 91,
+                    "end": 94,
+                    "text": "29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Animal study"
+        },
+        {
+            "text": "Quantitative reverse transcription PCR (qRT-PCR) qRT-PCR was performed as described previously [28, 30] . Briefly, the cells or liver tissues were harvested, and total RNA was isolated with RNAiso Plus (Takara, Dalian, China). cDNA was synthesized from 0.5 \u03bcg of RNA using the PrimeScript\u2122 RT Reagent Kit with gDNA Eraser (Perfect Real Time) (Takara). Prior to reverse transcription, gDNA Eraser was used to remove contaminating DNA according to the manufacturer's instructions. The qRT-PCR analysis of cDNA targets was performed using a Lightcycler 480 and a SYBR Green system (Takara). The primers used in this study are as follows: HBV pgRNA, forward, 5\u2032-TGTTCAAGCCTCCAAGCT-3\u2032 and reverse, 5\u2032-GGAAAGAAGTCAGAAGGCAA-3\u2032; HBV RNA, forward, 5\u2032-GCACTTCGCTTCACCTCTGC-3\u2032 and reverse, 5\u2032-CTCAAGGTCGGTC GTTGACA-3\u2032; HNF4\u03b1, forward, 5\u2032-TGTCCCGACAGATCACCTC-3\u2032 and reverse, 5\u2032-CACTCAACGAGAACCAGCAG-3\u2032; GAPDH, forward, 5\u2032-CG GGTGGGAATGTTGAGG-3\u2032 and reverse, 5\u2032-TGGCGGGAGATGTGGG TAC-3\u2032. The levels of pgRNA, HBV RNA or HNF4\u03b1 were calculated following normalization to GAPDH levels by the comparative \u0394\u0394 threshold cycle method. The specificity of the amplification reactions was confirmed by melt curve analysis. The results are representative of three independent experiments.",
+            "cite_spans": [
+                {
+                    "start": 95,
+                    "end": 99,
+                    "text": "[28,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 100,
+                    "end": 103,
+                    "text": "30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Animal study"
+        },
+        {
+            "text": "Extraction and quantitative analysis of intracellular core particleassociated HBV-DNA The method for the extraction and analysis of intracellular core particle-associated HBV-DNA in HepG2.2.15 cells or pAAV-HBV1.2injected mouse livers was described previously [15, 28, 29] . Briefly, HBV genomic DNA was then extracted with a Viral Genome Purification kit (CWbiotech, Beijing, China) following the manufacturer's protocol and subjected to quantitative PCR (qPCR) using an HBV diagnostic kit (Kehua Biotech, Shanghai, China) according to the manufacturer's instructions. For Southern hybridization, the intracellular core particle-associated HBV-DNA was extracted and probed with a digoxigenin (DIG)-labeled full-length HBV probe synthesized with a DIG probe synthesis kit (Roche Diagnostics, Mannheim, Germany).",
+            "cite_spans": [
+                {
+                    "start": 260,
+                    "end": 264,
+                    "text": "[15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 265,
+                    "end": 268,
+                    "text": "28,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 269,
+                    "end": 272,
+                    "text": "29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Animal study"
+        },
+        {
+            "text": "Immunochemical staining For immunohistochemical staining for HBcAg, paraffin-embedded sections were treated for 10 min at room temperature with 3% hydrogen peroxide and washed with PBS. After the sections were blocked with 5% BSA at 37\u00b0C for 30 min, a rabbit polyclonal antibody against HBcAg (Dako, Glostrup, Denmark) was applied at a 1:500 dilution overnight at 4\u00b0C. The secondary antibody labeled with biotin was incubated with the sections for 30 min, and then avidin-biotin complex reagent was used. Peroxidase staining was developed with 3,3\u2032-diaminobenzidine solution and counterstained with hematoxylin.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Animal study"
+        },
+        {
+            "text": "Luciferase assay The plasmids SpLUC, CpLUC, pS(1)pLUC, and XpLUC, each containing one complete HBV genome with the luciferase (LUC) gene governed by the surface, core, preS, or X promoter, respectively, were employed as reporters, as described previously [25, 29] . For the reporter gene assay, the HBV promoterdependent LUC reporter plasmids were transfected into HepG2.2.15 cells. Twenty-four hours post transfection, the cells were further stimulated with the indicated concentrations of EGCG for 24 h, and the LUC activity in the lysates of transfected cells was determined with a LUC reporter assay system (Promega, Madison, WI, USA). In all transfection assays, pCMV-\u03b2-gal was cotransfected to normalize the transfection efficiency.",
+            "cite_spans": [
+                {
+                    "start": 255,
+                    "end": 259,
+                    "text": "[25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 260,
+                    "end": 263,
+                    "text": "29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Animal study"
+        },
+        {
+            "text": "The data are expressed as the mean \u00b1 SEM. Comparisons between two groups were performed with a t-test, and multiple groups were compared using one-way analysis of variance. Statistical analysis was performed with the SPSS version 18.0 statistical software package. A value of P < 0.05 was considered statistically significant.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "To investigate the effect of EGCG on HBV gene expression and replication, we treated HepG2.2.15 cells with increasing concentrations of EGCG for 24 h and then detected the level of HBsAg and HBeAg in culture supernatants by ELISA, the level of HBcAg in cell lysates by Western blotting, the level of HBV transcripts by qRT-PCR, and the level of intracellular core particle-associated HBV-DNA by quantitative real-time PCR and Southern blotting. Our results showed that EGCG treatment markedly decreased the ERK1/2-HNF4\u03b1 axis contributes to EGCG inhibition of HBV ZY Wang et al. levels of HBeAg (Fig. 1b) and HBcAg ( Fig. 1c ) but only had a slight effect on the level of HBsAg (Fig. 1a) . Accordingly, our data showed that EGCG treatment downregulated the level of HBV transcripts, especially that of pgRNA (Fig. 1d) . Further study showed that EGCG could suppress HBV replication in a dosedependent manner (Fig. 1e, f) . To exclude the possibility that the inhibitory effect of EGCG on HBV gene expression and replication was due to its toxic effect on cells, we determined the cell viability of EGCG-treated cells by CCK8 assays. As shown in Fig. 1g , the concentration of EGCG used in the present investigation did not have a significant effect on the survival of HepG2.2.15 cells.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 594,
+                    "end": 603,
+                    "text": "(Fig. 1b)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 616,
+                    "end": 623,
+                    "text": "Fig. 1c",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 677,
+                    "end": 686,
+                    "text": "(Fig. 1a)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 807,
+                    "end": 816,
+                    "text": "(Fig. 1d)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 907,
+                    "end": 919,
+                    "text": "(Fig. 1e, f)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1144,
+                    "end": 1151,
+                    "text": "Fig. 1g",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "EGCG inhibited HBV gene expression and replication both in vitro and in vivo"
+        },
+        {
+            "text": "To further evaluate the inhibitory effect of EGCG on HBV replication, we established an HBV mouse model by the hydrodynamic injection of pAAV1.2 as described previously and then treated HBV mice with EGCG (25 mg/kg every day, ip) for 5 days, followed by the evaluation of the effect of EGCG on HBV gene expression and replication. The results showed that EGCG treatment decreased the levels of HBsAg (Fig. 2a) and strongly downregulated the levels of HBeAg (Fig. 2b) and HBV-DNA (Fig. 2c) in mouse sera. Data from qRT-PCR showed that EGCG treatment decreased the levels of HBV transcripts, especially that of pgRNA, in mouse liver tissues (Fig. 2e) . We also evaluated the expression of the HBV core antigen (HBcAg) in hepatocytes by immunohistochemical staining and found that EGCG treatment significantly downregulated the level of HBcAg in mouse liver tissue, as expected (Fig. 2d) . Furthermore, our data revealed that EGCG treatment efficiently decreased the core particle-associated HBV-DNA level in mouse liver tissues (Fig. 2f) . To exclude the possibility that the EGCG-mediated inhibition of HBV replication was due to its possible toxic effect on hepatocytes, we tested the level of ALT in mouse sera. The results showed that EGCG treatment had little effect on ALT levels (Fig. 2g) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 400,
+                    "end": 409,
+                    "text": "(Fig. 2a)",
+                    "ref_id": null
+                },
+                {
+                    "start": 457,
+                    "end": 466,
+                    "text": "(Fig. 2b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 479,
+                    "end": 488,
+                    "text": "(Fig. 2c)",
+                    "ref_id": null
+                },
+                {
+                    "start": 639,
+                    "end": 648,
+                    "text": "(Fig. 2e)",
+                    "ref_id": null
+                },
+                {
+                    "start": 875,
+                    "end": 884,
+                    "text": "(Fig. 2d)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1026,
+                    "end": 1035,
+                    "text": "(Fig. 2f)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1284,
+                    "end": 1293,
+                    "text": "(Fig. 2g)",
+                    "ref_id": null
+                }
+            ],
+            "section": "EGCG inhibited HBV gene expression and replication both in vitro and in vivo"
+        },
+        {
+            "text": "Taken together, our data indicated that EGCG possessed an inhibitory effect on HBV gene expression and replication both in vitro and in vivo.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "EGCG inhibited HBV gene expression and replication both in vitro and in vivo"
+        },
+        {
+            "text": "The ERK1/2 signaling pathway was involved in the EGCG-mediated inhibition of HBV Reports indicate that EGCG plays a crucial role in regulating signaling pathways [31] [32] [33] [34] , while HBV replication has a close relationship with the activation of some signaling pathways [28, [35] [36] [37] . We therefore paid particular attention to the possible role of signaling pathways in EGCG inhibition of HBV in the present investigation. We treated HepG2.2.15 cells with increasing amounts of EGCG for 24 h and then detected the activation of various signaling pathways by Western blotting. The results in the cell lysates was determined by Western blotting; the levels of HBV pgRNA and HBV RNAs (d) were determined by qRT-PCR; the levels of intracellular core particle-associated HBV-DNA (e, f) were determined by quantitative real-time PCR and Southern blotting, respectively; and the cell viability (g) was determined by CCK8 assay. The values are expressed as the means \u00b1 SEM of three independent experiments showed that EGCG treatment significantly upregulated the levels of phosphorylated ERK1/2 (p-ERK1/2), slightly upregulated the levels of p-p38, p-JAK2 and p-STAT3, and had little effect on the levels of p-JNK, p-AKT, p-mTOR, p-p70S6K, p-I\u03baB\u03b1, and p-NF-\u03baB-p65 (Fig. 3a) , indicating that EGCG treatment could significantly activate ERK1/2 MAPK signaling and slightly activate p38 MAPK and JAK2/STAT3 signaling, but had no significant effect on the activation of JNK MAPK, PI3K/AKT/mTOR, and NF-\u03baB signaling. To investigate the role of ERK MAPK, p38 MAPK and JAK2/ STAT3 signaling in the EGCG-mediated inhibition of HBV, HepG2.2.15 cells were pretreated with ERK inhibitor (PD98059), p38 inhibitor (SB203580) or JAK2/STAT3 inhibitor (AG490) for 1 h, followed by treatment with 25 \u03bcM EGCG for another 24 h. Our data showed that PD98059, SB203580, or AG490 could efficiently inhibit the activation of their corresponding signaling pathways (Fig. 3b) ; however, the inhibition of ERK1/2, but not other signaling pathways, significantly attenuated the EGCG-mediated inhibition of HBV gene expression and replication (Fig. 3c) .",
+            "cite_spans": [
+                {
+                    "start": 162,
+                    "end": 166,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 167,
+                    "end": 171,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 172,
+                    "end": 176,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 177,
+                    "end": 181,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 278,
+                    "end": 282,
+                    "text": "[28,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 283,
+                    "end": 287,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 288,
+                    "end": 292,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 293,
+                    "end": 297,
+                    "text": "[37]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1271,
+                    "end": 1280,
+                    "text": "(Fig. 3a)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1948,
+                    "end": 1957,
+                    "text": "(Fig. 3b)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 2122,
+                    "end": 2131,
+                    "text": "(Fig. 3c)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "EGCG inhibited HBV gene expression and replication both in vitro and in vivo"
+        },
+        {
+            "text": "The ERK1/2 signaling pathway contributes to the EGCG-mediated downregulation of HNF4\u03b1 Our above data showed that EGCG-activated ERK1/2 signaling, which has been reported to play important roles in the regulation of the liver-enriched factor HNF4\u03b1, a key player in HBV gene expression and replication [24, 26, 38] . We thus further investigated the effect of EGCG on the expression of HNF4\u03b1. Our data showed that EGCG treatment could downregulate the expression of HNF4\u03b1 at both the mRNA and protein levels in a dose-dependent manner (Fig. 4a, b) . Notably, our data showed that the EGCG-mediated downregulation of HNF4\u03b1 appeared to correlate with EGCG-activated ERK signaling (Fig. 4c) . Further studies showed that the inhibition of ERK signaling by treatment Fig. 2 The effect of EGCG on HBV gene expression and replication in mice. To evaluate the effect of EGCG on HBV replication, HBV mice were treated with or without EGCG (25 mg/kg every day, ip) for 5 days (n = 10 per group). The serum concentrations of HBsAg (a), HBeAg (b), and HBV-DNA (c) were determined by ELISA and quantitative real-time PCR; the level of HBcAg (d) in liver tissue was determined by immunohistochemical staining; the levels of HBV pgRNA and HBV RNAs (e) in liver tissues were determined by qRT-PCR; the levels of intracellular core particle-associated HBV-DNA (f) in liver tissues were determined by Southern blotting; and the levels of ALT (g) in mouse sera were determined by an ALT/GPT ELISA kit. The values were expressed as the means \u00b1 SEM of three independent experiments; *P < 0.05 (unpaired, two-tailed Student's t tests) with PD98059 significantly attenuated the EGCG-mediated inhibition of HNF4\u03b1 at both the mRNA and protein levels (Fig. 4d, e) , indicating that the ERK1/2 signaling pathway might play an important role in the EGCG-mediated inhibition of HNF4\u03b1.",
+            "cite_spans": [
+                {
+                    "start": 300,
+                    "end": 304,
+                    "text": "[24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 305,
+                    "end": 308,
+                    "text": "26,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 309,
+                    "end": 312,
+                    "text": "38]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 533,
+                    "end": 545,
+                    "text": "(Fig. 4a, b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 676,
+                    "end": 685,
+                    "text": "(Fig. 4c)",
+                    "ref_id": null
+                },
+                {
+                    "start": 761,
+                    "end": 767,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1724,
+                    "end": 1736,
+                    "text": "(Fig. 4d, e)",
+                    "ref_id": null
+                }
+            ],
+            "section": "EGCG inhibited HBV gene expression and replication both in vitro and in vivo"
+        },
+        {
+            "text": "EGCG inhibited the activity of HBV promoters HNF4\u03b1, as an important transcriptional factor, plays a crucial role in HBV transcriptional activity [20, 25] . We thus further investigated the effect of EGCG on the activity of all four HBV promoters: surface (S), core (C), preS (pS) and X promoters. Our data showed that EGCG treatment significantly suppressed the activity of HBV core and preS promoters but had no significant effect on the activity of S and X promoters (Fig. 5a-d) . These data were correlated with the EGCG-mediated effect on HBV gene expression and replication, i.e., EGCG displayed a stronger inhibitory effect on the level of HBeAg and HBV-DNA than on that of HBsAg. ERK1/2-HNF4\u03b1 contributed to the EGCG-mediated inhibition of HBV core promoter activity and subsequent HBV replication The above data showed that EGCG showed a strong inhibitory effect on the HBV core promoter, while the core promoter has been demonstrated to play a crucial role in HBV replication. We further investigated the role of the ERK1/2-HNF4\u03b1 axis in EGCGmediated inhibition of the HBV core promoter. Our data showed that the ERK1/2 inhibitor PD98059, but not the p38 inhibitor SB203580 or the JAK2/STAT3 inhibitor AG490, significantly attenuated EGCG-mediated inhibition of HBV core promoter activity (Fig. 6a) , correlated with their effect on HBeAg and HBV-DNA as shown in Fig. 3c . Furthermore, our data revealed that the ectopic expression of HNF4\u03b1 significantly reversed the EGCGmediated inhibition of HBV core promoter activity (Fig. 6b) . Furthermore, we determined the effect of HNF4\u03b1 on the EGCGmediated inhibition of HBV gene expression and replication. As shown in Fig. 6c , the ectopic expression of HNF4\u03b1 also significantly reversed the suppressive effect of EGCG on HBeAg and HBV-DNA levels. Taken together, these data indicated that the ERK1/2-HNF4\u03b1 axis was involved in the EGCG-mediated inhibition of HBV gene expression and replication.",
+            "cite_spans": [
+                {
+                    "start": 145,
+                    "end": 149,
+                    "text": "[20,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 150,
+                    "end": 153,
+                    "text": "25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 469,
+                    "end": 480,
+                    "text": "(Fig. 5a-d)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1298,
+                    "end": 1307,
+                    "text": "(Fig. 6a)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1372,
+                    "end": 1379,
+                    "text": "Fig. 3c",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1531,
+                    "end": 1540,
+                    "text": "(Fig. 6b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1673,
+                    "end": 1680,
+                    "text": "Fig. 6c",
+                    "ref_id": null
+                }
+            ],
+            "section": "EGCG inhibited HBV gene expression and replication both in vitro and in vivo"
+        },
+        {
+            "text": "Green tea, one of the most widely consumed beverages worldwide, has been shown to have diverse physiological and pharmacological health benefits, such as anticarcinogenic, antiinflammatory, and antioxidant activities [5, 39, 40] . In the past several decades, increasing evidence indicates that EGCG, the main constituent of green tea, displays antiviral activities with different modes of action against diverse viruses, including some important human pathogens, such as human immunodeficiency virus, influenza A virus, hepatitis C virus and HBV [10, [12] [13] [14] [15] [16] . Our previous data showed that EGCG induced a complete autophagic process, which is unfavorable for HBV replication [15] . However, even after the inhibition of EGCG-induced autophagy by the knockdown of some key regulators of autophagy (such as ATG5 and ATG7), EGCG still retained a significant inhibitory effect on HBV replication [15] , indicating that, as a multifunctional effector, EGCG might exert anti-HBV activity through other mechanisms.",
+            "cite_spans": [
+                {
+                    "start": 217,
+                    "end": 220,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 221,
+                    "end": 224,
+                    "text": "39,",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 225,
+                    "end": 228,
+                    "text": "40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 547,
+                    "end": 551,
+                    "text": "[10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 552,
+                    "end": 556,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 557,
+                    "end": 561,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 562,
+                    "end": 566,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 567,
+                    "end": 571,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 572,
+                    "end": 576,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 694,
+                    "end": 698,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 911,
+                    "end": 915,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In the present investigation, we further confirmed the inhibitory effect of EGCG on HBV gene expression and replication both in vitro and in vivo. The reports indicate that EGCG plays an important role in the regulation of diverse signaling pathways. For example, PKC\u03b1 and ERK1/2 signaling pathways are involved in EGCG-mediated protection against restraint stress-induced neural injuries in rats [32] , and EGCG could attenuate high-fat-and highfructose-induced cognitive defects by regulating the IRS/AKT and ERK/CREB/BDNF signaling pathways [33] . The activation of several signaling pathways, such as PI3K/AKT/mTOR signaling, has been suggested to play important roles in the regulation of HBV replication [35, 37] . Our previous investigation demonstrated that ROS-JNK signaling was involved in HBV/HBx-induced autophagosome formation and thus contributed to the regulation of HBV replication [28] . In mechanistic studies, we focused on the role of signaling pathways in the EGCG-mediated inhibition of HBV. Our data showed that EGCG treatment could activate the ERK1/2, p38 MAPK, and JAK2/STAT3 signaling pathways but had little effect on other signaling pathways, such as JNK MAPK, PI3K/AKT/mTOR, and NF-\u03baB signaling. However, further studies revealed that the activation of ERK1/2, but not p38 or JAK2/STAT3 signaling, played an important role in the suppression of HBV gene expression and replication by EGCG.",
+            "cite_spans": [
+                {
+                    "start": 397,
+                    "end": 401,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 544,
+                    "end": 548,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 710,
+                    "end": 714,
+                    "text": "[35,",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 715,
+                    "end": 718,
+                    "text": "37]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 898,
+                    "end": 902,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Several reports have indicated that ERK1/2 MAPK may have a close relationship with the regulation of HNF4\u03b1 [26, 41, 42] , while HNF4\u03b1 is now regarded as an important therapeutic target for controlling HBV replication [24, 43, 44] . Therefore, we investigated the effect of EGCG on the expression of HNF4\u03b1. Our data showed that EGCG treatment could downregulate the expression level of HNF4\u03b1 at both the mRNA and protein levels in a dose-dependent manner, and the effect of EGCG on ERK1/2 signaling was correlated with the EGCG-mediated downregulation of HNF4\u03b1. Furthermore, our data demonstrated that the inhibition of ERK1/ 2 signaling indeed significantly reversed the EGCG-mediated downregulation of HNF4\u03b1.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 111,
+                    "text": "[26,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 112,
+                    "end": 115,
+                    "text": "41,",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 116,
+                    "end": 119,
+                    "text": "42]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 217,
+                    "end": 221,
+                    "text": "[24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 222,
+                    "end": 225,
+                    "text": "43,",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 226,
+                    "end": 229,
+                    "text": "44]",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "HNF4\u03b1, as an important transcriptional factor, plays a crucial role in HBV transcriptional activity. We therefore also investigated the effect of EGCG on the activity of all four HBV promoters: core, S, preS and X promoters. EGCG treatment displayed a strong inhibitory effect on the HBV core promoter, while its effect on the HBV surface promoter was much less significant, which was correlated with the data showing that EGCG had a stronger (1) LUC (c) or XpLUC (d), respectively. Twenty-four hours post transfection, the cells were further treated with increasing doses of EGCG (25 \u00b5M and 50 \u00b5M) for another 24 h. The luciferase activity in cell lysates was then determined. The luciferase activity of EGCGuntreated cells was set to 100%. In all transfection assays, pCMV-\u03b2gal was cotransfected to normalize the transfection efficiency. The values are expressed as the means \u00b1 SEM of three independent experiments inhibitory effect on the level of HBeAg and HBV-DNA than that of HBsAg. Furthermore, our data revealed that the inhibition of ERK1/ 2 activity or HNF4\u03b1 overexpression significantly reversed the EGCG-mediated inhibition of HBV core promoter activity and the subsequent HBV replication, indicating that the ERK1/2-HNF4\u03b1 axis contributed to the EGCG-mediated inhibition of HBV gene expression and replication. Similar to our data, Zhao et al. [26] reported that an antimicrobial peptide, Mucroporin-M1, also suppressed HBV replication by activating ERK1/2 signaling and downregulating HNF4\u03b1. Together, these data suggest that targeting the ERK1/2-HNF4 axis may be helpful for controlling HBV infection.",
+            "cite_spans": [
+                {
+                    "start": 1357,
+                    "end": 1361,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In summary, our data demonstrated that EGCG inhibited HBV gene expression and replication both in vitro and in vivo, in which EGCG-activated ERK1/2 signaling played an important role. Further study showed that EGCG-activated ERK1/2 signaling might lead to the downregulation of HNF4\u03b1, a key player in HBV gene expression and replication, and the ERK1/2-HNF4\u03b1 axis was revealed to contribute to the EGCG-mediated inhibition of HBV. Fig. 6 ERK1/2-HNF4\u03b1 axis contributed to EGCG inhibition of HBV core promoter activity. a The effect of ERK signaling on EGCG-mediated inhibition of HBV core promoter activity. The cells were transfected with a core promoter-dependent reporter plasmid (CpLUC). Twenty-four hours post transfection, the cells were treated with EGCG in the absence or presence of the ERK inhibitor PD98059 (20 \u03bcM), the p38 inhibitor 203580 (10 \u03bcM) or the JAK2/STAT3 inhibitor AG490 (50 \u03bcM) for 24 h, followed by the detection of luciferase activity in the cell lysates. b The effect of ectopic HNF4\u03b1 expression on the EGCG-mediated inhibition of HBV promoter activity. The HNF4\u03b1 expression plasmid (pHNF4\u03b1-HA) was transfected into HepG2.2.15 cells together with CpLUC. Twenty-four hours post transfection, the cells were further stimulated with EGCG for another 24 h, followed by the detection of luciferase activity. Below: The whole cell lysate was subjected to Western blotting using antibodies against HA and GAPDH. c The effect of HNF4\u03b1 expression on EGCG-mediated inhibition of HBV gene expression and replication. HepG2.2.15 cells were transfected with control empty vector or an increasing dose of pHNF4\u03b1 for 24 h and then treated with EGCG for another 24 h. HBeAg and HBV-DNA levels were determined by ELISA and qPCR, respectively. The values were expressed as the means \u00b1 SEM of three independent experiments; *P < 0.05; (unpaired, two-tailed Student's t tests)",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 431,
+                    "end": 437,
+                    "text": "Fig. 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "DISCUSSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Mechanisms of hepatitis B virus persistence",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Tsai",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Kuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Trends Microbiol",
+            "volume": "26",
+            "issn": "",
+            "pages": "33--42",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Estimations of worldwide prevalence of chronic hepatitis B virus infection: a systematic review of data published between",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Schweitzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Horn",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Mikolajczyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Krause",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ott",
+                    "suffix": ""
+                }
+            ],
+            "year": 1965,
+            "venue": "Lancet",
+            "volume": "386",
+            "issn": "",
+            "pages": "1546--55",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Virus and host testing to manage chronic hepatitis B",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Clin Infect Dis",
+            "volume": "62",
+            "issn": "4",
+            "pages": "298--305",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Treatment of hepatitis B virus: an update",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ward",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Poonia",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kottilil",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Future Microbiol",
+            "volume": "11",
+            "issn": "",
+            "pages": "1581--97",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Green tea: a promising natural product in oral health",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Narotzki",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Reznick",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Aizenbud",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Levy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Arch Oral Biol",
+            "volume": "57",
+            "issn": "",
+            "pages": "429--464",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "A review of the antiviral role of green tea catechins",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Molecules",
+            "volume": "22",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Characterization of polyphenols from green tea leaves using a high hydrostatic pressure extraction",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Int J Pharm",
+            "volume": "382",
+            "issn": "",
+            "pages": "139--182",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Studies on protective mechanisms of four components of green tea polyphenols against lipid peroxidation in synaptosomes",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Biochim Biophys Acta",
+            "volume": "1304",
+            "issn": "",
+            "pages": "210--232",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The antimicrobial possibilities of green tea",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Reygaert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Front Microbiol",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Epigallocatechin-3-gallate is a new inhibitor of hepatitis C virus entry",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Calland",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Albecka",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Belouzard",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wychowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Duverlie",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Descamps",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Hepatology",
+            "volume": "55",
+            "issn": "",
+            "pages": "720--729",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Epigallocatechin-3-gallate inhibits the early stages of Japanese encephalitis virus infection",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hour",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Virus Res",
+            "volume": "253",
+            "issn": "",
+            "pages": "140--146",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Comparison of in vitro antiviral activity of tea polyphenols against influenza A and B viruses and structure-activity relationship analysis",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Bai",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Zhong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Fitoterapia",
+            "volume": "93",
+            "issn": "",
+            "pages": "47--53",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Anti-infective properties of epigallocatechin-3-gallate (EGCG), a component of green tea",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Steinmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Buer",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Pietschmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Steinmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Br J Pharmacol",
+            "volume": "168",
+            "issn": "",
+            "pages": "1059--73",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Epigallocatechin gallate inhibits the HIV reverse transcription step",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hattori",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Kodama",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Antivir Chem Chemother",
+            "volume": "21",
+            "issn": "",
+            "pages": "239--282",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Epigallocatechin-3-gallate opposes HBVinduced incomplete autophagy by enhancing lysosomal acidification, which is unfavorable for HBV replication",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Cell Death Dis",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Epigallocatechin gallate inhibits hepatitis B virus infection in human liver chimeric mice",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "BMC Complement Alter Med",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Epigallocatechin-3-gallate inhibits entry of hepatitis B virus into hepatocytes",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Tao",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hung",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Antivir Res",
+            "volume": "111",
+            "issn": "",
+            "pages": "100--111",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Epigallocatechin gallate inhibits hepatitis B virus via farnesoid X receptor alpha",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Xing",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Nat Med",
+            "volume": "70",
+            "issn": "",
+            "pages": "584--91",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Hepatitis B virus infection",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Trepo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lok",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Lancet",
+            "volume": "384",
+            "issn": "",
+            "pages": "2053--63",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Control of hepatitis B virus at the level of transcription",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Quasdorff",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Protzer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Viral Hepat",
+            "volume": "17",
+            "issn": "",
+            "pages": "527--563",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Hepatitis B virus hepatotropism is mediated by specific receptor recognition in the liver and not restricted to susceptible hosts",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Schieck",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Schulze",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gahler",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Muller",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Haberkorn",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alexandrov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Hepatology",
+            "volume": "58",
+            "issn": "",
+            "pages": "43--53",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Sodium taurocholate cotransporting polypeptide is a functional receptor for human hepatitis B and D virus",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Jing",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Elife",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Transcriptional regulation of hepatitis B virus by nuclear hormone receptors is a critical determinant of viral tropism",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mclachlan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Proc Natl Acad Sci USA",
+            "volume": "98",
+            "issn": "",
+            "pages": "1841--1847",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Study of the expression levels of hepatocyte nuclear factor 4 alpha and 3 beta in patients with different outcome of HBV infection",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Virol J",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Members of the nuclear receptor superfamily regulate transcription from the hepatitis B virus nucleocapsid promoter",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Raney",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Palmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mclachlan",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "J Virol",
+            "volume": "71",
+            "issn": "",
+            "pages": "1058--71",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Mucroporin-M1 inhibits hepatitis B virus replication by activating the mitogen-activated protein kinase (MAPK) pathway and down-regulating HNF4alpha in vitro and in vivo",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Biol Chem",
+            "volume": "287",
+            "issn": "",
+            "pages": "30181--90",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "An immunocompetent mouse model for the tolerance of human chronic hepatitis B virus infection",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Proc Natl Acad Sci USA",
+            "volume": "103",
+            "issn": "",
+            "pages": "17862--17869",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Reactive oxygen species-mediated c-Jun NH 2 -terminal kinase activation contributes to hepatitis B virus X protein-induced autophagy via regulation of the beclin-1/Bcl-2 interaction",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Dai",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Virol",
+            "volume": "91",
+            "issn": "",
+            "pages": "1--17",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Tripartite motif-containing 22 inhibits the activity of hepatitis B virus core promoter, which is dependent on nuclear-located RING domain",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Duan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Hepatology",
+            "volume": "50",
+            "issn": "",
+            "pages": "424--457",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "The RNA sensor RIG-I dually functions as an innate sensor and direct antiviral factor for hepatitis B virus",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sato",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kameyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ishida",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Murakami",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Immunity",
+            "volume": "42",
+            "issn": "",
+            "pages": "123--155",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Green tea polyphenols down-regulate caveolin-1 expression via ERK1/2 and p38MAPK in endothelial cells",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ying",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Nutr Biochem",
+            "volume": "20",
+            "issn": "",
+            "pages": "1021--1028",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Involvement of PKCalpha and ERK1/2 signaling pathways in EGCG's protection against stress-induced neural injuries in Wistar rats",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jin",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Neuroscience",
+            "volume": "346",
+            "issn": "",
+            "pages": "226--263",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "EGCG ameliorates high-fat-and highfructose-induced cognitive defects by regulating the IRS/AKT and ERK/CREB/ BDNF signaling pathways in the CNS",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Mi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Qiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "FASEB J",
+            "volume": "31",
+            "issn": "",
+            "pages": "4998--5011",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "EGCG protects against homocysteine-induced human umbilical vein endothelial cells apoptosis by modulating mitochondrial-dependent apoptotic signaling and PI3K/Akt/eNOS signaling pathways",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ahsan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Apoptosis",
+            "volume": "22",
+            "issn": "",
+            "pages": "672--80",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Rapamycin and everolimus facilitate hepatitis E virus replication: revealing a basal defense mechanism of PI3K-PKB-mTOR pathway",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Metselaar",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Janssen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Peppelenbosch",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Hepatol",
+            "volume": "61",
+            "issn": "",
+            "pages": "746--54",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Regulation of hepatitis B virus replication by the ras-mitogen-activated protein kinase signaling pathway",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Ou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J Virol",
+            "volume": "77",
+            "issn": "",
+            "pages": "7707--7719",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Regulation of hepatitis B virus replication by the phosphatidylinositol 3-kinase-AKT signal transduction pathway",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cuconati",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Block",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Virol",
+            "volume": "81",
+            "issn": "",
+            "pages": "10072--80",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "The transcriptional activity of hepatocyte nuclear factor 4 alpha is inhibited via phosphorylation by ERK1/2",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Veto",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bojcsuk",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bacquet",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sipeki",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS One",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Green tea polyphenols as an antioxidant and anti-inflammatory agent for cardiovascular protection",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Tipoe",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Hung",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Fung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Cardiovasc Hematol Disord Drug Targets",
+            "volume": "7",
+            "issn": "",
+            "pages": "135--179",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Green tea compounds in breast cancer prevention and treatment",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Yin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Jiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "World J Clin Oncol",
+            "volume": "5",
+            "issn": "",
+            "pages": "520--528",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "The ERK1/2-hepatocyte nuclear factor 4alpha axis regulates human ABCC6 gene expression in hepatocytes",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "De Boussac",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ratajewski",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Sachrajda",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Koblos",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tordai",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pulaski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Biol Chem",
+            "volume": "285",
+            "issn": "",
+            "pages": "22800--22808",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Mitogen-activated protein kinase-mediated disruption of enhancer-promoter communication inhibits hepatocyte nuclear factor 4alpha expression",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hatzis",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Kyrmizi",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Talianidis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Mol Cell Biol",
+            "volume": "26",
+            "issn": "",
+            "pages": "7017--7046",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Transforming growth factor-beta1 suppresses hepatitis B virus replication primarily through transcriptional inhibition of pregenomic RNA",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chou",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Tsai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Hepatology",
+            "volume": "46",
+            "issn": "",
+            "pages": "672--81",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Not interferon, but interleukin-6 controls early gene expression in hepatitis B virus infection",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hosel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Quasdorff",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wiegmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Webb",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Zedler",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Broxtermann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Hepatology",
+            "volume": "50",
+            "issn": "",
+            "pages": "1773--82",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "EGCG inhibited HBV gene expression and replication in HepG2.2.15 cells. HepG2.2.15 cells were treated with increasing amounts of EGCG (12.5, 25, 50 \u03bcM) for 24 h. The levels of HBsAg (a) and HBeAg (b) in culture supernatants were determined by ELISA; the level of HBcAg (c)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "ERK1/2 signaling pathway was involved in the EGCG-mediated inhibition of HBV. a The effect of EGCG on the activation of the MAPK (p38, ERK, JNK), AKT/mTOR, and JAK2/STAT3 pathways. HepG2.2.15 cells were treated with increasing doses of EGCG (25 \u03bcM and 50 \u03bcM) for 24 h, and the cells were then subjected to Western blotting with the indicated antibodies. b The effect of pharmacological inhibitors on the activation of p38, ERK MAPK, or JAK2/STAT3 signaling pathways. HepG2.2.15 cells were pretreated with the ERK inhibitor PD98059 (20 \u03bcM), the p38 inhibitor 203580 (10 \u03bcM) or the JAK2/STAT3 inhibitor AG490 (50 \u03bcM) for 1 h and then treated with 25 \u03bcM of EGCG for 24 h. The levels of p-p38, p-ERK, p-JAK2, or p-STAT3 were determined by Western blotting. c The role of p38, ERK MAPKs, or JAK2/STAT3 signaling pathways in the EGCG-mediated inhibition of HBV. HepG2.2.15 cells were treated as in b, and the levels of HBeAg or HBV-DNA were determined by ELISA or qPCR, respectively. The values were expressed as the means \u00b1 SEM of three independent experiments; *P < 0.05 (unpaired, two-tailed Student's t tests) Fig. 4 The ERK1/2 signaling pathway was involved in EGCG-mediated inhibition of HNF4\u03b1. a The effect of EGCG on the mRNA level of HNF4\u03b1 in HepG2.2.15 cells. HepG2.2.15 cells were treated with increasing doses of EGCG (25 and 50 \u03bcM) for 24 h. The mRNA levels of HNF4\u03b1 were then determined by quantitative RT-PCR. b The effect of EGCG on the protein level of HNF4\u03b1 in HepG2.2.15 cells. HepG2.2.15 cells were treated as in a, and the protein levels of HNF4\u03b1 were then determined by Western blotting. c HepG2.2.15 cells were treated with 50 \u03bcM of EGCG for the indicated time periods, and Western blotting was then performed using antibodies against p-ERK1/2, HNF4\u03b1 and GAPDH. The effect of ERK signaling on the EGCG-mediated inhibition of HNF4\u03b1. HepG2.2.15 cells were pretreated with ERK inhibitor PD98059 for 1 h and then treated with 50 \u03bcM of EGCG for 24 h, and the mRNA levels (d) and protein levels (e) of HNF4\u03b1 were determined by qRT-PCR and Western blotting, respectively. The values were expressed as the means \u00b1 SEM of three independent experiments; *P < 0.05; (unpaired, two-tailed Student's t tests)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "The effect of EGCG on the activity of HBV promoters. HepG2.2.15 cells were transfected with SpLUC (a), CpLUC (b), pS",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "ZYW, YQL, ZWG, and XHZ conducted the experiments; ZYW, YQL, MDL, and BG analyzed the data; BG and TCX supervised the project; and BG, ZYW, and TCX wrote the paper.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "AUTHOR CONTRIBUTIONS"
+        },
+        {
+            "text": "Competing interests: The authors declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ADDITIONAL INFORMATION"
+        }
+    ]
+}

@@ -1,0 +1,880 @@
+{
+    "paper_id": "0b4e6ca88ce0ab4b4737f9a7a24755bf52df886e",
+    "metadata": {
+        "title": "Supporting Information for Comparative Multiplexed Interactomics of SARS-CoV-2 and Homologous Coronavirus Nonstructural Proteins Identifies Unique and Shared Host-Cell Dependencies",
+        "authors": [
+            {
+                "first": "Jonathan",
+                "middle": [
+                    "P"
+                ],
+                "last": "Davies",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Katherine",
+                "middle": [
+                    "M"
+                ],
+                "last": "Almasy",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Vanderbilt University",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Eli",
+                "middle": [
+                    "F"
+                ],
+                "last": "Mcdonald",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Vanderbilt University",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Lars",
+                "middle": [],
+                "last": "Plate",
+                "suffix": "",
+                "affiliation": {},
+                "email": "lars.plate@vanderbilt.edu"
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Figures S1 -S14",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "TABLE OF CONTENT"
+        },
+        {
+            "text": "pp. S2 -S22",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "TABLE OF CONTENT"
+        },
+        {
+            "text": "Tables S1 -S6 p. S23",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "TABLE OF CONTENT"
+        },
+        {
+            "text": "Supporting Information References pp. S24 -S27 S2 SUPPORTING FIGURES Figure S1 . Amino acid sequence comparison and MS sequence coverage of CoV nonstructural protein homologues. S3 (A) Amino acid sequence alignment of nsp2 homologues from SARS-CoV-1 (SARS) and SARS-CoV-2 (Wuhan). Identical or similar residues are highlighted and color scheme corresponds to amino acid properties. (B) Amino acid sequence alignment of nsp4 homologues from SARS-CoV-1 (SARS), SARS-CoV-2 (Wuhan) and hCoV-OC43. Identical or similar residues are highlighted and color scheme corresponds to amino acid properties. (C) Tandem MS sequence coverage of SARS-CoV-2 (Wuhan) nsp4. Detected peptides are indicated in green. (D) Tandem MS sequence coverage of SARS-CoV-1 (Urbani) nsp4. Detected peptides are indicated in green. (E) Tandem MS sequence coverage of hCoV-OC43 nsp4. Detected peptides are indicated in green.",
+            "cite_spans": [
+                {
+                    "start": 178,
+                    "end": 180,
+                    "text": "S3",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 69,
+                    "end": 78,
+                    "text": "Figure S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "TABLE OF CONTENT"
+        },
+        {
+            "text": "S4 Figure S2 . TMT normalization and filtering of nsp2 interactors.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 12,
+                    "text": "Figure S2",
+                    "ref_id": null
+                }
+            ],
+            "section": "TABLE OF CONTENT"
+        },
+        {
+            "text": "(A) Normalized log10 TMT abundances of all proteins in the affinity purification samples expressing GFP control or nsp2 homologues as bait proteins. Pairing of individual samples into three separate mass spectrometry runs is indicated by the color bars.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "TABLE OF CONTENT"
+        },
+        {
+            "text": "(B-C) Histogram of log2 fold change enrichment of proteins in nsp2 affinity purification samples compared to GFP controls. A gaussian non-least square fit of the distribution is shown in light blue. The standard deviation of the distribution (s) is indicated and 1 s and 2 s (dotted lines) were used for the variable cutoffs to define medium-and high-confidence interactors, respectively. (B) shows the distribution for SARS-CoV-2 nsp2 with 1 s = 0.5. (C) shows the distribution for SARS-CoV-2 nsp2 with 1 s = 0.43. (D) Normalized TMT intensities comparing the abundances of SARS-CoV-2 and SARS-CoV-1 nsp2 homologues in the replicate samples. homologues. Gene set enrichment analysis of high-and medium-confidence interactors was performed in Enrichr. GO terms for biological processes with adjusted p-values < 0.1 were included in the analysis and filtered manually to remove redundant terms containing similar genes. Non-redundant pathways are shown and color scheme indicates confidence of enrichment as represented by adjusted p-values of the Enrichr analysis. (D) Confocal microscopy images of nsp2 homologues expressed in HEK293T cells, stained for PDIA4 (ER marker, green), FLAG-nsp2(red), and DAPI (blue). Scale bar is 10 \u00b5m.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "S5"
+        },
+        {
+            "text": "S8 Figure S4 . Nsp2 interactome overlap with published dataset.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 12,
+                    "text": "Figure S4",
+                    "ref_id": null
+                }
+            ],
+            "section": "S5"
+        },
+        {
+            "text": "Extended and overlapping interactors between our nsp2 dataset and previously published interactors of SARS-CoV-2 nsp2(1). Nsp2 proteins are shown as purple circles (our dataset) or pink circle (published dataset). Previously published primary interactors are shown as dark pink diamonds, novel primary interactors identified in this study are shown as yellow diamonds, overlapping primary interactors (GIGYF2) are shown as orange diamonds, and overlapping secondary interactors scraped from the STRING database are shown as blue ellipses. Previously identified primary interactions are shown with red edges, novel primary interactions identified in this study are shown with blue edges, overlapping primary interactors are shown with orange edges, and secondary interactions scraped from the STRING database are shown as grey edges between nodes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "S5"
+        },
+        {
+            "text": "S9 Figure S5 . Tissue-specific expression of nsp2 and nsp4 interactors.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 12,
+                    "text": "Figure S5",
+                    "ref_id": null
+                }
+            ],
+            "section": "S5"
+        },
+        {
+            "text": "(A-C) Nsp2 and nsp4 interactors were cross-referenced with existing data sets on protein expression in cell lines and tissue-samples (2) (3) (4) to identify enrichment levels of interactors. S10 (A) Top ten cell lines enriched for interactors in the CCLE data set (2) based on analysis of combined ranking score using Enrichr (5). (B) Top ten tissue samples enriched for interactors in the GTeX data set (3) based on analysis of combined ranking score using Enrichr (5). (C) Violin plots showing log10 protein quantification values for the nsp2 and nsp4 interactions in 29 healthy human tissues based on the dataset published by Wang et al. 4 The median quantification across all tissues is shown on the right. Significance of expression difference was assessed in Graphpad Prism by mixed-effects analysis with the Geisser-Greenhouse correction and Holm-Sidak's multiple comparison test for each tissue compared to the median. * p<0.05; **p<0.01, ***p<0.001; ****p<0.0001",
+            "cite_spans": [
+                {
+                    "start": 133,
+                    "end": 136,
+                    "text": "(2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 137,
+                    "end": 140,
+                    "text": "(3)",
+                    "ref_id": null
+                },
+                {
+                    "start": 141,
+                    "end": 144,
+                    "text": "(4)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 629,
+                    "end": 642,
+                    "text": "Wang et al. 4",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "S5"
+        },
+        {
+            "text": "(A-B) Lysates from HEK293T cells transfected with respective viral homologues of nsp2 or nsp4 were immunopurified using anti-FLAG sepharose beads and probed for MAMs factors (CANX, ERLIN2) and CTLH E3 ligase complex interactors (MKLN1, RANBP9, WDR26) by western blot. Representative blots for input and co-immunoprecipitations of are shown, n=3. S12 Figure S7 . TMT normalization and filtering of nsp4 interactors.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 350,
+                    "end": 359,
+                    "text": "Figure S7",
+                    "ref_id": null
+                }
+            ],
+            "section": "Figure S6. Co-immunoprecipitation of MAMs and proteostasis factors with CoV nonstructural proteins."
+        },
+        {
+            "text": "(A) Normalized log10 TMT abundances of all proteins in the affinity purification samples expressing GFP control or nsp4 homologues as bait proteins. Pairing of individual samples into three separate mass spectrometry runs is indicated by the color bars.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure S6. Co-immunoprecipitation of MAMs and proteostasis factors with CoV nonstructural proteins."
+        },
+        {
+            "text": "(B-C) Volcano plot of SARS-CoV-1 (B) and OC43 nsp4 (C) interactors to identify medium-and high-confidence interactors. Plotted are log2 TMT intensity fold changes for proteins between nsp2 bait channels and GFP mock transfections versus -log10 adjusted p-values. Curves for the variable cutoffs used to define high-confidence (red) or medium confidence (blue) interactors are shown. 1s = 0.4 for (B), 1 s = 0.40 for (C). (D) Venn diagram comparing medium-confidence interactors of nsp4 homologues. S14 Figure S8 . Nsp4 interactome overlap with published dataset.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 502,
+                    "end": 511,
+                    "text": "Figure S8",
+                    "ref_id": null
+                }
+            ],
+            "section": "S13"
+        },
+        {
+            "text": "Extended and overlapping interactors between our nsp4 dataset and previously published interactors of SARS-CoV-2 nsp4(1). Nsp4 proteins are shown as purple circles (our dataset) or pink circle (published dataset). Previously published primary interactors are shown as dark pink diamonds, novel primary interactors identified in this study are shown as yellow diamonds, overlapping primary interactors are shown as orange diamonds, and overlapping secondary interactors scraped from the STRING database are shown as blue ellipses. Previously identified primary interactions are shown with red edges, novel primary interactions identified in this study are shown with blue edges, and secondary interactions scraped from the STRING database are shown as grey edges between nodes. The extended overlapping interactome reveals each Nsp4 protein uniquely plugs into clusters of proteins involved in the same pathway, which appear as circles of nodes such as the TIMM pathway involved in protein import into the mitochondria on the bottom left. OC43 nsp4 homologues in the replicate affinity purification samples. (E) Heatmap of high-and medium-confidence nsp4 homologue interactors compared to GFP control. log2 fold change is color-coded and centered by row (blue low, yellow high enrichment). Hierarchical clustering using Ward's method shown on the left was carried out on Euclidean distances of log2 fold changes scaled by row. S19 Figure S11 . Network map of high-and medium-confidence nsp4 homologue interactors.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1430,
+                    "end": 1440,
+                    "text": "Figure S11",
+                    "ref_id": null
+                }
+            ],
+            "section": "S13"
+        },
+        {
+            "text": "PPI network map of high-and medium-confidence interactors of nsp4 homologues. Blue lines indicate viral-host PPIs, where line width corresponds to fold enrichment compared to the GFP control. Grey lines indicate annotated host-host PPIs in STRING (score > 0.75).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "S13"
+        },
+        {
+            "text": "S20 Figure S12 . Subcellular localization of nsp4 homologues.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 4,
+                    "end": 14,
+                    "text": "Figure S12",
+                    "ref_id": null
+                }
+            ],
+            "section": "S13"
+        },
+        {
+            "text": "Confocal immunofluorescence microscopy images of nsp4 homologues expressed in HEK293T cells, stained for PDIA4 (ER marker, green), FLAG-tag (red), and DAPI (blue). Scale bar is 10 \u00b5m. (7) The A549 cells were transduced with siRNA pools of prioritized SARS-CoV interactors and Caco2 cells contained CRISPR knockouts of the prioritized interactors. Z-score < 0 represents decreased infectivity upon knockdown, while Z-score > 0 represents increased infectivity. Interactors of nsp2 and nsp4 found in the dataset are highlighted in blue and red respectively. (C) Changes in the global proteome of Caco-2 cells during SARS-CoV-2 infection were measured via quantitative proteomics up to 24 hpi by Bojkova et al. (8) Mass spectrometry data was mined for log2-fold changes in global IP3R3 levels during infection. Significance was tested using unpaired two-sided students t-tests between infected and mock samples, *p<0.05.",
+            "cite_spans": [
+                {
+                    "start": 693,
+                    "end": 711,
+                    "text": "Bojkova et al. (8)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "S13"
+        },
+        {
+            "text": "(all supporting tables are available as separate Excel files) Table S1 . Proteomics data of comparative nsp2 interactome profiling. Included are protein identifications, quantifications, abundance ratios, statistical analysis, and filtering of medium-and high confidence interactors. Table S2 . Comparison of protein abundances between SARS-CoV-2 and SARS-CoV-1 nsp2",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 62,
+                    "end": 70,
+                    "text": "Table S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 284,
+                    "end": 292,
+                    "text": "Table S2",
+                    "ref_id": null
+                }
+            ],
+            "section": "SUPPORTING TABLES"
+        },
+        {
+            "text": "interactors. Table S3 . Proteomics data of comparative nsp4 interactome profiling. Included are protein identifications, quantifications, abundance ratios, statistical analysis, and filtering of medium-and high confidence interactors. Table S4 . Comparison of protein abundances between SARS-CoV-2, SARS-CoV-1, and OC43 nsp2 interactors. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 13,
+                    "end": 21,
+                    "text": "Table S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 235,
+                    "end": 243,
+                    "text": "Table S4",
+                    "ref_id": null
+                }
+            ],
+            "section": "SUPPORTING TABLES"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "A Deep Proteome and Transcriptome Abundance Atlas of 29 Healthy Human Tissues",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Eraslan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wieland",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hallstr\u00f6m",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hopf",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Zolg",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zecha",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Asplund",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Frejno",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Schmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Schnatbaum",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wilhelm",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ponten",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Uhlen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gagneur",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hahne",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Kuster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Mol. Syst. Biol",
+            "volume": "15",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.15252/msb.20188503"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Enrichr: A Comprehensive Gene Set Enrichment Analysis Web Server",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kuleshov",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Rouillard",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Fernandez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Duan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Koplev",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jenkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Jagodnik",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lachmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Mcdermott",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Monteiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Gundersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ma&apos;ayan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Update. Nucleic Acids Res",
+            "volume": "44",
+            "issn": "W1",
+            "pages": "90--97",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Protein Kinases 1 and 2 Are Essential Host Factors for Human Coronaviruses Including SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Heaton",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Trimarco",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hamele",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Harding",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tata",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Tata",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Heaton",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Srsf",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.08.14.251207"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Comparative Host-Coronavirus Protein Interaction Networks Reveal Pan-Viral Disease Mechanisms",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Davies",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Frieman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ideker",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Abate",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Jouvenet",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kochs",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Shoichet",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ott",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Palmarini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shokat",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Garc\u00eda-Sastre",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rassen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Grosse",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rosenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Verba",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Basler",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Vignuzzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Peden",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Beltrao",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Krogan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abe9403"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Proteomics of SARS-CoV-2-Infected Host Cells Reveals Therapy Targets",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bojkova",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Klann",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Koch",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Widera",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Krause",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ciesek",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cinatl",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "M\u00fcnch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Gene ontology (GO) pathway analysis of interactors and cellular localization of nsp2 homologues. S7 (A-B) GO terms associated with the individual interactors of nsp2. Terms were assigned in the Protein Annotation node in Proteome Discoverer 2.4. Proteins were grouped according to the hierarchical clustering in Fig. 3B to distinguish shared and distinct interactors of SARS-CoV-1 and SARS-CoV-2 nsp2. (A) GO terms for biological processes. (B) GO terms for cellular components. (C) Comparisons of pathways identified in gene set enrichment analysis of interactors of nsp2",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Gene ontology (GO) pathway analysis of nsp4 homologue interactors. S16 (A-B) GO terms associated with the individual interactors of nsp4. Terms were assigned in the Protein Annotation node in Proteome Discoverer 2.4. Proteins were grouped according to the hierarchical clustering in Fig. 4C to distinguish shared and distinct interactors of SARS-CoV-1, SARS-CoV-2, and OC43 nsp4. (A) GO terms for biological processes. (B) GO terms for cellular components. (C) Comparisons of pathways identified in gene set enrichment analysis of interactors of nsp4homologues. Gene set enrichment analysis of high-and medium-confidence interactors was performed in Enrichr. GO terms for biological processes with adjusted p-values < 0.1 were included in the analysis and filtered manually to remove redundant terms containing similar genes. Non-redundant pathways are shown and color scheme indicates confidence of enrichment as represented by adjusted p-values of the Enrichr analysis. Comparative analysis of nsp4 homologues.S18(A-C) Volcano plot comparing interactions between nsp4 homologue from SARS-CoV-1, SARS-CoV-2, and OC43. Only high-and medium confidence interactors of nsp4 are shown and high confidence interactors are highlighted in red. TMT intensities comparing the abundances of SARS-CoV-2, SARS-CoV-1, and",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Localization of SARS-CoV-1 nsp2, nps4, and hCoV-OC43 nsp4 to MAMs. SARS-CoV-1 nsp2, nsp4, hCoV-OC43 nsp4, or mock transfected HEK293T cells were fractionated to determine localization of viral proteins to MAMs. Homogenate (H), cytosol (C), microsome (Mic), crude mitochondria (CrM), and MAMs fractions were probed via Western blot for subcellular markers (CALX and ERLIN2 for MAMs; MCU for mitochondria) and viral proteins (FLAG). (Mock, n=2; all others, n=1) Functional genomic screens of interactors and global IP3R3 protein levels in SARS-CoV-2 infection. (A) Sorted enrichment of sgRNAs (lfc) in the genome-wide CRISPR screen of the GeCKO V2 library in A549-Cas9-ACE2 lung cancer cells infected with SARS-CoV-2 published by Heaton et al. (6) Interactors of nsp2 and nsp4 found in the dataset are highlighted in blue and red respectively. (B) Correlation of Z-scores from functional genomics screens in A549-ACE2 and Caco-2 cells infected with SARS-Cov-2 published by Gordon et al.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "List of peptide identifications, quantifications, and protein mapping for comparative nsp2 interactome profiling.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "List of peptide identifications, quantifications, and protein mapping for comparative nsp4 interactome profiling.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

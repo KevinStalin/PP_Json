@@ -1,0 +1,2098 @@
+{
+    "paper_id": "0a846171b3150dbbb443bebd00505ab8440db2d0",
+    "metadata": {
+        "title": "Analysis and best parameters selection for person recognition based on gait model using CNN algorithm and image augmentation",
+        "authors": [
+            {
+                "first": "Abeer",
+                "middle": [
+                    "Mohsin"
+                ],
+                "last": "Saleh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Damascus University",
+                    "location": {
+                        "settlement": "Damascus",
+                        "country": "Syria"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Talal",
+                "middle": [],
+                "last": "Hamoud",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Damascus University",
+                    "location": {
+                        "settlement": "Damascus",
+                        "country": "Syria"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "To handle these conditions, we need a powerful tool, deep learning tool (CNN as example) to deal with all condition and search deeply to find all possible features for each person. After mentioning many application for PRGM and with the increasing demand for person recognition in the era of big data and artificial intelligence, the research and development of many algorithms attracted broad attention from both academia and industry, e.g., the fingerprint, iris, face, and voice etc., have been implemented commercially. All examples in this field will output huge amount of data ( 1,2 or dimensions), therefore we need a Convolution neural network to handle features that can be concluded from the input data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In addition to data in our hand; the persons images, we also worked on image augmentation and thus will increase the amount of data multi times. So this research addresses the problem of person recognition depending on gait model with main research points:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "\u2022 Best selection of both parameters and the design of CNN \u2022 Using Image Augmentation to increase person features and to make trained model robust to some variations in the image \u2022 Understand the structure, layers and parameters of CNN to implement it and be able to understand how to change CNN properties.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In [8] , authors introduce a simulation-based methodology and a subject-specific dataset to for generate synthetic video frames and sequences for data augmentation to help in gait recognition. They generated a multi-modal dataset. In addition, they supply simulation files that provide the ability to simultaneously sample from several confounding variables; these variables are about brightness, rotation, color saturation. The basis of the data is real motion capture data of subjects walking and running on a treadmill at different speeds. Results from gait recognition experiments suggest that information about the identity of subjects is retained within synthetically generated examples. This study has applied image augmentation using render program to generate an accurate sequence of motion as real as possible, this is costing processing time, they also did not consider body form (fat, this, short and tall).",
+            "cite_spans": [
+                {
+                    "start": 3,
+                    "end": 6,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background and related work"
+        },
+        {
+            "text": "In [9] , the authors used a virtual environment, which enabled them to present the same type of gait across different identities. Using this setting, they assessed the accuracy and distance at which identities are recognized based on their gait, as a function of gait distinctiveness. Furthermore,the virtual environment also enabled them to assess. They find that the accuracy and distance at which people were recognized increased with gait distinctiveness. Overall these findings highlight an important role for gait in real life person recognition and stress that gait contributes to recognition independently from the face and body. The virtual environment helped them a lot in their research.",
+            "cite_spans": [
+                {
+                    "start": 3,
+                    "end": 6,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background and related work"
+        },
+        {
+            "text": "In [10] , authors proposed a gait recognition approach for person re-identification. The proposed approach starts with estimating the angle of gait first, and this is then followed with the recognition process, which is performed using convolution neural networks. Here in, multi-task convolution neural network models and extracted Gait Energy Images (GEI) are used to estimate the angle and recognize the gait. GEIs are extracted by first detecting the moving objects, using background subtraction techniques. The proposed gait recognition method showed an accuracy of more than 98% for almost all used datasets. The authors worked on GEIs, there is a feature engineering process before reidentification process.",
+            "cite_spans": [
+                {
+                    "start": 3,
+                    "end": 7,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background and related work"
+        },
+        {
+            "text": "In [4] , the authors devoted to the problem of the recognition of a person by gait using a video recorded in the optical range depending on detection of a moving person on a video sequence with the subsequent size normalization and dimension reduction using the principal component analysis (PCA) technique. The person classification was carried out using the support vector machine (SVM). Authors have determined the best values of the method parameters; their method for person recognition has next steps: detection and segmentation of a moving person in the video sequence, normalization of the frame size of the selected video sequence fragment, dimensionality reduction of the selected video sequence fragment and classification of video sequences. The obtained results showed high classification accuracy with small number classes.",
+            "cite_spans": [
+                {
+                    "start": 3,
+                    "end": 6,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background and related work"
+        },
+        {
+            "text": "In [11] , The authors have studied recognition performance when handling confounding variables, such as clothing, carrying and view angle. A novel method was proposed to explicitly disentangle pose and appearance features from RGB imagery to get pose features over time produces. In addition, authors focused on gait recognition from frontal-view walking, which is a challenging problem since it contains minimal gait cues compared to other views. The method demonstrated superior performance compared with other researches. The cases of tests focused on rotations and variations from only front view walking.",
+            "cite_spans": [
+                {
+                    "start": 3,
+                    "end": 7,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background and related work"
+        },
+        {
+            "text": "In [12] , The author has applied a gait recognition depending on the reality that every human has a distinctive walking style; which is proposed to be used in gait recognition as an identification criterion, Author has applied CNN with help of center-of-pressure (COP) trajectory that is sufficiently unique to identify a person with high certainty. Using a platform to record COP for a period then using these records to classify only 30 persons, this method requires a platform for each person so it is expensive.",
+            "cite_spans": [
+                {
+                    "start": 3,
+                    "end": 7,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background and related work"
+        },
+        {
+            "text": "In [13] ,The authors developed a specialized deep CNN architecture for Gait Recognition. The proposed architecture is less sensitive to several cases of the common variations and occlusions that affect and degrade gait recognition performance. It can also handle relatively small data sets without using any augmentation or fine-tuning techniques. The majority of previous approaches to gait recognition have used subspace learning methods which have several shortcomings that we avoid. Their specialized deep CNN model can obtain competitive performance when tested on the CASIA-B large gait data set; CASIA data set has only 20 persons.",
+            "cite_spans": [
+                {
+                    "start": 3,
+                    "end": 7,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background and related work"
+        },
+        {
+            "text": "The usage of neural network (the basic thing in CNN model) has increased remarkably lately, Many studies on neural networks in new fields is are rising every day. In Compacting Concrete as in [14] , In navigation fields as in [15] . In quantum physics as in [16] .",
+            "cite_spans": [
+                {
+                    "start": 192,
+                    "end": 196,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 226,
+                    "end": 230,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 258,
+                    "end": 262,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background and related work"
+        },
+        {
+            "text": "In this study, the tests were on data set that has images for 200 persons, most of the studies tested on data sets with small number of persons. In addition, the data set images have low resolution, only 64*128. Some studies depend on ready models with some modification or tuning. In this study, CNN model is built step by step as it will be explained in next paragraphs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Background and related work"
+        },
+        {
+            "text": "The main benefit of our study can be summarized in two main points:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Background and related work"
+        },
+        {
+            "text": "First point: Image augmentation for gait recognition no matter what used algorithm was. In our case, CNN was used.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Background and related work"
+        },
+        {
+            "text": "Second point:Using CNN algorithm and best selection for:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Background and related work"
+        },
+        {
+            "text": "\u2022 CNN parameters.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Background and related work"
+        },
+        {
+            "text": "\u2022 CNN design and structure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Background and related work"
+        },
+        {
+            "text": "Actually, the main intention of this work in general is to master the person recognition based on gait features and improve the recognition as possible as we can. The other goal is to apply improved recognition system in application such as tracking COVID spread and recognition people in cases where there is no fingerprint, no iris detection and no clear view of the face. Examples of Gait model is presented in the Fig. 1 below [17] In practice, gait model recognition is often used when cameras are installed around the target subjects (persons), which may be unaware of the observation for prisoners or criminals [5] .",
+            "cite_spans": [
+                {
+                    "start": 431,
+                    "end": 435,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 618,
+                    "end": 621,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 418,
+                    "end": 424,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Objective of the paper"
+        },
+        {
+            "text": "New reports about gait models are collected for corona-virus states. Under this title \"Corona-virus gives China more reason to employ biometric\", tablets (containing cameras) have recently been installed by the driver's seat in public buses and in many places. Passengers are expected to put their foreheads close to the tablet so that their temperatures and photos can be taken. The photos taken by the cameras (more than 200 millions cameras) can then be used in person recognition depending on many terms including gait model that might be ill with Corona-Virus. The number of CCTV1 cameras in China in 2019 is 200 and it will be increase to 626 million by 2020 [18] . Gait model might have some carrying objects which is considered as noise in the image [19] as shown in Fig. 2 .",
+            "cite_spans": [
+                {
+                    "start": 665,
+                    "end": 669,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 758,
+                    "end": 762,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 775,
+                    "end": 781,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Objective of the paper"
+        },
+        {
+            "text": "According to the design of Convolution Neural Network, one image with dimension 100*100 may be during the CNN stages as thirty images with less dimension (supposed Fig. 1 Example of Gait model after image processing 50*50), so a data 10000 will convert to 75000 (7.5 times) for one image. for a dataset of 5000 images, data during CNN may be about 375000000 that is considered as big data issue. The term \"big data\" refers to data that is so large, fast or complex that it is difficult or impossible to process using traditional methods.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 164,
+                    "end": 170,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Objective of the paper"
+        },
+        {
+            "text": "Image augmentation is one useful way for building deep learning algorithm that can increase the size of the training set without acquiring new images. The idea is to duplicate images with some kind of transformations so the model can learn from more examples. Ideally, image can be augmented in a way that preserves the features key to making predictions, but rearranges the pixels enough that it adds some noise. Augmentation will be counterproductive if it produces images very dissimilar to what the model will be tested on, so this process must be executed with care [20] .",
+            "cite_spans": [
+                {
+                    "start": 571,
+                    "end": 575,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Objective of the paper"
+        },
+        {
+            "text": "Convolution Neural network model is an important type of feed-forward neural network with special success on applications where the target information can be represented by a hierarchy of local features [21] . A CNN is defined as the composition of several convolution layers and several fully connected layers [22] ; it is helpful tool for recognizing people through their gaits; neural networks analysis gait model to extract multiple complex features. Convolution neural networks (CNNs) have been used with great success for video-based gait recognition. CNN is well used in BigData field with many application, that image is extracted many times through the CNN process [23] .",
+            "cite_spans": [
+                {
+                    "start": 203,
+                    "end": 207,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 311,
+                    "end": 315,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 674,
+                    "end": 678,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "CNNs are especially well suited for working with images as a result of their strong spatial dependencies in local regions and a substantial degree of translation invariance. Similarly, time series can exhibit locally correlated points that are invariant with time shifts. The successful use of deep CNNs for the classification of unidimensional or multidimensional time series has been attested [24] . Like for image classification, CNNs can extract deep features from a signal's internal structure. CNNs are potent tools for bypassing feature engineering in signal processing tasks (end-to-end learning) [25] . However, CNNs, like other artificial neural networks, require hundreds of examples in each class for efficient learning; therefore, they have not been applied in footstep recognition studies so far due to the difficulty of collecting many strides using sensing floors or force platforms.",
+            "cite_spans": [
+                {
+                    "start": 395,
+                    "end": 399,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 605,
+                    "end": 609,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "There are a lot of algorithms that people used for recognition problems which their input is images before CNN became popular. In general, we need to create features from images and then feed those features into machine learning algorithm like SVM. Some algorithm also used the pixel level values of images as a feature vector too. As an example, SVM could be trained with 784 features where each feature is the pixel value for a 28 \u00d7 28 image.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "CNN work so much better \u2022 CNNs can be thought of automatic feature extractors from the image. While if I use a algorithm with pixel vector I lose a lot of spatial interaction between pixels; feature engineering is not required in CNN [26] . \u2022 CNN effectively uses adjacent pixel information to effectively down-sample the image first by convolution and then uses a prediction layer at the end [27] . \u2022 CNN includes the multiple uses of the convolution operator in image processing. \u2022 The CNN architecture implicitly combines the benefits obtained by a standard neural network training with the convolution operation to efficiently handling the requested tasks; classification, recognition and identification. \u2022 CNN is also scalable for large datasets.",
+            "cite_spans": [
+                {
+                    "start": 234,
+                    "end": 238,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 393,
+                    "end": 397,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "For this study, the typical deep CNN is consisted of [28] :",
+            "cite_spans": [
+                {
+                    "start": 53,
+                    "end": 57,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Basic CNN design is shown in Fig. 3 Each part has its own parameters and properties, convolution layer has:",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 29,
+                    "end": 35,
+                    "text": "Fig. 3",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Methods"
+        },
+        {
+            "text": "\u2022 nb filter: The number of convolution filters.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "\u2022 filter size: Size of filters (kernal size).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "\u2022 Strides: Strides of convolution operation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "\u2022 Padding: is simply a process of adding layers of zeros to input images to avoid problem related to size after convolution process. \u2022 Activation: Activation function applied to this layer (Default is linear). \u2022 Bias: If True, a bias is used. \u2022 Weights init: Weights initialization. \u2022 Trainable: If True, weights will be trainable. \u2022 Regularizer: Regularization is commonly used for alleviating over-fitting in machine learning. For CNN, regularization methods, such as DropBlock and Shake-Shake, have illustrated the improvement in the generalization performance [29] . There are other parameters for pooling, regression and fully connected layer. For Pooling layer:",
+            "cite_spans": [
+                {
+                    "start": 564,
+                    "end": 568,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "\u2022 Kernal size: kernal size.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "\u2022 Strides: Strides of pooling operation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "\u2022 Padding: Same as in convolution layer.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Fully connected layer has:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Regression Layer:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u2022 Neurons \u2022 Activation function"
+        },
+        {
+            "text": "\u2022 Loss functions: are a key part of any machine learning model: they define an objective against which the performance of the model is measured. \u2022 Learning Rate: helps to converge faster. Choosing a wrong learning rate, either too small or too large, can have a huge impact on the output. \u2022 Optimizer: to minimize the provided loss function 'loss' (which calculate the errors).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u2022 Neurons \u2022 Activation function"
+        },
+        {
+            "text": "There is also a dropout that refers to dropping out units (both hidden and visible) in a neural network. Dropout refers to ignoring neurons during the training phase of certain set of neurons by a term named Keep Probability, which is chosen at random. By \"ignoring\"; i.e. these units are not considered during a particular forward or backward pass [30] .",
+            "cite_spans": [
+                {
+                    "start": 349,
+                    "end": 353,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "\u2022 Neurons \u2022 Activation function"
+        },
+        {
+            "text": "The main work is to improve CNN depending on these parameters as shown in Fig. 4 :",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 74,
+                    "end": 80,
+                    "text": "Fig. 4",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "\u2022 Neurons \u2022 Activation function"
+        },
+        {
+            "text": "First of all, Data set was downloaded from [31] , this dataset contains images that have been captured in front of supermarket for Tsinghua University:",
+            "cite_spans": [
+                {
+                    "start": 43,
+                    "end": 47,
+                    "text": "[31]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data set preparing"
+        },
+        {
+            "text": "\u2022 Six cameras (5 cameras with high resolution and one with low resolution).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data set preparing"
+        },
+        {
+            "text": "\u2022 General environment (in front of supermarket). \u2022 1501 identity with more than 12900 images.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data set preparing"
+        },
+        {
+            "text": "\u2022 Every person is existed in two images of two cameras at least.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data set preparing"
+        },
+        {
+            "text": "\u2022 Image name contains:The person number, camera number, and image sequence number within the scene which is a random number Example 0001c1s100230100: person number 0001, camera c1, and image scene s1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data set preparing"
+        },
+        {
+            "text": "For convolution neural network, it automatically detects the important features without any human supervision. The convolution layer detects features such as head, long ears, legs, hands, trunk and so on. The fully connected layers then act as a classifier on top of these features. The sequence of images for the same person with will explored as temporal features for the person. There is no definition for gait imprint. somehow, we can say that gait imprint is a collection of features that represent body parts and their changes with time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Feature extraction"
+        },
+        {
+            "text": "The convolution layers in CNN are the basic and important powerhouse of any CNN model. They automatically detect significant features. The convolution layers learn such complex features by building on top of each other. The first layers detect edges in the image, the next layers combine edges and lines to detect shapes or objects, to following layers merge this information to infer that this is a body or hands or legs etc. To be clear, the CNN is blind for these things; it does not know what a face is. By seeing a lot of them in images, it learns to detect that as a feature. The fully connected layers learn how to use these features produced by convolutions in order to correctly classify the images.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Feature extraction"
+        },
+        {
+            "text": "Anaconda was used as programming environment. According to many references, Anaconda is a free and open-source distribution of the Python and R programming languages for scientific computing (data science, machine learning applications, data processing, predictive analytics, etc.), that aims to simplify package management and deployment. The distribution includes data science packages suitable for Windows, Linux, and macOS. It is developed and maintained by Anaconda, Inc., which was founded by Peter Wang and Travis Oliphant in 2012. Details about python version is shown in Fig. 5 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 580,
+                    "end": 586,
+                    "text": "Fig. 5",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Programming environment"
+        },
+        {
+            "text": "With tensorflow version 1.14.0 and python version 3.7.4. TFlearn was used for implementation, Tflearn is a modular and transparent deep learning library built on top of Tensorflow. It was designed to provide a higher-level API to TensorFlow in order to facilitate and speed-up experimentations, while remaining fully transparent and compatible with it. Keras is also can be used, but Tflearn was preferred because of:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Programming environment"
+        },
+        {
+            "text": "\u2022 TFLearn allows to use Python arrays directly.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Programming environment"
+        },
+        {
+            "text": "\u2022 TFLearn allows to save models as checkpoint, index, and meta files, these files are used to create a frozen version models easily. Frozen models are very important to be used in Android apps or C++ programs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Programming environment"
+        },
+        {
+            "text": "\u2022 Keras saves models as HDF5 (The Hierarchical Data Format version 5) files, using which requires new skills again. Additionally, h5py library is need to be installed. \u2022 TFLearn API is closer to that of TensorFlow.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Programming environment"
+        },
+        {
+            "text": "200 person were used from Market data set, 3104 images for training set and 840 images for testing set. For validation and testing, only 50 epochs were ran because training process might take too much time, all results in next paragraphs were for validation accuracy, since there are overall accuracy and validation accuracy. Model improvement was applied by testing many terms as follows to select best values of simulated terms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model improvement"
+        },
+        {
+            "text": "Our main work is most like a genetic algorithm work. For each term we tested some values and monitored the accuracy and at which epoch the model reached high accuracy. In addition to that, IA was implemented to improve recognition accuracy. Edits on design and structure were done for best improvement.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model improvement"
+        },
+        {
+            "text": "First of all, Define next terms: CL: Convolution Layer, PL: Pooling Layer, FC: Fully Connected. Tests details are: Dropout: keep probability = 0.5 Regression:optimizer = 'adam' ,loss ='categorical crossentropy' by changing learning rate, and watching the validation accuracy: (Table 1) From this results, LR is 8e\u22124 Adam is an algorithm for first-order gradient-based optimization of stochastic objective functions, based on adaptive estimates of lower-order moments [32] .",
+            "cite_spans": [
+                {
+                    "start": 467,
+                    "end": 471,
+                    "text": "[32]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 276,
+                    "end": 285,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Testing learning rate"
+        },
+        {
+            "text": "Choosing LR = 8e\u22124, by changing learning dropout, and recording the validation accuracy ( Table 2) :",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 90,
+                    "end": 98,
+                    "text": "Table 2)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Testing dropout"
+        },
+        {
+            "text": "From this results, best dropout value is 0.8",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Testing dropout"
+        },
+        {
+            "text": "Choosing LR = 8e-4, and dropout = 0.8, by changing Kernal size of pooling layer, and watching the validation accuracy (Table 3) : From results above, we can choose the value 5 to be the best Pooling Kernal size. From the tests, we have figured out that high kernal size will result in fast learning. There are two types of pooling MAX and AVERAGE, we tested two types but the average type was better than other.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 118,
+                    "end": 127,
+                    "text": "(Table 3)",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Testing pooling Kernal size"
+        },
+        {
+            "text": "Other parameters have not add any new improvements:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Testing other parameters"
+        },
+        {
+            "text": "\u2022 Convolution layer kernal size: the value 3 was best for model. \u2022 Padding and strides: keep the default values. \u2022 loss function for regression layer: categorical cross-entropy since the labels are the Identities of persons and there are many labels (not binary issue). \u2022 Adaptive Moment Estimation (Adam) optimizer works better (faster and more reliably reaching a global minimum) when minimizing the cost function in training [32] .",
+            "cite_spans": [
+                {
+                    "start": 428,
+                    "end": 432,
+                    "text": "[32]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Testing other parameters"
+        },
+        {
+            "text": "After choosing some parameters, changes of design was adopted as shown in Fig. 6 , these edits were implemented to improve accuracy: Regression:optimizer = 'adam' ,loss = 'categorical crossentropy' , Learning rate = 8e\u22124 Results are shown in the Fig. 7 : The overall accuracy has improved but still slow in converging. At epoch 28 has the accuracy about 99%.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 74,
+                    "end": 80,
+                    "text": "Fig. 6",
+                    "ref_id": null
+                },
+                {
+                    "start": 246,
+                    "end": 252,
+                    "text": "Fig. 7",
+                    "ref_id": null
+                }
+            ],
+            "section": "Model improvement with new design"
+        },
+        {
+            "text": "In L2 regularization, the sum of all the parameters squared is calculated and added it with the square difference of the actual output and predictions, the value of the parameters will decrease as L2 will penalize the parameters.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model improvement with new design"
+        },
+        {
+            "text": "Batch normalization is a used technique to evolve the design of trained model in machine learning and improve the speed, performance, and stability of artificial neural networks. It is used to normalize the input layer by re-centering and rescaling [33] . batch normalization allows each layer of a network to learn by itself a little bit more independently of other layers. There are other normalization methods, local response normalization (LRN). LRN is a non-trainable layer that square-normalizes the pixel values in a feature map in a within a local neighborhood. Batch Normalization (BN): is a trainable layer normally used for addressing the issues of Internal Covariate Shift (ICF); it increases the stability of a neural network generally. ICF arises due to the changing distribution of the hidden neurons/ activation. The output for normalization for some of pixels centered in X is calculated as follows where Y is the output.",
+            "cite_spans": [
+                {
+                    "start": 249,
+                    "end": 253,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Batch normalization"
+        },
+        {
+            "text": "and \u03b2 are trainable parameters to get best performance. The updated design is shown in Fig. 8 : BM: stands for Batch Normalization Without regularizing convolution layers, they may learn a over-fitted feature extraction which is not generalizable. It means that the features would be very distinctive for training set while they are not for the test set. If features are over-fitted, the model also may be over-fitted.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 87,
+                    "end": 93,
+                    "text": "Fig. 8",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "Fig. 7 Improvement of updated design"
+        },
+        {
+            "text": "The overall accuracy has improved very well to became 100 % at epoch 54 as shown in Fig. 9 . and validation accuracy is about 82 %. Moreover, the speed of converging is increased as show in Fig. 10 . Figure 11 explains BN and other modes of Normalization for image (In convolution layers) with dimensions H: Height, W: Width [33] There are:",
+            "cite_spans": [
+                {
+                    "start": 325,
+                    "end": 329,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 84,
+                    "end": 90,
+                    "text": "Fig. 9",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 190,
+                    "end": 197,
+                    "text": "Fig. 10",
+                    "ref_id": null
+                },
+                {
+                    "start": 200,
+                    "end": 209,
+                    "text": "Figure 11",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": "Fig. 7 Improvement of updated design"
+        },
+        {
+            "text": "\u2022 Batch norm \u2022 Layer norm \u2022 Instance norm \u2022 Group norm ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fig. 7 Improvement of updated design"
+        },
+        {
+            "text": "Image augmentations have become a common implicit regularization technique to combat over-fitting in deep learning models and are ubiquitously used to improve performance. Common transformations that are typically used: flipping, rotating, scaling, and cropping. In our case, we used the next Image augmentation function (Table 4) \u2022 Rotation-range is a value in degrees (0\u2212180), a range within which to randomly rotate pictures. \u2022 Shear-range is for randomly applying shearing transformations. \u2022 Zoom-range is for randomly zooming inside pictures. for an image in the Fig. 12 : the resulted augmentation is shown in Fig. 13 : So the training dataset will be increased six times. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 321,
+                    "end": 330,
+                    "text": "(Table 4)",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 568,
+                    "end": 575,
+                    "text": "Fig. 12",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 616,
+                    "end": 623,
+                    "text": "Fig. 13",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Image augmentation"
+        },
+        {
+            "text": "Performance was validated using Market dataset, we have choose samples from the dataset to work on. For 200 persons in recognition, training dataset was increased by augmentation to 21557 images and validation accuracy has remarkable increased to reach 96. 23 For 800 person, the accuracy was 93.62% without image augmentation. Image augmentation for 800 persons was not applied because memory issue, since 800 persons are represented by more than 11000 images (more than 66000 images with augmentation).",
+            "cite_spans": [
+                {
+                    "start": 257,
+                    "end": 259,
+                    "text": "23",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Performance analysis"
+        },
+        {
+            "text": "Comparison of applied augmentation Machine Learning models is in Table 5 . Parameters were selected depending on some goals. For each parameters, two main goals were considered:",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 65,
+                    "end": 72,
+                    "text": "Table 5",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Performance analysis"
+        },
+        {
+            "text": "\u2022 High accuracy. \u2022 Speed of convergence.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Performance analysis"
+        },
+        {
+            "text": "So we can summarize the main advantage of this work as follows: The proposed model consists of typical CNN layers with some specific properties:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Performance analysis"
+        },
+        {
+            "text": "\u2022 First pooling layer with max function as pooling type \u2022 Rest pooling layers in CNN structures with average function as pooling type.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Performance analysis"
+        },
+        {
+            "text": "\u2022 Batch normalization after every pooling layer.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Performance analysis"
+        },
+        {
+            "text": "\u2022 Convolution layers with regularizer L2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Performance analysis"
+        },
+        {
+            "text": "After selection best parameters for our proposed model, image augmentation techniques were implemented to make the final model robust as possible.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Performance analysis"
+        },
+        {
+            "text": "Comparing to [10] ",
+            "cite_spans": [
+                {
+                    "start": 13,
+                    "end": 17,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Performance analysis"
+        },
+        {
+            "text": "In summary, This work proposed simple and robust model for person recognition using gait model features based on CNN algorithm, this model resulted with edits in the design of CNN model and choosing hyper parameters for some parts of CNN model. This study also introduce Image augmentation in recognition; that helps to make the simple models robust to some changes in images of persons, it generate images of the same frame or view with different conditions. The final model was validated and it performed well and better than background studies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion and future scope"
+        },
+        {
+            "text": "We can think about some points:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion and future scope"
+        },
+        {
+            "text": "\u2022 Improve person recognition by rebuilding implemented methods can be rebuilt with other batch normalization modes and with some pre-processing steps for data-set. \u2022 Using genetic algorithm for some parameters; it needs more processing time and high performance processors. \u2022 Search deeply in Fully connected layer to figure out the validity of changing activation function, or manually select activation function. \u2022 For IA, new conditions can be added to generate more images that handling other variation in images.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion and future scope"
+        },
+        {
+            "text": "The main effective scope is to implement it in real time system for real useful goals. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion and future scope"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Soft and hard biometrics for the authentication of remote people in front and side views",
+            "authors": [
+                {
+                    "first": "Aek",
+                    "middle": [],
+                    "last": "Ghalleb",
+                    "suffix": ""
+                },
+                {
+                    "first": "Neb",
+                    "middle": [],
+                    "last": "Amara",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Int J Appl Eng Res",
+            "volume": "11",
+            "issn": "14",
+            "pages": "8120--8127",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "View-invariant gait recognition based on kinect skeleton feature",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Multimedia Tools Appl",
+            "volume": "77",
+            "issn": "",
+            "pages": "24909--24944",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A comprehensive study on gait biometrics using a joint cnn-based method",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Pattern Recogn",
+            "volume": "93",
+            "issn": "",
+            "pages": "228--264",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Gait analysis for person recognition using principal component analysis and support vector machines",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Strukova",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shiripova",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Myasnikov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "CEUR Workshop Proc",
+            "volume": "2210",
+            "issn": "",
+            "pages": "170--176",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Person re-identification: System design and evaluation overview",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "351--370",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Color and texture features for person recognition",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hahnel",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Klunder",
+                    "suffix": ""
+                },
+                {
+                    "first": "K-F",
+                    "middle": [],
+                    "last": "Kraiss",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "2004 IEEE International Joint Conference on Neural Networks",
+            "volume": "1",
+            "issn": "",
+            "pages": "647--652",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Deep learning-based gait recognition using smartphones in the wild",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "IEEE Trans Inform Forensics Security",
+            "volume": "15",
+            "issn": "",
+            "pages": "3197--212",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "A data augmentation methodology for training machine/deep learning gait recognition algorithms",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Charalambous",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bharath",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1610.07570"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Dissociating identity from gait: A virtual reality study of the role of dynamic identity signatures in person recognition",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Simhi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Yovel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Gait recognition for person re-identification",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Elharrouss",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Almaadeed",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Al-Maadeed",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bouridane",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11227-020-03409-5"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Gait recognition via disentangled representation learning",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Tran",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Atoum",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+            "volume": "",
+            "issn": "",
+            "pages": "4710--4719",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Gait recognition via deep learning of the center-of-pressure trajectory",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Terrier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1908.04758"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Improved gait recognition based on specialized deep convolutional neural network. Comput Vision Image Understanding",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Alotaibi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mahmood",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "164",
+            "issn": "",
+            "pages": "103--113",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Application of neural network to predict the workability parameters of self-compacting concrete",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Tran",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "CIGOS 2019, Innovation for Sustainable Infrastructure",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1161--1166",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Radial basis function kalman filter for attitude estimation in gps-denied environment",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Assad",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Khalaf",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Chouaib",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "IET Radar, Sonar & Navigation",
+            "volume": "14",
+            "issn": "5",
+            "pages": "736--782",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Predicting research trends with semantic and neural networks with an application in quantum physics",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Krenn",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zeilinger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Gait recognition: The wearable solution",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "De Marsico",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mecca",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Human Recognition in Unconstrained Environments",
+            "volume": "",
+            "issn": "",
+            "pages": "177--195",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Coronavirus gives China more reason to employ biometric tech",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kawakami",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nikkei Asian Review",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Joint intensity and spatial metric learning for robust gait recognition",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Makihara",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Muramatsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yagi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+            "volume": "",
+            "issn": "",
+            "pages": "5705--5715",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "A survey on image data augmentation for deep learning",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Shorten",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Khoshgoftaar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Big Data",
+            "volume": "6",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Convolutional neural networks: an overview and application in radiology",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Yamashita",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nishio",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rkg",
+                    "middle": [],
+                    "last": "Do",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Togashi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Insights Into Imaging",
+            "volume": "9",
+            "issn": "4",
+            "pages": "611--640",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Recent advances in convolutional neural networks",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kuen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shahroudy",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Shuai",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Pattern Recogn",
+            "volume": "77",
+            "issn": "",
+            "pages": "354--77",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Automatic learning of gait signatures for people identification",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Castro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mar\u00edn-Jim\u00e9nez",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Guil",
+                    "suffix": ""
+                },
+                {
+                    "first": "De La",
+                    "middle": [],
+                    "last": "Blanca",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "International Work-Conference on Artificial Neural Networks",
+            "volume": "",
+            "issn": "",
+            "pages": "257--270",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Geinet: View-invariant gait recognition using a convolutional neural network",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Shiraga",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Makihara",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Muramatsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Echigo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yagi",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "2016 International Conference on Biometrics (ICB)",
+            "volume": "2016",
+            "issn": "",
+            "pages": "1--8",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Gait recognition via deep learning of the center-of-pressure trajectory",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Terrier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Appl Sci",
+            "volume": "10",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Automatic feature extraction using cnn for robust active one-shot scanning",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sagawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shiba",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hirukawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ono",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kawasaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Furukawa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "2016 23rd International Conference on Pattern Recognition (ICPR)",
+            "volume": "",
+            "issn": "",
+            "pages": "234--239",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Learning a convolutional neural network for image compact-resolution",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "IEEE Trans Image Processing",
+            "volume": "28",
+            "issn": "3",
+            "pages": "1092--107",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Face recognition: a convolutional neural-network approach",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lawrence",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Giles",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tsoi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Back",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "IEEE Trans Neural Networks",
+            "volume": "8",
+            "issn": "1",
+            "pages": "98--113",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Convolutional neural networks with dynamic regularization",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z-P",
+                    "middle": [],
+                    "last": "Bian",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hou",
+                    "suffix": ""
+                },
+                {
+                    "first": "L-P",
+                    "middle": [],
+                    "last": "Chau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1909.11862"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Dropout as a bayesian approximation: Representing model uncertainty in deep learning",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Gal",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ghahramani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "International Conference on Machine Learning",
+            "volume": "",
+            "issn": "",
+            "pages": "1050--1059",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Group normalization",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Proceedings of the European Conference on Computer Vision (ECCV)",
+            "volume": "2018",
+            "issn": "",
+            "pages": "3--19",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Publisher's Note",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Gait model with carrying objects",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Basic CNN Design Saleh and Hamoud J Big Data (2021) 8:1",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Best CNN parameters Saleh and Hamoud J Big Data (2021) 8:1",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "CL1: 32 filters, Kernal size = 3, activation function: relu, bias:true CL2: 64 filters, Kernal size = 3, activation function: relu, bias:true CL3: 128 filters, Kernal size = 3, activation function: relu, bias:true CL4: 64 filters, Kernal size = 3, activation function: relu, bias:true CL5: 32 filters, Kernal size = 3, activation function: relu, bias:true relu: Rectified linear unit function PL1-2-3-4-5: Kernal size = 5, Pooling type: max FC1: 1024 neurons, activation function: relu FC2: number of persons for neurons counts, activation function: relu",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Python version",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "CL1: 50 filters, Kernal size = 3, activation function: relu, bias:true, regularizer = 'L2' CL2: 100 filters, Kernal size = 3, activation function: relu, bias:true, regularizer = 'L2' CL3: 200 filters, Kernal size = 3, activation function: relu, bias:true, regularizer = 'L2' CL4: 100 filters, Kernal size = 3, activation function: relu, bias:true, regularizer = 'L2' CL5: 50 filters, Kernal size = 3, activation function: relu, bias:true, regularizer = 'L2' PL1: Kernal size = 5, Pooling type: max PL2-3-4-5: Kernal size = 5, Pooling type: average FC1: 4096 neurons, activation function: relu FC2: 4096 neurons, activation function: relu FC3: number of persons for neurons counts, activation function: relu Dropout: keep probability = 0.Proposed Design",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "CL1: 50 filters, Kernal size = 3, activation function: relu, bias:true, regularizer = 'L2' CL2: 100 filters, Kernal size = 3, activation function: relu, bias:true, regularizer = 'L2' CL3: 200 filters, Kernal size = 3, activation function: relu, bias:true, regularizer = 'L2' CL4: 100 filters, Kernal size = 3, activation function: relu, bias:true, regularizer = 'L2' CL5: 50 filters, Kernal size = 3, activation function: relu, bias:true, regularizer = 'L2'",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Results of updated design \u2022 Weight norm \u2022 Batch-Instance norm \u2022 Switchable norm",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Final ResultsFig. 10 Speed is improved",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Batch explain",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "\u2022 Horizontal-flip is for randomly flipping half of the images horizontally -relevant when there are no assumptions of horizontal asymmetry. \u2022 Brightness-range: Tuple or list of two floats. Range for picking a brightness shift value from.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Resulted augmentation",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "CNN: Convolution Neural Network; SVM: Support Vector Machine; NN: neural network; PCA: Principal Component Analysis; PRGM: Person Recognition based on Gait Model.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Results of changing LR",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Results of changing dropout",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Results of changing pooling kernal size",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Image augmentation",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Results comparison With IA is Not Available due to memory) issue because of huge amount of data for 800 persons images with augmentation \u2022 Image augmentation for gait recognition was applied with CNN algorithm. \u2022 Best CNN parameters. \u2022 Best CNN design and structure.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "in selected hyper parameters Ours: LR:8e\u22124, Epochs:50, Batch size: 10, Optimizer: Adam. Them: LR:1e\u22123, Epochs:50, Batch size: 20, Optimizer: Adam. The average recognition rate reaches 97%, while in ours it reaches 96.23. There are not many studies with image augmentation to compare with. In addition, No studies are worked on Market dataset.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Thanks for Mr. AA, for his co-operation and help.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "AS took the role of performing the literature review, working on CNN algorithm. TH took on a supervisory role and oversaw the completion of the work, Proposed data set for implementation and validation. All authors read and approved the final manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Authors' contributions"
+        },
+        {
+            "text": "The authors declare that they have no funding.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "The data set is available to public and can be found in https ://drive .googl e.com/file/d/0B8-rUzbw VRk0c 054eE ozWG9 COHM/view.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Availability of data and materials"
+        },
+        {
+            "text": "The authors Ethics approval and consent to participate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethics approval and consent to participate"
+        },
+        {
+            "text": "The authors consent for publication.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Consent for publication"
+        },
+        {
+            "text": "The authors declare that they have no competing interests. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests"
+        }
+    ]
+}

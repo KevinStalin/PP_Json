@@ -1,0 +1,2759 @@
+{
+    "paper_id": "0ae5c985e843ab0f5115dfdc034499e3b8a95fbd",
+    "metadata": {
+        "title": "The Discounted Money Value of Human Life Losses Associated With COVID-19 in Mauritius",
+        "authors": [
+            {
+                "first": "Delali",
+                "middle": [
+                    "A"
+                ],
+                "last": "Dovie",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Zafer",
+                "middle": [],
+                "last": "\u00c7aliskan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Narimasa",
+                "middle": [],
+                "last": "Kumagai",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Laurent",
+                "middle": [],
+                "last": "Musango",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "World Health Organization, Country Office for Mauritius",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Port Louis",
+                        "country": "Mauritius"
+                    }
+                },
+                "email": "musangol@who.int"
+            },
+            {
+                "first": "Ajoy",
+                "middle": [],
+                "last": "Nundoochan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "World Health Organization, Country Office for Mauritius",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Port Louis",
+                        "country": "Mauritius"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Joses",
+                "middle": [
+                    "Muthuri"
+                ],
+                "last": "Kirigia",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "African Sustainable Development Research Consortium (ASDRC)",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Nairobi",
+                        "country": "Kenya"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: Mauritius along with other 12 countries in the African Region was identified at the early start of the COVID-19 pandemic as being at high risk due to high volume of international travel, high prevalence of non-communicable diseases and co-morbidities, high population density and significant share of population over 60 years (16%). The objective of this study was to estimate the total discounted money value of human life losses TDMVCL MAURITIUS associated with COVID-19 in Mauritius.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The human capital approach (HCA) was used to estimate the TDMVCL MAURITIUS of the 10 human life losses linked with COVID-19 in Mauritius as of 16 October 2020. The HCA model was estimated with the national life expectancy of 75.51 years and a discount rate of 3%. A sensitivity analysis was performed assuming (a) 5 and 10% discount rates, and (b) the average world life expectancy of 73.2 years, and the world highest life expectancy of 88.17 years.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results: The money value of human lives lost to COVID-19, at a discounted rate of 3%, had an estimated TDMVCL MAURITIUS of Int$ 3,120,689, and an average of Int$ 312,069 per human life lost. Approximately 74% of the TDMVCL MAURITIUS accrued to persons aged between 20 and 59 years. Reanalysis of the model with 5 and 10% discount rates, holding national life expectancy constant, reduced the TDMVCL MAURITIUS by 19.0 and 45.5%, respectively. Application of the average world life expectancy at 3% discount rate reduced TDMVCL MAURITIUS by 13%; and use of the world highest life expectancy at 3% discount rate increased TDMVCL MAURITIUS by 50%.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The average discounted money value per human life loss associated with COVID-19 is 12-fold the per capita GDP for Mauritius. All measures implemented to prevent widespread community transmission of COVID-19 may have saved the country 837 human lives worth Int$258,080,991. This evidence, conjointly with human rights arguments, calls for increased investments to bridge the existing gaps for achieving universal health coverage by 2030.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Mauritius is the second country among the 47 World Health Organization [WHO] African Region [WAFR] member states which graduated to a high-income economy. The Gross National Income (GNI) per capita for 2019 was US$ 12,740, with an estimated population of 1.27 million (1). Furthermore, Mauritius has a human development index of 0.796 and which after adjusting for inequality drops to 0.688. In the same breath, the country has a Gini index of 35.8 (2) . As a result of Coronavirus Disease , the economy is expected to experience its first contraction in 40 years. According to the International Monetary Fund (IMF), the real gross domestic product (GDP) growth would contract by 6.8% in 2020 (3) .",
+            "cite_spans": [
+                {
+                    "start": 449,
+                    "end": 452,
+                    "text": "(2)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 693,
+                    "end": 696,
+                    "text": "(3)",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "In 2017, which was before COVID-19 pandemic, Mauritius had a total of 10,332.65 deaths, of which 88.95% were from noncommunicable diseases (NCD), 5.28% from injuries, and 5.76% from communicable diseases (CD). The death rates per 100,000 population for various CDs were: 39.12 for chronic respiratory diseases; 25.31 for respiratory infections and tuberculosis; 7.77 for maternal and neonatal disorders; 7.63 for HIV/AIDS and sexually transmitted infections; 2.19 for enteric infections; 1.08 for nutritional deficiencies; 0.14 for neglected tropical diseases and malaria; and 2.66 for other infectious diseases (4) .",
+            "cite_spans": [
+                {
+                    "start": 612,
+                    "end": 615,
+                    "text": "(4)",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The COVID-19 outbreak continues to accelerate with a total of 39,175,462 confirmed cases, including 1,102,941 deaths and a case fatality rate of 2.8%, reported globally at 16 October 2020 (5) . The African continent had a total of 1,621,853 cases, including 39,150 deaths and a case fatality rate (2.4%). South Africa is the hardest-hit country in the African continent and ranks eleventh globally after the United States of America (USA), India, Brazil, Russia, Spain, Argentina, Colombia, Peru, Mexico and France (5) . As of 16 October 2020, there were 415 confirmed COVID-19 cases in Mauritius, including 10 deaths, 364 recovered cases, and 41 active cases (5) . The case fatality rate was 2.4% and a recovery rate of 87.7% (5, 6) .",
+            "cite_spans": [
+                {
+                    "start": 172,
+                    "end": 174,
+                    "text": "16",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 188,
+                    "end": 191,
+                    "text": "(5)",
+                    "ref_id": null
+                },
+                {
+                    "start": 515,
+                    "end": 518,
+                    "text": "(5)",
+                    "ref_id": null
+                },
+                {
+                    "start": 660,
+                    "end": 663,
+                    "text": "(5)",
+                    "ref_id": null
+                },
+                {
+                    "start": 727,
+                    "end": 730,
+                    "text": "(5,",
+                    "ref_id": null
+                },
+                {
+                    "start": 731,
+                    "end": 733,
+                    "text": "6)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Notwithstanding the growing interest for research in the area of COVID-19, there is a dearth of country evidence on the monetary value of human life losses associated with COVID-19. Brazil (7) , Canada (8), China (9) , France (10), Iran (11) , Italy (12), Spain (13) , Turkey (14) , the United Kingdom [UK] (15) , and the USA (16) are exceptions. Quantifying the real disease burden of COVID-19 in dollar terms is critical to building advocacy to increase investment into health-related systems. The objectives of this paper are 2-fold. First, to estimate the discounted money value of human life losses associated with COVID-19 in Mauritius as of 16 October 2020. Secondly, to estimate briefly the potential gains from preventive actions taken to contain the spread of COVID- 19. Mauritius is among the very few countries in the WAFR which has managed to halt the community transmission of COVID- 19 . There have been no confirmed cases of local transmission since 26 April 2020. The success might be attributed to four systemic reasons.",
+            "cite_spans": [
+                {
+                    "start": 189,
+                    "end": 192,
+                    "text": "(7)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 207,
+                    "end": 216,
+                    "text": "China (9)",
+                    "ref_id": null
+                },
+                {
+                    "start": 237,
+                    "end": 241,
+                    "text": "(11)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 262,
+                    "end": 266,
+                    "text": "(13)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 276,
+                    "end": 280,
+                    "text": "(14)",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 307,
+                    "end": 311,
+                    "text": "(15)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 326,
+                    "end": 330,
+                    "text": "(16)",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 648,
+                    "end": 650,
+                    "text": "16",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 777,
+                    "end": 780,
+                    "text": "19.",
+                    "ref_id": null
+                },
+                {
+                    "start": 898,
+                    "end": 900,
+                    "text": "19",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "First, relatively good governance compared to the rest of Africa continent. The Ibrahim Index of African Governance (IIAG) is a tool for tracking African governments progress in attaining the United Nations Sustainable Development (SDG) Goal 16 relating to effective, accountable and inclusive institutions at all levels (17, 18) . In 2017, Mauritius had an overall IIAG score of 79.5%, which consisted of category scores of 81.3% in safety and the rule of law (SRL), 77.2% in participation and human rights (PHR), 74.8% of sustainable economic opportunity (SEO), and 84.6% in human development (HD) (19) . The Mauritius overall IIAG and the four category scores were higher than Africa's overall IIAG score of 49.9%, and category mean scores of 52.6% in SRL, 49.2% in PHR, 44.8% in SEO, and 52.8% in HD (19) .",
+            "cite_spans": [
+                {
+                    "start": 321,
+                    "end": 325,
+                    "text": "(17,",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 326,
+                    "end": 329,
+                    "text": "18)",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 600,
+                    "end": 604,
+                    "text": "(19)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 804,
+                    "end": 808,
+                    "text": "(19)",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Second, Mauritius has more resourced national health system and other systems that address social determinants of health than those of many other countries in the WAFR. As shown in Table 1 , the health workforce, medical devices, infrastructure, essential health service coverage, per capita current health expenditure, and safely managed water and sanitation indicators for Mauritius are significantly higher than those of the WAFR (20) (21) (22) (23) (24) (25) .",
+            "cite_spans": [
+                {
+                    "start": 433,
+                    "end": 437,
+                    "text": "(20)",
+                    "ref_id": null
+                },
+                {
+                    "start": 438,
+                    "end": 442,
+                    "text": "(21)",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 443,
+                    "end": 447,
+                    "text": "(22)",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 448,
+                    "end": 452,
+                    "text": "(23)",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 453,
+                    "end": 457,
+                    "text": "(24)",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 458,
+                    "end": 462,
+                    "text": "(25)",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 181,
+                    "end": 188,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The public and private health sector are manned by a total of 3,210 medical doctors (including 895 specialists), 411 dentists and 4,400 nurses and midwives (27) . The doctor population ratio (25.3 per 10,000 population) and nurse and midwifery ratio (35.2 per 10,000 population) in Mauritius are, respectively, 8-and 3-fold higher than those of the WAFR (20, 22) .",
+            "cite_spans": [
+                {
+                    "start": 156,
+                    "end": 160,
+                    "text": "(27)",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 354,
+                    "end": 358,
+                    "text": "(20,",
+                    "ref_id": null
+                },
+                {
+                    "start": 359,
+                    "end": 362,
+                    "text": "22)",
+                    "ref_id": "BIBREF45"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "In 2017, Mauritius per capita current health expenditure (CHE) of US$600 (Int$1,278) was 4.4 times higher than the average of Int$292 in the AFR (25) . The percentage of the population with household expenditures on health of more than 25% of the total household income increased slightly from 1.2% in 2012 to 1.8% of the population in 2018 (24, 28) . In 2012, 0.34% of households were impoverished by OOP (28) . The health system is adequately resourced to keep Mauritius on track to attaining the SDG 3 target 3.8 on achieving universal health coverage (UHC) (18, 29, 30) . The Mauritius UHC essential health services coverage index (measured on a scale of 0 to target of 100) of 63% in 2017 was higher than the average of 46% for the WAFR (23) .",
+            "cite_spans": [
+                {
+                    "start": 145,
+                    "end": 149,
+                    "text": "(25)",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 341,
+                    "end": 345,
+                    "text": "(24,",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 346,
+                    "end": 349,
+                    "text": "28)",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 406,
+                    "end": 410,
+                    "text": "(28)",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 561,
+                    "end": 565,
+                    "text": "(18,",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 566,
+                    "end": 569,
+                    "text": "29,",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 570,
+                    "end": 573,
+                    "text": "30)",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 742,
+                    "end": 746,
+                    "text": "(23)",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Third, stronger systems that provide services related to social determinants of health. The proportion of the population using at least basic drinking-water services in Mauritius of 99% was 3-fold that of the WAFR (24, 26) . Also, the proportion of the population using improved sanitation services in Mauritius of 91.0% was three-times that of WAFR in 2017 (24, 26) .",
+            "cite_spans": [
+                {
+                    "start": 214,
+                    "end": 218,
+                    "text": "(24,",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 219,
+                    "end": 222,
+                    "text": "26)",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 358,
+                    "end": 362,
+                    "text": "(24,",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 363,
+                    "end": 366,
+                    "text": "26)",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Fourth, more robust disease surveillance and response system (DSRS) due to better International Health Regulation (IHR) core capacities as recommended by the 58th World Health Assembly (31, 32) . In 2013, WHO developed an IHR core capacity monitoring framework consisting of a checklist and indicators that countries can use to monitor progress in the implementation of 13 IHR core capacities (33) . Table 2 shows that, except for the Zoonotic and humananimal interface, all the other 12 IHR core capacity scores for Mauritius were higher than those for the WAFR (34) . The average of the 13 IHR core capacities score of 64 was higher than the average for WAFR of 44. Despite the past relative success, the Ministry of Health and Wellness acknowledges the need to sustain advocacy for increased and efficiently utilized investments to bridge the albeit limited persisting gaps in UHC and implementation of some of the IHR core capacities (35) . Card and Mooney (36) argue that given the resources available in any health system for saving life are limited, rational allocation of resources is needed, which call for monetary valuation of human life. According to Rice (37) , it is important to translate adverse effects of diseases, such as COVID-19, into dollar terms which is the universal language of decisionmakers in ministries of economic development, planning, and finance; the private sector; and the international development policy arena.",
+            "cite_spans": [
+                {
+                    "start": 185,
+                    "end": 189,
+                    "text": "(31,",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 190,
+                    "end": 193,
+                    "text": "32)",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 393,
+                    "end": 397,
+                    "text": "(33)",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 563,
+                    "end": 567,
+                    "text": "(34)",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 938,
+                    "end": 942,
+                    "text": "(35)",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 961,
+                    "end": 965,
+                    "text": "(36)",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 1163,
+                    "end": 1172,
+                    "text": "Rice (37)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 400,
+                    "end": 407,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The cross-sectional study reported in this paper was undertaken among the ten persons deceased due to COVID-19 in Mauritius between 18 March 2020 (when the first case was discovered) to 16 October 2020. The Republic of Mauritius implemented a wide array of public health containment measures since the outbreak of COVID-19 was reported in the country on 18 March 2020 to prevent widespread community transmission (6, 38) . These included bans on public gatherings, a curfew order, closing of borders, discontinuation of public transportation; closing of schools, universities, shopping malls, and tourist sites; suspending of employee attendance at government and private workplaces (except for essential staff); and introduction of mass testing for antigens on 27 April 2020. As the country recorded no new cases for nearly 3 weeks and no active cases since 11 May 2020, a strategically phased resumption of economic activities began on 15 May 2020. A Work Access Permit issued by the authorities, except for those working in essential sectors became mandatory for employees to resume their duties.",
+            "cite_spans": [
+                {
+                    "start": 132,
+                    "end": 134,
+                    "text": "18",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 186,
+                    "end": 188,
+                    "text": "16",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 413,
+                    "end": 416,
+                    "text": "(6,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 417,
+                    "end": 420,
+                    "text": "38)",
+                    "ref_id": "BIBREF66"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study Area and Overview of Interventions Implemented to Combat COVID-19"
+        },
+        {
+            "text": "Arrangements were made by the public transport companies to comply with the prescribed health measures and to adhere to the physical distance between passengers. Schoolchildren had to stay at home, while the courses continued to be delivered remotely. Banks and supermarkets still operated on alphabetical order, and the same applied to post offices. Two sets of legislations were enacted mid-May 2020, namely the COVID-19 Bill and Quarantine Bill. Both legislations delineated the transition process from the curfew by strengthening the surveillance control and health system preparedness. These actions ensured a progressive reopening of economic and other activities with strict sanitary rules and added measures to avoid a resurgence of the disease (6, 38) .",
+            "cite_spans": [
+                {
+                    "start": 753,
+                    "end": 756,
+                    "text": "(6,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 757,
+                    "end": 760,
+                    "text": "38)",
+                    "ref_id": "BIBREF66"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study Area and Overview of Interventions Implemented to Combat COVID-19"
+        },
+        {
+            "text": "Notwithstanding the curfew was lifted from end of May 2020, physical distancing guidelines remain in place, as well as the mandatory wearing of masks in public. While working access permits are no longer required, offices are required to incorporate physical distancing requirements, and encourage working from home. All schools reopened in July 2020 while the borders remained closed until the end of September (6, 38) .",
+            "cite_spans": [
+                {
+                    "start": 412,
+                    "end": 415,
+                    "text": "(6,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 416,
+                    "end": 419,
+                    "text": "38)",
+                    "ref_id": "BIBREF66"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study Area and Overview of Interventions Implemented to Combat COVID-19"
+        },
+        {
+            "text": "Every human being is imbued with unique capabilities that enable them to enjoy their right to life (Article 3), the right to rest and leisure (Article 24) (39), flourishing as a human (40) , and perform expected societal roles (e.g., spouse, carer, breadwinner/worker, taxpayer, commodity consumer, investor, innovator, inventor, mentor, learner, educator, religious worshiper) (41) . According to the OECD such capabilities (human capital) include \"The knowledge, skills, competencies and attributes (physical, emotional and mental health plus motivation, and behavior) embodied in individuals that facilitate the creation of personal, social and economic well-being (p. 18)\" (42) . The actualization of such capabilities during one's lifetime enables the individual, the family, and the society to flourish or thrive (43) . Premature death from COVID-19 (or any other cause) annihilates the stock of those embodied human capital capabilities (including health), capacity to enjoy leisure activities, ability to consume nonhealth goods and services, capability to contribute to government revenue (via service fees and taxes), ability to save and invest, and ability to produce goods and services for domestic use or export.",
+            "cite_spans": [
+                {
+                    "start": 184,
+                    "end": 188,
+                    "text": "(40)",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 378,
+                    "end": 382,
+                    "text": "(41)",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 677,
+                    "end": 681,
+                    "text": "(42)",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 819,
+                    "end": 823,
+                    "text": "(43)",
+                    "ref_id": "BIBREF71"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Empirical Framework"
+        },
+        {
+            "text": "The potentially productive years of life lost [YLL] from a COVID-19 death equals the average life expectancy at birth of Mauritius minus the age of onset of death of the specific person. Jones-Lee (44) and Mooney (45) explains and discusses the strengths and limitations of the three approaches used to value monetarily statistical human life, i.e., the human capital approach (HCA), the revealed preferences approach (or implied values), and the willingness-to-pay (or contingent valuation) approach.",
+            "cite_spans": [
+                {
+                    "start": 213,
+                    "end": 217,
+                    "text": "(45)",
+                    "ref_id": "BIBREF73"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Empirical Framework"
+        },
+        {
+            "text": "The current study employs the HCA originally developed by Petty (46) , and after that, refined by Weisbrod (47) and Rice and Cooper (48) . According to Weisbrod (47) , \"The present value of a man at any given age may be defined operationally as his discounted expected future earnings stream net of his consumption.\" (p. 427). Weisbrod (47), Chisholm et al. (49) , and World Health Organization [WHO] (50) recommends use of per capita GDP net of current health expenditure in the valuation of YLL.",
+            "cite_spans": [
+                {
+                    "start": 64,
+                    "end": 68,
+                    "text": "(46)",
+                    "ref_id": "BIBREF74"
+                },
+                {
+                    "start": 107,
+                    "end": 111,
+                    "text": "(47)",
+                    "ref_id": "BIBREF75"
+                },
+                {
+                    "start": 116,
+                    "end": 136,
+                    "text": "Rice and Cooper (48)",
+                    "ref_id": null
+                },
+                {
+                    "start": 152,
+                    "end": 165,
+                    "text": "Weisbrod (47)",
+                    "ref_id": null
+                },
+                {
+                    "start": 358,
+                    "end": 362,
+                    "text": "(49)",
+                    "ref_id": "BIBREF77"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Empirical Framework"
+        },
+        {
+            "text": "Why use net GDP per capita, i.e., the difference between GDP per capita and health care expenditure per capita? Economic theory assumes that every rational individual strives to maximize utility (happiness or pleasure or welfare). The main direct determinants of utility are the consumption of health, nonhealth goods and services, and leisure (50) . Individuals demand health because it is intrinsically pleasurable, allows one to engage in activities of daily living (e.g., schooling, work), and enables one to enjoy leisure activities (e.g., eating and drinking in restaurants, local and international tourism activities, sports, socializing, visiting drama and movie theaters, sports). People demand health goods and services, which do not yield utility, because of the expected positive impact on health, i.e., healthrelated-quality of life and length of life. Thus, the demand for health goods and services is derived from the demand for health (51) . COVID-19 illness (or any other illness) compels individuals (and households) to pay for health goods and services, which reduces household disposable income, and hence, enjoyment of leisure activities and non-health goods and services that directly deliver utility (or pleasure) (49) . It is for this reason that WHO (50) recommends: \". . . it is important to note that GDP includes expenditure on health goods and services, so this component should be omitted, and the focus of analysis be redirected toward establishing the present value of discounted aggregate flows of current and future consumption of non-health-related goods and services linked to disease (p.4)\".",
+            "cite_spans": [
+                {
+                    "start": 344,
+                    "end": 348,
+                    "text": "(50)",
+                    "ref_id": "BIBREF78"
+                },
+                {
+                    "start": 951,
+                    "end": 955,
+                    "text": "(51)",
+                    "ref_id": "BIBREF79"
+                },
+                {
+                    "start": 1237,
+                    "end": 1241,
+                    "text": "(49)",
+                    "ref_id": "BIBREF77"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Empirical Framework"
+        },
+        {
+            "text": "The current study replicates the HCA model developed by Weisbrod (47) , and recently applied in Brazil (7), Canada (8), China (9), France (10), Iran (11), Italy (12), Spain (13) , Turkey (14) , the UK (15), and the USA (16) to estimate the monetary value of human lives lost due to COVID-19. The total discounted money value of human life losses linked with the 10 COVID-19 deaths in Mauritius (TDMVCL MAURITIUS ) equals sum of the discounted money value of each case whose outcome was death (DMVCL i ). Where 'i' equals Case 1, Case 2, Case 3, Case 4, Case 5, Case 6, Case 7, Case 8, Case 9, and Case 10. Formulaically:",
+            "cite_spans": [
+                {
+                    "start": 56,
+                    "end": 69,
+                    "text": "Weisbrod (47)",
+                    "ref_id": null
+                },
+                {
+                    "start": 173,
+                    "end": 177,
+                    "text": "(13)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 187,
+                    "end": 191,
+                    "text": "(14)",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Empirical Framework"
+        },
+        {
+            "text": "The DMVCL i for each i th COVID-19 case with death outcome is the sum of the multiplication of discount factor, net per capita GDP for Mauritius, and years of life lost (YLL) per ith case. Where: a) Discount factor (Q 1 ) equals 1 (1+r) t , r is the discount rate of 3% in this study (7) (8) (9) (10) (11) (12) (13) (14) (15) (16) 52) , and t is the specific YLL; b) net per capita GDP equals the difference between GDP per capita (Q 2 ) minus current health expenditure per person (Q 3 ) in Mauritius; c) YLL equals the average life expectancy at birth in Mauritius (Q 4 ) minus the average age of onset of death for the i th case of COVID-19 (Q 5 ).",
+            "cite_spans": [
+                {
+                    "start": 284,
+                    "end": 287,
+                    "text": "(7)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 288,
+                    "end": 291,
+                    "text": "(8)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 292,
+                    "end": 295,
+                    "text": "(9)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 296,
+                    "end": 300,
+                    "text": "(10)",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 301,
+                    "end": 305,
+                    "text": "(11)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 306,
+                    "end": 310,
+                    "text": "(12)",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 311,
+                    "end": 315,
+                    "text": "(13)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 316,
+                    "end": 320,
+                    "text": "(14)",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 321,
+                    "end": 325,
+                    "text": "(15)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 326,
+                    "end": 330,
+                    "text": "(16)",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 331,
+                    "end": 334,
+                    "text": "52)",
+                    "ref_id": "BIBREF80"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Empirical Framework"
+        },
+        {
+            "text": "The formula for estimating DMVCL i for the i th case can be expressed as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Empirical Framework"
+        },
+        {
+            "text": "Where:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Empirical Framework"
+        },
+        {
+            "text": "t=j t=1 is the addition from the 1 st to year T of life for the i th case, and the meaning of other variables are as defined earlier. 2020 was taken as the base year for the analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Empirical Framework"
+        },
+        {
+            "text": "The economic model (equations 1 and 2) was estimated using the following data and data sources: ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and Data Sources"
+        },
+        {
+            "text": "Excel Software (Microsoft, New York) was used to analyse data following the steps below:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Analysis"
+        },
+        {
+            "text": "Step 1: Equations 1 and 2 in subsection Empirical Framework were built into an Excel spreadsheet.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Analysis"
+        },
+        {
+            "text": "Step Step 4: The discounting of YLL at 3%, 5% and 10% discount rates yielded 124, 100, and 68 years, respectively (See Supplementary Table 2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 119,
+                    "end": 140,
+                    "text": "Supplementary Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Data Analysis"
+        },
+        {
+            "text": "Step 5: The economic model was estimated using a discount rate of 3%, which is widely applied in health-related studies (25-30, 43, 46) . It entailed multiplication of the discounted YLL of 124 years by the net GDP per capita (Int$25,182.57) (See Supplementary Table 3 ).",
+            "cite_spans": [
+                {
+                    "start": 120,
+                    "end": 135,
+                    "text": "(25-30, 43, 46)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 247,
+                    "end": 268,
+                    "text": "Supplementary Table 3",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Data Analysis"
+        },
+        {
+            "text": "Step 6: The average money value per COVID-19 death was calculated through the division of the total discounted money value of human lives lost in Mauritius by the total number of deaths, i.e., Int$3,120,689.13 divided by 10 deaths.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Analysis"
+        },
+        {
+            "text": "Step 7: The average money value per person in population was estimated through the division of the total discounted money value of human lives lost by the total population in 2020 for Mauritius, i.e., Int$3,120,689.13 divided by 1,271,766.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Analysis"
+        },
+        {
+            "text": "Step 8: Two univariate sensitivity analyses were conducted to test the impact of uncertainty surrounding two variables. First, due to the lack of consensus in the health economics literature, uncertainty surrounds the choice of discount rate (54, 55) . In order to test the impact of changes in the discount rate on the TDMVCL MAURITIUS , the model was recalculated using discount rates of 5% and 10% (7-16, 56, 57) . Second, there is no consensus regarding whether to apply the national average life expectancy at birth or the world highest average life expectancy at birth in the calculations of YLL (7-16). The economic model was first estimated using the national average life expectancy at birth for Mauritius, and subsequently, reanalysed with the global average life expectancy at birth and the world highest average life expectancy at birth (i.e., female average life expectancy in Hong Kong).",
+            "cite_spans": [
+                {
+                    "start": 242,
+                    "end": 246,
+                    "text": "(54,",
+                    "ref_id": "BIBREF82"
+                },
+                {
+                    "start": 247,
+                    "end": 250,
+                    "text": "55)",
+                    "ref_id": "BIBREF83"
+                },
+                {
+                    "start": 401,
+                    "end": 415,
+                    "text": "(7-16, 56, 57)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data Analysis"
+        },
+        {
+            "text": "Step 9: The potential gains due to COVID-19 contact tracing and quarantine were estimated. The step entailed calculation of the: ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Analysis"
+        },
+        {
+            "text": "Ethics approval was not necessary since the study did not involve human or animal subjects. It relied exclusively on the analysis of secondary data from IMF (53), Mauritius Ministry of Health and Wellness (6), WHO (24, 25) , and Worldometer (5) databases. The data is freely accessible to the public.",
+            "cite_spans": [
+                {
+                    "start": 214,
+                    "end": 218,
+                    "text": "(24,",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 219,
+                    "end": 222,
+                    "text": "25)",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Ethics Approval"
+        },
+        {
+            "text": "As depicted in ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Findings of Analysis With Mauritius Life Expectancy of 75.51 Years and a 3% Discount Rate"
+        },
+        {
+            "text": "Without contact tracing and quarantine, a total of 43 persons would have died due to COVID-19 with a monetary value of An increase in the discount rate from 3 to 10% results in a drop in TDMVCL from Int$3,120,689 to Int$1,700,996. This represents a 46% decrease. Also, a 16.7% growth in the average life expectancy at birth leads to an expansion in TDMVCL of 50%. This result confirms the findings from past studies that indeed, the magnitude money value of human life losses is dependent on both the discount rate and the average life expectancies used (7) (8) (9) (10) (11) (12) (13) (14) (15) (16) . Table 6 provides a comparison of the findings from the Mauritius study with those of 10 other countries that employed the HCA to estimate the monetary value of human life losses associated with COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 554,
+                    "end": 557,
+                    "text": "(7)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 558,
+                    "end": 561,
+                    "text": "(8)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 562,
+                    "end": 565,
+                    "text": "(9)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 566,
+                    "end": 570,
+                    "text": "(10)",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 571,
+                    "end": 575,
+                    "text": "(11)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 576,
+                    "end": 580,
+                    "text": "(12)",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 581,
+                    "end": 585,
+                    "text": "(13)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 586,
+                    "end": 590,
+                    "text": "(14)",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 591,
+                    "end": 595,
+                    "text": "(15)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 596,
+                    "end": 600,
+                    "text": "(16)",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 603,
+                    "end": 610,
+                    "text": "Table 6",
+                    "ref_id": "TABREF9"
+                }
+            ],
+            "section": "Potential Gains From COVID-19 Contact Tracing and Quarantine"
+        },
+        {
+            "text": "The total discounted money value of human life losses in Mauritius was 1,151-fold lower than those of Brazil (7); 653fold of Canada (8); 296-fold of China (9); 3,362-fold of France (10); 1,125-fold of Iran (11); 4,188-fold of Italy (12); 3,086-fold of Spain (13) ; 352-fold of Turkey (14); 3,167-fold of the UK (15); and 6,338-fold of the USA (16) . The differences could be attributed to significantly lower number of COVID-19 deaths in Mauritius compared to the six other countries.",
+            "cite_spans": [
+                {
+                    "start": 258,
+                    "end": 262,
+                    "text": "(13)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 343,
+                    "end": 347,
+                    "text": "(16)",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Comparison With Other Studies"
+        },
+        {
+            "text": "The average discounted money value per human life in Mauritius was higher than the other six countries (Brazil, Canada, Iran, Turkey, UK, and USA), which is related to higher mortality rate in the younger age groups in Mauritius. As the share of deaths in Canada, France, Italy, Turkey, UK and USA in the older age group of 60 years and above was considerably much higher, ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Comparison With Other Studies"
+        },
+        {
+            "text": "This study applied HCA, a well-known economic methodology, to monetarily value the human life losses associated with COVID-19 in Mauritius. It is the first study of its kind in Mauritius. The evidence presented in this paper can be judiciously used by the Ministry of Health and Wellness to make a case for augmenting investments to strengthen healthrelated systems to bridge extant service coverage gaps. Universal coverage of health and health-related services would contribute in assuring every citizen's right to life, and achievement of the SDG3 on \"Ensuring healthy lives and promote well-being for all at all ages\" and SDG6 on \"Ensuring availability and sustainable management of water and sanitation for all\" [(18), p. 14].",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Strengths of the Study"
+        },
+        {
+            "text": "The study had some shortcomings. First, the scope of the study was limited to the impact of COVID-19 on the life expectancy of the ten persons who died. Therefore, since the study did not evaluate both the costs and consequences of alternative COVID-19 control intervention options, the study findings can only be used for advocacy and not to inform policy development and decision-making.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations of the Study"
+        },
+        {
+            "text": "Second, the study did not include the cost of societal resources expended in prevention (water, sanitation, handwashing with soap, hand-sanitisers, facial masks, personal protective equipment for health workers), quarantine, testing, contacttracing, treatment, and rehabilitation of the 332 cases that recovered from COVID-19 infection. It did not also include the cost of diagnosis, treatment, post-mortem, mortuary storage, and interment of the 10 cases that died.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations of the Study"
+        },
+        {
+            "text": "Third, Santarpia et al. (59) conducted a study among 13 individuals with COVID-19 isolated at the University of Nebraska Medical Center to examine aerosol and surface contamination with SARS-CoV-2. The authors found that \". . . data indicate significant environmental contamination in rooms where patients infected with SARS-CoV-2 are housed and cared for, regardless of the degree of symptoms or acuity of illness. Contamination exists in all types of samples: high and low-volume air samples, as well as surface samples including personal items, room surfaces, and toilets\" (p.3). This implies that since there may still be aerosol and surface contamination at quarantine and isolation centers, we may have overestimated the effect of quarantine, and hence, the potential discounted money value of human lives saved.",
+            "cite_spans": [
+                {
+                    "start": 24,
+                    "end": 28,
+                    "text": "(59)",
+                    "ref_id": "BIBREF87"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Limitations of the Study"
+        },
+        {
+            "text": "Fourth, the HCA approach used has a number of weaknesses: (a) it uses GDP per capita to value the YLL, which ignores nonmarket contributions to societal welfare, the negative impact of economic production processes (e.g., on climate change), inequalities in the distribution of wealth and income, and quality of life (60); (b) values the YLL above the national average life expectancy at birth at zero; (c) assumes that the only objective of improving (or sustaining) human health (healthrelated quality and length of life) is to contribute to economic production (61) , which disregards other objectives such as assuring human rights (39) , and enabling homo sapiens to flourish (40) .",
+            "cite_spans": [
+                {
+                    "start": 564,
+                    "end": 568,
+                    "text": "(61)",
+                    "ref_id": "BIBREF89"
+                },
+                {
+                    "start": 635,
+                    "end": 639,
+                    "text": "(39)",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 680,
+                    "end": 684,
+                    "text": "(40)",
+                    "ref_id": "BIBREF68"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Limitations of the Study"
+        },
+        {
+            "text": "This study succeeded in estimating the discounted money value of human life losses associated with COVID-19 in Mauritius as of 16 October 2020. The average discounted money value per human life loss associated with COVID-19 of Int$312,069 is significant, since it is 12-fold the per capita GDP for Mauritius. As noted earlier, the Republic of Mauritius prompt action in arresting the spread of COVID-19 infections, optimizing recoveries, and limiting the number of deaths is laudable. All measures implemented to prevent widespread community transmission of COVID-19 may have saved the country 837 human lives worth Int$258,080,991. This effectiveness has been attributed to relatively good political governance, and a highly performing national health system, disease surveillance and response system, and other systems that address social determinants of health.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSION"
+        },
+        {
+            "text": "The Ministry of Health and Wellness can use the evidence contained in this paper, conjointly with human rights (to life, health, and health care) arguments, to sustain advocacy for further increase in multisector investments to bridge the existing limited gaps in UHC, IHR core capacities, and social determinants of health to mitigate and to respond to future public health emergencies, and to sustain the good health indicators.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSION"
+        },
+        {
+            "text": "In order to guide decision-making related to COVID-19, there is a need for studies that estimate both costs and consequences of alternative prevention (e.g., lockdown, handwashing, physical distancing), contact-tracing, quarantine, treatment, and rehabilitation interventions (62, 63) .",
+            "cite_spans": [
+                {
+                    "start": 276,
+                    "end": 280,
+                    "text": "(62,",
+                    "ref_id": "BIBREF90"
+                },
+                {
+                    "start": 281,
+                    "end": 284,
+                    "text": "63)",
+                    "ref_id": "BIBREF91"
+                }
+            ],
+            "ref_spans": [],
+            "section": "CONCLUSION"
+        },
+        {
+            "text": "The original contributions presented in the study are included in the article/Supplementary Materials, further inquiries can be directed to the corresponding author/s.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DATA AVAILABILITY STATEMENT"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Canada (8) Int$2,037",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Italy (12) Int$13,070",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "141",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Turkey (14) Int$1,098",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "469",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "United Kingdom [UK] (15) Int$9",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "883",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "United States of America",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Sources for other countries are referenced in the Table. REFERENCES 1. The World Bank. Mauritius Data",
+            "authors": [],
+            "year": 2019,
+            "venue": "October",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "United Nations Development Programme (UNDP)",
+            "authors": [],
+            "year": 2019,
+            "venue": "Beyond Income, Beyond Averages, Beyond Today: Inequalities in Human Development in the 21st Century",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "International Monetary Fund",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "COVID-19-impact and policy considerations",
+            "authors": [],
+            "year": 2020,
+            "venue": "G-20 Finance Ministers and Central Bank Governors' Meetings",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "WA: Institute for",
+            "authors": [],
+            "year": 2017,
+            "venue": "Global Burden of Disease Collaborative Network. Global Burden of Disease Study",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Ministry of Health and Wellness",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Available online at",
+            "authors": [
+                {
+                    "first": "Mauritius",
+                    "middle": [],
+                    "last": "Coronavirus In",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "The pecuniary value of human life losses associated with COVID-19 in Brazil",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kirigia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rndk",
+                    "middle": [],
+                    "last": "Muthuri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lhk",
+                    "middle": [],
+                    "last": "Nkanata",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Muthuri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Pharm",
+            "volume": "10",
+            "issn": "",
+            "pages": "45--51",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "The dollar value of human life losses associated with COVID-19 in Canada",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kirigia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rndk",
+                    "middle": [],
+                    "last": "Muthuri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pharm Biomed Res",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "The fiscal value of human lives lost from coronavirus disease (COVID-19) in China",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kirigia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rndk",
+                    "middle": [],
+                    "last": "Muthuri",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "BMC Res Notes",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s13104-020-05044-y"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "The discounted value of human lives lost due to COVID-19 in France",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kirigia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rndk",
+                    "middle": [],
+                    "last": "Muthuri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lhk",
+                    "middle": [],
+                    "last": "Nkanata",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Muthuri",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.12688/f1000research.26975.1"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "The present value of human lives lost due to coronavirus disease (COVID-19) in the Islamic Republic of Iran",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kirigia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rndk",
+                    "middle": [],
+                    "last": "Muthuri",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Muthuri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "IOSR J Dent Med Sci",
+            "volume": "19",
+            "issn": "",
+            "pages": "45--53",
+            "other_ids": {
+                "DOI": [
+                    "10.21203/rs.3.rs-24711/v1"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "The discounted financial worth of human lives lost from COVID-19 in Italy",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kirigia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rndk",
+                    "middle": [],
+                    "last": "Muthuri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lhk",
+                    "middle": [],
+                    "last": "Nkanata",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Muthuri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Econ Financ",
+            "volume": "11",
+            "issn": "",
+            "pages": "15--24",
+            "other_ids": {
+                "DOI": [
+                    "10.9790/5933-1105051524"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "The discounted money value of human lives lost due to COVID-19 in Spain",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kirigia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rndk",
+                    "middle": [],
+                    "last": "Muthuri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Health. Res",
+            "volume": "34",
+            "issn": "",
+            "pages": "455--60",
+            "other_ids": {
+                "DOI": [
+                    "10.1108/JHR-04-2020-0116"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "The monetary value of human life losses associated with COVID-19 in Turkey",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kirigia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rndk",
+                    "middle": [],
+                    "last": "Muthuri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lhk",
+                    "middle": [],
+                    "last": "Nkanata",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerald Open Res",
+            "volume": "22",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.35241/emeraldopenres.13822.1"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "The present value of human lives lost due to COVID-19 in the United Kingdom (UK)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kirigia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rdkm",
+                    "middle": [],
+                    "last": "Muthuri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pharm Biomed Res",
+            "volume": "19",
+            "issn": "",
+            "pages": "45--53",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Discounted monetary value of human lives lost due to COVID-19 in the USA as of 3",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kirigia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rndk",
+                    "middle": [],
+                    "last": "Muthuri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "IOSR J Dent Med Sci",
+            "volume": "19",
+            "issn": "",
+            "pages": "51--54",
+            "other_ids": {
+                "DOI": [
+                    "10.9790/0853-1905105154"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Mo Ibrahim Foundation. Agendas 2063 & 2030: is Africa on Track? London: Mo Ibrahim Foundation",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Transforming Our World: The 2030 Agenda for Sustainable Development. General Assembly Resolution A/RES/70/1",
+            "authors": [],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Mo Ibrahim Foundation. Ibrahim Index of African Governance (IIAG)",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "World Health Organization",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "World Health Organization",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Available online at",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Available online at: Index of service coverage",
+            "authors": [],
+            "year": 2020,
+            "venue": "INDEXOFESSENTIALSERVICECOVERAGEv?lang=en (accessed October",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "World Health Organization",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "World Health Statistics 2020: Monitoring Health for the SDGs",
+            "authors": [],
+            "year": 2020,
+            "venue": "Geneva: WHO",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "World Health Organization",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Available online at",
+            "authors": [],
+            "year": 2020,
+            "venue": "Global Health Expenditure Database",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "United Nations Children's Fund [UNICEF] WHO. Progress on Household Drinking Water, Sanitation and Hygiene",
+            "authors": [],
+            "year": 2000,
+            "venue": "Special Focus on Inequalities",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Island of Mauritius and Island of Rodrigues. Port Louis: Ministry of Health and Wellness",
+            "authors": [
+                {
+                    "first": "Mauritius",
+                    "middle": [],
+                    "last": "Republic Of",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Health Statistics",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Impact of out of pocket payments on financial risk protection indicators in a setting with no user fees: the case of Mauritius",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nundoochan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Thorabally",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Monohur",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hsu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Int J Equity Health",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12939-019-0959-5"
+                ]
+            }
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "United Nations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "General Assembly Resolution A/RES/67/81",
+            "authors": [],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Tracking Universal Health Coverage",
+            "authors": [],
+            "year": 2017,
+            "venue": "Global Monitoring Report",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Revision of the International Health Regulations. World Health Assembly Resolution",
+            "authors": [],
+            "year": 2005,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "World Health Organization [WHO]. International Health Regulations",
+            "authors": [],
+            "year": 2005,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "IHR Core Capacity Monitoring Framework: Checklist and Indicators for Monitoring Progress in the Development of IHR Core Capacities in States Parties",
+            "authors": [],
+            "year": 2005,
+            "venue": "International Health Regulations",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "World Health Organization",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "IHR States Parties Annual Reporting Global Submission Status Per Year",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Improving public hospital efficiency and fiscal space implications: the case of Mauritius",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nundoochan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Equity Health",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12939-020-01262-9"
+                ]
+            }
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "What is the monetary value of a human life",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Card",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mooney",
+                    "suffix": ""
+                }
+            ],
+            "year": 1977,
+            "venue": "Br Med J",
+            "volume": "2",
+            "issn": "",
+            "pages": "1627--1636",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.2.6103.1627"
+                ]
+            }
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Cost of illness studies: what is good about them?",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Rice",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Inj Prev",
+            "volume": "6",
+            "issn": "",
+            "pages": "177--186",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/ip.6.3.177"
+                ]
+            }
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "COVID-19 Pandemic in Mauritius",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wikipedia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "International Bill of Human Rights: A Universal Declaration of Human Rights. General Assembly Resolution A/RES/217(III) A",
+            "authors": [],
+            "year": 1948,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Commodities, characteristics of commodities, characteristics of people, utilities and the quality of life",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Culyer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "55--66",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Social role theory",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Eagly",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wood",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Handbook of Theories of Social Psychology",
+            "volume": "",
+            "issn": "",
+            "pages": "458--76",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "The Well-Being of Nations: The Role of Human and Social Capital",
+            "authors": [],
+            "year": 2001,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Commodities and Capabilities",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "The value of life and safety: a survey of recent developments",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Jones-Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "Geneva Pap Risk Insur Issues Pract",
+            "volume": "10",
+            "issn": "",
+            "pages": "141--73",
+            "other_ids": {
+                "DOI": [
+                    "10.1057/gpp.1985.13"
+                ]
+            }
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "The Valuation of Human Life",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mooney",
+                    "suffix": ""
+                }
+            ],
+            "year": 1977,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "Political Arithmetic or a Discourse Concerning the Extent and Value of Lands",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Petty",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "People",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "The valuation of human capital",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Weisbrod",
+                    "suffix": ""
+                }
+            ],
+            "year": 1961,
+            "venue": "J Political Econ",
+            "volume": "69",
+            "issn": "",
+            "pages": "425--461",
+            "other_ids": {
+                "DOI": [
+                    "10.1086/258535"
+                ]
+            }
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "The economic value of human life",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Rice",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cooper",
+                    "suffix": ""
+                }
+            ],
+            "year": 1967,
+            "venue": "Am J Public Health",
+            "volume": "57",
+            "issn": "",
+            "pages": "1954--66",
+            "other_ids": {
+                "DOI": [
+                    "10.2105/AJPH.57.11.1954"
+                ]
+            }
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "Economic impact of disease and injury: counting what matters",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Chisholm",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Stanciole",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ttt",
+                    "middle": [],
+                    "last": "Edejer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Evans",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Br Med J",
+            "volume": "340",
+            "issn": "",
+            "pages": "583--589",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.c924"
+                ]
+            }
+        },
+        "BIBREF78": {
+            "ref_id": "b78",
+            "title": "Guide to Identifying the Economic Consequences of Disease and Injury",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF79": {
+            "ref_id": "b79",
+            "title": "On the concept of health capital and the demand for health",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Grossman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1972,
+            "venue": "J Politic Econ",
+            "volume": "80",
+            "issn": "",
+            "pages": "223--55",
+            "other_ids": {
+                "DOI": [
+                    "10.1086/259880"
+                ]
+            }
+        },
+        "BIBREF80": {
+            "ref_id": "b80",
+            "title": "Cost-Effectiveness in Health and Medicine",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Gold",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Siegel",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Weinstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF81": {
+            "ref_id": "b81",
+            "title": "World Economic Outlook Database",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF82": {
+            "ref_id": "b82",
+            "title": "Behavioral economics and the conduct of benefitcost analysis: towards principles and standards",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Robinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Hammitt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Benefit Cost Anal",
+            "volume": "2",
+            "issn": "",
+            "pages": "1--51",
+            "other_ids": {
+                "DOI": [
+                    "10.2202/2152-2812.1059"
+                ]
+            }
+        },
+        "BIBREF83": {
+            "ref_id": "b83",
+            "title": "Discounting in economic evaluations",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Attema",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wbf",
+                    "middle": [],
+                    "last": "Brouwer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Claxton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Pharmacoeconomics",
+            "volume": "36",
+            "issn": "",
+            "pages": "745--58",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s40273-018-0672-z"
+                ]
+            }
+        },
+        "BIBREF84": {
+            "ref_id": "b84",
+            "title": "Impact of reduced hospitalisation on the cost of treatment for drugresistant tuberculosis in South Africa",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sinanovic",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ramma",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vassall",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Azevedo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wilkinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ndjeka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Int J Tuberc Lung Dis",
+            "volume": "19",
+            "issn": "",
+            "pages": "172--180",
+            "other_ids": {
+                "DOI": [
+                    "10.5588/ijtld.14.0421"
+                ]
+            }
+        },
+        "BIBREF85": {
+            "ref_id": "b85",
+            "title": "Economic Evaluation of Public Health Problems in Sub-Saharan Africa",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kirigia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF86": {
+            "ref_id": "b86",
+            "title": "The potential effects of widespread community transmission of SARSCoV-2 infection in the World Health Organization African Region: a predictive model",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Cabore",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Karamagi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kipruto",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Asamani",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Droti",
+                    "suffix": ""
+                },
+                {
+                    "first": "Abw",
+                    "middle": [],
+                    "last": "Seydi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ Glob Health",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmjgh-2020-002647"
+                ]
+            }
+        },
+        "BIBREF87": {
+            "ref_id": "b87",
+            "title": "Aerosol and surface contamination of SARS-CoV-2 observed in quarantine and isolation care",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Santarpia",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Rivera",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Herrera",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Morwitzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Creager",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Santarpia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci Rep",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41598-020-69286-3"
+                ]
+            }
+        },
+        "BIBREF88": {
+            "ref_id": "b88",
+            "title": "Mis-measuring Our Lives: Why GDP Doesn't Add Up",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Stiglitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Fitoussi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF89": {
+            "ref_id": "b89",
+            "title": "Cost of illness studies: an aid to decisionmaking?",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shiell",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gerard",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Donaldson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Health Policy",
+            "volume": "8",
+            "issn": "",
+            "pages": "90007--90015",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/0168-8510(87)90007-8"
+                ]
+            }
+        },
+        "BIBREF90": {
+            "ref_id": "b90",
+            "title": "Living with covid-19: balancing costs against benefits in the face of the virus",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Miles",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Stedman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Heald",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Natl Inst Econ Rev",
+            "volume": "253",
+            "issn": "",
+            "pages": "60--76",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/nie.2020.30"
+                ]
+            }
+        },
+        "BIBREF91": {
+            "ref_id": "b91",
+            "title": "Differential effects of intervention timing on COVID-19 spread in the United States",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pei",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kandula",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shaman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "a) Discount rates (Q 1 ) of 3%, 5%, and 10% from the published past COVID-19 studies(7)(8)(9)(10)(11)(12)(13)(14)(15)(16)). b) Data on the GDP per capita (Q 2 ) of Mauritius of Int$26,460.581 retrieved from the IMF World Economic Outlook Database (53). c) Data on the current health expenditure per person (Q 3 ) in Mauritius of Int$1,278.012 from the WHO Global Health Expenditure Database (25). d) Data on both sexes average life expectancy for Mauritius of 75.51 years (Q 4 ), the world of 73.2 years, and world highest (Hong Kong Females) of 88.17 years from the Worldometer demographics data (5). e) Data on the 10 COVID-19 cases that died from the Ministry of Health and Wellness COVID-19 website (6), which is also retrievable from the Worldometer Coronavirus Pandemic Database (5).f) Data on the ages of onset of death (Q 5 ) for persons who died of COVID-19 (i.e., Case 1 = 20 years, Case 2 = 42 years, Case 3 = 51 years, Case 4 = 59 years, Case 5 = 59 years, Case 6 = 63 years, Case 7 = 63 years, Case 8 = 69 years, Case 9 = 71 years, Case 10 = 76 years) from the Ministry of Health and Quality of Life COVID-19 database (6). g) Data on the 155 persons contaminated by 23 positive COVID-19 cases was from the Ministry of Health and Wellness (6). h) Data on Mauritian 4,500 repatriated from foreign countries, out of them 166 tested positive was from the Ministry of Health and Wellness (6).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": ") Case fatality rate = actual 10 COVID-19 deaths divided by total COVID-19 cases of 344 (1) = 10/344 = 0.0290697674418605. b) Contaminations per patient = 155 persons contaminated divided by 23 contaminators (5) = 155/23 = 6.73913043478261. c) Number protected by quarantine = 166 quarantined cases times contamination per patient (6.73913043478261) = 1,119. d) Number of COVID-19 deaths averted = 1,119 protected cases times case fatality rate (0.0290697674418605) = 33. e) The discounted money value of human lives saved with quarantine was equal the 33 deaths averted times the average discounted monetary value per human life of Int$312,069.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Health system and social determinants of health indicators in Mauritius vis-\u00e0-vis the WHO African Region (WAFR).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Step 10. The potential gains from all measures (which are stated in the Methods section) taken by the Government and people of Mauritius to prevent widespread community transmission of COVID-19 were estimated by multiplying the 837 predicted number of deaths from Cabore et al.(58) by average discounted money value per human life.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "TDMVCL), 21.8% accrued to the 20 year-old case, 17.0% to the 42 year-old case, 14.1% to the 51 year-old case, 21.2% to the two 59 year-old cases, 17.2% to the two 63 year-old cases, 5.0% to the 69 year-old case, 3.7% to the 71 year-old case, and 0.0% to the 76 year-old case. The discounted money value per human life diminishes with increase in age. For instance, the discounted money value of the 20 year-old case was 6-fold higher than that of the 71 year-old case. Approximately 74.1% of the TDMVCL accrued to persons aged between 20 and 59 years, i.e., the most product age bracket.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "The total discounted money value of human lives lost due to COVID-19 in Mauritius: assuming 5 and 10% discount rates (in 2020 Int$).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "portrays findings of recalculation of the economic model substituting the national life expectancy with the average world life expectancy and the world highest life expectancy.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF8": {
+            "text": "The total discounted money value of human lives lost due to COVID-19 in Mauritius-assuming average global and world's highest life expectancies (in 2020 Int$). Whereas, the average discounted money value per human life loss associated with COVID-19 was 12-fold the per capita GDP for Mauritius.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF9": {
+            "text": "A comparison of Mauritius discounted money value of human life losses associated with COVID-19 to those of 10 other countries. the component of years' life lost (life expectancy less age at onset of death due to COVID-19) is lower. Conversely, as people died from COVID-19 at relatively younger age in China and Spain, the benefits/returns foregone had these people stayed alive are much higher per person in China and Spain compared to Mauritius.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "This paper is dedicated to the Government, health workers, and people of Mauritius for the excellent fight against the COVID-19 global pandemic. The paper contains the views of the authors exclusively and does not represent the views or policies of their institutions of affiliation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGMENTS"
+        },
+        {
+            "text": "The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fpubh. 2020.604394/full#supplementary-material Conflict of Interest: LM and AN are current employees of the WHO. However, the employer did not influence the conduct and outcome of the study in anyway.The remaining author declares that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.Copyright \u00a9 2020 Musango, Nundoochan and Kirigia. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SUPPLEMENTARY MATERIAL"
+        }
+    ]
+}

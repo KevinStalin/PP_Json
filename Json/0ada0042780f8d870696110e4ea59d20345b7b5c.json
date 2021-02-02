@@ -1,0 +1,777 @@
+{
+    "paper_id": "0ada0042780f8d870696110e4ea59d20345b7b5c",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "S evere acute respiratory syndrome coronavirus 2 (SARS-CoV-2) recently emerged in China, causing a major outbreak of severe pneumonia and spreading to >200 other countries (1) . As of May 5, 2020, a total of 3,517,345 cases of coronavirus disease (COVID-2019) and 243,401 deaths had been reported to the World Health Organization (https://www.who.int/docs/default-source/ coronaviruse/situation-reports/20200505covid-19-sitrep-106.pdf?sfvrsn=47090f63_2). The virus is believed to be spread by direct contact, fomites, respiratory droplets, and possibly aerosols (2) . Viral RNA has been detected in feces and urine of some patients (3) (4) (5) (6) (7) . Infectious virus was also isolated from urine of a patient with severe COVID-19 (8) . However, it is unclear whether the virus in feces is infectious and might be an additional source for transmission.",
+            "cite_spans": [
+                {
+                    "start": 172,
+                    "end": 175,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 562,
+                    "end": 565,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 632,
+                    "end": 635,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 636,
+                    "end": 639,
+                    "text": "(4)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 640,
+                    "end": 643,
+                    "text": "(5)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 644,
+                    "end": 647,
+                    "text": "(6)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 648,
+                    "end": 651,
+                    "text": "(7)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 734,
+                    "end": 737,
+                    "text": "(8)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "This study was approved by the Health Commission of Guangdong Province and the Ethics Committees of Guangzhou Medical University to use patient and healthy donor sample specimens. On January 17, 2020, a 78-year-old man who had a history of recent travel to Wuhan, China, was admitted to the Fifth Affiliated Hospital of Sun Yat-Sen University because of a cough for 7 days and intermittent fever (Appendix Figure 1 , panel A, https://wwwnc.cdc.gov/EID/ article/26/8/20-0681-App1.pdf). Computed tomography of his chest showed multiple, ground-glass opacities (Appendix Figure 2 ). Nasopharyngeal and oropharyngeal swab specimens were positive for SARS-CoV-2 RNA by quantitative reverse transcription PCR (qRT-PCR).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 406,
+                    "end": 414,
+                    "text": "Figure 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 568,
+                    "end": 576,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "On January 22, the patient's condition deteriorated and he was intubated. Ventilator-assisted breathing was instituted. The first feces specimen was collected on January 27 and was positive for viral RNA by qRT-PCR. Serial feces samples were collected on January 29, February 1, and February 7. All samples were positive for viral RNA (Appendix Figure 1 , panel A). Viral antigen was also detected in gastrointestinal epithelial cells of a biopsy sample, as reported (9) . The patient died on February 20.",
+            "cite_spans": [
+                {
+                    "start": 467,
+                    "end": 470,
+                    "text": "(9)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 345,
+                    "end": 353,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "We collected fecal specimens on January 29 to inoculate Vero E6 cells. Cycle threshold values for the fecal sample were 23.34 for the open reading frame 1lab gene and 20.82 for the nucleoprotein gene. A Severe acute respiratory syndrome coronavirus 2 was isolated from feces of a patient in China with coronavirus disease who died. Confirmation of infectious virus in feces affirms the potential for fecal-oral or fecalrespiratory transmission and warrants further study. cytopathic effect was visible in Vero E cells 2 days after a second-round passage (Appendix Figure 1, panel  B) . We extracted viral nucleic acid from virus culture supernatant by using the QIAamp Viral RNA Extraction Kit (QIAGEN, https://www.qiagen.com) and obtained full-length viral genome sequence (GenBank accession no. MT123292) by using next-generation sequencing. The sequenced showed 5 nt substitutions compared with the original Wuhan strain (GenBank accession no. NC045512.2) (Appendix Table) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 564,
+                    "end": 583,
+                    "text": "Figure 1, panel  B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 969,
+                    "end": 975,
+                    "text": "Table)",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "We negatively stained culture supernatant and visualized by transmission electron microscopy. Viral particles that were visible were spherical and had distinct surface spike protein projections, consistent with a previously published SARS-CoV2 image (Appendix Figure, panel C) (1).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 260,
+                    "end": 267,
+                    "text": "Figure,",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "To estimate viral loads (log 10 PFU equivalents/ mL) in clinical samples from qRT-PCR cycle threshold values, we generated a standard curve from a serially diluted SARS-CoV-2 of known plaque titer. Viral loads quantified by using this method were viral RNA levels, not of infectious virus. The viral load was higher in feces than in respiratory specimens collected at multiple time points (17-28 days after symptom onset) (Appendix Figure, panel D) . Isolation of virus from feces samples collected at later time points was not successful, although results for virus RNA remained positive, indicating only RNA fragments, not infectious virus, in feces of this patient collected at later time points of disease onset.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 432,
+                    "end": 448,
+                    "text": "Figure, panel D)",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "We collected feces specimens from 28 patients; 12, including the patient described in this report, were positive for viral RNA for >1 time point. We attempted to isolate SARS-CoV-2 virus from 3 of the viral RNA-positive patients. Results were successful for 2 of 3 patients, including the patient from this report, indicating that infectious virus in feces is a common manifestation of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The patient from this report had a high level of IgG against spike protein. Levels of nucleocapsid protein-specific antibodies were relatively lower. Spike protein (1,274 aa) is much larger than nucleoprotein protein (420 aa), which potentially contains more epitopes inducing specific antibody responses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "We also identified neutralization antibodies by using a focus reduction neutralization test. Neutralizing titers (50% focus reduction neutralization test) ranged from 1:1,065 to >1:4,860 at different time points (Appendix Figure, panel E) . To show that isolated virus was infectious to susceptible cells, we tested fresh Vero E6 cells infected with the virus isolate by using indirect immunofluorescent assay and serum samples from the patient and a healthy donor. A positive reaction was only obtained with the patient serum (Appendix Figure 1, panel F) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 222,
+                    "end": 238,
+                    "text": "Figure, panel E)",
+                    "ref_id": null
+                },
+                {
+                    "start": 537,
+                    "end": 555,
+                    "text": "Figure 1, panel F)",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Isolation of infectious SARS-CoV-2 in feces indicates the possibility of fecal-oral transmission or fecalrespiratory transmission through aerosolized feces. During the 2003 severe acute respiratory syndrome pandemic, 329 residents of a private housing estate in Hong Kong were infected; 42 died (10) . Investigation of the building's structure showed that faulty sewage pipelines led to aerosolization of contaminated feces, which was believed to be the source of infection.",
+            "cite_spans": [
+                {
+                    "start": 295,
+                    "end": 299,
+                    "text": "(10)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Our findings indicate the need for appropriate precautions to avoid potential transmission of SARS-CoV-2 from feces. Discharge and hospital cleaning practices should consider this possibility for critically ill patients or those who died who had high viral loads and are more likely to shed infectious virus.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "China Novel Coronavirus Investigating and Research Team. A novel coronavirus from patients with pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "382",
+            "issn": "",
+            "pages": "727--760",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001017"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kok",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "To",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "30154--30163",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "China Medical Treatment Expert Group for Covid-19",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Ou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Viral load of SARS-CoV-2 in clinical samples",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Poon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "20",
+            "issn": "",
+            "pages": "411--413",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1473-3099(20)30113-4"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Prolonged presence of SARS-CoV-2 viral RNA in faecal samples",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Gastroenterol Hepatol",
+            "volume": "5",
+            "issn": "",
+            "pages": "434--439",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2468-1253(20)30083-2"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Detection of SARS-CoV-2 in different types of clinical specimens",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.3786"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Viral load dynamics and disease severity in patients infected with SARS-CoV-2 in Zhejiang province, China",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "369",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.m1443"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Isolation of infectious SARS-CoV-2 from urine of a COVID-19 patient",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhuang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Microbes Infect",
+            "volume": "28",
+            "issn": "",
+            "pages": "1--8",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/22221751.2020.1760144"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Evidence for gastrointestinal infection of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gastroenterology",
+            "volume": "158",
+            "issn": "",
+            "pages": "1831--1833",
+            "other_ids": {
+                "DOI": [
+                    "10.1053/j.gastro.2020.02.055"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Evidence of airborne transmission of the severe acute respiratory syndrome virus",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tam",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "N Engl J Med",
+            "volume": "350",
+            "issn": "",
+            "pages": "1731--1740",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa032867"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Author affiliations: Sun Yat-sen University, Zhuhai, China (F. Xiao); Guangzhou Medical University, Guangzhou, China (J. Sun, Y. Xu, F. Li, X. Huang, Jingxian Zhao, Jincun Zhao); Chinese Academy of Sciences, Guangzhou (H. Li); Guangzhou Customs District Technology Center, Guangzhou (J. Huang) DOI: https://doi.org/10.3201/eid2608.200681",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Nanshan Zhong and Malik Peiris for providing helpful discussions and critically reviewing the manuscript and the patient for participating in the study. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": " (1) . In their analyses, the authors estimated the case-fatality risk adjusted to a fixed lag time to death. They acknowledged that the calculated adjusted case-fatality risk (aCFR) might be influenced by residual uncertainties from undiagnosed mild COVID-19 cases and a shortage of medical resources. However, we believe the time-varying number of cumulative cases and deaths also should be considered in the epidemic profile.Because of the exponential growth curve of the COVID-19 outbreak, the numbers of cumulative cases and cumulative deaths have been relatively close to each other in the early stages of the outbreak, leading to a much higher aCFR. As the outbreak progresses, the ratio of the cumulative cases and deaths declines, which reduces the aCFR. Thus, a higher aCFR does not necessarily indicate increased disease severity.To test our hypothesis, we performed a simulation study by using a susceptible-infectious-recovered-death model and parameters set according to prior studies. We set the infectious period as 10 days (2); case-fatality risk as 3% (3); basic reproductive ratio (R 0 ) as 2.5 (4); recovery rate as 1/13 day (5) , that is, 13 days from illness onset to recovery; and the population size as 1 million. We compared crude casefatality risk, aCFR per Wilson et al.'s method, and aCFR per Mizumoto et al.'s method (6) . Although the case-fatality risk calculated from these methods all are biased at the early stage of the epidemic, case-We ran a simulation comparing 3 methods to calculate case-fatality risk for coronavirus disease using parameters described in previous studies. Case-fatality risk calculated from these methods all are biased at the early stage of the epidemic. When comparing real-time casefatality risk, the current trajectory of the epidemic should be considered.",
+            "cite_spans": [
+                {
+                    "start": 1,
+                    "end": 4,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1145,
+                    "end": 1148,
+                    "text": "(5)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1346,
+                    "end": 1349,
+                    "text": "(6)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}

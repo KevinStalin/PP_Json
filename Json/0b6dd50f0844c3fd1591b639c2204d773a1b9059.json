@@ -1,0 +1,2391 @@
+{
+    "paper_id": "0b6dd50f0844c3fd1591b639c2204d773a1b9059",
+    "metadata": {
+        "title": "Prevalence and Socio-Demographic Predictors of Food Insecurity in Australia during the COVID-19 Pandemic",
+        "authors": [
+            {
+                "first": "Katherine",
+                "middle": [],
+                "last": "Kent",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Tasmania",
+                    "location": {
+                        "postCode": "7250",
+                        "region": "Tasmania",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sandra",
+                "middle": [],
+                "last": "Murray",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Tasmania",
+                    "location": {
+                        "postCode": "7250",
+                        "region": "Tasmania",
+                        "country": "Australia"
+                    }
+                },
+                "email": "sandra.murray@utas.edu.aus.m."
+            },
+            {
+                "first": "Beth",
+                "middle": [],
+                "last": "Penrose",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Tasmania",
+                    "location": {
+                        "postCode": "7000",
+                        "region": "Tasmania",
+                        "country": "Australia"
+                    }
+                },
+                "email": "beth.penrose@utas.edu.au"
+            },
+            {
+                "first": "Stuart",
+                "middle": [],
+                "last": "Auckland",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Tasmania",
+                    "location": {
+                        "postCode": "7250",
+                        "region": "Tasmania",
+                        "country": "Australia"
+                    }
+                },
+                "email": "stuart.auckland@utas.edu.au"
+            },
+            {
+                "first": "Denis",
+                "middle": [],
+                "last": "Visentin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Tasmania",
+                    "location": {
+                        "postCode": "7250",
+                        "region": "Tasmania",
+                        "country": "Australia"
+                    }
+                },
+                "email": "denis.visentin@utas.edu.aud.v."
+            },
+            {
+                "first": "Stephanie",
+                "middle": [],
+                "last": "Godrich",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Edith Cowan University",
+                    "location": {
+                        "postCode": "6230",
+                        "region": "Western Australia",
+                        "country": "Australia"
+                    }
+                },
+                "email": "s.godrich@ecu.edu.au"
+            },
+            {
+                "first": "Elizabeth",
+                "middle": [],
+                "last": "Lester",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Tasmania",
+                    "location": {
+                        "postCode": "7000",
+                        "region": "Tasmania",
+                        "country": "Australia"
+                    }
+                },
+                "email": "elizabeth.lester@utas.edu.au*correspondence:katherine.kent@utas.edu.au"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The COVID-19 pandemic has exacerbated economic vulnerabilities and disrupted the Australian food supply, with potential implications for food insecurity. This study aims to describe the prevalence and socio-demographic associations of food insecurity in Tasmania, Australia, during the COVID-19 pandemic. A cross-sectional survey (deployed late May to early June 2020) incorporated the U.S. Household Food Security Survey Module: Six-Item Short Form, and fifteen demographic and COVID-related income questions. Survey data (n = 1170) were analyzed using univariate and multivariate binary logistic regression. The prevalence of food insecurity was 26%. The adjusted odds of food insecurity were higher among respondents with a disability, from a rural area, and living with dependents. Increasing age, a university education, and income above $80,000/year were protective against food insecurity. Food insecurity more than doubled with a loss of household income above 25% (Adjusted Odds Ratio (AOR): 2.02; 95% CI: 1.11, 3.71; p = 0.022), and the odds further increased with loss of income above 75% (AOR: 7.14; 95% CI: 2.01, 24.83; p = 0.002). Our results suggest that the prevalence of food insecurity may have increased during the COVID-19 pandemic, particularly among economically vulnerable households and people who lost income. Policies that support disadvantaged households and ensure adequate employment opportunities are important to support Australians throughout and post the COVID-19 pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Food security is achieved \"when all people, at all times, have physical, social and economic access to sufficient, safe and nutritious food that meets their dietary needs and food preferences for an active and healthy life\" [1] . This broad definition emphasizes four distinct dimensions of food security [2] which include the availability, accessibility and utilization of food, in addition to the stability of each of these factors, which refers to an ability to withstand shocks to the broader food system. Food insecurity occurs when at least one of these domains are not met, where the experience at a household level may be temporary or longer-term [3] . Access to adequate food is a core social determinant of health, and food insecurity is related to poor nutritional intake and higher mortality",
+            "cite_spans": [
+                {
+                    "start": 224,
+                    "end": 227,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 305,
+                    "end": 308,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 655,
+                    "end": 658,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The survey used the U.S. Household Food Security Survey Module: Six-Item Short Form (HFSSM) to determine the prevalence of food insecurity [21] . This validated screening tool [22] sought responses to six questions self-reporting of uncertain, insufficient or inadequate food access, availability and utilization, due to limited financial resources, and the compromised food consumption that may result. The HFSSM generally applies a reference timeframe of 12 months; however, it was less applicable for this study which was conducted at the beginning of the COVID-19 pandemic. Therefore, the acceptable shorter reference period of 30 days was selected to capture the prevalence of food insecurity during the COVID-19 pandemic only [23] . Responses to the six questions were coded and assessed in accordance with the user notes [23] , where each affirmative response was assigned a score of 1, and summed raw scores were used to describe food insecurity at the household level. Scores were then used to categorize respondents as having high (0), marginal (1), low (2) (3) (4) or very low food security (5) (6) . In previous Australian studies [24] , scores of 0 and 1 have been grouped together, while international studies have reported these scores separately. Our analyses kept these scores separate, due to the short reference period, and the fact that the majority of respondents who scored 1 reported running out of food and could not afford to buy more. An affirmative response to this question would indicate household food insecurity with other scales, including the single-item measure of food insecurity which is commonly used in Australian studies of food insecurity [9] .",
+            "cite_spans": [
+                {
+                    "start": 139,
+                    "end": 143,
+                    "text": "[21]",
+                    "ref_id": null
+                },
+                {
+                    "start": 176,
+                    "end": 180,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 732,
+                    "end": 736,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 828,
+                    "end": 832,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1064,
+                    "end": 1067,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1068,
+                    "end": 1071,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1072,
+                    "end": 1075,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1102,
+                    "end": 1105,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1106,
+                    "end": 1109,
+                    "text": "(6)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1143,
+                    "end": 1147,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1679,
+                    "end": 1682,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Measures"
+        },
+        {
+            "text": "Fifteen socio-demographic variables were collected, including age (in years), gender (male, female, other), local government area of residence, if they identified as from Aboriginal and/or Torres Strait Islander descent, whether they have a health condition or disability that limited their activity, citizenship status (born in Australia, Australian citizen, permanent resident or temporary resident), the highest level of education, relationship status, household composition, employment status, total household income bracket and whether they were the main shopper for their family. Additional questions asked respondents about how the COVID-19 pandemic affected their household finances and job status, including whether the COVID-19 pandemic resulted in a change in their employment and/or a decrease in household income, and whether they were receiving COVID-19 related Australian Nutrients 2020, 12 , 2682 4 of 20 government benefits (JobKeeper or JobSeeker). The study was conducted in accordance with the Declaration of Helsinki, and the protocol was approved by the University of Tasmania's Social Sciences Human Research Ethics Committee (Ethics Project ID: 20587).",
+            "cite_spans": [
+                {
+                    "start": 903,
+                    "end": 905,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Measures"
+        },
+        {
+            "text": "Data sets were exported from the online survey platforms to IBM SPSS Statistics for Windows, version 26.0 (IBM Corp., Armonk, NY, USA), cleaned and prepared for statistical analysis which was performed in Stata 14.2 (Statacorp, 2015) . All available survey data were used in the analyses. The significance level for all analyses was set at p < 0.05.",
+            "cite_spans": [
+                {
+                    "start": 205,
+                    "end": 233,
+                    "text": "Stata 14.2 (Statacorp, 2015)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data Analysis"
+        },
+        {
+            "text": "A binary variable of food security status was generated for application in the univariate and multivariate logistic regression, where food secure was determined by a score of 0, and food insecure was a score of 1-6 on the HFSSM. In addition, several of the socio-demographic variables were recoded into a smaller number of categories, due to low cell counts and for ease of interpretation. Recoded variables included coding thirty Local Government Areas (LGA) of residence categories into three regions (North, South, North-West and West) (see Figure 1 for graphical representation) and rurality (urban and rural dwelling regions). Age categories were developed from the continuous variable (18-25 years, 26-35 years, 36-45 years, 46-55 years, 56-65 years, 65+ years). Disability status was recoded from three options (no, yes a little, yes a lot) to two (yes, no) by collapsing the affirmative responses. Relationship status was recoded from seven to four groups (married/de facto, never married, previously married, living apart) by combining widowed, divorced, and separated into previously married. Household composition was reduced from ten options to five (couple with no dependents, couple with dependents, single adult with dependents, single person house, other (group/share)). Highest education status achieved was recoded from eight options into three (university degree, diploma/Technical and Further Education (TAFE) qualification, high school qualification). Employment status was recoded from eight options to three (employed [including self-employed]), unemployed and other [which included student, volunteer, retired and other]). Household income was recoded into three categories (AU$ <40,000, 40,000-80,0000 and 80,000+).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 544,
+                    "end": 552,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Data Analysis"
+        },
+        {
+            "text": "All socio-demographic variables were either categorical or ordinal and were cross-tabulated and summarized with frequencies and proportions. Cross-tabulations with Chi-square statistic were employed to generate descriptive statistics related to food security status, including responses to each of the six food security questions, and with each of the socio-demographic variables. Univariate logistic regression was performed individually for each socio-demographic characteristic to generate unadjusted odds ratios for food insecurity. Correlation coefficients between all variables were calculated to demonstrate the interrelationships and inform the multivariate analysis. A multivariable logistic regression was performed, including all measured variables to yield adjusted odds ratios (AOR) for food insecurity. Variables were retained in the final model if any level of the variable had p < 0.1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Analysis"
+        },
+        {
+            "text": "Almost three-quarters of the respondents (n = 1170) were categorized as having high security (n = 863, 73.9%), with 12.3% reporting marginal food security (n = 144), 10.1% low food security (n = 118) and 3.7% (n = 43) having very low food security. Socio-demographic characteristics of the survey respondents according to food security categories and assessments of the impact of the COVID-19 pandemic on employment and income are presented in Table 1 . The majority of respondents were female (77%), and a large proportion (68%) were aged over 46 years. Most respondents (69%) were in a married or de facto relationship, and 28% of respondents had dependents living with them. With regards to income, 31% of respondents had incomes over AU$100,000 per year, and a majority (67%) had a university education (Bachelor's degree or higher). Main household shoppers were the predominant survey respondents (82%).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 444,
+                    "end": 451,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Sample Demographics by Food Security Status"
+        },
+        {
+            "text": "The prevalence of household food insecurity ranged from 23% in the South, to 29% in the North-West and West regions ( Figure 1 ). The greatest proportion of respondents with very low food security were in the North (5%), compared with 4% in the North-West and West and 3% in the South. Despite a lack of statistically significant regional differences, a larger proportion of respondents residing in rural regions (Table 1) were classified in the marginal, low and very low food security groups (33%) in comparison to their urban-dwelling counterparts (23%). The proportions of respondents in each food security group who provided affirmative responses to each of the six HFSSM questions are represented in Table 2 . Of the six questions, marginally food secure respondents were most likely to respond affirmatively to the first question: \"The food that (I/we) bought just didn't last, and (I/we) didn't have money to get more\". However, none of the respondents in the marginally food secure group reported eating less than they wanted or being hungry because there was not enough money for food. In comparison, nearly all respondents (95%) in the very low food security category responded affirmatively to the first question, and a further 75% reported experiencing hunger. In addition, 90% of respondents in the low food security category reported they cut down on food or skipped meals for least three days in the past 30 days because they could not afford to buy more, but only 10% in this group reported experiencing hunger. While the majority of respondents in the low food security group (81%) did not cut down on the size of meals, 94% reported being unable to afford to eat balanced meals. The proportion of respondents in food secure groups rose with increasing age (Table 1) . A significantly greater proportion of younger respondents aged 18-25 years were classified as having low (29%) or very low food security (7%) over the past month in comparison to older age brackets. While there was no significant difference between men and women in the food secure categories (~74%), a greater proportion of female respondents reported very low food security (4%) in comparison to males (1%). A significantly greater proportion of respondents with a disability reported experiencing low and very low food security (14% and 10%, respectively) in comparison to respondents without a disability (9% and 2%). A small proportion of respondents identified as Aboriginal and/or Torres Strait Islander (2.3%), but less than half of these respondents were food secure, and more than 1 in 5 of these respondents reported experiencing low and very low food security, which was statistically significantly greater than those who did not identify as Aboriginal and/or Torres Strait Islander (Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 118,
+                    "end": 126,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 413,
+                    "end": 422,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 706,
+                    "end": 713,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1775,
+                    "end": 1784,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 2782,
+                    "end": 2791,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Sample Demographics by Food Security Status"
+        },
+        {
+            "text": "A significantly greater proportion of university-educated respondents had high food security (80%) in comparison to smaller proportions of those with a diploma/TAFE qualification (64%) and those who obtained a high school qualification (61%). A significantly larger proportion of Australian citizens born in Australia (74%) and overseas (81%) were classified as having high food security in comparison to permanent residents (68%) and temporary residents (41%). Of note, are the high proportions of temporary residents in the marginal (18%), low (24%) and very low (18%) food security groups in comparison to other residents. Significantly higher proportions of those respondents who were never married (9%) and separated (15%) were in the very low food security group, and only 54% of respondents in households of single adults with dependents were classified as having high food security. Half (50%) of respondents on the lowest income were classified as having high food security, with a further 21% in the low food security group and 16% in the very low food security group, which is much higher than other income brackets (Table 1) . LGA-Local Government Areas. TAFE-Technical and Further Education.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1127,
+                    "end": 1136,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Sample Demographics by Food Security Status"
+        },
+        {
+            "text": "Nutrients 2020, 12, 2682 8 of 20",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample Demographics by Food Security Status"
+        },
+        {
+            "text": "Similar proportions of respondents who indicated that the COVID-19 pandemic had impacted their job were classified as having marginal food security (13%) in comparison to respondents without a job change. However, a significantly higher proportion of those whose job had been impacted by the pandemic were in the low (17%) and very low (5%) food security groups. Fewer respondents who had lost income as a result of the COVID-19 pandemic (34%) had high food security Table 1 ). Of note, 65% of respondents who had lost over 75% of their income reported some degree of food insecurity. Interestingly, a similar proportion of respondents receiving the JobKeeper government benefit had high food security, in comparison to less than half (48%) of respondents receiving the lower JobSeeker payment (48%), with 25% of these respondents classified as having marginal food security and a further 27% in the low and very low food security groups.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 467,
+                    "end": 474,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Sample Demographics by Food Security Status"
+        },
+        {
+            "text": "The prevalence of household food insecurity ranged from 23% in the South, to 29% in the North-West and West regions ( Figure 1 ). The greatest proportion of respondents with very low food security were in the North (5%), compared with 4% in the North-West and West and 3% in the South. Despite a lack of statistically significant regional differences, a larger proportion of respondents residing in rural regions (Table 1) were classified in the marginal, low and very low food security groups (33%) in comparison to their urban-dwelling counterparts (23%).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 118,
+                    "end": 126,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 413,
+                    "end": 422,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Sample Demographics by Food Security Status"
+        },
+        {
+            "text": "The proportions of respondents in each food security group who provided affirmative responses to each of the six HFSSM questions are represented in Table 2 . Of the six questions, marginally food secure respondents were most likely to respond affirmatively to the first question: \"The food that (I/we) bought just didn't last, and (I/we) didn't have money to get more\". However, none of the respondents in the marginally food secure group reported eating less than they wanted or being hungry because there was not enough money for food. In comparison, nearly all respondents (95%) in the very low food security category responded affirmatively to the first question, and a further 75% reported experiencing hunger. In addition, 90% of respondents in the low food security category reported they cut down on food or skipped meals for least three days in the past 30 days because they could not afford to buy more, but only 10% in this group reported experiencing hunger. While the majority of respondents in the low food security group (81%) did not cut down on the size of meals, 94% reported being unable to afford to eat balanced meals. Table 2 . Distribution of responses to the six-item food insecurity screen across food security status.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 148,
+                    "end": 155,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1140,
+                    "end": 1147,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Sample Demographics by Food Security Status"
+        },
+        {
+            "text": "Response The food that (I/we) bought just didn't last, and (I/we) didn't have money to get more. In the last 30 days was this:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "HFSSM Question"
+        },
+        {
+            "text": "Often True 0 (0.0) 0 (0.0) 6 (5. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "HFSSM Question"
+        },
+        {
+            "text": "In the last 30 days, how many days did this happen? In the last 30 days, were you ever hungry but didn't eat because there wasn't enough money for food? Table 3 presents crude and adjusted odds ratios of household food insecurity for the variables considered. Adjustment for socio-demographic characteristics considered in our multivariable model yielded modest decreases in the strength of some effects, highlighting the co-occurrence of factors associated with elevated risk, especially for income variables. In the multivariate analysis, two demographic variables were removed from the final model, which were also not independently significantly associated with higher food insecurity (main shopper, region). The region was also highly colinear with rurality, which was retained (see Table 4 for correlations between variables). As the COVID variables were assessing different aspects of the effect of COVID-19 on income, only one (income decrease) was retained in the final model, due to collinearity. The adjusted model had Pseudo R 2 = 0.152, and Likelihood ratio test statistics \u03c7 2 = 159.6, p < 0.0001.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 153,
+                    "end": 160,
+                    "text": "Table 3",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 788,
+                    "end": 795,
+                    "text": "Table 4",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "HFSSM Question"
+        },
+        {
+            "text": "The adjusted model indicates that increasing age was protective against food insecurity, with the odds of experiencing food insecurity reducing by 16% with every decade of life. Respondents who identified as Aboriginal and/or Torres Strait Islander had more than three-fold greater odds of experiencing food insecurity; however, after adjustment for other household characteristics, this difference did not remain significant despite the AOR of 2.4, which may reflect the small proportion of respondents who identified as Aboriginal and/or Torres Strait Islander. Respondents with a disability had more than two-fold increased odds of experiencing food insecurity compared with those without a disability, which was modestly reduced (AOR: 1.7) after adjusting for other characteristics. An 82% increase in the odds of experiencing food insecurity was evident for respondents in rural areas after adjusting for other characteristics. Higher levels of education were protective against food insecurity, with respondents with a diploma/TAFE or high-school qualification showing a two-fold increase in the odds of experiencing food insecurity compared to those with a university-level education (Bachelor's degree or higher), which remained significant after adjusting for other characteristics.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Socio-Demographic Predictors of Food Insecurity"
+        },
+        {
+            "text": "Temporary residents had a four-fold increase in the odds of experiencing food insecurity compared to Australian citizens, which was modestly reduced after adjusting for other characteristics and did not remain significant. The multivariate model showed that respondents who were previously married had two-fold higher odds of food insecurity than respondents who were currently married or in a de facto relationship. Compared to couple families without dependents, all other household types had increased odds of food insecurity. Interestingly, the odds ratio for food insecurity associated with being a single parent household fell from 3.22 to 1.17 with adjustment for other household characteristics, and this group was no longer statistically significantly different from other household types.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Socio-Demographic Predictors of Food Insecurity"
+        },
+        {
+            "text": "Household income was independently associated with food insecurity, with incomes above AU$80,000/year seemingly protective against food insecurity, and income below AU$40,000 per year associated with a two-fold increase in the odds of food insecurity. Respondents who reported that the COVID-19 pandemic had resulted in a change in their employment had a 75% increase in the odds of experiencing food insecurity in comparison to those not impacted. In comparison to those who were employed and not receiving government benefits, respondents who were receiving the JobKeeper government support payment had 20% higher odds of experiencing food insecurity, and those who were receiving Jobseeker support payments (a smaller fiscal amount) had a three and a half-fold increase in the odds of experiencing food insecurity. A gradient was apparent for respondents who had lost income as a result of the COVID-19 pandemic, where an income loss of 25% or more significantly increased the odds of experiencing food insecurity. Independently of other factors, including household income, a loss of more than 75% of income was associated with a seven-fold increase in the risk of food insecurity. In the adjusted model, similar effects for income decrease were observed, demonstrating that income loss is independently associated with higher odds of food insecurity. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Socio-Demographic Predictors of Food Insecurity"
+        },
+        {
+            "text": "This study presents results from a survey of adults in Tasmania, Australia, assessing the prevalence and socio-demographic predictors of household food insecurity during the COVID-19 pandemic. Our results demonstrate that between late April and early June 2020, a time when wide-spread social distancing restrictions were in place, more than 1 in 4 (26%) respondents had experienced food insecurity to some degree. Concerningly, 14% of respondents experienced more severe food insecurity, which meant they were regularly going hungry and were unable to afford balanced meals over the previous month. These statistics are substantially higher than the 2019 Tasmanian food insecurity prevalence of 6.2%, preceding the COVID-19 pandemic [25] , and higher than the national reported prevalence of 4% [7] . Comparable to the results of our study, previous research has shown that food insecurity was highest in the North (6.9%) of Tasmania, and lower in the South (6.1%) and North-West (5.8%) [25] . The 2019 Tasmanian survey used a single item food insecurity question, meaning these results are not directly comparable to the current study. However, given that more than 20% of respondents to our survey provided an affirmative response to the equivalent question (see Table 2 ), this indicates that the burden of food insecurity in Tasmania is substantially higher than pre-COVID-19 levels.",
+            "cite_spans": [
+                {
+                    "start": 734,
+                    "end": 738,
+                    "text": "[25]",
+                    "ref_id": null
+                },
+                {
+                    "start": 796,
+                    "end": 799,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 988,
+                    "end": 992,
+                    "text": "[25]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1266,
+                    "end": 1273,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "There are emerging reports of much higher levels of food insecurity being experienced by populations across the world during the COVID-19 pandemic. A cross-sectional study of low-income adults in the US reported that 20% of respondents were marginally food insecure, and a further 44% were food insecure [26] . However, this study was limited by its focus on low-income households, and the results are, therefore, not generalizable to the wider population. Our results demonstrate that the experience of food insecurity was not limited to only those on low incomes, and that loss of income at any level above 25% contributed to substantially higher odds of experiencing food insecurity. Results from a survey in the north-eastern US state of Vermont, identified a 33% increase in food insecurity since the beginning of the pandemic, with 24% of households experiencing food insecurity (up from 18%) [27] . A Canadian survey [28] conducted during April-May 2020 found that almost one in seven (14.6%) Canadians experienced food insecurity to some degree in the previous 30 days, and those who had reduced employment due to COVID-19, were more likely to be food insecure (28.4%) than those who were working (10.7%) [28] . A study in the UK reported that 16.2% of adults had experienced food insecurity since the COVID-19 lockdown began [29] , up from 7.6% in 2018. Interestingly, in this study, a lack of food available in the shops contributed to 40% of food insecurity experienced, highlighting the importance of stability in the food supply as an overarching domain of food security. The proportions of more severe food insecurity were comparable with our study, where it was reported that 10% of adults skipped meals, and 4% regularly went without food [29] . Our study was unable to determine the extent to which food shortages, resulting from food hoarding, impacted food insecure responses. However, it is likely that food-insecure households were left at an extreme disadvantage because of food hoarding. In addition to the wide-spread unavailability of some foods, Australian retail outlets and supermarkets placed strict limits on the amount of staple food items that could be purchased in one transaction, which further reduced the ability of households to buy adequate food, especially for larger families living far away from their nearest shop, who need to buy in bulk. While an investigation of the coping strategies adopted by food-insecure households was not a focus of our study, the fact that many respondents reported running out of food, but did not report being hungry shows coping strategies being employed to some degree, especially for those in the marginal and low food security groups ( Table 2) . Such strategies could have included accessing emergency food relief, in addition to restaurants and community groups providing no-cost or low-cost meals and food boxes.",
+            "cite_spans": [
+                {
+                    "start": 304,
+                    "end": 308,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 899,
+                    "end": 903,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 924,
+                    "end": 928,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1213,
+                    "end": 1217,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1334,
+                    "end": 1338,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1755,
+                    "end": 1759,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 2712,
+                    "end": 2720,
+                    "text": "Table 2)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our analyses demonstrate that the higher probability of household food insecurity was closely associated with many socio-demographic factors, especially financial factors specific to the COVID-19 pandemic. The most substantial factor in our regression analyses was loss of income related to COVID-19, with respondents who had lost the majority of their income showing up to a seven-fold increase in the odds of food insecurity. Similarly, in the UK, adults reported that loss of income above 50% resulting from the COVID-19 pandemic were found to be at significantly higher risk of food insecurity, even after accounting for background socio-economic status [29] . Prior to the COVID-19 pandemic, 12% of Tasmanian households were reportedly in financial stress, which means they did not have or could not raise AU$2000 in an emergency [25] , with this factor closely related to food insecurity in the state. Food insecurity has worsened within economically vulnerable populations under COVID-19 conditions, with a loss of income in already low-income households putting individuals at even higher risk of food insecurity. Additionally, COVID-19 has also created new economic vulnerability for people were previously food secure and who are now experiencing income losses. Previous research has shown that loss of an income or large household bills (also known as bill shock), can require temporary reallocation of financial resources away from groceries, which can result in food insecurity [10] . Previous research during global recessions has shown increased household food insecurity, which can take years to return to pre-recession levels [30] . Our study is limited in that we were unable to control for household savings or other assets, which may explain a large variation in a household's ability to adjust to periods of economic shock in comparison to others. However, low-income households are unlikely to ever accrue substantial savings or assets which could cushion against financial shocks. Our analyses demonstrate that a substantial proportion (35%) of our respondents' employment status had been impacted by the COVID-19 pandemic, and that these respondents were at higher risk of moderate to severe food insecurity. Positively, government financial support payments were being received by 14% of our respondents and those receiving the higher JobKeeper payment through their employer showed a similar level of food insecurity to those currently employed. However, approximately half of respondents receiving the lower JobSeeker payments reported experiencing food insecurity. This finding is somewhat at odds with national reports of how this new government supplement, which is higher than the usual unemployment benefits, has reduced financial and personal distress, and reduced food insecurity for people who normally access unemployment schemes [31] . However, the majority of respondents to the national survey had been receiving an income support payment for more than two years, and therefore, our results may reflect the experience of individuals newly claiming this scheme [31] .",
+            "cite_spans": [
+                {
+                    "start": 658,
+                    "end": 662,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 835,
+                    "end": 839,
+                    "text": "[25]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1491,
+                    "end": 1495,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1643,
+                    "end": 1647,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 2866,
+                    "end": 2870,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 3099,
+                    "end": 3103,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In published research, low income is the most consistent and often the strongest predictor of food insecurity [32] . In our study, those who were food insecure are more highly represented among lower-income brackets, especially for those on incomes lower than AU$40,000 per year. Incomes above AU$80,000 per year, which is higher than the median household income in Tasmania of approximately AU$57,000 [20] , were associated with lower odds of food insecurity. Low-income households may be larger, and therefore, may be unable to purchase sufficient food to meet their needs, or they may be required to purchase smaller quantities of food, which are sold at a higher unit price, further increasing the prevalence of food insecurity in these households. Interestingly, food insecurity was still evident in respondents with the highest incomes (>AU$100,000 per year), indicating that income does not always reflect the economic conditions of the household. Of note, the increased food insecurity reported in our study and other studies during the COVID-19 pandemic suggests that the financial impact of COVID-19 on food insecurity is far-reaching in the population, and has affected both households with high socio-economic risk of food insecurity and those not typically perceived to be at risk of food insecurity. In addition, our analyses demonstrate that younger age, rurality, disability, lower education levels, and having dependents were also all independently associated with food insecurity, indicating that the socio-demographic and COVID-related factors cannot be explained merely in terms of their association with income. Other factors which were associated in the univariate analysis, but not the multivariate, included being of Aboriginal/Torres Strait Islander decent, temporary residency, and being single (never married or previously married). For these factors, the relationship with food insecurity may be due to lower-incomes and other factors.",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 114,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 402,
+                    "end": 406,
+                    "text": "[20]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In our study, increasing age was protective against food insecurity. These results align with published literature, which demonstrates that even after controlling for economic factors, the probability of moderate or severe food insecurity decreased with age [8, 33] . Studies of older Australians have similarly reported a lower prevalence than in the general population, with prevalence rates of 3% for Australians aged over 65 years [34] and 2% of Australians aged over 65 years [35] . Compounding this effect, the impact of the COVID-19 pandemic has disproportionately affected younger Australians [16] , due to a large reduction in casual and part-time jobs predominantly held by younger people (e.g., hospitality). Interestingly, our study showed that gender was not associated with an increased risk of food insecurity. This is somewhat at odds with the results of other studies, which have explained the increased burden of food insecurity experienced by women to be associated with gender-related economic factors, including lower employment opportunities and child-related duties [36] . Additionally, higher educational attainment was independently associated with lower odds of experiencing food insecurity, which is consistent with other Australian research [8, 12] , and international studies of food insecurity during the COVID-19 pandemic [26] . In line with our findings, the greater likelihood of food insecurity among Australians from Aboriginal and/or Torres Strait Islander descent has been documented previously [37] , with the prevalence of food insecurity ranging from 76% in remote areas [38] to 20% in the state of Victoria [39] . Additionally, respondents reporting health conditions and disabilities that limited their daily activities were more likely to be food insecure than those without a disability and were also shown to experience more severe forms of food insecurity. These results are echoed in previous Australian [40] and international studies [41] from before the COVID-19 pandemic. While our study did not examine the cause of food insecurity in this group, an UK survey during COVID-19 identified that respondents with a disability had between two and four-fold increased risk of experiencing food insecurity as a result of economic hardship, a lack of food available in shops, and social isolation [29] . Respondents living in rural areas experienced a higher burden of food insecurity in comparison to respondents living in urban areas and were 80% more likely to be food insecure after accounting for other socio-demographic factors. In rural Australia, fresh and healthy food is very expensive in some areas, due to transportation and storage costs [42] . During the COVID-19 pandemic, reduced access to food and fewer shops in these areas was coupled with media reports of price gouging of foods in response to increased demand [43] , and these factors may have infringed upon the ability of rural residents to buy enough healthy food to meet their needs.",
+            "cite_spans": [
+                {
+                    "start": 258,
+                    "end": 261,
+                    "text": "[8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 262,
+                    "end": 265,
+                    "text": "33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 435,
+                    "end": 439,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 481,
+                    "end": 485,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 601,
+                    "end": 605,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1089,
+                    "end": 1093,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1269,
+                    "end": 1272,
+                    "text": "[8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1273,
+                    "end": 1276,
+                    "text": "12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1353,
+                    "end": 1357,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1532,
+                    "end": 1536,
+                    "text": "[37]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 1611,
+                    "end": 1615,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1648,
+                    "end": 1652,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1951,
+                    "end": 1955,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1982,
+                    "end": 1986,
+                    "text": "[41]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 2340,
+                    "end": 2344,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 2694,
+                    "end": 2698,
+                    "text": "[42]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 2874,
+                    "end": 2878,
+                    "text": "[43]",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Pre-COVID-19 evidence has inconsistently linked immigration status to food insecurity [8, 44] . In our study, temporary residents were four times more likely to experience food insecurity compared with Australian citizens, which did not remain significant after controlling for other variables. This may either reflect the small number of temporary residents who responded to our survey, or reflect the exacerbated economic hardship experienced by temporary residents during the COVID-19 pandemic. In Australia, temporary residents were ineligible for government support payments, and were therefore, at a much higher risk of food insecurity due to loss of income. Comparable with published research [8, 30] , being married or in a de facto relationship was negatively associated with food insecurity. During the COVID-19 pandemic, this may be related to the increased financial buffer of two potential income streams in comparison to those in single adult households, or that our study investigated household income, not income per-person, so the adjustment for income may be less appropriate for single respondents. Additionally, we found that households with dependents were more likely to be food insecure compared with those without dependents. Interestingly, households headed by a single parent were at three-fold greater risk of food insecurity. However, after adjustment for other variables, this difference was no longer significant, indicating that other variables, such as lower-income or loss of income accounted for this increased risk during the COVID-19 pandemic.",
+            "cite_spans": [
+                {
+                    "start": 86,
+                    "end": 89,
+                    "text": "[8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 90,
+                    "end": 93,
+                    "text": "44]",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 700,
+                    "end": 703,
+                    "text": "[8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 704,
+                    "end": 707,
+                    "text": "30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This study has a number of strengths. To our knowledge, this may be one of the few studies that have examined the impact of the COVID-19 pandemic on food insecurity in Australia. Moreover, we were able to assess the prevalence of food insecurity in a large sample size relative to the population of Tasmania, using a multiple item food security tool, which has shown to be more comprehensive than the single item food security question applied in many Australian studies [24, 45] . Despite these strengths, these findings must be considered within the context of a number of potential limitations. Our study was cross-sectional in nature, and therefore, our analyses are purely descriptive, and inferences are limited by the design of the study [46] . Importantly, despite the wide recruitment methods used, the likelihood of participating in the survey may be associated with food insecurity (participation bias), and the use of an online survey may have excluded some groups, including those with low literacy or people without internet access. Further, our sample may not be representative of the wider Tasmanian population [20] , as our sample contained a higher proportion of female respondents (76.7%) compared with the demographic profile of the Tasmanian population (51.1% female). This over-representation may be explained by the food-based theme of the survey and that women have been reported to predominantly manage household meals [36] . Despite this, our results are supported by reports that women provide more reliable estimates of the food insecurity experiences of a household [47] . Our sample shared similar proportions of married and separated respondents with the Tasmanian population (46.0% married, 20.3% previously married, and 33.7% never married) [20] . However, our survey had a lower proportion of respondents who identified as Aboriginal and/or Torres Strait Islander (2.3%) than the wider Tasmanian population (4.6%), and a lower proportion of unemployed respondents (5.1%), compared to the general Tasmanian population (7%). Our respondents were overall very highly educated, with 67% having a university education, compared with 16.2% having tertiary qualifications in the wider Tasmanian community [20] , which may be a result of our convenience sampling methods. As higher education has shown to be protective against food insecurity, actual levels of food insecurity may be higher in the general Tasmanian population. Lastly, the 6-item HFSSM is slightly less reliable than 18-item measure, does not measure the most severe levels of food insecurity and does not measure the food security of children in the household [21].",
+            "cite_spans": [
+                {
+                    "start": 471,
+                    "end": 475,
+                    "text": "[24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 476,
+                    "end": 479,
+                    "text": "45]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 745,
+                    "end": 749,
+                    "text": "[46]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1127,
+                    "end": 1131,
+                    "text": "[20]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1444,
+                    "end": 1448,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1595,
+                    "end": 1599,
+                    "text": "[47]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 1774,
+                    "end": 1778,
+                    "text": "[20]",
+                    "ref_id": null
+                },
+                {
+                    "start": 2232,
+                    "end": 2236,
+                    "text": "[20]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Where to Next?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "As the COVID-19 pandemic continues around the world, it is likely that more severe economic vulnerabilities will emerge towards the end of 2020 and beyond. Further monitoring of food insecurity across Australia and internationally is needed to support the ongoing recovery from the COVID-19 pandemic. Prior to the pandemic, food-insecure households have reported numerous coping strategies for making ends meet, including seeking resources from within their social network in addition to emergency food relief. However, social distancing restrictions, business closures and other public health measures may infringe upon these coping strategies, and newly food-insecure households may not have appropriate knowledge of support services. Therefore, further Australian research is urgently needed to examine the coping strategies that food-insecure households are utilizing during the COVID-19 pandemic, including the appropriateness of income support payments for alleviating more severe food insecurity during the COVID-19 pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our results indicate higher levels of food insecurity in Australia during the COVID-19 pandemic and could inform responsive policy interventions. While government support measures, including the JobKeeper and JobSeeker payments, appear to be assisting vulnerable Australian households, significant financial distress will follow once they are removed or reduced. As loss of income was a major factor in our analyses, effective government responses should center around providing opportunities for secure employment that pays a living wage, rather than a minimum wage. Additionally, strengthening social protection mechanisms and emergency food relief programs may protect those at risk of food insecurity. Lastly, systems that support the physical access to food, and protect the stability of the food supply must be strengthened. This should involve shortening and localizing food supply chains and bolstering local food systems, where food is grown, packaged, and consumed within the same community. Food policy coalitions could provide the mechanism to work at the intersection of health, social justice and environmental sustainability to improve local and regional food systems, positively influencing the food environment [48, 49] . Given the urgent and widely accepted need to transition to a more circular, just, and sustainable economy, the government in partnership with the community should explore setting up appropriately constituted local food councils in each region. These could support community food hubs to enhance market access for farmers, create jobs, build resilience, promote local and sustainable food procurement, and ultimately improve food security by increasing access to local, healthy food [50, 51] .",
+            "cite_spans": [
+                {
+                    "start": 1228,
+                    "end": 1232,
+                    "text": "[48,",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 1233,
+                    "end": 1236,
+                    "text": "49]",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 1721,
+                    "end": 1725,
+                    "text": "[50,",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 1726,
+                    "end": 1729,
+                    "text": "51]",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Author Contributions: Conceptualization, K.K., S.M., B.P., S.A., S.G. and E.L.; methodology, K.K., S.M., B.P., S.A., S.G. and E.L.; software, E.L.; formal analysis, D.V. and K.K.; writing-original draft preparation, K.K.; writing-review and editing, all authors; funding acquisition, K.K. All authors have read and agreed to the published version of the manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Funding: This research received no external funding and the APC was funded by the University of Tasmania's Centre for Rural Health.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The Food and Agriculture Organization FAO. The State of Food Insecurity in the",
+            "authors": [],
+            "year": 2001,
+            "venue": "World",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "What are we assessing when we measure food security? A compendium and review of current metrics",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ngure",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Pelto",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Young",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Adv. Nutr",
+            "volume": "4",
+            "issn": "",
+            "pages": "481--505",
+            "other_ids": {
+                "DOI": [
+                    "10.3945/an.113.004119"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The food security continuum: A novel tool for understanding food insecurity as a range of experiences. Food Secur",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hendriks",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "7",
+            "issn": "",
+            "pages": "609--619",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s12571-015-0457-6"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "What does increasing severity of food insecurity indicate for food insecure families? Relationships between severity of food insecurity and indicators of material hardship and constrained food purchasing",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Loopstra",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Tarasuk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J. Hunger Environ. Nutr",
+            "volume": "8",
+            "issn": "",
+            "pages": "337--349",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/19320248.2013.817960"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Household food insufficiency is associated with poorer health",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Vozoris",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tarasuk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J. Nutr",
+            "volume": "133",
+            "issn": "",
+            "pages": "120--126",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/jn/133.1.120"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Australian Bureau of Statistics ABS. 4364.0.55.009-Australian Health Survey: Nutrition-State and Territory Results",
+            "authors": [],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Severe and Moderate Forms of Food Insecurity in Australia: Are They Distinguishable?",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Temple",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Aust. J. Soc. Issues",
+            "volume": "43",
+            "issn": "",
+            "pages": "649--668",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/j.1839-4655.2008.tb00124.x"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Measuring and understanding food insecurity in Australia: A systematic review",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mckay",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Haines",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dunn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Int. J. Environ. Res. Public Health",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph16030476"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Are low-to-middle-income households experiencing food insecurity in Victoria, Australia? An examination of the Victorian Population Health Survey",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kleve",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Davidson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Gearon",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Booth",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Palermo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Aust. J. Prim. Health",
+            "volume": "23",
+            "issn": "",
+            "pages": "249--256",
+            "other_ids": {
+                "DOI": [
+                    "10.1071/PY16082"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "The association between stressful events and food insecurity: Cross-sectional evidence from Australia",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Temple",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Int. J. Environ. Res. Public Health",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph15112333"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "An ecological analysis of factors associated with food insecurity in South Australia",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Foley",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ward",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Carter",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Coveney",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Tsourtos",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Taylor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Public Health Nutr",
+            "volume": "13",
+            "issn": "",
+            "pages": "215--221",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/S1368980009990747"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Prevalence of U.S. Food Insecurity Is Related to Changes in Unemployment, Inflation, and the Price of Food",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nord",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Coleman-Jensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Gregory",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Economic Research Service",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Restrictions and the 'New Normal': Documenting Life in Australia during the Coronavirus Pandemic",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sakzewski",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Panic-Buying",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Australian Bureau of Statistics ABS. 6160.0.55.001-Weekly Payroll Jobs and Wages in Australia, Week ending 27",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "COVID-19 and Consumers: From Crisis to Recovery",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Thomsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "O&apos;neill",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Martin Hobbs",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Solomon",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Online sales halted, supermarket shelves stripped bare as shoppers prepare for coronavirus quarantine",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kinsella",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Restaurants and cafes facing mass closures without more coronavirus support, industry group warns. The Money ABC News",
+            "authors": [
+                {
+                    "first": "Leo",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Food Insecurity and Chronic Disease",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Laraia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Adv. Nutr",
+            "volume": "4",
+            "issn": "",
+            "pages": "203--212",
+            "other_ids": {
+                "DOI": [
+                    "10.3945/an.112.003277"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Validation of a Self-Reported Measure of Household Food Insufficiency with Nutrient Intake Data",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rose",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J.; U S"
+                    ],
+                    "last": "Oliveira",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Economic Research Service",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Guide to Measuring Household Food Security",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bickel",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Mark",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Cristofer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "William",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "John",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "",
+            "volume": "USDA",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Utilising a multi-item questionnaire to assess household food security in Australia",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Butcher",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "O&apos;sullivan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ryan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Devine",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Health Promot. J. Aust",
+            "volume": "30",
+            "issn": "",
+            "pages": "9--17",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/hpja.61"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Food Insecurity and COVID-19: Disparities in Early Effects for US Adults",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wolfson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nutrients",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/nu12061648"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Food Access and Security during Coronavirus: A Vermont Study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Niles",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Bertmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Morgan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wentworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Biehl",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Neff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Food Insecurity during the COVID-19 Pandemic",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Statcan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Vulnerability to Food Insecurity since the COVID-19 Lockdown",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Loopstra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "The impact of the recession on food insecurity among households who were low income: Findings from the 2005-2014 national health and nutrition examination surveys",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lombe",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Nebbitt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J. Poverty",
+            "volume": "22",
+            "issn": "",
+            "pages": "437--453",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/10875549.2018.1460738"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Survey of 955 People Receiving The New Rate of JobSeeker and Other Allowances",
+            "authors": [],
+            "year": 2020,
+            "venue": "Australian Council of Social Service ACOSS",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Household food security in the United States in 2013",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Coleman-Jensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gregory",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "USDA-ERS Econ. Res. Rep",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2139/ssrn.2504067"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Prevalence and Predictors of Food Insecurity among Older People in Canada",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Leroux",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Morrison",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rosenberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Int. J. Environ. Res. Public Health",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph15112511"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Food insecurity among older Australians: Prevalence, correlates and well-being",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Temple",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Australas. J. Ageing",
+            "volume": "25",
+            "issn": "",
+            "pages": "158--163",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1741-6612.2006.00172.x"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Food insecurity in community-dwelling older Australians. Public Health Nutr",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Quine",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Morrell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "9",
+            "issn": "",
+            "pages": "219--224",
+            "other_ids": {
+                "DOI": [
+                    "10.1079/PHN2005834"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Gender differences in the prevalence of household food insecurity: A systematic review and meta-analysis. Public Health Nutr",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Jung",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "De Bairros",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Pattussi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pauli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Neutzling",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "20",
+            "issn": "",
+            "pages": "902--916",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/S1368980016002925"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Understanding food security issues in remote Western Australian Indigenous communities",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Pollard",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nyaradi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lester",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sauer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Health Promot. J. Aust",
+            "volume": "25",
+            "issn": "",
+            "pages": "83--89",
+            "other_ids": {
+                "DOI": [
+                    "10.1071/HE14044"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Traditional food availability and consumption in remote Aboriginal communities in the Northern Territory",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Georga",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Miles",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Brimblecombe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Australia. Aust. N. Z. J. Public Health",
+            "volume": "41",
+            "issn": "",
+            "pages": "294--298",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/1753-6405.12664"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Inequalities in the social determinants of health of Aboriginal and Torres Strait Islander People: A cross-sectional population-based study in the Australian state of Victoria",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Markwick",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ansari",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sullivan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Parsons",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mcneil",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Int. J. Equity Health",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12939-014-0091-5"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Public health nutrition and food policy",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Caraher",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Coveney",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Public Health Nutr",
+            "volume": "7",
+            "issn": "",
+            "pages": "591--598",
+            "other_ids": {
+                "DOI": [
+                    "10.1079/PHN2003575"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Disability, food insecurity by nativity, citizenship, and duration",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Altman",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Heflin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Patnaik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "SSM Popul. Health",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ssmph.2020.100550"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "National Rural Health Alliance: NHRA. Food Security and Health in Rural and Remote Australia",
+            "authors": [],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Coronavirus and Price Gouging-Let's Put a Stop to It",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Killmorgen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nutrients",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Food insecurity and public assistance",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Borjas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Public Econ",
+            "volume": "88",
+            "issn": "",
+            "pages": "1421--1443",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0047-2727(02)00188-3"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Single-item measure of food insecurity used in the National Health Survey may underestimate prevalence in Australia",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mckechnie",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Giskes",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gallegos",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Turrell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Aust. N. Z. J. Public Health",
+            "volume": "42",
+            "issn": "",
+            "pages": "389--395",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/1753-6405.12812"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Being honest with causal language in writing for publication",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Thapa",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Visentin",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hunt",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Watson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cleary",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Adv. Nurs",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1285--1288",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/jan.14311"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Development of a food security measurement tool for New Zealand households",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Parnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gray",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Br. J. Nutr",
+            "volume": "112",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/S0007114514002104"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Food Policy Development in the Australian State of Victoria: A Case Study of the Food Alliance",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Caraher",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Carey",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mcconell",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lawrence",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Int. Plan. Stud",
+            "volume": "18",
+            "issn": "",
+            "pages": "78--95",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/13563475.2013.750939"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "The role of a food policy coalition in influencing a local food environment: An Australian case study. Public Health Nutr",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mccartan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Palermo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "20",
+            "issn": "",
+            "pages": "917--926",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/S1368980016003001"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Tasmanians Seeking More Circular and Sustainable Food Systems",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gale",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Kerslake",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Murray",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Report 25 of the Tasmania Project",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Community food hubs: An economic and social justice model for regional Australia?",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Rose",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "26",
+            "issn": "",
+            "pages": "225--237",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/10371656.2017.1364482"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license",
+            "authors": [],
+            "year": null,
+            "venue": "\u00a9 2020 by the authors. Licensee MDPI",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Prevalence of Marginal, Low and Very Low Security by region in Tasmania, Australia (map sourced from Department of Health and Human Services Tasmania: http://www.dhhs.tas.gov.au/tho).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Prevalence of Marginal, Low and Very Low Security by region in Tasmania, Australia (map sourced from Department of Health and Human Services Tasmania: http://www.dhhs.tas.gov.au/tho). FS-Food Security.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Option Food Security Status n (%) High (n = 863) Marginal (n = 144) Low (n = 118) Very Low (n = 43)",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Food security proportions by socio-demographic characteristics and impact of COVID-19 on income using Chi-square comparisons.Table 1. Cont.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "In the last 30 days did you or other adults in your household ever cut the size of your meals, or skip meals because there wasn't enough money for food?",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "In the last 30 days, did you ever eat less than you wanted to because there wasn't enough money for food?",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Association between risk factors and food insecurity-univariate and multivariate logistic regression. OR: Odds Ratio; SE: Standard Error; 95% CI: Confidence Interval; AOR: adjusted odds ratio. AUD-Australian Dollar.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Correlation matrix between socio-demographic variables and Food insecurity variables.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors would like to acknowledge the members of the Tasmania Project and thank them for their assistance in collecting data for this study, in particular Nyree Pisanu and Ella Horton.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments:"
+        },
+        {
+            "text": "The authors declare no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of Interest:"
+        }
+    ]
+}

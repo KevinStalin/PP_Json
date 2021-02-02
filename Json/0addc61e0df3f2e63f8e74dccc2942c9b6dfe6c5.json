@@ -1,0 +1,1904 @@
+{
+    "paper_id": "0addc61e0df3f2e63f8e74dccc2942c9b6dfe6c5",
+    "metadata": {
+        "title": "Diagnosis of COVID-19 by analysis of breath with gas chromatography- ion mobility spectrometry -a feasibility study-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)",
+        "authors": [
+            {
+                "first": "Dorota",
+                "middle": [
+                    "M"
+                ],
+                "last": "Ruszkiewicz",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Loughborough University",
+                    "location": {
+                        "postCode": "LE11 3TU",
+                        "country": "United Kingdom"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Daniel",
+                "middle": [],
+                "last": "Sanders",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "G.A.S. Gesellschaft f\u20ac ur analytische Sensorsysteme mbH BioMedizinZentrumDortmund",
+                    "location": {
+                        "settlement": "Dortmund",
+                        "region": "DE",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rachel",
+                "middle": [],
+                "last": "O&apos;brien",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Royal Infirmary of Edinburgh",
+                    "location": {
+                        "addrLine": "51 Little France Crescent, Edin-burgh",
+                        "postCode": "EH16 4SA",
+                        "country": "United Kingdom"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Frederik",
+                "middle": [],
+                "last": "Hempel",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Matthew",
+                "middle": [
+                    "J"
+                ],
+                "last": "Reed",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Royal Infirmary of Edinburgh",
+                    "location": {
+                        "addrLine": "51 Little France Crescent, Edin-burgh",
+                        "postCode": "EH16 4SA",
+                        "country": "United Kingdom"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ansgar",
+                "middle": [
+                    "C"
+                ],
+                "last": "Riepe",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Kenneth",
+                "middle": [],
+                "last": "Bailie",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Royal Infirmary of Edinburgh",
+                    "location": {
+                        "addrLine": "51 Little France Crescent, Edin-burgh",
+                        "postCode": "EH16 4SA",
+                        "country": "United Kingdom"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Emma",
+                "middle": [],
+                "last": "Brodrick",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "IMSPEX Diagnostics Ltd",
+                    "location": {
+                        "addrLine": "Ty Menter, Navigation Park",
+                        "postCode": "CF45 4SN",
+                        "settlement": "Abercynon",
+                        "region": "RCT",
+                        "country": "United Kingdom"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kareen",
+                "middle": [],
+                "last": "Darnley",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "NHS Lothian",
+                    "location": {
+                        "postCode": "EH4 2XU",
+                        "settlement": "Edinburgh",
+                        "country": "United Kingdom"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Richard",
+                "middle": [],
+                "last": "Ellerkmann",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Oliver",
+                "middle": [],
+                "last": "Mueller",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Angelika",
+                "middle": [],
+                "last": "Skarysz",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Loughborough University",
+                    "location": {
+                        "country": "United Kingdom"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Michael",
+                "middle": [],
+                "last": "Truss",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Thomas",
+                "middle": [],
+                "last": "Wortelmann",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "G.A.S. Gesellschaft f\u20ac ur analytische Sensorsysteme mbH BioMedizinZentrumDortmund",
+                    "location": {
+                        "settlement": "Dortmund",
+                        "region": "DE",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Simeon",
+                "middle": [],
+                "last": "Yordanov",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "C",
+                "middle": [
+                    "L Paul"
+                ],
+                "last": "Thomas",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Loughborough University",
+                    "location": {
+                        "postCode": "LE11 3TU",
+                        "country": "United Kingdom"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bernhard",
+                "middle": [],
+                "last": "Schaaf",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "G.A.S. Gesellschaft f\u20ac ur analytische Sensorsysteme mbH BioMedizinZentrumDortmund",
+                    "location": {
+                        "settlement": "Dortmund",
+                        "region": "DE",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Michael",
+                "middle": [],
+                "last": "Eddleston",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Edinburgh",
+                    "location": {
+                        "settlement": "Pharmacology",
+                        "country": "United Kingdom"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: There is an urgent need to rapidly distinguish COVID-19 from other respiratory conditions, including influenza, at first-presentation. Point-of-care tests not requiring laboratory-support will speed diagnosis and protect health-care staff. We studied the feasibility of using breath-analysis to distinguish these conditions with near-patient gas chromatography-ion mobility spectrometry (GC-IMS). Methods: Independent observational prevalence studies at Edinburgh, UK, and Dortmund, Germany, recruited adult patients with possible COVID-19 at hospital presentation. Participants gave a single breathsample for VOC analysis by GC-IMS. COVID-19 infection was identified by transcription polymerase chain reaction (RT-qPCR) of oral/nasal swabs together with clinical-review. Following correction for environmental contaminants, potential COVID-19 breath-biomarkers were identified by multi-variate analysis and comparison to GC-IMS databases. A COVID-19 breath-score based on the relative abundance of a panel of volatile organic compounds was proposed and tested against the cohort data. Findings: Ninety-eight patients were recruited, of whom 21/33 (63.6%) and 10/65 (15.4%) had COVID-19 in Edinburgh and Dortmund, respectively. Other diagnoses included asthma, COPD, bacterial pneumonia, and cardiac conditions. Multivariate analysis identified aldehydes (ethanal, octanal), ketones (acetone, butanone), and methanol that discriminated COVID-19 from other conditions. An unidentified-feature with significant predictive power for severity/death was isolated in Edinburgh, while heptanal was identified in Dortmund. Differentiation of patients with definite diagnosis (25 and 65) of COVID-19 from non-COVID-19 was possible with 80% and 81.5% accuracy in Edinburgh and Dortmund respectively (sensitivity/specificity 82.4%/75%; area-under-the-receiver-operator-characteristic [AUROC] 0.87 95% CI 0.67 to 1) and Dortmund (sensitivity / specificity 90%/80%; AUROC 0.91 95% CI 0.87 to 1). Interpretation: These two studies independently indicate that patients with COVID-19 can be rapidly distinguished from patients with other conditions at first healthcare contact. The identity of the marker compounds is consistent with COVID-19 derangement of breath-biochemistry by ketosis, gastrointestinal effects, and inflammatory processes. Development and validation of this approach may allow rapid diagnosis of COVID-19 in the coming endemic flu seasons.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The strategic importance of effective testing for SARS-CoV-2 infection has been emphasised from the outset of the COVID-19 pandemic; most notably by the WHO Director General with the statement \"We have a simple message to all countries -test, test, test\". Until deployment of an effective vaccine, testing will be the basis for successful coordination of clinical and public health responses to outbreaks [1] . This will be particularly important for the management of COVID-19 alongside a winter influenza epidemic.",
+            "cite_spans": [
+                {
+                    "start": 405,
+                    "end": 408,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "COVID-19 testing is currently based on quantitative reverse transcription polymerase chain reaction (RT-qPCR) assays detecting SARS-CoV-2 RNA in nasopharyngeal (NP) and/or oral swabs. These tests: require authorised laboratories with a minimum Biological Safety Class 2 specification; take time to ship, process and report; and are prone to false negative results (from errors in swab sampling or laboratory processing, or because the virus is not yet/no longer present in the oropharynx) [2] . The false negative rates for \"onetime\" NP testing by RT-qPCR is 30% to 50% for COVID-19 samples acquired in community or clinical-care settings [3] , while the areaunder-the-receiver operator characteristic (AUROC) for a single RT-qPCR test is about 0.8 [4, 5, 6] . Repeat RT-qPCR tests, combined with haematological variables and chest computed tomography are advised for diagnosis, along with caution in the interpretation of negative RT-qPCR tests [7] .",
+            "cite_spans": [
+                {
+                    "start": 489,
+                    "end": 492,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 639,
+                    "end": 642,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 749,
+                    "end": 752,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 753,
+                    "end": 755,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 756,
+                    "end": 758,
+                    "text": "6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 946,
+                    "end": 949,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A point-of-care test that: enabled rapid differentiation of COVID-19 from other viral and/or bacterial pneumonia, and other respiratory and cardiac conditions; provided prognostic insights into the staging of COVID-19; and monitored treatment efficacy would markedly enhance the capability of healthcare services to respond.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Analysis of exhaled volatile organic compounds in the breath using gas chromatography with either mass spectrometry (GC\u00c0MS) or ion mobility spectrometry (GC-IMS) has been proposed for diagnosis of COVID-19 8 and pneumonia [9] . Studies of patients with acute respiratory distress syndrome (ARDS) [10, 11] and influenza in pigs [12] have identified candidate markers for detection. Breath-analysis is attractive because it offers: point-of-care location; rapid results (< 10 min) without dependency on reagents; non-invasive sampling with a low biosecurity burden; and usability in a world-wide range of scenarios, including low-resourced environments such as community or primary care settings.",
+            "cite_spans": [
+                {
+                    "start": 206,
+                    "end": 207,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 222,
+                    "end": 225,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 296,
+                    "end": 300,
+                    "text": "[10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 301,
+                    "end": 304,
+                    "text": "11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 327,
+                    "end": 331,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Because COVID-19 is a multi-system condition [13, 14] , we hypothesised that a combination of inflammatory and host-responses VOCs would differentiate between the breath of patients with COVID-19 and those with other respiratory or cardiac problems. At the beginning of the epidemic, independent feasibility studies were rapidly set in Germany and United Kingdom with the objectives: to trial point-of-care testing using self-contained GC-IMS breath-analysers in two hospitals; and evaluate the breath biochemistry for possible markers of COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 45,
+                    "end": 49,
+                    "text": "[13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 50,
+                    "end": 53,
+                    "text": "14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Two independent studies were set up in two hospitals: Patients were assessed by the treating clinician to establish if they were competent and had the capacity to consent to participate. This assessment was documented in their medical notes ('this patient is eligible and capable of providing written informed consent'). Patients lacking capacity who were unable to provide consent were not approached to take part in this study Note that there was always a researcher and witness present during the consent process where the study was explained and the patient given a Patient Information Sheet that explained the aims of the study, the potential risks, and benefits of the study procedures. Additionally, the patients were given an Informed Consent Form, and time to consider the trial and ask questions regarding their participation. Once the information sheet and informed consent form had been studied the patient was asked to confirm to the researcher and witness that they understand all the information, and what they are consenting to. Patients who agreed to participate in the study",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethics"
+        },
+        {
+            "text": "Evidence before this study Previous porcine and human studies have identified breath biochemistry derangements in acute respiratory distress syndrome that resulted in elevated exhaled ethanal signals. Invitro studies have differentiated between viral (influenza A) and bacterial (Streptococcus pyogenes) infections based on breath aldehydes. Methanol and ketones have also been proposed as markers for gastrointestinal inflammation, and ketosis, respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Research in context"
+        },
+        {
+            "text": "A change in breath-biochemistry has been observed in two independent pilot-studies that is consistent with a hostresponse that may be attributed to a combination of ketosis, impaired gastrointestinal function and inflammatory responses. The practicality of undertaking point-of-care breath-sampling and breath-testing has been demonstrated, and the areaunder-the-receiver operator characteristic (AUROC) for differentiating COVID-19 positive from COVID-19 negative patients ranged between 0.87 and 0.91. A panel of volatile organic compounds (ethanal, octanal, acetone, butanone, methanol, heptanal and a feature yet to be identified) is hypothesised to provide the basis of a COVID-19 rule-in/rule-out breath-test.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Added value of this study"
+        },
+        {
+            "text": "The development of COVID-19 following infection by SARS-CoV-2 appears to be accompanied by significant changes in the exhaled concentrations of a panel of volatile organic compounds consistent with whole system disturbance. A higherpowered study with time series data may establish how a volatile organic compounds (VOCs) profile develops with infection, incubation and disease-progression, enabling the development of a COVID-19 breath-test.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implications of all the available evidence"
+        },
+        {
+            "text": "provided informed consent confirmed with a witness signature on the study consent form.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implications of all the available evidence"
+        },
+        {
+            "text": "It is important to note that due to the nature SARS-COV-2 it was not feasible to retain a paper copy of a consent form signed by the participant once they had handled it. This is why the consent form was signed by a witness (e.g. a relative or another staff member).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implications of all the available evidence"
+        },
+        {
+            "text": "The participant numbers presented in this paper arise from the (feasibility) first phase of the study that was conducted during the initial patient surges at both centres. The decisions to present these findings now were based on: marked falls in COVID-19 prevalence in Dortmund and Edinburgh; instrument availability following sustained environmental contamination that required instrument maintenance at Edinburgh. No formal power calculation was available at the outset of each study for the signals, and effect sizes had yet to be determined. Post-hoc evaluation indicates that the collected sample sizes, were sufficient to support the preliminary analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participants"
+        },
+        {
+            "text": "Edinburgh participants were recruited between March 31 and April 22, 2020, from patients presenting to the emergency department exhibiting respiratory symptoms who were considered to have possible COVID-19. Participants were excluded if they were not breathing spontaneously and/or receiving respiratory support. Each patient was swabbed on presentation for RT-qPCR testing and admitted if clinically indicated. Patient clinical data were collected using the Research Electronic Data Capture web application [15] , see Table 1 . The RT-qPCR test was discarded if patient opt-out from the study, according to the study protocol.",
+            "cite_spans": [
+                {
+                    "start": 508,
+                    "end": 512,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 519,
+                    "end": 526,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Participants"
+        },
+        {
+            "text": "Dortmund participants were similarly recruited between April 11 and June 18, 2020, from patients presenting to the emergency department or outpatient clinic exhibiting respiratory symptoms. Each participant was swabbed on presentation or within 24 h of admission for RT-qPCR testing. Patient clinical data were collected using a questionnaire and recorded in Excel, Table 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 366,
+                    "end": 373,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Participants"
+        },
+        {
+            "text": "A COVID-19 diagnosis was made by senior physicians (MJR and KB in Edinburgh and by FH, RE, OM, MT and SY in Dortmund) based on clinical presentation, q-PCR test results and radiological findings.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participants"
+        },
+        {
+            "text": "Measures to supress the risk of SARS-COV-2 contamination of the instruments included the use of sterile, single use sampling devices, figure S2 ; fitting a high efficiency particulate air (HEPA) filter to the gas outlet of the instrument); maintaining 60 \u2070C at all times to the analyte pathways in the instrument; and daily 100\u00b0C instrument clean-out methods, run for a period of minimum 8 h. There was no direct contact between participants and the instruments and the external casing of the instrument was wiped down after each sample analysis, A self-contained GC-IMS instrument configured for manual sample injection (BreathSpec,G.A.S. Dortmund; figure S 1) was set up in two hospital. The instruments were the same model and configuration and consisted of a heated six-port sample inlet-valve, connected to a 3 m, 0.53 mm inner-diameter capillary gas chromatography column, with a 0.5 mm thick crossbond carbowax polyethylene glycol WAX stationary phase (MXT-WAX), interfaced to a linear IMS. A recirculating gas flow unit (CGFU) supplied purified-air to the GC and IMS circuits. The IMS was fitted with a 5.68 keV, 370 MBq 3 H beta ionisation source, and data were transferred with a USB memory-stick and uploaded to a data repository. The studies were set independently, without a knowledge of each other in the first phase of the research, which is why slightly different instrument methods (operational parameters) were used between the sites (table S 1).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 134,
+                    "end": 143,
+                    "text": "figure S2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "GC-IMS sample collection and processing"
+        },
+        {
+            "text": "Participants at both sites provided a single breath-sample by exhaling through a single-use disposable polypropylene Haldane ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "GC-IMS sample collection and processing"
+        },
+        {
+            "text": "* COVID-19 status was determined on adjudication and PCR and clinical features, patients included in modelling of the data. ** 21 Dortmund patients were discharged home without obtaining a formal non-COVID-19 diagnosis and limited meta data was obtained. *** The three patients who died in Edinburgh were not admitted to ICU due to co-morbidities and poor prognosis. y Interquartile range (IQR) was calculated as difference between upper (Q3) and lower (Q1) quartiles.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "GC-IMS sample collection and processing"
+        },
+        {
+            "text": "tube breath-sampler (G.A.S Dortmund), with a 4 mm orifice drilled through the side-wall to take a single-use disposable polypropylene 5 cm 3 syringe. The tube was either fitted with two one-way mouthpieces at each end of the Haldane tube (Edinburgh), or only one at the inlet (Dortmund) and is shown in figure S 2. Participants were asked to breath out slowly through the tube. The procedure is not considered an aerosol-generating procedure (AGP) [16] . On completion of exhalation, a 5 cm 3 sample of their end-tidal breath was withdrawn into the syringe, the syringe immediately removed from the sampler, connected into the GC-IMS inlet, and 1 cm 3 automatically injected on to the GC column for analysis.",
+            "cite_spans": [
+                {
+                    "start": 448,
+                    "end": 452,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "GC-IMS sample collection and processing"
+        },
+        {
+            "text": "Quality control (QC) covered 15 spectral and operational parameters assessed from a daily environmental sample collected every morning (RIE) or for every breath-sample (KD ; Table S 2). The breathacetone signal was also assessed to confirm that sampling occurred correctly -a weak or missing acetone signal indicating a fault in sample collection and/or analysis, resulting in data being excluded.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 172,
+                    "end": 181,
+                    "text": "; Table S",
+                    "ref_id": null
+                }
+            ],
+            "section": "GC-IMS sample collection and processing"
+        },
+        {
+            "text": "The workflow for data processing and statistical analysis is shown in Fig. 1 . Edinburgh data were extracted into a .csv format file using GC-IMS data processing software (LAV G.A.S., Dortmund) with normalised relative drift time, to compensate for between-run instrument variation [17, 18] . The data were then processed using MATLAB to generate integrated signal volumes for every isolated-feature and these were placed into a 2-dimensional matrix for further datamodelling. An average of 80 features were extracted from each breath-sample. Dortmund data were analysed with G.A.S. VOCCal software (Gas Dortmund) with retention times and drift time normalisation to compensate for the inter-run instrument variation. Signal peaks were integrated manually. Some features, such as methanol, were obscured by the reactant ion peak signal; this complication was resolved by subtraction of the reactant ion peak signal. Approximately, 80 features were extracted. from each breath-analysis. A comparison of example breath-data obtained from the two centres is shown in Fig. 2 .",
+            "cite_spans": [
+                {
+                    "start": 282,
+                    "end": 286,
+                    "text": "[17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 287,
+                    "end": 290,
+                    "text": "18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 70,
+                    "end": 76,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1064,
+                    "end": 1070,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Data modelling"
+        },
+        {
+            "text": "The drift-time aligned breath-data from the 33 Edinburgh participants were placed into a data-matrix and candidate COVID-19 breath-markers identified from a three-step multi-variate analysis data work-flow, based on the use of the SIMCA-P+ software with integrated 7-fold cross validation groups to protect against overfitting (Version 16.1, Umetrics, UK). The work-flow comprised of: data-scaling, removal of non-discriminatory features, and isolation of discriminatory features. The log(10) data were Pareto-scaled before orthogonal partial least square discriminant analysis (OPLS-DA) was applied to identify and exclude non-discriminatory features from further analysis, identifying six exhaled VOC's candidate markers (Table 2) . At this stage data from 8 patients were excluded from further analysis due to either: a) no q-PCR tests results (n = 5) were available or there was no agreement between q-PCR test results and medical diagnosis (n = 3).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 723,
+                    "end": 732,
+                    "text": "(Table 2)",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Data modelling"
+        },
+        {
+            "text": "Breath-data from 65 Dortmund participants were visually identified and placed into a peak gallery where they were statistically Note: t r : retention time (s); t: relative drift time; ND \u00c0 not detected. * : excluded from all data models; \"/#: increased/decreased exhaled concentration in COVID-19 positive participants; @/ \u00a3: included/not included in classification model. Table 2) , The findings from the two independent studies were shared and an adjudicated VOC panel selected for running a PCA stratification model ( Table 2 , Figs. 1\u00c03) with participants with definite diagnosis, for whom q-PCR and the adjudicated diagnosis agreed (90 participants: 25 RIE and 65 KD). Finally, the data obtained from PCA models, was assessed with hierarchical clustering analysis which categorizes similar samples in the same categories. The results are presented in the form of the dendrogram, based on Ward's minimum variance method, sorted by score size.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 373,
+                    "end": 381,
+                    "text": "Table 2)",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 521,
+                    "end": 528,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Data modelling"
+        },
+        {
+            "text": "The compounds identified by PCA multi-variate analysis indicated that changes in breath-biochemistry followed the same pattern in both studies with elevated ketone and aldehyde signals accompanied by a suppressed methanol signal, and an unidentified feature 144 also noted as potentially significant. To facilitate data sharing and interpretation between the studies the data from these compounds were combined to produce a COVID-19 breath-score (C 19 ) defined as:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ARTICLE IN PRESS"
+        },
+        {
+            "text": "Where I Aldehydes is the sum of the log peak volume of the VOCs ethanal and octanal, I Ketones is the sum of the log peak volume for acetone and 2-butanone, and I Feature 144 is the log peak volume of the unidentified Feature 144. similarly, for I methanol . The classifier for the detection of COVID-19 from the C 19 score was defined as the upper 95% confidence interval for C 19 of the non-COVID-19 breath-tests. A C 19 value above this boundary was classified as COVID-19 positive.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ARTICLE IN PRESS"
+        },
+        {
+            "text": "The funders of the study had no role in study design, data collection, data analysis, data interpretation, or writing of the report. The corresponding authors had full access to all the data in the study and had final responsibility for the decision to submit for publication.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Role of the funding source"
+        },
+        {
+            "text": "Ninety-eight patients were recruited, of whom 21/33 (63.6%) and 10/65 (15.4%) were adjudicated to have COVID-19 in Edinburgh and Dortmund, respectively ( Table 1 ). The diagnoses of non-COVID-19 patients included exacerbation of asthma and COPD (RIE 9.1%, KD 3.1%), bacterial pneumonia (RIE 3.0%, KD 4.6%), and others including cardiac conditions (RIE 24.3%, KD 18.5%). 69.1% of those testing negative at Dortmund were returned to primary care and did not receive a formal hospital diagnosis.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 154,
+                    "end": 161,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Six VOC in the Edinburgh GC-IMS data: ethanal, octanal, acetone, acetone/butanone mixed cluster, and methanol (level 2 identification [19] against 2014 NIST-RI data base and Fig. 3 ). An additional, as yet unidentified, VOC (Feature 144) was also noted at a retention time of 583 s and relative drift time of 1.078. Feature 144 was associated with more severe disease (figure S 4). Exhaled methanol concentrations were lower in COVID-19 participants; the other five compounds were elevated in participants with COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 134,
+                    "end": 138,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 174,
+                    "end": 180,
+                    "text": "Fig. 3",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "In addition to the six Edinburgh VOCs, isoprene, propanal, heptanal, and propanol were identified in Dortmund ( Table 2 ). The precise features identified at the two sites were different due to modest differences in instrument set up and operating conditions, including background contamination levels. For example, the Edinburgh study identified a mixed acetone and butanone proton-bound mixed ion cluster, while Dortmund identified a butanone ion ( Table 2 ). These differences in set up also meant that the Dortmund instrument could not record Feature 144 because the elution time of this component in the Dortmund instrument was longer than the data acquisition time.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 112,
+                    "end": 119,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 451,
+                    "end": 458,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Hierarchical analysis of the Edinburgh data (Fig. 3) , based on the agreed q-PCR/adjudicated diagnosis, identified three classes of participant from the PCA model. The first class, termed 'negative', contained nine participants. Six were COVID-19 negative (6 of 8 [75%] of total negative cases with a mixture of: viral or bacterial pneumonia, asthma, or heart failure) and three were positive ( The Edinburgh PCA stratification model was compared against a clinical assessment of the ultimate severity of the participants' disease during hospital admission, with COVID-19 patients assessed as having fatal, severe/intubated/ITU care, and mild disease. The 'positive' class containing ten COVID-19 cases contained all three fatalities, 3 of 4 severe/intubated/ITU care cases, and 4 of 10 mild cases. The 'borderline-positive' cases were all mild; the single false negative case was also scored as mild. This suggests that the PCA may be able to identify -at first presentation to hospital -COVID-19 patients who will go on to develop more severe disease.",
+            "cite_spans": [
+                {
+                    "start": 393,
+                    "end": 394,
+                    "text": "(",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 44,
+                    "end": 52,
+                    "text": "(Fig. 3)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Dortmund data were similarly modelled with PCA (Fig. 4) ; hierarchical analysis resulted in a more complicated pattern of five negative, positive, or borderline positive classes. Of the two negative classes, the largest had 41 participants q-PCR/adjudicated as COVID-19 negative cases (41 of 55 [74.5%] total negative cases) and one par- contained one COVID-19 case and 11 patients who tested negative for COVID-19 (20% of total negative cases). Three of these negative cases were tested >7 days after the onset of influenza type symptoms; one was hospitalised while the other two recovered in the community. The remaining eight were tested within 3 days of onset of influenza type symptoms and were discharged home.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 47,
+                    "end": 55,
+                    "text": "(Fig. 4)",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The Dortmund PCA stratification model had an 90% sensitivity and 80% specificity and an AUROC of 0.91 (95%CI 0.87 to 1) for distinguishing COVID-19 patients from other patients. Modelling to rule out COVID-19 had a sensitivity of 98.2% and specificity of 70% (AUROC = 0.91). The two severe COVID-19 cases were accurately identified by the PCA. Four severe cases were classified correctly as COVID-19 negative, with diagnosis of: community acquired pneumonia with COPD, cryptogenic organizing pneumonia, aortic valve stenosis and COPD. The COVID-19 case placed in the borderline positive class had a diagnosis of community acquired pneumonia and non-STsegment elevation myocardial infarction.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The Edinburgh C 19 breath-score for COVID-19 cases was 1.13-fold that of the mean for the COVID-19 negative participants, with a t-statistic of 1.98, and 23 degrees of freedom. The critical value for a onetailed t-test was 1.72. The Dortmund C score yielded a 1.24-fold COVID-19 case enhancement with a t-statistic of 2.53, 63 degrees of freedom, and a one-tailed critical t-value of 1.67 (figure S 5).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "It will be extremely important over the coming months and years to be able to distinguish COVID-19 from other respiratory and cardiac conditions, particularly influenzae infection, on first presentation to healthcare services, whether hospital or primary care. Analysis of VOCs in breath using GC-IMS, or appropriate sensors, offers the possibility of rapid near-patient diagnosis if a characteristic signature can be identified. The preliminary data presented here, in two independently set-up feasibility studies, suggests a distinct COVID-19 breath-biochemistry derangement that may be able to diagnose or exclude COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The C 19 score differentiates quite well between participants with COVID-19 and those with other respiratory diseases. Larger studies are needed to refine and quantify the accuracy of this GC-IMS approach in diagnosing and excluding COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "It is important to note how Edinburgh's and Dortmund's instrumental methods, data processing and preliminary modelling were independent and un-targeted. Molecular identities were not known during data processing and modelling, and no a priori assumptions or parameters used to isolate the VOCs reported in this work. The resultant duplication of the findings serves to strengthen the resultant hypothesised COVID-19 breath biomarker panel and to reduce the likelihood of these results arising from false discovery.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "At this stage exclusion criteria have not been applied to the data to provide balance on gender and age distribution within the two sites. This may be a source of bias with potentially confounding hidden factors; however, the two study groups are complementary with respect to age and the overall gender distribution is 42% female to 58% male. The identification of similar discriminator chemistry across the two different groups is an additional observation on the attributes of two independent sites with different cohorts with independent testing and data processing methods arriving at a single conclusion.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We found preliminary data of a relationship between breath-biomarkers on presentation \u00c0 in self-ventilating patients -and COVID-19 severity over their hospital stay. However, the sample-times in this study were not coordinated against onset of symptoms, since participants were recruited on their presentation on hospital, meaning that samples were obtained from participants at different stages of COVID-19. Experiments with time series sampling, involving a larger COVID-19 cohort, will be required to determine whether breath-analysis is able to reliably predict severity and progressive COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The identity of the marker compounds identified in this study are consistent with a combination of extrapulmonary metabolic, and gastrointestinal manifestations of COVID-19 within the body as well as airway inflammatory responses [14] . \"Direct binding of SARS-CoV-2 to ACE2 on b-cells\" in the pancreas has been proposed as a contributing pathology to insulin deficiency and hyperglycaemia with COVID-19 patients. 64% of cases exhibiting ketosis have no underlying diabetes, and ketosis has been noted as indicative of a more serious progression of COVID-19 with increased hospitalisation times and mortality [20] . Exhaled methanol is attributed to gut microbiota acting on fruit and vegeTables (pectin), as well as the breakdown of aspartame and carboxyl-methylesters [21] . Decreased levels of urinary methanol have been observed with inflammatory gastrointestinal conditions (e.g. ulcerative colitis and Crohn's disease) [22] . As well as multi-factor intestinal tissue damage (inflammation, vascular damage and direct tissue damage from the virus), the possibility of SARS-CoV-2 interactions with gut microbiota leading to reduced activity with accompanying reductions in methanol production also exists [14] . Aldehydes are derived, along with hydrocarbons, from lipid peroxidation and inflammatory processes and have been reported widely in a range of respiratory conditions [23] .",
+            "cite_spans": [
+                {
+                    "start": 230,
+                    "end": 234,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 609,
+                    "end": 613,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 770,
+                    "end": 774,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 925,
+                    "end": 929,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1209,
+                    "end": 1213,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1382,
+                    "end": 1386,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This work builds on other studies of VOC and GC\u00c0MS or GC-IMS analysis in respiratory disease in that it has identified a panel of VOC biomarkers consistent with the multi-system presentation of COVID-19 that is supported by previous research. ARDS detection by breathanalysis with GC\u00c0MS reported markers linked to lipid-peroxidation (octane, ethanal and 3-methylheptane) with an AUROC of 0.8. 10, 11 Influenza A detection in pigs using breath-analysis has also been described, and progression was monitored through the analysis of six breath VOC (ethanal, propanal, n-propyl acetate, methyl methacrylate, styrene and 1,1-dipropoxypropane). 12 Further an in-vitro study of human epithelial-like Detroit cells inoculated with influenza A and Streptococcus pyogenes identified significant differences in VOC concentrations between non-infected and infected cells with S pyogenes, associated with increased emissions of ethanal, propanal and N-propyl acetate linked to viral Influenza [24] .",
+            "cite_spans": [
+                {
+                    "start": 393,
+                    "end": 396,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 397,
+                    "end": 399,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 640,
+                    "end": 642,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 981,
+                    "end": 985,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Recently a two-dimensional gas chromatography with photoionisation detection study applied multi variate analysis to identify a panel of nine VOC that discriminated ARDS with an accuracy of 82.4% (although AUROC and identities of the nine compounds were not reported) [25] . Furthermore, a clinical GC-IMS study has reported discrimination of COVID-19 from influenza A, although the application of canonical discriminant analysis (a supervised technique) to influenza and COVID-19 breath-samples collected in separate batches means the reported AUROC of 1 is difficult to assess due to the possibility of hidden batch effects confounding the data analysis [8] . Nevertheless, both of these studies emphasise and support the proposition and feasibility of breath-testing for COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 268,
+                    "end": 272,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 656,
+                    "end": 659,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "GC-IMS was selected for these studies as the instrument and methods have been developed for use in emergency departments, with low operational overheads and a low NASA task load index [26] . The rapid and simple sampling technique does not generate viral exposure risk for clinicians and does not require additional bio-security safeguards, as it does not involve positive pressure and is not considered an aerosol generating procedure. However, GC-IMS is vulnerable to background contamination; care is therefore needed in selecting where to site the instruments and how to operate them to mitigate this issue. Disinfection and cleaning routines require careful management.",
+            "cite_spans": [
+                {
+                    "start": 184,
+                    "end": 188,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Diet does influence exhaled VOC's and has the potential to produce confounding data and false discovery if not carefully managed. In these studies, dietary factors were dispersed and randomised across both study sites and across each day. Individuals' dietary signatures were processed out during the statistical modelling stage and the absence of a systematic sampling schedule prevented the introduction of a dietary artefact through inadvertent synchronisation with meal times.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "One limitation of GC-IMS, compared to GC\u00c0MS, is an inability to resolve signals that coelute, because of charge transfer phenomena that occur in the instrument's ionisation source [27] . Co-eluting compounds produce a mixed signal that cannot be deconstructed. With the slightly different chromatographic methods and environmental contamination between the two studies, co-elution artefacts were not necessarily aligned and so it is not surprising that they produced similar but not identical results. The differences in methods also precluded the Dortmund study from isolating Feature 144. Further development of this work will require aligned techniques which remove such disparities. In addition, to enable GC-IMS to analyse straight chain and methylated hydrocarbons in the inflammatory marker panel [10, 11] , an ionisation source needs to be developed to include photo-ionisation mechanisms as well as the atmospheric pressure ionisation charge transfer reactions used in this work.",
+            "cite_spans": [
+                {
+                    "start": 180,
+                    "end": 184,
+                    "text": "[27]",
+                    "ref_id": null
+                },
+                {
+                    "start": 804,
+                    "end": 808,
+                    "text": "[10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 809,
+                    "end": 812,
+                    "text": "11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Feature 144 was markedly elevated in the most serious cases (figure S 4) suggesting it might be useful as a marker of severity. GC\u00c0MS studies are required to identify it because it was not found in current IMS databases [28] . Its identification may provide useful information for understanding the unusual severity of COVID-19 compared to other viral pneumonias [14] .",
+            "cite_spans": [
+                {
+                    "start": 220,
+                    "end": 224,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 363,
+                    "end": 367,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In conclusion, we report here that near-patient GC-IMS analysis detects changes in breath-signatures of COVID-19 patients that may be able to differentiate them from non-COVID-19 respiratory and cardiac conditions and that are consistent with the disease's multi-system manifestations. Larger studies are required to test this hypothesis, together with complementary GC\u00c0MS studies. If shown to be reliable, it offers the possibility for rapid identification or exclusion of COVID-19 in emergency departments or primary care that will improve management of patients and safety of healthcare staff.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "DMR and CLPT report a grant from University of Edinburgh. TW reports personal fees from G.A.S. Gesellschaft f\u20ac ur analytische Sensorsysteme mbH, outside the submitted work; In addition, Dr. Wortelmann has a patent PCT/EP2014/075236 pending.Dr. Wortelmann reports personal fees from G.A.S. Gesellschaft f\u20ac ur analytische Sensorsysteme mbH, outside the submitted work; In addition, Dr. Wortelmann has a patent PCT/EP2014/075236 pending",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of Competing Interest"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Universal weekly testing as the UK COVID-19 lockdown exit strategy",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Peto",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Alwan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Godfrey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1420--1421",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Laboratory diagnosis of COVID-19: current issues and challenges",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Schmitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Persing",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Stratton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Microbiol",
+            "volume": "58",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JCM.00512-20"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Combination of RT\u00c0qPCR testing and clinical features for diagnosis of COVID\u00c019 facilitates management of SARS\u00c0CoV\u00c02 outbreak",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "538--547",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Analysis of factors associated early diagnosis in coronavirus disease 2019 (COVID-19)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ai",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xing",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.09.20059352"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "COVID-19 Screening by RT-PCR: an epidemiological modelling",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hasab",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.21203/rs.3.rs-35816/v1"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "False-negative results of initial RT-PCR assays for COVID-19: a systematic review",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Arevalo-Rodriguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Buitrago-Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Simancas-Racines",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.16.20066787"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Interpreting a COVID-19 test result",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Watson",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.m1808"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Rapid detection of SARS-CoV-2 infection by multicapillary column coupled ion mobility spectrometry (MCC-IMS) of breath. A proof of concept study",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Steppert",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Steppert",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Becher",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Sterlacci",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bollinger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Breath analysis for detection of viral infection, the current position of the field",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Gould",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ratcliffe",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Krol",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bpj",
+                    "middle": [],
+                    "last": "Costello",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "De",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Breath Res",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1088/1752-7163/AB9C32"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Diagnosis of acute respiratory distress syndrome by exhaled breath analysis",
+            "authors": [
+                {
+                    "first": "Ldj",
+                    "middle": [],
+                    "last": "Bos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Ann Transl Med",
+            "volume": "6",
+            "issn": "",
+            "pages": "33--33",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Exhaled breath metabolomics as a noninvasive diagnostic tool for acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "Ldj",
+                    "middle": [],
+                    "last": "Bos",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Weda",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Eur Respir J",
+            "volume": "44",
+            "issn": "",
+            "pages": "188--97",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "VOC breath profile in spontaneously breathing awake swine during influenza a infection open",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Traxler",
+                    "suffix": ""
+                },
+                {
+                    "first": "A-C",
+                    "middle": [],
+                    "last": "Bischoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sa\u00df",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Sci RePoRTS",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Autoimmune and inflammatory diseases following COVID-19",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Galeotti",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bayry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Rev Rheumatol",
+            "volume": "16",
+            "issn": "",
+            "pages": "413--417",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Extrapulmonary manifestations of COVID-19",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Madhavan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sehgal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Med",
+            "volume": "26",
+            "issn": "",
+            "pages": "1017--1049",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Research electronic data capture (REDCap) \u00c0 a metadata-driven methodology and workflow process for providing translational research informatics support",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Harris",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Thielke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Biomed Inform",
+            "volume": "42",
+            "issn": "",
+            "pages": "377--81",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "COVID-19: guidance for the remobilisation of services within health and care settings Infection prevention and control recommendations",
+            "authors": [
+                {
+                    "first": "Public",
+                    "middle": [],
+                    "last": "Health England",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Investigation of gaseous metabolites from moulds by ion mobility spectrometry (IMS) and gas chromatography-mass spectrometry (GC\u00c0MS)",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tiebe",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "H\u20ac Ubert",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Koch",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Ritter",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Stephan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Int J Ion Mobil Spectrom",
+            "volume": "13",
+            "issn": "",
+            "pages": "17--24",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Evaluation and application of static headspacemulticapillary column-gas chromatography-ion mobility spectrometry for complex sample analysis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Denawaka",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Fowlis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Dean",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Chromatogr A",
+            "volume": "1338",
+            "issn": "",
+            "pages": "136--184",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "The role of reporting standards for metabolite annotation and identification in metabolomic studies",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Salek",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Steinbeck",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Viant",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Goodacre",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Dunn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Gigascience",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "COVID \u00c019 infection may cause ketosis and ketoacidosis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Diabetes, Obes Metab",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Metabolic methanol: molecular pathways and physiological roles",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Dorokhov",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Shindyapina",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Sheshukova",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Komarova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Physiol Rev",
+            "volume": "95",
+            "issn": "",
+            "pages": "603--647",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Quantitative metabolomic profiling of serum, plasma, and urine by 1H NMR spectroscopy discriminates between patients with inflammatory bowel disease and healthy individuals",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Schicho",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Shaykhutdinov",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ngo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Proteome Res",
+            "volume": "11",
+            "issn": "",
+            "pages": "3344--57",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "A mechanistic study and review of volatile products from peroxidation of unsaturated fatty acids: an aid to understanding the origins of volatile organic compounds from the human body",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ratcliffe",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wieczorek",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Drabi",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Gould",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Osborne",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Lacy Costello",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Breath Res Top Rev J Breath Res",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Volatile scents of influenza A and S. pyogenes (co-)infected cells",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Traxler",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Barkowsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sa\u00df",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Sci Rep",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41598-019-55334-0"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Rapid breath analysis for acute respiratory distress syndrome diagnostics using a porTable two-dimensional gas chromatography device",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Anal Bioanal Chem",
+            "volume": "411",
+            "issn": "",
+            "pages": "6435--6482",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00216-019-02024-5"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "NASA-Task Load Index (NASA-TLX); 20 years later",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Proceedings of the Human Factors and Ergonomics Society 50th Annual Meeting",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Assessment of breath volatile organic compounds in acute cardio-respiratory breathlessness: a protocol describing a prospective real world observational study",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ibrahim",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wilde",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Cordell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "BMJ Open",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmjopen-2018-025486"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Workflow showing data processing and modelling steps used to create multivariate classification models that discriminated for COVID-19. VOC's Markers (Mn, where n = 1 to 12) used in the final PCA modelling and Ratiometric scoring were derived from integrating the discovery studies and are highlighted by Dashed-dotted lines (RIE) and Dashed lines (KD). Please cite this article as: D.M. Ruszkiewicz et al., Diagnosis of COVID-19 by analysis of breath with gas chromatography-ion mobility spectrometry -a feasibility study, EClinicalMedicine (2020), https://doi.org/10.1016/j.eclinm.2020.100609",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "An example of 3D GC-IMS surface plots of breath data acquired by the two hospital sites (RIE -Edinburgh top and KD -Dortmund bottom). Note: t r \u00c0 retention time in sec, t Dr \u00c0 relative drift time and I \u00c0 intensity in V. Markers distinguishing between COVID-19 positive and negative patients, used in the final PCA Modelling M n (where n is the marker number) are highlighted in the square boxes.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Please cite this article as: D.M. Ruszkiewicz et al., Diagnosis of COVID-19 by analysis of breath with gas chromatography-ion mobility spectrometry -a feasibility study, EClinicalMedicine (2020), https://doi.org/10.1016/j.eclinm.figure S 3), and potential candidates identified(Fig. 2, bottom). These data were Pareto-scaled and bespoke multivariate analysis software for GC-IMS used to undertake Principal Component Analysis (PCA, G.A.S. Dynamic PCA software). Nine VOCs were identified as potentially discriminating for COVID-19 (",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "PCA-X (top-left) and dendrogram (bottom) plots of Edinburgh COVID-19 query data. Showing the data similarities between the participants with COVID-19 and other diagnoses. AUROC (top-right) was 0.81. Note five cases were misclassified see Discussion. Please cite this article as: D.M. Ruszkiewicz et al., Diagnosis of COVID-19 by analysis of breath with gas chromatography-ion mobility spectrometry -a feasibility study, EClinicalMedicine (2020), https://doi.org/10.1016/j.eclinm.2020.100609 G.A.S. Drift Time Library) discriminated between patients with COVID-19 and those other diagnoses (",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "3 of 17 [17.6%] total positive cases). A second 'positive' class contained ten COVID-19 positive participants (10 of 17 [58.8%]) and 1 COVID-19 negative participant (1 of 8 [12.5%] with a diagnosis of exacerbation of asthma). A third (positive) class contained four COVID-19 positive (24%) cases; on the basis of hierarchical clustering, this class was termed 'borderline-positive'. The resultant PCA stratification model had an 82.4% sensitivity and 75% specificity with an AUROC of 0.87 (95%CI 0.61 to 1) for distinguishing COVID-19 patients from other patients. The data were also modelled for ruling out COVID-19 with the same result and AUROC.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "ticipant q-PCR/ adjudicated as COVID-19 positive (1 of 10 [10.0%] total positive cases). A second distinct, smaller negative class included only three COVID-19 negative cases (3 of 55 [5.5%], all of whom were hospitalised (viral infection with rash, urinary tract infection, gastroenteritis). There were two positive classes with the first including six COVID-19 positive cases (6 of 10 [60.0%] total positive cases) and the second including two COVID-19 positive cases (2 of 10 [20.0%] total positive cases). The borderline positive class",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "PCA-X (top-left) and dendrogram (bottom) plots of Dortmund COVID-19 query data. AUROC (top-right) was 0.91. Please cite this article as: D.M. Ruszkiewicz et al., Diagnosis of COVID-19 by analysis of breath with gas chromatography-ion mobility spectrometry -a feasibility study, EClinicalMedicine (2020), https://doi.org/10.1016/j.eclinm.2020.100609",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Royal Infirmary of Edinburgh (RIE, Ethics approved by Institutional Review Board (ref RIE, 20/SS/0042), UK, and in Klinikum Dortmund (KD, Ethics approved by Institutional Review Board ref IfADo 176/2020), Germany.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Participants' information.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "VOC biomarkers selected as best discriminants between COVID-19 positive and negative patients, in both studies during discovery and final modelling phases, together with compounds analytical characteristics. Note: RIE -Edinburgh, KD \u00c0 Dortmund.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors acknowledge gratefully: the staff and patients of the Royal Infirmary of Edinburgh and Klinikum Dortmund for their support and participation in this study; Kerry Rosenthal for statistical consultation; and Chief Scientist Office, Scotland for Core R&D funding.EB reports grants from EDRF Priority 1 delivered through the Welsh Government (SMARTCymru 2014\u00c02020 West Wales and the Valleys; 2020/ED/081) and personal fees from IMSPEX Diagnostics Ltd, during the conduct of the study.Data Sharing.All the experimental data, csv extracted data files and processed data may be accessed on request to CLPT.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.eclinm.2020.100609.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary materials"
+        },
+        {
+            "text": "Deployment of the instrument in RIE was led by DMR, RO'B and KD and in KD by DS. DMR, EB, DS and TW provided technical support. Recruitment in RIE was led by RO'B and KD and in KD by FH, ACR, SY and MT. Data was collected by RO'B, KD in RIE and in KD by FH, ACR and SY. Recruitment statistics was led by MJR and KB in RIE and by FH in KD. Patients diagnosis was assessed by MJR and KB in RIE and by FH, RE, OM, MT and SY in KD. MJR managed the Data storage. Documents for Ethical approval were prepared by RO'B and ME in RIE and by OM, MT and BS in KD. Data analysis and modelling were done by DMR and DS, supported by interpretation from CLPT and ME. AS and DMR automated the data processing approaches for RIE data. Figures were created by DMR and CLPT and the manuscript was written by DMR, CLPT and ME. Everyone reviewed the paper. Project was coordinated by ME, CLPT, BS and TW and ME was a lead investigator in RIE and BS in KD. CLPT, ME, EB, TW and BS started conception for the project. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 718,
+                    "end": 725,
+                    "text": "Figures",
+                    "ref_id": null
+                }
+            ],
+            "section": "Authors' contributions"
+        }
+    ]
+}

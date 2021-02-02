@@ -1,0 +1,3170 @@
+{
+    "paper_id": "0b5cea890b5154236a3148581b98e127246269a5",
+    "metadata": {
+        "title": "molecules Antibacterial, Antifungal and Ecotoxic Effects of Ammonium and Imidazolium Ionic Liquids Synthesized in Microwaves",
+        "authors": [
+            {
+                "first": "Jana",
+                "middle": [],
+                "last": "Fojt\u00e1\u0161kov\u00e1",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "VSB-Technical University of Ostrava",
+                    "location": {
+                        "addrLine": "17. listopadu 15",
+                        "postCode": "708 00",
+                        "settlement": "Ostrava",
+                        "country": "Czech Republic"
+                    }
+                },
+                "email": "jana.fojtaskova@vsb.czj.f."
+            },
+            {
+                "first": "Ivan",
+                "middle": [],
+                "last": "Koutn\u00edk",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "VSB-Technical University of Ostrava",
+                    "location": {
+                        "addrLine": "17. listopadu 15",
+                        "postCode": "708 00",
+                        "settlement": "Ostrava",
+                        "country": "Czech Republic"
+                    }
+                },
+                "email": "ivan.koutnik@vsb.czi.k."
+            },
+            {
+                "first": "Martina",
+                "middle": [],
+                "last": "Vr\u00e1blov\u00e1",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "VSB-Technical University of Ostrava",
+                    "location": {
+                        "addrLine": "17. listopadu 15",
+                        "postCode": "708 00",
+                        "settlement": "Ostrava",
+                        "country": "Czech Republic"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hana",
+                "middle": [],
+                "last": "Sezimov\u00e1",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ostrava",
+                    "location": {
+                        "addrLine": "Chittussiho 10",
+                        "postCode": "710 00",
+                        "settlement": "Ostrava",
+                        "country": "Czech Republic"
+                    }
+                },
+                "email": "hana.sezimova@osu.cz"
+            },
+            {
+                "first": "Milan",
+                "middle": [],
+                "last": "Maxa",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "TECHEM CZ, Ltd",
+                    "location": {
+                        "addrLine": "Ond\u0159\u00ed\u010dkova 1300/48",
+                        "postCode": "130 05",
+                        "settlement": "Praha 3",
+                        "country": "Czech Republic"
+                    }
+                },
+                "email": "maxa@techemcz.cz*correspondence:martina.vrablova@vsb.cz"
+            },
+            {
+                "first": "Lucie",
+                "middle": [],
+                "last": "Obalov\u00e1",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "VSB-Technical University of Ostrava",
+                    "location": {
+                        "addrLine": "17. listopadu 15",
+                        "postCode": "708 00",
+                        "settlement": "Ostrava",
+                        "country": "Czech Republic"
+                    }
+                },
+                "email": "lucie.obalova@vsb.czl.o."
+            },
+            {
+                "first": "Petr",
+                "middle": [],
+                "last": "P\u00e1nek",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "VSB-Technical University of Ostrava",
+                    "location": {
+                        "addrLine": "17. listopadu 15",
+                        "postCode": "708 00",
+                        "settlement": "Ostrava",
+                        "country": "Czech Republic"
+                    }
+                },
+                "email": "petr.panek@vsb.czp.p."
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Ionic liquids are increasingly used for their superior properties. Four water-immiscible ionic liquids (butyltriethylammonium bis(trifluoromethylsulfonyl)imide, octyltriethylammonium bis(trifluoromethylsulfonyl)imide, dodecyltriethylammonium bis(trifluoromethylsulfonyl)imide, butyl-3-methylimidazolium bis(trifluoromethylsulfonyl)imide) and their water miscible precursors (bromides) were synthesized in a microwave reactor and by conventional heating. The best conditions for microwave-assisted synthesis concerning the yield and the purity of the product are proposed. The heating in the microwave reactor significantly shortened the reaction time. Biocide and ecotoxic effects of synthesized ionic liquids and their precursors were investigated. All tested compounds had at least a little effect on the growth or living of microorganisms (bacteria or mold). The precursor dodecyltriethylammonium bromide was found to be the strongest biocide, but posed a risk to the aquatic environment due to its relatively high EC 50 value in the test with Vibrio fischeri. We assumed that apart from the alkyl chain length, the solubility in water, duration of action, or type of anion can influence the final biocide and ecotoxic effect. Molecules 2020, 25, 5181 2 of 13",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The synthesis of RTILs is relatively simple. Besides the classical two-step or one-pot ways [2], advanced methods have been developed [3] . Methods can be classified according to whether the solvent is present or not. The classical two-step solvent-free path involves quaternization and metathesis [2] . Quaternization is a nucleophilic substitution of S N 2 and relatively long reaction times (of the order of several days) are required to achieve high yields. The strength of the nucleophilic agent influences the rate of this reaction. As an advanced technology, microwave irradiation has been employed. The reduction of the reaction time in the preparation of N-alkylimidazolium salts in the microwave field has been described by Varma and Namboodiri [4], who achieved a 4 to 5-fold reduction in the time for the preparation of 1-butyl-3-methylimidazolium chloride and bromide. The second step-metathesis (ionic exchange)-is based on the different solubility of the reactants and products in the aqueous medium. The reaction runs at elevated temperature and requires a short reaction time [4] .",
+            "cite_spans": [
+                {
+                    "start": 134,
+                    "end": 137,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 298,
+                    "end": 301,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1093,
+                    "end": 1096,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Microwave syntheses of imidazolium and ammonium ionic liquids have been studied to a limited extent. Deetlefs and Seddon, Khadilkar and Rebeiro [5, 6] described the preparation of 1-n-butyl-3-methylimidazolium bromide. Bhatt et al. [7] performed a microwave synthesis of dicationic ammonium salts. Dong et al. [2] briefly described the microwave-assisted synthesis of [N2224] [Br] and [N2224] [NTf2]. Physico-chemical properties of RTILs can be tailored by modifying their structure. Ionic liquids composed of bis(trifluoromethylsulfonyl) imide anion (NTf2) and different cations are expected to be useful for many practical applications in a wide range of areas, including electrochemistry, synthesis, and separation processes [8]. RTILs were often used in environmentally friendly applications, e.g., for aquatic pollutant extraction. AlSaleem et al. [9] studied the possibilities of extraction and oxidative destruction of halogenated carbohydrates by ionic liquids with bis(trifluoromethylsulfonyl) imide anion. Cacho et al. [10] tested the ability of extraction of organophosphate pesticides by [C4MIM][NTf2] from water with a yield greater than 97%. Yao et al. [11] extracted several drugs including paracetamol and ibuprofen from water with a yield greater than 91%. Cull et al. [12] achieved similar efficiency when erythromycin was extracted to [C4MIM][PF 6 ] and butylacetate, whereas Manic et al. [13] extracted erythromycin to [C4C1pyrr][NTf2] with a yield of over 80%. The emulsion liquid membrane prepared from [C4MIM][NTf2] was tested for phenol, 2-chlorophenol, and 4-nitrophenol extraction from water [14]. Goyal et al. [15] stabilized a [N8881][Cl]-based emulsion liquid membrane by [C4MIM][NTf2] and extracted 97% of chromium from water. Kermanioryani et al. [16] used [C4MIM][NTf2]",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 147,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 148,
+                    "end": 150,
+                    "text": "6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "for the extraction of methylene blue from aqueous solution with an efficiency of 91.3%. Extraction of energetic materials-(2,4,6 trinitrotoluene), RDX (hexahydro-1,3,5-trinitro-1,3,5 triazine) and tetryl (2,4,6-trinitro-phenylmethylnitramine) from contaminated wastewater by a number of ionic liquids including [C4MIM][NTf2] was also studied [17] . Current status and future prospects of ionic liquid mediated technologies in wastewater treatment were reviewed recently [18] .",
+            "cite_spans": [
+                {
+                    "start": 342,
+                    "end": 346,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 470,
+                    "end": 474,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Ionic liquids often exhibit an effect on living microorganisms [19, 20] . Studies showing toxicity to bacteria [21, 22] and fungi [23] , and to the influence of enzymatic activity [24] [25] [26] have been published. Quaternary ammonium salts (QAS) are used as effective antiseptic agents under designation as cationic agents or cationic detergents [27] . In clinical practice, they are used for pre-operative disinfection of intact skin, application to mucous membranes, and disinfection of non-critical surfaces. The fact that QAS are membrane-active agents has been known for many years. Salton [28] proposed the following scheme of action of cationic agents on living microorganisms: (i) adsorption of the agent to the cell wall and its penetration into the cell wall; (ii) reaction with the cytoplasmic membrane (lipid or protein) followed by membrane disorganization; (iii) leakage of low molecular weight intracellular matter; (iv) protein and nucleic acid degradation; (v) wall decomposition by autolytic enzymes. The effect is facilitated by the interaction of the positive charge on the quaternary ammonium group with the polar groups contained in the phospholipid heads [29] . QAS is also believed to damage the outer membrane of gram-negative bacteria, thereby promoting their uptake. Moreover, QASs are sporostatic, they inhibit the growth of spores (the development of a vegetative cell from germination of spores) but not the actual germination processes (development from dormancy to a metabolically active state), Publisher's Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "cite_spans": [
+                {
+                    "start": 63,
+                    "end": 67,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 68,
+                    "end": 71,
+                    "text": "20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 111,
+                    "end": 115,
+                    "text": "[21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 116,
+                    "end": 119,
+                    "text": "22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 130,
+                    "end": 134,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 180,
+                    "end": 184,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 185,
+                    "end": 189,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 190,
+                    "end": 194,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 348,
+                    "end": 352,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 597,
+                    "end": 601,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1180,
+                    "end": 1184,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Ionic liquids (IL) are increasingly used for their superior properties. Their typical feature is a melting point below 100 \u2022 C. Such low melting points are mainly due to their composition. The combination of a larger asymmetric organic cation with smaller inorganic counterparts reduces the energy in the crystal lattice and hence the melting point of the resulting ionic liquid. Room temperature ionic liquids (RTILs) are of particular interest for practical applications. Thanks to this property, they can replace common solvents; they can dissolve organic, inorganic, organometallic, and polymeric substances. Uses of ionic liquids are usually determined from the melting point up to their decomposition temperature. The main advantage of ionic liquids includes the very low vapour pressure caused by their ionic character. Due to this, they are considered as green substitutes for volatile organic industrial solvents. This feature reduces the risk of exposure and solvent loss due to evaporation, thereby reducing air pollution [1] .",
+            "cite_spans": [
+                {
+                    "start": 1033,
+                    "end": 1036,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "although by an unknown mechanism. Similarly, QASs are not mycobactericidal, but the actual effects on mycobacteria have been studied by Russell [30] .",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 148,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Ionic liquids can be used as disinfectants against viruses. The effectiveness of the virus disinfectant is largely influenced by the type and structure of the virus. Non-lipid viruses generally need to be killed using broad-spectrum disinfectants. Sensitivity to lipophilic-type biocidal agents, e.g., 2-phenylphenol (cationic ionic liquid), chlorhexidine, and isopropanol, can be expected for viruses with a lipid envelope of hydrophobic nature [27] . Coronaviruses are enveloped (+)ssRNA viruses, with a lipid envelope. Rabenau et al. [31] tested the effectiveness of eight disinfectants against coronavirus SARS-CoV. Several selected formulations included two agents based on a 0.5% cationic ammonium salt mixture. Both benzalkonium chloride mixed with dodecylamine, and benzalkonium chloride mixed with glutaraldehyde and didecyldimethylammonium chloride, showed inactivation of SARS-CoV after 30 min. In their review, Kampf et al. [32] gathered information from studies on coronavirus's resistance against biocidal agents. Wood and Payne [33] showed very good antiviral effects of benzalkonium chloride against human coronavirus ATCC VR-759. Similar conclusions were reached by Saknimit et al. [34] testing benzalkonium chloride against canine coronavirus strain I-71. Pratelli [35] confirmed the efficacy of benzalkonium chloride against canine coronavirus in strain S378 and found good antiviral effects of didecyldimethylammonium chloride in the same strain.",
+            "cite_spans": [
+                {
+                    "start": 446,
+                    "end": 450,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 537,
+                    "end": 541,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 936,
+                    "end": 940,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1043,
+                    "end": 1047,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 1199,
+                    "end": 1203,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 1283,
+                    "end": 1287,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "At present, it is constantly necessary to determine the possible toxic effects of ionic liquids on the natural ecosystem [20] . Flieger et al. [36] reviewed toxicity tests of a wide range of ionic liquids. Stolte et al. [37] tested the toxicity of a number of imidazolium salts. Cao et al., Erfurt et al. [38, 39] studied cytotoxicity of selected ILs. However, the imidazolium and ammonium ILs presented in this work were not completely studied. One of the most widely used methods for assessing the toxicological risks of substances is ecotoxicological testing, which determines the concentration of a test substance that causes an effect/inhibition/mortality on the test organism. Vibrio fischeri bacteria are one of the most frequently studied organisms in the study of toxicological evaluation of ionic liquids [40] [41] [42] . Vibrio fischeri is commonly found in the environment, so this test is suitable for its screening and assessment of possible risks [43] .",
+            "cite_spans": [
+                {
+                    "start": 121,
+                    "end": 125,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 143,
+                    "end": 147,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 220,
+                    "end": 224,
+                    "text": "[37]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 305,
+                    "end": 309,
+                    "text": "[38,",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 310,
+                    "end": 313,
+                    "text": "39]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 815,
+                    "end": 819,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 820,
+                    "end": 824,
+                    "text": "[41]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 825,
+                    "end": 829,
+                    "text": "[42]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 962,
+                    "end": 966,
+                    "text": "[43]",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The aim of this work was to synthesize ammonium and imidazolium ionic liquids and their precursors in the microwave field and to test their biocide (antibacterial and antifungal) and ecotoxic effects. Microwave-assisted synthesis is believed to shorten the overall time and reduce energy consumption. Our purpose was to test the conditions under which the synthesis will be performed and compare the obtained results with the conventional heating method. With respect to physico-chemical properties of synthesized ionic liquids, we hypothesized the possible application of ILs as biocides, e.g., additives to paints and coatings (dispersants with antibacterial and antifungal properties), components in antibacterial cleaners, or disinfection agents in wastewater treatment. Simultaneously we evaluated possible ecotoxic effects especially for those substances that affect the growth of bacteria in the aquatic environment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The following chemicals were used for the synthesis of ILs: 1-bromobutane (Sigma-Aldrich, 99%), 1-bromooctane (Acros Organics, 99%), 1-bromododecane (Acros Organics, 98%), triethylamine (Acros Organics, 99% pure), 1-methylimidazole, 1-chlorobutane (Sigma Aldrich, 99,5%), diethylether (Lach-Ner, 99%), n-pentane (Penta, p.a.). The 1-methylimidazole was purified by distillation and drying with potassium hydroxide. The other chemicals were used as received.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials"
+        },
+        {
+            "text": "A three-necked flask equipped with a magnetic stirring bar was charged with 1-methylimidazole (0.1 mol) and 1-bromobutane (0.11 mol) during synthesis under a nitrogen atmosphere. The synthesis was carried out by conventional and microwave heating. The mixture was heated to 80 \u2022 C under constant stirring. After completion of the reaction, the unreacted reactants were removed on a rotary evaporator under reduced pressure at a temperature up to 80 \u2022 C. Subsequently, the product was shaken with 5 \u00d7 25 mL of diethylether. The obtained IL was dried in a 1 mbar vacuum at 70-80 \u2022 C for 5-6 h.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthesis of 1-Butyl-3-Methylimidazolium Bromide"
+        },
+        {
+            "text": "A flat-bottomed flask equipped with a magnetic stirring bar was charged with triethylamine (0.64 mol) and 1-bromoalkanes (0.63 mol) with different alkyl chain lengths from C4 through C8 to C12. The synthesis was solvent-free and was carried out by conventional and microwave heating without using an inert atmosphere. The mixtures were heated from 100 to 140 \u2022 C under constant stirring. When the experiment finished, a biphasic mixture was formed (unreacted reaction mixture and 1-alkyl-(triethyl)ammonium bromide). 1-alkyl-(triethyl)ammonium bromide was in the form of a white insoluble precipitate. The precipitate was filtered and washed with 5 \u00d7 25 mL n-pentane to remove impurities. The obtained IL was dried in a 1 mbar vacuum at 70-80 \u2022 C for 5-6 h.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthesis of 1-Alkyl-(Triethyl)Ammonium Bromide"
+        },
+        {
+            "text": "The simple anion that had been synthesized in the first step (bromide) was then exchanged for the bulk anion of the lithium salt of bis[trifluormethyl(sulfonyl)]imide. To a flat-bottomed flask equipped with a magnetic stirring bar, equimolar amounts of ammonium salt and lithium salt were added. The mixture was dissolved in an adequate amount of water. The ion exchange was solvent-free and was carried out by conventional heating without using an inert atmosphere. The mixture was heated to 50 \u2022 C under constant stirring for 5-6 h. The ion exchange product was not soluble in water. The product was shaken with 150 mL diethyl ether and with 150 mL water. On a rotary evaporator under reduced pressure and at a temperature not exceeding 80 \u2022 C, the volatiles were evaporated together with water, until a constant weight was obtained.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ion Exchange (Metathesis)"
+        },
+        {
+            "text": "The content of water was determined by Karl Fischer titration using TitroLine 7500 KF titrator. The determination of dissociated bromides was done by argentometric titration using the automatic titrator T5 (Mettler-Toledo GmbH, Greifensee, Switzerland). The equivalence point was detected potentiometrically.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Product Analysis"
+        },
+        {
+            "text": "Liquid chromatography was used to determine the purity of imidazolium-based ionic liquids. Analysis was carried out using a liquid chromatograph equipped with model Nexera XR pumps and a SPD-M20A diode array detector (Shimadzu Corporation, Kyoto, Japan). The chromatographic separation was performed on a Phenomenex Kinetex Biphenyl analytical column (150 \u00d7 4.6 mm i.d., 2.6 \u00b5m) equipped with a guard column using an isokrat mode. Mobile phase was a mixture of 60% (70% methanol + 30% 0.054 M formic acid with ammonium acetate, pH 3.6) and 40% \u00b5H 2 O. The flow rate was 0.5 mL.min \u22121 . The injection volume was 20 \u00b5L. The chromatographic system operated at 25 \u2022 C. For quantitative analyses selective detection was performed at 210 nm.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Product Analysis"
+        },
+        {
+            "text": "For ammonium-based ionic liquids the content of the main component was determined indirectly by determining by-products. GC-MS/FID analyses were carried out on a 7890A GC system equipped with a flame ionization detector and a single quad detector (Agilent Technologies, Inc., Santa Clara, CA, USA). A DB-5MS UI fused silica column (Agilent, 30 m \u00d7 0.32 mm ID, 0.5 \u00b5m film thickness) was used. The flow rate of the carrier gas (Helium) was set at 1.5 mL.min \u22121 . The temperature program was as follows: 80 \u2022 C for 2 min, 30 \u2022 C.min \u22121 up to 250 \u2022 C, hold time 3 min. The injector temperature was 180 \u2022 C, in the split mode 20:1. The injection volume was 1 \u00b5L. The FID temperature was 250 \u2022 C.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Product Analysis"
+        },
+        {
+            "text": "Thermal gravimetric analysis (TGA) was performed with instrument LECO TGA 701, elemental composition C, H, N by LECO CHN 628 instrument (both from LECO Corporation, St. Joseph, MI, USA). The structure of products was confirmed by FTIR spectra, measured by Nicolet iS10 FTIR spectrometer with ATR accessories (Thermo Fisher Scientific, Waltham, MA, USA).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Product Analysis"
+        },
+        {
+            "text": "Biocide tests were performed within two experiments. In Experiment 1, the effects of ionic liquids on microorganisms compared to standard biocides were studied. The commercially available disinfection agent benzalkonium chloride (purity \u226595.0%, Sigma-Aldrich) was used as a standard. In Experiment 2, the half-maximal effective concentration (EC 50 ) was determined for ILs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Biocide Tests"
+        },
+        {
+            "text": "Ionic liquids or standards were dissolved in demineralized water (Experiment 1) or a mixture of dimethyl sulfoxide (DMSO) and water (maximum of 10% v/v; Experiment 2) to the final amount of IL 2 wt.% in solution (Experiment 1) or concentration series 0.00 (negative control), 0.25, 0.74, 2.22, 6.67 and 20.00 g.L \u22121 (Experiment 2). Tested microorganisms were chosen based on their presence in the environment. In Experiment 1, Penicillium candidum from Camembert cheese, aerobic bacteria from wastewater treatment plants (WWTP; commercially available Bio-Enzym, Bioprospect, Czech Republic), and aerobic bacteria present in a digestate from a biogas reactor (operated at Institute of Environmental Technology, V\u0160B-TU Ostrava) were used. In Experiment 2, commercially available Bacillus subtilis (spore suspension 10 7 CFU/mL, Merck) was tested. Samples with microorganisms were diluted in demineralized water (1 g per 100 mL) and activated for 30 min at 30 \u2022 C. The concentration of microorganisms and conditions of activation and cultivation, the same as the effect of DMSO on growth, were verified experimentally. Both solutions were pooled at a ratio of 1:1, therefore the concentration of microorganisms and ILs in the solution dropped to half of the previously mentioned values. Before testing, the contact time of microorganisms with ILs in solution was 1 h.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Biocide Tests"
+        },
+        {
+            "text": "Biocide tests were performed on sterile total aerobic bacteria, yeasts and molds paddle testers (Hach Company, Loveland, CO, USA). Each tester contains two growth media; one for total aerobic bacteria, and a second for yeasts and molds. According to tested microorganisms, one of the media was chosen for testing. Solutions of ILs with microorganisms were put in drops (volume 3 \u00b5L) on the appropriate growth medium. Negative (solution of microorganisms in demineralized water) and positive (solution of microorganisms in water with standard biocide) controls were used in each tester. Testers were cultivated in a cultivation box tempered to 30 \u2022 C for 48 h. After cultivation, the size of microbial colonies was assessed from photographs in ImageJ software (Rasband, W.S., U. S. National Institutes of Health, Bethesda, MD, USA). The inhibitory effect (in %) was calculated as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Biocide Tests"
+        },
+        {
+            "text": "where A (IL) is the area of microorganism colony when treated with IL (in cm 2 ) and A (NC) is the area of microorganism colony in demineralized water (negative control) (Experiment 1). The dependency of inhibition effect on the concentration of IL in solution was expressed as half-maximal effective concentration. Data were evaluated using Origin Pro 2018 software. The equation of inhibition dose-response curve (2) was used for fitting [44] and (EC 50 ) calculation (Experiment 2):",
+            "cite_spans": [
+                {
+                    "start": 440,
+                    "end": 444,
+                    "text": "[44]",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Biocide Tests"
+        },
+        {
+            "text": "where Bottom means basal response, Top means maximal response, and HillSlope is a gradient of the curve.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Biocide Tests"
+        },
+        {
+            "text": "The luminescent bacteria test was performed according to ISO 11348 [45] . The bacteria Vibrio fischeri were obtained from Dr. Bruno Lange GmbH & Co. KG (Berlin, Germany) as liquid-dried cells (product LCK 480). The bacterial culture was cultivated according to the ISO 11348 procedures and was prepared fresh from the stock culture before each test.",
+            "cite_spans": [
+                {
+                    "start": 67,
+                    "end": 71,
+                    "text": "[45]",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Ecotoxicity Tests"
+        },
+        {
+            "text": "The bacteria Vibrio fischeri were exposed to a dilution series of the studied samples and their light emission was determined after incubation. Additionally, negative and positive controls with potassium dichromate were tested. The light emission of the bacteria in the samples was measured after 15 and 30 min. The tests were performed at 15 \u2022 C and with two replicates. All measurements were performed using the LUMIStox300 luminometer (Hach-Lange GmbH, D\u00fcsseldorf, Germany).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ecotoxicity Tests"
+        },
+        {
+            "text": "Several dilutions for each of studied samples were prepared using distilled water (ILs Br) or DMSO (ILs NTf2), respectively. The different concentration ranges for these compounds were 0.08-25 mg. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ecotoxicity Tests"
+        },
+        {
+            "text": "The use of microwave heating in the synthesis of selected ILs resulted in a noticeable reduction in reaction times while achieving acceptable yields (Table 1) in accordance with results published previously [4] . Purity information for the synthesis of selected ILs in a microwave reactor is not available in the literature in sufficient quantity, so the results cannot be compared with other studies. Synthesis in the classical way is very well studied and there are many scientific articles on this topic. Physico-chemical parameters of synthesized ILs, including NMR spectra, can be found in the literature [46] [47] [48] [49] . The yield of ammonium ionic liquids did not exceed 31% when conventional heating was applied up to 48 h, whereas in the microwave reactor, the yields between 58 and 86% were achieved in less than 12 h. The smallest effect of using microwaves was seen in the synthesis of [C4MIM][Br], which was strongly exothermic and required a very slight application of heating. The largest reduction in reaction time was achieved with [N222,12] [Br], where at the same time the yield almost doubled. The MW synthesis proceeded without the addition of a solvent. The addition of a solvent to the reaction mixture helps to increase the effect of microwave radiation and could significantly reduce the reaction time, but as a result may contribute to new problems in the purification of the final synthesis product. The low boiling point of butyl bromide causes a temperature limitation of the reactions and a reduction in yields. This disadvantage can be eliminated by using a high-pressure reactor. A water content of 0.04-3.27 wt.% is considered the largest contaminant in synthesized ionic liquids. The residual water content of ILs is primarily related to the nature of the anion. The purification system was effective to achieve the highest purity of ionic liquids. All synthesized products were verified by infrared spectroscopy and elemental analysis. All quaternisation products are odourless white crystalline substances. Ion exchange products are very viscous colourless substances; [N2228] [NTf2] is mostly yellowish.",
+            "cite_spans": [
+                {
+                    "start": 207,
+                    "end": 210,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 610,
+                    "end": 614,
+                    "text": "[46]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 615,
+                    "end": 619,
+                    "text": "[47]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 620,
+                    "end": 624,
+                    "text": "[48]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 625,
+                    "end": 629,
+                    "text": "[49]",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 149,
+                    "end": 158,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Ionic Liquid Syntheses"
+        },
+        {
+            "text": "Inhibition of growth after contact with ILs in the aquatic environment was tested for three different species of microorganisms (Figure 1) 12] [Br] and standard benzalkonium chloride. More than 60% inhibition of growth of WWTP bacteria were observed for all bromides and benzalkonium chloride. It can be summarized that bromides influenced microorganism growth more than triflimides (NTf2) and that triflimides were better fungicides than bactericides. The extending alkyl chain led to a higher inhibitory effect in bromides, but a lower inhibitory effect in triflimides. This fact is surprising and can be attributed to different solubility of ILs and their precursors in water. While bromides are very soluble in water (tens of wt. percent), the solubility of triflimides is very low (units of wt. percent). ILs containing shorter alkyl chains are more soluble than ILs with longer alkyl chains. Therefore, due to the high solubility of bromides, their biocide effect could be more affected by the length of the alkyl chain, whereas the biocide effect of triflimides could be closely related to water solubility. The dependence of inhibitory effect during the formation of biofilms on the length of the alkyl chain was previously shown for imidazolium ILs. Compounds (chlorides) with longer side chain lengths showed potent activity even at lower concentrations as compared to ILs with shorter chain lengths [50] . The ecotoxic effect of imidazolium ionic liquids with Cl \u2212 , PF 6 \u2212 and BF 4 \u2212 anions with longer chain lengths was also increased [51] . Longer alkyl chains were probably incorporated into the polar headgroups of the phospholipid bilayer, which led to membrane damage of microorganisms [52] . Contrary to these findings, biodegradation of phosphonium ionic liquids containing bromide was low and not dependent on alkyl chain length, and the presence of triflimide anion instead of bromide further inhibited the biodegradation [53] . In this case, DMSO (10 wt.%) was used to improve the water solubility of studied compounds, therefore results obtained in this experiment may be slightly different from the previous experiment ( Figure 2) . Nevertheless, the effect of DMSO itself was tested independently, and no inhibition of growth of B. subtilis was found up to 15 wt.% solution of DMSO in water. [55] , which is in agreement with our results. According to Couling et al. [56] , many of the imidazolium compounds were more toxic to Vibrio fischeri than common solvents such as acetonitrile, acetone, and methanol. On the contrary, low alkyl chain length quaternary ammonium ILs and those ILs containing choline as the cation were relatively nontoxic to Vibrio fischeri in their study. We found a similar trend, i.e., relatively low acute toxicity for Couling et al. [56] assessed the factors responsible for ionic liquid toxicity to aquatic organisms via quantitative structure-property relationship modelling. Their results showed increasing alkyl chain length increases the IL toxicity for both Vibrio fischeri and Daphnia magna, and that cation properties have a larger effect on toxicity than anion properties. Nevertheless, bromides in our study usually showed a different ecotoxic effect on Vibrio fisheri than triflimides, which points to the non-negligible influence of the anion on acute toxicity. The inhibition of the growth of microorganisms in biocide tests was also species-dependent, with a balanced and strong inhibitory effect of [N222,12] [Br] in all experiments. Similarly to our results, Sandbacka et al. [57] found relatively high acute toxicity (among 12 surfactants) of [N222,12] [Br] to Daphnia magna. The exchange of [Br] to [NTf2] reduced the biocide effect, but not the acute ecotoxic effect. This could be influenced by the duration of action; in biocide tests, the contact time of compounds with microorganisms was 1 h in solution and another 48 h during testing, whereas acute toxicity was examined within 15 and 30 min. Therefore, we assume that the length of the alkyl chain of the cation is not the only feature that causes the inhibitory effect on microorganisms in the aquatic environment; the solubility in water, duration of action, type of anion, and possible other compound characteristics can influence the final biocide and ecotoxic effect.",
+            "cite_spans": [
+                {
+                    "start": 139,
+                    "end": 142,
+                    "text": "12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1410,
+                    "end": 1414,
+                    "text": "[50]",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 1481,
+                    "end": 1482,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1548,
+                    "end": 1552,
+                    "text": "[51]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 1704,
+                    "end": 1708,
+                    "text": "[52]",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 1944,
+                    "end": 1948,
+                    "text": "[53]",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 2318,
+                    "end": 2322,
+                    "text": "[55]",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 2393,
+                    "end": 2397,
+                    "text": "[56]",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 2787,
+                    "end": 2791,
+                    "text": "[56]",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 3468,
+                    "end": 3477,
+                    "text": "[N222,12]",
+                    "ref_id": null
+                },
+                {
+                    "start": 3546,
+                    "end": 3550,
+                    "text": "[57]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 3614,
+                    "end": 3623,
+                    "text": "[N222,12]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 128,
+                    "end": 138,
+                    "text": "(Figure 1)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 2146,
+                    "end": 2155,
+                    "text": "Figure 2)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Biocide and Ecotoxic Effects"
+        },
+        {
+            "text": "The classical synthesis of tetraalkylammonium and imidazolium salts is a well-studied synthesis that leads to products of high purity. However, the reaction time for classical synthesis is on the order of tens of hours to days. Preparation of ionic liquids in a microwave reactor should contribute to reduction in reaction time of the synthesis, and lead to a higher purity of the product and a higher yield. Several new findings were identified in the presented work. (i) The microwave field has been shown to have a beneficial effect on the synthesis of both imidazole and ammonium ionic liquids. We defined the conditions for microwave-assisted synthesis that led to a sufficient yield and purity of products. (ii) All tested compounds had at least a little effect on the growth or living of microorganisms (bacteria and mold). We showed that results of biocide tests depended on tested species and were influenced not only by the length of the alkyl chain of IL, but also on its solubility in water and type of anion. In general, bromides influenced microorganism growth more than triflimides (NTf2), and triflimides were better fungicides than bactericides. Dodecyltriethylammonium bromide showed strong biocide and ecotoxic effects in all tests. (iii) The antibacterial and antifungal effects of studied ILs together with an ecotoxicity that was comparable or lower than the widely used benzalkonium chloride predestine these compounds for testing in applications in the field of paints and coatings, antibacterial cleaners or, in the case of low water-soluble ILs, as disinfection agents for wastewater treatment. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Ionic liquids: Innovative fluids for chemical processing",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Brennecke",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Maginn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "AIChE J",
+            "volume": "47",
+            "issn": "",
+            "pages": "2384--2389",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/aic.690471102"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Synthesis and Characterization of Quaternary Ammonium-Based Ionic Liquid",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Adv. Mater. Res",
+            "volume": "",
+            "issn": "",
+            "pages": "178--182",
+            "other_ids": {
+                "DOI": [
+                    "10.4028/www.scientific.net/AMR.433-440.178"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Synthesis, Purification and Recycling of Ionic Liquid",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Jing",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ai",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Siyi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Lirong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Mini-Rev. Org. Chem",
+            "volume": "12",
+            "issn": "",
+            "pages": "435--448",
+            "other_ids": {
+                "DOI": [
+                    "10.2174/1570193X13666151125230810"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "An expeditious solvent-free route to ionic liquids using microwaves",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Varma",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Namboodiri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Chem. Commun",
+            "volume": "",
+            "issn": "",
+            "pages": "643--644",
+            "other_ids": {
+                "DOI": [
+                    "10.1039/b101375k"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Improved preparations of ionic liquids using microwave irradiation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Deetlefs",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Seddon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Green Chem",
+            "volume": "5",
+            "issn": "",
+            "pages": "181--186",
+            "other_ids": {
+                "DOI": [
+                    "10.1039/b300071k"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Microwave-Assisted Synthesis of Room-Temperature Ionic Liquid Precursor in Closed Vessel",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Khadilkar",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rebeiro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Org. Process Res. Dev",
+            "volume": "6",
+            "issn": "",
+            "pages": "826--828",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/op025551j"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "A microwave assisted one pot synthesis of novel ammonium based dicationic ionic liquids",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bhatt",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Maheria",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Parikh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "RSC Adv",
+            "volume": "5",
+            "issn": "",
+            "pages": "12139--12143",
+            "other_ids": {
+                "DOI": [
+                    "10.1039/C4RA16251J"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Ionic liquids synthesis and applications: An overview",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Savoy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Mol. Liq",
+            "volume": "297",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.molliq.2019.112038"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Extraction of halogenated hydrocarbons using hydrophobic ionic liquids",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Alsaleem",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zahid",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Alnashef",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Haider",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Sep. Purif. Technol",
+            "volume": "184",
+            "issn": "",
+            "pages": "231--239",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.seppur.2017.04.047"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "In situ ionic liquid dispersive liquid-liquid microextraction coupled to gas chromatography-mass spectrometry for the determination of organophosphorus pesticides",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Cacho",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Campillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vi\u00f1as",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hern\u00e1ndez-C\u00f3rdoba",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J. Chromatogr. A",
+            "volume": "",
+            "issn": "",
+            "pages": "95--101",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.chroma.2017.12.059"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Selective extraction of emerging contaminants from water samples by dispersive liquid-liquid microextraction using functionalized ionic liquids",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Twu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Pitner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J. Chromatogr. A",
+            "volume": "",
+            "issn": "",
+            "pages": "1218--1556",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.chroma.2011.01.035"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Room-temperature ionic liquids as replacements for organic solvents in multiphase bioprocess operations",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Cull",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Holbrey",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Vargas-Mora",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Seddon",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lye",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Biotechnol. Bioeng",
+            "volume": "69",
+            "issn": "",
+            "pages": "227--233",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/(SICI)1097-0290(20000720)69:2<227::AID-BIT12>3.0.CO;2-0"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Najdanovic-Visak, V. Recovery of erythromycin from aqueous solutions with an ionic liquid and high-pressure carbon dioxide",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Manic",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Da Ponte",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Chem. Eng. J",
+            "volume": "171",
+            "issn": "",
+            "pages": "904--911",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cej.2011.04.037"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Removal of phenolic compounds from synthesized produced water by emulsion liquid membrane stabilized by the combination of surfactant and ionic liquid",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mohammed",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zouli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Al-Dahhan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Desalin. Water Treat",
+            "volume": "110",
+            "issn": "",
+            "pages": "168--179",
+            "other_ids": {
+                "DOI": [
+                    "10.5004/dwt.2018.22232"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Chromium removal by emulsion liquid membrane using [BMIM]+[NTf2]\u2212 as stabilizer and TOMAC as extractant",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Goyal",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Jayakumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hashim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Desalination",
+            "volume": "278",
+            "issn": "",
+            "pages": "50--56",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.desal.2011.05.001"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Using tunability of ionic liquids to remove methylene blue from aqueous solution",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kermanioryani",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Abdul Mutalib",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gonfa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "El-Harbawi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mazlan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lethesh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-M",
+                    "middle": [],
+                    "last": "Leveque",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J. Environ. Chem. Eng",
+            "volume": "4",
+            "issn": "",
+            "pages": "2327--2332",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jece.2016.04.008"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Treatment of energetic material contaminated wastewater using ionic liquids",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Bhosale",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Patil",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kulkarni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "RSC Adv",
+            "volume": "5",
+            "issn": "",
+            "pages": "20503--20510",
+            "other_ids": {
+                "DOI": [
+                    "10.1039/C4RA17271J"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Ionic liquid-based water treatment technologies for organic pollutants: Current status and future prospects of ionic liquid mediated technologies",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Isosaari",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Srivastava",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sillanp\u00e4\u00e4",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Sci. Total Environ",
+            "volume": "690",
+            "issn": "",
+            "pages": "604--619",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.scitotenv.2019.06.421"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Environmental fate and toxicity of ionic liquids: A review",
+            "authors": [
+                {
+                    "first": "Thuy",
+                    "middle": [],
+                    "last": "Pham",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-W",
+                    "middle": [],
+                    "last": "Yun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Water Res",
+            "volume": "44",
+            "issn": "",
+            "pages": "352--372",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.watres.2009.09.030"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "A brief overview of the potential environmental hazards of ionic liquids",
+            "authors": [
+                {
+                    "first": "Cvjetko",
+                    "middle": [],
+                    "last": "Bubalo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rado\u0161evi\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Radoj\u010di\u0107 Redovnikovi\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Halambek",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gaurina Sr\u010dek",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Ecotoxicol. Environ. Saf",
+            "volume": "99",
+            "issn": "",
+            "pages": "1--12",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ecoenv.2013.10.019"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "How the structure of ionic liquid affects its toxicity to Vibrio fischeri? Chemosphere",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Grzonkowska",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sosnowska",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Barycki",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rybinska",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Puzyn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "159",
+            "issn": "",
+            "pages": "199--207",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.chemosphere.2016.06.004"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Toxicity evaluation of selected ammonium-based ionic liquid forms with MCPP and dicamba moieties on Pseudomonas putida",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Piotrowska",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Syguda",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wyrwas",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u0141",
+                    "middle": [],
+                    "last": "Chrzanowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Heipieper",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "167",
+            "issn": "",
+            "pages": "114--119",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.chemosphere.2016.09.140"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Mechanism of imidazolium ionic liquidstoxicity in Saccharomyces cerevisiae and rationalengineering of a tolerant, xylose-fermenting strain",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Dickinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bottoms",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hinchman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mcilwain",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Myers",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Boone",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Coon",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hebert",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Sato",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Microb. Cell Factories",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12934-016-0417-7"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Assessing toxicity and biodegradation of novel, environmentally benign ionic liquids (1-alkoxymethyl-3-hydroxypyridinium chloride, saccharinate and acesulfamates) on cellular and molecular level",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Stasiewicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mulkiewicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tomczak-Wandzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kumirska",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Siedlecka",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Go\u0142ebiowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gajdus",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Czerwicka",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Stepnowski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Ecotoxicol. Environ. Saf",
+            "volume": "71",
+            "issn": "",
+            "pages": "157--165",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ecoenv.2007.08.011"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Oxidative stress and genotoxicity of 1-methyl-3-octylimidazolium chloride on loach (Misgurnus anguillicaudatus)",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Nan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jia",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Toxicol. Environ. Chem",
+            "volume": "95",
+            "issn": "",
+            "pages": "1546--1553",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/02772248.2014.895362"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Ionic liquids toxicity on fresh water microalgae, Scenedesmus quadricauda, Chlorella vulgaris & Botryococcus braunii; selection criterion for use in a two-phase partitioning bioreactor (TPPBR)",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Quraishi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bustam",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Krishnan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Aminuddin",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Azeezah",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ghani",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Uemura",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "L\u00e9v\u00eaque",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "184",
+            "issn": "",
+            "pages": "642--651",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.chemosphere.2017.06.037"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Antiseptics and Disinfectants: Activity, Action, and Resistance",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mcdonnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Clin. Microbiol. Rev",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/CMR.14.1.227-227.2001"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Lytic agents, cell permeability, and monolayer penetrability",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Salton",
+                    "suffix": ""
+                }
+            ],
+            "year": 1968,
+            "venue": "J. Gen. Physiol",
+            "volume": "52",
+            "issn": "",
+            "pages": "227--252",
+            "other_ids": {
+                "DOI": [
+                    "10.1085/jgp.52.1.227"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Antibacterial Properties of Poly(Quaternary Ammonium) Modified Gold and Titanium Dioxide Nanoparticles",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T W"
+                    ],
+                    "last": "Yeow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J. Nanosci. Nanotechnol",
+            "volume": "12",
+            "issn": "",
+            "pages": "4601--4606",
+            "other_ids": {
+                "DOI": [
+                    "10.1166/jnn.2012.6147"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Activity of biocides against mycobacteria",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Soc. Appl. Bacteriol. Symp. Ser",
+            "volume": "25",
+            "issn": "",
+            "pages": "87--101",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1365-2672.1996.tb04837.x"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Efficacy of various disinfectants against SARS coronavirus",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Rabenau",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kampf",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cinatl",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Doerr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J. Hosp. Infect",
+            "volume": "61",
+            "issn": "",
+            "pages": "107--111",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jhin.2004.12.023"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Persistence of coronaviruses on inanimate surfaces and their inactivation with biocidal agents",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kampf",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Todt",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pfaender",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Steinmann",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Hosp. Infect",
+            "volume": "2020",
+            "issn": "",
+            "pages": "246--251",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jhin.2020.01.022"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "The action of three antiseptics/disinfectants against enveloped and non-enveloped viruses",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wood",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Payne",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "J. Hosp. Infect",
+            "volume": "38",
+            "issn": "",
+            "pages": "283--295",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0195-6701(98)90077-9"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Virucidal efficacy of physico-chemical treatments against coronaviruses and parvoviruses of laboratory animals",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Saknimit",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Inatsuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sugiyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yagami",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Exp. Anim",
+            "volume": "37",
+            "issn": "",
+            "pages": "341--345",
+            "other_ids": {
+                "DOI": [
+                    "10.1538/expanim1978.37.3_341"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Action of disinfectants on canine coronavirus replication in vitro",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pratelli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Zoonoses Public Health",
+            "volume": "54",
+            "issn": "",
+            "pages": "383--386",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1863-2378.2007.01079.x"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Ionic Liquids Toxicity-Benefits and Threats",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Flieger",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Flieger",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Int. J. Mol. Sci",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijms21176267"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Effects of different head groups and functionalised side chains on the aquatic toxicity of ionic liquids",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Stolte",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Matzke",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Arning",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "B\u00f6schen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.-R",
+                    "middle": [],
+                    "last": "Pitner",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Welz-Biermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Jastorff",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ranke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Green Chem",
+            "volume": "9",
+            "issn": "",
+            "pages": "1170--1179",
+            "other_ids": {
+                "DOI": [
+                    "10.1039/b711119c"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Using machine learning and quantum chemistry descriptors to predict the toxicity of ionic liquids",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J. Hazard. Mater",
+            "volume": "352",
+            "issn": "",
+            "pages": "17--26",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jhazmat.2018.03.025"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Biodegradable Surface Active D-Glucose Based Quaternary Ammonium Ionic Liquids in the Solventless Synthesis of Chloroprene",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Erfurt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Markiewicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Siewniak",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Lisicki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zalewski",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Stolte",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chrobok",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "ACS Sustain. Chem. Eng",
+            "volume": "8",
+            "issn": "",
+            "pages": "10911--10919",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acssuschemeng.0c03239"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Design of ionic liquids: An ecotoxicity (Vibrio fischeri) discrimination approach",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Alvarez-Guerra",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Irabien",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Green Chem",
+            "volume": "13",
+            "issn": "",
+            "pages": "1507--1516",
+            "other_ids": {
+                "DOI": [
+                    "10.1039/c0gc00921k"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Ionic liquids: A pathway to environmental acceptability",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Petkovic",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Seddon",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "P N"
+                    ],
+                    "last": "Rebelo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Silva Pereira",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Chem. Soc. Rev",
+            "volume": "40",
+            "issn": "",
+            "pages": "1383--1403",
+            "other_ids": {
+                "DOI": [
+                    "10.1039/C004968A"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Time-dependent hormetic effects of 1-alkyl-3-methylimidazolium bromide on Vibrio qinghaiensis sp.-Q67: Luminescence, redox reactants and antioxidases",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.-S",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.-Y",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Chemosphere",
+            "volume": "91",
+            "issn": "",
+            "pages": "462--467",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.chemosphere.2012.11.070"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "A review on advantages of implementing luminescence inhibition test (Vibrio fischeri) for acute toxicity prediction of chemicals",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Parvez",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Venkataraman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mukherji",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Environ. Int",
+            "volume": "32",
+            "issn": "",
+            "pages": "265--268",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.envint.2005.08.022"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Fitting Models to Biological Data Using Linear and Nonlinear Regression: A Practical Guide to Curve Fitting",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Motulsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Christopoulos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Water Quality-Determination of the Inhibitory Effect of Water Samples on the Light Emission of Vibrio Fischeri (Luminescent Bacteria Test)-Part 1: Method Using Freshly Prepared Bacteria",
+            "authors": [],
+            "year": 2007,
+            "venue": "",
+            "volume": "ISO",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "A green and effective method to synthesize ionic liquids: Supercritical CO2 route",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Green Chem",
+            "volume": "7",
+            "issn": "",
+            "pages": "701--704",
+            "other_ids": {
+                "DOI": [
+                    "10.1039/b507845h"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Towards understanding the color change of 1-butyl-3-methylimidazolium bis(trifluoromethylsulfonyl)imide during gamma irradiation: An experimental and theoretical study",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Cui",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhai",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Phys. Chem. Chem. Phys",
+            "volume": "16",
+            "issn": "",
+            "pages": "18729--18735",
+            "other_ids": {
+                "DOI": [
+                    "10.1039/C4CP01905A"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Measurement and study of density, surface tension, and viscosity of quaternary ammonium-based ionic liquids",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ghatee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bahrami",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Khanjari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J. Chem. Thermodyn",
+            "volume": "65",
+            "issn": "",
+            "pages": "42--52",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jct.2013.05.031"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Thermal Properties of Alkyl-triethylammonium bis{(trifluoromethyl)sulfonyl}imide Ionic Liquids",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Machanov\u00e1",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wagner",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Andresov\u00e1",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rotrekl",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Boisset",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jacquemin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bendov\u00e1",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J. Solut. Chem",
+            "volume": "44",
+            "issn": "",
+            "pages": "790--810",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10953-015-0323-3"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Long alkyl-chain imidazolium ionic liquids: Antibiofilm activity against phototrophic biofilms",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "K K"
+                    ],
+                    "last": "Reddy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Nancharaiah",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Venugopalan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Colloids Surf. B Biointerfaces",
+            "volume": "155",
+            "issn": "",
+            "pages": "487--496",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.colsurfb.2017.04.040"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Biological effects of imidazolium ionic liquids with varying chain lengths in acute Vibrio fischeri and WST-1 cell viability assays",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ranke",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "M\u00f6lter",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Stock",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Bottin-Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Poczobutt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ondruschka",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Filser",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Jastorff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Ecotoxicol. Environ. Saf",
+            "volume": "58",
+            "issn": "",
+            "pages": "396--404",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0147-6513(03)00105-2"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "The Relationship between the Interfacial Properties of Surfactants and Their Toxicity to Aquatic Organisms",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rosen",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Morrall",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Versteeg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Environ. Sci. Technol",
+            "volume": "35",
+            "issn": "",
+            "pages": "954--959",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/es0015141"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Phosphonium ionic liquids: Design, synthesis and evaluation of biodegradability",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Atefi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Singer",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Scammells",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Green Chem",
+            "volume": "11",
+            "issn": "",
+            "pages": "1595--1604",
+            "other_ids": {
+                "DOI": [
+                    "10.1039/B913057H"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "The toxicity of the quaternary ammonium compound benzalkonium chloride alone and in mixtures with other anionic compounds to bacteria in test systems with Vibrio fischeri and Pseudomonas putida",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "S\u00fctterlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Alexy",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "K\u00fcmmerer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Ecotoxicol. Environ. Saf",
+            "volume": "71",
+            "issn": "",
+            "pages": "498--505",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ecoenv.2007.12.015"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Acute toxicity of ionic liquids for three freshwater organisms: Pseudokirchneriella subcapitata, Daphnia magna and Danio rerio",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Pretti",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chiappe",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Baldetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Brunini",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Monni",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Intorre",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Ecotoxicol. Environ. Saf",
+            "volume": "72",
+            "issn": "",
+            "pages": "1170--1176",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ecoenv.2008.09.010"
+                ]
+            }
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Assessing the factors responsible for ionic liquid toxicity to aquatic organisms via quantitative structure-property relationship modeling",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Couling",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bernot",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Docherty",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Dixon",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Maginn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Green Chem",
+            "volume": "8",
+            "issn": "",
+            "pages": "82--90",
+            "other_ids": {
+                "DOI": [
+                    "10.1039/B511333D"
+                ]
+            }
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "The acute toxicity of surfactants on fish cells, Daphnia magna and fish-A comparative study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sandbacka",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Christianson",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Isomaa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Toxicol. Vitr",
+            "volume": "14",
+            "issn": "",
+            "pages": "61--68",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0887-2333(99)00083-1"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Inhibitory effect of ILs on three groups of microorganisms. (a) Relative inhibitory effect of QAS and their precursors, and standard inhibitor benzalkonium chloride, on the growth of Penicilium candidum, WWTP bacteria, and digestate bacteria. Bars represent standard deviations. (b) Visualization of inhibitory effects on all tested species (calculated as a sum of partial effects) concerning the anion and cation. ILs are aligned from left to right by extending the alkyl chain. The effect of concentration of ILs in solution on the growth of microorganisms was tested for Bacillus subtilis. The concentration range 0-10 g.L \u22121 was set after preliminary results and concerning the low solubility of ILs in water. Only three from eight tested ILs ([N222,12][Br], [N2224][NTf2] and [C4MIM][NTf2]) exhibited a significant inhibition effect on the growth of Bacillus subtilis in this concentration range (Figure 2). Parameter EC 50 was the highest for [N222,12][Br] (0.714 g.L \u22121 ), whereas [N2224][NTf2] and [C4MIM][NTf2] had EC 50 values of 3.421 and 3.599 g.L \u22121 , respectively. Other ILs exhibited a very low ([C4MIM][Br]) or negligible biocide effect.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Concentration dependency of the inhibitory effect of ILs on the growth of Bacillus subtilis. Ammonium (a,b,d) and imidazolium (c) ionic liquids and their precursors were tested.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Contributions: J.F.: Methodology, Investigation, Validation, Writing-Original Draft; I.K.: Methodology, Investigation, Validation, Writing-Original Draft; M.V.: Methodology, Investigation, Validation, Writing-Original Draft; H.S.: Methodology, Investigation, Validation, Writing-Original Draft; M.M.: Conceptualization, Project administration, Writing-Review & Editing, Supervision; L.O.: Conceptualization, Project administration, Writing-Review & Editing, Supervision; P.P.: Conceptualization, Methodology, Project administration, Writing-Review & Editing, Supervision. All authors have read and agreed to the published version of the manuscript.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "The work was supported by the Ministry of Industry and Trade [grant number FV10089] and EU structural funding in Operational Programme Research, Development and Education [grant number CZ.02.1.01./0.0/0.0/17_049/0008419]. Experimental results were accomplished by using Large Research Infrastructure ENREGAT supported by the Ministry of Education, Youth and Sports of the Czech Republic [grant number LM2018098]. Students were supported by Support for Science and Research in the Moravian-Silesian Region 2018 [grant number RRC/10/2018] and by project Thermal waste treatment and environmental protection IV [grant number SP2020/14].",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "L \u22121 for [N222, 12][Br], 3.91-1000 mg.L \u22121 for [C4MIM][Br], 8-2500 mg.L \u22121 for [N2228][Br] and 2.4-62.5 mg.L \u22121 for [N2224][Br]. For ILs NTf2, the concentration range was 0.1-1 \u00b5L.mL \u22121 for [N222,12][NTf2], [N2228][NTf2] and 1-200 \u00b5L.mL \u22121 for [N224][NTf2], [C4MIM][NTf2].",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Results of ionic liquid syntheses.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": ". Disinfection agent benzalkonium chloride inhibited all microorganisms in solution with a concentration of the inhibitor of 1 wt.% and 1 h of contact time. A similar inhibitory effect was observed for [N222,12][Br]. Penicilium candidum was highly inhibited by four from six tested ILs ([N222,12][Br], [N2228][Br], [N2228][NTf2] and [N2224][NTf2]). On the other hand, bacteria from the digestate were almost unaffected by all ILs except [N222,",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Similarly to Experiment 1, triflimides with shorter alkyl chain ([N2224][NTf2] and [C4MIM][NTf2]) and bromides with longer alkyl chain ([N222,12][Br]) have a higher potential to inhibit the growth of B. subtilis. Acute toxicity in the aquatic environment was studied and EC 50 values were obtained for Vibrio fischeri (Table 2). The samples of ionic liquids containing bromides showed different toxicological index EC 50 values determined by the acute toxicity test on the luminescent bacteria Vibrio fischeri. The highest toxic effect was detected for [N222,12][Br] and a slightly smaller toxic effect for [N2224][Br]. This value is comparable to the EC 50 for the reference substance, potassium dichromate (30 min EC 50 = 2.8 mg.L \u22121 ). [C4MIM][Br] showed a significantly lower toxic effect, while [N2228][Br] exhibited a negligible toxic effect. In the case of ionic liquids containing the NTf2 group, the obtained EC 50 values were quite similar for [N2228][NTf2] and [N222,12][NTf2], and in general, both chemicals can be considered as toxic for the environment using Vibrio fischeri as a bioindicator. Ecotoxicity of [N222,12][NTf2] was comparable to ecotoxicity of benzalkonium chloride (EC 50 0.5 mg.L \u22121 [54]). The highest EC 50 value was 30 min EC 50 120.93 mg.L \u22121 for [N2224][NTf2]. [C4MIM][NTf2] was found to be moderately toxic in the aquatic environment (EC 50 18.91 mg.L \u22121 for Daphnia magna)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Effective concentrations and their corresponding standard deviations obtained in Vibrio fischeri test.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "[N2224][NTf2] compared to higher acute toxicity of [N2228][NTf2] and [N222,12][NTf2] with longer alkyl chains.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors declare no conflict of interest. The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of Interest:"
+        }
+    ]
+}

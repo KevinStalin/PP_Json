@@ -1,0 +1,2220 @@
+{
+    "paper_id": "0b0f070834fa9946cc2228a5c51246844acfd3ad",
+    "metadata": {
+        "title": "Journal Pre-proofs Moving closer? Comparing regional adjustments to shocks in EMU and the United States Moving closer? Comparing regional adjustments to shocks in EMU and the United States 1",
+        "authors": [
+            {
+                "first": "Davide",
+                "middle": [],
+                "last": "Furceri",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "IMF",
+                    "institution": "University of Palermo",
+                    "location": {
+                        "settlement": "Washington",
+                        "region": "DC",
+                        "country": "USA, Italy"
+                    }
+                },
+                "email": "dfurceri@imf.org"
+            },
+            {
+                "first": "Prakash",
+                "middle": [],
+                "last": "Loungani",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "IMF",
+                    "location": {
+                        "settlement": "Washington",
+                        "region": "DC, USA"
+                    }
+                },
+                "email": "ploungani@imf.org"
+            },
+            {
+                "first": "Pietro",
+                "middle": [],
+                "last": "Pizzuto",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Palermo",
+                    "location": {
+                        "country": "Italy"
+                    }
+                },
+                "email": "pietro.pizzuto02@unipa.it"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "This paper analyzes alternative channels of adjustment to nominal exchange rate flexibility in response to shocks faced by countries and regions that are part of a monetary union. Over our full sample period of analysis , the results suggest a dominant role of interstate migration as an adjustment channel to labor demand shocks for the United States. In contrast, European countries tend to adjust to negative labor demand shocks mainly through changes in labor force participation and unemployment. Labor mobility is lower in the euro area, regardless of whether one is looking at cross-country migration or within-country mobility. Price flexibility is more important as a shock absorber to labor demand shocks in the EMU compared to the United States. We also document that risk-sharing mechanisms have been, on average, more effective in smoothing income fluctuations in the United States than in the EMU. The strength of these channels, however, has changed over time both for the EMU and in the United States. In particular, the results suggest that the pattern of regional adjustments to shocks in EMU and the United States is moving closer, partly because of strengthening of adjustment channels in the EMU and partly because of weakening of these channels in the United States. JEL Classification Numbers: E32, E42, F41, F42.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Since the outbreak of the Great Recession in 2008, there has been a proliferation of studies trying to understand differences in how economies adjust to shocks. Growing attention has been paid to countries of the European Monetary Union (EMU) given the constraints posed on their adjustment by the loss of monetary independence. As discussed in the classic contribution by Mundell (1961) , several mechanisms must be in place to mitigate the negative effects of an asymmetric shock in cases when currency depreciation is not an option, as in the case of a monetary union.",
+            "cite_spans": [
+                {
+                    "start": 373,
+                    "end": 387,
+                    "text": "Mundell (1961)",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. Introduction"
+        },
+        {
+            "text": "In this context, the paper analyzes the alternative channels of adjustment to nominal exchange rate flexibility and compares the strength of these channels between EMU countries (and regions) and US states. Specifically, the first contribution of the paper is to extend the influential empirical approaches of Blanchard and Katz (1992) , Obstfeld and Peri (1998) and Asdrubali, Sorensen and Yosha (1996) to analyze regional adjustment in these two currency areas. By using these frameworks, we discuss and provide evidence on three main channels of adjustment, namely labor mobility, price adjustments and (public and private) risk-sharing mechanisms.",
+            "cite_spans": [
+                {
+                    "start": 310,
+                    "end": 335,
+                    "text": "Blanchard and Katz (1992)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 338,
+                    "end": 362,
+                    "text": "Obstfeld and Peri (1998)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 367,
+                    "end": 403,
+                    "text": "Asdrubali, Sorensen and Yosha (1996)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. Introduction"
+        },
+        {
+            "text": "Over our full sample period of analysis , the results suggest a dominant role of interstate migration as an adjustment channel to labor demand shocks for the United States. In contrast, the contribution of labor mobility is lower in the euro area, regardless of whether one is looking at cross-country migration or within-country mobility. European countries tend to adjust to negative labor demand shocks mainly through changes in labor force participation and unemployment. In contrast, price flexibility is more important as a shock absorber to labor demand shocks in the EMU compared to the United States. When we consider the role of risk-sharing mechanisms, a greater stabilizing effect of income flows and fiscal transfers is observed in the United States compared to the EMU, contributing to greater smoothing of asymmetric shocks in the former than in the latter.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I. Introduction"
+        },
+        {
+            "text": "The second contribution of the paper is to document how these adjustment mechanisms have changed over time, in particular after the creation of the EMU.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I. Introduction"
+        },
+        {
+            "text": "Interestingly, we find that regional adjustment to shocks in the EMU is getting more similar to that of the United States. In other words, the channels of adjustment in the EMU are changing over time in a direction that supports the monetary union. In particular, although the role of migration as shock absorber remains more limited in the EMU than in the United States, it has increased over time in the euro area while it has declined in the United States, as documented by Dao et al. (2017) . Similarly, the degree of risk-sharing has improved over time in EMU countries, but it has declined in the United States. In particular, the results based on the post-EMU period (1998) (1999) (2000) (2001) (2002) (2003) (2004) (2005) (2006) (2007) (2008) (2009) (2010) (2011) (2012) (2013) (2014) (2015) (2016) (2017) suggest that the amount of shock not smoothed in the EMU11 is almost identical to that of the United States. Looking at each risk-sharing channel, it seems that the major factor contributing to the increase in risk-sharing in the EMU11 is factor income flows.",
+            "cite_spans": [
+                {
+                    "start": 477,
+                    "end": 494,
+                    "text": "Dao et al. (2017)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 674,
+                    "end": 680,
+                    "text": "(1998)",
+                    "ref_id": null
+                },
+                {
+                    "start": 681,
+                    "end": 687,
+                    "text": "(1999)",
+                    "ref_id": null
+                },
+                {
+                    "start": 688,
+                    "end": 694,
+                    "text": "(2000)",
+                    "ref_id": null
+                },
+                {
+                    "start": 695,
+                    "end": 701,
+                    "text": "(2001)",
+                    "ref_id": null
+                },
+                {
+                    "start": 702,
+                    "end": 708,
+                    "text": "(2002)",
+                    "ref_id": null
+                },
+                {
+                    "start": 709,
+                    "end": 715,
+                    "text": "(2003)",
+                    "ref_id": null
+                },
+                {
+                    "start": 716,
+                    "end": 722,
+                    "text": "(2004)",
+                    "ref_id": null
+                },
+                {
+                    "start": 723,
+                    "end": 729,
+                    "text": "(2005)",
+                    "ref_id": null
+                },
+                {
+                    "start": 730,
+                    "end": 736,
+                    "text": "(2006)",
+                    "ref_id": null
+                },
+                {
+                    "start": 737,
+                    "end": 743,
+                    "text": "(2007)",
+                    "ref_id": null
+                },
+                {
+                    "start": 744,
+                    "end": 750,
+                    "text": "(2008)",
+                    "ref_id": null
+                },
+                {
+                    "start": 751,
+                    "end": 757,
+                    "text": "(2009)",
+                    "ref_id": null
+                },
+                {
+                    "start": 758,
+                    "end": 764,
+                    "text": "(2010)",
+                    "ref_id": null
+                },
+                {
+                    "start": 765,
+                    "end": 771,
+                    "text": "(2011)",
+                    "ref_id": null
+                },
+                {
+                    "start": 772,
+                    "end": 778,
+                    "text": "(2012)",
+                    "ref_id": null
+                },
+                {
+                    "start": 779,
+                    "end": 785,
+                    "text": "(2013)",
+                    "ref_id": null
+                },
+                {
+                    "start": 786,
+                    "end": 792,
+                    "text": "(2014)",
+                    "ref_id": null
+                },
+                {
+                    "start": 793,
+                    "end": 799,
+                    "text": "(2015)",
+                    "ref_id": null
+                },
+                {
+                    "start": 800,
+                    "end": 806,
+                    "text": "(2016)",
+                    "ref_id": null
+                },
+                {
+                    "start": 807,
+                    "end": 813,
+                    "text": "(2017)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. Introduction"
+        },
+        {
+            "text": "The remainder of the paper is organized as follows. The next section provides a theoretical discussion of the channels mentioned above and reviews the existing empirical literature on these channels. Section III documents business synchronization patterns in the EMU and in the United States. Section IV describes the empirical methodology used to assess the role of migration as shock absorber and how it has changed over time. Section V analyzes the adjustment through relative prices since the creation of the common currency. Section VI evaluates the importance of risk-sharing channels (factor income flows, private and government saving and fiscal transfers) in smoothing asymmetric shocks. Section VII summarizes the findings.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I. Introduction"
+        },
+        {
+            "text": "The standard Optimal Currency Area theory, based on the pioneering contribution of Mundell (1961) , stresses that there should be a high degree of homogeneity, in terms of business cycle synchronization, among the countries that want to establish a currency area. This is because the more synchronized the business cycles among the member countries, the lower the probability of asymmetric shocks, and thus the less painful the loss of independent monetary policy and of a flexible exchange rate for the member country. Moreover, in the case of a high degree of business cycle synchronization, it becomes more plausible to expect a single monetary authority to respond to aggregate shocks and to implement these interventions with greater ease. 4 The literature on business cycle synchronization in Europe (and how it compares to the United States) is vast. Bayoumi and Eichengreen (1993) find that demand and supply shocks are more correlated between states in the United States than in Europe, and that the US states adjust more quickly to economic fluctuations than European countries. Wynne and Koo (2000) also find that business cycles are more aligned in the United States than in the Eurozone (of 11 members). Other authors, such as Clark and Shin (1998) and Clark and Van Wincoop (2001) , focused on both within-country and cross-country synchronization. They find that average within-country cyclical output correlations are larger than cross-country correlations, for both the United States and European countries (and again that business cycles are more synchronized in the United States than in Europe). Angeloni and Dedola (1998) find that the output correlation between Germany and other European countries has clearly increased during -1997 . Furceri and Karras (2006 , analyzing cyclical output for the EU-15 countries find that business-cycle synchronization has also increased for many countries from 1980 -1991 to 1992 -2003 . In contrast, Giannone et al. (2010 find that EMU has not affected historical characteristics of member countries' business cycles and their crosscorrelations.",
+            "cite_spans": [
+                {
+                    "start": 83,
+                    "end": 97,
+                    "text": "Mundell (1961)",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 745,
+                    "end": 746,
+                    "text": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 858,
+                    "end": 888,
+                    "text": "Bayoumi and Eichengreen (1993)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1089,
+                    "end": 1109,
+                    "text": "Wynne and Koo (2000)",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1240,
+                    "end": 1261,
+                    "text": "Clark and Shin (1998)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1266,
+                    "end": 1294,
+                    "text": "Clark and Van Wincoop (2001)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1616,
+                    "end": 1642,
+                    "text": "Angeloni and Dedola (1998)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1750,
+                    "end": 1755,
+                    "text": "-1997",
+                    "ref_id": null
+                },
+                {
+                    "start": 1756,
+                    "end": 1782,
+                    "text": ". Furceri and Karras (2006",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1914,
+                    "end": 1923,
+                    "text": "from 1980",
+                    "ref_id": null
+                },
+                {
+                    "start": 1924,
+                    "end": 1929,
+                    "text": "-1991",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1930,
+                    "end": 1937,
+                    "text": "to 1992",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1938,
+                    "end": 1943,
+                    "text": "-2003",
+                    "ref_id": null
+                },
+                {
+                    "start": 1944,
+                    "end": 1980,
+                    "text": ". In contrast, Giannone et al. (2010",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. Business cycle synchronization and channels of adjustment: a review"
+        },
+        {
+            "text": "If shocks are predominantly asymmetric, alternative channels of adjustment to nominal exchange rate flexibility should be in place. A first channel of adjustment is through migration. People from depressed economies can move to lower unemployment regions, until the former regain competitiveness. Higher migration flows could help avoid a sharp rise in unemployment or a strong decrease in activity rates in the economy affected by the adverse shock. A second channel of adjustment is through changes in relative prices-that is, real exchange rates. When an economy is hit by a negative demand shock, a reduction in relative prices compared to other countries in the union would lead to a depreciation in the real exchange rate and a consequent boost in export and external demand. Finally, a third category of adjustment pertains to private (income flows and private saving) and public (net transfers and government saving) risk-sharing mechanisms. In the face of a negative shock, these mechanisms can allow a smoothing of consumption. For example, in the case of interregional transfers, the government may provide insurance by transferring resources from economies with stronger cyclical positions to countries or regions affected by a negative shock.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. Business cycle synchronization and channels of adjustment: a review"
+        },
+        {
+            "text": "Much of the empirical literature has focused on the role played by migration flows.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. Business cycle synchronization and channels of adjustment: a review"
+        },
+        {
+            "text": "Starting from the seminal contribution of Blanchard and Katz (1992) several papers have analyzed labor force migration as a channel of adjustment to shocks. Decressin and Fat\u00e1s (1995) , Obstfeld and Peri (1998) , Dao et al. (2014) , Arpaia et al. (2016) , Beyer and Smets (2015) and Arpaia et al. (2018) are some examples. The evidence of these studies suggests that migration plays a stronger stabilization role among US states than among European countries or regions.",
+            "cite_spans": [
+                {
+                    "start": 42,
+                    "end": 67,
+                    "text": "Blanchard and Katz (1992)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 157,
+                    "end": 183,
+                    "text": "Decressin and Fat\u00e1s (1995)",
+                    "ref_id": null
+                },
+                {
+                    "start": 186,
+                    "end": 210,
+                    "text": "Obstfeld and Peri (1998)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 213,
+                    "end": 230,
+                    "text": "Dao et al. (2014)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 233,
+                    "end": 253,
+                    "text": "Arpaia et al. (2016)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 256,
+                    "end": 278,
+                    "text": "Beyer and Smets (2015)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 283,
+                    "end": 303,
+                    "text": "Arpaia et al. (2018)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. Business cycle synchronization and channels of adjustment: a review"
+        },
+        {
+            "text": "In the case of price adjustments, evidence suggests that real prices within EU countries have been relatively less flexible, in the short and medium term, than among US states. As discussed by Obstfeld and Peri (1998) previous research documents this finding adding that, in general, relative regional prices tend to fluctuate less than international prices (Vaubel, 1976 (Vaubel, , 1978 Eichengreen, 1991; De Grauwe and Vanhaverbeke, 1993) . In addition, the relative insufficient degree of prices and wages flexibility in Europe is suggested by recent studies, such as Arpaia and Pichelmann (2007) and Heinz and Rusinova (2011) . Arpaia and Pichelmann (2007) suggest that long-lasting cross-country differences in labor cost and wage dynamics in the euro area reflect weak wage flexibility, rather than a mechanism of adjustment between countries. Heinz and Rusinova (2011) find that the degree of real wage flexibility tends to be larger in the central and eastern European countries than in the euro area-probably due to the more limited role played by trade unions and collective bargaining coverage in the EU peripheral economies. Indeed, Biroli et al. (2013) point to labor (and product) market regulations as natural candidates for explaining the changing behavior of price dynamics in response to shocks.",
+            "cite_spans": [
+                {
+                    "start": 193,
+                    "end": 217,
+                    "text": "Obstfeld and Peri (1998)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 358,
+                    "end": 371,
+                    "text": "(Vaubel, 1976",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 372,
+                    "end": 387,
+                    "text": "(Vaubel, , 1978",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 388,
+                    "end": 406,
+                    "text": "Eichengreen, 1991;",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 407,
+                    "end": 440,
+                    "text": "De Grauwe and Vanhaverbeke, 1993)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 571,
+                    "end": 599,
+                    "text": "Arpaia and Pichelmann (2007)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 604,
+                    "end": 629,
+                    "text": "Heinz and Rusinova (2011)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 632,
+                    "end": 660,
+                    "text": "Arpaia and Pichelmann (2007)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 850,
+                    "end": 875,
+                    "text": "Heinz and Rusinova (2011)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1145,
+                    "end": 1165,
+                    "text": "Biroli et al. (2013)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. Business cycle synchronization and channels of adjustment: a review"
+        },
+        {
+            "text": "Risk-sharing mechanisms among the residents of different regions/countries exposed to idiosyncratic shocks received considerable interest in the start-up phase of the EMU.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. Business cycle synchronization and channels of adjustment: a review"
+        },
+        {
+            "text": "Notably, Asdrubali et al. (1996) find that in the United States, 75 percent of the shock to per capita gross state product is smoothed by: (i) federal tax-transfer and grant system (13 percent); (ii) capital markets (39 percent); and (iii) credit markets (23 percent). These results for the United States are broadly confirmed by Melitz and Zumer (1999, 2002) and Athanasoulis and van Wincoop (2001) . Some studies have extended the analysis to international risk-sharing mechanisms. Afonso and Furceri (2008) , analyzing a panel of 25",
+            "cite_spans": [
+                {
+                    "start": 9,
+                    "end": 32,
+                    "text": "Asdrubali et al. (1996)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 330,
+                    "end": 340,
+                    "text": "Melitz and",
+                    "ref_id": null
+                },
+                {
+                    "start": 341,
+                    "end": 359,
+                    "text": "Zumer (1999, 2002)",
+                    "ref_id": null
+                },
+                {
+                    "start": 364,
+                    "end": 399,
+                    "text": "Athanasoulis and van Wincoop (2001)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 484,
+                    "end": 509,
+                    "text": "Afonso and Furceri (2008)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. Business cycle synchronization and channels of adjustment: a review"
+        },
+        {
+            "text": "European countries, find that only 43 percent of the shock to GDP is smoothed (almost uniquely by private and public saving) and this share has decreased to 37 percent after the creation of the EMU, suggesting that euro area members have not benefited from additional risk-sharing. Furceri and Zdzienicka (2015) , using an unbalanced panel of 15-euro area countries over the period 1979-2010, find the effectiveness of risk-sharing mechanisms in the euro area is significantly lower than in existing federations and it falls sharply in severe downturns. Recently, Cimadomo et al. (2018) find an increased shock absorption capacity in EMU countries due to a higher financial integration, but also to the activation of the European Financial Stability Facility (EFSF) and the European Stability Mechanism (ESM) channeling official loans to distressed euro zone economies.",
+            "cite_spans": [
+                {
+                    "start": 282,
+                    "end": 311,
+                    "text": "Furceri and Zdzienicka (2015)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 564,
+                    "end": 586,
+                    "text": "Cimadomo et al. (2018)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. Business cycle synchronization and channels of adjustment: a review"
+        },
+        {
+            "text": "We use three complementary approaches to investigate business cycle synchronization in the EMU and in the United States and how have evolved over time. The first consists of computing the correlation between the country's (state) cyclical GDP (GSP) and the corresponding component for the EMU (United States) as a whole. The cyclical component is obtained using the Hodrick-Prescott (HP) filter proposed by Hodrick and Prescott (1980) , with a smoothness parameter equal to 6.25 (see Ravn and Uhlig 2002 for a discussion). 2",
+            "cite_spans": [
+                {
+                    "start": 407,
+                    "end": 434,
+                    "text": "Hodrick and Prescott (1980)",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "III. Business cycle synchronization"
+        },
+        {
+            "text": "The second approach follows the methodology proposed by Giannone et al. (2010) .",
+            "cite_spans": [
+                {
+                    "start": 56,
+                    "end": 78,
+                    "text": "Giannone et al. (2010)",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "III. Business cycle synchronization"
+        },
+        {
+            "text": "They define synchronicity among countries (states) as the negative of the absolute divergence in GDP (GSP) growth:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. Business cycle synchronization"
+        },
+        {
+            "text": "where and are the GDPs (GSPs) of countries (states) and in year , respectively. A , , more negative value indicates that the business cycles between the two states are less synchronized, while a zero value indicates a complete synchronization. The average business cycle synchronization for the monetary union of n countries (states) is measured as the crosssectional average of pairwise synchronizations:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. Business cycle synchronization"
+        },
+        {
+            "text": "The third approach follows Mink et al. (2012) who propose two alternative measures of business cycle coherence. The first is a measure of business cycle synchronicity, defined as:",
+            "cite_spans": [
+                {
+                    "start": 27,
+                    "end": 45,
+                    "text": "Mink et al. (2012)",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "III. Business cycle synchronization"
+        },
+        {
+            "text": "where denotes the output gap of countries (states) at time t; is the reference ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. Business cycle synchronization"
+        },
+        {
+            "text": "The measure ranges within a [0,1] interval, with a value of 1 indicating that all countries (state) have identical output gap.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. Business cycle synchronization"
+        },
+        {
+            "text": "In order to maximize the time-dimension of the analysis before the creation of the EMU , in this section and in the rest of the paper, we use annual data and focus on the EMU 11-the signatories of the Maastricht Treaty except Luxembourg. The Data Appendix provides details on the source of real GDP for EMU countries and GSP for US states. 3 We start by reporting in Figure 1 the average and the median of the correlation coefficient of each country's (state's) cyclical component of real GDP with that of the EMU (United States) as a whole, using the HP filter with smoothness parameter equal to 6.25. The results are reported for three different periods of analysis : 1977 : -1997 : (pre-EMU), 1998 : -2018 The results obtained using quarterly data for the more restricted sample are extremely close to those obtained for annual observations (Table A2, Figure A1 -2 in the Appendix).",
+            "cite_spans": [
+                {
+                    "start": 340,
+                    "end": 341,
+                    "text": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 668,
+                    "end": 674,
+                    "text": ": 1977",
+                    "ref_id": null
+                },
+                {
+                    "start": 675,
+                    "end": 682,
+                    "text": ": -1997",
+                    "ref_id": null
+                },
+                {
+                    "start": 683,
+                    "end": 700,
+                    "text": ": (pre-EMU), 1998",
+                    "ref_id": null
+                },
+                {
+                    "start": 701,
+                    "end": 708,
+                    "text": ": -2018",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 367,
+                    "end": 375,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 855,
+                    "end": 864,
+                    "text": "Figure A1",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "III. Business cycle synchronization"
+        },
+        {
+            "text": "(post-EMU), and the entire period of analysis 1977-2018. Two key facts emerge from this analysis. First, and in contrast with some of the previous literature of the 2000s based on earlier periods, we do not find significant differences in business cycle synchronization between the EMU and the United States. If anything, business cycles appear to be slightly more synchronized, on average, in the EMU than in the United States. Interestingly, this pattern also holds when comparing the median EMU country with the median US state, suggesting that it is not driven by some influential observations. Second, for EMU11 we observe a slight increase in business cycle synchronization after the creation of the monetary union.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. Business cycle synchronization"
+        },
+        {
+            "text": "The finding that business cycles of EMU countries are synchronized as well as those of US states is also confirmed when using the measure of business cycle divergence proposed by Giannone et al. (2010) . In particular, the results presented in Figure 2 show that average divergences in output growth have been, on average, smaller in the EMU11 than in the United States. In contrast, based on this measure, and in line with Giannone et al. (2010) , we do not observe an increase in GDP growth convergence across EMU countries since the Euro adoption, while for the United States we observe an increasing trend. Moreover, the chart also shows that synchronization tends to decline during periods of major recessions such as the Global Financial Crisis (for both EMU and the United States) and the European debt crisis.",
+            "cite_spans": [
+                {
+                    "start": 179,
+                    "end": 201,
+                    "text": "Giannone et al. (2010)",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 424,
+                    "end": 446,
+                    "text": "Giannone et al. (2010)",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 244,
+                    "end": 252,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "(INSERT FIGURE 1 NEAR HERE)"
+        },
+        {
+            "text": "Finally, we report in Figure 3 the two measures of business cycles coherence proposed by Mink et al. (2012) . The chart confirms that business cycles appear to be slightly more synchronized, on average, in the EMU than in the United States. In addition, they also suggest that business cycle coherence has increased over time in the EMU11, while it has declined in the United States.",
+            "cite_spans": [
+                {
+                    "start": 89,
+                    "end": 107,
+                    "text": "Mink et al. (2012)",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 22,
+                    "end": 30,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "(INSERT FIGURE 2 NEAR HERE)"
+        },
+        {
+            "text": "This section uses the Blanchard-Katz (1992, henceforth referred to as 'BK') methodology to analyze labor adjustments for the EMU and the United States economies (see the Data Annex for the source used for the labor market variables).",
+            "cite_spans": [
+                {
+                    "start": 22,
+                    "end": 54,
+                    "text": "Blanchard-Katz (1992, henceforth",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "IV. Adjustment through labor mobility"
+        },
+        {
+            "text": "Before turning to the analysis of how shocks to regional labor demand in Europe are absorbed, it is useful to look at the dispersion and persistence of unemployment rates. Figure   4 and 5 plot, respectively, the standard deviations and coefficients of variation (standard deviations divided by means) of unemployment rates. Dispersion in unemployment rates turns out to be at least twice as large (depending on the measure used) between EMU11 countries than between US states. The chart also reveals two important facts: (i) up to the Global Financial Crisis, dispersion in unemployment rates decreased in EMU, particularly since the mid-90s, while it has remained broadly stable in the United States; (ii) in the aftermath of the GFC, dispersion has sky-rocketed in EMU11 and it still remains significantly above pre-crisis level, while in the United States the GFC did not have a significant and persistent effect on unemployment rates dispersion. This result speaks loudly to the lower flexibility of EMU labor markets to adjust to aggregate shocks compared to US states.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 172,
+                    "end": 182,
+                    "text": "Figure   4",
+                    "ref_id": null
+                }
+            ],
+            "section": "IV. Adjustment through labor mobility"
+        },
+        {
+            "text": "Patterns of unemployment appear to have been more persistent in the EMU11 than in the United States, in the sense that countries with relatively high unemployment have tended to remain broadly the same over time. This is shown in Figure 6 which reports the scatter plot of unemployment rates in 1988 against 2008 rates for both the EMU11 and the United States.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 230,
+                    "end": 238,
+                    "text": "Figure 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "(INSERT FIGURES 4 AND 5 NEAR HERE)"
+        },
+        {
+            "text": "To summarize, the evidence presented in Figures 4-6 seems to suggest a slower adjustment of migration (or labor force participation) to \"regional\" shocks in the EMU11 than in the United States. We now turn to a formal empirical investigation of this issue. In particular, we make use of the BK framework to formally analyze the joint behavior of regional relative employment, relative unemployment rate and relative participation in response to labor demand shocks and compare the results between the EMU11 and the United States.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(INSERT FIGURE 6 NEAR HERE)"
+        },
+        {
+            "text": "Specifically, we estimate a system of panel VAR equations as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(INSERT FIGURE 6 NEAR HERE)"
+        },
+        {
+            "text": "(5) \u2206 = 10 + 1 + 11 ( )\u2206 -1 + 12 ( ) -1 + 13 ( ) -1 + 1,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(INSERT FIGURE 6 NEAR HERE)"
+        },
+        {
+            "text": "where: represents the employment change in country (state) i, denotes the \u2206 logarithm of employment rate (equal to 1 minus unemployment rate), and is the logarithm of the participation rate. The three variables are stationary. Consistently with BK, two lags for each variable are included. 4 We include time and regional-that is country or state-fixed effects in our estimations. 5",
+            "cite_spans": [
+                {
+                    "start": 290,
+                    "end": 291,
+                    "text": "4",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(INSERT FIGURE 6 NEAR HERE)"
+        },
+        {
+            "text": "As in BK, the identification relies on the assumption that unexpected movements in employment within the year-that is, innovations in employment orthogonal to past changes in employment and employment and participation rates, the residual in equation (5)primarily reflect exogenous labor demand shocks. The specification allows for current changes in employment to affect current values of the employment and the \u2206 ( ) participation rates ( , but not viceversa. )",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(INSERT FIGURE 6 NEAR HERE)"
+        },
+        {
+            "text": "The top left panel of Figure 7 shows the impulse response of employment, employment rates and labor force participation to a 1 percent shock in relative employment in the EMU11. In the first year, a 1 percent adverse shock to labor demand lowers the relative employment rate by 0.2 percentage point and the participation rate by 0.5 percentage point.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 22,
+                    "end": 30,
+                    "text": "Figure 7",
+                    "ref_id": null
+                }
+            ],
+            "section": "(INSERT FIGURE 6 NEAR HERE)"
+        },
+        {
+            "text": "Over the long run (15 years after the shock), an initial shock of 1 percent leads to an impact of about 0.6 percent on the employment level, while employment growth, as well as unemployment and participation rates revert to the pre-shock average eventually. That is, migration following the regional shock drives permanent changes in relative employment levels.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(INSERT FIGURE 6 NEAR HERE)"
+        },
+        {
+            "text": "( Comparing the results for the EMU11 to those from the United States, shown in the right charts of Figure 7 , the main difference arises from the roles played by employment (unemployment) rate and migration. 6 In particular, compared to the results for the United States, the role of the employment rate is significantly larger in EMU11 than in the United States (34 percent of shock absorbed in the EMU compared to 24 percent in the United States), while the role of net out-migration as shock absorber is significantly smaller (12 percent of shock absorbed in the EMU compared to 28 percent in the United States).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 100,
+                    "end": 108,
+                    "text": "Figure 7",
+                    "ref_id": null
+                }
+            ],
+            "section": "(INSERT FIGURE 6 NEAR HERE)"
+        },
+        {
+            "text": "An important contribution of our paper is to see whether the adjustment mechanisms through which regional labor demand shocks are absorbed have changed over time. To examine this, we perform two exercises. In the first exercise, we replicate the previous analysis splitting the sample in two periods : 1977-1997 and 1998-2018. In the second, we perform rolling-windows estimates based on a 20-year window. We present the short-term (after 2 years) response of net migration obtained with these exercises in Figure 8 and Figure   A6 (of the Appendix), respectively. The results show that the response of migration has become closer between the two areas in the most recent years: while the role of migration as shock absorber has increased over time in the EMU11, it has declined in the United States as documented by Dao et al. (2017) .",
+            "cite_spans": [
+                {
+                    "start": 300,
+                    "end": 326,
+                    "text": ": 1977-1997 and 1998-2018.",
+                    "ref_id": null
+                },
+                {
+                    "start": 817,
+                    "end": 834,
+                    "text": "Dao et al. (2017)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 507,
+                    "end": 515,
+                    "text": "Figure 8",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 520,
+                    "end": 531,
+                    "text": "Figure   A6",
+                    "ref_id": null
+                }
+            ],
+            "section": "(INSERT FIGURE 6 NEAR HERE)"
+        },
+        {
+            "text": "We have also investigated whether the relative weak response of regional migration to labor demand shock in the EMU11 is the result of the reluctance of people to migrate across countries or the reluctance to migrate even within countries. For this purpose, we have analyzed the response to regional labor demand shocks within countries and separately reestimated the BK framework for each country in the sample. The results for the overall EMU11 area are presented Figure 9 and show that the relatively weak response of regional migration to labor demand shocks in the EMU11 is evident not only for international migration but also for intranational migration. However, these averages mask significant differences across EMU11 countries. The results reported in Table A3 -4 suggest that while migration acts as the main shock absorber for some countries (such as Italy and Finland), adjustment to regional demand shocks mostly occur through participation and unemployment rates in countries such as Germany and Belgium, respectively.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 466,
+                    "end": 474,
+                    "text": "Figure 9",
+                    "ref_id": "FIGREF10"
+                },
+                {
+                    "start": 763,
+                    "end": 771,
+                    "text": "Table A3",
+                    "ref_id": null
+                }
+            ],
+            "section": "(INSERT FIGURE 8 NEAR HERE)"
+        },
+        {
+            "text": "(INSERT FIGURE 9 NEAR HERE)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(INSERT FIGURE 8 NEAR HERE)"
+        },
+        {
+            "text": "As discussed earlier, numerous papers have tried to evaluate price flexibility within and between countries. Research on developed currency unions shows that relative regional prices tend to fluctuate less than international prices, and this is one of the claimed advantages of monetary unification. At the same time, there have been several investigations of the role played by price adjustments after shocks. In this section, we compare the different behavior of relative price flexibility between the United States and the EMU11 following the approach proposed by Obstfeld and Peri (1988) . Specifically, we first analyze intranational price variability (both in level and in changes) and then we estimate a bivariate panel VAR of relative regional employment growth and of relative regional price changes.",
+            "cite_spans": [
+                {
+                    "start": 567,
+                    "end": 591,
+                    "text": "Obstfeld and Peri (1988)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "V. Price flexibility"
+        },
+        {
+            "text": "We start by reporting in Figure 10 the standard deviations of the log of GDP (GSP) deflator since the creation of the common currency-we focus on this period to strictly examine the role of the real exchange rate. Figure 11 presents an analogous calculation of the standard deviation of annual first differences in such real exchange rates. As such Figure 10 illustrates the long-run variation in real exchange rates, while Figure 11 short-run variations in real exchange rates around their trend. Looking at Figure 10 , we can observe that price variability is not significantly different between EMU11 and the United States. Interestingly, in both currency unions we can observe a decline in price dispersion up to the Global Financial Crisis, and a significant increase afterwards. In contrast, looking at changes in relative prices we can observe that, on average, real exchange flexibility has been larger in the United States than in the EMU11 (Figure 11 ). In addition, the results not reported here suggest that real exchange variation between EMU countries is also typically larger than within countries, confirming the previous finding that relative regional prices tend to fluctuate less than international prices.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 25,
+                    "end": 34,
+                    "text": "Figure 10",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 214,
+                    "end": 223,
+                    "text": "Figure 11",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 349,
+                    "end": 358,
+                    "text": "Figure 10",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 424,
+                    "end": 433,
+                    "text": "Figure 11",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 509,
+                    "end": 518,
+                    "text": "Figure 10",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 950,
+                    "end": 960,
+                    "text": "(Figure 11",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "V. Price flexibility"
+        },
+        {
+            "text": "For the United States, Blanchard and Katz (1992) find that regional price movements play a small role in the adjustment to permanent labor demand shocks. They attribute this finding to the larger role of migration. Given the less important role of migration in the EMU11, we might expect to find that regional prices play a larger role. To examine this issue, we estimate the following bivariate VAR specification:",
+            "cite_spans": [
+                {
+                    "start": 23,
+                    "end": 48,
+                    "text": "Blanchard and Katz (1992)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(INSERT FIGURES 10 AND 11 NEAR HERE)"
+        },
+        {
+            "text": "(8) \u2206 = + 1 + 11 ( )\u2206 -1 + 12 ( ) -1 + 1, (9) = + 2 +\u2202\u2206 + 21 ( )\u2206 -1 + 22 ( ) -1 + 2, where and are respectively, the employment change and the (log) relative \u2206 GDP deflator of region (country or state) i. As before, we include time fixed effects. In addition, we control for the unconditional average of these variables by controlling for regional fixed effects and , and we consider two lags for each variable ( and ). \u2206 As before, the identification relies on the assumption that unexpected movements in employment within the year-the residual in equation (8)-primarily reflect exogenous labor demand shocks. The specification allows for current changes in employment to affect current values of the GDP deflator, but not viceversa. Figure 12 presents the response of the regional price level to a 1 percent negative labor demand shock in the EMU11 (left panel) and in the United States (right panel) for the post-EMU period . The results show that the short-term response of prices is larger (by almost 5 times) in the EMU11 than in the United States, suggesting the price flexibility is an important shock absorber in the EMU compared to the United States.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 736,
+                    "end": 745,
+                    "text": "Figure 12",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "(INSERT FIGURES 10 AND 11 NEAR HERE)"
+        },
+        {
+            "text": "The effectiveness of risk-sharing mechanisms is estimated applying the approach proposed by Asdrubali et al. (1996) . The approach consists in disaggregating per capita Gross Domestic Product (GDP) into different national aggregates: Gross National Product (GNP), Net National Income (NI), Disposable National Income (DNI), and the sum of Government Consumption and Private Consumption (G+C). 7 In particular:",
+            "cite_spans": [
+                {
+                    "start": 92,
+                    "end": 115,
+                    "text": "Asdrubali et al. (1996)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "VI. Risk-sharing mechanisms"
+        },
+        {
+            "text": "Using these identities, the following chain equation can be considered: consumption also co-moves with GDP, a share of the shock remains unsmoothed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DNI-(C+G) = total saving."
+        },
+        {
+            "text": "In principle, all these factors may provide smoothing. The first factor is the international transfers of income earned by foreign entities in each country. Risk-sharing through this channel consists in income insurance through an internationally diversified portfolio. The second channel is the system of net taxes and transfers to/from a supranational government. In the case of the euro area this incorporates insurance provided by transfers via the EC budget, such as the structural funds. Finally, the third channel represents consumption smoothing through saving behavior, which is determined by inter-temporal considerations, and represents the ability of credit markets to smooth consumption relative to income.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DNI-(C+G) = total saving."
+        },
+        {
+            "text": "To measure the contribution of each factor in smoothing shocks to GDP, Asdrubali et al. (1996) derive the following system of independent equations 8 : If =0 then full stabilization is achieved; if not, a part of a shock remains unsmoothed.",
+            "cite_spans": [
+                {
+                    "start": 71,
+                    "end": 94,
+                    "text": "Asdrubali et al. (1996)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DNI-(C+G) = total saving."
+        },
+        {
+            "text": "Additionally, since no constraints are imposed on each coefficient, it could be the case that some of these factors could amplify the shock ( , or dis-smooth it ( By > 1) < 0).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DNI-(C+G) = total saving."
+        },
+        {
+            "text": "construction, . \u2211 = 1 Table 1 presents the estimated percentage of shocks to per capita GDP smoothed through each of the channels in the GDP chain decomposition for the EMU11 and the United States over the entire period 1977-2017. Looking at the table, it is immediately apparent that a large portion of shocks to GDP (about 40 percent) is not smoothed in the EMU11 compared to the United States (about 20 percent). This result reflects the greater effectiveness of risksharing mechanisms in the US related to factor income flows, and to a lesser extent, net transfers. In contrast, EMU11 countries are characterized by a larger amount of shock smoothed through domestic saving. The results are in line with those obtained by Furceri and Zdzienicka (2015) and reflect on the one hand the greater financial integration and \"home bias\" in the United States compared to the EMU (as documented by French and Poterba (1991) and Tesar and Werner (1995) ), and on the hand, the greater reliance of EMU countries on domestic saving.",
+            "cite_spans": [
+                {
+                    "start": 726,
+                    "end": 755,
+                    "text": "Furceri and Zdzienicka (2015)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 893,
+                    "end": 918,
+                    "text": "French and Poterba (1991)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 923,
+                    "end": 946,
+                    "text": "Tesar and Werner (1995)",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 22,
+                    "end": 29,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "DNI-(C+G) = total saving."
+        },
+        {
+            "text": "In order to assess whether the ability of risk-sharing mechanisms to smooth income fluctuations has changed over time, equations (11)-(14) have been estimated during the two periods, pre- (1977 ( -1997 ( ) and post-EMU (1998 . The results presented in Table 2 and 3 suggest that while the degree of risk-sharing has improved over time in EMU countries, it has declined in the United States. In particular, the results based on the last 20 years of data suggest that the amount of shock not smoothed in the EMU11 is not statistically significantly different from that of the United States.",
+            "cite_spans": [
+                {
+                    "start": 188,
+                    "end": 193,
+                    "text": "(1977",
+                    "ref_id": null
+                },
+                {
+                    "start": 194,
+                    "end": 201,
+                    "text": "( -1997",
+                    "ref_id": null
+                },
+                {
+                    "start": 202,
+                    "end": 224,
+                    "text": "( ) and post-EMU (1998",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 252,
+                    "end": 265,
+                    "text": "Table 2 and 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "(INSERT TABLE 1 NEAR HERE)"
+        },
+        {
+            "text": "Looking in detail at each risk-sharing channel, it seems that the major factor contributing to the increase (decrease) in risk-sharing in the EMU11 (United States) is factor income flows, which have increased (decreased) from about zero (68) ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(INSERT TABLE 1 NEAR HERE)"
+        },
+        {
+            "text": "Our paper analyzes alternative channels of adjustment to nominal exchange rate flexibility in response to shocks faced by countries and regions that are part of a monetary union. Over the full sample, the dominant means of adjustment in the United States is through interstate migration. In contrast, labor mobility, both cross-country and within-country, is lower in the euro area; euro area economies adjust to an adverse labor demand shock mainly through a rise in unemployment rates or fall in participation rates. In contrast, we find a noticeable effect on changes in relative prices after a negative labor demand shock in EMU countries. We also document that risk-sharing mechanisms-in particular, factor income flows and to a lesser extent, net transfers-have been, on average, more effective in smoothing GDP per capita fluctuations in the United States than in the EMU.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "VII. Conclusions"
+        },
+        {
+            "text": "The strength of these channels, however, has changed over time both for the EMU and in the United States. In the case of EMU countries, we observe that the role of migration as shock absorber has increased, though it remains more limited than in the United States.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "VII. Conclusions"
+        },
+        {
+            "text": "Similarly, the degree of risk-sharing has significantly increased over time and mostly following the activation of the European Financial Stability Facility (EFSF) and the European Stability Mechanism (ESM). In contrast, both channels of adjustment (migration and risksharing mechanisms) have deteriorated in the United States. In other words, our results suggest that patterns of regional adjustments to shocks in EMU and the United States are moving closer, partly because of strengthening of channels of adjustment in the EMU and partly because of worsening of the channels in the United States.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "VII. Conclusions"
+        },
+        {
+            "text": "These results may have important implications for the current crisis. While the COVID-19 pandemic is affecting all countries and territories around the world, the course of the pandemic as well as its short-term economic effects appear to be quite heterogenous both within US states and EMU countries. This implies that the ability of each regions to insure against asymmetric shock will be key. While our results suggest that EMU and US are now 1977-2018 1977-1997 1998-2018 Median correlation -EMU11 1977-2018 1977-1997 1998-2018 Median correlation -US Note: the figure reports the average and the median of the correlation coefficient of each country's (state's) cyclical component of real GDP with that of EMU (US) as a whole, using the HP filter with smoothness parameter equal to 6.25. Participation Employed",
+            "cite_spans": [
+                {
+                    "start": 446,
+                    "end": 475,
+                    "text": "1977-2018 1977-1997 1998-2018",
+                    "ref_id": null
+                },
+                {
+                    "start": 502,
+                    "end": 531,
+                    "text": "1977-2018 1977-1997 1998-2018",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "VII. Conclusions"
+        },
+        {
+            "text": "Note: Top panels show the impulse response to 1 percent relative negative labor demand shock under OLS. Units on vertical axis are percent deviation from pre-shock values. Bottom panels show the decomposition of a 1 worker regional labor demand shock to 3 adjustment margins (bottom panels). Estimates based on equations (5)-(7). ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Population Employment"
+        },
+        {
+            "text": "For US data on employment level, participation rate and unemployment rate are taken from",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Blanchard-Katz model"
+        },
+        {
+            "text": "The Bureau of Labor Statistics (BLS).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Blanchard-Katz model"
+        },
+        {
+            "text": "In the case of EMU11 countries (and intranational analysis) all data are taken from OECD database.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Blanchard-Katz model"
+        },
+        {
+            "text": "For US we use the GDP deflator (Nominal GDP/Real GDP) as index of relative prices. Data come from The Bureau of Economic Analysis (BEA). Conversely, data for the employment level come from The Bureau of Labor Statistics (BLS).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Obstfeld-Peri price flexibility model"
+        },
+        {
+            "text": "In the case of EMU11, we use the GDP deflator (Nominal GDP/Real GDP) as index of relative prices and data (also for the employment level) are taken from OECD database.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Obstfeld-Peri price flexibility model"
+        },
+        {
+            "text": "For this exercise we use data on GDP (GSP), net national income (NI), disposable national income (DNI) and total consumption (scaled on population to obtain the per-capita value). In the case of US data come from The Bureau of Economic Analysis (BEA).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Risk-sharing"
+        },
+        {
+            "text": "On the other hand, for EMU11 between-country analysis, data are taken from OECD database.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Risk-sharing"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Units on vertical axis denotes the share of adjustment to shock to GDP per capita through factor income flows (top panels) and the share of shocks not smoothed (bottom panels). Estimates based on equations (11)-(14). The charts show the point estimates (blue lines)",
+            "authors": [
+                {
+                    "first": "Not",
+                    "middle": [],
+                    "last": "Smoothed",
+                    "suffix": ""
+                },
+                {
+                    "first": "-Us",
+                    "middle": [],
+                    "last": "Note",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "EMU enlargement stabilization costs and insurance mechanisms",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Afonso",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Furceri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Journal of International Money and Finance",
+            "volume": "27",
+            "issn": "2",
+            "pages": "169--87",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "From the ERM to the Euro: a soft transmission?",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Angeloni",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Dedola",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Nominal and real wage flexibility in EMU",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Arpaia",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Pichelmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "International Economics and Economic Policy",
+            "volume": "4",
+            "issn": "3",
+            "pages": "299--328",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Labour mobility and labour market adjustment in the EU",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Arpaia",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Palvolgyi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Turrini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "IZA Journal of Development and Migration",
+            "volume": "5",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The effects of European integration and the business cycle on migration flows: a gravity analysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Arpaia",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Palvolgyi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Turrini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Review of World Economics",
+            "volume": "154",
+            "issn": "4",
+            "pages": "815--834",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Channels of Interstate Risk-sharing: United States 1963-90",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Asdrubali",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Sorensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Yosha",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Quarterly Journal of Economics",
+            "volume": "111",
+            "issn": "4",
+            "pages": "1081--1110",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Risk-sharing within the United States: what do financial markets and fiscal federalism accomplish?",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Athanasoulis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Van Wincoop",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Review of Economics and Statistics",
+            "volume": "83",
+            "issn": "4",
+            "pages": "688--98",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Measuring business cycles. Approximate band-pass filters for economic time series",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Baxter",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Shocking aspects of the European monetary integration",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bayoumi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Eichengreen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Adjustment and Growth in the European Monetary Union",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "193--229",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Labour market adjustments and migration in Europe and the United States: how different",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Beyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Smets",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Economic Policy",
+            "volume": "30",
+            "issn": "",
+            "pages": "643--682",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "The adjustment mechanism in the Euro Area",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Biroli",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mourre",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Turrini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Regional Evolutions",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Blanchard",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Katz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "Brookings Papers on Economic Activity",
+            "volume": "23",
+            "issn": "1",
+            "pages": "1--76",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Private and public risk-sharing in the euro area",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cimadomo",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Furtuna",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Giuliodori",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Borders and business cycles",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Clark",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Van Wincoop",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Journal of International Economics",
+            "volume": "55",
+            "issn": "1",
+            "pages": "59--85",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "The sources of fluctuations within and across countries",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Clark",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Shin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "98--102",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Regional Labor Market Adjustments in the United States and Europe",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dao",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Furceri",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Loungani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "International Monetary Fund WP",
+            "volume": "",
+            "issn": "",
+            "pages": "14--26",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Regional labor market adjustment in the United States: trend and cycle",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dao",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Furceri",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Loungani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Review of Economics and Statistics",
+            "volume": "99",
+            "issn": "2",
+            "pages": "243--257",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Regional labor market dynamics in Europe",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Decressin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fatas",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "European Economic Review",
+            "volume": "39",
+            "issn": "9",
+            "pages": "1627--1655",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Is Europe an optimum currency area? Evidence from regional data",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "De Grauwe",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Vanhaverbeke",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Policy issues in the operation of currency unions",
+            "volume": "",
+            "issn": "",
+            "pages": "111--129",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Is Europe an optimum currency area? NBER Working Paper No",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Eichengreen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Investor Diversification and International Equity Markets",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "French",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Poterba",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "American Economic Review",
+            "volume": "81",
+            "issn": "2",
+            "pages": "222--248",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Are the new EU members ready for the Euro? A comparison of costs and benefits",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Furceri",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Karras",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Journal of Policy Modeling",
+            "volume": "28",
+            "issn": "1",
+            "pages": "25--38",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "The euro area crisis: need for a supranational fiscal risksharing mechanism?",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Furceri",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zdzienicka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Open Economies Review",
+            "volume": "26",
+            "issn": "4",
+            "pages": "683--710",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Business Cycles in the Euro Area",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Giannone",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lenza",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Reichlin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "141--167",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Why you should never use the Hodrick-Prescott filter",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hamilton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Review of Economics and Statistics",
+            "volume": "100",
+            "issn": "5",
+            "pages": "831--843",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "How flexible are real wages in EU countries? A panel investigation",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Heinz",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rusinova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Postwar US business cycles: an empirical investigation",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hodrick",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Prescott",
+                    "suffix": ""
+                }
+            ],
+            "year": 1980,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Estimation and inference of impulse responses by local projections",
+            "authors": [
+                {
+                    "first": "\u00d2",
+                    "middle": [],
+                    "last": "Jord\u00e0",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "American Economic Review",
+            "volume": "95",
+            "issn": "1",
+            "pages": "161--182",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Measuring coherence of output gaps with an application to the euro area",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mink",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A M"
+                    ],
+                    "last": "Jacobs Jan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "De Haan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Oxford Economic Papers",
+            "volume": "64",
+            "issn": "2",
+            "pages": "217--236",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "A theory of optimum currency areas",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mundell",
+                    "suffix": ""
+                }
+            ],
+            "year": 1961,
+            "venue": "The American Economic Review",
+            "volume": "51",
+            "issn": "4",
+            "pages": "657--665",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Regional non-adjustment and fiscal policy",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Obstfeld",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Peri",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Economic Policy",
+            "volume": "13",
+            "issn": "26",
+            "pages": "206--259",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "On adjusting the Hodrick-Prescott filter for the frequency of observations",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Ravn",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Uhlig",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Review of Economics and Statistics",
+            "volume": "84",
+            "issn": "2",
+            "pages": "371--376",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Home bias and high turnover",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Tesar",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Werner",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Journal of International Money and Finance",
+            "volume": "14",
+            "issn": "4",
+            "pages": "467--492",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Real exchange-rate changes in the European Community: The empirical evidence and its implications for European currency unification",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Vaubel",
+                    "suffix": ""
+                }
+            ],
+            "year": 1976,
+            "venue": "Weltwirtschaftliches Archiv",
+            "volume": "112",
+            "issn": "3",
+            "pages": "429--470",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Real exchange-rate changes in the European community: A new approach to the determination of optimum currency areas",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Vaubel",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "Journal of International Economics",
+            "volume": "8",
+            "issn": "2",
+            "pages": "319--339",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Business cycles under monetary union: a comparison of the EU and US",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wynne",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Koo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Economica",
+            "volume": "67",
+            "issn": "267",
+            "pages": "347--74",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "\u2022 Interstate migration is the main adjustment channel to labor demand shocks for the US",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "\u2022 EMU countries adjust through changes in labor force participation and unemployment",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "\u2022 The strength of these channels has increased for EMU ad declined for the United States",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "(as inMink et al. (2012) we use the median of all individual countries' (states') output gaps at time t); n is the number of countries (states) in the monetary union. This measure is defined on a [0,1] scale, with a value of 1 indicating that all countries (state) output gaps have the same sign as the euro area (United States) as whole. The second measure takes into account amplitude differences between countries' (states') output gaps within the monetary union and is defined as:",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "INSERT FIGURE 7 NEAR HERE) By looking at changes in terms of number of workers instead of rates, the bottom left panel of Figure 7 decomposes the employment response following a 1 percent negative labor demand shock into the different margins of adjustments: increase in unemployment, decrease in participation and increase in net migration (all measured in number of workers). Of every 10 workers that lose employment, about 6 drop out of the labor force (shown in blue in the figure) about 3 workers become unemployed (shown in orange) and 1 worker migrates out of the region within the first year following the shock (shown in gray). The role of migration increases in subsequent years and the other two margins shrink in importance.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "\u2206log ( + ) , = + \u2206 , + , where the are time fixed effects. measures the incremental percentage of smoothing achieved by each channel of the GDP per capita decomposition. In particular, indicates the percentage of shock smoothed by capital markets, indicates smoothing from net transfers, and the percentages of shock smoothed by the credit market via private and public saving.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "percent in the period 1977-1997 to about 46 (45) percent in the period 1998-2017. For the EMU11, and in line with Cimadomo et al. (2018), rolling-windows estimates based on a 20-year window suggest that the bulk of the increase started in 2013 following the activation of the European Financial Stability Facility (EFSF) and the European Stability Mechanism (ESM)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Business",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Business The figure reports the average business cycle synchronization for the monetary union (blue line), measured as the cross-sectional average of pairwise synchronizations: where synchronicity among = 1/ \u2211 , , countries (states) is computed as the negative of the absolute divergence in GDP (GSP) growth: , = -. A more negative value indicates that the business cycles between the |( , -, -1 ) -( are less synchronized, while a zero value indicates a complete synchronization. The red dashed line indicates the average value of the period.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Business the output gap of countries (states) at time t; (i.e. the median of all individual countries' (states') output gaps observed at time t); n is the number of countries (states) in the monetary union. As inMink et al. (2012), the charts show 8-years rolling windows estimates.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Standard Coefficients of variation of regional (country/states) unemployment rates in EMU11 and US, Persistence of regional (country) unemployment in the EMU11 (left panel) Response to 1 percent negative labor demand shock in the EMU11 and US (",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Response to 1 percent negative labor demand shock in the EMU11 and US: Impulse response functions -baseline and subperiods (short-run-2 years-responses).Note: Horizontal axis denotes the period of analysis. The bars show the short-run (2-years) adjustment to 1 percent relative negative labor demand shock through each margin for each period. Units on vertical axis are percent deviation from pre-shock values. Estimates based on equations (5)-(7).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Response to 1 percent negative labor demand shock in the EMU11 -regional vs national shocks (1999-2017)Short-run (2 years)Note: Horizontal axis denotes the sample of analysis (countries vs regions). The bars show the short-run (2years) adjustment to 1 percent relative negative labor demand shock through each margin. Units on vertical axis are percent deviation from pre-shock values. Estimates based on equations (5)-(7).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Standard deviation of the log GDP deflator-Response of Price Level to 1 percent negative labor demand shock in the and US -The panels show the price level impulse response to 1 percent relative negative labor demand shock under OLS in EMU11 and US. Units on vertical axis are percent deviation from pre-shock values. Estimates based on equations (8)-(9). 90 percent confidence bands (obtained through bootstrap) are shown around each line.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Rolling-window estimates of factor income flow risk-sharing and share",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "shocks propagate through the economic system and affect the other income variables in the identity, unless they are smoothed by some counter-cyclical factor. Full stabilization is obtained if only (per capita) GDP varies while (per capita) consumption remains unchanged. In particular, smoothing is provided by capital markets, through the international net transfers of income factors, if after the shock, GDP changes while GNP remains constant. Successively, if NI is modified and DNI stays constant, smoothing takes place via net transfers from abroad. If DNI moves while C+G remains unchanged, stabilization is obtained by credit markets through private and public saving. Finally, if total",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Channels of output smoothing: EMU11 vs US Note: Robust t-statistics clustered on countries (states) in parentheses. *** p<0.01, ** p<0.05, * p<0.1. Estimates based on equations (11)-(14).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Channels of output smoothing: EMU11 vs US Note: Robust t-statistics clustered on countries (states) in parentheses. *** p<0.01, ** p<0.05, * p<0.1. Estimates based on equations (11)-(14).",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,1947 @@
+{
+    "paper_id": "0b6d56c21d17156e79dc8991c6a9f60ab16a268b",
+    "metadata": {
+        "title": "Journal Pre-proof Inflammatory biomarker trends predict respiratory decline in COVID-19 patients Inflammatory biomarker trends predict respiratory decline in COVID-19 patients",
+        "authors": [
+            {
+                "first": "Alisa",
+                "middle": [
+                    "A"
+                ],
+                "last": "Mueller",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tomoyoshi",
+                "middle": [],
+                "last": "Tamura",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "P",
+                "middle": [],
+                "last": "Crowley",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "A",
+                "middle": [
+                    "G"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "-A",
+                "middle": [
+                    "C N P"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jeremy",
+                "middle": [
+                    "R"
+                ],
+                "last": "Degrado",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Hibah",
+                "middle": [],
+                "last": "Haider",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Julia",
+                "middle": [
+                    "L"
+                ],
+                "last": "Jezmir",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [
+                    "B A"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Gregory",
+                "middle": [],
+                "last": "Keras",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "B",
+                "middle": [
+                    "S"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Erin",
+                "middle": [
+                    "H"
+                ],
+                "last": "Penn",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Anthony",
+                "middle": [
+                    "F"
+                ],
+                "last": "Massaro",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Edy",
+                "middle": [
+                    "Y"
+                ],
+                "last": "Kim",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "A",
+                "middle": [
+                    "A"
+                ],
+                "last": "Mueller",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "T",
+                "middle": [],
+                "last": "Tamura",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "C",
+                "middle": [
+                    "P"
+                ],
+                "last": "Crowley",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [
+                    "R"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [
+                    "L"
+                ],
+                "last": "Keras",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "G",
+                "middle": [],
+                "last": "Penn",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "E",
+                "middle": [
+                    "H"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "A",
+                "middle": [
+                    "F"
+                ],
+                "last": "Kim",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "E",
+                "middle": [
+                    "Y"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Conor",
+                "middle": [
+                    "P"
+                ],
+                "last": "Crowley",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [
+                    "D"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Identification of patients that will deteriorate and progress to critical illness could guide risk stratification, the need for close clinical monitoring and early immunomodulatory intervention.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "To address this question, we performed a retrospective cohort study of the first 100 patients admitted to the Brigham and Women's Hospital (BWH) for COVID-19 infection. We hypothesized that inflammatory biomarker profiles would stratify patients into three cohorts: (1) stable and non-intubated throughout their hospital admission (\"mild\"); (2) initially stable and nonintubated but then had respiratory deterioration requiring intubation or high-flow nasal cannula later in their hospital course (\"progressive\"); and (3) patients who were unstable and required intubation within 12 hours of admission (\"severe\"). Among patients who were stable and did not require intubation at admission, elevated CRP values at admission were associated with progressive respiratory failure later during their hospital course. CRP level at admission correlated with physiological measures of disease severity (SOFA score, PaO 2 /FiO 2 ) and with the inflammatory cytokine IL-6. However, the significant overlap in admission CRP values between \"mild\" and \"progressive\" patient sub-cohorts would limit the practical utility of initial CRP values for clinical care decisions. Remarkably, we found that a rise in CRP values over the first 48-72 hours of hospital admission distinguished patients that would develop progressive respiratory failure from patients that would remain stable throughout their hospital course. First, we show that the CRP trend is a clinically predictive tool and can be superior to a physiological index such as the ROX index. Second, since CRP is down-stream to several immune pathways including IL-6, our results suggest that these pathways are dynamic early in hospital admission and precede respiratory deterioration. Our work suggests that close, serial monitoring of early CRP values may aid clinical prognostication and consideration of immunomodulatory therapy in COVID-19 patients.",
+            "cite_spans": [
+                {
+                    "start": 266,
+                    "end": 269,
+                    "text": "(1)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "We reviewed the first 111 consecutive cases admitted to BWH who tested positive for severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in the course of their hospitalization ( Figure S1 ). 11 patients (10%) were excluded for the following reasons: SARS-CoV-2 testing was later deemed as false positive (n = 3); medical issues unrelated to COVID-19 drove hospital admission with SARS-CoV-2 positivity as a later incidental finding (n = 3); the patient was an inpatient for more than 48 hours before transfer to BWH (n = 5). Thereafter, 100 patients remained for evaluation. Prior studies typically stratify COVID-19 patients into either \"noncritical\" or \"critical\" categories and do not distinguish patients that were critically ill at admission versus those patients that initially had non-critical illness and then deteriorated. Given the clinical importance of predicting which non-critically patients would remain stable and which non-critically patients would later deteriorate, we divided our cohort into three categories. (1) \"Mild\" patients were stable patients who remained on room air or supplemental oxygen (via lowflow nasal cannula or face mask) throughout their hospital course and never required intubation or high-flow nasal cannula (HFNC). (2) \"Progressive\" patients were initially stable on room air, low-flow nasal cannula or face mask but then deteriorated and required intubation and mechanical ventilation or HFNC. (3) \"Severe\" patients required intubation or HFNC within 12 hours of admission.",
+            "cite_spans": [
+                {
+                    "start": 1038,
+                    "end": 1041,
+                    "text": "(1)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 186,
+                    "end": 195,
+                    "text": "Figure S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Demographic and clinical features"
+        },
+        {
+            "text": "These hospitalized COVID-19 patients were evaluated and classified as mild (54; 54%), progressive (29; 29%) or severe (17; 17%). ( Figure S1 , Table 1 ). Patients with progressive and severe disease were older than patients with mild disease (68 \u00b1 14 [severe] vs. 67 \u00b1 13",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 131,
+                    "end": 140,
+                    "text": "Figure S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 143,
+                    "end": 150,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Demographic and clinical features"
+        },
+        {
+            "text": "[progressive] vs. 59 \u00b1 16 [mild] years; P = 0.02) (Table 1) . Notably, other demographic J o u r n a l P r e -p r o o f characteristics, co-morbidities, or social history did not show significant differences between mild, progressive, and severe cases (Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 50,
+                    "end": 59,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 252,
+                    "end": 261,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Demographic and clinical features"
+        },
+        {
+            "text": "Patients in all groups presented to the hospital approximately 1 week after symptom-onset (Table 1) . Those with mild cases spent 6 [IQR: [4] [5] [6] [7] [8] [9] days in the hospital, while progressive and severe patients were discharged or deceased within 19 and 20 [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] (Table 1 ). All cases were followed until the hospital discharge. Mortality rate among 100 patients was 24 (24%) overall, with a significant difference (p < 0.001) in mild (mortality rate 4%), progressive (41%), and severe (59%) ( Table   1 ). While our primary analyses were focused on the comparison of patients in the three aforementioned categories, we also evaluated patients with a second model based on treatment location that is commonly used in other studies. In this model, patients are deemed as \"Floor\" vs. \"ICU,\" whereby patients designated as \"Floor\" cases receive care solely on the general medical floors in the non-ICU setting while ICU patients are those that required care in the ICU at some point during their hospitalization ( Figure S1 , Figure S2C ).",
+            "cite_spans": [
+                {
+                    "start": 138,
+                    "end": 141,
+                    "text": "[4]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 142,
+                    "end": 145,
+                    "text": "[5]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 146,
+                    "end": 149,
+                    "text": "[6]",
+                    "ref_id": null
+                },
+                {
+                    "start": 150,
+                    "end": 153,
+                    "text": "[7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 154,
+                    "end": 157,
+                    "text": "[8]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 158,
+                    "end": 161,
+                    "text": "[9]",
+                    "ref_id": null
+                },
+                {
+                    "start": 267,
+                    "end": 271,
+                    "text": "[12]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 272,
+                    "end": 276,
+                    "text": "[13]",
+                    "ref_id": null
+                },
+                {
+                    "start": 277,
+                    "end": 281,
+                    "text": "[14]",
+                    "ref_id": null
+                },
+                {
+                    "start": 282,
+                    "end": 286,
+                    "text": "[15]",
+                    "ref_id": null
+                },
+                {
+                    "start": 287,
+                    "end": 291,
+                    "text": "[16]",
+                    "ref_id": null
+                },
+                {
+                    "start": 292,
+                    "end": 296,
+                    "text": "[17]",
+                    "ref_id": null
+                },
+                {
+                    "start": 297,
+                    "end": 301,
+                    "text": "[18]",
+                    "ref_id": null
+                },
+                {
+                    "start": 302,
+                    "end": 306,
+                    "text": "[19]",
+                    "ref_id": null
+                },
+                {
+                    "start": 307,
+                    "end": 311,
+                    "text": "[20]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 312,
+                    "end": 316,
+                    "text": "[21]",
+                    "ref_id": null
+                },
+                {
+                    "start": 317,
+                    "end": 321,
+                    "text": "[22]",
+                    "ref_id": null
+                },
+                {
+                    "start": 322,
+                    "end": 326,
+                    "text": "[23]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 327,
+                    "end": 331,
+                    "text": "[24]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 332,
+                    "end": 336,
+                    "text": "[25]",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 90,
+                    "end": 99,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 337,
+                    "end": 345,
+                    "text": "(Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 568,
+                    "end": 577,
+                    "text": "Table   1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1085,
+                    "end": 1094,
+                    "text": "Figure S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1097,
+                    "end": 1107,
+                    "text": "Figure S2C",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Demographic and clinical features"
+        },
+        {
+            "text": "Notably, IL-6 was markedly elevated in patients that required ICU level care at any point during their hospitalization, compared to non-ICU patients (61.3 [28.9-154 .0] vs. 9.0 [5.2-57.9 ] U/L, P = 0.007).",
+            "cite_spans": [
+                {
+                    "start": 155,
+                    "end": 164,
+                    "text": "[28.9-154",
+                    "ref_id": null
+                },
+                {
+                    "start": 177,
+                    "end": 186,
+                    "text": "[5.2-57.9",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Demographic and clinical features"
+        },
+        {
+            "text": "The binary categories of \"Floor\" versus \"ICU\" masks one key aspect of the natural history of COVID-19 illness during hospital admission-inpatients that are initially stable on the \"Floor\" who later decline and require ICU-level care. The factors that distinguish patients that remain stable from patients that are initially stable but then deteriorate are poorly characterized. We classified COVID-19 inpatients into three cohorts according to the stability and severity of their respiratory failure: 1) \"Mild\" (remained on room air or supplemental oxygen); 2) \"Progressive\" (initially on room air or supplemental oxygen then later required intubation or high-flow nasal cannula); or 3) \"Severe\" (required intubation within 12 hours of admission) ( Figure S1 and Table   1 ). Initial levels of CRP, D-dimer, procalcitonin, and IL-6 were elevated in patients with progressive disease compared with mild disease (112. 5 [63.4-198 There are a number of tools used to assess clinical condition. Perhaps the most commonly used is the Sequential Organ Failure Assessment (SOFA) score, which is a measure of organ dysfunction with higher scores representing worsening organ damage. Respiratory function is assessed as a subscore of this system and is based on the ratio of the arterial oxygen partial pressure to fractional inspired oxygen (PaO 2 /FiO 2 or P/F ratio). 10 Lower P/F ratios indicate worsening hypoxemia. Patients with progressive disease presented with a higher SOFA score than those with mild disease, although there was significant overlap (3 [2-3.5] vs. 1 [0. , P = 0.01) ( Figure 2A ). Additionally, as expected given our classification criteria, admission respiratory SOFA score ( Figure 2B ) and P/F ratios (Table 1) were not significantly different between progressive patients and mild patients. At admission, CRP and D-dimer were clinically relevant as they were correlated with measures of organ and respiratory function. Both CRP levels and D-dimer levels showed a strong positive association with SOFA score (\u03c1 = 0.41, P < 0.001; \u03c1 = 0.47, P < 0.001, respectively) ( Figures 2C and S3A ). Moreover, these levels were inversely correlated to P/F ratio on admission (\u03c1 = -0.54, P < 0.001; \u03c1 = -0.23, P = 0.02, respectively), demonstrating an association of these markers with the severity of acute hypoxemic respiratory failure ( Figures 2D and S3B ). Among patients that were intubated, CRP values at the time of intubation showed some correlation with the P/F ratio at the time of intubation, though it was not statistically significant ( Figure S3C ).",
+            "cite_spans": [
+                {
+                    "start": 916,
+                    "end": 927,
+                    "text": "5 [63.4-198",
+                    "ref_id": null
+                },
+                {
+                    "start": 1362,
+                    "end": 1364,
+                    "text": "10",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 749,
+                    "end": 758,
+                    "text": "Figure S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 763,
+                    "end": 772,
+                    "text": "Table   1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1585,
+                    "end": 1594,
+                    "text": "Figure 2A",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1694,
+                    "end": 1703,
+                    "text": "Figure 2B",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1721,
+                    "end": 1730,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2087,
+                    "end": 2105,
+                    "text": "Figures 2C and S3A",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 2348,
+                    "end": 2366,
+                    "text": "Figures 2D and S3B",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 2559,
+                    "end": 2569,
+                    "text": "Figure S3C",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Demographic and clinical features"
+        },
+        {
+            "text": "The association of CRP to respiratory deterioration and physiological measures of disease severity was particularly intriguing, as CRP levels can have mechanistic implications. CRP levels are tracked in a wide range of inflammatory diseases and are linked to IL-6 signaling, which has been a therapeutic target in COVID-19. Indeed, IL-6 levels did show a striking J o u r n a l P r e -p r o o f correlation to CRP ( Figure S3D ) and P/F ratio ( Figure S3E ). However, the number of patients with IL-6 levels were limited, as this institution's clinical guidelines did not endorse routine clinical measurement of IL-6 because results took over 48 hours to return. In many institutions, CRP levels result within several hours and can capture rapidly evolving clinical courses that cytokine assays, which take more than 1-2 days, cannot. These results supported the further investigation of CRP as a biomarker with mechanistic implications and potential practical clinical utility. (Figures 3B and 3C and Tables S3 and S4 ). In all patients, CRP levels peaked early within approximately 10 days of symptom onset ( Figure 3C ). The longitudinal CRP trend of progressive patients closely resembled that of severe patients, with a sharp, early rise in CRP ( Figure 3B ). In contrast, mild patients (who remained non-critically ill) had a lower plateau and then a steady decline in CRP ( Figure 3B ). Further quantification revealed that the change in CRP over the time course less than 72 hours of admission was significantly different between mild and progressive patients (P = 0.009), whereas it was similar between progressive and severe patients (P = 0.81) ( Figure 3D ). This indicates that progressive patients when compared to mild patients had a more rapid rise in CRP levels drawn at 24-48 hours and 48-72 hours after admission, (182.0 \u00b1 101 vs. 97.6 \u00b1 72 mg/L, P = 0.006; 190.1 \u00b1 99 vs. 90.2 \u00b1 64 mg/L, P < 0.001, respectively) ( Figure 3D ). The odds ratio of requiring advanced respiratory support was J o u r n a l P r e -p r o o f 16.9 [95%CI: 1.96-145.3] (P = 0.01) when CRP value of greater than 300 mg/L (upper limit of the assay at our institution) was achieved within 72 hours of admission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 416,
+                    "end": 426,
+                    "text": "Figure S3D",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 445,
+                    "end": 455,
+                    "text": "Figure S3E",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 979,
+                    "end": 1018,
+                    "text": "(Figures 3B and 3C and Tables S3 and S4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1111,
+                    "end": 1120,
+                    "text": "Figure 3C",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 1252,
+                    "end": 1261,
+                    "text": "Figure 3B",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 1381,
+                    "end": 1390,
+                    "text": "Figure 3B",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 1657,
+                    "end": 1666,
+                    "text": "Figure 3D",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 1934,
+                    "end": 1943,
+                    "text": "Figure 3D",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Demographic and clinical features"
+        },
+        {
+            "text": "We tested the prognostic utility of CRP levels in determining the need for advanced respiratory support in COVID-19 patients, using receiver operating characteristic (ROC) curve analyses incorporating patients with mild vs. progressive disease. In particular, we first compared with predictive value of admission CRP levels (day 0 CRP) and change in CRP from day 0 to day 1 ( (Table S2) . We demonstrated the predictive value of both CRP levels and ROX index to predict respiratory deterioration during hospitalization. Further, we showed that the change in CRP had superior predictive value to either initial CRP value alone or the ROX index. CRP, D-dimer, and procalcitonin levels at admission were increased in the progressive cohort, compared to mild (i.e., stable). At the same time, we found that CRP did have a remarkably close association with the degree of respiratory failure as the correlation of CRP to P/F ratio was highly significant. While significantly different, these tests would have limited prognostic utility for frontline clinicians, as there was a high degree of overlap between mild and progressive cohorts that precluded a simple threshold value. To address this clinical challenge, we noted that maximum CRP distinguished stably non-critical (mild cohort) patients from those with progression of respiratory failure. This finding suggested that CRP values are dynamic in COVID-19 patients that develop later respiratory failure. Similar results were reported indicating the utility of maximal CRP for the need of mechanical ventilation. 13 However, the maximal CRP is not useful as a clinical decision-making tool because the determination whether the CRP value is at the maximum is only made retrospectively. We did find that a rapid rise in CRP preceded and associated with respiratory deterioration among patients that were stable at admission. By tracking CRP values longitudinally during hospitalization, we found that CRP J o u r n a l P r e -p r o o f levels rose more precipitously in the first 3 days after hospital admission in the progressive cohort compared to the mild cohort, with an appreciable elevation detectable as early as 24 to 48 hours after admission. Thus, the rate of change of CRP, rather than the absolute value of admission values, were more closely associated with clinical deterioration. Initial absolute values of CRP were similar between mild and progressive patients, but the dynamic trends of CRP were similar between progressive and severe patients. Another study also found limited prognostic utility for admission CRP values and required a 10 variable risk score to predict clinical deterioration. 14 Our study suggests that examination of dynamic trends, rather that absolute value at admission, can lead to strong associations with prognosis despite only using a single laboratory value. We confirmed that change in CRP had clinical utility in predicting intubation as shown in our ROC analyses where utilizing change in CRP resulted in a higher AUC than the ROX index, a clinically validated index used to predict intubation. Similar to our results, a high CRP cutoff for a single-value CRP was reported. 15 This high CRP cutoff selects for an extremely ill patient population and leads to high specificity and low sensitivity, which make it unhelpful as clinical predictors. In contrast, while the AUC value for \u2206CRP was not dramatically higher than that of ROX or admission CRP, the high sensitivity for respiratory decompensation makes it a much more valuable screening test. Our study suggests that trending CRP, a highly accessible tool for frontline clinicians compared to complicated scoring systems, has predictive value for respiratory failure among initially non-critically ill patients on the general medical floor.",
+            "cite_spans": [
+                {
+                    "start": 1563,
+                    "end": 1565,
+                    "text": "13",
+                    "ref_id": null
+                },
+                {
+                    "start": 2661,
+                    "end": 2663,
+                    "text": "14",
+                    "ref_id": null
+                },
+                {
+                    "start": 3171,
+                    "end": 3173,
+                    "text": "15",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 376,
+                    "end": 386,
+                    "text": "(Table S2)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Rise in CRP and ROX index are predictive of respiratory deterioration during hospitalization"
+        },
+        {
+            "text": "While our study has implications for clinical prognostication, our result also may suggest underlying pathological mechanisms and possible strategies for therapeutic intervention. As in SARS-CoV and MERS-CoV infection, 16, 17 several proinflammatory cytokines (e.g., IL-6, IL-10, J o u r n a l P r e -p r o o f IL-2, and IFN-gamma) are increased in COVID-19. 12, [18] [19] [20] [21] We demonstrate a correlation between the CRP and D-dimer inflammatory biomarkers with disease severity and a particularly close association of CRP with hypoxemic respiratory failure (P/F ratio). Our study highlights the potential role of IL-6, which is upstream of increased CRP. In our cohort analysis, IL-6 levels showed a positive correlation with CRP in patients who had IL-6 levels drawn, and patients treated with tocilizumab, an IL-6 receptor monoclonal antibody, had rapid and sustained decrease in CRP levels (N=15, Figure S4 ). Our study suggests that increased CRP rise, and by virtue presumed elevation of IL-6, in the first 24-48 hours may be of critical importance to disease progression; no other study is focused only on this hyper-acute period. Furthermore, in many studies, COVID-19 patients are simply categorized as non-critically ill (\"floor\") or critically ill (\"ICU\"), 8 as in a longitudinal study of lymphocyte subsets and cytokines 8 or single-cell RNAsequencing of bronchoalveolar lavage. 22 Our results may suggest that \"critically ill\" COVID-19 patients should be sub-divided into two sub-cohorts as patients that developed a requirement for advanced oxygen support later in their hospital course (\"progressive\") had a distinct inflammatory biomarker profile than patients who required immediate intubation on hospital admission (\"severe\"). Multiple RCTs are examining tocilizumab in COVID-19 infection, 23-27 and preliminary results from recent phase III studies have been mixed. The COVACTA trial evaluating tocilizumab (F. Hoffmann-La Roche Ltd, press release: https://www.roche.com/investors/updates/inv-update-2020-07-29.htm) and another trial centered on sarilumab (Sanofi-Aventis U.S. LLC, press release: https://www.sanofi.com/en/media-room/press-releases/2020/2020-07-02-22-30-00), did not meet primary endpoints. However, the EMPACTA trial (F. Hoffmann-La Roche Ltd, press release: https://www.roche.com/media/releases/med-cor-2020-09-18.htm) did show that tocilizumab reduced likelihood of progression to mechanical ventilation. Our work may suggest J o u r n a l P r e -p r o o f 13 that there is value in delineating the particular \"progressive\" patients whose uptrend in CRP may suggest that they could be particularly poised to benefit from this type of IL-6 directed therapy.",
+            "cite_spans": [
+                {
+                    "start": 359,
+                    "end": 362,
+                    "text": "12,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 363,
+                    "end": 367,
+                    "text": "[18]",
+                    "ref_id": null
+                },
+                {
+                    "start": 368,
+                    "end": 372,
+                    "text": "[19]",
+                    "ref_id": null
+                },
+                {
+                    "start": 373,
+                    "end": 377,
+                    "text": "[20]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 378,
+                    "end": 382,
+                    "text": "[21]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1275,
+                    "end": 1276,
+                    "text": "8",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1398,
+                    "end": 1400,
+                    "text": "22",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 908,
+                    "end": 917,
+                    "text": "Figure S4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Hyper-acute activation of IL-6 pathway associates with prognosis of respiratory failure"
+        },
+        {
+            "text": "Recent studies have suggested that acute respiratory distress syndrome (ARDS) related to COVID-19 is not more inflammatory than ARDS unrelated to COVID-19, with similar levels for plasma IL-6 in COVID-19 and non-COVID-19 ARDS. 28, 29 However, it is clear from this study and others that severe COVID-19 is more inflammatory than milder COVID-19. This study highlights that the dynamic nature of the inflammation in COVID-19 is key and directly associated to physiological parameters. The key limitations of this work are its single-center and retrospective design. Future prospective studies could study a wider range of cytokines and chemokines along with the interaction of CRP rise and immunomodulatory treatment. In conclusion, we suggest that closely tracking the levels of CRP in the hyper-acute phase of admission for COVID-19 patients is a valuable tool to stratify the risk that a patient will have progressive hypoxemic respiratory failure requiring intubation. This metric is feasible for frontline clinicians in the emergency department observation units or medical floor inpatient wards.",
+            "cite_spans": [
+                {
+                    "start": 227,
+                    "end": 230,
+                    "text": "28,",
+                    "ref_id": null
+                },
+                {
+                    "start": 231,
+                    "end": 233,
+                    "text": "29",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hyper-acute activation of IL-6 pathway associates with prognosis of respiratory failure"
+        },
+        {
+            "text": "Second, longitudinal CRP profile may distinguish unique phenotypes of patients with critical illness from COVID-19. Finally, these findings suggest that clinical trials of IL-6 receptor monoclonal antibodies should pay particular attention to intervention in the first 48 hours of the hospital course.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hyper-acute activation of IL-6 pathway associates with prognosis of respiratory failure"
+        },
+        {
+            "text": "Limitations of this study include its single-centered retrospective nature and small sample size, and future efforts focused on the prospective analyses will strengthen our understanding of the prognostic utility of CRP. The size of the study was a consequence of balancing the need for more immediate analysis for frontline physicians. It should be noted that in our analyses, the ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations of Study"
+        },
+        {
+            "text": "No new reagents or materials were generated as part of this study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials Availability"
+        },
+        {
+            "text": "Patient data reviewed in this study is not publicly available due to restrictions on patient privacy and data sharing. There was no new code developed as part of this study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and Code Availability"
+        },
+        {
+            "text": "This investigation was approved by the Partners Healthcare Institutional Review Board (Protocol 2020P001139). Opt-out consent was designated for the study. Demographic information including age and gender are provided in Tables 1 and S1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Experimental Model and Subject Details"
+        },
+        {
+            "text": "This was a single-center retrospective cohort study. We included patients who were admitted to anticipated that a patient may require intubation, that patient was transferred to the ICU, and any patient requiring pressure support was required to be in the ICU unless it was part of a nightly CPAP or BiPAP regimen that they had used at home. In general, during the time of this study, the institution recommended against high-flow nasal cannula use in COVID-19 patients due to concern regarding potential transmission with aerosolization. Instead, patients who were unstable on regular nasal cannula were transitioned to Venturi mask or intubated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study Design and Population"
+        },
+        {
+            "text": "Descriptive statistics were reported as mean \u00b1 SD or median with IQR, and frequencies with ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Quantification and Statistical Analysis"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Covid-19 in Critically Ill Patients in the Seattle Region -Case Series",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pipavath",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wurfel",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Evans",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Clinical and immunological features of severe and moderate coronavirus disease 2019",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Invest",
+            "volume": "130",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The role of biomarkers in diagnosis of COVID-19 -A systematic review",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kermali",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Khalsa",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Pillai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ismail",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Harky",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Life Sci",
+            "volume": "254",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "At the heart of COVID-19",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Zahra",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zaim",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Harky",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Card Surg",
+            "volume": "35",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The need to manage the risk of thromboembolism in COVID-19 patients",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Savarimuthu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Leung",
+                    "middle": [],
+                    "last": "Mst",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Harky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Vasc Surg",
+            "volume": "72",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Factors associated with hospital admission and critical illness among 5279 people with coronavirus disease",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cerfolio",
+                    "suffix": ""
+                },
+                {
+                    "first": "Francois",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Horwitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "prospective cohort study",
+            "volume": "369",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Viral and host factors related to the clinical outcome of COVID-19",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ling",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Jia",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+            "authors": [],
+            "year": null,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The SOFA (Sepsis-related Organ Failure Assessment) score to describe organ dysfunction/failure. On behalf of the Working Group on Sepsis-Related Problems of the European Society of Intensive Care Medicine",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Suter",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Thijs",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Intensive Care Med",
+            "volume": "22",
+            "issn": "",
+            "pages": "707--710",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "ROX Index Predicts Intubation in Patients with COVID-19 Pneumonia and Moderate to Severe Hypoxemic Respiratory Failure Receiving High Flow Nasal Therapy",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tragesser",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Giurintano",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Clinical predictors of mortality due to COVID-19 based on an analysis of data of 150 patients from Wuhan, China",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ruan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jiang",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Intensive Care Med",
+            "volume": "46",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Elevated levels of IL-6 and CRP predict the need for mechanical ventilation in COVID-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Klein",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Weinberger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Allergy Clin Immunol",
+            "volume": "146",
+            "issn": "",
+            "pages": "128--136",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Development and Validation of a Clinical Risk Score to Predict the Occurrence of Critical Illness in Hospitalized Patients With COVID-19",
+            "authors": [],
+            "year": null,
+            "venue": "JAMA Intern Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "COVID-19-associated hyperinflammation and escalation of patient care: a retrospective longitudinal cohort study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gutierrez",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Waddington",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Rheumatol",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Characterization of cytokine/chemokine profiles of severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Qin",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Clinical Progression and Cytokine Profiles of Middle East Respiratory Syndrome Coronavirus Infection",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Korean Med Sci",
+            "volume": "31",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [],
+            "year": null,
+            "venue": "China. Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Longitudinal characteristics of lymphocyte responses and cytokine profiles in the peripheral blood of SARS-CoV-2 infected patients",
+            "authors": [],
+            "year": null,
+            "venue": "EBioMedicine",
+            "volume": "55",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "COVID-19: consider cytokine storm syndromes and immunosuppression",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mehta",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Mcauley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sanchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tattersall",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Manson",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hlh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Across Speciality Collaboration UK",
+            "volume": "395",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Immune cell profiling of COVID-19 patients in the recovery stage by single-cell sequencing",
+            "authors": [],
+            "year": null,
+            "venue": "Cell Discov",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Single-cell landscape of bronchoalveolar immune cells in patients with COVID-19",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Off-label Use of Tocilizumab in Patients with SARS-CoV-2 Infection",
+            "authors": [
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Giambenedetto",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ciccullo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Borghetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gambassi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Landi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Visconti",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zileri",
+                    "middle": [],
+                    "last": "Dal Verme",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bernabei",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tamburrini",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Cauda",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Tocilizumab treatment in COVID-19: A single center experience",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Li",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Pilot prospective open, single-arm multicentre study on offlabel use of tocilizumab in patients with severe COVID-19",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sciascia",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Apra",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Baffa",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Baldovino",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Boaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Boero",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bonora",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Calcagno",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Cecchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Cinnirella",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Exp Rheumatol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Tocilizumab for the treatment of severe COVID-19 pneumonia with hyperinflammatory syndrome and acute respiratory failure: A single center study of 100 patients in",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Andreoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Latronico",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Autoimmun Rev",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Effective treatment of severe COVID-19 patients with tocilizumab",
+            "authors": [],
+            "year": null,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "117",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Prevalence of phenotypes of acute respiratory distress syndrome in critically ill patients with COVID-19: a prospective observational study",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cheema",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bailey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Respir Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Is a \"Cytokine Storm\" Relevant to COVID-19?",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sinha",
+                    "suffix": ""
+                },
+                {
+                    "first": "Matthay",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Calfee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Intern Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Nonlinear Imputation of PaO2/FIO2 From SpO2/FIO2 Among Mechanically Ventilated Patients in the ICU: A Prospective, Observational Study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Grissom",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Crit Care Med",
+            "volume": "45",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Predicting success of high-flow nasal cannula in pneumonia patients with hypoxemic respiratory failure: The utility of the ROX index",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Roca",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Messika",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Caralt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Garcia-De-Acilu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Sztrymf",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ricard",
+                    "middle": [
+                        "Jd"
+                    ],
+                    "last": "Masclans",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Crit Care",
+            "volume": "35",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": "a clinically significant association with progressive respiratory failure Initial CRP and ferritin values showed modest elevations in progressive disease compared with mild disease. However, maximum CRP levels were highly correlated (300.0 [237.4-300.0] vs. 116.8 [64.0-158.1] mg/L, P < 0.001) (Figure 3A) and suggested that CRP values were dynamic during COVID-19 illness. To explore this finding, we tracked CRP longitudinally throughout hospitalization",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "\u0394CRP). \u2206CRP and admission CRP were both predictive of a need of advanced respiratory support, though the AUC for \u2206CRP was greater than for admission CRP (AUC 0.74 [0.59-0.88] and 0.68 [0.55-0.80], respectively) (Figures 3E and 3G). Next, we compared the molecular approach (measuring a biomarker like CRP) with a physiological approach (calculating the ROX index, an established clinical scoring system for predicting intubation 11 ). The ROX index incorporates oxygenation and respiratory rate, specifically oxygen saturation divided by fraction of inspired oxygen, divided by respiratory rate (i.e., [SpO 2 / FiO 2 ] / RR). Thus, the ROX index integrates hypoxemia and \"work of breathing.\" The AUC for \u2206CRP was greater than that for the ROX indices on day 0 and day 1 (0.68 [0.51-0.85] and 0.71 [0.58-0.83], respectively) (Figures 3F and 3G). \u2206CRP and day 0 CRP were independently associated with a need for an advanced respiratory support",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "in a single molecular biomarker is predictive of respiratory failure In this retrospective observational study, we analyzed clinical features and biomarkers in inpatients with COVID-19 at a single institution. Consistent with previous reports, 9, 12 patients requiring ICU level care at any point during their hospital course had elevated CRP, D-dimer, procalcitonin, and IL-6 levels, compared to patients that remained on the non-ICU medical floor throughout their hospitalization. To study the natural history of COVID-19 in hospitalized patients, we categorized patients as mild (stable on room air or supplemental oxygen);progressive (initially room air or supplemental oxygen then progression to respiratory failure requiring intubation or high-flow nasal cannula) and severe (intubation on hospital admission).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Initial CRP, D-dimer, and procalcitonin levels are correlated with mild, progressive and severe respiratory failure. A-D: Initial levels of A) CRP, B) D-dimer, C) Ferritin, D) Procalcitonin and E) IL-6 are shown for patients grouped into \"mild\" (n = 54), \"progressive\" (n = 29), and \"severe\" (n = 17) cohorts. Broken line indicates upper limit of assay.Data are represented as median and IQR. Kruskal-Wallis and Dunn's multiple comparison performed. *P < 0.05, ***P < 0.001. CRP, C-reactive protein; n.s., non-significant.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "CRP levels are associated with physiological measures of disease severity and hypoxemic respiratory failure. A-D) COVID-19 inpatients are grouped into mild, progressive or severe cohorts defined by respiratory failure. A) SOFA scores on admission. B) SOFA respiratory scores on admission. C) Correlation of SOFA scores to initial CRP. D) Correlation of P/F ratios to initial CRP. Open black circles, mild; filled black circles, progressive; open red circles, severe. Data in A and B are represented as median and IQR. Kruskal-Wallis test andDunn's multiple test were performed for A and B; Spearman rank correlation was performed for C and D. *P < 0.05, ***P < 0.001. CRP, C-reactive protein; P/F, PaO 2 /FiO 2 ; SOFA, Sequential Organ Failure Assessment.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Rise in CRP and ROX index predict respiratory deterioration requiring intubation or HFNC. COVID-19 inpatients are grouped into mild, progressive or severe cohorts defined by respiratory failure. A) Maximum CRP value during hospital course. Broken line indicates the upper limit of the assay. B-C: Mean CRP values are shown as a function of B) days after first recorded CRP level; C) days after onset of first symptom. D) CRP values taken 0-<24, 24-<48, and 48-<72 hours after admission. E) ROC analyses using day 0 (<24 hours after admission) CRP was performed in all progressive and mild patients whose day 0 CRP J o u r n a l P r e -p r o o f value was available. \u2206CRP value was defined as delta change from CRP values obtained between day 0 to day 1 (24 to <48 hours of admission). Similarly, the ROC analysis using \u2206CRP included all mild patients and progressive patients in whom the second CRP was measured prior to intubation. F) ROC analyses were performed using the ROX index on day 0 and day 1. ROX index was calculated using following formula: ROX index = SpO\u2082 (%) / FiO\u2082 / respiratory rate (/min). G) Area under the curve (AUC) with 95% confidence interval (CI), and the cutoff value with sensitivity (Sn), specificity (Sp), positive predictive value (PPV), and negative predictive value (NPV). For A-D: open black circles, mild; filled black circles, progressive; open red circles, severe. A, median and interquartile range are plotted; B-D, mean and standard deviation are plotted. Kruskal-Wallis test and Dunn's multiple test were performed for A; a mixed effect model was used for D. *P < 0.05, **P < 0.01, ***P < 0.001. CRP, C-reactive protein; Max, maximum; n.s., non-significant. See alsoTable S3and S4. Demographics and clinical features of COVID-19 patients classified as \"Mild,\" \"Progressive,\" and \"Severe.\"",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "BWH between March 12, 2020 and April 9, 2020 and had laboratory-confirmed COVID-19 infection. A confirmed case of COVID-19 was defined by a positive result on a reverse transcription polymerase chain reaction (RT-PCR) assay of SARS-CoV-2. Patients were excluded if they were not initially admitted due to COVID-19, deemed to have had a false positive result, or transferred from a non-affiliated hospital later than 48 hours after their initial admission (Figure S1). Patient charts were last reviewed to the end of the hospitalization, allowing follow-up until hospital discharge for all patients. Any information from subsequent clinic visits or hospitalizations was not incorporated into the chart review. This study was approved by the Partners Healthcare Institutional Review Board (Protocol 2020P001139). Optout consent was selected in this study.Patients were classified using 2 different classifications. In the first classification scheme, patients were designated either as \"Floor\" patients (requiring only floor-level care throughout their hospitalization) or \"ICU\" patients (required care in the ICU at any point during hospitalization). With a specific interest in COVID-19 patients whose respiratory conditions would deteriorate after admission, inpatients were divided according to a second classification system: \"mild, progressive, and severe\". Those with \"Mild\" disease maintained adequate oxygenation with room air or oxygen supplementation with nasal cannula or face mask throughout the entire course of their hospitalization. On the other end, the \"Severe\" group included patients who required advanced respiratory support, including mechanical ventilation or high-flow nasal cannula, within 12 hours of admission, with the admission time being defined J o u r n a l P r e -p r o o f as the time that the first vitals were recorded for the patient. Patients categorized as having \"Progressive\" disease were initially admitted to the hospital on room air or oxygen supplementation with nasal cannula or face mask but required advanced respiratory support due to respiratory deterioration later during the hospital course at least 12 hours after admission.Data CollectionData were retrospectively collected by reviewing electronic medical records. Patient demographic data included age, gender, race or ethnicity, past medical history, use of immunosuppressive medication or chemotherapy, and history of smoking. Clinical information included date of first symptom, first positive SARS-CoV-2 result, admission, intubation, extubation, and discharge; admission ward (ICU or non-critically ill medical floor); requirement for oxygen, vasopressors, and intubation or high-flow nasal cannula; respiratory rate; amount of oxygen requirement at admission; the maximum amount of oxygen requirement; sequential organ failure assessment (SOFA) score upon admission; respiratory rate and oxygen saturation (SpO 2 ) on the day of admission (day 0) and day 1; administration of hydroxychloroquine, tocilizumab, or clinical trial agent composed of remdesivir or placebo; and survival status. Partial pressure of arterial oxygen (PaO 2 ) or oxygen saturation (SpO 2 ) and the fraction of inspired oxygen (FiO 2 ) upon admission as well as immediately following intubation was obtained. For patients in whom an arterial gas analysis was not tested and was not intubated upon admission, PaO 2 value was imputed using a non-linear method,31 and FiO 2 was calculated using a formula of FiO 2 = 0.20 + oxygen flow rate (L/min) * 0.04. Then, PaO 2 /FiO 2 (P/F) ratio was calculated using these values. ROX index is a prediction tool developed to identify the need for mechanical ventilation in pneumonia patients treated with high-flow nasal cannula.31 We calculated ROX index in COVID-19 patients independent of the high-flow nasal cannula treatment. ROX index J o u r n a l P r e -p r o o f on Day 0 (the day of admission) and day 1 were calculated using a formula of ROX Index = SpO\u2082 / FiO\u2082 / respiratory rate (breaths/min). Laboratory test results collected upon admission included: C-reactive protein, serum ferritin, D-dimer, and procalcitonin. Additionally, maximum serum ferritin value during the hospital course, C-reactive protein values during admission, and the first three interleukin (IL)-6 levels drawn after admission were obtained.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Rising CRP levels predict intubation in COVID-19 inpatients stable at admission\u2022 Early CRP trend outperforms initial CRP level in prediction of respiratory failure\u2022 CRP trend outperforms a physiological index (ROX) in prediction of respiratory failure \u2022 CRP and IL-6 levels correlate with each other and with hypoxemia (P a O 2 /F i O 2 ) eTOC SUMMARY Mueller et al. demonstrate in hospitalized COVID-19 patients that trending C-reactive protein (CRP), an inflammatory biomarker, is a simple and accessible strategy for predicting respiratory deterioration. An early rise in CRP predicts intubation, and CRP levels correlate with IL-6 levels and physiological measures of hypoxemic respiratory failure.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "days of admission, respectively (Table 1). At the time, the hospital's institutional guidelines (Brigham and Women's Hospital COVID-19 Clinical Guidelines: www.covidprotocols.org) advised against the use of HFNC in SARS-CoV-2 positive patients, so only 1 patient was on HFNC and 45 were intubated and on mechanical ventilation at some point during their hospitalization. Among the 46 patients who were classified as progressive or severe, 45 (98%) required vasopressors (Table 1). Treatment strategies for patients included administration of hydroxychloroquine, remdesivir vs. placebo as part of a clinical trial, or tocilizumab",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "and procalcitonin, were more elevated in patients requiring ICU-level care compared to patients that only required care on the floor (141.8 [66.7-229.3] vs. 69.6 [37.7-105.1] ng/mL, P < 0.001; 1646 [683-2622] vs. 564 [351-1142] ng/mL, P < 0.001; 0.31 [0.15-1.63] vs. 0.12 [0.07-0.19] U/L, P < 0.001; respectively) (Figure S2). Ferritin also trended upwards in ICU patients but did not reach statistical significance (693 [317-1483] vs. 492 [312-994] \u00b5g/\u00b5L; P = 0.16) (",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Figures 1A, 1B, 1D, and 1E). Ferritin levels trended upwards in progressive cases compared with mild cases, though did not reach statistical significance (682 [268-1870] vs. 449 [279-978]",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Patients were either given remdesivir or placebo as part of a clinical trial.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "General Treatment of COVID-19 PatientsInpatient treatment was conducted based on institutional COVID-19 clinical guidelines that are in continual development and shared with the public (Brigham and Women's Hospital COVID-19 Clinical Guidelines: www.covidprotocols.org). Regarding local practices at Brigham and Women's Hospital, guidelines allowed patients to remain on the floor while on room air, nasal cannula, high-flow nasal cannula and Venturi face masks up to 60% FiO2. Ideally, if it was",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "percentages for continuous and categorical variables, respectively, as noted in the results section. Student's t-test or Mann-Whitney U test was used for two-group comparison of continuous variables. Analysis of variance with Tukey's multiple comparison or Kruskal-Wallis test with Dunn's multiple comparison was used for the comparison of continuous variablesJ o u r n a l P r e -p r o o f among the 3 groups. The chi-square test or Fisher exact test was used for comparisons of binary variables. Spearman rank correlation coefficient was calculated to determine the correlation between the two variables. The mixed effects model with Sidak's multiple comparison was used for the analysis of repeated measures. The tests used are designated in the figure legends.Receiver operating characteristic (ROC) curve analysis was used to estimate the prognostic performance of the following parameters to predict the need for aggressive respiratory support including intubation and high-flow nasal cannula: day 0 CRP, defined as the first CRP drawn less than 24 hours after admission; \u2206CRP, defined as the change in CRP from less than 24 hours after admission to the CRP 24-48 hours after admission; day 0 ROX index, which was the ROX index using the first vital signs after admission; and day 1 ROX index, which was the ROX index using the morning vital signs on day 1. CRP values exceeding the upper limit of assay (300 mg/L) were imputed as the maximum value of the assay (300 mg/L) in the ROC analysis of day 0 CRP. In the ROC analysis for \u2206CRP, only patients in whom the \u2206CRP values before intubation could be calculated were included. In particular, patients who were intubated before the second CRP measurement or whose CRP values exceeded the upper limit of assay were excluded. For the ROC analyses of ROX indices, all patients in whom the ROX index was able to be calculated were included. The area under the curve (AUC) with 95% confidence interval and the optimal cutoff value determined by Youden's J static with corresponding sensitivity and specificity calculated. A multivariate regression model was used to assess the association between day 0 CPR and \u2206CRP and the need for advanced respiratory support. Variables that showed P value of less than 0.1 with univariate regression analysis were selected as covariates for the adjustment in the multivariate regression model. Of the potential confounders including age, chronic lung disease, severe cardiac disease, cancer history, and smoking history, the covariates included in the multivariate regression model were age and severe cardiac condition.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

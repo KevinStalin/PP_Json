@@ -1,0 +1,1690 @@
+{
+    "paper_id": "0acb3655add4b55361a040cd29b8c92e6c62ea13",
+    "metadata": {
+        "title": "Ciprofloxacin and moxifloxacin could interact with SARS-CoV-2 protease: preliminary in silico analysis",
+        "authors": [
+            {
+                "first": "Krzysztof",
+                "middle": [],
+                "last": "Marciniec",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Artur",
+                "middle": [],
+                "last": "Beberok",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "\u00b7",
+                "middle": [],
+                "last": "Pawe\u0142 P\u0119cak",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "\u00b7",
+                "middle": [],
+                "last": "Stanis\u0142aw Boryczka",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Dorota",
+                "middle": [],
+                "last": "Wrze\u015bniok",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background A large body of research has focused on fluoroquinolones. It was shown that this class of synthetic antibiotics could possess antiviral activity as a broad range of anti-infective activities. Based on these findings, we have undertaken in silico molecular docking study to demonstrate, for the first time, the principle for the potential evidence pointing ciprofloxacin and moxifloxacin ability to interact with COVID-19 Main Protease. Methods In silico molecular docking and molecular dynamics techniques were applied to assess the potential for ciprofloxacin and moxifloxacin interaction with COVID-19 Main Protease (M pro ). Chloroquine and nelfinavir were used as positive controls.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results We revealed that the tested antibiotics exert strong capacity for binding to COVID-19 Main Protease (M pro ). According to the results obtained from the GOLD docking program, ciprofloxacin and moxifloxacin bind to the protein active site more strongly than the native ligand. When comparing with positive controls, a detailed analysis of the ligand-protein interactions shows that the tested fluoroquinolones exert a greater number of protein interactions than chloroquine and nelfinavir. Moreover, lower binding energy values obtained from K DEEP program were stated when compared to nelfinavir.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In recent years, several fluoroquinolone derivatives were synthesized and approved by FDA as a broad spectrum, antibacterial agents used in the treatment of respiratory and urinary tract infections [1, 2] . These drugs are effective in the treatment of the hospital-acquired infections in which resistance to older antibacterial classes is suspected [3] . Their mechanism of action is based on inhibition of the activities of prokaryotic DNA gyrase-topoisomerase II and topoisomerase IV which are involved in replication, transcription and DNA synthesis [1] .",
+            "cite_spans": [
+                {
+                    "start": 198,
+                    "end": 201,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 202,
+                    "end": 204,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 350,
+                    "end": 353,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 554,
+                    "end": 557,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Some commercially available fluoroquinolones (e.g. ciprofloxacin) used for the treatment of bacterial infections were shown to be active against other non-bacterial incidents. Fluoroquinolones may have antiviral (e.g. vaccinia virus, papovavirus, human cytomegalovirus, herpes simplex virus types 1 and 2, hepatitis C virus) [4] [5] [6] , antifungal, and antiparasitic actions at the clinically achievable concentrations. This broad range of anti-infective activities is due to one common mode of action: the inhibition of type II topoisomerases or inhibition of viral helicases [7] . Therefore, the respiratory fluoroquinolones could be considered as an adjunct treatment in COVID-19 [8] .",
+            "cite_spans": [
+                {
+                    "start": 325,
+                    "end": 328,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 329,
+                    "end": 332,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 333,
+                    "end": 336,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 579,
+                    "end": 582,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 685,
+                    "end": 688,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Coronaviruses (CoVs) can infect humans and vertebrate animals. CoV infections affect the respiratory, digestive, liver, and central nervous systems of humans and animals [9] . The new strain of CoV was identified at the end of 2019, named 2019-nCoV, and emerged during an outbreak in Wuhan, China [10] . No specific therapies for COVID-19 are currently available [11] . Proteases represent potential targets for the inhibition of CoV replication, and the protein sequences of the SARS-CoV M pro and the 2019-nCoV M pro (also known as 3-chymotrypsin-like protease-3CL pro ) are 96% identical, and the active sites in both proteins remain free from mutations [12] . According to the crystallographic data, amino acids His 41, His 164, Met 49, Met 165, Thr 190, and Gly 143 play an important role in the stabilization the ligand-M pro complexes [13, 14] . Because the proteases play a key role in viral replication, they are considered as molecular targets when developing antiviral drugs [15, 16] . What is important, the development of medicines treating diseases caused by SARS-CoV-2; the fastest way is to find potential agent among the already-marketed drugs.",
+            "cite_spans": [
+                {
+                    "start": 170,
+                    "end": 173,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 297,
+                    "end": 301,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 363,
+                    "end": 367,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 657,
+                    "end": 661,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 842,
+                    "end": 846,
+                    "text": "[13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 847,
+                    "end": 850,
+                    "text": "14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 986,
+                    "end": 990,
+                    "text": "[15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 991,
+                    "end": 994,
+                    "text": "16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A series of actions have been taken to control the epidemic of the 2019-nCoV virus, and the effective therapeutic methods are in urgent needs to prevent infection. Due to the time-consuming process of developing new medicines, drug repositioning may be the only solution to overcome infectious diseases. There are no data demonstrating the possible interaction of fluoroquinolones with COVID-19 Main Protease (M pro ). Therefore, to provide a basis for potential evidence indicating the fluoroquinolones ability to interact with COVID-19 protease, the present experimental study was designed to investigate the binding capacity of ciprofloxacin and moxifloxacin to the COVID-19 target protein.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The in silico molecular docking technique was applied to check if the two already-marketed fluoroquinolones derivatives may interact with the virus main protease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The three-dimensional (3D) structures of studied compounds were generated in their low-energy conformation using Gaussian 16 (revision A.03) computer code [17] at the density functional theory (DFT, B3LYP) and 6-311 + G(d,p) basis sets. Calculations were performed using the X-ray coordinates of ciprofloxacin, moxifloxacin and chloroquine as the input structure obtained from the Cambridge Crystallographic Data Centre (CCDC ID: NUWFUI, ABABIQ, and CDMQUI, respectively).",
+            "cite_spans": [
+                {
+                    "start": 155,
+                    "end": 159,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "Target macromolecule for molecular docking studies was obtained from the Protein Data Bank (https ://www.rcsb. org/). We used 3D crystal structures of COVID-19 main protein (PDB ID: 5R7Z).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "Genetic Optimization for Ligand Docking (GOLD) 5.6.3 [18] was used for the docking analysis. The Hermes visualiser in the GOLD Suite was used to further prepare receptors. All hydrogen atoms, including those necessary to define the correct ionisation and tautomeric states of residues such as Asp, Glu and His, were added and all water molecules and ligands were deleted for docking. GOLD is an automated ligand docking program that uses a genetic algorithm to explore the full range of ligand conformational flexibility with partial flexibility of the protein (flexibility of receptor hydrogens) [19] . The region of interest used for GOLD docking was defined as all the COVID-19 protein residues within the 6 \u00c5 of the reference ligand. Default values of all other parameters were used and the complexes were submitted to 100 genetic algorithm runs using the GoldScore fitness function. After calculations, only the ten highest scored pose was returned as a docking result for ligand-cavity configuration. All obtained results were ranked according to their score value and presented in GOLD arbitrary units (a.u.).",
+            "cite_spans": [
+                {
+                    "start": 53,
+                    "end": 57,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 597,
+                    "end": 601,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "Calculation of protein-ligand binding free energy was performed using K DEEP predictor based on DCNNs (https :// playm olecu le.org/Kdeep ) [20] .",
+            "cite_spans": [
+                {
+                    "start": 140,
+                    "end": 144,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "Molecular docking details were visualized using the BIO-VIA Discovery Studio virtual environment [21] .",
+            "cite_spans": [
+                {
+                    "start": 97,
+                    "end": 101,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "Molecular dynamics simulation was performed with Nanoscale Molecular Dynamics software ver. 2.13 (NAMD, https ://www.ks.uiuc.edu/Resea rch/namd/) [22] . All input files were prepared using QwikMD [23] computer program based on GOLD output complexes. Protein-ligand systems have been solvated with 0.15 mol/L NaCl water box. Then system was minimized, annealed and equilibrated. After that, 10 ns production simulation was performed. Results were analyzed using Visual Molecular Dynamics package (VMD, https ://www.ks.uiuc.edu/Resea rch/vmd/) [24] .",
+            "cite_spans": [
+                {
+                    "start": 146,
+                    "end": 150,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 196,
+                    "end": 200,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 542,
+                    "end": 546,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "To validate the accuracy of GoldScore protocol in GOLD, the cocrystallized COVID-19 M pro protein reference ligand was redocked into the binding site of protein. The rootmean-square deviation (RMSD) value between crystallized structure and docking pose of control is 0.4201, which shows a good accuracy in the docking simulation by GoldScore protocol. So, we employ GoldScore protocol as suitable for ciprofloxacin and moxifloxacin docking with COVID-19 protein. We used the zwitterionic state of ciprofloxacin and moxifloxacin in our calculations. The tested compounds ranked by GOLD are shown in Table 1 . All obtained results were presented in GOLD arbitrary units (a.u.) Highest scores in silico correspond to a strong binding affinity, and the most probable ligand-protein system in vivo.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 598,
+                    "end": 605,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "COVID-19 main protease (M pro ) structure was obtained from PDB (PDB ID: 5R7Z). The native ligand for 5R7Z is N-[2-(5-fluoranyl-1H-indol-3-yl)ethyl]ethanamide (HWH)."
+        },
+        {
+            "text": "Accurately predicting protein-ligand binding affinities is an important problem in computational chemistry since it can substantially accelerate drug discovery for virtual screening. In this work, we also used a fast machine-learning approach for predicting binding affinities using state-of-theart deep convolutional neural networks (DCNNs). For comparison and validation of docking results, we used K DEEP predictor. K DEEP predicts binding affinities using DCNNs and calculates the binding energy \u0394G [kcal/mol] of protein-ligand complexes. In this case, the more negative the \u0394G value of the binding reaction, the higher the binding affinity of the ligand for its specific target protein (Fig. 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 691,
+                    "end": 699,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "COVID-19 main protease (M pro ) structure was obtained from PDB (PDB ID: 5R7Z). The native ligand for 5R7Z is N-[2-(5-fluoranyl-1H-indol-3-yl)ethyl]ethanamide (HWH)."
+        },
+        {
+            "text": "Based on the simulations performed in GOLD, ciprofloxacin and moxifloxacin were found to be more strongly associated with the active protein site than the reference ligand HWH, but less strongly than chloroquine and nelfinavir ( Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 229,
+                    "end": 237,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "COVID-19 main protease (M pro ) structure was obtained from PDB (PDB ID: 5R7Z). The native ligand for 5R7Z is N-[2-(5-fluoranyl-1H-indol-3-yl)ethyl]ethanamide (HWH)."
+        },
+        {
+            "text": "The analysis of the results obtained in K DEEP show that that moxifloxacin showed the lowest binding energy value compared to reference ligands. The tested compounds demonstrate a degree of fit in the following order: moxifloxacin > chloroquine > ciprofloxacin > nelfinavir > HWH ( Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 282,
+                    "end": 290,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "COVID-19 main protease (M pro ) structure was obtained from PDB (PDB ID: 5R7Z). The native ligand for 5R7Z is N-[2-(5-fluoranyl-1H-indol-3-yl)ethyl]ethanamide (HWH)."
+        },
+        {
+            "text": "The indole moiety of HWH was located deep in the matrix of the active site near the side chains of the residues in positions Met 49, Met 165, His 41 and His 164 (Figs. 2a, 3a, 4a) . Complex of WHW with protein revealed that the fluorine-substituted benzene ring of indole moiety forms hydrogen bond with His 41. Another dipolar interaction between fluorine and the amide group of His 164 is also visible, as well as hydrophobic interaction involving an aromatic or aliphatic carbon or sulfur in the receptor and an aromatic carbon in the ligand. These interactions are also present in re-docked pose of HWH (Figs. 3b, 4b) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 161,
+                    "end": 179,
+                    "text": "(Figs. 2a, 3a, 4a)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 607,
+                    "end": 621,
+                    "text": "(Figs. 3b, 4b)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "COVID-19 main protease (M pro ) structure was obtained from PDB (PDB ID: 5R7Z). The native ligand for 5R7Z is N-[2-(5-fluoranyl-1H-indol-3-yl)ethyl]ethanamide (HWH)."
+        },
+        {
+            "text": "According to the docking poses in Figs. 3c, 4c, carboxylate group of ciprofloxacin can interact to form hydrogen bonds with residues Gly 143 and Cys 145 of the protein.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 main protease (M pro ) structure was obtained from PDB (PDB ID: 5R7Z). The native ligand for 5R7Z is N-[2-(5-fluoranyl-1H-indol-3-yl)ethyl]ethanamide (HWH)."
+        },
+        {
+            "text": "Complex of ciprofloxacin with 5R7Z revealed that the piperazine moiety forms another hydrogen bonds between a positively charged nitrogen of piperazine and Arg 188 and Thr 190. In addition, numerous hydrophobic interactions (including interaction with His 41, Met 49 and His 164) influence the increase in the stability of the complex ( Table 2) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 337,
+                    "end": 345,
+                    "text": "Table 2)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "COVID-19 main protease (M pro ) structure was obtained from PDB (PDB ID: 5R7Z). The native ligand for 5R7Z is N-[2-(5-fluoranyl-1H-indol-3-yl)ethyl]ethanamide (HWH)."
+        },
+        {
+            "text": "Figures 3d and 4d present the possible interaction of moxifloxacin inside the binding pocket of COVID-19 M pro after 2D analysis in the Discovery Studio Visualizer. Corresponding amino acids that are significantly involved Table 2) . Complex of chloroquine with 5R7Z revealed that the endocyclic nitrogen atom of pyridine ring forms a hydrogen bond with Arg 188 (Figs. 3e, 4e) . Dipolar interaction between chlorine atom and Leu 167 is also visible, as well as hydrophobic interaction involving an aromatic or aliphatic carbon in the receptor as well as an aliphatic or aromatic carbon in the ligand (including \u03c0-alkyl interaction of Met 49). Subsequent weak hydrogen bond interaction between Pro 168 and chlorine atom increase the stability of the ligand-receptor complex (Figs. 5, 6) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 223,
+                    "end": 231,
+                    "text": "Table 2)",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 362,
+                    "end": 376,
+                    "text": "(Figs. 3e, 4e)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 773,
+                    "end": 785,
+                    "text": "(Figs. 5, 6)",
+                    "ref_id": null
+                }
+            ],
+            "section": "COVID-19 main protease (M pro ) structure was obtained from PDB (PDB ID: 5R7Z). The native ligand for 5R7Z is N-[2-(5-fluoranyl-1H-indol-3-yl)ethyl]ethanamide (HWH)."
+        },
+        {
+            "text": "The analyses of the complex of nelfinavir and 5R7Z included calculations, distance measurements, and pose geometries that determined hydrogen bonding interactions of the ligand pose with Cys 145 and Gln 189. Moreover, Cys 145 forms another interactions between a sulfur atom and benzene ring (sulfur-\u03c0), His 164 forms interaction with propyl chain and (carbon hydrogen bond), and His 41 forms interaction with amide group (\u03c0-lone pair). In addition, numerous hydrophobic interactions between cyclohexyl ring of perhydroisoquinoline moiety (alkyl-\u03c0) influence the increase in the stability of the complex.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 main protease (M pro ) structure was obtained from PDB (PDB ID: 5R7Z). The native ligand for 5R7Z is N-[2-(5-fluoranyl-1H-indol-3-yl)ethyl]ethanamide (HWH)."
+        },
+        {
+            "text": "To verify stability of obtained docking poses, a molecular dynamics simulations were performed. Root mean square deviation (RMSD) of protein backbone and ligand in protein-ligand systems has been obtained. Low value of RMSD proves minor conformational changes of initial poses and validates docking protocol. Mpro demonstrated constant value of RMSD in all complexes, confirming reaching structural equilibrium. Ciprofloxacin, moxifloxacin and HWH have most optimal RMSD profile with medium value below 1.5 \u00c5. On the other hand, nelfinavir during the first 7 ns of simulation keeps constant value, but next it quickly These results indicate that compounds possessing highest Dock score (nelfinavir and chloroquine) may by less stable than lower-scoring compounds. Overall, molecular dynamics simulations show that ciprofloxacin and moxifloxacin are good anti-SARS-CoV-2 drug candidates.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 main protease (M pro ) structure was obtained from PDB (PDB ID: 5R7Z). The native ligand for 5R7Z is N-[2-(5-fluoranyl-1H-indol-3-yl)ethyl]ethanamide (HWH)."
+        },
+        {
+            "text": "To the best of our knowledge, there is currently no specific medicine or treatment for diseases caused by SARS-CoV-2 (2019-nCoV). Recently, the virus main protease (Mpro), also known as 3-chymotrypsin-like protease (3CLpro), has been successfully crystallised. The 3CLpro is automatically cleaved from poly-proteins to produce mature enzymes, and then further cleaves downstream non-structural proteins (Nsps) to release Nsp4-Nsp16, including the RNA-dependent RNA polymerase and helicase [25] . Since 3CLpro mediates the maturation of Nsps, which is essential in the life cycle of the virus, the inhibition of Mpro would prevent SARS-CoV-2 from replication and may constitute the potential drug target.",
+            "cite_spans": [
+                {
+                    "start": 489,
+                    "end": 493,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Finding new applications for already approved drugs with well-established pharmacokinetic and safety profile is more economical as well as much faster than developing a new drug and may consist of effective therapy strategy to overcome diseases. In the current study, we revealed the potential capacity of ciprofloxacin and moxifloxacin, members of fluoroquinolone broad-spectrum synthetic antibiotics, for The detailed analysis of the ligand-protein interactions indicates that ciprofloxacin and moxifloxacin show a higher number of protein interactions than chloroquine and nelfinavir. It is worth emphasizing that ciprofloxacin binds to the protein with four strong hydrogen bonds and a significant number of hydrophobic interactions. Moreover, analysis of the docking results presented in Table 1 shows that ciprofloxacin and moxifloxacin exert lower binding energy values compared to nelfinavir. In addition, ciprofloxacin and moxifloxacin have most optimal RMSD profile with medium value below 1.5 \u00c5.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 793,
+                    "end": 800,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Thus, both fluoroquinolone antibiotics may be potential inhibitors of the tested protease. It should be noted that ciprofloxacin and moxifloxacin represent the class of synthetic antibiotics used to treat upper respiratory tract diseases and also in the case of bacterial infections in which the resistance to the treatment with \u03b2-lactam antibiotics and macrolides was developed [26] . Another advantage of fluoroquinolones in the analysed context is their high bioavailability and the large distribution volume. Based on the good pharmacokinetic properties, ciprofloxacin is able to achieve higher concentrations in the target tissues than in plasma, which provides the opportunity for its widely use in the treatment of the respiratory and urinary tract infections [27, 28] . For example, it was noticed that the concentration of the drug after oral administration may reach the value in the lung tissue up to seven times higher than in the serum [29] . Ciprofloxacin can be safely taken at higher oral doses (above 500 mg twice a day) as a long-term therapy and thus different dosage options can be considered [30] . Therefore, the possible dual-mode of action could be especially used in the broad range of antiinfective activities in patients with COVID-19. Due to the fact, that further studies need to be conducted to elucidate the in vitro as well as in vivo efficacy of the tested fluoroquinolones that could strengthen findings reported in the present study, we want to share our results with scientists in anti-SARS-CoV-2 research as soon as possible.",
+            "cite_spans": [
+                {
+                    "start": 379,
+                    "end": 383,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 767,
+                    "end": 771,
+                    "text": "[27,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 772,
+                    "end": 775,
+                    "text": "28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 949,
+                    "end": 953,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1113,
+                    "end": 1117,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Acknowledgements This work was supported by the Medical University of Silesia Grants nos. KNW-1-037/K/9/O, KNW-1-055/K/9/O. Energy-minimization calculations have been carried out using resources provided by Wroclaw Centre for 818 Networking and Supercomputing (https ://wcss.pl), Grant no. 382. The authors are grateful to Czestochowa University of Technology for granting access to HPC platform provided by the MICLAB project no. POIG.02.03.00.24-093/13.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creat iveco mmons .org/licen ses/by/4.0/. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest We declare no competing interests."
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Mechanisms of quinolone action and resistance: where do we stand",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Correia",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Poeta",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "H\u00e9braud",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Capelo",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Igrejas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Med Microbiol",
+            "volume": "66",
+            "issn": "",
+            "pages": "551--560",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Fluoroquinolones structural and medicinal developments (2013-2018): where are we now",
+            "authors": [
+                {
+                    "first": "Gary",
+                    "middle": [],
+                    "last": "Suaifan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aam",
+                    "middle": [],
+                    "last": "Mohammed",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Bioorg Med Chem",
+            "volume": "27",
+            "issn": "",
+            "pages": "3005--60",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Modifications of quinolones and fluoroquinolones: hybrid compounds and dual-action molecules",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fedorowicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "S\u0105czewski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Monatsh Chem",
+            "volume": "149",
+            "issn": "",
+            "pages": "1199--245",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Antiviral properties of quinolone-based drugs",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Richter",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Parolin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Palumbo",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Pal\u00f9",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Curr Drug Targets Infect Disord",
+            "volume": "4",
+            "issn": "",
+            "pages": "111--117",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Fluoroquinolones inhibit HCV by targeting its helicase",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Siddiqui",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rehmani",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Kazmi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Ali",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Antivir Ther",
+            "volume": "17",
+            "issn": "",
+            "pages": "467--76",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Efficacy and safety of ciprofloxacin for prophylaxis of polyomavirus BK virus-associated hemorrhagic cystitis in allogeneic hematopoietic stem cell transplantation recipients",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Glode",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hogan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Schaub",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kramer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Stuart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Biol Blood Marrow Transplant",
+            "volume": "17",
+            "issn": "",
+            "pages": "1176--81",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Antiviral, antifungal, and antiparasitic activities of fluoroquinolones optimized for treatment of bacterial infections: a puzzling paradox or a logical consequence of their mode of action?",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dalhoff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Eur J Clin Microbiol Infect Dis",
+            "volume": "34",
+            "issn": "",
+            "pages": "661--669",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Could respiratory fluoroquinolones, levofloxacin and moxifloxacin, prove to be beneficial as an adjunct treatment in COVID-19",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Karampela",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dalamaga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Arch Med Res",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.arcmed.2020.06.004"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Systematic comparison of two animal-to-human transmitted human coronaviruses: SARS-CoV-2 and SARS-CoV",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Teng",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Abdalla",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Viruses",
+            "volume": "22",
+            "issn": "12",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Emerging threats from zoonotic coronavirusesfrom SARS and MERS to 2019-nCoV",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hsueh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Microbiol Immunol Infect",
+            "volume": "53",
+            "issn": "",
+            "pages": "365--372",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Going global-travel and the 2019 novel coronavirus",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rodr\u00edguez-Morales",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Macgregor",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kanagarajah",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Schlagenhauf",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Travel Med Infect Dis",
+            "volume": "33",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Potential inhibitors against 2019-nCoV coronavirus M protease from clinically approved medicines",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Genet Genom",
+            "volume": "47",
+            "issn": "",
+            "pages": "119--140",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "PanDDA analysis group deposition-crystal structure of COVID-19 main protease in complex with Z1220452176",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fearon",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Powell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Douangamath",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Owen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wild",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Krojer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2210/pdb5r7z/pdb"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "The crystal structure of COVID-19 main protease in complex with an inhibitor N3",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jin",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Rao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2210/pdb6LU7/pdb"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Antiviral drug discovery: norovirus proteases and development of inhibitors",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lovell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Rathnayake",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Groutas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Viruses",
+            "volume": "25",
+            "issn": "11",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Substrate specificity profiling of SARS-CoV-2 M pro protease provides basis for anti COVID-19 drug design",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Rut",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Groborz",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zmudzinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hilgenfeld",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.07.981928"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Gaussian 16, revision A",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Frisch",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Trucks",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Schlegel",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Scuseria",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Robb",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Protein-ligand docking and virtual screening with GOLD in virtual screening in drug discovery",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cole",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jwm",
+                    "middle": [],
+                    "last": "Nissink",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Taylor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Virtual screening in drug discovery",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Development and validation of a genetic algorithm for flexible docking",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Willett",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Glen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Leach",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Taylor",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "J Mol Biol",
+            "volume": "267",
+            "issn": "",
+            "pages": "727--775",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Gianni De Fabritiis protein-ligand absolute binding affinity prediction via 3D-convolutional neural networks",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jim\u00e9nez",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "\u0160kali\u010d",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mart\u00ednez-Rosell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Chem Inf Model",
+            "volume": "58",
+            "issn": "",
+            "pages": "287--96",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Discovery studio modeling environment; release 2017",
+            "authors": [
+                {
+                    "first": "Dessault",
+                    "middle": [],
+                    "last": "Systemes",
+                    "suffix": ""
+                },
+                {
+                    "first": "Biovia",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Dessault Systemes",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Scalable molecular dynamics with NAMD",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Phillips",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Braun",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gumbart",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Tajkhorshid",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Villa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Comput Chem",
+            "volume": "26",
+            "issn": "",
+            "pages": "1781--802",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Integrative molecular dynamics toolkit for novices and experts",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Ribeiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Bernardi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Rudack",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Stone",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Phillips",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Freddolino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Sci Rep",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "VMD-visual molecular dynamics",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Humphrey",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dalke",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Schulten",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "J Mol Graph",
+            "volume": "14",
+            "issn": "",
+            "pages": "33--41",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Potential inhibitor of COVID-19 Main Protease (M pro ) from several medicinal plant compounds by molecular docking study",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Khaerunnisa",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kurniawan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Awaluddin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Suhartati",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Soetjipto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Safety profile of the respiratory fluoroquinolone moxifloxacin: comparison with other fluoroquinolones and other antibacterial classes",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Van Bambeke",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tulkens",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Drug Saf",
+            "volume": "32",
+            "issn": "",
+            "pages": "359--78",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Antimicrobial safety: focus on fluoroquinolones",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Owens",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Ambrose",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Clin Infect Dis",
+            "volume": "41",
+            "issn": "",
+            "pages": "144--57",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Quinolones: a comprehensive review",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Oliphant",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Green",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Am Fam Phys",
+            "volume": "65",
+            "issn": "",
+            "pages": "455--64",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Penetration of ciprofloxacin and metabolites into human lung, bronchial and pleural tissue after 250 and 500 mg oral ciprofloxacin",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rohwedder",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bergan",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Caruso",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Thorsteinsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Torre",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Chemotherapy",
+            "volume": "37",
+            "issn": "",
+            "pages": "229--267",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Impact of prolonged treatment with high-dose ciprofloxacin on human gut flora: a case report",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kourbeti",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Alegakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Maraki",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Samonis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Med Case Rep",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Structure of compounds used in this study in the hydrophobic interactions are as follows: His 164 (dipole-dipole) Ala 191, Gln 189 (carbon-hydrogen bond); Cys 145 (alkyl); His 41, Met 165, Met 165 (\u03c0-alkyl), His 41 (cation-\u03c0); and 9 amino acids (Van der Waals). Strong hydrogen bond interaction between Gln 192 and carboxylate group and carbonyl oxygen atom of pyridone moiety increase the stability of the ligand-receptor complex (",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Docking to value of 3 \u00c5, similar to chloroquine (3.5 \u00c5).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "The COVID-19 Main Protease (M pro ), indicating the basis for a possible new strategy of COVID-19 treatment and ciprofloxacin and moxifloxacin repositioning to treat SARS-CoV-2 infections.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Fig. 4 Binding 2D model of HWH (a in crystal structure and b redocked) and predicted binding model of ciprofloxacin (c), moxifloxacin (d), chloroquine (e) and nelfinavir (f) with COVID-19 M pro",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "RMSD RMSD values of ligands in protein-ligand complexes",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Scoring functions of tested compounds",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Interaction of tested compounds with COVID-19 M pro",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

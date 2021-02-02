@@ -1,0 +1,2761 @@
+{
+    "paper_id": "0ad091d000b909ebdd17f2689652088c972474fb",
+    "metadata": {
+        "title": "Therapeutic application of recombinant human ADAMTS-13 improves shock reversal and coagulation status in a trauma hemorrhage and transfusion rat model",
+        "authors": [
+            {
+                "first": "Mathijs",
+                "middle": [
+                    "R"
+                ],
+                "last": "Wirtz",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Amsterdam University Medical Centers",
+                    "location": {
+                        "settlement": "Amsterdam",
+                        "country": "The Netherlands"
+                    }
+                },
+                "email": "m.r.wirtz@amsterdamumc.nl"
+            },
+            {
+                "first": "Daan",
+                "middle": [
+                    "P"
+                ],
+                "last": "Van Den Brink",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Amsterdam University Medical Centers",
+                    "location": {
+                        "settlement": "Amsterdam",
+                        "country": "The Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Joris",
+                "middle": [
+                    "J T H"
+                ],
+                "last": "Roelofs",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [
+                    "Carel"
+                ],
+                "last": "Goslings",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nicole",
+                "middle": [
+                    "P"
+                ],
+                "last": "Juffermans",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Amsterdam University Medical Centers",
+                    "location": {
+                        "settlement": "Amsterdam",
+                        "country": "The Netherlands"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "In hemorrhaging trauma patients, the endothelium is activated, resulting in excessive endothelial synthesis of von Willebrand Factor (vWF), which may enhance microthrombi formation, resulting in obstruction of the microcirculation and endothelial injury, aggravating bleeding, as well as contributing to organ failure. Under normal conditions, vWF is cleaved by the metalloprotease ADAMTS-13. After trauma, ADAMTS-13 levels are reduced. Objectives: To assess whether recombinant human ADAMTS-13 inhibits endothelial injury and organ failure in a rat trauma-transfusion model.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Methods: Blood products were prepared from syngeneic rat blood according to blood bank standards. Polytrauma was induced in rats by crush injury to the intestines and liver and by fracture of the femur. The rats were hemorrhaged until a mean arterial pressure (MAP) of 40 mmHg was reached. Rats were randomized to receive transfusion of RBCs, FFPs, and platelets in a 1:1:1 ratio to achieve a MAP of 70 mmHg, with or without the addition of ADAMTS-13 (50 \u03bcg/kg). Blood samples were assessed for biochemistry and rotational thromboelastometry (ROTEM). Syndecan-1 and VE-cadherin levels were measured as a reflection of endothelial integrity. The amount of leakage of dextran-FITC from the vascular system to the parenchyma in lungs was quantified. To assess inflammation, IL-6 and IL-8 levels were determined. Organ damage was assessed by histopathology.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Patients with traumatic bleeding who survive their initial injuries can develop severe complications such as multiple organ failure (MOF). The incidence of post-injury MOF ranges from 15 to 40% with an associated mortality rate of up to 50% [1] . The exact mechanism underlying MOF is unknown, but trauma-induced endothelial dysfunction is thought to play a role [2, 3] . Therapeutic strategies aiming to prevent endothelial dysfunction could therefore limit MOF post trauma.",
+            "cite_spans": [
+                {
+                    "start": 241,
+                    "end": 244,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 363,
+                    "end": 366,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 367,
+                    "end": 369,
+                    "text": "3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Endothelial integrity is maintained by the glycocalyx, which is a layer of proteoglycans lining the luminal surface of the vessel wall. When endothelial integrity gets disrupted, glycocalyx constituents such as syndecan-1 and vascular endothelial (VE)-cadherin are shed into the circulation. Elevated levels are detected in traumatically injured patients, suggesting a loss of endothelial integrity [4] [5] [6] . Currently, the pathophysiology of endothelial dysfunction in trauma is not fully understood. It was postulated that the ratio of von Willebrand Factor (vWF) to ADAMTS-13 (a desintegrin and metalloprotease with a thrombospondin type 1 motif, member 13) may play an important role [7] [8] [9] . After injury, vWF is shed from endothelial cells and mediates platelet adhesion at sites of vascular injury. Monomers of vWF can bind together to form ultra-large von Willebrand factor (ULvWF)-multimers that have the ability to form thrombi spontaneously, due to a very high platelet-binding affinity [10] . The enzyme ADAMTS-13 regulates the size of vWF by cleaving the ULvWF multimers, thereby preventing excess thrombi formation, resulting in a balanced hemostasis.",
+            "cite_spans": [
+                {
+                    "start": 399,
+                    "end": 402,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 403,
+                    "end": 406,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 407,
+                    "end": 410,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 692,
+                    "end": 695,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 696,
+                    "end": 699,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 700,
+                    "end": 703,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1007,
+                    "end": 1011,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "When increased vWF release outweighs the cleaving capacity of ADAMTS-13, an excess of ULvWF multimers are released in the circulation. An increased ratio of vWF to ADAMTS-13 is found in critically ill septic patients [7] and is consistently associated with organ failure [11] , probably due to micro-thrombi occluding the microcirculation and causing endothelial damage.",
+            "cite_spans": [
+                {
+                    "start": 217,
+                    "end": 220,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 271,
+                    "end": 275,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In trauma patients, a similar pattern to sepsis is found, with low ADAMTS-13 levels [9, 12] , whereas vWF is excessively synthesized and shed [8] . In pediatric trauma patients, a dysbalanced ADAMTS-13/vWF antigen ratio was associated with impaired coagulation and increased levels of syndecan-1 compared to healthy controls [12] .",
+            "cite_spans": [
+                {
+                    "start": 84,
+                    "end": 87,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 88,
+                    "end": 91,
+                    "text": "12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 142,
+                    "end": 145,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 325,
+                    "end": 329,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Transfusion of plasma products may increase early survival in trauma [13] , but this benefit is not related to correction of trauma-induced coagulopathy (TIC) [13] [14] [15] . Several preclinical models suggest that plasma can restore the disrupted endothelial barrier function, through restoration of the glycocalyx [16, 17] . Clinical studies in trauma patients support this notion of endothelial improvement after plasma transfusion [18] . In critically ill patients with a coagulopathy, plasma transfusion reduced shedding of vWF and syndecan-1 from the endothelium, which was associated with increased levels of ADAMTS-13 [19] . Given that plasma products contain ADAMTS-13 [20] , we postulate that ADAMTS-13 is an important factor in the restoration of endothelial function.",
+            "cite_spans": [
+                {
+                    "start": 69,
+                    "end": 73,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 159,
+                    "end": 163,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 164,
+                    "end": 168,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 169,
+                    "end": 173,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 317,
+                    "end": 321,
+                    "text": "[16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 322,
+                    "end": 325,
+                    "text": "17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 436,
+                    "end": 440,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 627,
+                    "end": 631,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 679,
+                    "end": 683,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The aim of this study was to investigate the effect of recombinant human ADAMTS-13 on the endothelial integrity, (platelet mediated) coagulation, and MOF in a trauma and transfusion rat model when given as an adjunct therapy to balanced resuscitation. We hypothesized that the administration of ADAMTS-13 leads to less consumption of platelets with concomitant improvement in coagulation and with a reduction in endothelial damage and ensuing MOF.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This study was approved by the Animal Care and Use Committee of the Amsterdam University Medical Centers, location Academic Medical Center at the University of Amsterdam, The Netherlands. This study was conducted in compliance with the Animal Welfare Act, the implementing Animal Welfare Regulations, and the Principles of the Guide for the Care and Use of Laboratory Animals.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Preparation of red blood cells (RBC), fresh frozen plasma (FFP), and platelets (PLT) was conducted 2 days before the experiment. For every rat in the experiment, a donor rat was used. Rat blood products were made by collecting blood by heart puncture using a 19G needle and pooled for component preparation, as we have reported before [21] .",
+            "cite_spans": [
+                {
+                    "start": 335,
+                    "end": 339,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Blood product preparation"
+        },
+        {
+            "text": "Blood products were prepared by centrifuging pooled whole blood for 10 min at 1892g at 20\u00b0C. Plasma, packed erythrocytes, and the buffy coat were then separated. The buffy coat was diluted with pooled plasma to a hematocrit of approximately 20% and centrifuged for 10 min at 288g to separate the majority of the remaining erythrocytes and leucocytes from the platelets. The platelet rich plasma (PLT product) was held under continuous movement, in culture flasks at 22\u00b0C under a 5% CO 2 /95% air mixture, until the day of the experiment [22] . The rest of the plasma was frozen at \u2212 80\u00b0C to serve as FFP products. For the RBC product, saline-adenine-glucose-mannitol (SAGM) was added to the remaining packed erythrocytes to end up with a hematocrit of 55-60% [23] , which was stored in 4\u00b0C until the day of the experiment. Blood products were stored according to national Blood Bank standards (Sanquin, Amsterdam, The Netherlands).",
+            "cite_spans": [
+                {
+                    "start": 537,
+                    "end": 541,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 759,
+                    "end": 763,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Blood product preparation"
+        },
+        {
+            "text": "At the day of the experiment, FFP products were thawed in ice water for 45-60 min, after which it was kept at room temperature. RBC products were kept at room temperature as well. Just before start of resuscitation, PLT products were removed from the platelet incubator and all blood products were pooled together to achieve a 1:1:1 volume ratio of RBCs, FFPs, and platelets.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Blood product preparation"
+        },
+        {
+            "text": "Male Sprague Dawley rats were approximately 12 weeks of age, with an average weight of around 350 g. Animals lived in standard cages under normal conditions of a 12:12-h light:dark cycle and received standard lab chow and water ad libitum. Rats were anesthetized using an intraperitoneal injection of KDA (ketamine (1.8 mL 100 mg/mL; Nimatek\u00ae, Eurovet Animal Health BV, Bladel, Netherlands), dexmedetomidine (0.5 mL 0.5 mg/mL; Dexdomitor\u00ae, Orion Pharma, Espoo, Finland), atropine (0.2 mL 0.5 mg/mL; Pharmachemie BV, Haarlem, Netherlands) and 0.5 mL of NaCl 0.9%), tracheotomized and connected to a mechanical ventilator for the duration of the entire experiment (Babylog 8000, Dr\u00e4ger) [21] . Atropine was administered to prevent respiratory problems due to salivary and excessive bronchial secretions. Maintenance anesthesia consisted of 50 mg/kg ketamine and a pain stimulus was administered every hour to evaluate the level of anesthesia. Body temperature was continuously monitored and controlled by placing the rats on a heated surface set to 37\u00b0C. Polytrauma was induced by performing a midline laparotomy, after which the left and medial liver lobes and 5 cm of the small intestine were crushed using a surgical clamp covered with silicone tubing. Subsequently, the right femur was fractured using a blunt guillotine. By cannulating the carotid artery, the rats were monitored and hemorrhaged until a mean arterial pressure (MAP) of 40 mmHg was reached. After 45 min in a shock state with severe hypotension, rats were transfused at a rate of 8-12 mL/hour in a 1:1:1 ratio of RBC: FFP:PLT through a catheter in the jugular vein. Resuscitation continued until a MAP of 70 mmHg was reached. To objectify the amount of endothelial leakage, rats were infused with a dextran marker of 70 kDa labeled with fluorescein isothiocyanate (0.5 mL 100 mg/mL in NaCl 0.9%; Sigma-Aldrich, St. Louis, USA) 30 min before exsanguination. Six hours after the polytrauma, rats were sacrificed by exsanguination.",
+            "cite_spans": [
+                {
+                    "start": 685,
+                    "end": 689,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Trauma-transfusion model"
+        },
+        {
+            "text": "After exsanguination, the circulation was flushed using heparinized saline (40 \u03bcL of 5000 IE/mL per liter saline, Leo Pharma BV, Amsterdam) through the apex of left ventricle and the jugular vein, to remove the excess of intravascular dextran-FITC. After the flushing protocol, the left lung, left kidney, spleen, and medial liver lobe were removed and snap frozen in liquid nitrogen and stored in \u2212 80\u00b0C awaiting fluorescent analysis. The right lung, right kidney, small intestine, and liver were removed and fixed in 10% buffered formalin and embedded in paraffin awaiting further histopathological analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sacrifice"
+        },
+        {
+            "text": "Rats received transfusion of RBCs, FFPs, and platelets in a 1:1:1 ratio to achieve a MAP of 70 mmHg, after which they were randomized to receive a single dose of 50 \u03bcg/kg recombinant human (rh) ADAMTS-13 that was prepared as described previously [24] (Sanquin, national Blood Bank, Amsterdam, Netherlands) or the same volume of vehicle (IgG from DAKO, Santa Clara, USA). The dosing of ADAMTS-13 was based on a murine model of intracranial hemorrhage [25] , which seemed to be the most effective dose in reducing brain edema. Each group consisted of 8 rats. No sham group was used in this experiment, since previous experiments showed that sham rats do not survive the full duration of the experiment.",
+            "cite_spans": [
+                {
+                    "start": 246,
+                    "end": 250,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 450,
+                    "end": 454,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Randomization"
+        },
+        {
+            "text": "At the start of the experiment, blood samples were taken to assess plasma levels of aspartate (ASAT) and alanine transaminase (ALAT), which were measured using standard enzymatic measures. Plasma creatinine levels were measured by colorimetric determination using creatinase. Furthermore, a complete blood count was performed. These measurements were repeated after exsanguination. Arterial blood gases were taken every hour using a blood gas analyzer (Siemens Medical Solutions Diagnostics).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measurements Biochemistry"
+        },
+        {
+            "text": "The coagulation status was assessed using rotational thromboelastometry (ROTEM, ROTEM Delta, Werfen, Bedford, USA). An EXTEM, INTEM, and FIBTEM assay was performed at baseline, start of resuscitation, during resuscitation, 2 h after start of resuscitation, and at time of exsanguination. After collection of the blood samples, rats received transfusion to compensate the blood loss of the withdrawal.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Coagulation"
+        },
+        {
+            "text": "For histopathological examination, hematoxylin and eosin (H&E) staining was performed. A pathologist blinded to the treatment groups examined the tissues and graded the severity of injury to the organ on a scale of 0 to 3 (0 = absent, 1 = mild, 2 = moderate, 3 = severe), as we have done before [21] . In short, liver injury was assessed by scoring the presence of necrosis, hemorrhage, portal inflammation, and neutrophil infiltration. Kidney injury was scored on the presence of epithelial necrosis or luminal necrotic debris in the cortical tubules, tubular dilation, neutrophil extravasation, and hemorrhage. Lung injury was assessed by scoring the presence of lung edema, interstitial inflammatory cell infiltration, endothelitis, and hemorrhage. Injury to the small intestine was scored on the presence of diffuse swelling of the villi, neutrophil infiltration in the submucosa, necrosis, and hemorrhage.",
+            "cite_spans": [
+                {
+                    "start": 295,
+                    "end": 299,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Histopathological examination of organs"
+        },
+        {
+            "text": "Organs were also examined for the presence of thromboembolic events.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Histopathological examination of organs"
+        },
+        {
+            "text": "To determine the amount of dextran-FITC leakage through the endothelium, pathology slices of the lungs were deparaffinized using alcohol and colored using a rabbit-anti-FITC/anti-rabbit HRP and NovaRed coloring method. Every slice was photographed (using a BX51 with UC90 camera, Olympus, Japan) 5 times using a \u00d7 10 magnification, without any vessels in the frame. Images were acquired using a Leica DM-RA Microscope, coupled to a CCD camera (Leica Microsystems, Wetzlar, Germany) equipped with the Image-Pro Plus software (Media Cybernetics, Rockville, USA). Five random inverted pictures were used to set a threshold positive for FITC-70 kDa dextran leakage.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunohistochemical analysis of vascular leakage"
+        },
+        {
+            "text": "Median percentage of area intensity was used as measure for endothelial leakage. All pictures were coded prior to assessments to blind the assessor for treatment allocation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunohistochemical analysis of vascular leakage"
+        },
+        {
+            "text": "All measurements were performed in citrated plasma samples, collected at baseline, and after sacrifice, using enzyme-linked immunosorbent assays (ELISA, all R&D). Levels of vWF antigen were measured. Furthermore, as a reflection of endothelial damage, soluble syndecan-1 and VE-cadherin levels were measured. To assess the amount of organ-specific inflammation, Il-6 and IL-8 levels were determined. Snap frozen organs were lysed in a RIPA buffer (150 mM NaCl, 50 mM Tris-Hcl, 1% nonidet, 0.25% deoxycholate, 0.1% SDS) and centrifuged for 30 min at 5000 rpm at 4 C. The supernatant was collected and Il-6 and IL-8 levels were measured.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Elisa"
+        },
+        {
+            "text": "Normality was checked by visual inspection of histograms and by Kolmogorov-Smirnov test. Normal values are expressed as mean and standard deviation (SD) and were tested using the student t test. In case of no normal distribution, results are presented as median and interquartile range (IQR) and are tested using a Mann Whitney U test. In a previous rat model of traumatic brain injury [26] , administration of ADAMTS-13 reduced vascular leakage of Evans blue dye, with a mean difference of 3 OD620 (optical density 620 nm) and a standard deviation of 2 OD620. Therefore, to obtain a power of 80%, assuming a 5% significance level and using a two-sided unpaired t test, a total of seven rats should be randomized to each group. As we expected a mortality rate within the groups of around 20%, we included eight rats in each group. A p value of less than 0.05 was considered to be statistically significant. Statistics were done in IBM SPSS Statistics 24. Graphs were made in GraphPad Prism. ImageJ was used to analyze the amount of vascular leakage in the lungs.",
+            "cite_spans": [
+                {
+                    "start": 386,
+                    "end": 390,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistics"
+        },
+        {
+            "text": "Not all rats survived the full duration of the experiment. In the control group, 3 rats died prematurely, while in the ADAMTS-13 group, 2 rats died prematurely (cause of death is listed in Supplemental Table 1 ). All rats were severely shocked, as reflected by a high base deficit and high levels of lactate. Rats in the ADAMTS-13 group had a higher percentage of their total estimated blood volume bled (see Table 2 ), but this did not result in significant differences in shock parameters. Compared to the control group, rats in the ADAMTS-13 group had a slightly higher hemoglobin level at baseline; however, this equalized during the shock episode (see Table 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 202,
+                    "end": 209,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 409,
+                    "end": 416,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 657,
+                    "end": 664,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Both groups received similar volumes of blood products. Following the ADAMTS-13 treatment, rats maintained a higher MAP throughout the experiment when compared to controls (see Fig. 1 ). The time to reach the predefined pressure goal was lower in the ADAMTS-13 group compared to controls (10 min, IQR 8-13 vs 34 min, IQR 15-46, p = 0.02, see Table 2 ). In line, lactate levels were significantly lower in the ADAMTS-13 treated rats compared to the control rats (3.7 vs 5.2 mmol/L at t = 1, p < 0.01). This difference remained until the 4-h timepoint (see Fig. 1 ). In addition, base deficit was lower in the ADAMTS-13 group compared to control rats, with significant differences at the 1, 2, and 4-h timepoint (see Fig. 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 177,
+                    "end": 183,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 342,
+                    "end": 349,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 555,
+                    "end": 561,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 715,
+                    "end": 721,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Effect of ADAMTS-13 on hemodynamic variables"
+        },
+        {
+            "text": "At baseline, platelet counts were lower in the control group compared to the rats receiving ADAMTS-13 (see Fig. 2d ), while EXTEM maximum clot firmness (MCF) at baseline was similar between groups. After ADAMTS-13 administration but prior to resuscitation, ADAMTS-13 treated rats showed shorter clotting times and higher MCF compared to controls (see Fig. 2a, b) . These differences became more pronounced when resuscitation was initiated, with the biggest differences between groups at the 2-h timepoint. The contribution of platelet function to clot formation can be assessed by EXTEM MCF subtracted by the FIBTEM MCF value. ADAMTS-13 administration resulted in higher EXTEM-FIBTEM values when compared to controls (see Fig. 2c ) until 2 h after administration. FIBTEM levels did not differ between groups (data not shown). Also, fibrinogen levels were not different between groups (see Fig. 2e ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 107,
+                    "end": 114,
+                    "text": "Fig. 2d",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 351,
+                    "end": 362,
+                    "text": "Fig. 2a, b)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 722,
+                    "end": 729,
+                    "text": "Fig. 2c",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 889,
+                    "end": 896,
+                    "text": "Fig. 2e",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Effect of ADAMTS-13 on coagulation parameters"
+        },
+        {
+            "text": "At the end of the experiment, the control group showed a severely decreased MCF, while this parameter, as well as clotting time remained relatively stable in the ADAM Values are presented as mean and standard deviation (SD) or median and interquartile range (IQR) Estimated total blood volume (mL) = 0.057 x (rat weight in grams)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Effect of ADAMTS-13 on coagulation parameters"
+        },
+        {
+            "text": "TS-13 group. Platelet count was similar between groups at the end of the experiment (see Fig. 2d ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 89,
+                    "end": 96,
+                    "text": "Fig. 2d",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Effect of ADAMTS-13 on coagulation parameters"
+        },
+        {
+            "text": "Levels of ASAT, ALAT, creatinine, and urine protein increased over time, suggesting organ injury after shock and transfusion in the rats. Serum creatinine at sacrifice was lower in the ADAMTS-13 group, although not significant (p = 0.361). The amount of protein in urine was significantly lower in the ADAMTS-13 group when compared to controls (1.7 vs 4.4 g/L, p < 0.01). Levels of ASAT and ALAT did not differ between groups. Histopathological examination of the kidneys and of the other organs did not show any differences between groups (see Fig. 3 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 545,
+                    "end": 551,
+                    "text": "Fig. 3",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Effect of ADAMTS-13 on organ injury"
+        },
+        {
+            "text": "In the group receiving ADAMTS-13, we observed a trend towards lower levels of syndecan-1 relative to baseline (107 vs 149%, p = 0.08, see Fig. 4a ), suggesting less glycocalyx shedding. We did not find any differences in levels of VE-cadherin relative to baseline (151 vs 312%, p = 0.19, see Fig. 4b ). Also, the amount of dextran-FITC leakage through the endothelium into the lungs was quantified. This did not differ between the ADAMTS-13 and the control groups (6.4 vs 1.8%, p = 0.43, see Fig. 4c ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 138,
+                    "end": 145,
+                    "text": "Fig. 4a",
+                    "ref_id": null
+                },
+                {
+                    "start": 292,
+                    "end": 299,
+                    "text": "Fig. 4b",
+                    "ref_id": null
+                },
+                {
+                    "start": 492,
+                    "end": 499,
+                    "text": "Fig. 4c",
+                    "ref_id": null
+                }
+            ],
+            "section": "Effect of ADAMTS-13 on endothelial functioning"
+        },
+        {
+            "text": "Trauma and transfusion resulted in increased amounts of IL-6 levels in all organs. IL-6 levels in kidneys and liver did not differ between the groups. Levels of IL-6 were lower in the spleen (253 vs 307, p = 0.03) and trended to be lower in lungs of rats who ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Effect of ADAMTS-13 on inflammation"
+        },
+        {
+            "text": "In this model of trauma-induced coagulopathy and organ failure, ADAMTS-13 given as an adjunct therapy to resuscitation resulted in earlier shock reversal, improved plateletdriven coagulation as assessed by ROTEM, decreased endothelial damage, and partially reduced organ inflammation. Administration of ADAMTS-13 improved shock reversal in our experimental model, as reflected by a higher MAP, attenuated lactate levels, and a lower base deficit. As we found a trend towards less shedding of glycocalyx constituents into the circulation, this may have been caused by an improved endothelial barrier integrity. In line with this, a protective effect of recombinant ADAMTS-13 on the endothelial barrier function was previously described in a model of traumatic brain injury [26] . However, we could not demonstrate a decrease in vascular leakage of FITC-labeled dextran, nor an improvement in organ failure. This may have been due to a short acting effect of ADAMTS-13, necessitating repeated administration. Alternatively, the model may have lasted too short to demonstrate protection of ADAMTS-13 on the organ level.",
+            "cite_spans": [
+                {
+                    "start": 772,
+                    "end": 776,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our model is characterized by severely deranged coagulation with prolonged clotting times and a decreased clot strength. We found that ADAMTS-13 improved platelet- Fig. 4 Endothelial functioning. a Levels of syndecan-1 after sacrifice relative to baseline values. b VE-cadherin after sacrifice relative to baseline values. c Percentage of image covered by dextran-FITC as a reflection of endothelial leakage in the lungs. Data is presented as median and IQR Fig. 5 Parameters of organ-specific inflammation. IL-6 levels measured in organ homogenates. Values are presented as median and IQR. *p < 0.05, \u2020p < 0.10 driven clot strength as assessed by ROTEM. Improved clot formation most likely was not due to an effect of fibrinogen, as FIBTEM MCF levels throughout the experiment did not differ significantly between groups and fibrinogen levels at exsanguination were also similar. A beneficial effect of ADAMTS-13 on trauma-induced coagulopathy is in line with findings in a model of traumatic brain injury, in which ADAMTS-13 led to reduction in consumption coagulopathy in ADAMTS-13 depleted mice [26] . In our experiment, we found that the effect of the ADAMTS-13 was most clear up to 2 h post-injury. Recombinant human ADAMTS-13 seems to be particularly active in the first 45 min after administration in a single bolus, as was shown in a model investigating therapeutic restoration of ADAMTS-13 levels in rats with neutralizing anti-ADAMTS-13 antibodies [27] . This might explain the fact that the observed improved platelet function in the ADAMTS-13 group did not last until the end timepoint of the experiment. In line with this thought, platelet levels were not different between groups at the end of the experiment. The duration of the experiment may have been too short for ADAMTS-13 to prevent a decline in platelet counts, since this process is time dependent, as was shown in a first-in-human, multicenter dose escalation study in which platelet counts changed after approximately 24 h [28] . Alternatively, it should be noted that platelet counts in rats differ from men, with markedly higher values [29] .",
+            "cite_spans": [
+                {
+                    "start": 1099,
+                    "end": 1103,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1459,
+                    "end": 1463,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1999,
+                    "end": 2003,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 2114,
+                    "end": 2118,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 164,
+                    "end": 170,
+                    "text": "Fig. 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 458,
+                    "end": 464,
+                    "text": "Fig. 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our data indicate that there might be a protective effect of ADAMTS-13 administration on the development of kidney injury, as urine protein levels were significantly lower in this group. Albuminuria is considered to be an early biomarker associated with severe acute kidney injury [30] . However, no difference between groups was found in creatinine levels, nor in the histopathological assessment of the kidneys. Increasing evidence indicates, at least in critically ill septic patients and animal models, that within the first 48 h of acute kidney injury, the defects are mainly functional instead of structural [31] , which may explain the biochemical signs of acute kidney injury, but the lack of morphological differences between our groups.",
+            "cite_spans": [
+                {
+                    "start": 281,
+                    "end": 285,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 614,
+                    "end": 618,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In our experiment, we found lower levels of IL-6 in the lungs and spleen of ADAM TS-13 treated rats compared to controls. This finding was also observed in a mouse TBI model, in which recombinant ADAMTS-13 [25] decreased cerebral inflammation, presumably due to reducing the excess of vWF at the site of injury. This finding was further substantiated by the fact that administration of recombinant vWF upregulated the inflammatory response.",
+            "cite_spans": [
+                {
+                    "start": 206,
+                    "end": 210,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our experimental model had some limitations. We cannot provide causality of the hypothesis that supplementation of low levels of ADAMTS-13 would result in less thrombi formation with preservation of endothelial integrity. For one, we were not able to reliably measure ADAMTS-13 levels. We attempted to measure ADAMTS-13 levels, but we do not report results as the data did not make sense and we cannot rule out a technical issue with this analysis. Also, micro-thrombi formation is not detectable in histology in this model. Also, the model resulted in dropout of animals, reducing the power. Thereby, some results only showed trends towards a benefit. However, given that platelet-driven coagulopathy improved and the trends all pointed in the same direction, we do feel that our hypothesis may hold ground.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Risk factors for trauma-induced coagulopathy-and transfusion-associated multiple organ failure in severely injured trauma patients",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Balvers",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wirtz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Dieren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Goslings",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Juffermans",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Front Med",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The systemic immune response to trauma: an overview of pathophysiology and treatment",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lord",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Midwinter",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-F",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Belli",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Brohi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kovacs",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Koenderman",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kubes",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lilford",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Lancet",
+            "volume": "384",
+            "issn": "",
+            "pages": "1455--1465",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Hemorrhagic shock drives glycocalyx, barrier and organ dysfunction early after polytrauma",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Halbgebauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Braun",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Denk",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mayer",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Cinelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Radermacher",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wanner",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Simmen",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gebhard",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rittirsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Huber-Lang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Crit Care",
+            "volume": "44",
+            "issn": "",
+            "pages": "229--237",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "A high admission syndecan-1 level, a marker of endothelial glycocalyx degradation, is associated with inflammation, protein C depletion, fibrinolysis, and increased mortality in trauma patients",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Johansson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Stensballe",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rasmussen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Ostrowski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Annals of Surgery",
+            "volume": "254",
+            "issn": "2",
+            "pages": "194--200",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Syndecan-1: a quantitative marker for the Endotheliopathy of trauma",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Gonzalez Rodriguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Ostrowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cardenas",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Baer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tomasek",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Henriksen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Stensballe",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cotton",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Holcomb",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Johansson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wade",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Am Coll Surg",
+            "volume": "225",
+            "issn": "",
+            "pages": "419--427",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Sympathoadrenal activation and endotheliopathy are drivers of hypocoagulability and hyperfibrinolysis in trauma: a prospective observational study of 404 severely injured patients. The journal of trauma and acute care surgery",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Ostrowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Henriksen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Stensballe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gybel-Brask",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cardenas",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Baer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cotton",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Holcomb",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wade",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Johansson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "82",
+            "issn": "",
+            "pages": "293--301",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The balance between von-Willebrand factor and its cleaving protease ADAMTS13: biomarker in systemic inflammation and development of organ failure?",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Claus",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bockmeyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sossdorf",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Losche",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Curr Mol Med",
+            "volume": "10",
+            "issn": "",
+            "pages": "236--248",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "S100B ranks as a new marker of multiple traumas in patients and may accelerate its development by regulating endothelial cell dysfunction",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Int J Clin Exp Pathol",
+            "volume": "7",
+            "issn": "",
+            "pages": "3818--3826",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Novel markers predict death and organ failure following hemorrhagic shock",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Furmaga",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cohn",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Prihoda",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Muir",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Mikhailov",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mccarthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Arar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Clin Chim Acta",
+            "volume": "440",
+            "issn": "",
+            "pages": "87--92",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Unwinding the von Willebrand factor strings puzzle",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "De Ceunynck",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Meyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Vanhoorelbeke",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Blood",
+            "volume": "121",
+            "issn": "",
+            "pages": "270--277",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Decreased ADAMTS 13 activity is associated with disease severity and outcome in pediatric severe sepsis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hsiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hsia",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chiu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Medicine",
+            "volume": "95",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Low plasma ADAMTS13 activity is associated with coagulopathy, endothelial cell damage and mortality after severe paediatric trauma",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mcdaniel",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shroyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wagener",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Thromb Haemost",
+            "volume": "118",
+            "issn": "",
+            "pages": "676--687",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Combined effect of therapeutic strategies for bleeding injury on early survival, transfusion needs and correction of coagulopathy",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Balvers",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Dieren",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Baksaas-Aasen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gaarder",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Brohi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Eaglestone",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Stanworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Johansson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Ostrowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Stensballe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Maegele",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Goslings",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Juffermans",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Br J Surg",
+            "volume": "104",
+            "issn": "",
+            "pages": "222--229",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Damage control resuscitation using blood component therapy in standard doses has a limited effect on coagulopathy during trauma hemorrhage",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Davenport",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Raza",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Glasgow",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "De&apos;ath",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Johansson",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Curry",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Stanworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gaarder",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Brohi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Intensive Care Med",
+            "volume": "41",
+            "issn": "",
+            "pages": "239--247",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Frequency and characteristics of coagulopathy in trauma patients treated with a low-or high-plasma-content massive transfusion protocol",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Chambers",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chow",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Shaffer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Am J Clin Pathol",
+            "volume": "136",
+            "issn": "",
+            "pages": "364--370",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The role of plasma transfusion in massive bleeding: protecting the endothelial glycocalyx",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Barelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Alberio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Front Med",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Resuscitation fluid choices to preserve the endothelial glycocalyx",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Milford",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Reade",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Critical Care",
+            "volume": "23",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Modulation of syndecan-1 shedding after hemorrhagic shock and resuscitation",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Haywood-Watson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Holcomb",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Gonzalez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pati",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zaske",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Menge",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kozar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "PLoS One",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Effect of transfusion of fresh frozen plasma on parameters of endothelial condition and inflammatory status in non-bleeding critically ill patients: a prospective substudy of a randomized trial",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Straat",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mca",
+                    "middle": [],
+                    "last": "M\u00fcller",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jcm",
+                    "middle": [],
+                    "last": "Meijers",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Arbous",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Critical Care",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "ADAMTS-13 levels in fresh, stored, and solvent detergent treated plasma",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Rock",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yousef",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Neurath",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Transfusion Apheresis Science",
+            "volume": "35",
+            "issn": "",
+            "pages": "235--238",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Washing or filtering of blood products does not improve outcome in a rat model of trauma and multiple transfusion",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wirtz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jurgens",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zuurbier",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Roelofs",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Spinella",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Muszynski",
+                    "suffix": ""
+                },
+                {
+                    "first": "Carel",
+                    "middle": [],
+                    "last": "Goslings",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Juffermans",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Transfusion",
+            "volume": "59",
+            "issn": "",
+            "pages": "134--145",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Supernatant of stored platelets causes lung inflammation and coagulopathy in a novel in vivo transfusion model",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Vlaar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hofstra",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Kulik",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Van Lenthe",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Nieuwland",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schultz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Levi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Roelofs",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Tool",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "De Korte",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Juffermans",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Blood",
+            "volume": "116",
+            "issn": "",
+            "pages": "1360--1368",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Supernatant of aged erythrocytes causes lung inflammation and coagulopathy in a \"two-hit\" in vivo syngeneic transfusion model",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Vlaar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hofstra",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Levi",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Kulik",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Nieuwland",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Tool",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schultz",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "De Korte",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Juffermans",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Anesthesiology",
+            "volume": "113",
+            "issn": "",
+            "pages": "92--103",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Preferential HLA-DRB1*11-dependent presentation of CUB2-derived peptides by ADAMTS13-pulsed dendritic cells",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sorvillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Van Haren",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kaijen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ten Brinke",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fijnheer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Meijer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Voorberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Blood",
+            "volume": "121",
+            "issn": "",
+            "pages": "3502--3510",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Recombinant ADAMTS 13 attenuates brain injury after intracerebral hemorrhage",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Dai",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "46",
+            "issn": "",
+            "pages": "2647--2653",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Willebrand factor enhances microvesicle-induced vascular leakage and coagulopathy in mice with traumatic brain injury",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hilton",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yeon",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Houck",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Thiagarajan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Blood",
+            "volume": "132",
+            "issn": "",
+            "pages": "1075--1084",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Neutralization of inhibitory antibodies and restoration of therapeutic ADAMTS-13 activity levels in inhibitor-treated rats by the use of defined doses of recombinant ADAMTS-13",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Plaimauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Schiviz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kaufmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hollriegl",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Rottensteiner",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Scheiflinger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Journal of Thrombosis and Haemostasis",
+            "volume": "13",
+            "issn": "",
+            "pages": "2053--2062",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Recombinant ADAMTS-13: first-in-human pharmacokinetics and safety in congenital thrombotic thrombocytopenic purpura",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Scully",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Knobl",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kentouche",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Rice",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Windyga",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Schneppenheim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kremer",
+                    "middle": [],
+                    "last": "Hovinga",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kajiwara",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fujimura",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Maggiore",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Doralt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hibbard",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Martell",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ewenstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Blood",
+            "volume": "130",
+            "issn": "",
+            "pages": "2055--2063",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Sex-specific reference intervals of hematologic and biochemical analytes in Sprague-Dawley rats using the nonparametric rank percentile method",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jin",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS One",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Association of de novo dipstick albuminuria with severe acute kidney injury in critically ill septic patients",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Neyra",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Manllo",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Jacobsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yee",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yessayan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Nephron Clinical Practice",
+            "volume": "128",
+            "issn": "",
+            "pages": "373--380",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Sepsis-induced acute kidney injury: a disease of the microcirculation",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Evans",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Iguchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tare",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Parkington",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bellomo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "May",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lankadeva",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "",
+            "volume": "26",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Values are presented as mean and standard deviation (SD) or median and interquartile range (IQR) BD base deficit, MAP mean arterial pressure, ND not done, NA not applicable *Significantly different from control, p < 0.05 \u2020Significantly different from baseline, p < 0.05",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Hemodynamics and biochemistry during the course of the experiment. BD, base deficit. Values presented as mean and standard deviation (SD). *p < 0.05, \u2020p < 0.10",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Coagulation parameters. a Clotting time measured in EXTEM array over time. b Maximum clot firmness measured in EXTEM array over time. c Maximum clot firmness of EXTEM and FIBTEM assay subtracted as a reflection of platelet-driven coagulation. d Platelet counts at baseline and exsanguination. e Fibrinogen levels at baseline and exsanguination. ROTEM values presented as mean and standard deviation (SD). Reference values are according to human standards. Platelet count and fibrinogen levels are presented as median and interquartile ranges (IQR). *p < 0.05 received ADAMTS-13 (243 vs 369 pg/mL, p = 0.08, see Fig. 5). Levels of IL-8 showed a similar trend but were not significantly different between the groups (control vs ADAMTS-13, kidney 2615 vs 2960 pg/mL, p = 0.26; liver 1742 vs 2233 pg/mL, p = 0.25; spleen 1437 vs 1450 pg/mL, p = 0.76; lung 1794 vs 1392 pg/mL, p = 0.33).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Biochemical and histopathological examination of organ functioning. Levels of aspartate (ASAT) and alanine transaminase (ALAT), creatinine, and lactate dehydrogenase (LDH) were measured in heparinized plasma collected at baseline and exsanguination. Platelet count was measured in whole blood collected in EDTA tubes. Urine was collected at baseline and exsanguination to measure protein levels. Values presented as median and interquartile range (IQR). *p < 0.05",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Characteristics at baseline and after trauma but prior to start of resuscitation",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors gratefully acknowledge Jan Voorberg (Department of Plasma Proteins, Sanquin Research, Amsterdam, The Netherlands) for providing the recombinant human ADAMTS-13 and his help interpreting the results.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "In conclusion, ADAMTS-13 as an adjunct to resuscitation in our model of trauma, severe shock, and transfusion improves platelet-driven hemostatic efficacy, shock reversal, and reduced inflammation. However, further research in experimental models is necessary before clinical application in trauma patients can be advised.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Supplementary information accompanies this paper at https://doi.org/10.1186/s40635-020-00328-w.Additional file 1: Table 1 . Cause of death. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 114,
+                    "end": 121,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Supplementary information"
+        },
+        {
+            "text": "None.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "The datasets used and/or analyzed during the current study are available from the corresponding author on reasonable request.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Availability of data and materials"
+        },
+        {
+            "text": "This study was approved by the Animal Care and Use Committee of the Amsterdam University Medical Centers, location Academic Medical Center at the University of Amsterdam, The Netherlands. This study was conducted in compliance with the Animal Welfare Act, the implementing Animal Welfare Regulations, and the Principles of the Guide for the Care and Use of Laboratory Animals.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethics approval and consent to participate"
+        },
+        {
+            "text": "Not applicable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Consent for publication"
+        },
+        {
+            "text": "None.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests"
+        }
+    ]
+}

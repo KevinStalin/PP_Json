@@ -1,0 +1,5326 @@
+{
+    "paper_id": "0b2acaf93330460b4ea2a85a3be8be6d17713795",
+    "metadata": {
+        "title": "viruses Acute RNA Viral Encephalomyelitis and the Role of Antibodies in the Central Nervous System",
+        "authors": [
+            {
+                "first": "Maggie",
+                "middle": [
+                    "L"
+                ],
+                "last": "Bartlett",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Johns Hopkins Bloomberg School of Public Health",
+                    "location": {
+                        "postCode": "21205",
+                        "settlement": "Baltimore",
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Diane",
+                "middle": [
+                    "E"
+                ],
+                "last": "Griffin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Johns Hopkins Bloomberg School of Public Health",
+                    "location": {
+                        "postCode": "21205",
+                        "settlement": "Baltimore",
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": "dgriffi6@jhmi.edud.e.g."
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Acute RNA viral encephalomyelitis is a serious complication of numerous virus infections. Antibodies in the cerebral spinal fluid (CSF) are correlated to better outcomes, and there is substantive evidence of antibody secreting cells (ASCs) entering the central nervous system (CNS) and contributing to resolution of infection. Here, we review the RNA viruses known to cause acute viral encephalomyelitis with mechanisms of control that require antibody or ASCs. We compile the cytokines, chemokines, and surface receptors associated with ASC recruitment to the CNS after infection and compare known antibody-mediated mechanisms as well as potential noncytolytic mechanisms for virus control. These non-canonical functions of antibodies may be employed in the CNS to protect precious non-renewable neurons. Understanding the immune-specialized zone of the CNS is essential for the development of effective treatments for acute encephalomyelitis caused by RNA viruses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Encephalomyelitis (inflammation of the brain and spinal cord) is a dangerous presentation of numerous viral infections with potentially devastating long-term neurological sequelae. Virus-induced encephalomyelitis can be caused by primarily herpesviruses and RNA viruses including enteroviruses, rhabdoviruses, alphaviruses, flaviviruses, and bunyaviruses. In addition, many other viral families can cause acute encephalitis, such as paramyxoviruses and arenaviruses. However, this list is likely incomplete considering that most cases of viral encephalitis do not have an identified etiologic agent [1] . Despite the myriad of pathogens that cause viral encephalomyelitis, many features are shared. Foremost is the primary target cells, neurons, although some encephalitic viruses preferentially infect cerebrovascular endothelial cells or glial cells (Table 1 ) [2] . However, infection with most encephalomyelitis-causing viruses more often results in asymptomatic or mild febrile illness without neurologic disease. This is in part due to the rapidly mounted innate and adaptive immune responses to prevent the virus's entry into the central nervous system (CNS). In addition, as this pathology can be caused by numerous viruses, there is considerable variability in mortality, ranging from <1% for lymphocytic choriomeningitis virus (an arenavirus) to 100% for rabies virus (a rhabdovirus) [3, 4] .",
+            "cite_spans": [
+                {
+                    "start": 599,
+                    "end": 602,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 863,
+                    "end": 866,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1394,
+                    "end": 1397,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1398,
+                    "end": 1400,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 852,
+                    "end": 860,
+                    "text": "(Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "Moreover, pathogens induce diverse immune responses in the CNS despite its previous reputation as an immune-privileged zone. Today, it is more appropriately considered an immune-specialized zone in which many immune mechanisms exist, distinct from the rest of the immune system responsible for surveying primarily renewable cells. As this is not the case in the CNS, and damage would lead to long-lasting effects due to the irreplaceability of neurons, highly specialized responses have evolved to protect cells and clear infections. Despite viral encephalomyelitis being a prominent worldwide issue, traditional antiviral therapies fall short. To this end, a better understanding of the causation and resolution of viral encephalomyelitis may foster insight into new therapeutic approaches. While many studies of immune control have focused on innate mediators and microglia (a resident CNS cell), increasing evidence suggests an important role for antibody secreting cells (ASCs) [2, [5] [6] [7] . One role of ASCs is certainly antibody production, which is critical in host defense against numerous pathogens. In addition to direct neutralization, antibodies drive clearance of viruses, bacteria, fungi, and parasites via interaction with the innate and adaptive immune systems. Antibodies can form complexes that sequester and allow for uptake of pathogens, clear toxins and infected cells, and increase antigen presentation, as well as regulating inflammation. Increasingly, we have seen evidence for a multitude of functions that ASCs and antibodies possess beyond the canonical functions [6] . Here, we review the known mechanisms by which ASCs and antibodies enter the CNS and contribute to the clearance of RNA viruses that infect neurons (Table 1) . Table of select viruses known to induce encephalomyelitis including known target cells, regions, and unique presentations associated with infection. General meningoencephalomyelitis symptoms include but are not limited to: headache, light sensitivity, neck stiffness, lethargy, increased irritability, seizures, skin rashes, difficulty talking or speech changes, changes to alertness, confusion, hallucinations, loss of energy, loss of appetite, unsteady gait, nausea and vomiting, loss of muscle power in extremities, double vision, hearing/speech impairment, coma.",
+            "cite_spans": [
+                {
+                    "start": 982,
+                    "end": 985,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 986,
+                    "end": 989,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 990,
+                    "end": 993,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 994,
+                    "end": 997,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1595,
+                    "end": 1598,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1748,
+                    "end": 1757,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "The most common CNS entry point is the blood, evidenced most by high viremia and replication in peripheral organs, which are correlated to the likelihood of CNS infection. However, the blood-brain barrier (BBB) inhibits direct access to the brain. To circumvent this protective tissue, some neurotropic viruses replicate in cerebrovascular endothelial cells, enter along with infected leukocytes, and cross directly to the cerebrospinal fluid (CSF), or in specialized cases by way of nerve terminals in peripheral organs or olfactory epithelium [28] .",
+            "cite_spans": [
+                {
+                    "start": 545,
+                    "end": 549,
+                    "text": "[28]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Multiple Pathways for Viruses into the CNS"
+        },
+        {
+            "text": "Viral encephalomyelitis typically presents with fever, headache, and evidence of neuronal dysfunction such as seizures, cognitive impairment, paralysis, and ataxia. These signs and symptoms of damage in the CNS are caused either directly by viral replication or often by the inflammatory response that ensues. The ability to overcome inflammation is thought to occur through the induction of regulatory T cells and suppression of lymphocyte function; however, recent studies have shed light on the important role B cells and antibodies play in CNS viral control as well as anti-inflammatory functions [2, 6] .",
+            "cite_spans": [
+                {
+                    "start": 601,
+                    "end": 604,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 605,
+                    "end": 607,
+                    "text": "6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Multiple Pathways for Viruses into the CNS"
+        },
+        {
+            "text": "The brain was previously considered to be an immune privileged site lacking CNS surveillance by the immune system [29] . However, not only does the CNS contain its own assortment of antigen-presenting cells (astrocytes, microglia, endothelial cells, and pericytes), but CD4+ T cells enter in some frequency [30] . Although B cells were not commonly thought to enter the brain, increasing evidence has shown that they can enter the brain in healthy and infected individuals [31, 32] and individuals infected with various pathogens [2, 5, 7, 33] . The brain microenvironment changes in response to infection facilitate B cell entry into the CNS and support the proliferation, differentiation, and long-term survival of antiviral ASCs. For multiple encephalomyelitis-causing viruses, these changes include increased expression of common chemokines as well as concomitant infiltration of B cells expressing certain receptors ( Table 2 ). Table 2 . Chemokines, cytokines, and surface receptors associated with antibody-secreting cell (ASC) recruitment and maintenance in the central nervous system (CNS).",
+            "cite_spans": [
+                {
+                    "start": 114,
+                    "end": 118,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 307,
+                    "end": 311,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 473,
+                    "end": 477,
+                    "text": "[31,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 478,
+                    "end": 481,
+                    "text": "32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 530,
+                    "end": 533,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 534,
+                    "end": 536,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 537,
+                    "end": 539,
+                    "text": "7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 540,
+                    "end": 543,
+                    "text": "33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 923,
+                    "end": 930,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 934,
+                    "end": 941,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Recruitment of Antibody-Secreting Cells Predominant Over Antibodies Crossing the BBB"
+        },
+        {
+            "text": "Abbr. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Virus"
+        },
+        {
+            "text": "The focus of viral clearance from the brain has typically omitted B cells due to their low prevalence and the difficulty of crossing the BBB. However, it has long been established that intrathecal antibody in the CSF (indicating the presence of a local ASC) is predictive of the outcome and a hallmark of numerous human CNS infections, including the measles virus, rubella virus, poliovirus, varicella zoster virus, rubulavirus (mumps), herpes simplex virus, and Japanese encephalitis virus [33] . In the case of the measles virus, the presence of antibodies in the CSF is integral to the differential diagnosis of subacute sclerosing panencephalitis, a late disease due to persistent virus replication in the CNS [37] . Mounting evidence suggests that ASCs cross the BBB and are critical to the clearance of numerous encephalitic viruses, rather than antibodies alone entering from the periphery. A majority of what is known about this mechanism comes from studies of the Sindbis virus (SINV), rabies virus (RABV), West Nile virus (WNV), and murine hepatitis virus (MHV) in mice and is summarized here.",
+            "cite_spans": [
+                {
+                    "start": 491,
+                    "end": 495,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 714,
+                    "end": 718,
+                    "text": "[37]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Antibodies Play Critical Roles in the Clearance of Many Acute Encephalomyelitis-Causing RNA Viruses"
+        },
+        {
+            "text": "Alphaviruses are mosquito-borne single-stranded, positive-sense, enveloped RNA viruses that cause arthritis (Sindbis, Ross River, Semliki Forest, and chikungunya viruses) and encephalomyelitis (Venezuelan, western, and eastern equine encephalitis viruses). While the encephalitic alphaviruses are endemic to the Americas, the rapidly emerging arthritic alphaviruses that also cause neurologic disease can be found worldwide [38] .",
+            "cite_spans": [
+                {
+                    "start": 424,
+                    "end": 428,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Alphaviruses"
+        },
+        {
+            "text": "For the alphavirus family member SINV, ASCs enter the CNS to produce antiviral IgM and then IgG after infection [38] . Clinical studies on human viral encephalomyelitis suggest prompt IgM production was correlated to recovery, and recent studies on mice deficient in IgM, IgG, or both revealed that antibody was necessary and IgM or IgG was sufficient for clearance [38] . It is well characterized in SINV that both IFN-\u03b3 and antiviral antibody contribute to virus clearance from the CNS. Interestingly, despite working in concert, IFN-\u03b3 alone can clear the virus from spinal cord motor neurons, and antibody alone can clear the virus from the brain, as well as spinal cord neurons. Small numbers of IgM-secreting cells can be detected 3 days after infection, followed by IgG-as well as IgA-secreting cells by day 5 post infection [39] [40] [41] . Within 10-14 days, 80% of the CNS B cells have class-switched and can be maintained for at least a year after recovery with enrichment for anti-SINV ASCs [39] . In vitro studies have shown that neither complement nor phagocytosis is needed for antibody-mediated SINV clearance, but bivalent activity of antibodies is required [42] . While there is a preponderance of evidence for ASCs and the role of antibody in the clearance of SINV from the CNS, not all mechanisms have been determined.",
+            "cite_spans": [
+                {
+                    "start": 112,
+                    "end": 116,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 366,
+                    "end": 370,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 831,
+                    "end": 835,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 836,
+                    "end": 840,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 841,
+                    "end": 845,
+                    "text": "[41]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1002,
+                    "end": 1006,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1174,
+                    "end": 1178,
+                    "text": "[42]",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Alphaviruses"
+        },
+        {
+            "text": "For the alphavirus SFV, antibody is required to suppress production of infectious virus, and B cells are present in the CNS and continue to produce antiviral antibodies for many months after infection [43, 44] . However, viral RNA is not eliminated and remains capable of renewed replication if antibodies are no longer present. Unlike SINV, SFV infection in mice also results in CD8+ T-cell-mediated myelin loss [44] to which B cells may contribute by producing anti-myelin antibody [45] .",
+            "cite_spans": [
+                {
+                    "start": 201,
+                    "end": 205,
+                    "text": "[43,",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 206,
+                    "end": 209,
+                    "text": "44]",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 413,
+                    "end": 417,
+                    "text": "[44]",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 484,
+                    "end": 488,
+                    "text": "[45]",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Alphaviruses"
+        },
+        {
+            "text": "The flaviviruses are arthropod-borne, single-stranded, positive-sense, enveloped RNA viruses that include the Zika virus, dengue virus, and West Nile virus (WNV). One of these, WNV, is the leading cause of mosquito-borne disease in the United States. While 80% of human infections are asymptomatic, up to 50% of patients that develop encephalomyelitis have long-term neurological sequelae [46] . An early antibody response has been demonstrated to be important in containing viremia and limiting dissemination of WNV to the CNS. Similar to SINV, both IgM and IgG are protective in the CNS for WNV [47] . Furthermore, lack of B and T cells, but not T cells alone, increases mortality in mice after infection with WNV in the CNS [48] . It is hypothesized that anti-WNV IgM induces a mature humoral response by complement activation and facilitation of production of T cell-dependent and T cell-independent antibody [49] .",
+            "cite_spans": [
+                {
+                    "start": 389,
+                    "end": 393,
+                    "text": "[46]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 597,
+                    "end": 601,
+                    "text": "[47]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 727,
+                    "end": 731,
+                    "text": "[48]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 913,
+                    "end": 917,
+                    "text": "[49]",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Flaviviruses"
+        },
+        {
+            "text": "Coronaviruses are single-stranded, positive-sense, enveloped RNA viruses that include common cold coronaviruses as well as three pandemic viruses: Severe Acute Respiratory Syndrome virus (SARS), Middle East Respiratory Syndrome virus (MERS), and SARS-Coronavirus 2 (SARS-CoV-2). The neurologic manifestations of SARS-CoV-2 span encephalomyelitis, anosmia, and Guillain-Barre syndrome [50] ; however, little is known about the neurotropism or mechanisms of CNS clearance. Interestingly, anti-SARS-CoV-2 antibodies are detected in the CSF [51] , suggesting potential entry of antibodies or ASCs to the CNS. While much is being learned quickly during the current pandemic, significant work has already been done to understand CNS clearance mechanisms in mice using the mouse coronavirus, murine hepatitis virus (MHV). While MHV is primarily controlled by CD8+ T cells, B cells make significant contributions, particularly in preventing virus recrudescence [52] . Studies on MHV strain A59 revealed that mice deficient in antibody production could not clear MHV from the CNS [53] . In the case of MHV strain JHM mouse hepatitis virus (JHMV), many of the chemokines, cytokines, and surface markers are similar to those expressed during SINV infection and support the concept of a shared process for ASC recruitment and accumulation in the CNS (Table 2) [54].",
+            "cite_spans": [
+                {
+                    "start": 384,
+                    "end": 388,
+                    "text": "[50]",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 537,
+                    "end": 541,
+                    "text": "[51]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 953,
+                    "end": 957,
+                    "text": "[52]",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 1071,
+                    "end": 1075,
+                    "text": "[53]",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1338,
+                    "end": 1347,
+                    "text": "(Table 2)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Coronaviruses"
+        },
+        {
+            "text": "Rhabdoviruses are single-stranded, negative-sense, enveloped RNA viruses that include the rabies virus (RABV), which has been recognized as a fatal human disease since the times of the ancient Egyptians and Mesopotamians [55] . While T cell activity is associated with RABV replication control and long-term survival, B cells are critical to viral elimination. Further, this is primarily due to RABV-specific antibodies produced by the infiltrating B cells rather than antibodies crossing the BBB from the periphery [56] . Moreover, non-lethal cases of RABV in dogs have been linked to the presence of anti-RABV antibodies in the CSF due to a leaky BBB [57] . This phenomenon has also been well characterized in mice, in which CNS inflammation disrupts the BBB so that RABV-specific immune effectors can infiltrate and clear the virus [58] . Despite the apparent recovery of experimentally infected animals, the few human survivors have long-lasting sequelae, suggesting permanent damage [58] . To this end, the residency of ASCs and their contributions to long lasting pathology or control of recrudescence are of interest but difficult to address, considering the high lethality and inability to safely study the disease in humans during the disease's progression.",
+            "cite_spans": [
+                {
+                    "start": 221,
+                    "end": 225,
+                    "text": "[55]",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 516,
+                    "end": 520,
+                    "text": "[56]",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 653,
+                    "end": 657,
+                    "text": "[57]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 835,
+                    "end": 839,
+                    "text": "[58]",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 988,
+                    "end": 992,
+                    "text": "[58]",
+                    "ref_id": "BIBREF57"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Rhabdoviruses"
+        },
+        {
+            "text": "Viral clearance is a complex multi-step process that does not conform to a one-size-fits-all model and may be dependent on the type of CNS cell infected. Another flavivirus, the Zika virus (ZIKV), infects the CNS, but clearance is dominated by resident microglia and infiltrating monocytes/macrophages and does not require B and T cells [59] . Studies of the alphavirus Venezuelan equine encephalitis virus (VEEV) suggest that while antibody responses are important, B-cell-deficient mice can recover, suggesting a role for T cells in clearance [60] . However, while not all encephalomyelitis-causing viruses require antibody or ASCs for clearance, many do. Further, perhaps more fascinating is the variation in how antibodies are utilized depending on etiologic agent (Figure 1 ).",
+            "cite_spans": [
+                {
+                    "start": 337,
+                    "end": 341,
+                    "text": "[59]",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 545,
+                    "end": 549,
+                    "text": "[60]",
+                    "ref_id": "BIBREF59"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 769,
+                    "end": 778,
+                    "text": "(Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Clearance of Virus from the CNS without Antibody"
+        },
+        {
+            "text": "Viruses 2020, 12, x FOR PEER REVIEW 6 of 12 Figure 1 . Antibody-mediated viral clearance from the central nervous system (CNS). Viruses cross the blood-brain barrier (BBB) to infect neurons. Without control, the virus continues to spread and infect cells in new regions of the CNS. The ensuing innate immune response attracts plasmablasts produced in secondary lymphoid tissue to cross the BBB and produce antibodies in the CNS. Multiple mechanisms in addition to neutralization are involved in antibody-mediated control and clearance of the infectious virus from neurons.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 44,
+                    "end": 52,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Clearance of Virus from the CNS without Antibody"
+        },
+        {
+            "text": "While studies to date have focused on the ability of ASCs or antibody to mediate viral clearance in the CNS by neutralization, other antibody-mediated mechanisms are likely to be of importance. Given that WNV in part relies on complement-mediated lysis for clearance (in which the complement binds to the Fc portion of the antigen-bound antibodies, leading to activation of the classical pathway), there may be cases of encephalomyelitis that are overcome by other common features of antibodies. These include antibody-dependent cellular cytotoxicity (in which antibody-bound infected cells are killed by NK cells), antibody-dependent phagocytosis (in which antibody-bound infected cells are phagocytosed), the release of cytotoxic molecules, degranulation, or via immune regulation. As these methods typically result in cell death, their contributions to clearance in the CNS and recovery from infection are likely minimal considering the irreplaceability of neurons. Thus, attractive possible functions of antibodies in the CNS beyond neutralization are mechanisms of Figure 1 . Antibody-mediated viral clearance from the central nervous system (CNS). Viruses cross the blood-brain barrier (BBB) to infect neurons. Without control, the virus continues to spread and infect cells in new regions of the CNS. The ensuing innate immune response attracts plasmablasts produced in secondary lymphoid tissue to cross the BBB and produce antibodies in the CNS. Multiple mechanisms in addition to neutralization are involved in antibody-mediated control and clearance of the infectious virus from neurons.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1070,
+                    "end": 1078,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Non-Canonical Functions of Antibodies in the CNS and Potential Future Avenues of Study"
+        },
+        {
+            "text": "While studies to date have focused on the ability of ASCs or antibody to mediate viral clearance in the CNS by neutralization, other antibody-mediated mechanisms are likely to be of importance. Given that WNV in part relies on complement-mediated lysis for clearance (in which the complement binds to the Fc portion of the antigen-bound antibodies, leading to activation of the classical pathway), there may be cases of encephalomyelitis that are overcome by other common features of antibodies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Non-Canonical Functions of Antibodies in the CNS and Potential Future Avenues of Study"
+        },
+        {
+            "text": "These include antibody-dependent cellular cytotoxicity (in which antibody-bound infected cells are killed by NK cells), antibody-dependent phagocytosis (in which antibody-bound infected cells are phagocytosed), the release of cytotoxic molecules, degranulation, or via immune regulation. As these methods typically result in cell death, their contributions to clearance in the CNS and recovery from infection are likely minimal considering the irreplaceability of neurons. Thus, attractive possible functions of antibodies in the CNS beyond neutralization are mechanisms of clearance that do not require cell lysis. Beyond the typical functions associated with antibodies, more atypical actions have been described.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Non-Canonical Functions of Antibodies in the CNS and Potential Future Avenues of Study"
+        },
+        {
+            "text": "The B cell response is complex and polyclonal and thus the antibody response has been well documented to act synergistically to neutralize viruses [61] [62] [63] [64] [65] . One mechanism for synergy is the binding of one antibody to a virus to induce a conformational change that exposes a second site for a different antibody to bind and neutralize. This has been documented for the Ebola [66] , herpes simplex [67] , and tick-borne encephalitis [68] viruses. This mechanism is widely used in the periphery, but the extent to which antibody synergism is used in the CNS is unclear, as many studies focus on the use of monoclonal antibodies for which individual antibody neutralization efficacy is already known.",
+            "cite_spans": [
+                {
+                    "start": 147,
+                    "end": 151,
+                    "text": "[61]",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 152,
+                    "end": 156,
+                    "text": "[62]",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 157,
+                    "end": 161,
+                    "text": "[63]",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 162,
+                    "end": 166,
+                    "text": "[64]",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 167,
+                    "end": 171,
+                    "text": "[65]",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 391,
+                    "end": 395,
+                    "text": "[66]",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 413,
+                    "end": 417,
+                    "text": "[67]",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 448,
+                    "end": 452,
+                    "text": "[68]",
+                    "ref_id": "BIBREF67"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Antibody Synergism"
+        },
+        {
+            "text": "Another feature that may aid in viral neutralization within the CNS are Fc modifications. One such modification, sialylation, is mechanistically considered to be anti-inflammatory but may also have direct antiviral effects [69] [70] [71] [72] [73] [74] [75] . For instance, sialic acid on secretory IgA can aid in neutralization of the influenza virus by binding to hemagglutinin for competition with binding to the cell surface sialic acid needed for entry [76] . Additionally, many modifications on Fc domains in the periphery correlate to patient outcomes of viral diseases [77] but have not been examined extensively for antibodies within the CNS.",
+            "cite_spans": [
+                {
+                    "start": 223,
+                    "end": 227,
+                    "text": "[69]",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 228,
+                    "end": 232,
+                    "text": "[70]",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 233,
+                    "end": 237,
+                    "text": "[71]",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 238,
+                    "end": 242,
+                    "text": "[72]",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 243,
+                    "end": 247,
+                    "text": "[73]",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 248,
+                    "end": 252,
+                    "text": "[74]",
+                    "ref_id": "BIBREF73"
+                },
+                {
+                    "start": 253,
+                    "end": 257,
+                    "text": "[75]",
+                    "ref_id": "BIBREF74"
+                },
+                {
+                    "start": 458,
+                    "end": 462,
+                    "text": "[76]",
+                    "ref_id": "BIBREF75"
+                },
+                {
+                    "start": 577,
+                    "end": 581,
+                    "text": "[77]",
+                    "ref_id": "BIBREF76"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Modifications and Auxiliary Features of Fc"
+        },
+        {
+            "text": "While antibodies typically kill pathogens via neutralization, complement-mediated lysis, or FcR-dependent phagocytosis, there is growing evidence that antibodies themselves can induce microbe killing [78] [79] [80] . Binding by antibodies to a bacterial surface can induce gene expression changes that interfere with bacterial quorum sensing, resulting in pathogen clearance [76] . New evidence suggests that antibodies can have proteolytic activity to hydrolyze a pathogen-specific protein, which can compromise the viral life cycle. This activity has been documented for IgM, IgG, and IgA from healthy individuals against the HIV-1 envelope [81, 82] as well as for the influenza virus [83] . In addition, this activity is well documented in numerous autoimmune and neurodegenerative conditions, although the mechanism and antibody contributions under these conditions are still being elucidated [83] . Intriguingly, of the antibodies with known crystal structures, 7% have a serine protease catalytic triad that could potentially have proteolytic activity [83] . This noncytolytic mechanism inhibits viral propagation by the destruction of key viral proteins and could be useful in clearance of the virus from the CNS without loss of neurons.",
+            "cite_spans": [
+                {
+                    "start": 200,
+                    "end": 204,
+                    "text": "[78]",
+                    "ref_id": null
+                },
+                {
+                    "start": 205,
+                    "end": 209,
+                    "text": "[79]",
+                    "ref_id": "BIBREF79"
+                },
+                {
+                    "start": 210,
+                    "end": 214,
+                    "text": "[80]",
+                    "ref_id": "BIBREF80"
+                },
+                {
+                    "start": 375,
+                    "end": 379,
+                    "text": "[76]",
+                    "ref_id": "BIBREF75"
+                },
+                {
+                    "start": 643,
+                    "end": 647,
+                    "text": "[81,",
+                    "ref_id": "BIBREF81"
+                },
+                {
+                    "start": 648,
+                    "end": 651,
+                    "text": "82]",
+                    "ref_id": "BIBREF82"
+                },
+                {
+                    "start": 687,
+                    "end": 691,
+                    "text": "[83]",
+                    "ref_id": "BIBREF83"
+                },
+                {
+                    "start": 897,
+                    "end": 901,
+                    "text": "[83]",
+                    "ref_id": "BIBREF83"
+                },
+                {
+                    "start": 1058,
+                    "end": 1062,
+                    "text": "[83]",
+                    "ref_id": "BIBREF83"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Antibodies with Direct Microbe Killing or Proteolytic Activity"
+        },
+        {
+            "text": "An interesting feature of antibodies to the E2 glycoprotein of SINV is the ability of bivalent antibody to modulate virus replication intracellularly. Antibody treatment leads to decreased viral transcription/translation, inhibition of viral budding, and restoration of host transcription/translation in both SINV-infected mice and cell culture [84, 85] . Further studies have highlighted that antibody treatment leads to decreases in SINV subgenomic RNA in neuronal cells [86] . Antibodies can also be internalized with a viral target, allowing for intracellular receptor binding, neutralization via the proteasome, and stimulation of the NF-\u03baB pathway, as demonstrated for adenovirus and tripartite motif-containing 21 (TRIM21) [87] . Modulation of intracellular viral replication could be a potent mechanism of control by antibodies, particularly in precious non-renewable cells such as neurons.",
+            "cite_spans": [
+                {
+                    "start": 345,
+                    "end": 349,
+                    "text": "[84,",
+                    "ref_id": "BIBREF84"
+                },
+                {
+                    "start": 350,
+                    "end": 353,
+                    "text": "85]",
+                    "ref_id": "BIBREF85"
+                },
+                {
+                    "start": 473,
+                    "end": 477,
+                    "text": "[86]",
+                    "ref_id": "BIBREF86"
+                },
+                {
+                    "start": 730,
+                    "end": 734,
+                    "text": "[87]",
+                    "ref_id": "BIBREF87"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Antibodies Able to Suppress Virus Replication Intracellularly"
+        },
+        {
+            "text": "Acute encephalomyelitis caused by RNA viruses can be fatal, result in perpetual disability due to permanent damage to neurons, or be controlled by the immune response followed by recovery. For many viral infections of the CNS, the prompt appearance of antiviral antibodies produced by ASCs within the CNS is associated with recovery. However, noncytolytic virus clearance may result in the persistence of nucleic acid in the CNS and the need for long-term CNS-resident immune cells to prevent recrudescence or progressive disease. The antibody response and its protective role in numerous viral encephalopathies have been documented but mechanisms are less well defined. However, numerous noncytolytic antibody functions have been identified and could be critical to the control of viral infections in non-renewable cells like neurons. Understanding this facet of CNS immunity is imperative to understanding this immune-specialized zone, as well as being necessary for the development of therapeutics to prevent neurologic disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Beyond Viruses: Clinical Profiles and Etiologies Associated with Encephalitis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Glaser",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Honarmand",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Schnurr",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Forghani",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Cossen",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Schuster",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Christie",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Tureen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Clin. Infect. Dis",
+            "volume": "43",
+            "issn": "",
+            "pages": "1565--1577",
+            "other_ids": {
+                "DOI": [
+                    "10.1086/509330"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Recruitment and Retention of B Cells in the Central Nervous System in Response to Alphavirus Encephalomyelitis",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Metcalf",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Baxter",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nilaratanakul",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J. Virol",
+            "volume": "87",
+            "issn": "",
+            "pages": "2420--2429",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.01769-12"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Lymphocytic Choriomeningitis Virus-An Old Enemy up to New Tricks",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Peters",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "N. Engl. J. Med",
+            "volume": "354",
+            "issn": "",
+            "pages": "2208--2211",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMp068021"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Perspectives in Diagnosis and Treatment of Rabies Viral Encephalitis: Insights from Pathogenesis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mahadevan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Suja",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mani",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Shankar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "13",
+            "issn": "",
+            "pages": "477--492",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s13311-016-0452-4"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Alphavirus-Induced Encephalomyelitis: Antibody-Secreting Cells and Viral Clearance from the Nervous System",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Metcalf",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J. Virol",
+            "volume": "85",
+            "issn": "",
+            "pages": "11490--11501",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.05379-11"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The Antibody-Secreting Cell Response to Infection: Kinetics and Clinical Applications",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Carter",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mitchell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M M"
+                    ],
+                    "last": "Sauteur",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Kelly",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tr\u00fcck",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Front. Immunol",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fimmu.2017.00630"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Recruitment kinetics and composition of antibody-secreting cells within the central nervous system following viral encephalomyelitis",
+            "authors": [
+                {
+                    "first": "S.-I",
+                    "middle": [],
+                    "last": "Tschen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Bergmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ramakrishna",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Morales",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Atkinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Stohlman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "J. Immunol",
+            "volume": "168",
+            "issn": "",
+            "pages": "2922--2929",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.168.6.2922"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Early Events in the Pathogenesis of Eastern Equine Encephalitis Virus in Mice",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vogel",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Fritz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Parker",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Schoepp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Am. J. Pathol",
+            "volume": "166",
+            "issn": "",
+            "pages": "159--171",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0002-9440(10)62241-9"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Clinical and Neuroradiographic Manifestations of Eastern Equine Encephalitis",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Deresiewicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Thaler",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Zamani",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "N. Engl. J. Med",
+            "volume": "336",
+            "issn": "",
+            "pages": "1867--1874",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJM199706263362604"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Entry Sites of Venezuelan and Western Equine Encephalitis Viruses in the Mouse Central Nervous System following Peripheral Infection",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Phillips",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Rico",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Stauft",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hammond",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Aboellail",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Tjalkens",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Olson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J. Virol",
+            "volume": "90",
+            "issn": "",
+            "pages": "5785--5796",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.03219-15"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Current Understanding of the Molecular Basis of Venezuelan Equine Encephalitis Virus Pathogenesis and Vaccine Development",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Knollmann-Ritschel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Viruses",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/v11020164"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The Systemic Pathology of Venezuelan Equine Encephalitis Virus Infection in Humans",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "De La Monte",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Castro",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bonilla",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "De Urdaneta",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hutchins",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "Am. J. Trop. Med. Hyg",
+            "volume": "34",
+            "issn": "",
+            "pages": "194--202",
+            "other_ids": {
+                "DOI": [
+                    "10.4269/ajtmh.1985.34.194"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Extensive immune-mediated hippocampal damage in mice surviving infection with neuroadapted Sindbis virus",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kimura",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Virology",
+            "volume": "311",
+            "issn": "",
+            "pages": "28--39",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0042-6822(03)00110-7"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Basis of neurovirulence in Sindbis virus encephalomyelitis of mice",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Jackson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Moench",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Trapp",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Lab. Investig",
+            "volume": "58",
+            "issn": "",
+            "pages": "503--509",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Pathogenesis of Semliki Forest Virus Encephalitis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fazakerley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "J. Neurovirol",
+            "volume": "8",
+            "issn": "",
+            "pages": "66--74",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/135502802901068000"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Virus tropism, distribution, persistence and pathology in the corpus callosum of the Semliki Forest virus-infected mouse brain: A novel system to study virus-oligodendrocyte interactions",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fazakerley",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Cotterill",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Graham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Neuropathol. Appl. Neurobiol",
+            "volume": "32",
+            "issn": "",
+            "pages": "397--409",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1365-2990.2006.00739.x"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "The neurological complications of chikungunya virus: A systematic review",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mehta",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gerardin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A A"
+                    ],
+                    "last": "De Brito",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Soares",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L B"
+                    ],
+                    "last": "Ferreira",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Solomon",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "Rev. Med Virol",
+            "volume": "28",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/rmv.1978"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Temporal changes of Japanese encephalitits virus in different brain regions of rat",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Srivastava",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kalita",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gore",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Bondre",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Misra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Indian J. Med. Res",
+            "volume": "138",
+            "issn": "",
+            "pages": "219--223",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Zika virus replicates in adult human brain tissue and impairs synapses and memory in mice",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Figueiredo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "G D Q"
+                    ],
+                    "last": "Barros-Arag\u00e3o",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L S"
+                    ],
+                    "last": "Neris",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Frost",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Soares",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "N D O"
+                    ],
+                    "last": "Souza",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Zeidler",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Zamberlan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": ".; De",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Sousa",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Souza",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nat. Commun",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41467-019-11866-7"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "CoV-2: Olfaction, Brain Infection, and the Urgent Need for Clinical Samples Allowing Earlier Virus Detection",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Butowt",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bilinska",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sars-",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "ACS Chem. Neurosci",
+            "volume": "11",
+            "issn": "",
+            "pages": "1200--1203",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acschemneuro.0c00172"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "COVID -19: A Global Threat to the Nervous System",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Koralnik",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Tyler",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Ann. Neurol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--11",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/ana.25807"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Neuropathogenicity of mouse hepatitis virus JHM isolates differing in hemagglutinin-esterase protein expression",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yokomori",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Asanaka",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Stohlman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Makino",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Shubin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Gilmore",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Weiner",
+                    "suffix": ""
+                },
+                {
+                    "first": "F.-I.; Mc",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lai",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "J. Neurovirol",
+            "volume": "1",
+            "issn": "",
+            "pages": "330--339",
+            "other_ids": {
+                "DOI": [
+                    "10.3109/13550289509111022"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Demyelinating and Nondemyelinating Strains of Mouse Hepatitis Virus Differ in Their Neural Cell Tropism",
+            "authors": [
+                {
+                    "first": "Das",
+                    "middle": [],
+                    "last": "Sarma",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Iacono",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gard",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Marek",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kenyon",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Koval",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Weiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J. Virol",
+            "volume": "82",
+            "issn": "",
+            "pages": "5519--5526",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.01488-07"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Poliovirus Induces Apoptosis in the Mouse Central Nervous System",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Girard",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Couderc",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Destombes",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Thiesson",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Delpeyroux",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Blondel",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J. Virol",
+            "volume": "73",
+            "issn": "",
+            "pages": "6066--6072",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.73.7.6066-6072.1999"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Facets of Theiler's Murine Encephalomyelitis Virus-Induced Diseases: An Update",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Gerhauser",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Hansmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ciurkiewicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "L\u00f6scher",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Beineke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Int. J. Mol. Sci",
+            "volume": "20",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijms20020448"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Rapid Nipah virus entry into the central nervous system of hamsters via the olfactory route",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Munster",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Prescott",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bushmaker",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Long",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rosenke",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Scott",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Fischer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Feldmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "De Wit",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/srep00736"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Molecular and Cellular Aspects of Rhabdovirus Entry",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Albertini",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Baquero",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ferlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Gaudin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Viruses",
+            "volume": "4",
+            "issn": "",
+            "pages": "117--139",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/v4010117"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "CNS immune privilege: Hiding in plain sight",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Carson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Doose",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Melchior",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Schmid",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ploix",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Immunol. Rev",
+            "volume": "213",
+            "issn": "",
+            "pages": "48--65",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1600-065X.2006.00441.x"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "T-lymphocyte entry into the central nervous system",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Hickey",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kimura",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "J. Neurosci. Res",
+            "volume": "28",
+            "issn": "",
+            "pages": "254--260",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jnr.490280213"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "B lymphocytes in the normal brain: Contrasts with HIV-associated lymphoid infiltrates and lymphomas",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Anthony",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Crawford",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Brain",
+            "volume": "126",
+            "issn": "",
+            "pages": "1058--1067",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/brain/awg118"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Antigen-dependent intrathecal antibody synthesis in the normal rat brain: Tissue entry and local retention of antigen-specific B cells",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Knopf",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Harling-Berg",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Cserr",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Basu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Sirulnick",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Nolan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Keir",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Hickey",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "J. Immunol",
+            "volume": "161",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Intrathecal Humoral Immunity to Encephalitic RNA Viruses",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Phares",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Stohlman",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Bergmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "5",
+            "issn": "",
+            "pages": "732--752",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/v5020732"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Neuronal CXCL10 Directs CD8+ T-Cell Recruitment and Control of West Nile Virus Encephalitis",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Klein",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Luster",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tollett",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Samuel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Engle",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Diamond",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J. Virol",
+            "volume": "79",
+            "issn": "",
+            "pages": "11457--11466",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.79.17.11457-11466.2005"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Profile of Cytokines and Chemokines Triggered by Wild-Type Strains of Rabies Virus in Mice",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Appolinario",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Allendorf",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Fonseca",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Ribeiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Vicente",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M A D P"
+                    ],
+                    "last": "Antunes",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Peres",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Megid",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Am. J. Trop. Med. Hyg",
+            "volume": "94",
+            "issn": "",
+            "pages": "378--383",
+            "other_ids": {
+                "DOI": [
+                    "10.4269/ajtmh.15-0361"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Expression of Neuronal CXCL10 Induced by Rabies Virus Infection Initiates Infiltration of Inflammatory Cells, Production of Chemokines and Cytokines, and Enhancement of Blood-Brain Barrier Permeability",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Chai",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "She",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Virol",
+            "volume": "89",
+            "issn": "",
+            "pages": "870--876",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.02154-14"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Cerebrospinal fluid measles antibody titer and \u03b3 globulins in subacute sclerosing panencephalitis. Zeitschrift f\u00fcr Neurologie",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ebinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Matthyssens",
+                    "suffix": ""
+                }
+            ],
+            "year": 1971,
+            "venue": "",
+            "volume": "200",
+            "issn": "",
+            "pages": "1--5",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/BF00316851"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Germ Line IgM Is Sufficient, but Not Required, for Antibody-Mediated Alphavirus Clearance from the Central Nervous System",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nilaratanakul",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Tran",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Baxter",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Troisi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Yeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J. Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "2081--2098",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.02081-17"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Long term intraparenchymal Ig secretion after acute viral encephalitis in mice",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Tyor",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wesselingh",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Levine",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "J. Immunol",
+            "volume": "149",
+            "issn": "",
+            "pages": "4016--4020",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Immunoglobulins in the cerebrospinal fluid: Changes during acute viral encephalitis in mice",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "J. Immunol",
+            "volume": "126",
+            "issn": "",
+            "pages": "27--31",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Characterization of the local and systemic B cell response of normal and athymic nude mice with Sindbis virus encephalitis",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Tyor",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Moench",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "J. Neuroimmunol",
+            "volume": "24",
+            "issn": "",
+            "pages": "207--215",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/0165-5728(89)90118-5"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Immune responses to RNA-virus infections of the CNS",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Nat. Rev. Immunol",
+            "volume": "3",
+            "issn": "",
+            "pages": "493--502",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nri1105"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Following Acute Encephalitis, Semliki Forest Virus is Undetectable in the Brain by Infectivity Assays but Functional Virus RNA Capable of Generating Infectious Virus Persists for Life",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fragkoudis",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Dixon-Ballany",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zagrajek",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kedzierski",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fazakerley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/v10050273"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Identification of immunoglobulin-containing cells in the central nervous system of the mouse following infection with the demyelinating strain of Semliki Forest virus",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Parsons",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Webb",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "Br. J. Exp. Pathol",
+            "volume": "70",
+            "issn": "",
+            "pages": "247--255",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Cells and Antibodies in the Pathogenesis of Myelin Injury in Semliki Forest Virus Encephalomyelitis",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Smith-Norowitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sobel",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Mokhtarian",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Cell Immunol",
+            "volume": "",
+            "issn": "",
+            "pages": "27--35",
+            "other_ids": {
+                "DOI": [
+                    "10.1006/cimm.2000.1613"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "West Nile Virus Infection in the Central Nervous System. F1000 Res",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Winkelmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.12688/f1000research.7404.1"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "A Critical Role for Induced IgM in the Protection against West Nile Virus Infection",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Diamond",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sitati",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Friend",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Higgs",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Shrestha",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Engle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J. Exp. Med",
+            "volume": "198",
+            "issn": "",
+            "pages": "1853--1862",
+            "other_ids": {
+                "DOI": [
+                    "10.1084/jem.20031223"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Loss of active neuroinvasiveness in attenuated strains of West Nile virus: Pathogenicity in immunocompetent and SCID mice",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Halevy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Akov",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ben-Nathan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kobiler",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lachmi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lustig",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Arch. Virol",
+            "volume": "137",
+            "issn": "",
+            "pages": "355--370",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/BF01309481"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Natural antibodies and complement link innate and acquired immunity",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Ochsenbein",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zinkernagel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Immunol. Today",
+            "volume": "21",
+            "issn": "",
+            "pages": "624--630",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0167-5699(00)01754-0"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Neurological Manifestations of COVID-19 (SARS-CoV-2): A Review",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hanif",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Haider",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kherani",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Memon",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Karim",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sattar",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fneur.2020.00518"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "COVID-19 encephalopathy: Detection of antibodies against SARS-CoV-2 in CSF",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Andriuta",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.-A",
+                    "middle": [],
+                    "last": "Roger",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Thibault",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Toublanc",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sauzay",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Castelain",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Godefroy",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Brochot",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Neurol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--2",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00415-020-09975-1"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Infection of the CNS: Mechanisms of Immune-Mediated Control",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Marten",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Stohlman",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Bergmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Mhv",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Viral Immunol",
+            "volume": "14",
+            "issn": "",
+            "pages": "1--18",
+            "other_ids": {
+                "DOI": [
+                    "10.1089/08828240151061329"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Antibody is required for clearance of infectious murine hepatitis virus A59 from the central nervous system, but not the liver",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Matthews",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Weiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Shlomchik",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hannum",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Gombold",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Paterson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "J. Immunol",
+            "volume": "167",
+            "issn": "",
+            "pages": "5254--5263",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.167.9.5254"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Progression from IgD + IgM + to Isotype-Switched B Cells Is Site Specific during Coronavirus-Induced Encephalomyelitis",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Phares",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Disano",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Stohlman",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Bergmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Virol",
+            "volume": "88",
+            "issn": "",
+            "pages": "8853--8867",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.00861-14"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Four Thousand Years of Concepts Relating to Rabies in Animals and Humans, Its Prevention and Its Cure",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tarantola",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Trop. Med. Infect. Dis",
+            "volume": "2",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/tropicalmed2020005"
+                ]
+            }
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "The Production of Antibody by Invading B Cells Is Required for the Clearance of Rabies Virus from the Central Nervous System",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hooper",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Phares",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Fabis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Roy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "PLoS Negl. Trop. Dis",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pntd.0000535"
+                ]
+            }
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Presence of Virus Neutralizing Antibodies in Cerebral Spinal Fluid Correlates with Non-Lethal Rabies in Dogs",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Gnanadurai",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leyson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-T",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Salyards",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Harvey",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS Negl. Trop. Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pntd.0002375"
+                ]
+            }
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Lethal Silver-Haired Bat Rabies Virus Infection Can Be Prevented by Opening the Blood-Brain Barrier",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Roy",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hooper",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Virol",
+            "volume": "81",
+            "issn": "",
+            "pages": "7993--7998",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.00710-07"
+                ]
+            }
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Zika virus encephalitis in immunocompetent mice is dominated by innate immune cells and does not require T or B cells",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Hayashida",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ling",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ashhurst",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Viengkhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Jung",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Songkhunawej",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "West",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hofer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J. Neuroinflam",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12974-019-1566-5"
+                ]
+            }
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Cells Facilitate Recovery from Venezuelan Equine Encephalitis Virus-Induced Encephalomyelitis in the Absence of Antibody",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Brooke",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Deming",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Whitmore",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "White",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Johnston",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J. Virol",
+            "volume": "84",
+            "issn": "",
+            "pages": "4556--4568",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.02545-09"
+                ]
+            }
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Potent and synergistic neutralization of human immunodeficiency virus (HIV) type 1 primary isolates by hyperimmune anti-HIV immunoglobulin combined with monoclonal antibodies 2F5 and 2G12",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mascola",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Louder",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Vancott",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Sapan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lambert",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Muenz",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bunow",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Birx",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Robb",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "J. Virol",
+            "volume": "71",
+            "issn": "",
+            "pages": "7198--7206",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.71.10.7198-7206.1997"
+                ]
+            }
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Human Monoclonal Antibody Combination against SARS Coronavirus: Synergy and Coverage of Escape Mutants",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ter Meulen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "N V D"
+                    ],
+                    "last": "Brink",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L M"
+                    ],
+                    "last": "Poon",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Marissen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S W"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cox",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Cheung",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Bakker",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bogaards",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Van Deventer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "PLoS Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pmed.0030237"
+                ]
+            }
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Breadth of neutralization and synergy of clinically relevant human monoclonal antibodies against HCV genotypes 1a, 1b, 2a, 2b, 2c, and 3a",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Carlsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pedersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Prentoe",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Giang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.-Y",
+                    "middle": [],
+                    "last": "Keck",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mikkelsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Law",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K H"
+                    ],
+                    "last": "Foung",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bukh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Hepatology",
+            "volume": "60",
+            "issn": "",
+            "pages": "1551--1562",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/hep.27298"
+                ]
+            }
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "HIV-1 Vaccine-Induced C1 and V2 Env-Specific Antibodies Synergize for Increased Antiviral Activities",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pollara",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bonsignori",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Moody",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Alam",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.-K",
+                    "middle": [],
+                    "last": "Hwang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Gurley",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kozink",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Armand",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Marshall",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Virol",
+            "volume": "88",
+            "issn": "",
+            "pages": "7715--7726",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.00156-14"
+                ]
+            }
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Synergistic anti-HCV broadly neutralizing human monoclonal antibodies with independent mechanisms",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mankowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Kinchen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Wasilewski",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Flyak",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ray",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Crowe",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bailey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proc. Natl. Acad. Sci",
+            "volume": "115",
+            "issn": "",
+            "pages": "82--91",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1718441115"
+                ]
+            }
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Cooperativity Enables Non-neutralizing Antibodies to Neutralize Ebolavirus",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Howell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Brannan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bryan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mcneal",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Davidson",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Turner",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Vu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shulenin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kuehne",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Cell Rep",
+            "volume": "19",
+            "issn": "",
+            "pages": "413--424",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.celrep.2017.03.049"
+                ]
+            }
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Antibody-Induced Conformational Changes in Herpes Simplex Virus Glycoprotein gD Reveal New Targets for Virus Neutralization",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lazear",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Whitbeck",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ponce-De-Leon",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Cairns",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Willis",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Krummenacher",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Eisenberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J. Virol",
+            "volume": "86",
+            "issn": "",
+            "pages": "1563--1576",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.06480-11"
+                ]
+            }
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Antibody-induced conformational changes result in enhanced avidity of antibodies to different antigenic sites on the tick-borne encephalitis virus glycoprotein",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Heinz",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mandl",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Berger",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tuma",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kunz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "Virology",
+            "volume": "133",
+            "issn": "",
+            "pages": "25--34",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/0042-6822(84)90422-7"
+                ]
+            }
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Anti-Inflammatory Activity of Immunoglobulin G Resulting from Fc Sialylation",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kaneko",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Nimmerjahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Ravetch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Science",
+            "volume": "313",
+            "issn": "",
+            "pages": "670--673",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.1129594"
+                ]
+            }
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Intravenous immunoglobulin protects from experimental allergic bronchopulmonary aspergillosis via a sialylation-dependent mechanism",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bozza",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "K\u00e4sermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Kaveri",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Romani",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bayry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Eur. J. Immunol",
+            "volume": "49",
+            "issn": "",
+            "pages": "195--198",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/eji.201847774"
+                ]
+            }
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Recapitulation of IVIG Anti-Inflammatory Activity with a Recombinant IgG Fc",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Anthony",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Nimmerjahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ashline",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Reinhold",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Paulson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Ravetch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Science",
+            "volume": "320",
+            "issn": "",
+            "pages": "373--376",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.1154315"
+                ]
+            }
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "B cells and CD22 are dispensable for the immediate antiinflammatory activity of intravenous immunoglobulins in vivo",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Schwab",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Seeling",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Biburger",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Aschermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Nitschke",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Nimmerjahn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Eur. J. Immunol",
+            "volume": "42",
+            "issn": "",
+            "pages": "3302--3309",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/eji.201242710"
+                ]
+            }
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Controlled tetra-Fc sialylation of IVIg results in a drug candidate with consistent enhanced anti-inflammatory activity",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Washburn",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Schwab",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ortiz",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bhatnagar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lansing",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Medeiros",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tyler",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mekala",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Cochran",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sarvaiya",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Proc. Natl. Acad. Sci",
+            "volume": "112",
+            "issn": "",
+            "pages": "1297--1306",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1422481112"
+                ]
+            }
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Sialylation converts arthritogenic IgG into inhibitors of collagen-induced arthritis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ohmi",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ise",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Harazono",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Takakura",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Fukuyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Baba",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Narazaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shoda",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Takahashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ohkawa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Nat. Commun",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/ncomms11205"
+                ]
+            }
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "Sialylated Autoantigen-Reactive IgG Antibodies Attenuate Disease Development in Autoimmune Mouse Models of Lupus Nephritis and Rheumatoid Arthritis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Bartsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rahm\u00f6ller",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M M"
+                    ],
+                    "last": "Mertes",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Eiglmeier",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "K M"
+                    ],
+                    "last": "Lorenz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Stoehr",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Braumann",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lorenz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Winkler",
+                    "suffix": ""
+                },
+                {
+                    "first": "G.-M",
+                    "middle": [],
+                    "last": "Lilienthal",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Front. Immunol",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fimmu.2018.01183"
+                ]
+            }
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "The bactericidal effect of a complement-independent antibody is osmolytic and specific to Borrelia",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Larocca",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Holthausen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hsieh",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Renken",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mannella",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Benach",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Proc. Natl. Acad. Sci",
+            "volume": "106",
+            "issn": "",
+            "pages": "10752--10757",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.0901858106"
+                ]
+            }
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "Understanding the role of antibody glycosylation through the lens of severe viral and bacterial diseases",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Irvine",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Alter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Glycobiology",
+            "volume": "30",
+            "issn": "",
+            "pages": "241--253",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/glycob/cwaa018"
+                ]
+            }
+        },
+        "BIBREF78": {
+            "ref_id": "b78",
+            "title": "Pneumococcal Capsular Polysaccharide-Specific Monoclonal Antibodies against Intranasal Challenge with Streptococcus pneumoniae in Mice",
+            "authors": [],
+            "year": 2009,
+            "venue": "Infect. Immun",
+            "volume": "77",
+            "issn": "",
+            "pages": "1502--1513",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/IAI.01075-08"
+                ]
+            }
+        },
+        "BIBREF79": {
+            "ref_id": "b79",
+            "title": "Bactericidal action of a complement-independent antibody against relapsing fever Borrelia resides in its variable region",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Larocca",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Katona",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Thanassi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Benach",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J. Immunol",
+            "volume": "180",
+            "issn": "",
+            "pages": "6222--6228",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.180.9.6222"
+                ]
+            }
+        },
+        "BIBREF80": {
+            "ref_id": "b80",
+            "title": "Generation of a Complement-Independent Bactericidal IgM against a Relapsing Fever Borrelia",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Connolly",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Thanassi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Benach",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Immunol",
+            "volume": "172",
+            "issn": "",
+            "pages": "1191--1197",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.172.2.1191"
+                ]
+            }
+        },
+        "BIBREF81": {
+            "ref_id": "b81",
+            "title": "Antibody-mediated catalysis: Induction and therapeutic relevance",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mahendra",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Rao",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Peyron",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Planchais",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Dimitrov",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Kaveri",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lacroix-Desmazes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Autoimmun. Rev",
+            "volume": "12",
+            "issn": "",
+            "pages": "648--652",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.autrev.2012.10.009"
+                ]
+            }
+        },
+        "BIBREF82": {
+            "ref_id": "b82",
+            "title": "Characterization of gp120 Hydrolysis by IgA Antibodies from Humans without HIV Infection",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Planque",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Mitsuda",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Taguchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Salas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.-K",
+                    "middle": [],
+                    "last": "Morris",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Nishiyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kyle",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Okhuysen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Escobar",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hunter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "AIDS Res. Hum. Retrovir",
+            "volume": "23",
+            "issn": "",
+            "pages": "1541--1554",
+            "other_ids": {
+                "DOI": [
+                    "10.1089/aid.2007.0081"
+                ]
+            }
+        },
+        "BIBREF83": {
+            "ref_id": "b83",
+            "title": "Antibody-Mediated Catalysis in Infection and Immunity",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bowen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wear",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Casadevall",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Infect. Immun",
+            "volume": "85",
+            "issn": "",
+            "pages": "202--219",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/IAI.00202-17"
+                ]
+            }
+        },
+        "BIBREF84": {
+            "ref_id": "b84",
+            "title": "Antiviral activity of alpha interferon in Sindbis virus-infected cells is restored by anti-E2 monoclonal antibody treatment",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Despr\u00e9s",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "J. Virol",
+            "volume": "69",
+            "issn": "",
+            "pages": "7345--7348",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.69.11.7345-7348.1995"
+                ]
+            }
+        },
+        "BIBREF85": {
+            "ref_id": "b85",
+            "title": "Roles of immunoglobulin valency and the heavy-chain constant domain in antibody-mediated downregulation of Sindbis virus replication in persistently infected neurons",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ubol",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Levine",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Greenspan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "J. Virol",
+            "volume": "69",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.69.3.1990-1993.1995"
+                ]
+            }
+        },
+        "BIBREF86": {
+            "ref_id": "b86",
+            "title": "Visualization of cell-type dependent effects of anti-E2 antibody and interferon-gamma treatments on localization and expression of Broccoli aptamer-tagged alphavirus RNAs",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nilaratanakul",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci. Rep",
+            "volume": "10",
+            "issn": "",
+            "pages": "1--10",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41598-020-61015-0"
+                ]
+            }
+        },
+        "BIBREF87": {
+            "ref_id": "b87",
+            "title": "Antibodies mediate intracellular immunity through tripartite motif-containing 21 (TRIM21)",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mallery",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mcewan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bidgood",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Towers",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "James",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Proc. Natl. Acad. Sci",
+            "volume": "107",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1014074107"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Select causes of acute viral encephalomyelitis in animal models and humans.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Funding: Work from the authors' laboratory was funded by research grants R01 NS087539 and NS038932 (DEG) and T32 AI 138953 from the National Institutes of Health.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        },
+        {
+            "text": "The authors declare no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of Interest:"
+        }
+    ]
+}

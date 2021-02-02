@@ -1,0 +1,3806 @@
+{
+    "paper_id": "0a73458e7ed08e57dd608b444b76bb92a1049a24",
+    "metadata": {
+        "title": "Assessing Urban Health Inequities through a Multidimensional and Participatory Framework: Evidence from the EURO-HEALTHY Project",
+        "authors": [
+            {
+                "first": "\u00c2ngela",
+                "middle": [],
+                "last": "Freitas",
+                "suffix": "",
+                "affiliation": {},
+                "email": "angela.freitas@uc.pt"
+            },
+            {
+                "first": "Teresa",
+                "middle": [
+                    "C"
+                ],
+                "last": "Rodrigues",
+                "suffix": "",
+                "affiliation": {},
+                "email": "teresacrodrigues@tecnico.ulisboa.pt"
+            },
+            {
+                "first": "Paula",
+                "middle": [],
+                "last": "Santana",
+                "suffix": "",
+                "affiliation": {},
+                "email": "paulasantana@uc.pt"
+            },
+            {
+                "first": "\u00c2",
+                "middle": [],
+                "last": "Freitas",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "T",
+                "middle": [
+                    "C"
+                ],
+                "last": "Rodrigues",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "P",
+                "middle": [],
+                "last": "Santana",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "importance of a place-based approach for assessing urban health equity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Keywords Urban health equity . Determinants of health . Indicators . Local level . Multidimensional assessment . Participatory approach . Stakeholder engagement . Lisbon Local and regional government 15 City of Lisbon-CML",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Abstract Urban health inequities often reflect and follow the geographic patterns of inequality in the social, economic and environmental conditions within a citythe so-called determinants of health. Evidence of patterns within these conditions can support decisionmaking by identifying where action is urgent and which policies and interventions are needed to mitigate negative impacts and enhance positive impacts. Within the scope of the EU-funded project EURO-HEALTHY (Shaping EUROpean policies to promote HEALTH equitY), the City of Lisbon was selected as a case study to apply a multidimensional and participatory assessment approach of urban health whose purpose was to inform the evaluation of policies and interventions with potential to address local health gaps. In this paper, we present the set of indicators identified as drivers of urban health inequities within the City of Lisbon, exploring the added value of using a spatial indicator framework together with a participation process to orient a placebased assessment and to inform policies aimed at reducing health inequities. Two workshops with a panel of local stakeholders from health and social care services, municipal departments (e.g. urban planning, environment, social rights and education) and nongovernmental and community-based organizations were organized. The aim was to engage local stakeholders to identify locally critical situations and select indicators of health determinants from a spatial equity perspective. To support the analysis, a matrix of 46 indicators of health determinants, with data disaggregated at the city neighbourhood scale, was constructed and was complemented with maps. The panel identified critical situations for urban health equity in 28 indicators across eight intervention axes: economic conditions, social protection and security; education; demographic change; lifestyles and behaviours; physical environment; built environment; road safety and healthcare resources and performance. The geographical distribution of identified critical situations showed that all 24 city neighbourhoods presented one or more problems. A group of neighbourhoods systematically perform worse in most indicators from different intervention axes, requiring not only priority action but mainly a multi-and intersectoral policy response. The indicator matrices and maps have provided a snapshot of urban inequities across different intervention axes, making a compelling argument for boosting intersectoral work across municipal departments and local stakeholders in the City of Lisbon. This study, by integrating local evidence in combination with social elements, pinpoints the Introduction Evidence on health inequities between and within cities has been globally documented across all countries and regions, regardless of the level of economic development and health system organization [1] [2] [3] [4] . The places where people live within a city and how that city is governed can shape individual and population health and create inequities [5, 6] . There is ample evidence that health inequities have a spatial footprint, often following the geographical patterns of inequality in the social, economic, built and physical environmental conditions in which people are born, grow, live, work and age-the so-called social determinants of health (SDoH) [1, 7] . These conditions are not distributed randomly within a city, the result of which creates different living conditions, degrees of vulnerability, levels of exposure to environmental risks and hazards, levels of access to resources, services and amenities and the populations' chances of living a flourishing life [1, [7] [8] [9] [10] .",
+            "cite_spans": [
+                {
+                    "start": 2884,
+                    "end": 2887,
+                    "text": "[1]",
+                    "ref_id": null
+                },
+                {
+                    "start": 2888,
+                    "end": 2891,
+                    "text": "[2]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 2892,
+                    "end": 2895,
+                    "text": "[3]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 2896,
+                    "end": 2899,
+                    "text": "[4]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 3040,
+                    "end": 3043,
+                    "text": "[5,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 3044,
+                    "end": 3046,
+                    "text": "6]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 3349,
+                    "end": 3352,
+                    "text": "[1,",
+                    "ref_id": null
+                },
+                {
+                    "start": 3353,
+                    "end": 3355,
+                    "text": "7]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 3673,
+                    "end": 3676,
+                    "text": "[7]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 3677,
+                    "end": 3680,
+                    "text": "[8]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 3681,
+                    "end": 3684,
+                    "text": "[9]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 3685,
+                    "end": 3689,
+                    "text": "[10]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Tackling the harmful effects of an unequal distribution of SDoH within a city is a matter of health equity and justice, understood here as principles underlying the commitment to provide conditions and opportunities to every individual to achieve good health and wellbeing, regardless of one's place of residence, ethnicity, age, gender identity, sexual orientation or economic and social situation, among any other status likely to cause disadvantage [11] [12] [13] .",
+            "cite_spans": [
+                {
+                    "start": 452,
+                    "end": 456,
+                    "text": "[11]",
+                    "ref_id": null
+                },
+                {
+                    "start": 457,
+                    "end": 461,
+                    "text": "[12]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 462,
+                    "end": 466,
+                    "text": "[13]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Policy decisions of different sectors shape processes that influence the distribution of urban determinants of health. Examples of this include access to education, economic opportunities, social protection, safety, healthcare, social services, culture, sports and recreation, provision of housing, air and water quality, public transport, green spaces and healthy food [9, [14] [15] [16] . For this reason, resulting inequities are considered both multidimensional and a complex problem: there are multiple contributors and multiple solutions, and these can neither be viewed in isolation nor understood without being situated in their place and local context [10, 17] . While healthcare policy can go some of the way, when it comes to addressing the causes of urban health inequities, gains can only be achieved via the engagement and actions of other sectors. Local and municipal governments play a very important role, not only by having the capacity to effect change through policies and interventions to address problems locally and allocate or redress the inequitable distribution of resources, but also due to their ability to work across sectors and with local stakeholders [14, [18] [19] [20] [21] .",
+            "cite_spans": [
+                {
+                    "start": 370,
+                    "end": 373,
+                    "text": "[9,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 374,
+                    "end": 378,
+                    "text": "[14]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 379,
+                    "end": 383,
+                    "text": "[15]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 384,
+                    "end": 388,
+                    "text": "[16]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 661,
+                    "end": 665,
+                    "text": "[10,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 666,
+                    "end": 669,
+                    "text": "17]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1183,
+                    "end": 1187,
+                    "text": "[14,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1188,
+                    "end": 1192,
+                    "text": "[18]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1193,
+                    "end": 1197,
+                    "text": "[19]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1198,
+                    "end": 1202,
+                    "text": "[20]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1203,
+                    "end": 1207,
+                    "text": "[21]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The United Nations Agenda for Sustainable Development, reflected in the New Urban Agenda [22] and in the 17 Sustainable Development Goals (SDGs) [23] , places strong emphasis on the leadership role played by cities when taking action to create healthier and more sustainable environments as they are considered the settings that hold the highest potential to address the determinants of health. In this context, it is important to note the work that the WHO Healthy Cities Movement has been developing over the last 30 years to put health on the social, economic and political agendas of city governments across the globe. Embedded is the recognition that more effective initiatives to address health inequities require a shift of paradigm in health promotion: we must reduce \"the focus on individual behavior change interventions within settings and focus more on interventions which change the structure of setting themselves as this is what constitutes action on broader determinants of health inequities\" 24(p138) .",
+            "cite_spans": [
+                {
+                    "start": 89,
+                    "end": 93,
+                    "text": "[22]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 145,
+                    "end": 149,
+                    "text": "[23]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1009,
+                    "end": 1017,
+                    "text": "24(p138)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Yet, in an environment of great complexity, the following question arises: \"what issues should governments consider when trying to identify what evidence is useful?\" 25(p2) Evidence-based policy is based on the principle that decisions are informed by available evidence and this should include a rational analysis [24] capable of representing the key issues, illustrating the gaps in equity among neighbourhoods, and ultimately inform action to close those gaps [25] [26] [27] [28] .",
+            "cite_spans": [
+                {
+                    "start": 315,
+                    "end": 319,
+                    "text": "[24]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 463,
+                    "end": 467,
+                    "text": "[25]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 468,
+                    "end": 472,
+                    "text": "[26]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 473,
+                    "end": 477,
+                    "text": "[27]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 478,
+                    "end": 482,
+                    "text": "[28]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Several initiatives have been undertaken over the last 30 years to compile and standardize urban health indicators with the aim of informing urban policy and decision-making; worthy of mention is the WHO Urban Health Equity Assessment and Response Tool-Urban HEART [29, 30] . Recent literature reviews on the development and use of metrics for analysing urban health equity highlight the existent plethora of indicator frameworks which exhibit great diversity in the aim, spatial scale, domains analysed, characteristics measured, indicator selection methodology and data visualization [29, [31] [32] [33] [34] .",
+            "cite_spans": [
+                {
+                    "start": 265,
+                    "end": 269,
+                    "text": "[29,",
+                    "ref_id": null
+                },
+                {
+                    "start": 270,
+                    "end": 273,
+                    "text": "30]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 591,
+                    "end": 595,
+                    "text": "[31]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 596,
+                    "end": 600,
+                    "text": "[32]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 601,
+                    "end": 605,
+                    "text": "[33]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 606,
+                    "end": 610,
+                    "text": "[34]",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "A system of urban health equity indicators using \"area-level health determinants\" is of considerable value to city mayors, municipal departments and other local stakeholders because they allow for monitoring related inequities across place and time and address critical situations and set priorities [35] . Furthermore, disaggregated data at the level of city neighbourhood invariably reveal inequities, stemming from a locational or \"placebased\" disadvantage. Within a setting that is geographical by nature-the city-the adoption of a place-based approach allows for the analysis of health inequities through a lens that incorporates data on local indicators (of economic, social, physical and built environment) [36] and involves multiple stakeholders and the community [7, [37] [38] [39] [40] .",
+            "cite_spans": [
+                {
+                    "start": 300,
+                    "end": 304,
+                    "text": "[35]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 714,
+                    "end": 718,
+                    "text": "[36]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 772,
+                    "end": 775,
+                    "text": "[7,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 776,
+                    "end": 780,
+                    "text": "[37]",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 781,
+                    "end": 785,
+                    "text": "[38]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 786,
+                    "end": 790,
+                    "text": "[39]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 791,
+                    "end": 795,
+                    "text": "[40]",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Making sound decisions to determine the primary inequities to address, thus producing desirable outcomes for population health, is both a technical and a social process [41] . The inherent complexity and multidimensionality of assessing urban health demand evidence from multiple fields of knowledge and the engagement of stakeholders from different sectors [42, 43] . Participation processes at the local level are broadly advocated and considered a current trend in urban health studies [44] , not only because they provide a venue for inclusive decision-making [45] but more importantly contribute to efforts to reach agreement on an issue where plurality and heterogeneity of points of view arise [46] . Stakeholders have a wide range of social values and interests that result in different perceptions of what evidence is most useful and relevant to guide priority setting [47] . This necessarily involves an effective use of stakeholders from a wide range of fields interpreting that evidence for them in a clear way and applying appropriate approaches to elicit information from them, thus making their perspectives explicit when making choices [42, 48] .",
+            "cite_spans": [
+                {
+                    "start": 169,
+                    "end": 173,
+                    "text": "[41]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 358,
+                    "end": 362,
+                    "text": "[42,",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 363,
+                    "end": 366,
+                    "text": "43]",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 489,
+                    "end": 493,
+                    "text": "[44]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 564,
+                    "end": 568,
+                    "text": "[45]",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 701,
+                    "end": 705,
+                    "text": "[46]",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 878,
+                    "end": 882,
+                    "text": "[47]",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 1152,
+                    "end": 1156,
+                    "text": "[42,",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 1157,
+                    "end": 1160,
+                    "text": "48]",
+                    "ref_id": "BIBREF54"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The EURO-HEALTHY project (Shaping EUROpean policies to promote HEALTH equity) was a 3-year project (2015-2017) funded by the European Commission to advance knowledge on policies with the highest potential to promote health equity across European regions, with a specific focus on urban areas. At its core is the application of a multidimensional and participatory approach to population health with the goal of understanding the key drivers of health inequities and advancing evidence and methods to better inform policymakers at different decision-making levels, the European Union (EU), national, regional and local [3, 49, 50] . The flagship tool of this project is a Population Health Index (PHI), a measure that characterizes European population health across multiple areas of concern, dimensions and indicators of health determinants and health outcomes [50] [51] [52] [53] .",
+            "cite_spans": [
+                {
+                    "start": 618,
+                    "end": 621,
+                    "text": "[3,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 622,
+                    "end": 625,
+                    "text": "49,",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 626,
+                    "end": 629,
+                    "text": "50]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 861,
+                    "end": 865,
+                    "text": "[50]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 866,
+                    "end": 870,
+                    "text": "[51]",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 871,
+                    "end": 875,
+                    "text": "[52]",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 876,
+                    "end": 880,
+                    "text": "[53]",
+                    "ref_id": "BIBREF59"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The EURO-HEALTHY Project"
+        },
+        {
+            "text": "The City of Lisbon was engaged in this project as a case study for the analysis and evaluation of policies with potential to promote health equity on an urban scale. The specific aim was to analyse municipal policies considering not only the benefit to promote health and reduce inequities in the SDoH among city neighbourhoods but also the doability [54] in light of two scenarios for the evolution of health inequalities in Europe (detailed information can be found in [55] ) [56] . A fundamental step was to build the evidence base for the policy evaluation exercise, which comprised the structuring of intervention axes (areas of concern in which the city has problems that can be addressed by policies) and the definition of a multidimensional set of indicators reflecting the status quo of urban health equity issues in Lisbon.",
+            "cite_spans": [
+                {
+                    "start": 351,
+                    "end": 355,
+                    "text": "[54]",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 471,
+                    "end": 475,
+                    "text": "[55]",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 478,
+                    "end": 482,
+                    "text": "[56]",
+                    "ref_id": "BIBREF62"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The EURO-HEALTHY Project"
+        },
+        {
+            "text": "This paper describes this first stage of assessment and the respective outputs, namely the set of indicators identified as drivers of place-based health inequities and the implications for future policy prioritization.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The EURO-HEALTHY Project"
+        },
+        {
+            "text": "The design of this socio-technical process was based on the following key assumptions and principles:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Research Design Criteria"
+        },
+        {
+            "text": "(i) Multidimensionality of urban health equity: recognition that multiple conditions influence urban health and SDoH are entry points for action to promote health equity, as the analysis of their unequal distribution within a city represents a crucial requirement to identify appropriate policy responses [16, 36, 57, 58] ; (ii) Evidence-based: informed by key SDoH and looking to all urban features likely to produce health inequities, the domains defined for analysing urban health inequities in Lisbon follow the areas of concern considered relevant to evaluate population health in the European context, under the EURO-HEALTHY project [3, 49, 50, 53] ; (iii) Data-driven and context-specific: availability of data to measure indicators that are relevant for the specific context and can characterize local conditions. Data is gathered from area-level indicators to capture geographical inequalities, with readily available data representative at the neighbourhood scale [33, 35, 39, 59, 60] ; (iv) Data quality and validity: the selection of indicators is based on readily available and timely data at the local level, obtained from official and accurate data sources that report current rather than historic data [58, 59] ; (v) Policy-relevant and action oriented: indicators need to be linked to policies and interventions with potential to effect change at the local level. Indicators provide information that is understood by those responsible for taking action and are considered appropriate and useful for guiding local decision-making. Data is spatially disaggregated at the neighbourhood level to inform place-based and multisectoral action [28, 39, 58, 59] ; (vi) Stakeholder engagement: a range of stakeholders from a variety of backgrounds must be involved, as local knowledge is considered vital, alongside with data, when it comes to both identifying and analysing context-specific urban health inequities. The engagement of key players includes local government, healthcare services and local associations and community groups. The objective is not necessarily to reach mutual consensus or to come to a joint decision on what the priority interventions will be, given that it is the policymakers who ultimately hold the final authority and are held accountable for final decisions [47, 58, 59] .; (vii) Participation and collaborative process: the participatory process is designed to promote shared understanding about urban health inequities while capturing multiple stakeholders' values and perspectives, creating a collaborative environment that enables management of eventual conflicts of values and promote agreement. The aim is to create a joint learning experience as a means of creating space for all stakeholders to express their views [45, 46, 48, 61] . (viii) Output validity: the outputs must be considered valid, that is, able to reflect what it is intended to reflect as relevant and meaningful for the specific context of evaluation and local situation (contextual validity), by the group of stakeholders actively engaged in the participatory process (participatory validity). Here, validation is assessed through \"face validity\" [62] , that is, in the view of the evidence presented (indicator data) and the variety of perspectives, the group considers that the indicators selected provide a general picture and are representative of the main drivers of urban health inequities (intersubjective and content validity). Additionally, the process must increase empathy among the participants (empathy validity) [59, 62, 63] .",
+            "cite_spans": [
+                {
+                    "start": 305,
+                    "end": 309,
+                    "text": "[16,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 310,
+                    "end": 313,
+                    "text": "36,",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 314,
+                    "end": 317,
+                    "text": "57,",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 318,
+                    "end": 321,
+                    "text": "58]",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 639,
+                    "end": 642,
+                    "text": "[3,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 643,
+                    "end": 646,
+                    "text": "49,",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 647,
+                    "end": 650,
+                    "text": "50,",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 651,
+                    "end": 654,
+                    "text": "53]",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 974,
+                    "end": 978,
+                    "text": "[33,",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 979,
+                    "end": 982,
+                    "text": "35,",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 983,
+                    "end": 986,
+                    "text": "39,",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 987,
+                    "end": 990,
+                    "text": "59,",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 991,
+                    "end": 994,
+                    "text": "60]",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 1218,
+                    "end": 1222,
+                    "text": "[58,",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 1223,
+                    "end": 1226,
+                    "text": "59]",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 1653,
+                    "end": 1657,
+                    "text": "[28,",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1658,
+                    "end": 1661,
+                    "text": "39,",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1662,
+                    "end": 1665,
+                    "text": "58,",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 1666,
+                    "end": 1669,
+                    "text": "59]",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 2299,
+                    "end": 2303,
+                    "text": "[47,",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 2304,
+                    "end": 2307,
+                    "text": "58,",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 2308,
+                    "end": 2311,
+                    "text": "59]",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 2764,
+                    "end": 2768,
+                    "text": "[45,",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 2769,
+                    "end": 2772,
+                    "text": "46,",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 2773,
+                    "end": 2776,
+                    "text": "48,",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 2777,
+                    "end": 2780,
+                    "text": "61]",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 3164,
+                    "end": 3168,
+                    "text": "[62]",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 3543,
+                    "end": 3547,
+                    "text": "[59,",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 3548,
+                    "end": 3551,
+                    "text": "62,",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 3552,
+                    "end": 3555,
+                    "text": "63]",
+                    "ref_id": "BIBREF70"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Research Design Criteria"
+        },
+        {
+            "text": "The process of identification of urban health inequities in the City of Lisbon involved three steps: the formation of a local stakeholder panel ( Step 1), the development of a provisional list of indicators of SDoH and collection of available data at a neighbourhood level (Step 2) and the organization of stakeholder workshops to consult and collect views on what indicators are influencing urban health inequities and where (in which neighbourhoods) the action addressing identified issues is more needed (Step 3). In the following sections, more information is provided on the panel members, indicator data and workshop protocol.",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 145,
+                    "text": "(",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methodological Approach"
+        },
+        {
+            "text": "Step 1: Formation of the Local Stakeholder Panel A total of 32 individuals, representing regional and local institutions from different sectors, were invited to participate and form the local stakeholder panel. A welcome and introductory session was organized to allow stakeholders to (i) become better acquainted and engage with the topic of urban health and health equity from a SDoH approach; (ii) have a general overview of the Lisbon case study, namely its objectives and methodological approach, and (iii) share commitment towards their roles and tasks. Overall, the panel represented different stakeholder groups: (i) local and regional government (including elected officials and officers from various departments linked to urban determinants of health); (ii) charities and other non-profit and nongovernmental organizations (e.g. working in the field with vulnerable or marginalized populations) and (iii) public health and healthcare (e.g. from primary healthcare and regional health planning) (Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1004,
+                    "end": 1013,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Methodological Approach"
+        },
+        {
+            "text": "Step",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methodological Approach"
+        },
+        {
+            "text": "Informed by the EURO-HEALTHY project [3, 49, 50, 53] , eight independent intervention axes for appraising health were considered: (i) Economic Conditions, Social Protection and Security, (ii) Education, (iii) Demographic Change, (iv) Lifestyle and Health Behaviours,",
+            "cite_spans": [
+                {
+                    "start": 37,
+                    "end": 40,
+                    "text": "[3,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 41,
+                    "end": 44,
+                    "text": "49,",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 45,
+                    "end": 48,
+                    "text": "50,",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 49,
+                    "end": 52,
+                    "text": "53]",
+                    "ref_id": "BIBREF59"
+                }
+            ],
+            "ref_spans": [],
+            "section": "2: Development of the Set of Indicators and Data Collection"
+        },
+        {
+            "text": "Road Safety and (viii) Healthcare Resources and Performance.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2: Development of the Set of Indicators and Data Collection"
+        },
+        {
+            "text": "To investigate how Lisbon performed in these intervention axes, the research team selected 46 indicators to be included in the provisional matrices. Along with the need to be context-specific (relevant for the context of the city of Lisbon), the selection of indicators was based on the following criteria: (i) ability to describe and measure one relevant aspect for health within each intervention axis (e.g. socioeconomic characteristics of population within Economic Conditions, Social Protection and Security; environmental factors that can influence health within Built Environment and Physical Environment); (ii) address health determinants that can be shaped by local policies and interventions, (iii) data disaggregation at the civil parish scale, to capture inequalities and enable the intra-city analysis of inequities and (iv) data quality and validity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2: Development of the Set of Indicators and Data Collection"
+        },
+        {
+            "text": "Indicator data was collected for the municipality of Lisbon, at the civil parish level (the smallest administrative unit in Portugal), for the year with the most recent data (between 2011 and 2015) and relied, as much as possible, on the use of available datasets from official statistics. Together with the use of indicators provided by Statistics Portugal (e.g. census data on population, employment, education, housing), a number of indicators were built by the research team, specifically for this study, using data provided by the city departments (e.g. data on pollution, built environment, transportation, social and healthcare services) and by stakeholders involved in the study, representing local NGOs (e.g. data on the living conditions of vulnerable populations, such as the elderly and homeless). The municipality of Lisbon supported the data collection by authorizing access to local databases and geographical data (for mapping).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2: Development of the Set of Indicators and Data Collection"
+        },
+        {
+            "text": "As complementary to the main list of indicators of health determinants, data on 15 health outcomes (e.g. mortality by cause of death, disease incidence rates, hospital discharges) were also collected and mapped at the civil parish level. For each indicator, relevant information was gathered in the form of an identity card with the following attributes: (i) indicator metadata (name of indicator, definition, unit of measurement, calculation, geographical scale, year of data, data source), (ii) indicator purpose (health-based rationale stating how the indicator effects health) and (iii) map showing the respective geographical distribution across the city of Lisbon (data disaggregated at the civil parish level) (see Fig. 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 722,
+                    "end": 728,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "2: Development of the Set of Indicators and Data Collection"
+        },
+        {
+            "text": "Step 3: Workshops",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2: Development of the Set of Indicators and Data Collection"
+        },
+        {
+            "text": "Two workshops were held in Lisbon between November 2016 and February 2017. In the first workshop, participants were divided into three multidisciplinary workgroups. Each group was assigned a specific set of intervention axes and respective indicators according to the stakeholders' area of expertise or work ( Table 2 ). The aim of each workgroup was to identify locally critical situations with respect to health determinant inequities and select indicators that may be entry points for priority intervention. The workshop protocol was built around the analysis of data collected on indicators based on the following questions: [1] What indicators (health determinants) are the key drivers of local health inequities? and [2] Where (in which civil parishes) is the priority action that addresses those indicators most needed?",
+            "cite_spans": [
+                {
+                    "start": 723,
+                    "end": 726,
+                    "text": "[2]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 310,
+                    "end": 317,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "2: Development of the Set of Indicators and Data Collection"
+        },
+        {
+            "text": "To support the analysis, the research team prepared material for consultation in the workshops. The consultation material included the following documents: (i) three indicator matrices with the 46 indicators of health determinants (in rows) and respective performances in each geographic unit-24 civil parishes (in columns) across the eight intervention axes and (ii) a dossier with each indicator identity card, with metadata, its \"population health meaning\", that is, its relevance and how it effects health, and a map showing how the indicator varies across the civil parishes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2: Development of the Set of Indicators and Data Collection"
+        },
+        {
+            "text": "Each participant was provided with a matrix, in line with the axes assigned to the respective workgroup (see Figs. 2, 3 and 4) . The indicator data was organized in the matrix in such a way that participants could easily analyse the performance of each civil parish for each indicator against given benchmarks: the city average, the worst and the best performances within the municipality of Lisbon. Each of the 24 civil parishes was colour-coded for each of the 46 indicators using the following metric: performances worse than the city average (cells shaded in dark grey) and performances better than the city average (cells shaded in light grey). In each indicator, the two best (and worst) city parishes were also highlighted (performance in bold). The colour attributed to the \"worse than/worst\" and \"better than/best\" performances reflect a value judgement considering the potential effect of the indicator on population health. For instance, a civil parish presenting higher percentages of unemployed people when compared with the city average is colour-coded in dark grey, considering that high levels of unemployment have a negative impact on health.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 109,
+                    "end": 126,
+                    "text": "Figs. 2, 3 and 4)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "2: Development of the Set of Indicators and Data Collection"
+        },
+        {
+            "text": "In this first workshop, two exercises were conducted. The first exercise was to seek the opinion of each participant as to which civil parish/indicator represented critical situations for health equity in the city of Lisbon by marking the cells in question red. For the purpose of this study, a critical situation depicted a civil parish where, in light of the evidence provided, its performance in one or more indicators would potentially have a negative effect on health equity in the municipality and should consequently be considered a priority for intervention. The analysis was individual and was made in light of the consultation material provided, namely the publication which included the indicator's identity card and respective maps (see Fig. 5a ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 749,
+                    "end": 756,
+                    "text": "Fig. 5a",
+                    "ref_id": null
+                }
+            ],
+            "section": "2: Development of the Set of Indicators and Data Collection"
+        },
+        {
+            "text": "The second exercise was to discuss the individual assessments (matrices with cells coloured red) within each workgroup and to reach a tentative agreement on a set of indicators considered problematic situations and potential entry points for intervention (see Fig. 5b ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 260,
+                    "end": 267,
+                    "text": "Fig. 5b",
+                    "ref_id": null
+                }
+            ],
+            "section": "2: Development of the Set of Indicators and Data Collection"
+        },
+        {
+            "text": "After the workshop, and in order to reach a clear and effective agreement on a single matrix of critical situations by workgroup, individual matrices were analysed by applying a majority agreement rule. The workgroup opinion (aggregate of individual assessments) was calculated taking into account the number of participants who had shaded a cell in red in relation with the total number of participants in the workgroup. Then, a single workgroup matrix was built showing the cells shaded red by more than 50% of the participants.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2: Development of the Set of Indicators and Data Collection"
+        },
+        {
+            "text": "The second workshop was performed to validate the resulting single workgroup matrices. The three workgroups were presented with the respective aggregate of individual assessments and given the opportunity to revise the single workgroup matrix and to remove, change or add critical situations (Fig. 5c) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 292,
+                    "end": 301,
+                    "text": "(Fig. 5c)",
+                    "ref_id": null
+                }
+            ],
+            "section": "2: Development of the Set of Indicators and Data Collection"
+        },
+        {
+            "text": "The main aim of the assessment was to obtain a comprehensive picture of the critical situations across the city by examining the geographical distribution of several health determinants at the neighbourhood scale (civil parishes). The final matrix with the identification of the critical situations (cells coloured in red) reflects the indicators and the geographical areas with the poorer performances, pinpointing the status quo of inequalities that should be addressed in order to promote equity in the city of Lisbon. The assessment was made considering eight independent intervention axes, meaning that stakeholders worked each intervention axis independently without prioritizing one above the other, and that participants did not weigh the importance or ranked indicators. In the matrix and within each independent intervention axis, they identified the respective indicators and the civil parishes that, given the material provided (data and maps) together with their own local knowledge and perceptions, are in \"red alert\". The final matrix of critical situations is shown in Fig. 6 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1085,
+                    "end": 1091,
+                    "text": "Fig. 6",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "From the initial set of 46 indicators, a total of 28 were selected (61%), representing a wide range of health determinants where one or more civil parishes revealed worse performances and were marked red (see Table 3 ). From this list, more than one third (39.3%, 11 indicators) are from Built environment. There are three intervention axes where all the indicators included in the provisional matrix were selected; this occurred with Lifestyles and health behaviours, Physical environment and Road safety. An examination of the distribution of critical situations identified by majority shows that all 24 civil parishes registered red cells in one or more indicators. The indicators Unemployment rate (%) and School drop-out (%) encompassed almost half of the civil parishes marked in red (11 out of 24).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 209,
+                    "end": 216,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The number of red cells per civil parish in the matrix also varies widely, from only one in the civil parish Estrela to 18 in Beato (64.3% of all indicators). Figure 7 shows that the geographical distribution of critical situations is not homogeneous across civil parishes and across the eight intervention axes. Almost all civil parishes (23 out of 24) present critical situations within Built environment axis (in one to nine indicators). In contrast, within Lifestyles and health behaviours, here measured by one indicator (Live births from Overall, the higher number of critical situations is concentrated in the eastern part of the city (civil parishes of Beato, Marvila, Penha de Fran\u00e7a) and in the historic city centre (Santa Maria Maior, S\u00e3o Vicente, Miseric\u00f3rdia) comprising neighbourhoods located along the Tagus riverfront area. This is more evident in the following intervention axes: Economic conditions, social protection and security, Education, Demographic change, Built environment and Healthcare resources and performance.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 159,
+                    "end": 167,
+                    "text": "Figure 7",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The identification of critical situations within Physical environment (mainly in the indicators of air pollution) and Road safety (road traffic accidents) showed a different spatial pattern, being concentrated in the civil parishes located along the intersection of main roads and highways that traverse the city from North to South (e.g. Eixo Norte-Sul) and from East to West (e.g. the 2\u00b0C ircular Ring Road).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Urban health indicator frameworks are considered useful tools with the aim of informing urban policy and decision-making. In this study, a place-based approach was applied to assess urban health inequities in the city of Lisbon, using a spatial indicator framework together with a participation process. A total of 32 local stakeholders, including city officials, participated in two workshops where they had the opportunity to discuss urban issues from a population health perspective and identify critical situations across the city. The main output is the generation of a matrix of health determinants that are deemed representative of existent inequities across eight intervention axes (critical situations reflect the indicators and the geographical areas with worse performances). Together, these indicators, disaggregated at the parish scale, provide a picture of inequalities that should be addressed by local policies and interventions in order to promote equity in the city of Lisbon.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Critical situations were identified in 28 indicators covering a wide range of health determinants (e.g. unemployment, early school leaving, older adults living in social isolation, air pollution, noise exposure, inadequate housing conditions, road accidents involving pedestrians). The intervention axis of Built environment was found to have the highest number of critical situations (cells were marked red in 11 indicators and 23 civil parishes) mainly reflecting poor housing and building conditions (e.g. households without central heating, buildings without wheelchair access, buildings in need of major repairs or very run-down) that persist in many civil parishes of Lisbon. Similarly, concerns related to urban mobility and transportation within the city were highlighted. A total of 10 civil parishes were marked as critical due to low percentages of the population using public transportation and soft modes of mobility (e.g. walking, cycling). This confirms the need to change the existing mobility paradigm to a more sustainable one, which is already an expressed priority of the Lisbon city government for the next decade.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Overall, several civil parishes systematically perform worse in most of the indicators of health determinants (accumulating critical situations) when compared with the others, making these neighbourhoods a priority for intervention. The eastern part of the city (civil parishes of Marvila and Beato) and certain neighbourhoods in the city centre are characterized by higher rates of socio- material deprivation and are home to vulnerable populations, such as older adults living in poor housing conditions or social isolation. Furthermore, the indicators of unemployment and school drop-out were considered critical issues across a considerable section of the municipality (in 11 out of 24 civil parishes). These indicators are a reflection of the deterioration of socioeconomic conditions driven by the 2008-2012 economic and financial crisis that hit Portugal and, in particular, Lisbon. Addressing socioeconomic and educational inequities, namely employment and education, were considered by stakeholders as key to promoting health and equity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This study presents a general framework to assess urban health inequities, useful to identify priority issues and neighbourhoods needing policy intervention. The indicators identified as critical situations for health equity are from diverse intervention axes, linked directly to the action of many municipal departments and dependent on place-based interventions (e.g. reducing pollution, improving housing, territorial and social cohesion, urban design, mobility). The indicator framework described in this study present a number of characteristics that are considered by Pineo and colleagues [64] as facilitators to the use of urban health indicators by local government: (ii) neighbourhood-scale data; (iii) indicators from social and built environment; (iv) local and diverse knowledge are incorporated via a participation process [64] . The interconnectedness among those situations identified as critical serves to reinforce the need for an integrated approach to urban health in Lisbon and the implementation of a Health in All Policies (HiAP) strategy [65, 66] . In the words of the local City Councillor for Social Rights, \"this case study highlighted the link between health determinants ( a s s e s s m e n t ) a n d po l i c y a c t i o n ( r e s p o n s e ) , emphasizing the role that non-healthcare sectors (from social assistance to urban planning to housing) have on promoting health equity\".",
+            "cite_spans": [
+                {
+                    "start": 595,
+                    "end": 599,
+                    "text": "[64]",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 836,
+                    "end": 840,
+                    "text": "[64]",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 1061,
+                    "end": 1065,
+                    "text": "[65,",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 1066,
+                    "end": 1069,
+                    "text": "66]",
+                    "ref_id": "BIBREF73"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Policy Implications"
+        },
+        {
+            "text": "In Portugal, the responsibility for public health is a very centralized, one that to a large degree still remains in the hands of the health sector through Regional Health Administrations. Additionally, the use of participation processes in local decision-making is considered modest with a deficit of stakeholder engagement and intersectoral work. Integrating health equity in all policies, specifically into local plans, requires an effective political will and commitment as key elements to act upon the causes of health inequalities at the municipal level [67] .",
+            "cite_spans": [
+                {
+                    "start": 560,
+                    "end": 564,
+                    "text": "[67]",
+                    "ref_id": "BIBREF74"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Policy Implications"
+        },
+        {
+            "text": "The recent decentralization of competences to municipalities and inter-municipal associations (Law 23/2019, January 30) endowed local governments with a more formal health mandate and can offer space to design effective policies addressing population health needs. Within the scope of new competences, municipalities are responsible for developing a municipal health plan, a strategy document that contains a comprehensive picture of municipal health issues, priorities and plan for actions. This study can provide a basis for developing the municipal scan (first stage of the planning process), providing a place-based and context-specific approach to population health, focusing on multiple determinants of health inequities and on how they are distributed among city neighbourhoods. A good understanding of determinants of health outcomes, together with evidence on their geographical inequalities, are vital to informing decisionmaking at multiple levels (at the civil parish, municipal and metropolitan levels) and to orientating the prioritization of critical issues to address [68] .",
+            "cite_spans": [
+                {
+                    "start": 1084,
+                    "end": 1088,
+                    "text": "[68]",
+                    "ref_id": "BIBREF75"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Policy Implications"
+        },
+        {
+            "text": "The participation of different groups of stakeholders (local and regional government, charities and other nonprofit associations and NGOs, public health and healthcare services) working in the municipality and in varied fields of intervention contributes to raising 1 and 2 (b and c) . a Consultation material. b Workshop 1. c Workshop 2 awareness on the importance of implementing intersectoral and interinstitutional action [64] . Overall, at the end of the workshops, stakeholders stated that they gained new insights and broadened their views on While they recognized this participatory process as very important to initiating a dialogue and leveraging intersectoral action targeting the identified urban health issues, it may not be effective by itself in the process of influencing decision-making to change the status quo of health inequalities within the city. There is no great tradition in Portuguese municipalities to conduct participation processes with local stakeholders, and intersectoral action for health still lags behind in comparison with other countries. For example, city departments work in silos and do not collaborate very often. To our knowledge, this was the first participation and collaborative process on urban health and related inequities to take place in Lisbon, here understood through the lens of SDoH and HiAP approaches. Youth neither employed nor in education or training (NEET) (%) 6",
+            "cite_spans": [
+                {
+                    "start": 426,
+                    "end": 430,
+                    "text": "[64]",
+                    "ref_id": "BIBREF71"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 266,
+                    "end": 283,
+                    "text": "1 and 2 (b and c)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Policy Implications"
+        },
+        {
+            "text": "Homeless people (N\u00b0) 5",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Policy Implications"
+        },
+        {
+            "text": "People receiving social integration subsidies (Number per 1000 active population)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Policy Implications"
+        },
+        {
+            "text": "7",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Policy Implications"
+        },
+        {
+            "text": "(1 out of 3)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Education"
+        },
+        {
+            "text": "School drop-out rate (%) 11",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Education"
+        },
+        {
+            "text": "Demographic change (3 out of 6) Older adults living alone and in social isolation (%) 8",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Education"
+        },
+        {
+            "text": "Older adults reporting limitations/disabilities (%) 9",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Education"
+        },
+        {
+            "text": "Older adults living in buildings with 3 floors or more without elevator (%) 8",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Education"
+        },
+        {
+            "text": "Lifestyles and HBs (1 out of 1) Live births from adolescent mothers (age under 20) (%) 6",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Education"
+        },
+        {
+            "text": "Physical environment (3 out of 3) Particulate matter (PM10) concentrations (\u03bcg/m 3 ) 7",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Education"
+        },
+        {
+            "text": "Population exposed to noise levels greater than Lden65 db (%) 3",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Education"
+        },
+        {
+            "text": "Population potentially affected by flooding (%) 5",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Education"
+        },
+        {
+            "text": "Built environment (11 out of 15) Overcrowded housing (%) 5",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Education"
+        },
+        {
+            "text": "Households without central heating (%) 7",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Education"
+        },
+        {
+            "text": "Buildings without wheelchair access (%) 7",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Education"
+        },
+        {
+            "text": "Buildings in need of major repairs or very run-down (%) 9",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Education"
+        },
+        {
+            "text": "Walkability index 2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Education"
+        },
+        {
+            "text": "Average walking distance to the nearest adult day-care centre (minutes) 10 Average walking distance to the nearest sports facility (minutes) 6",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Education"
+        },
+        {
+            "text": "Capacity After the case study of Lisbon, the research team continued to collaborate with the city council, extending this study to the field of policy analysis and prioritization using participation processes with the same group of stakeholders. In 2019, two participatory processes were organized in which city departments, civil parishes and local stakeholders from multiple sectors engaged with the topic \"Intersectoral action to promote urban health equity in Lisbon\". However, changes in the governance structure and policymaking process that incorporate health equity considerations in city plans are dependent upon strong political will and commitment. Fig. 7 Geographical distribution of identified critical situations by intervention axis, in the municipality of Lisbon. Note: Civil parishes are coloured using a monochromatic colour scheme with a gradient ranging from light red to dark red according to the number of indicators identified by the majority as a critical situation. Civil parishes in light red were marked as critical in less than 25% of the indicators selected in the intervention axis. Civil parishes in dark red were marked as critical in more than 75% of the selected indicators. Civil parishes in white were not marked red for any indicator of the intervention axis.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 660,
+                    "end": 666,
+                    "text": "Fig. 7",
+                    "ref_id": null
+                }
+            ],
+            "section": "Education"
+        },
+        {
+            "text": "Political conviction and extended governance, including the involvement and participation of practitioners and citizens in the evaluation and selection of policies, are critical in the city's efforts to move towards achieving urban health equity. This topic will be explored in a subsequent paper analysing which municipal policies have the greatest potential to reduce urban health inequalities in Lisbon in light of the evidence gathered in this study. A list of policies and actions addressing the identified critical situations (indicators and civil parishes) was produced and analysed in consideration of their overall benefit to reducing inequities in each intervention axis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Education"
+        },
+        {
+            "text": "Finally, the current global challenge to health equity, posed by the COVID-19 pandemic, places greater urgency in the analysis of current SDoH inequities at the local level. COVID-19, and the wider governmental and societal response, have brought existing health inequalities into keener focus [69, 70] . The emerging debate on the pivotal role of local government in addressing the virus outbreak includes recommendations to integrate responses tailored to the local context and oriented to neighbourhoods with worse health determinants (e.g. overcrowded housing, poor sanitation, socioeconomic deprivation, lack of green spaces, poor access to healthcare). This study could provide a basis for adopting a place-based and territorially sensitive approach to prioritize those neighbourhoods in most need, as well as to inform intersectoral action and collaborative work across municipal departments and public health stakeholders in the City of Lisbon.",
+            "cite_spans": [
+                {
+                    "start": 294,
+                    "end": 298,
+                    "text": "[69,",
+                    "ref_id": "BIBREF76"
+                },
+                {
+                    "start": 299,
+                    "end": 302,
+                    "text": "70]",
+                    "ref_id": "BIBREF77"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Education"
+        },
+        {
+            "text": "The methodology used can provide input that informs local plans and strategies. The use of area-level indicators was an efficient means of analysing existing variations in health determinants and identifying those neighbourhoods that need to be prioritized [26, 35, 64] . A simple indicator matrix combined with a convivial workshop protocol offered an integrated, transparent and comprehensive way of examining urban inequities, by including indicators from different intervention axes and area-level data at the civil parish scale.",
+            "cite_spans": [
+                {
+                    "start": 257,
+                    "end": 261,
+                    "text": "[26,",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 262,
+                    "end": 265,
+                    "text": "35,",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 266,
+                    "end": 269,
+                    "text": "64]",
+                    "ref_id": "BIBREF71"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Strengths and Limitations"
+        },
+        {
+            "text": "The material for consultation provided during the workshops in the form of maps and indicator's identity card (together with indicators of health outcomes) allowed stakeholders to better understand how the unequal distribution of health determinants across Lisbon is potentially contributing to health inequities. Stakeholders had the opportunity to analyse the overlapping pattern between worse performances in health determinants and worse performances in health outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Strengths and Limitations"
+        },
+        {
+            "text": "The workshop format provided face-to-face interaction enabling the participants to work in small groups thus affording them a space for the in-depth exploration of indicator data and the exchange of points of view and perspectives, not all of which were perfectly concordant. At the beginning of the workshop, the research team presented the assumptions and principles followed in the design of the exercise. The aim was to introduce the objective of the exercise and guide the assessment towards the identification of critical situations in each intervention axis to inform decision-making and future prioritization. The assessment was carried out across eight independent intervention axes, meaning that stakeholders worked each intervention axis independently and did not prioritize one above the other.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Strengths and Limitations"
+        },
+        {
+            "text": "The research team acted as facilitators in the group discussion, providing clarifications on the consultation material and helping to keep participants engaged and focused on the aim of the workshop, allowing all voices to be heard and leaving participants willing to engage in further discussion. The role of the research team was not to influence the results but to create the environment for effective communication so both disagreement and mutual understanding could surface.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Strengths and Limitations"
+        },
+        {
+            "text": "In the group discussion phase, each participant had the opportunity to present their own opinions on indicators. By asking stakeholders to review and discuss the final matrix, mistakes and instances of underreporting were detected and clarified. Overall, participants showed agreement on the list presented, stating that the list was very comprehensive, already integrating enough determinants from a wide range of relevant dimensions to assess Lisbon urban health.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Strengths and Limitations"
+        },
+        {
+            "text": "The assumption of \"outputs validity\" was reached [59, 62] : stakeholders acknowledged that the results are accurate, clear and transparent and provide a comprehensive picture of the equity problems the city is facing.",
+            "cite_spans": [
+                {
+                    "start": 49,
+                    "end": 53,
+                    "text": "[59,",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 54,
+                    "end": 57,
+                    "text": "62]",
+                    "ref_id": "BIBREF69"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Strengths and Limitations"
+        },
+        {
+            "text": "The preliminary matrix of indicators was built with measurable variables, reflecting the status quo of an urban community (civil parish) generated through valid and available data from official statistics. One of the criteria underlying a good indicator framework informing a place-oriented intervention to urban health equity is exhaustivity, that is, indicators which measure different health determinants (all eight intervention axes had to include one or more indicators) and allow for monitoring inequality across time and space. Similar to other urban health assessments reported in the literature [26, 67] , the availability of data disaggregated at the parish level was considered paramount in the case study of Lisbon although it also offered some barriers.",
+            "cite_spans": [
+                {
+                    "start": 604,
+                    "end": 608,
+                    "text": "[26,",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 609,
+                    "end": 612,
+                    "text": "67]",
+                    "ref_id": "BIBREF74"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Strengths and Limitations"
+        },
+        {
+            "text": "A specific limitation was data collection at the parish level for some very relevant indicators to assess urban health equity, such as household income or cost of housing. In recent years, the access to affordable and adequate housing, linked to the growing gentrification taking place in many neighbourhoods, is considered the main issue affecting urban equity in Lisbon and is currently a top priority in terms of policies reflecting social justice. At the time this study was being developed, there was no information available and reliable on this topic at the parish level. Additionally, participants claimed the need to include lifestyles and health behaviours in the assessment (e.g. alcohol and tobacco consumption, physical activity levels, diet). Yet, they immediately recognized the data constraints regarding the availability of these indicators at the local level.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Strengths and Limitations"
+        },
+        {
+            "text": "This case study does not prescribe a specific approach or set of indicators for use on every urban health assessment. In fact, current frameworks or indicator's systems of urban health differ substantially, reflecting the diversity of purpose [31, 33] . However, there is some homogeneity in terms of the domains or dimensions of analysis. Indicators used in the Lisbon case study can be identified as examples of indicators of relevance to urban areas such as those relating to socioeconomic conditions and physical and built environment. As an example, similarities can be found with the WHO Urban Health Equity Assessment and Response Tool-Urban HEART, where the urban health assessment departs from an indicator matrix with data disaggregated at the neighbourhood level [29] . Establishing a framework for indicators should be meaningful for the context and city, using locally available data, to effectively address the needs of each neighbourhood.",
+            "cite_spans": [
+                {
+                    "start": 243,
+                    "end": 247,
+                    "text": "[31,",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 248,
+                    "end": 251,
+                    "text": "33]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 774,
+                    "end": 778,
+                    "text": "[29]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Strengths and Limitations"
+        },
+        {
+            "text": "Promoting health equity is a place-based issue. This study, by integrating local data in combination with a participatory process, pinpoints the added value of a context-specific and place-based approach for assessing urban health inequities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The use of indicator matrices and maps made it possible to see-in a simple, transparent and comprehensive way-geographical variations on multiple determinants of health across eight intervention axes considered relevant to promote health equity. Evidence of these patterns supported stakeholder's analysis on what health determinants are shaping local health inequities and where (in which civil parishes) action is urgent. The results show that some civil parishes systematically perform worse in most of the indicators when compared with the others, thus becoming a priority for intervention. Critical situations were identified in 28 indicators covering a wide range of health determinants (e.g. social and economic, built and physical environment) linked to the action of many municipal departments and ones that can be addressed by city plans. The participation process created a collaborative environment, offering opportunities for researchers, policymakers and practitioners to engage in dialogue and co-learning on the importance of assessing and monitoring urban health through neighbourhood-level health determinants.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Finally, this study could provide a basis for adopting a place-based and territorially sensitive approach to prioritizing those neighbourhoods in most need, as well as to inform intersectoral action and collaborative work across municipal departments and local stakeholders in the City of Lisbon.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Homem Gouveia and Teresa Craveiro; Civil Parish Council: Maria Capitolina Marques; Regional Coordination and Development Commission",
+            "authors": [
+                {
+                    "first": "Ana",
+                    "middle": [
+                        "Cristina"
+                    ],
+                    "last": "Correia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ana",
+                    "middle": [],
+                    "last": "Gouveia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ana",
+                    "middle": [
+                        "Sofia"
+                    ],
+                    "last": "Rocha",
+                    "suffix": ""
+                },
+                {
+                    "first": "C\u00e9lia",
+                    "middle": [],
+                    "last": "Campos",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gon\u00e7alo",
+                    "middle": [],
+                    "last": "Belo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gra\u00e7a",
+                    "middle": [],
+                    "last": "Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "Isabel",
+                    "middle": [],
+                    "last": "Castanho",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lu\u00edsa",
+                    "middle": [],
+                    "last": "Ara\u00fajo",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "SCML): Filomena Gerardo, Maria Lu\u00eds Calinas and No\u00e9mia Silveiro; M\u00e9dicos do Mundo (Doctors of the World): Fernando Vasco Marques; Diabetes Portugal (Portuguese Diabetes Association-APDP): Rog\u00e9rio Ribeiro",
+            "authors": [
+                {
+                    "first": "Santa",
+                    "middle": [],
+                    "last": "Casa Da Miseric\u00f3rdia De Lisboa",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Alzheimer Portugal (Portuguese Alzheimer's Association): Ana Sofia Gomes and Filipa Gomes; Observat\u00f3rio -Luta Contra a Pobreza na cidade de Lisboa (Lisbon Observatory for the European Anti-Poverty Network-EAPN): Catarina Cruz; The Directorate-General of Health (DGS/National Health Plan): Rui Portugal",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Faculty of Medicine of the University of Lisbon (FMUL): Paulo Nicola; Primary Health Care",
+            "authors": [
+                {
+                    "first": "Joaquim",
+                    "middle": [],
+                    "last": "Fonseca",
+                    "suffix": ""
+                },
+                {
+                    "first": "Manuel",
+                    "middle": [],
+                    "last": "Cruz",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "F\u00e1tima Quit\u00e9rio; Primary Health Care Center Group of Western Lisbon and Oeiras (ACES Lisboa Ocidental e Oeiras): F\u00e1tima Nogueira and Rafic Nordin. Finally, we would like to thank our English language reviewer",
+            "authors": [
+                {
+                    "first": "Guilherme",
+                    "middle": [],
+                    "last": "Quinaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Romana",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rita",
+                    "middle": [],
+                    "last": "Azevedo",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Grant Agreement No 643398, and received support from the Centre of Studies in Geography and Spatial Planning (CEGOT), funded by national funds through the Foundation for Science and Technology (FCT) under the reference UID/GEO/04084/2019. Angela Freitas is a recipient of an Individual Doctoral Fellowship funded by national funds through the Foundation for Science and Technology (FCT), under the reference SFRH/BD/123091/2016. References 1. WHO and UN-Habitat. Hidden Cities: Unmasking and Overcoming Health Inequities in Urban Settings",
+            "authors": [],
+            "year": 2010,
+            "venue": "Funding Information This research was conducted under the EURO-HEALTHY project, which was funded by the European Union's Horizon 2020 research and innovation programme",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Global Report on Urban Health: Equitable, Healthier Cities for Sustainable Development",
+            "authors": [
+                {
+                    "first": "Un-Habitat",
+                    "middle": [],
+                    "last": "Who",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Atlas of Population Health in European Union Regions",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Santana",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Costa",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u00c2",
+                    "middle": [],
+                    "last": "Freitas",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Population health inequalities across and within European metropolitan areas through the Lens of the EURO-HEALTHY Population Health Index",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Costa",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Santana",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dimitroulopoulou",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Burstrom",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Borrell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schweikart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "16",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph16050836"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Healthy city planning: from neighbourhood to national health equity",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Corburn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.4324/9780203772249"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Global Report on Urban Health: equitable, healthier cities for sustainable development",
+            "authors": [
+                {
+                    "first": "Un-Habitat",
+                    "middle": [],
+                    "last": "Who",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Closing the gap in a generation: health equity through action on the social determinants of health. Final report of the commission on social determinants of health. Geneva: World Health Organization",
+            "authors": [],
+            "year": 2008,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/17441692.2010.514617"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Inequities in the freedom to lead a flourishing and healthy life: issues for healthy public policy",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Friel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Int J Health Policy Manag",
+            "volume": "3",
+            "issn": "4",
+            "pages": "161--164",
+            "other_ids": {
+                "DOI": [
+                    "10.15171/ijhpm.2014.82"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Urban place and health equity: Critical issues and practices",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Corburn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "14",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph14020117"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Perspectives on health equity and social determinants of health",
+            "authors": [],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Why health equity? Health Econ",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "",
+            "volume": "11",
+            "issn": "",
+            "pages": "659--66",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/hec.762"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Defining equity in health",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Braveman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J Epidemiol Community Health",
+            "volume": "57",
+            "issn": "4",
+            "pages": "254--262",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/jech.57.4.254"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Health in all policies. A guide for state and local governments",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Rudolph",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Caplan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ben-Moshe",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Dillon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Addressing the social determinants of health: the urban dimension and the role of local government",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Urban as a determinant of health",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Vlahov",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Freudenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Proietti",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ompad",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Quinn",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nandi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Urban Health",
+            "volume": "84",
+            "issn": "3",
+            "pages": "16--26",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11524-007-9169-3"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "prosperous lives for all: the European Health Equity Status Report",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Who",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Healthy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "City leadership for health and well-being: back to the future",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tsouros",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Urban Health",
+            "volume": "90",
+            "issn": "1",
+            "pages": "4--13",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11524-013-9825-8"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Assessing Urban Health Inequities through a Multidimensional and Participatory Framework: Evidence from the",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Health in all urban policy: city services through the prism of health",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Corburn",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Curl",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Arredondo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Malagon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Urban Health",
+            "volume": "91",
+            "issn": "4",
+            "pages": "623--659",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11524-014-9886-3"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Cities and population health",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Galea",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Freudenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Vlahov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Soc Sci Med",
+            "volume": "60",
+            "issn": "5",
+            "pages": "1017--1050",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.socscimed.2004.06.036"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Governance for health equity. Copenhagen: WHO Regional Office for Europe",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Harrison",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Burns",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ziglio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "New Urban Agenda. Quito; 2017. www.habitat3.org. Accessed 15",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Transforming our world: the 2030 Agenda for Sustainable Development",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "A toolkit for progressive policymakers in developing countries. London",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sutcliffe",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Court",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Addressing inequities in urban health: do decisionmakers have the data they need? Report from the urban health data special session at international conference on urban health Dhaka",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Elsey",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Thomson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Maharjan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Agarwal",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Newell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Urban Health",
+            "volume": "93",
+            "issn": "3",
+            "pages": "526--563",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11524-016-0046-9"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Spatial urban health equity indicatorsa framework-based approach supporting spatial decision making",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Flacke",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "K\u00f6ckler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Sustain Dev Plan VII",
+            "volume": "1",
+            "issn": "",
+            "pages": "365--76",
+            "other_ids": {
+                "DOI": [
+                    "10.2495/sdp150311"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Why we need urban health equity indicators: integrating science, policy, and community",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Corburn",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Cohen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS Med",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pmed.1001285"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Promoting health equity in cities through evidence-based action",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kumaresan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Prasad",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alwan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ishikawa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Urban Health",
+            "volume": "87",
+            "issn": "5",
+            "pages": "727--759",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11524-010-9500-2"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Prioritizing action on health inequities in cities: an evaluation of urban health equity assessment and response tool (urban HEART) in 15 cities from Asia and Africa",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Prasad",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kano",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ka-M",
+                    "middle": [],
+                    "last": "Dagg",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Mori",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Senkoro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ardakani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Soc Sci Med",
+            "volume": "145",
+            "issn": "",
+            "pages": "237--279",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.socscimed.2015.09.031"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Urban health indicators and indices-current status",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rothenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Stauber",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Weaver",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dai",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Prasad",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "BMC Public Health",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12889-015-1827-x"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Metrics in urban health: current developments and future prospects",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Prasad",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Gray",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ross",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Annu Rev Public Health",
+            "volume": "37",
+            "issn": "1",
+            "pages": "113--146",
+            "other_ids": {
+                "DOI": [
+                    "10.1146/annurev-publhealth-032315-021749"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Urban health indicator tools of the physical environment: a systematic review",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Pineo",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Glonti",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Rutter",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zimmermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wilkinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Davies",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Urban Health",
+            "volume": "95",
+            "issn": "5",
+            "pages": "613--659",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11524-018-0228-8"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Tackling health inequalities using urban HEART in the sustainable development goals era",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Prasad",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Borrell",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mehdipanah",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chatterji",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Urban Health",
+            "volume": "95",
+            "issn": "5",
+            "pages": "610--612",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11524-017-0165-y"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Extending data for urban health decision-making: a menu of new and potential neighborhood-level health determinants datasets in LMICs",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Thomson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Linard",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Vanhuysse",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Steele",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shimoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Siri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Urban Health",
+            "volume": "96",
+            "issn": "4",
+            "pages": "514--550",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11524-019-00363-3"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Addressing social determinants of health inequities through settings: a rapid review",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Newman",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Baum",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Javanparast",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "O&apos;rourke",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Carlon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Health Promot Int",
+            "volume": "30",
+            "issn": "2",
+            "pages": "126--169",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/heapro/dav054"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Understanding and representing \"place\" in health research: a relational approach",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cummins",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Curtis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Diez-Roux",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Macintyre",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Soc Sci Med",
+            "volume": "65",
+            "issn": "9",
+            "pages": "1825--1863",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/J.SOCSCIMED.2007.05.036"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Is there a place for geography in the analysis of health inequality? Sociol Health Illn",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Curtis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Rees",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "",
+            "volume": "20",
+            "issn": "",
+            "pages": "645--72",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/1467-9566.00123"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Addressing health disparities is a place-based issue",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Dankwa-Mullan",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "P\u00e9rez-Stable",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Am J Public Health",
+            "volume": "",
+            "issn": "",
+            "pages": "6--9",
+            "other_ids": {
+                "DOI": [
+                    "10.2105/AJPH.2016.303077"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Communities in action: pathways to health equity",
+            "authors": [],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.17226/24624"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Transparent prioritisation, budgeting and resource allocation with multi-criteria decision analysis and decision conferencing",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Phillips",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Bana",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Costa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Ann Oper Res",
+            "volume": "154",
+            "issn": "1",
+            "pages": "51--68",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10479-007-0183-3"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Learning report: looking for value in hard times",
+            "authors": [],
+            "year": 2012,
+            "venue": "The Health Foundation",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Multisectoral and Intersectoral Action for Improved Health and Well-Being for All: Mapping of the WHO European Region Governance for a Sustainable Future: Improving Health and Well-Being for All. Copenhagen",
+            "authors": [],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Bringing stakeholders together for urban health equity: hallmarks of a compromised process",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Katz",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Cheff",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "O&apos;campo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Int J Equity Health",
+            "volume": "14",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12939-015-0252-1"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "We are all experts! Does stakeholder engagement in health impact scoping lead to consensus? A Dutch case study. Impact Assess Proj Apprais",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Den Broeder",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chung",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Geelen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Scholtes",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schuit",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wagemakers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "34",
+            "issn": "",
+            "pages": "294--305",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/14615517.2016.1176413"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "From stakeholders analysis to cognitive mapping and multi-attribute value theory: an integrated approach for policy support",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Ferretti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Eur J Oper Res",
+            "volume": "253",
+            "issn": "2",
+            "pages": "524--565",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ejor.2016.02.054"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Value assessment frameworks for HTA agencies: the organization of evidence-informed deliberative processes. Value Health",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Baltussen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Paul",
+                    "middle": [
+                        "Maria"
+                    ],
+                    "last": "Jansen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bijlmakers",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "20",
+            "issn": "",
+            "pages": "256--60",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jval.2016.11.019"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Getting stakeholder participation \"right\": a discussion of participatory processes and possible pitfalls",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Glicken",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Environ Sci Pol",
+            "volume": "3",
+            "issn": "6",
+            "pages": "105--107",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1462-9011(00)00105-2"
+                ]
+            }
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Promoting population health and equity in europe: from evidence to policy",
+            "authors": [
+                {
+                    "first": "P (",
+                    "middle": [],
+                    "last": "Santana",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Coord",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Advancing tools to promote health equity across European Union regions: the EURO-HEALTHY project",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Santana",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u00c2",
+                    "middle": [],
+                    "last": "Freitas",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Stefanik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Heal Res Policy Syst",
+            "volume": "18",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12961-020-0526-y"
+                ]
+            }
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Promoting population health and equity in Europe: from evidence to policy",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Santana",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Freitas",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Costa",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Stefanik",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ferreira",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Quintal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "22--27",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Using the MACBETH socio-technical methodological approach to build the EURO-HEALTHY PHI",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bana E Costa",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Freitas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Oliveira",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Rodrigues",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vieira",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2017",
+            "issn": "",
+            "pages": "71--77",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Indicators for evaluating European population health: a Delphi selection process",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Freitas",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Santana",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Oliveira",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Almendra",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bana",
+                    "middle": [],
+                    "last": "Costa",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bana",
+                    "middle": [],
+                    "last": "Costa",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "BMC Public Health",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12889-018-5463-0"
+                ]
+            }
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "A socio-technical approach for group decision support in public strategic planning: the Pernambuco PPA case",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bana E Costa",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Louren\u00e7o",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Oliveira",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Bana E Costa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Gr Decis Negot",
+            "volume": "23",
+            "issn": "1",
+            "pages": "5--29",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10726-012-9326-2"
+                ]
+            }
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Scenarios for population health inequalities in 2030 in Europe: the EURO-HEALTHY project experience",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alvarenga",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bana E Costa",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Borrell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Int J Equity Health",
+            "volume": "18",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12939-019-1000-8"
+                ]
+            }
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Devising and testing a novel methodology for the evaluation of policies under European population health scenarios",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bana E Costa",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Correia",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Freitas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Oliveira",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Rodrigues",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vieira",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Santana P (Coord)",
+            "volume": "2017",
+            "issn": "",
+            "pages": "85--87",
+            "other_ids": {
+                "DOI": [
+                    "10.14195/978-989-26-1500-4"
+                ]
+            }
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Closing the Gap in a Generation",
+            "authors": [],
+            "year": 2008,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/17441692.2010.514617"
+                ]
+            }
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Pope J Selecting health indicators in population health: notes on choosing health indicators for the National Biomedical Risk Factor Survey. Adelaide",
+            "authors": [],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "docman&view=download&category_slug=health-analysismetrics-evidence-9907&alias=45249-health-indicatorsconceptual-operational-considerations-249&Itemid=270 &lang=en",
+            "authors": [],
+            "year": 2018,
+            "venue": "Accessed",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "The experience of implementing urban HEART Barcelona: a tool for action",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Novoa",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "P\u00e9rez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Espelt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Urban Health",
+            "volume": "95",
+            "issn": "5",
+            "pages": "647--61",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11524-017-0194-6"
+                ]
+            }
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Enhancing knowledge construction processes within multicriteria decision analysis: the collaborative value modelling framework",
+            "authors": [
+                {
+                    "first": "Acl",
+                    "middle": [],
+                    "last": "Vieira",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Oliveira",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bana E Costa",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "The Corsini Encyclopedia of Psychology",
+            "authors": [
+                {
+                    "first": "Rr",
+                    "middle": [
+                        "Face"
+                    ],
+                    "last": "Holden",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Validity",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "1--2",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/9780470479216.corpsy0341"
+                ]
+            }
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Quality Criteria of the International Collaboration for Participatory Health Research",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wright",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "D w A A Q B A J & p g = P A 7 0 & l p g = P A 7 0 & d q = validity+in+participatory+processes+urban+health&source= bl&ots=lFAvpsvyAK&sig=ACfU3U0w_-0vHvvk9t0M7 bmKwStPsn7oWA&hl=pt-PT&sa=X&ved=2ahUKEwj_z_ bdiZ3qAhWTTsAKHQsvAZkQ6AEwAXoECAsQAQ#v= onepage &. Accessed",
+            "volume": "2018",
+            "issn": "",
+            "pages": "351--356",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Use of urban health indicator tools by built environment policy-and decision-makers: a systematic review and narrative synthesis",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Pineo",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Glonti",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Rutter",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zimmermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wilkinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Davies",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Urban Health",
+            "volume": "97",
+            "issn": "",
+            "pages": "418--453",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11524-019-00378-w"
+                ]
+            }
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Health in All Policies: From rhetoric to action",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ollila",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Scand J Public Health",
+            "volume": "39",
+            "issn": "",
+            "pages": "11--19",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/1403494810379895"
+                ]
+            }
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Introduction to health in all policies and the analytical framework of the book",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ollila",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Baum",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pe\u00f1a",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cook",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Leppo",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ollila",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pe\u00f1a",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wismar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Health in all policies: seizing opportunities, implementing policies",
+            "volume": "",
+            "issn": "",
+            "pages": "3--24",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "The experience of implementing urban HEART Barcelona: a tool for action",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Novoa",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "P\u00e9rez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Espelt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Urban Health",
+            "volume": "95",
+            "issn": "",
+            "pages": "1--15",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11524-017-0194-6"
+                ]
+            }
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "Mapping environmental inequalities relevant for health for informing urban planning interventions-a case study in the city of Dortmund, Germany",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Flacke",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sch\u00fcle",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "K\u00f6ckler",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bolte",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "13",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph13070711"
+                ]
+            }
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "Health equity and COVID-19: global perspectives",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Shadmi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Dourado",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Faran-Perach",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Furler",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hangoma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Equity Health",
+            "volume": "19",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12939-020-01218-z"
+                ]
+            }
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "The COVID-19 pandemic and health inequalities",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bambra",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Riordan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ford",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Matthews",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J Epidemiol Community Health",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/jech-2020-214401"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Indicator identity card. Illustrative example for the indicator \"Fatality rate due to road traffic accidents (Number per 1000 victims)\" adolescent mothers), only five civil parishes were identified as having problematic performances.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Matrix of indicators provided to workgroup A (13 indicators)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Matrix of indicators provided to workgroup B (20 indicators)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Matrix of indicators provided to workgroup C (13 indicators) Fig. 5 Photos illustrating the consultation process (a) and the workgroup discussions at the workshops",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Final matrix of critical situations for health equity in the municipality of Lisbon urban health inequities and on the role that different sectors can have on addressing them.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "In the column Intervention axis, the number of indicators that were selected from the initial list of indicators is specified",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Number of participants by stakeholder group Observat\u00f3rio -Luta Contra a Pobreza na cidade de Lisboa (Lisbon Observatory for the European Anti-Poverty Network -EAPN)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Workgroups and assigned intervention axes and indicators",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Indicators and number of civil parishes identified as critical in each intervention axis",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Acknowledgements The authors would like both to acknowledge the support received from the Municipality of Lisbon (CML) and to express gratitude for the opportunity to work with the City of Lisbon in a case study. Namely, the authors sincerely thank Jo\u00e3o Afonso (City Councillor for Social Rights between 2013 and 2017-CML/PDS), Teresa Craveiro and her team (Municipal Health and Wellbeing Plan of Lisbon-CML/EP-PLHDS) for the active involvement and support provided throughout the case study, namely in the preparation of workshops and support given on data collection. The authors are also grateful to the investigators involved in the preparation of the consultation materials that informed the workshops (indicator's identity card, tables and maps), namely Adriana Loureiro, Claudia Costa, Ricardo Almendra and Joaquim Patriarca from the University of Coimbra and investigators involved in the design of the overall methodological approach of the EURO-HEALHY project, namely Paulo Correia, Carlos Bana e Costa and M\u00f3nica Oliveira from the Instituto Superior T\u00e9cnico, University of Lisbon.Then, we would like to gratefully acknowledge the participation of all local stakeholders involved in the participatory process (see list of institutions/participants below).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        },
+        {
+            "text": "Disclosure Statement The authors declare that they have no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with Ethical Standards"
+        }
+    ]
+}

@@ -1,0 +1,4244 @@
+{
+    "paper_id": "0b1af8f93e552ce74e4549c6eb94e042ea541e56",
+    "metadata": {
+        "title": "Computational inference of cancer-specific vulnerabilities in clinical samples",
+        "authors": [
+            {
+                "first": "Kiwon",
+                "middle": [],
+                "last": "Jang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "KAIST",
+                    "location": {
+                        "postCode": "34141",
+                        "settlement": "Daejeon",
+                        "country": "Republic of Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Min",
+                "middle": [
+                    "Ji"
+                ],
+                "last": "Park",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Asan Medical Center",
+                    "location": {
+                        "postCode": "05505",
+                        "settlement": "Seoul",
+                        "country": "Republic of Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\u2020",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jae",
+                "middle": [
+                    "Soon"
+                ],
+                "last": "Park",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "KAIST",
+                    "location": {
+                        "postCode": "34141",
+                        "settlement": "Daejeon",
+                        "country": "Republic of Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Haeun",
+                "middle": [],
+                "last": "Hwangbo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "KAIST",
+                    "location": {
+                        "postCode": "34141",
+                        "settlement": "Daejeon",
+                        "country": "Republic of Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Min",
+                "middle": [
+                    "Kyung"
+                ],
+                "last": "Sung",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "KAIST",
+                    "location": {
+                        "postCode": "34141",
+                        "settlement": "Daejeon",
+                        "country": "Republic of Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sinae",
+                "middle": [],
+                "last": "Kim",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Asan Medical Center",
+                    "location": {
+                        "postCode": "05505",
+                        "settlement": "Seoul",
+                        "country": "Republic of Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jaeyun",
+                "middle": [],
+                "last": "Jung",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Asan Medical Center",
+                    "location": {
+                        "postCode": "05505",
+                        "settlement": "Seoul",
+                        "country": "Republic of Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jong",
+                "middle": [
+                    "Won"
+                ],
+                "last": "Lee",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sei-Hyun",
+                "middle": [],
+                "last": "Ahn",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Suhwan",
+                "middle": [],
+                "last": "Chang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Asan Medical Center",
+                    "location": {
+                        "postCode": "05505",
+                        "settlement": "Seoul",
+                        "country": "Republic of Korea"
+                    }
+                },
+                "email": "suhwan.chang@amc.seoul.kr"
+            },
+            {
+                "first": "Jung",
+                "middle": [
+                    "Kyoon"
+                ],
+                "last": "Choi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "KAIST",
+                    "location": {
+                        "postCode": "34141",
+                        "settlement": "Daejeon",
+                        "country": "Republic of Korea"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: Systematic in vitro loss-of-function screens provide valuable resources that can facilitate the discovery of drugs targeting cancer vulnerabilities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We develop a deep learning-based method to predict tumor-specific vulnerabilities in patient samples by leveraging a wealth of in vitro screening data. Acquired dependencies of tumors are inferred in cases in which one allele is disrupted by inactivating mutations or in association with oncogenic mutations. Nucleocytoplasmic transport by Ran GTPase is identified as a common vulnerability in Her2-positive breast cancers. Vulnerability to loss of Ku70/80 is predicted for tumors that are defective in homologous recombination and rely on nonhomologous end joining for DNA repair. Our experimental validation for Ran, Ku70/80, and a proteasome subunit using patient-derived cells shows that they can be targeted specifically in particular tumors that are predicted to be dependent on them.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Conclusion: This approach can be applied to facilitate the development of precision therapeutic targets for different tumors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "There have been substantial efforts to profile cancer dependency by loss-of-function screens in cell lines [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] , providing valuable resources that can lay foundation for new ways to fight cancer. However, the screening methods are applicable only to in vitro cell culture, limiting the discovery of therapeutic targets for clinical samples. A patient-derived cell model cannot be generated in a sizeable fraction of patients. In other patients, the time needed to develop the model is too long for clinical decisionmaking. Furthermore, in the absence of matched normal samples, it is difficult to identify truly cancer-specific dependencies and characterize them in association with somatic alterations.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 110,
+                    "text": "[1]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 111,
+                    "end": 114,
+                    "text": "[2]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 115,
+                    "end": 118,
+                    "text": "[3]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 119,
+                    "end": 122,
+                    "text": "[4]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 123,
+                    "end": 126,
+                    "text": "[5]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 127,
+                    "end": 130,
+                    "text": "[6]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 131,
+                    "end": 134,
+                    "text": "[7]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 135,
+                    "end": 138,
+                    "text": "[8]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 139,
+                    "end": 142,
+                    "text": "[9]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 143,
+                    "end": 147,
+                    "text": "[10]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Gene suppression will affect cell survival through the perturbation of the gene regulatory network. Perturbed transcriptomes, not basal transcriptomes, are directly linked to the consequential phenotypes. However, perturbed transcriptomes associated with cell death cannot be acquired experimentally because the expression patterns of only surviving cells will be captured. In addition, experimental data may be too complicated to capture the core changes that actually contribute to growth phenotypes because of biological complexity involving feedbacks and secondary effects. Practically, it is close to impossible to generate transcriptome data for knockdown of individual genes in each sample. Therefore, we need to simulate transcriptomic perturbations and link the resulting expression patterns to the state of cell death or growth.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "To simulate all downstream events following gene suppression, we need a gene regulatory network represented as a directed graph encompassing all genes. In our previous work [11] , we designed a comprehensive Bayesian prior model based on data for transcription factor binding, chromatin accessibility, enhancer-promoter interactions, and genetic expression association mapping. We then derived causal relationships from1 400 breast cancer transcriptomes. Another option is to assign orientations to links in the coexpression network, such as ARACNe (Algorithm for the Reconstruction of Accurate Cellular Networks) [12] , that represents direct regulatory interactions.",
+            "cite_spans": [
+                {
+                    "start": 173,
+                    "end": 177,
+                    "text": "[11]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 614,
+                    "end": 618,
+                    "text": "[12]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In this work, we sought to develop a computational method that predicts cancerspecific dependencies for clinical samples with breast cancer as a model. We used the results of genome-wide shRNA [3] and CRISPR-Cas9 [9, 10] screening of breast cancer cell lines, the breast cancer regulatory networks described above, and the transcriptomic and mutational profiles of TCGA breast cancer samples [13] . Systematic characterization of common dependencies and experimental validation using patientderived cells identified novel therapeutic targets in breast cancer. This translational approach lays the foundation for future applications to discovering personalized therapeutic targets from clinical molecular data on various tumor types.",
+            "cite_spans": [
+                {
+                    "start": 193,
+                    "end": 196,
+                    "text": "[3]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 213,
+                    "end": 216,
+                    "text": "[9,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 217,
+                    "end": 220,
+                    "text": "10]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 392,
+                    "end": 396,
+                    "text": "[13]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The workflow of our method is illustrated in Fig. 1 . Based on the gene regulatory network, we devised a method to simulate the perturbation effects of CRISPR or RNAi as detailed in the \"Materials and methods\" section. We employed the Bayesian network in breast cancer and the same type of network in liver cancer for a negative control from our previous works [11, 14] . In this work, we constructed the ARACNe network [12] for breast and liver cancer. We determined the orientation of the links to simulate perturbation effects.",
+            "cite_spans": [
+                {
+                    "start": 361,
+                    "end": 365,
+                    "text": "[11,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 366,
+                    "end": 369,
+                    "text": "14]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 420,
+                    "end": 424,
+                    "text": "[12]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 45,
+                    "end": 51,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Development of in silico CRISPR/RNAi and prediction model"
+        },
+        {
+            "text": "We merged two independent CRISPR-Cas9 screens of 28 and 25 breast cancer cell lines [9, 10] , each based on a dependency score named CERES and BAGEL [9, 15] , respectively. We selected three cutoffs (CERES = \u2212 0.6, \u2212 1.0, or \u2212 1.5 and BAGEL = 0, 2, or 4) to result in the similar number of dependencies per cell line between the two measures. As a result, the selected cutoffs led to 120,485, 44,644, and 3644 cases, respectively. From shRNA dropout screens of 77 breast cancer cell lines [3] , each gene was assigned a normalized GARP (Gene Activity Ranking Profile) score, or zGARP, in each cell line [3, 16] . Here, we used three cutoffs (zGARP = \u2212 2, \u2212 3, or \u2212 4) to define dependencies, resulting in 88,837, 31,229, and 12,412 cases, respectively. We randomly chose the same number of instances below (for BAGEL) or above (for CERES and zGARP) the given cutoffs as independency cases. For each dependency and independency, we performed our in silico CRISPR/RNAi to generate the perturbed transcriptome.",
+            "cite_spans": [
+                {
+                    "start": 84,
+                    "end": 87,
+                    "text": "[9,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 88,
+                    "end": 91,
+                    "text": "10]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 149,
+                    "end": 152,
+                    "text": "[9,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 153,
+                    "end": 156,
+                    "text": "15]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 489,
+                    "end": 492,
+                    "text": "[3]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 603,
+                    "end": 606,
+                    "text": "[3,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 607,
+                    "end": 610,
+                    "text": "16]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Development of in silico CRISPR/RNAi and prediction model"
+        },
+        {
+            "text": "We trained deep neural networks (DNN) with various hyperparameters (Additional file 2: Table S1 ) by using the perturbed expression patterns for the experimentally determined dependencies and independencies (Fig. 1) . The ROC and precisionrecall curves show that better performance can be achieved with more stringent cutoffs for both CRISPR and RNAi with the Bayesian network ( Fig. 2a and Additional file 1: Fig. 1 Schematic workflow for predicting cancer-specific vulnerability in clinical samples. Transcriptomes and matching dependency maps constructed for cancer cell lines are used for training. Tumor and matched normal transcriptomes of clinical samples are used as input for prediction. Cancer-specific vulnerability can be identified by comparing the prediction outcomes for tumor and normal samples. The prediction model consists of in silico CRISPR/RNAi and machine learning. For a given transcription profile derived from a cell line or clinical sample, virtual repression can be performed by adjusting the expression level of each target gene and its downstream genes. The perturbed expression profiles are fed into neural networks for training or prediction. The output of the model is the probability that the perturbed transcriptome is associated with cell death or that the survival of the given sample is dependent on the inactivated gene (see the \"Materials and methods\" section) Figure S1A ). These results imply that true dependencies share more distinct patterns in their perturbed transcriptomes. Similar performance results were obtained when we repeated the model training using the ARACNe network (Additional file 1: Figure S2A ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 87,
+                    "end": 95,
+                    "text": "Table S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 207,
+                    "end": 215,
+                    "text": "(Fig. 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 379,
+                    "end": 386,
+                    "text": "Fig. 2a",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 410,
+                    "end": 416,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1401,
+                    "end": 1411,
+                    "text": "Figure S1A",
+                    "ref_id": null
+                },
+                {
+                    "start": 1645,
+                    "end": 1655,
+                    "text": "Figure S2A",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Development of in silico CRISPR/RNAi and prediction model"
+        },
+        {
+            "text": "We also tested other machine learning methods including support vector machine (SVM) with different kernels, na\u00efve Bayes classifier (NBC), linear discriminant analysis (LDA), and random forest (RF). When the most stringent cutoff was used, all methods except NBC showed acceptable performance in terms of AUC and AUPR with both loss-of-function screens and both regulatory networks (Fig. 2b , Additional file 1: Figures S1B, and S2). We tested the linear, polynomial, sigmoidal, and radial basis function (RBF) kernels for SVM. The polynomial and sigmoidal kernels presented performance levels similar to or lower than those of radial SVM.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 382,
+                    "end": 390,
+                    "text": "(Fig. 2b",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Development of in silico CRISPR/RNAi and prediction model"
+        },
+        {
+            "text": "Most importantly, we tested the validity of our network-based simulation. To this end, we chose genes that have > 100 downstream genes in the network and used their perturbed expression patterns as training input. With these genes only, similar levels of prediction performance were achieved for both CRISPR and RNAi screens (red ROC curves in Fig. 2c ). Three types of negative controls were prepared. First, we performed network randomization by shuffling the nodes while maintaining the network structure. Second, we generated inverted networks by reversing the orientations of all links. Prediction performance and validation of network-based simulations. a ROC curves from our DNN model for the CRISPR model (upper) and RNAi model (lower) according to different cutoffs of the cell line screen data. b ROC curves derived from different prediction models when the most stringent cutoff (zGARP = \u2212 4, CERES = \u2212 1.5, and BAGLE = 4) was used for training. c ROC curves from the DNN model with different test networks. We chose genes that have > 100 downstream genes in the regulatory network and used their perturbed expression patterns as training input. As negative controls, the breast cancer network was randomized by shuffling the nodes while maintaining the network structure (shuffled network) or inverted by reversing the orientation of all links (inverted network). In addition, the same types of networks were constructed by using liver cancer data (liver network). Shown are the averages of the five best models Third, we constructed networks in liver cancer to model biologically irrelevant regulatory interactions. Accurate predictions were not made in these cases (see green, violet, and yellow ROC curves in Fig. 2c , Additional file 1: Figures S1C, and S2C ). In addition, the real network resulted in a significantly better agreement with experimental expression perturbation data in MCF7 (Additional file 1: Figure S3 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 344,
+                    "end": 351,
+                    "text": "Fig. 2c",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1724,
+                    "end": 1731,
+                    "text": "Fig. 2c",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1753,
+                    "end": 1773,
+                    "text": "Figures S1C, and S2C",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1927,
+                    "end": 1936,
+                    "text": "Figure S3",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Development of in silico CRISPR/RNAi and prediction model"
+        },
+        {
+            "text": "We performed systematic in silico CRISPR/RNAi for 113 tumor and matched normal samples from TCGA and subjected the resulting expression profiles to our prediction models. First, we compared the TCGA prediction outcomes between the CRISPR and RNAi model. Strong positive correlations (R = 0.54~0.57) were observed between the screening models (Fig. 3a) . Lower correlations (R = 0.24~0.26) were observed between c Intersection of cancer-specific vulnerabilities predicted by DNN with gene lists previously generated from independent studies. d Overlap of gene lists presenting tumor-specific vulnerabilities in different breast cancer subclasses. e List of genes whose suppression was predicted to confer tumor-specific vulnerability commonly in multiple samples tumor and normal samples from the same donor (Fig. 3a) . We also compared the different classifiers based on the RNAi model. In both tumor and normal samples, the two linear methods, LDA and linear SVM, did not agree with the other classifiers (Fig. 3b) . The other linear classifier, NBC, showed positive correlations with the nonlinear classifiers (Fig. 3b) . The three nonlinear methods, namely, DNN, radial SVM, and RF, presented highly consistent prediction results (Fig. 3b) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 342,
+                    "end": 351,
+                    "text": "(Fig. 3a)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 807,
+                    "end": 816,
+                    "text": "(Fig. 3a)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1006,
+                    "end": 1015,
+                    "text": "(Fig. 3b)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1112,
+                    "end": 1121,
+                    "text": "(Fig. 3b)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1233,
+                    "end": 1242,
+                    "text": "(Fig. 3b)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Characterization of prediction outcomes for clinical samples"
+        },
+        {
+            "text": "We identified genes that were predicted by DNN as dependencies in tumors but not in normal counterparts. According to a functional enrichment analysis [17] , overrepresented functions included proteasome, amino acid biosynthesis, cell cycle, mRNA stabilization, oxidative phosphorylation, and post-translational protein modification (Additional file 3: Table S2 ). We compared the predicted cancer-specific dependencies with previously defined lists of genes such as the housekeeping genes [18] , core fitness genes [1] , and gold-standard essential or nonessential genes [19] (Fig. 3c ). There were subclass-specific vulnerabilities (Fig. 3d) .",
+            "cite_spans": [
+                {
+                    "start": 151,
+                    "end": 155,
+                    "text": "[17]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 490,
+                    "end": 494,
+                    "text": "[18]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 516,
+                    "end": 519,
+                    "text": "[1]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 572,
+                    "end": 576,
+                    "text": "[19]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 353,
+                    "end": 361,
+                    "text": "Table S2",
+                    "ref_id": null
+                },
+                {
+                    "start": 577,
+                    "end": 585,
+                    "text": "(Fig. 3c",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 634,
+                    "end": 643,
+                    "text": "(Fig. 3d)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Characterization of prediction outcomes for clinical samples"
+        },
+        {
+            "text": "We identified genes that were recurrently predicted as cancer-specific dependencies based on the average of the two screening models ( Fig. 3e and Additional file 4: Table  S3 ). Up to 35% of the samples were vulnerable to the loss of RAN. RAN encodes the small GTPase Ran, the key regulator of nucleocytoplasmic transport of proteins and ribonucleoproteins. Tumor-specific vulnerability to RAN suppression has been demonstrated in a few cell lines [20] . XRCC6 and XRCC5 encode the Ku heterodimer (Ku70/ Ku80), a main component of the nonhomologous end joining (NHEJ) pathway that repairs DNA double-strand breaks (DSBs). Proteasome subunits (PSMB4, PSMD2, PSMC2, PSMD14, PSMD13, and SHFM1) were also included in the list. PTGES3, a cochaperone functioning with heat shock protein 90 (HSP90), was identified together with other heat shock proteins such as HSP90AB1 and HSPA9. UQCRH, ATP5H, and NDUFC2 are involved in oxidative phosphorylation through respiratory electron transport. We conducted a detailed characterization of dependencies on Ran, Ku70/80, and proteasome subunits in the last section.",
+            "cite_spans": [
+                {
+                    "start": 449,
+                    "end": 453,
+                    "text": "[20]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 135,
+                    "end": 142,
+                    "text": "Fig. 3e",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 166,
+                    "end": 175,
+                    "text": "Table  S3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Characterization of prediction outcomes for clinical samples"
+        },
+        {
+            "text": "We then examined how our predictions for tumor samples differed from those for normal samples. The overall distribution of the dependency scores from different classifiers was compared between tumor and matched normal. In general, tumor samples presented high variability with biases toward high levels of dependencies (Fig. 4a) . As discussed in the next section, these results imply that tumor undergoes extensive somatic changes that render the cells vulnerable to the loss of certain molecular activities. Among the nonlinear methods, DNN and radial SVM exhibited this pattern most clearly (Fig. 4a) . RF showed this pattern only with the CRISPR model (Fig. 4a) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 319,
+                    "end": 328,
+                    "text": "(Fig. 4a)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 594,
+                    "end": 603,
+                    "text": "(Fig. 4a)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 656,
+                    "end": 665,
+                    "text": "(Fig. 4a)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Characterization of prediction outcomes for clinical samples"
+        },
+        {
+            "text": "Some cancer-specific vulnerabilities should be attributed to somatic DNA lesions that are only present in tumor cells. These can be either loss-of-function (LOF) or gain-offunction (GOF) mutations. When one of the two copies of a gene with an essential function is disrupted by LOF mutations, further suppression of this gene will lead to cell death in only cancer. However, this concept has been examined only for copy number loss in cell lines because matched normal controls are not available [21] . On the other hand, GOF mutations can be used to test oncogene dependence, a phenomenon also referred to as oncogene addiction [22] .",
+            "cite_spans": [
+                {
+                    "start": 496,
+                    "end": 500,
+                    "text": "[21]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 629,
+                    "end": 633,
+                    "text": "[22]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Point mutations increase tumor-specific vulnerabilities"
+        },
+        {
+            "text": "We identified heterozygous LOF (hetLOF) and homozygous LOF (homoLOF) mutations. HomoLOF mutations may occur when an inactivation mutation arises in the remaining copy after hemizygous deletion. Also, we detected putative GOF mutations by looking for the cases in which the identical missense substitution was recurrently found across~1000 breast cancer samples. We then segregated the samples according to mutation status. Then, the differential dependency on the mutated gene was obtained by subtracting the normal dependency score from the tumor dependency score.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Point mutations increase tumor-specific vulnerabilities"
+        },
+        {
+            "text": "We wanted to test whether our DNN was able to predict a relative increase in dependency on the mutated genes in tumors carrying the mutations compared to wildtype tumors. First, the differential dependency shifted to positive values specifically in samples with the hetLOF mutations (Fig. 4b, left ). This pattern was not observed for samples in which both copies were already inactivated (Fig. 4b, right ). Many tumor suppressor genes (TSGs) follow the two-hit hypothesis and contribute to tumorigenesis when both copies are lost or inactivated. Therefore, further suppression of these genes in LOF mutant samples will not cause tumor death. As expected, our DNN method predicted no acquired vulnerabilities for TSGs (Fig. 4c) . Acquired dependencies on genes with GOF mutations, but not on oncogenes with silent mutations, were observed RNAi (lower) screening models. b Differential dependency on genes that carry hetLOF (left) or homoLOF (right) mutations in mutant (blue or red) versus wild-type (gray) samples. c Differential dependency on non-TSGs (left) or TSGs (right) that carry LOF mutations in mutant (green or brown) versus wild-type (gray) samples. d Differential dependency on genes that carry GOF mutations (left) or on known oncogenes (OG) that carry only silent mutations (right) in mutant (orange or violet) versus wild-type (gray) samples. b-d P values attached to the density plots are based on the Kolmogorov-Smirnov test. P values over the box plots are from Student's t test (Fig. 4d ). With copy number alterations, there was no distinction between hemizygous versus homozygous deletion, non-TSGs versus TSGs, and oncogenes versus nononcogenes (Additional file 1: Figure S4 ). Therefore, point mutations may be a better indicator of acquired vulnerabilities than copy number alterations.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 283,
+                    "end": 297,
+                    "text": "(Fig. 4b, left",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 389,
+                    "end": 404,
+                    "text": "(Fig. 4b, right",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 718,
+                    "end": 727,
+                    "text": "(Fig. 4c)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1498,
+                    "end": 1506,
+                    "text": "(Fig. 4d",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1688,
+                    "end": 1697,
+                    "text": "Figure S4",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Point mutations increase tumor-specific vulnerabilities"
+        },
+        {
+            "text": "We tested the other classifiers in this respect. The nonlinear classifiers that made similar predictions as DNN, namely, radial SVM and RF, also showed acquired dependencies associated with the LOF or GOF mutations (Additional file 1: Figure S5 ). The only linear classifier producing results consistent with the nonlinear classifiers, NBC (Fig. 3b) , was able to reproduce this pattern as well (Additional file 1: Figure S5 ). However, DNN showed most clear discrepancies between the mutants and wild-type samples.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 235,
+                    "end": 244,
+                    "text": "Figure S5",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 340,
+                    "end": 349,
+                    "text": "(Fig. 3b)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 415,
+                    "end": 424,
+                    "text": "Figure S5",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Point mutations increase tumor-specific vulnerabilities"
+        },
+        {
+            "text": "In the previous section, we focused on vulnerabilities pertaining to mutations in the relevant gene itself. Some genes reveal context-dependent vulnerability under certain environmental stress or in particular genetic backgrounds such as cancer subtypes [1, 3] . Synthetic lethality arises when the simultaneous perturbation of two or more genes results in cell death [23] . Here, we examined whether our DNN model could predict context-dependent or synthetic vulnerabilities by focusing on two representative genes identified as common dependencies (Fig. 3e) .",
+            "cite_spans": [
+                {
+                    "start": 254,
+                    "end": 257,
+                    "text": "[1,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 258,
+                    "end": 260,
+                    "text": "3]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 368,
+                    "end": 372,
+                    "text": "[23]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 550,
+                    "end": 559,
+                    "text": "(Fig. 3e)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Predictions of context-dependent vulnerability or synthetic lethality"
+        },
+        {
+            "text": "We first characterized the tumors that were predicted to be dependent on RAN based on the average of the CRISPR and RNAi model results. First, RAN itself and some RAN-related genes such as RANGAP1, RANBP1, RCC1, and TPX2 were overexpressed in these samples (Fig. 5a) . Second, Her2-positive tumors, which grow faster than other subtypes, were significantly associated with RAN dependency (Fig. 5a) . Third, functional enrichment of the overexpressed genes in the RAN-dependent samples was found for nuclear chromatin, ribosome, and spliceosome ( Fig. 5a and Additional file 5: Table S4 ). In rapidly dividing tumors, proteins involved in chromatin formation need to be actively synthesized and transported into the nucleus. The assembly of ribosomes and spliceosomes is reliant on nucleocytoplasmic transport as the proteins are imported into the nucleus and then exported back to the cytosol after coupling with the RNAs. Ran is activated by growth signaling to fulfill this demand [24] . Therefore, rapidly growing tumors should be vulnerable to RAN silencing.",
+            "cite_spans": [
+                {
+                    "start": 983,
+                    "end": 987,
+                    "text": "[24]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 257,
+                    "end": 266,
+                    "text": "(Fig. 5a)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 388,
+                    "end": 397,
+                    "text": "(Fig. 5a)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 546,
+                    "end": 553,
+                    "text": "Fig. 5a",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 577,
+                    "end": 585,
+                    "text": "Table S4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Predictions of context-dependent vulnerability or synthetic lethality"
+        },
+        {
+            "text": "XRCC6 and XRCC5 encode Ku70 and Ku80 proteins, respectively. The Ku heterodimer recruits DNA-PKcs (encoded by PRKDC) to DSBs for DNA repair by the classical NHEJ pathway [25] . Upregulation of XRCC6 and other core NHEJ factors (e.g., PRKDC, LIG4, and XRCC4) was observed in the Ku-dependent tumors (Fig. 5b) . Particularly significant upregulation was observed for ASF1A (Fig. 5b) . This gene interacts with MDC1 to promote NHEJ repair [26] . MDC1 was also overexpressed (Fig. 5b) . Two other mechanisms to repair DSBs are homologous recombination (HR) and alternative NHEJ. There is a synthetic lethal relationship between HR and classical NHEJ. HR-defective cells are sensitive to DNA-PKcs inhibition [27, 28] . MSH3 was identified as a novel HR pathway gene that significantly increases the sensitivity [28] . We observed a significant copy number loss of MSH3 and major HR genes (BRCA1, RAD50, and RAD51) in the Ku-dependent samples (Fig. 5b) . Activation of alternative NHEJ was not observed in these tumors; whereas PARP1, XRCC1, MRE11, and RBBP8 (encoding CtIP) did not show upregulation (Additional file 1: Figure S6 ), some genes (LIG1 and LIG3) exhibited copy number loss (Fig. 5b) .",
+            "cite_spans": [
+                {
+                    "start": 170,
+                    "end": 174,
+                    "text": "[25]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 436,
+                    "end": 440,
+                    "text": "[26]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 703,
+                    "end": 707,
+                    "text": "[27,",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 708,
+                    "end": 711,
+                    "text": "28]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 806,
+                    "end": 810,
+                    "text": "[28]",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 298,
+                    "end": 307,
+                    "text": "(Fig. 5b)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 371,
+                    "end": 380,
+                    "text": "(Fig. 5b)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 471,
+                    "end": 480,
+                    "text": "(Fig. 5b)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 937,
+                    "end": 946,
+                    "text": "(Fig. 5b)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1115,
+                    "end": 1124,
+                    "text": "Figure S6",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1182,
+                    "end": 1191,
+                    "text": "(Fig. 5b)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Predictions of context-dependent vulnerability or synthetic lethality"
+        },
+        {
+            "text": "To test the applicability of our method in the clinical setting, we performed DNN prediction on the transcriptomes of our 24 patient-derived xenografts of breast cancer [29] . For RAN, 23 of the 24 tumors were predicted to be dependent. For experimental validation, we selected two samples whose predicted dependencies were positive on RAN and named them PD(+)RAN-1 and PD(+)RAN-2. For each of XRCC6 and PSMB4, we chose two Expression levels of RAN-related genes are shown below. The triple-negative subtype was determined by each sample's status for estrogen receptor (ER), progesterone receptor (PR), and human epidermal growth receptor-2 (Her2). The heatmap below presents the transcription profile of the most significant 100 genes that were overexpressed in the RAN-dependent samples (P < 0.005 by the two-sample t test). Enriched functional terms are indicated on the left. b Analysis of Ku70/80-dependent samples. DNN-estimated dependency on XRCC6 or XRCC5 is marked in blue. Differential expression of the classical NHEJ genes in tumor relative to normal samples is shown. Also shown are the gene-level copy number scores of MSH3 and some genes implicated in HR (BRCA1, RAD50, and RAD51) or alternative NHEJ (LIG1 and LIG3). Negative values indicate copy number loss. P values are from Fisher's exact test for the overrepresentation of copy loss samples in the dependent group samples with positive predicted dependencies and two with negative predicted dependencies: PD(+/\u2212)XRCC6/PSMB4-1/2. We derived patient-derived cells for these samples; performed CRISPR-Cas9 [30] targeting of RAN, XRCC6, or PSMB4; and confirmed the stable expression of Cas9 and the reduced expression of the target genes.",
+            "cite_spans": [
+                {
+                    "start": 169,
+                    "end": 173,
+                    "text": "[29]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1574,
+                    "end": 1578,
+                    "text": "[30]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Experimental validation of predicted dependencies"
+        },
+        {
+            "text": "RAN suppression in the PD(+)RAN cells resulted in an increase in the proportion of Annexin V-positive cells, indicating the induction of apoptosis, and a decrease in the fraction of proliferating cells according to the BrdU assay ( Fig. 6a and Additional file 1: Figure S7 ). For XRCC6 and PSMB4 silencing, the induction of apoptosis and the decrease of cell proliferation were remarkably more pronounced in the PD(+) cells than in the PD(\u2212) cells (Fig. 6b , c and Additional file 1: Figures S8~S9) . These results demonstrate that our method to predict sample-specific vulnerabilities can lead to the discovery of precision therapeutic targets.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 232,
+                    "end": 239,
+                    "text": "Fig. 6a",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 263,
+                    "end": 272,
+                    "text": "Figure S7",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 448,
+                    "end": 456,
+                    "text": "(Fig. 6b",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 484,
+                    "end": 498,
+                    "text": "Figures S8~S9)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Experimental validation of predicted dependencies"
+        },
+        {
+            "text": "Next, we explored the mechanisms underlying cell death induced by the inactivation of these genes. In the PD(+)RAN cells, we tested the nuclear translocation of epidermal growth factor receptor (EGFR). The ligand EGF stimulates the translocation of phosphorylated EGFR (pEGFR) to the nucleus [31] . The EGFR nuclear transport was reported to be RANdependent [32] . When RAN was inactivated by CRISPR/Cas9, the nuclear fraction of pEGFR vanished whereas cytoplasmic pEGFR was not affected (Fig. 7a, b and Additional file 1: Figure S10 ). This resulted in the downregulation of two important transcriptional targets of pEGFR, that is, Cox2 and Cyclin D1 (Fig. 7a) . For PSMB4, we tested the degradation of proapoptotic proteins. PSMB4 knockdown increased the protein levels of Bad, Bim, and Cytochrom C in the PD(+)PSMB4 cells (Additional file 1: Figure S11 ).",
+            "cite_spans": [
+                {
+                    "start": 292,
+                    "end": 296,
+                    "text": "[31]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 358,
+                    "end": 362,
+                    "text": "[32]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 488,
+                    "end": 499,
+                    "text": "(Fig. 7a, b",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 523,
+                    "end": 533,
+                    "text": "Figure S10",
+                    "ref_id": null
+                },
+                {
+                    "start": 652,
+                    "end": 661,
+                    "text": "(Fig. 7a)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 845,
+                    "end": 855,
+                    "text": "Figure S11",
+                    "ref_id": null
+                }
+            ],
+            "section": "Experimental validation of predicted dependencies"
+        },
+        {
+            "text": "Regarding Ku70/80 dependency, we first tested whether the PD(+)XRCC6 cells rely on the NHEJ pathway. When XRCC6 was inactivated, the PD(+) cells maintained the activity of DNA-PKcs whereas the PD(\u2212) cells decreased the expression of this protein (Additional file 1: Figure S12 ). Indeed, the PD(+) samples were more sensitive to the DNA-PK inhibitor, NU-7026, as indicated by 40-60% lower IC50 values (Additional file 1: Figure S13A~S13B ). This reliance on the NHEJ pathway may reflect HR deficiency. It is known that HR-defective cells are sensitive to DNA-PKcs inhibition [27, 28] . To test this, we challenged the PD(+/\u2212)XRCC6 cells with \u03b3-irradiation to generate DSBs. XRCC6 inactivation led to an increase in the number of Rad51 foci in both the PD(+) and PD(\u2212) cells (Fig. 7c) . However, the degree of the increase of Rad51 foci was 3~4fold lower in the PD(+) cells than in the PD(\u2212) cells (Fig. 7d) . We also performed the DR-GFP/I-SceI HR assay [33] in which the fraction of GFP-positive cells indicates HR activity for DSB repair. While XRCC6 suppression led to an increase in the fraction of the GFP-positive cells (Fig. 7e) , the magnitude of increase was 3~6-fold lower in the PD(+) cells than in the PD(\u2212) cells (Fig. 7f) . The similar results were obtained from the DR-GFP/I-SceI assay in response to the treatment of NU-7026 (Additional file 1: Figure  S13C ). In summary, the PD(+)XRCC6 cells displayed HR deficiencies under high DSB load, consistent with our observation with the TCGA data (Fig. 5b) . These results illustrate how Ku70/80 silencing can render particular tumors vulnerable when the sensitivity to Ku70/80 suppression can be predicted by our computational method.",
+            "cite_spans": [
+                {
+                    "start": 575,
+                    "end": 579,
+                    "text": "[27,",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 580,
+                    "end": 583,
+                    "text": "28]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 954,
+                    "end": 958,
+                    "text": "[33]",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 266,
+                    "end": 276,
+                    "text": "Figure S12",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 421,
+                    "end": 437,
+                    "text": "Figure S13A~S13B",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 774,
+                    "end": 783,
+                    "text": "(Fig. 7c)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 897,
+                    "end": 906,
+                    "text": "(Fig. 7d)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1126,
+                    "end": 1135,
+                    "text": "(Fig. 7e)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1226,
+                    "end": 1235,
+                    "text": "(Fig. 7f)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1361,
+                    "end": 1373,
+                    "text": "Figure  S13C",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1508,
+                    "end": 1517,
+                    "text": "(Fig. 5b)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Experimental validation of predicted dependencies"
+        },
+        {
+            "text": "There was an attempt to develop a predictive model on the basis of cell line screening data [4] . This model was reliant on common molecular markers of cell lines with shared dependencies. In this case, the number of available cell lines for each tumor type, and thus the number of dependent cases to be learned, is limited. Moreover, this approach is applicable only to context-dependent variability or synthetic lethality, and predictions cannot be made for sample-specific dependencies.",
+            "cite_spans": [
+                {
+                    "start": 92,
+                    "end": 95,
+                    "text": "[4]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Instead of using basal expression patterns as predictors, we performed simulations to obtain transcriptome patterns resulting from gene suppression. Because these simulations could be repeated for individual genes, as many perturbed profiles as genes could be obtained from one basal profile, which cannot be accomplished experimentally. Therefore, a sufficient number of cases could be used to train predictive models. Also, it is difficult to obtain experimental profiles associated with cell death because the expression patterns of only living cells can be captured.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The three genes we tested experimentally are presented as common essential genes in the depmap portal browser (https://depmap.org/portal). In contrast, our model predicts that they are dependencies in 20~30% of tumors (Fig. 3e) . As for XRCC6 and PSMB4, this seems to result from the different scoring scheme used in the browser. The scoring metric used in our model indicates similar fractions of dependent cell lines at the threshold we used, thereby emphasizing consistencies between our prediction and cell line screening results. As for RAN, we characterized the gene as a contextdependent dependency in association with cell growth (Fig. 5a) . This may explain why RAN is detected as a common dependency in cell line screening in which rapidly growing cells dominate the culture population. This highlights the advantage of our model over screening results.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 218,
+                    "end": 227,
+                    "text": "(Fig. 3e)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 638,
+                    "end": 647,
+                    "text": "(Fig. 5a)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "A classic example of synthetic lethality is the interaction between poly (ADP-ribose) polymerase 1 (PARP1) and BRCA1/2 [34] [35] [36] . Later, the sensitivity of BRCA1/2-mutated tumors to PARP inhibitors was broadly linked to HR repair defects [23] . Further studies established synthetic lethality between the HR pathway and the NHEJ gene DNA-PKcs [27, 28, 37, 38] . Our results suggest that HR-defective tumors are also sensitive to the loss of Ku70/80, the interacting partner of DNA-PKcs. Further investigation is required as to whether inhibiting Ku70/80 instead of DNA-PKcs can be more effective at the RNA level. Importantly, sensitivity to Ku70/80 inhibition can be predicted based on transcriptome data by our deep learning model. This approach can be extended to many different cancer types, facilitating the discovery of precision therapeutic targets. Once a prediction model has been established, exome and transcriptome data for tumor and matched normal samples will be sufficient to identify patient-specific vulnerabilities that are associated with somatic mutations or common vulnerabilities that arise in a context-dependent or synthetic lethal manner.",
+            "cite_spans": [
+                {
+                    "start": 119,
+                    "end": 123,
+                    "text": "[34]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 124,
+                    "end": 128,
+                    "text": "[35]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 129,
+                    "end": 133,
+                    "text": "[36]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 244,
+                    "end": 248,
+                    "text": "[23]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 349,
+                    "end": 353,
+                    "text": "[27,",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 354,
+                    "end": 357,
+                    "text": "28,",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 358,
+                    "end": 361,
+                    "text": "37,",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 362,
+                    "end": 365,
+                    "text": "38]",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We downloaded two independent CRISPR-Cas9 dropout screening results for 28 and 25 breast cancer cell lines [9, 10] from https://depmap.org/portal/download and https://score.depmap.sanger.ac.uk/downloads. Genetic dependencies were measured based on the CERES [9] and BAGEL [15] scores, respectively. We selected different cutoff values (CERES = \u2212 0.6, \u2212 1.0, or \u2212 1.5 and BAGEL = 0, 2, or 4) to result in the similar number of dependencies per cell line between the two datasets. In addition, we obtained shRNA dropout screening results for 77 breast cancer cell lines [3] from http://neellab.github.io/bfg. Normalized GARP score, or zGARP, was used as a metric of dependency [3, 16] . Here, a zGARP of \u2212 2, \u2212 3, or \u2212 4 was used as the threshold to define experimentally determined dependency. Gene expression profiles of the cell lines were also obtained from the same websites.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 110,
+                    "text": "[9,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 111,
+                    "end": 114,
+                    "text": "10]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 258,
+                    "end": 261,
+                    "text": "[9]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 272,
+                    "end": 276,
+                    "text": "[15]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 568,
+                    "end": 571,
+                    "text": "[3]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 675,
+                    "end": 678,
+                    "text": "[3,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 679,
+                    "end": 682,
+                    "text": "16]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Cell line dependency screening data"
+        },
+        {
+            "text": "For regulatory network construction, we downloaded TCGA RNA-seq data for 1215 breast cancer and 423 liver cancer samples from the UCSC Cancer browser (https:// xenabrowser.net). We employed our previous Bayesian network in breast cancer [11] (Additional file 6: Table S5 ) and the same type of network in liver cancer [14] for a negative control. We constructed another type of regulatory network on the basis of ARACNe (Algorithm for the Reconstruction of Accurate Cellular Networks) [12] (Additional file 7: Table S6 ). We applied the ARACNe software available at http://califano.c2b2.columbia.edu/aracne [39] . From a gene expression profile, ARACNe identifies direct transcriptional interactions on the basis of mutual information (MI). We determined the significance of MI at P = 0.01. In order to simulate the effect of gene suppression, we had to determine the directionality (i.e., which gene regulates which gene) and regulation type (i.e., whether the interaction is activation or inhibition) of the interactions between the suppression target gene and its interaction partners. For this purpose, we utilized conditional probability. For example, when P(X = on| Y = on) represents the probability that gene X is expressed given that gene Y is expressed, the directionality can be determined by comparing P(X = on| Y = on) and P(Y = on| X = on). If P(X = on| Y = on) > P(Y = on| X = on), gene Y is considered to be a regulator of gene X. To determine the regulation type, we used P(X = up/down| Y = up/down) to represent the probability of gene X being up-or downregulated given the up-or downregulation of gene Y. More details are provided in the next section.",
+            "cite_spans": [
+                {
+                    "start": 237,
+                    "end": 241,
+                    "text": "[11]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 318,
+                    "end": 322,
+                    "text": "[14]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 485,
+                    "end": 489,
+                    "text": "[12]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 607,
+                    "end": 611,
+                    "text": "[39]",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 262,
+                    "end": 270,
+                    "text": "Table S5",
+                    "ref_id": null
+                },
+                {
+                    "start": 510,
+                    "end": 518,
+                    "text": "Table S6",
+                    "ref_id": null
+                }
+            ],
+            "section": "Regulatory network construction"
+        },
+        {
+            "text": "The first step of our in silico CRISPR/RNAi was to identify genes whose expression level would be affected by the suppression of the target gene. From the Bayesian network, all descendant genes were identified by traveling via outgoing links from the target gene. We determined only whether a given gene is a descendant of the target gene while ignoring the structure of the intervening nodes between the two genes. Then, the expression level of each descendant was adjusted depending on the sign and strength of its expression correlation with the target gene. Here, we denote the target gene as gene Y and the jth descendant of gene Y as gene X j . When x j and y indicate the basal expression level of X j and Y in the given sample, respectively, the perturbed expression level of the jth gene, x 0 j ; can be obtained as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "In silico CRISPR/RNAi methodologies"
+        },
+        {
+            "text": "where r j is the correlation coefficient of the expression levels of gene X j and Y across reference samples, and y \u2032 is the perturbed expression level of the target gene, Y. For reference samples, we used the same transcriptome data that were used for network construction. We set y \u2032 = 0 for CRISPR simulation and y \u2032 = 0.2y for RNAi considering the known average experimental efficacy of shRNA [40] . Instead of repeating this calculation gene by gene, we utilized matrix multiplication. The perturbed expression level of the jth gene by the ith target gene was obtained as the (i,j)th entry of the perturbed expression matrix P as follows.",
+            "cite_spans": [
+                {
+                    "start": 397,
+                    "end": 401,
+                    "text": "[40]",
+                    "ref_id": "BIBREF45"
+                }
+            ],
+            "ref_spans": [],
+            "section": "In silico CRISPR/RNAi methodologies"
+        },
+        {
+            "text": "R is an adjacency matrix for expression correlations and B is a basal expression matrix filled with zero except at the diagonal.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "In silico CRISPR/RNAi methodologies"
+        },
+        {
+            "text": "For the ARACNe network, we utilized the conditional probability instead of the correlation coefficient. First, all the first neighbors of the target gene were identified. We denote the target gene as gene Y and the jth neighbor of gene Y as gene X j . Among them, the regulatory targets, not the regulators, of gene Y were determined based on the following set of conditional probabilities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "In silico CRISPR/RNAi methodologies"
+        },
+        {
+            "text": "Up-and downregulation was defined using the reference transcriptome samples that were used for network construction. For each gene, the mean expression level, \u03bc, and its standard deviation, \u03c3, were obtained across the reference samples. We set X j = up and Y = up when their expression level in the given reference sample was larger than \u03bc + \u03c3. On the contrary, we set X j = down and Y = down when their expression level in the given reference sample was lower than \u03bc \u2212 \u03c3. X j was considered to be a regulatory target of Y when P(X j = activator) + P(X j = inhibitor) < P(Y = activator) + P(Y = inhibitor). Once X j has been determined as a target of Y, the regulation type of the link from Y to X j was determined by comparing P(Y = activator) and P(Y = inhibitor). Finally, when x j and y indicate the basal expression level of X j and Y, respectively, in a given sample subjected to in silico CRISPR/RNAi, the perturbed expression level of the jth gene, x 0 j ; was obtained as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "In silico CRISPR/RNAi methodologies"
+        },
+        {
+            "text": "For CRISPR/RNAi target genes, we considered all genes in the network, except those at the terminal nodes, when the expression data was available in the basal transcriptome that is subjected to in silico CRISPR/RNAi. We repeated the above procedures for all available genes. In a test for the influence of the in silico CRISPR/RNAi processes on prediction performance, we chose genes that have > 100 descendants or regulatory targets in the network and used their perturbed expression patterns as training input. We performed network randomization by shuffling the nodes while maintaining the network structure. We also generated inverted networks by reversing the directions of all links to test the validity of inferred regulator-target relationships.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "In silico CRISPR/RNAi methodologies"
+        },
+        {
+            "text": "In breast cancer, the Bayesian regulatory network consisted of 13,047 genes, and the ARACNe network was composed of 8463 genes. Among them, 7439 and 7086 genes in the Bayesian network and ARACNe network, respectively, turned out to regulate at least one gene. Therefore, we were able to perform in silico CRISPR/RNAi for these genes only.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "In silico CRISPR/RNAi methodologies"
+        },
+        {
+            "text": "We developed a deep neural network (DNN) model by using the Theano library [41] . DNN architecture expresses complex nonlinear relationships embedded in input features through multiple layers of artificial neural networks. However, a large number of manual attempts needs to be tested because model performance is sensitive to many calibration parameters or hyperparameters. Here, we used three types of calibration parameters: (i) parameters for model architecture, such as the number of hidden layers and number of hidden nodes; (ii) parameters for model algorithm, such as the learning rate, momentum, batch size, activation function, and initial weight distribution; and (iii) parameters to avoid overfitting, such as regularization parameters (L1 and L2) and dropout rate. The calibration parameters we used in this work are summarized in Additional file 2: Table S1 .",
+            "cite_spans": [
+                {
+                    "start": 75,
+                    "end": 79,
+                    "text": "[41]",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 863,
+                    "end": 871,
+                    "text": "Table S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Deep neural network modeling"
+        },
+        {
+            "text": "Pre-training processes can lead to optimal initial points of weight and bias, thereby reducing the chance to fall into local minima [42] . We constructed a stacked denoising autoencoder (SdA) with the same structure of the DNN model except that the output layer has the same number of nodes as the input layer. Through a process known as denoising, we generated a stochastically corrupted version of the log-normalized input vector x consisting of the perturbed expression levels of n genes, x \u2208 [0, 1] n . The SdA mapped the corrupted x to a hidden layer y, y \u2208 [0, 1] m , using the activation function f. This encoding process can be expressed as",
+            "cite_spans": [
+                {
+                    "start": 132,
+                    "end": 136,
+                    "text": "[42]",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Deep neural network modeling"
+        },
+        {
+            "text": "where W is the weight matrix and b is the bias. The following decoding step generated the reconstruction vector z given as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Deep neural network modeling"
+        },
+        {
+            "text": "while minimizing reconstruction error represented as Cost. Cost was defined as follows according to the activation function of the DNN model: 1. If the ReLU function was used,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Deep neural network modeling"
+        },
+        {
+            "text": "2. If the sigmoid function was used,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Deep neural network modeling"
+        },
+        {
+            "text": "Here, B indicates a batch size. Some entries of the input vector x were masked according to the dropout rate. Parameter \u03b8 (weight and bias) was updated through the stochastic gradient descent at each training epoch step as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Deep neural network modeling"
+        },
+        {
+            "text": "where t indicates training epochs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Deep neural network modeling"
+        },
+        {
+            "text": "To further prevent overfitting, we applied early stopping and feature selection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Deep neural network modeling"
+        },
+        {
+            "text": "1. Early stopping is a form of regularization used to avoid overfitting by stopping training at points where performance does not improve. One fifth of the training data were used for performance evaluation. Three fourths of the remaining were used for model learning, and the remaining 1/4 were used for stop control. All models were trained only to the point when performance reached a plateau. To determine the stopping point while avoiding overfitting, the training set was further divided into two independent parts, one for model training and the other for performance tracing. We defined a variable called patience and initially set it to 200. We then trained the model while keeping the number of training epochs below patience. Whenever performance improvement was observed, we updated patience to max(initial patience, current epoch \u00d7 2) and saved the current model as the best. The threshold of improvement was set to 0.99. 2. To prevent overfitting due to an excess of learning features, we reduced the number of genes whose perturbed expression levels were used as input. Specifically, we selected 1000 genes whose expression values varied most across different cases (perturbed transcriptomes) based on standard deviation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Deep neural network modeling"
+        },
+        {
+            "text": "After pre-training, we fine-tuned the model to minimize the loss function defined as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Deep neural network modeling"
+        },
+        {
+            "text": "where NLL denotes the mean of negative log likelihood, and \u03bb 1 ||w|| 1 + \u03bb 2 ||w|| 2 represents the regularization term of the elastic net that is used to control overfitting. ||\u2022|| p indicates the L p norm and was given as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Deep neural network modeling"
+        },
+        {
+            "text": "where \u03bb p is a hyperparameter that controls the relative contribution of each regularization term. As implied in the above formula, the elastic net is a combination of lasso (L 1 ) and ridge (L 2 ) regularization on the weights of the model. The elastic net is known to outperform L 1 or L 2 regularization alone and to be especially useful when the number of predictors is large [43] . The NLL(\u03b8) of the loss function was given as",
+            "cite_spans": [
+                {
+                    "start": 380,
+                    "end": 384,
+                    "text": "[43]",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Deep neural network modeling"
+        },
+        {
+            "text": "where f(\u03b8) i is an output for the ith in silico CRISPR/RNAi target gene in a mini-batch of size B. Each target, Y, can be either 1 or 0 where 1 indicates that there is dependency on the gene in the given sample. The loss function was composed of parameters (\u03b8) including w k m , b k , w k , and b\u2032, which were updated by the standard backpropagation algorithm with momentum. The momentum method is a technique to accelerate the gradient descent process by accumulating a velocity (\u03bd) in the direction of stable and persistent reduction of the loss function [44] . For the given loss function, the momentum was given as",
+            "cite_spans": [
+                {
+                    "start": 557,
+                    "end": 561,
+                    "text": "[44]",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Deep neural network modeling"
+        },
+        {
+            "text": "where \u03b5 is the learning rate, \u03bc is the momentum coefficient, and \u2207(Loss(\u03b8 t )) is the gradient at \u03b8 t . \u03c5 0 was set to 0.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Deep neural network modeling"
+        },
+        {
+            "text": "While evaluating prediction performance on a total of 93,312 combinations of hyperparameter values (Additional file 2: Table S1 ), we observed that performance does not improve considerably after 1000 trials in general. Therefore, we used 1000 random combinations of the parameter values for model selection. The learning processes were based on five-fold cross-validation consisting of five different partitions into training and validation data. For each partition of training and validation data, the best hyperparameter combination was selected based on the AUC on the validation data set. A test AUC was then assigned to the selected model based on an independent test set that was not used for learning. The average test AUC for the five best models was obtained to represent the overall performance. In our tests of the shuffled, inverted, and liver cancer networks, we selected the five best hyperparameter combinations for each split into a training set and a validation set, resulting in five average test AUC values. The mean of these five values was reported. We used the class probability as the \"prediction score\" for the given input. A prediction score close to 1 indicates a higher association of the given transcriptome with cell death. The input transcriptome with a prediction score greater than 0.5 was classified as a dependency profile. Tumor-specific dependencies were identified as having the tumor prediction score greater than 0.5 and the normal prediction score lower than 0.5.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 119,
+                    "end": 127,
+                    "text": "Table S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Model construction"
+        },
+        {
+            "text": "We also implemented random forest [45] , support vector machine [46] , na\u00efve Bayes classifier [46] , and linear discriminant analysis [47] . We tested the linear, polynomial, sigmoid, and radial basis kernels for the support vector machine. By using the Cclassification type, we used the support vector machine as a classification machine. Random forest was trained with 1000 decision trees by using the R package \"random-Forest.\" We used the R package \"e1071\" to implement support vector machine and na\u00efve Bayes classifier. The R package \"MASS\" was used to implement linear discriminant analysis. A prior probability of 0.5 was given to the two classes (dependency versus independency).",
+            "cite_spans": [
+                {
+                    "start": 34,
+                    "end": 38,
+                    "text": "[45]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 64,
+                    "end": 68,
+                    "text": "[46]",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 94,
+                    "end": 98,
+                    "text": "[46]",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 134,
+                    "end": 138,
+                    "text": "[47]",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Other classifiers"
+        },
+        {
+            "text": "We downloaded the expression profiles of 1095 tumor samples along with those of 113 matched normal samples from the TCGA database [13] . Somatic variant calls from whole-exome sequencing for 988 cases were also obtained. Of these, the matched normal expression profiles were available for 110 samples. For copy number analysis, we obtained the gene-level GISTIC2.0 scores [48] , which were available for 111 samples. Copy number variations for genomic segments were mapped to protein-coding genes by the TCGA FIREHOSE pipeline. The gene-level GISTIC2.0 scores were classified into homozygous deletion, heterozygous deletion, normal copy, low-level amplification, and high-level amplification. We used homozygous/heterozygous deletions and low/highlevel amplifications unless otherwise stated (e.g., hemizygous deletion). Immunohistochemistry data for estrogen receptor, progesterone receptor, and human epidermal growth receptor-2 were available for 88 samples. The triple-negative subtype was determined by each sample's status for estrogen receptor, progesterone receptor, and human epidermal growth receptor-2.",
+            "cite_spans": [
+                {
+                    "start": 130,
+                    "end": 134,
+                    "text": "[13]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 372,
+                    "end": 376,
+                    "text": "[48]",
+                    "ref_id": "BIBREF53"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Analysis of TCGA breast cancer data"
+        },
+        {
+            "text": "The prediction of the dependencies of the TCGA samples was performed using in silico CRISPR/RNAi based on the Bayesian network. We used the 113 sample for which matched normal transcriptomes were available. We compared the prediction scores from the DNN model, random forest, support vector machine with radial basis function or linear kernels, na\u00efve Bayes classifier, and linear discriminant analysis. Tumor-specific dependencies were identified when the DNN prediction score was greater than 0.5 for the tumor sample and lower than 0.5 for the matched normal sample.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Analysis of TCGA breast cancer data"
+        },
+        {
+            "text": "We collected known oncogenes and tumor suppressor genes (TSGs) from the Cancer Gene Census database [49] and based on the 20/20 rule [50] . In addition to the known cancer genes, we benchmarked the 20/20 rule to discover putative oncogenes and TSGs in breast cancer. For this purpose, we used somatic variant calls from whole-exome sequencing for 988 breast cancer samples. We first catalogued a set of inactivation mutations, which were defined as nonsense mutations or frameshift insertions and deletions. Genes carrying the inactivation mutations in five or more breast cancer samples were regarded as putative TSGs. The known TSGs and putative TSGs were combined and referred to as TSGs in the \"Results\" section. Putative oncogenes were identified based on missense variants. Specifically, genes carrying the same substitution at the identical position in two or more samples were regarded as potential oncogenes in breast cancer.",
+            "cite_spans": [
+                {
+                    "start": 100,
+                    "end": 104,
+                    "text": "[49]",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 133,
+                    "end": 137,
+                    "text": "[50]",
+                    "ref_id": "BIBREF55"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Analysis of dependency-associated somatic alterations"
+        },
+        {
+            "text": "For the analysis of dependency-associated mutations, we used somatic variant calls for the 110 tumors that came with tumor and matched normal transcriptomes. For loss-of-function (LOF) mutations, we used nonsense mutations and frameshift insertions or deletions. To detect heterozygous LOF (hetLOF) mutations, we identified heterozygous calls with the variant allele frequency < 40%. Homozygous calls or heterozygous calls with the variant allele frequency > 50% were regarded as homozygous LOF (homoLOF) mutations. Gain-of-function (GOF) mutations were defined as the recurrent missense variants that we detected to identify the putative oncogenes as described above. The known oncogenes that carried silent mutations only were used as negative controls. For this purpose, we excluded the known oncogenes that have any nonsynonymous mutations in them. The effect of copy number alterations was examined after filtering genes that carry any LOF or GOF mutations in them. The effect of copy number amplifications and silent mutations was examined for the known oncogenes while excluding the putative oncogenes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Analysis of dependency-associated somatic alterations"
+        },
+        {
+            "text": "Lentiviral guide RNA plasmids were constructed with the pLKO.sgRNA.EFS.tRFP (Addgene #57823) backbone. Two small guide RNAs (sgRNAs) were designed for each of RAN, XRCC6, and PSMB4 and were inserted into the vector using BsmB I. The two sgRNAs were used simultaneously except for the functional studies of RAN and PSMB4 knockout. The sequences of the sgRNAs used are in Additional file 8: Table S7 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 389,
+                    "end": 397,
+                    "text": "Table S7",
+                    "ref_id": null
+                }
+            ],
+            "section": "Construction of CRISPR/Cas9 vector and Cas9-expressing cells"
+        },
+        {
+            "text": "To produce Cas9-expressing lentiviruses, HEK 293T cells in 100-mm plates with 70% confluency were co-transfected with packaging plasmids pMD2.G (10 \u03bcg) and psPAX2 (10 \u03bcg), lentiCas9-Blast (Addgene #82372), and pLKO.sgRNA.EFS.tRFP (Addgene #57823), using the calcium-phosphate transfection method. After 12 h, medium was changed to DMEM medium with 10% FBS and 1% PS. Every 12 h thereafter, the culture supernatant containing the viral particles was harvested and subjected to centrifugation at 1700 rpm at 4\u00b0C for 10 min so as to remove any remaining HEK 293T cells.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Construction of CRISPR/Cas9 vector and Cas9-expressing cells"
+        },
+        {
+            "text": "To generate primary breast cancer cells that stably express Cas9, the culture supernatant containing the viruses was supplemented with polybrene (1 \u03bcg/ml) and administered to cancer cells for 12 h. This process was repeated three times. After 24-h incubation in fresh RPMI media, the stable Cas9-expressing cells were obtained by selection with 4~8 \u03bcg/ml of Blasticidine S hydrochloride (Sigma).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Construction of CRISPR/Cas9 vector and Cas9-expressing cells"
+        },
+        {
+            "text": "Patient-derived primary cells were cultured in RPMI media containing 5% FBS, 1% penicillin/streptomycin, hEGF, hydrocortisone, and transferrin. Viruses with control-or target gene-sgRNA were prepared and applied to infect the primary cancer cells as described above for the construction of Cas9-expressing cells. To confirm knockdown of target genes, cells were harvested 24 h after the last viral treatment and analyzed by the realtime PCR. Briefly, total RNA extraction was performed using TRizol (Invitrogen). Next, 1 \u03bcg of total RNA was subjected to cDNA synthesis (PrimeScript RT reagent kit, Cat No. PR037A, Takara). The primer sequence for each target is as follows: Cas9 (forward 5\u2032-TTGAAAGGAGTGGGAATTGG-3\u2032, reverse 5-\u2032CACGGCGACTACTGCACTTA-3\u2032), XRCC6 (forward 5\u2032-CTTTGAGGAATCCAGCAAGC-3\u2032, reverse 5\u2032-ATTGGAGGAG GCTTGAGAGC-3\u2032), RAN (forward 5\u2032-TGTTCCACACCAACAGAGGA-3\u2032, reverse 5\u2032-TGTTGCCACACAACACAATG-3\u2032), and PSMB4 (forward 5\u2032-GCCAGATGGTGATT GATGAG-3\u2032, reverse 5\u2032-CATCGGAGGCTATGCTGATG-3\u2032). Relative expression value was normalized by hRPL13a.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Knockdown in patient-derived primary cells"
+        },
+        {
+            "text": "To examine cell cycle progression, the patient-derived cells transfected with the CRISPR/Cas9 lentiviral vector were seeded onto a 6 well-plate. After 24 h, the cells were infected with lentiviruses expressing either control (pLKO5-tRFP; Addgene 57823) or sgRNAs (pLKO5-sgRNAs-tRFP). At each time point (3, 5, or 7 days after lentiviral transfection), 10 \u03bcM of BrdU was added and incubated for 6-8 h. In vitro BrdU kit (BD Pharmingen, San Diego, CA) was used as described by the manufacturer. Briefly, the cells were fixed with ethanol-containing fixation buffer and washed with the Perm/Wash buffer. For BrdU staining, cells were labeled by the FITC-conjugated anti-BrdU antibody for 20 min at room temperature. After incubation, cells were washed and resuspended with the FACS staining buffer. Finally, FITC (BrdU) and RFP (sgRNA)-positive cells were measured using AccuriFlow Cytometry (BD Biosciences). The percentage of the FITC and RFP-positive cells was calculated using the CFlow software. For apoptosis assay, the cells were seeded onto a 6-well plate as mentioned above. Apoptotic cells were measured by the FITC-Annexin V Apoptosis Detection Kit (BD Pharmingen) at the same time point following the instructions of the manufacturer.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "BrdU incorporation and Annexin V apoptosis assay"
+        },
+        {
+            "text": "Briefly, cells were incubated with FITC-Annexin V in the FACS staining buffer for 15 min. The stained cells were immediately subjected to the CFlow software analyses using AccuriFlow Cytometry (BD Biosciences).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "BrdU incorporation and Annexin V apoptosis assay"
+        },
+        {
+            "text": "The PD(+/\u2212)XRCC6 cells transfected with the CRISPR/Cas9 lentiviral vector were infected with lentiviruses expressing either control (pLKO5-tRFP; Addgene 57823) or sgXRCC6 (pLKO5-sgXRCC6-tRFP). After 12-16 h, the cells were transfected with Lipofectamine 2000 as recommended by the manufacturer (Invitrogen) with circular pDR-GFP (Addgene 26,475). After 24 h, the cells were serially transfected with I-SceI producing plasmid pCBASceI (Addgene 26477). After additional 24 h, the GFP-positive cells were quantified on AccuriFlow Cytometry (BD Biosciences). The average HR frequency of three experiments was measured.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "HR activity assays for XRCC6-dependent cells"
+        },
+        {
+            "text": "The PD(+/\u2212)XRCC6 cells infected with lentiviruses expressing either control or sgXRCC6 (including CRISPR/Cas9) were grown overnight on coverslips and then treated with \u03b3-irradiation (2 Gy). The cells were then fixed with 4% formaldehyde, permeabilized with 0.1% Triton X-100, and blocked with 3% BSA in PBS at room temperature for 1 h. We labeled the cells with primary antibodies for Rad51 (1:500; Abcam) or Ku70 (1200, Santa Cruz), and then stained them with the corresponding Alexa Fluor 488-conjugated secondary antibody (Invitrogen, Carlsbad, CA, USA) for 1 h at room temperature. DAPI was used for nuclear staining. The cells were then mounted with Aqua-Poly-Mount mounting medium and imaged using an inverted fluorescence microscope (Carl Zeiss AG, Oberkochen, Germany). Nuclear Rad51 foci were counted within a region containing at least 50 nuclei by using local maxima in fluorescence intensity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "HR activity assays for XRCC6-dependent cells"
+        },
+        {
+            "text": "The PD(+)RAN cells were cultured in RPMI media containing 5% FBS, 1% penicillin/ streptomycin, hEGF, hydrocortisone, and transferrin. Viruses for control sgRNA, sgRAN-1, or sgRAN-2 were treated three times at the intervals of 12 h. For EGFR stimulation, the cells were starved overnight with serum-free media. After hEGF treatment (100 ng/ml), the cells were harvested at 2 h and 24 h for western blotting of pEGFR and EGFR. Briefly, the cells were harvested by PBS-EDTA (5 mM) and centrifuged at 6000 rpm for 5 min. After discarding supernatant, the extraction of nuclear and cytoplasm proteins was carried out following the manufacturer's protocol (Thermo Scientific, #78833 kit). 10~50 \u03bcg of proteins were separated on SDS PAGE, transferred to a nitrocellulose membrane, and probed with antibodies for pEGFR, Cox2, and CyclinD1 (1:1000; Cell Signaling Technology). The membranes were then stripped and reprobed with antibodies for GAPDH (1:1000; Santa Cruz Biotechnology) and Lamin A/C (1:1000; Santa Cruz Biotechnology) to ensure equal loading and fractionation of nucleus and cytoplasm.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "EGFR nuclear localization in RAN-dependent cells"
+        },
+        {
+            "text": "The PD(+)PSMB4 cells were harvested 48~72 h after the infection of viruses for control sgRNA, sgPSMB4-1, or sgPSMB4-2. Total protein extract was prepared. Fifteen to",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Western blot assays"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "anti-PSMB4",
+            "authors": [
+                {
+                    "first": "Santa",
+                    "middle": [
+                        "Cruz"
+                    ],
+                    "last": "Biotechnology",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "anti-Bad",
+            "authors": [
+                {
+                    "first": "Santa",
+                    "middle": [
+                        "Cruz"
+                    ],
+                    "last": "Biotechnology",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "ab2819), and anti-Cytochrome C",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Abcam, ab13575) antibodies. The PD(+)XRCC6 and PD(\u2212)XRCC6 cells were harvested 1, 3, and 5 days after the infection of viruses for control sgRNA and sgXRCC6. A total of 10-20 \u03bcg of proteins was used per lane. The blot was probed with anti",
+            "authors": [],
+            "year": null,
+            "venue": "Gene-Tex)",
+            "volume": "70",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "High-resolution CRISPR screens reveal fitness genes and genotype-specific cancer liabilities",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hart",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chandrashekhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Aregger",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Steinhart",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Macleod",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Cell",
+            "volume": "163",
+            "issn": "",
+            "pages": "1515--1541",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Identification and characterization of essential genes in the human genome",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Birsoy",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Hughes",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Krupczak",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Post",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Science",
+            "volume": "350",
+            "issn": "",
+            "pages": "1096--101",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Functional genomic landscape of human breast cancer drivers, vulnerabilities, and resistance",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Marcotte",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sayad",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Sanchez-Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Reimand",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Haider",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Cell",
+            "volume": "164",
+            "issn": "",
+            "pages": "293--309",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Defining a cancer dependency map",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tsherniak",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Vazquez",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Montgomery",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Weir",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kryukov",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cowley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Cell",
+            "volume": "170",
+            "issn": "",
+            "pages": "564--576",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Project DRIVE: a compendium of cancer dependencies and synthetic lethal relationships uncovered by large-scale, deep RNAi screening",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mcdonald",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "De Weck",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Schlabach",
+                    "suffix": ""
+                },
+                {
+                    "first": "Billy",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Mavrakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hoffman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Cell",
+            "volume": "170",
+            "issn": "",
+            "pages": "577--592",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Gene essentiality profiling reveals gene networks and synthetic lethal interactions with oncogenic Ras",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Hughes",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kendirli",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Klein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Cell",
+            "volume": "168",
+            "issn": "",
+            "pages": "890--903",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Identification of essential genes for cancer immunotherapy",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Sanjana",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kishton",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Eidizadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Vodnala",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nature",
+            "volume": "548",
+            "issn": "",
+            "pages": "537--579",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Improved estimation of cancer dependencies from large-scale RNAi screens using model-based normalization and data integration",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcfarland",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kugener",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Dempster",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Montgomery",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Bryan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nat Commun",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Computational correction of copy number effect improves specificity of CRISPR-Cas9 essentiality screens in cancer cells",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Meyers",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Bryan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcfarland",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Weir",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Sizemore",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nat Genet",
+            "volume": "49",
+            "issn": "",
+            "pages": "1779--84",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Prioritization of cancer therapeutic targets using CRISPR-Cas9 screens",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Behan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Iorio",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Picco",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Gon\u00e7alves",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Beaver",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Migliardi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature",
+            "volume": "568",
+            "issn": "7753",
+            "pages": "511--517",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Global transcription network incorporating distal regulator binding reveals selective cooperation of cancer drivers and risk genes",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Bang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Jang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nucleic Acids Res",
+            "volume": "43",
+            "issn": "",
+            "pages": "5716--5745",
+            "other_ids": {
+                "DOI": [
+                    "http:/nar.oxfordjournals.org/lookup/doi/10.1093/nar/gkv532"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Reverse engineering of regulatory networks in human B cells",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Basso",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Margolin",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Stolovitzky",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Klein",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Dalla-Favera",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Califano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nat Genet",
+            "volume": "37",
+            "issn": "",
+            "pages": "382--90",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "The Cancer Genome Atlas Network. Comprehensive molecular portraits of human breast tumours",
+            "authors": [],
+            "year": 2012,
+            "venue": "Nature",
+            "volume": "490",
+            "issn": "",
+            "pages": "61--70",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Network perturbation by recurrent regulatory variants in cancer",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Jang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS Comput Biol",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "BAGEL: a computational framework for identifying essential genes from pooled library screens",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hart",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Moffat",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "BMC Bioinformatics",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Essential gene profiles in breast, pancreatic, and ovarian cancer cells",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Marcotte",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Suarez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sayad",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Karamboulas",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Krzyzanowski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Cancer Discov",
+            "volume": "2",
+            "issn": "",
+            "pages": "172--89",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Enrichr: interactive and collaborative HTML5 gene list enrichment analysis tool",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "BMC Bioinformatics",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1471-2105-14-128"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Human housekeeping genes, revisited",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Eisenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Levanon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Trends Genet",
+            "volume": "30",
+            "issn": "3",
+            "pages": "569--74",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.tig.2013.05.010"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Measuring error rates in genomic perturbation screens: gold standards for human functional genomics",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hart",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Sircoulomb",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rottapel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Moffat",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Mol Syst Biol",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Tumor cell dependence on Ran-GTP-directed mitosis",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Altieri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Cancer Res",
+            "volume": "68",
+            "issn": "",
+            "pages": "1826--1859",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Cancer vulnerabilities unveiled by genomic loss",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Nijhawan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Zack",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Strickland",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lamothe",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Schumacher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Cell",
+            "volume": "150",
+            "issn": "4",
+            "pages": "842--54",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Oncogene addiction",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Weinstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Joe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Cancer Res",
+            "volume": "68",
+            "issn": "9",
+            "pages": "3077--80",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Synthetic lethality and cancer",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "O&apos;neil",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bailey",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hieter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nat Rev Genet",
+            "volume": "18",
+            "issn": "",
+            "pages": "613--636",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Activation of the ran GTPase is subject to growth factor regulation and can give rise to cellular transformation",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Ly",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pereira",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rojas",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Biol Chem",
+            "volume": "285",
+            "issn": "8",
+            "pages": "5815--5841",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Three-dimensional structure of the human DNA-PKcs/Ku70/Ku80 complex assembled on DNA and its implications for DNA DSB repair",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Spagnolo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rivera-Calzada",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Pearl",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Llorca",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Mol Cell",
+            "volume": "22",
+            "issn": "4",
+            "pages": "511--520",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "ASF1a promotes non-homologous end joining repair by facilitating phosphorylation of MDC1 by ATM at double-strand breaks",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J-S",
+                    "middle": [],
+                    "last": "Im",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Shibata",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dutta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Mol Cell",
+            "volume": "68",
+            "issn": "",
+            "pages": "61--75",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Cancer-specific defects in DNA repair pathways as targets for personalized therapeutic approaches",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Dietlein",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Thelen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Reinhardt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Trends Genet",
+            "volume": "30",
+            "issn": "8",
+            "pages": "326--365",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "A functional cancer genomics screen identifies a druggable synthetic lethal interaction between MSH3 and PRKDC",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Dietlein",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Thelen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jokic",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Jachimowicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ivan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Knittel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Cancer Discov",
+            "volume": "4",
+            "issn": "5",
+            "pages": "592--605",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Novel cancer gene variants and gene fusions of triple-negative breast cancers (TNBCs) reveal their molecular diversity conserved in the patient-derived xenograft (PDX) model",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jung",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Jang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ju",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cancer Lett",
+            "volume": "428",
+            "issn": "",
+            "pages": "127--138",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Genome engineering using the CRISPR-Cas9 system",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ran",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wright",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Agarwala",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Scott",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nat Protoc",
+            "volume": "8",
+            "issn": "",
+            "pages": "2281--308",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Landscape of EGFR signaling network in human cancers: biology and therapeutic response in relation to receptor subcellular locations",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "H-W",
+                    "middle": [],
+                    "last": "Lo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Cancer Lett",
+            "volume": "318",
+            "issn": "",
+            "pages": "124--158",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Nuclear EGFR shuttling induced by ionizing radiation is regulated by phosphorylation at residue Thr654",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Dittmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mayer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Fehrenbacher",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schaller",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kehlbach",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Rodemann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "FEBS Lett",
+            "volume": "584",
+            "issn": "",
+            "pages": "3878--84",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "XRCC3 promotes homology-directed repair of DNA damage in mammalian cells",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Pierce",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jasin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Genes Dev",
+            "volume": "13",
+            "issn": "",
+            "pages": "2633--2641",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Specific killing of BRCA2-deficient tumours with inhibitors of poly (ADP-ribose) polymerase",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bryant",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Schultz",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Parker",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Flower",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lopez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nature",
+            "volume": "434",
+            "issn": "7035",
+            "pages": "913--920",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Targeting the DNA repair defect in BRCA mutant cells as a therapeutic strategy",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Farmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Mccabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lord",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nature",
+            "volume": "434",
+            "issn": "7035",
+            "pages": "917--921",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nature03445"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Inhibition of poly (ADP-ribose) polymerase in tumors from BRCA mutation carriers",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Fong",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Boss",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Yap",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tutt",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mergui-Roelvink",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "N Engl J Med",
+            "volume": "361",
+            "issn": "",
+            "pages": "123--157",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Synthetic lethality between mutation in Atm and DNA-PK (cs) during murine embryogenesis",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gurley",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kemp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Curr Biol",
+            "volume": "11",
+            "issn": "",
+            "pages": "191--195",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Therapeutic targeting of a robust nononcogene addiction to PRKDC in ATM-defective tumors",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Riabinska",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Daheim",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Herter-Sprie",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Winkler",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fritz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hallek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Sci Transl Med",
+            "volume": "5",
+            "issn": "189",
+            "pages": "189--78",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "ARACNE: an algorithm for the reconstruction of gene regulatory networks in a mammalian cellular context",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Margolin",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Nemenman",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Basso",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wiggins",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Stolovitzky",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Favera",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "BMC Bioinformatics. BioMed Cent",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Rational siRNA design for RNA interference",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Reynolds",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Leake",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Boese",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Scaringe",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Marshall",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Khvorova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nat Biotechnol",
+            "volume": "22",
+            "issn": "",
+            "pages": "326--356",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Theano: a CPU and GPU math compiler in Python",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bergstra",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Breuleux",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Bastien",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lamblin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pascanu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Desjardins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Proc 9th Python Sci Conf (SCIPY 2010)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Why does unsupervised pre-training help deep learning?",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Erhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Courville",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vincent",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Mach Learn Res",
+            "volume": "11",
+            "issn": "",
+            "pages": "625--60",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Regularization and variable selection via the elastic net",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hastie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J R Stat Soc Ser B Stat Methodol",
+            "volume": "67",
+            "issn": "",
+            "pages": "301--321",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "On the importance of initialization and momentum in deep learning",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Sutskever",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Martens",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dahl",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hinton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Jmlr W&Cp",
+            "volume": "28",
+            "issn": "",
+            "pages": "1139--1186",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Classification and regression by randomForest. R News",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Liaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wiener",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "",
+            "volume": "2",
+            "issn": "",
+            "pages": "18--22",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Misc functions of the Department of Statistics, Probability Theory Group, TU Wien. R Packag. version 1.6-2",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Meyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Dimitriadou",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hornik",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Weingessel",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Leisch",
+                    "suffix": ""
+                },
+                {
+                    "first": "C-C",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Modern applied statistics with S Fourth edition by. World",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Venables",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Ripley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "GISTIC2.0 facilitates sensitive and confident localization of the targets of focal somatic copy-number alteration in human cancers",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mermel",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Schumacher",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hill",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Meyerson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Beroukhim",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Getz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Genome Biol",
+            "volume": "12",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "A census of human cancer genes",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Futreal",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Coin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Marshall",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Down",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hubbard",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wooster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nat Rev Cancer",
+            "volume": "4",
+            "issn": "",
+            "pages": "177--83",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Cancer genome landscapes",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Vogelstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Papadopoulos",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Velculescu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Diaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Kinzler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Science",
+            "volume": "339",
+            "issn": "6127",
+            "pages": "1546--58",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.1235122"
+                ]
+            }
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Computational inference of cancer-specific vulnerabilities in clinical samples",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Jang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hwangbo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Sung",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jung",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "S-Y",
+                    "middle": [],
+                    "last": "Ahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Computational inference of cancer-specific vulnerabilities in clinical samples",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Jang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hwangbo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Sung",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jung",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "S-Y",
+                    "middle": [],
+                    "last": "Ahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.5281/zenodo.3885013"
+                ]
+            }
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Publisher's Note",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Fig. 2 Prediction performance and validation of network-based simulations. a ROC curves from our DNN model for the CRISPR model (upper) and RNAi model (lower) according to different cutoffs of the cell line screen data. b ROC curves derived from different prediction models when the most stringent cutoff (zGARP = \u2212 4, CERES = \u2212 1.5, and BAGLE = 4) was used for training. c ROC curves from the DNN model with different test networks. We chose genes that have > 100 downstream genes in the regulatory network and used their perturbed expression patterns as training input. As negative controls, the breast cancer network was randomized by shuffling the nodes while maintaining the network structure (shuffled network) or inverted by reversing the orientation of all links (inverted network). In addition, the same types of networks were constructed by using liver cancer data (liver network). Shown are the averages of the five best models",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Characterization of prediction outcomes in clinical samples. a Correlation of prediction results from the CRISPR and RNAi screening models for TCGA tumor and matched normal samples. b Comparison of prediction results from different classifiers. Shown are the correlations of prediction scores in TCGA tumor (upper triangle) and matched normal (lower triangle) samples.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Predicted increase in the dependency of tumors on genes with somatic mutations. a Distribution of TCGA tumor versus normal prediction scores derived from different classifiers under the CRISPR (upper) and",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Characterization of context-dependent or synthetic vulnerabilities. a Analysis of RAN-dependent samples. Dependency of each sample (column) as estimated by the DNN model is indicated at the top.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Experimental validation of predicted vulnerabilities by apoptosis and cell proliferation measurements. a Scatter plots showing the distribution of Annexin V and BrdU staining, which marks apoptosis and cell proliferation, respectively, for two patient-derived cells with positive predicted dependency on RAN, namely, PD(+)RAN-1 and PD(+)RAN-2, before and after RAN inactivation by CRISPR-Cas9. Shown here are day 7 results. Plots for days 3 and 5 are provided in Additional file 1: Figure S7. The graphs on the right indicate the percentage of Annexin V-or BrdU-positive cells according to days. b, c Scatter plots showing the distribution of Annexin V and BrdU staining for patient-derived cells with positive or negative predicted dependency on b XRCC6 and c PSMB4 before and after CRISPR-Cas9 knockout. Shown here are day 7 results for PD(+)XRCC6-1, PD(\u2212)XRCC6-1, PD(+)PSMB4-1, and PD(\u2212)PSMB4-1. Plots for days 3 and 5 after inactivation in these cells, and data for days 3, 5, and 7 after inactivation in PD(+)XRCC6-2, PD(\u2212)XRCC6-2, PD(+)PSMB4-2, and PD(\u2212)PSMB4-2 are provided in Additional file 1: Figures S8~S9. The graphs on the right indicate the percentage of Annexin V-or BrdU-positive cells according to days after inactivation",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Functional studies of RAN and XRCC6 inactivation. a Western blot analysis of nuclear/cytoplasmic fraction in PD(+)RAN-1 and PD(+)RAN-2 before and after RAN silencing. The nuclear translocation of pEGFR and its transcriptional targets (Cox2 and Cyclin D1) was examined. GAPDH and Lamin A/C were used as a cytoplasmic and nuclear specific loading control, respectively. b Confirmation of RAN suppression by two sgRNAs (sgRAN-1 and sgRAN-2) in two cells (PD(+)RAN-1 and PD(+)RAN-2). a, b Images of the full uncropped scans are provided in Additional file 1:Figure S10.c Immuno-fluorescence images for Rad51 (green) in irradiated PD(+)XRCC6 (upper) and PD(\u2212)XRCC6 (lower) cells before and after XRCC6 inactivation (control vs sgXRCC6). DAPI staining results (blue) are shown side by side. d A graph showing the ratio (sgXRCC6/control) of the number of Rad51 foci per cells. The mean and standard error were obtained from 5 fluorescence images. e Scatter plots showing the rate of HR repair based on the DR-GFP/I-SceI assay in irradiated PD(+)XRCC6 and PD(\u2212)XRCC6 cells. GFP-positive cells in the marked zones indicate a population that underwent HR-mediated DSB repair of GFP reporter plasmids. f A graph showing the ratio (sgXRCC6/ control) of the GFP-positive cells. The mean and standard error were obtained from 5 experiments after excluding the maximum and minimum",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The codes for in silico CRISPR/RNAi and the deep learning model were made available at GitHub (http://github. com/kaistomics/DeepDependency) [51] and Zenodo (https://zenodo.org/record/3885013, DOI: https://doi.org/10. 5281/zenodo.3885013) [52] . All networks used in this work (the real, shuffled, and inverted Bayesian/ARACNe networks in breast cancer and the Bayesian/ARACNe networks in liver cancer) and the TCGA prediction results are available at http://omics.kaist.ac.kr/resources. We used the ARACNe software available at http://califano.c2b2. columbia.edu/aracne [39] . We downloaded screening results for dependencies from https://depmap.org/portal/ download and https://score.depmap.sanger.ac.uk/downloads. The cancer exome and transcriptome data were obtained from the TCGA database [13] .",
+            "cite_spans": [
+                {
+                    "start": 141,
+                    "end": 145,
+                    "text": "[51]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 239,
+                    "end": 243,
+                    "text": "[52]",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 571,
+                    "end": 575,
+                    "text": "[39]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 794,
+                    "end": 798,
+                    "text": "[13]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Availability of data and materials"
+        },
+        {
+            "text": "Supplementary information accompanies this paper at https://doi.org/10.1186/s13059-020-02077-1.Additional file 1: Figure S1 . Prediction performance by precision and recall. Figure S2 . Prediction performance with the ARACNe network. Figure S3 . Comparison of simulation results with experimental perturbation data in MCF7. Figure S4 . Differential dependency of tumor versus normal samples on genes with copy number changes. Figure S5 . Differential dependency of tumor versus normal samples on genes with point mutations. Figure S6 . Differential expression of some alternative NHEJ genes in tumor versus normal samples. Figure S7 . Additional Annexin V and BrdU data for RAN. Figure S8 . Additional Annexin V and BrdU data for XRCC6. Figure S9 . Additional Annexin V and BrdU data for PSMB4. Figure S10 . Images of the full uncropped scans for Fig. 7a and Fig. 7b . Figure S11 . Increases in the level of proapoptotic proteins by PSMB4 knockout. Figure S12 . Changes in DNA-PKcs expression in response to XRCC6 knockdown.Additional file 2: Table S1 . Calibration parameters for deep learning.Additional file 3: Table S2 . Overrepresented function of predicted cancer-specific vulnerabilities in clinical samples.Additional file 4: Table S3 . Common cancer-specific vulnerabilities.Additional file 5: Table S4 . Functional enrichment of overexpressed genes in RAN-dependent samples (CRISPR+RNAi).Additional file 6: Table S5 . Bayesian network in breast cancer. Additional file 7: Table S6 . ARACNe network in breast cancer.Additional file 8: Table S7 . The sequences of the sgRNAs.Additional file 9. Review history.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 114,
+                    "end": 123,
+                    "text": "Figure S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 174,
+                    "end": 183,
+                    "text": "Figure S2",
+                    "ref_id": null
+                },
+                {
+                    "start": 234,
+                    "end": 243,
+                    "text": "Figure S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 324,
+                    "end": 333,
+                    "text": "Figure S4",
+                    "ref_id": null
+                },
+                {
+                    "start": 426,
+                    "end": 435,
+                    "text": "Figure S5",
+                    "ref_id": null
+                },
+                {
+                    "start": 524,
+                    "end": 533,
+                    "text": "Figure S6",
+                    "ref_id": null
+                },
+                {
+                    "start": 623,
+                    "end": 632,
+                    "text": "Figure S7",
+                    "ref_id": null
+                },
+                {
+                    "start": 679,
+                    "end": 688,
+                    "text": "Figure S8",
+                    "ref_id": null
+                },
+                {
+                    "start": 737,
+                    "end": 746,
+                    "text": "Figure S9",
+                    "ref_id": null
+                },
+                {
+                    "start": 795,
+                    "end": 805,
+                    "text": "Figure S10",
+                    "ref_id": null
+                },
+                {
+                    "start": 847,
+                    "end": 854,
+                    "text": "Fig. 7a",
+                    "ref_id": null
+                },
+                {
+                    "start": 859,
+                    "end": 866,
+                    "text": "Fig. 7b",
+                    "ref_id": null
+                },
+                {
+                    "start": 869,
+                    "end": 879,
+                    "text": "Figure S11",
+                    "ref_id": null
+                },
+                {
+                    "start": 949,
+                    "end": 959,
+                    "text": "Figure S12",
+                    "ref_id": null
+                },
+                {
+                    "start": 1043,
+                    "end": 1051,
+                    "text": "Table S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1114,
+                    "end": 1122,
+                    "text": "Table S2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1234,
+                    "end": 1242,
+                    "text": "Table S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 1303,
+                    "end": 1311,
+                    "text": "Table S4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1417,
+                    "end": 1425,
+                    "text": "Table S5",
+                    "ref_id": null
+                },
+                {
+                    "start": 1482,
+                    "end": 1490,
+                    "text": "Table S6",
+                    "ref_id": null
+                },
+                {
+                    "start": 1544,
+                    "end": 1552,
+                    "text": "Table S7",
+                    "ref_id": null
+                }
+            ],
+            "section": "Supplementary information"
+        },
+        {
+            "text": "The review history is available as Additional file 9.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Review history"
+        },
+        {
+            "text": "Anahita Bishop was the primary editor of this article and managed its editorial process and peer review in collaboration with the rest of the editorial team. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Peer review information"
+        },
+        {
+            "text": "Ethics approval and consent to participate Not applicable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "Not applicable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Consent for publication"
+        },
+        {
+            "text": "The authors declare that they have no competing interests.Author details 1",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests"
+        }
+    ]
+}

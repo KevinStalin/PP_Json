@@ -1,0 +1,1849 @@
+{
+    "paper_id": "0aef37dd990f6fabbc5c59fc121e7a90f77f24c6",
+    "metadata": {
+        "title": "Laser spectroscopic technique for direct identification of a single virus I: FASTER CARS",
+        "authors": [
+            {
+                "first": "Volker",
+                "middle": [],
+                "last": "Deckert",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Texas A&M University",
+                    "location": {
+                        "postCode": "77843",
+                        "settlement": "College Station",
+                        "region": "TX"
+                    }
+                },
+                "email": "volker.deckert@uni-jena.de.y"
+            },
+            {
+                "first": "Tanja",
+                "middle": [],
+                "last": "Deckert-Gaudig",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Leibniz Institute of Photonic Technology",
+                    "location": {
+                        "postCode": "07745",
+                        "settlement": "Jena",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Dana",
+                "middle": [],
+                "last": "Cialla-May",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Leibniz Institute of Photonic Technology",
+                    "location": {
+                        "postCode": "07745",
+                        "settlement": "Jena",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "J\u00fcrgen",
+                "middle": [],
+                "last": "Popp",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Leibniz Institute of Photonic Technology",
+                    "location": {
+                        "postCode": "07745",
+                        "settlement": "Jena",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Roland",
+                "middle": [],
+                "last": "Zell",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Jena University Hospital",
+                    "location": {
+                        "postCode": "07747",
+                        "settlement": "Jena",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Stefanie",
+                "middle": [],
+                "last": "Deinhard-Emmer",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Jena University Hospital",
+                    "location": {
+                        "postCode": "07747",
+                        "settlement": "Jena",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alexei",
+                "middle": [
+                    "V"
+                ],
+                "last": "Sokolov",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Texas A&M University",
+                    "location": {
+                        "postCode": "77843",
+                        "settlement": "College Station",
+                        "region": "TX"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhenhuan",
+                "middle": [],
+                "last": "Yi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Texas A&M University",
+                    "location": {
+                        "postCode": "77843",
+                        "settlement": "College Station",
+                        "region": "TX"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Marlan",
+                "middle": [
+                    "O"
+                ],
+                "last": "Scully",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Texas A&M University",
+                    "location": {
+                        "postCode": "77843",
+                        "settlement": "College Station",
+                        "region": "TX"
+                    }
+                },
+                "email": "scully@tamu.edu"
+            },
+            {
+                "first": "Federico",
+                "middle": [],
+                "last": "Capasso",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Dudley",
+                "middle": [
+                    "Robert"
+                ],
+                "last": "Herschbach",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "H",
+                "middle": [
+                    "Eugene"
+                ],
+                "last": "Stanley",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "D.-G",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "D",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "C.-M",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [
+                    "P"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "A",
+                "middle": [
+                    "V S"
+                ],
+                "last": "Performed",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": ";",
+                "middle": [
+                    "D"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "R",
+                "middle": [
+                    "Z"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "S",
+                "middle": [
+                    "D"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "-E",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "A",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "A",
+                "middle": [
+                    "V S"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Z",
+                "middle": [
+                    "Y"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [
+                    "O S"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "V",
+                "middle": [
+                    "D"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "T",
+                "middle": [
+                    "D"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "G",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "From the famous 1918 H1N1 influenza to the present COVID-19 pandemic, the need for improved viral detection techniques is all too apparent. The aim of the present paper is to show that identification of individual virus particles in clinical sample materials quickly and reliably is near at hand. First of all, our team has developed techniques for identification of virions based on a modular atomic force microscopy (AFM). Furthermore, femtosecond adaptive spectroscopic techniques with enhanced resolution via coherent anti-Stokes Raman scattering (FASTER CARS) using tip-enhanced techniques markedly improves the sensitivity [M. O. Scully, et al., Proc. Natl. Acad. Sci. U.S.A. 99, 10994-11001 (2002)]. virus detection | coherent anti-Stokes Raman scattering (CARS) | tip-enhanced Raman scattering (TERS) Author contributions: V.D. and M.O.S. designed research; V.D., T.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "S canning probe microscopy, especially in combination with plasmon-enhanced near-field spectroscopy, is used to specifically analyze and study objects below Abbe's diffraction limit. The scientific goal is, in addition to virus diagnostics, to identify structural changes of the virus surface at an early stage, using so-called tip-enhanced Raman scattering (TERS) together with coherent anti-Stokes Raman spectroscopy (CARS) (Fig. 1 ). This combined technique will improve the sensitivity and consequently speed up acquisition times considerably. In contrast to known methods, this is unique. Due to its surface specificity our technique allows early detection of changes that alter the antigenic properties of viruses and thus the effectiveness of vaccines, with the smallest sample quantities. Furthermore, identification without specific antibodies is possible. This goes far beyond the current state of the art.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 426,
+                    "end": 433,
+                    "text": "(Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "In Nanospectroscopic System for Differentiating between Influenza and Picornavirus, we demonstrate how the tipenhanced Raman technique can be used to characterize and differentiate between influenza and picornaviruses. In Instrumentation and Techniques we explain the instrumentation and show how it provides exciting tools for viral research and detection systems, e.g., femtosecond adaptive spectroscopic techniques with enhanced resolution via coherent anti-Stokes Raman scattering (FASTER CARS). The present paper builds on and extends our earlier femtosecond Raman work in which the focus was on detection of anthrax (1) . Discussion presents a conclusion and an outlook.",
+            "cite_spans": [
+                {
+                    "start": 622,
+                    "end": 625,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Nanospectroscopic System for Differentiating between Influenza and Picornavirus Viruses are infectious agents that spread as nanosized particles, so-called virions outside of cells. Viruses can multiply only within a suitable host cell and as the infection propagates, the virion attacks a cell of a living organism by injecting it with genetic material and inducing the cell to make multiple replicas of the virion. The building blocks of a virion are either DNA or RNA molecules surrounded by a protective scaffold of proteins, the so-called (nucleo)capsid (e.g., coxsasckievirus B3 [CVB3] virus in Fig. 1) . Moreover, there can be a lipid bilayer serving as an envelope. Protein spikes can protrude from the bilayer, forming a sea urchin-like structure (e.g., H1N1 virus in Fig. 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 601,
+                    "end": 608,
+                    "text": "Fig. 1)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 777,
+                    "end": 783,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Some viruses are pathogenic and can cause severe diseases, which makes accurate diagnostics essential. The goal is to characterize the specific virus based on single viral particles. One common technique is the PCR, which has simplified and accelerated the detection of pathogens over culturing techniques (2) (3) (4) . In PCR, the nucleic acid-either DNA or RNA-has to be extracted from the specimen first. Next, characteristic viral sequences are amplified employing varying primer sets followed by further molecular analysis (2, 3) . In general, multiple DNA target molecules are necessary for sufficient amplification and the examination of a single virus particle is still challenging. Although PCR technologies are quite powerful, several drawbacks limit the application in microbiological diagnostics. On the one hand, high sensitivity of DNA/RNA amplification makes this process susceptible to contamination that might yield falsepositive results. Furthermore, false-negative results, e.g., due to failed amplification, have to be considered, too (4) . The nature of the PCR process is prone to several disturbing factors that may hamper exponential DNA amplification. The implementation of the quantitative real-time PCR (qRT-PCR) in recent Significance Surface features of a virus are very important in determining its virility. For example, the spike protein of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) binds to the ACE2 receptor site of the host cell with a much stronger affinity than did the original SARS virus. Thus, it is clearly important to understand the virion surface structure. To that end, the present paper combines the spatial resolution of atomic force microscopy and the spectral resolution of coherent Raman spectroscopy. This combination of tip-enhanced microscopy using femtosecond adaptive spectroscopic techniques for coherent anti-Stokes Raman scattering (FAST CARS) with enhanced resolution (FASTER CARS) allows us to map a single virus particle with nanometer resolution and chemical specificity. years, where fluorescent molecules are added, enables exact quantitation of template DNA (3, 5, 6) .",
+            "cite_spans": [
+                {
+                    "start": 306,
+                    "end": 309,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 310,
+                    "end": 313,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 314,
+                    "end": 317,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 528,
+                    "end": 531,
+                    "text": "(2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 532,
+                    "end": 534,
+                    "text": "3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1055,
+                    "end": 1058,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 2142,
+                    "end": 2145,
+                    "text": "(3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 2146,
+                    "end": 2148,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 2149,
+                    "end": 2151,
+                    "text": "6)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Another approach to identifying viruses is the immunoassaybased detection of viral proteins, which is in some cases less sensitive. Thus, the existing molecular analysis tools do not permit a combination of multiplexing and quantitation and in every case the viral components have to be extracted. Working on a single viral particle via the PCR technique is not possible.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Ideally, a different technique would combine the abilities of qualitative and quantitative analyses at the single virus particle level, rendering the need for separation of the different components unnecessary. A promising technique for that endeavor is tip-enhanced Raman and potentially other nonlinear optical spectroscopies like FASTER CARS. TERS has been demonstrated to operate in a very specific and sensitive mode down to the single-molecule level, with nanometer resolution and below (7) (8) (9) (10) . In TERS, scanning probe techniques (atomic force microscopy [AFM] or scanning tunneling microscopy [STM]) are paired with Raman spectroscopy. The former component enables morphological imaging with subnanometer lateral resolution, and the latter provides detailed spectral information on every specifically selected position on the sample surface.",
+            "cite_spans": [
+                {
+                    "start": 493,
+                    "end": 496,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 497,
+                    "end": 500,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 501,
+                    "end": 504,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 505,
+                    "end": 509,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 572,
+                    "end": 577,
+                    "text": "[AFM]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The heart piece in TERS is the probe, which generally is a commercial AFM tip (for AFM-based setups) that is commonly evaporated with silver and exactly positioned in the laser focus. Upon laser irradiation of the metallized tip a socalled evanescent field is generated. Molecules located in some nanometer proximity to the tip experience a Raman signal enhancement (up to 10 7 ) of their vibrational modes according to the surface-enhanced Raman spectroscopy theory (for instance refs. [11] [12] [13] [14] [15] .",
+            "cite_spans": [
+                {
+                    "start": 487,
+                    "end": 491,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 492,
+                    "end": 496,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 497,
+                    "end": 501,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 502,
+                    "end": 506,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 507,
+                    "end": 511,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Once the tip is positioned in the laser spot, the sample is moved under the tip and the region of interest is selected. After setting a grid of profile lines on the sample, the AFM is coupled to the Raman spectrometer and enhanced Raman spectra are recorded. Such a setup does not need special sample pretreatments or tagging and allows a direct chemical characterization. The same setup also provides topographic imaging of the sample surface in a single experiment. The spatial resolution in TERS is limited by the diameter of the silver particle at the tip and lately has been pushed down to around 0.5 to 1 nm for biosamples (9, 16, 17) . A not-to-scale setup is sketched in Fig. 1A . For specific instrumental details the reader is referred to ref. 18 . Depending on the number of acquired data, subsequent multivariate data analysis might be useful for data assessment. In the context of a general tip-enhanced approach of a virus identification, it is important to point out that not only all major components to be expected in viruses [namely DNA/RNA (19) (20) (21) , proteins, lipids, and even glycoproteins] have been already detected by TERS. Also, different studies on viruses (22) (23) (24) (25) (26) already proved the feasibility of the concept. In contrast to PCR-related techniques, in TERS a separation of the different components or labeling is not required, and ultimately only a single virion is sufficient for an identification.",
+            "cite_spans": [
+                {
+                    "start": 629,
+                    "end": 632,
+                    "text": "(9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 633,
+                    "end": 636,
+                    "text": "16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 637,
+                    "end": 640,
+                    "text": "17)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 754,
+                    "end": 756,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1059,
+                    "end": 1063,
+                    "text": "(19)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1064,
+                    "end": 1068,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1069,
+                    "end": 1073,
+                    "text": "(21)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1189,
+                    "end": 1193,
+                    "text": "(22)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1194,
+                    "end": 1198,
+                    "text": "(23)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1199,
+                    "end": 1203,
+                    "text": "(24)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1204,
+                    "end": 1208,
+                    "text": "(25)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1209,
+                    "end": 1213,
+                    "text": "(26)",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 679,
+                    "end": 686,
+                    "text": "Fig. 1A",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "So far, reported TERS experiments on single virus particles were performed on more or less randomly chosen points, which is apparently not sufficient for a thorough characterization (22) (23) (24) (25) (26) . It was shown that grid-based TERS mapping of varicella-zoster and porcine teschovirus allowed a linear discriminant supported distinction of the two viruses. Clearly, the identification and discrimination of different virus strains demand a comprehensive characterization in terms of spectral surface imaging which is in line with the abovementioned extreme lateral resolution (25) .",
+            "cite_spans": [
+                {
+                    "start": 182,
+                    "end": 186,
+                    "text": "(22)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 187,
+                    "end": 191,
+                    "text": "(23)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 192,
+                    "end": 196,
+                    "text": "(24)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 197,
+                    "end": 201,
+                    "text": "(25)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 202,
+                    "end": 206,
+                    "text": "(26)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 586,
+                    "end": 590,
+                    "text": "(25)",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "For the present experiments an enveloped influenza A virus H1N1 and a nonenveloped CVB3 were chosen. (To apply the present technique to the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) virion, the experiment must be carried out in a biosafe environment and such studies will be reported elsewhere.) The swine H1N1 influenza virus particle is composed of a 2-to 6-nm lipid bilayer decorated with viral proteins and eight ribonucleoprotein (RNP) complexes. The RNPs consist of RNA strands, which interact with numerous nucleoprotein molecules and some viral polymerase complexes. The consistency of the lipid envelope depends on the type of cell membrane of host cell the virus originates. The inner surface is covered completely with viral matrix protein. From the lipid layer flexible pro-tein spikes with a protrusion height of 10 to 14 nm stick out (27) . In Fig. 1 the structure of an influenza virus is sketched. From AFM measurements it is known that H1N1 shows pleomorphism that means size (150 to 400 nm) and shape (spherical or rodlike) vary (27, 28) . The dimension of the CVB3 virus ( Fig. 1) is 10 times smaller (20 to 30 nm), with an icosahedral structure (determined by crystallography), where the RNA is packed in a protein coat (capsid) (29) . Clearly, the different surface components of the viruses yield TERS spectra with information on proteins and lipids for H1N1 (Fig. 1B) and protein and RNA for CVB3 (Fig. 1C) . Again, it is obvious that spectral variability on the virus surface occurs and a larger virus surface area must be considered. Nevertheless, a discrimination of both viruses solely based on the TERS spectra is quite straightforward. The experiment with the full statistical evaluation (multiple maps, different particles, different tips) will be published elsewhere. Here we want to emphasize that the method is potentially able to identify any single virus based on the surface composition. The main challenge is the time required for an assessment, particularly the spectral acquisition time. Interestingly, the necessary AFM topography which is always detected to locate a sample can also provide substantial information for a virus prescreening, thus considerably limiting the potential candidates for TERS investigations (30) .",
+            "cite_spans": [
+                {
+                    "start": 867,
+                    "end": 871,
+                    "text": "(27)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1066,
+                    "end": 1070,
+                    "text": "(27,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1071,
+                    "end": 1074,
+                    "text": "28)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1268,
+                    "end": 1272,
+                    "text": "(29)",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 2277,
+                    "end": 2281,
+                    "text": "(30)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 877,
+                    "end": 883,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1111,
+                    "end": 1118,
+                    "text": "Fig. 1)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1400,
+                    "end": 1409,
+                    "text": "(Fig. 1B)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1439,
+                    "end": 1448,
+                    "text": "(Fig. 1C)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Clearly, the extreme intrinsic lateral resolution of TERS requires the acquisition of a statistically relevant number of spectra on the virus surface to catch all relevant structural features of a given virus. If a mere virus classification rather than nanometerscale structural information is the goal, a different experimental approach could be advantageous, particularly by decreasing the overall acquisition time considerably. The approach shown here artificially decreases the spatial resolution by deliberately scanning the tip during the acquisition. This way, the spectral information is based on the entire scanned surface and as the tip is scanned continuously rather than in a step-scan manner, this also ensures a \"gap-free\" TERS experiment. It is important to note that this approach is fundamentally different from a conventional SERS experiment, where one would bring the plasmonic substrate in contact with a virus sample. In such an experiment no averaging can be achieved on a single virus and consequently a large number of samples must be investigated. Furthermore, specific substrate-sample interactions will lead to preferential binding sites that will also strongly affect the results.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In Fig. 2 we present two straightforward TERS experiments, acquired while scanning a defined area on a single H1N1 and CVB3 virus, respectively. This way, all Raman signals during the scan were detected while the lateral resolution was intentionally decreased. The measurement parameters were adjusted such that exactly one spectrum was recorded during one topography scan. In both samples the respective spectra acquired during subsequent topography scans indicate that the apparent spectral reproducibility is much higher compared to the single acquisitions in Fig. 1 , thus demonstrating the expected location averaging. This leads to a much faster overall data acquisition and much more representative spectral data. This comes at a cost that some information is consequently buried in an averaged dataset; i.e., the clearly visible lipid marker bands of the H1N1 virus of the \"high-resolution\" data acquisition are not evident in Fig. 2 , hence indicating that lipids patches that are accessible for the TERS tip are comparatively rare. While it is theoretically possible to achieve the same result by combining all high-resolution spectra of a sample, e.g., combining all spectra from a virus scan in Fig. 1 B and C, for a comparison it must be warranted that the specimen is sampled correctly; otherwise an imbalance of certain chemical distributions will affect the resulting postexperimental averaged data. This is particularly important since recent experimental and theoretical high-resolution TERS studies indicate a resolution down to the\u00e5ngstr\u00f6m regime. For a TERS experiment this leads to very small step sizes, i.e., to a prohibitively long acquisition time. For an analytical/diagnostic application the average data are most likely much more useful as they can be accessed much faster and due to the intrinsic spectral averaging provide a typical fingerprint of the virus. It is of course still important to determine the minimum representative scan area for a virus, which allows the clear identification of the virus strand. This is essential for comparison with other experiments, e.g., to avoid geometrical influences of the tip.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 9,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 563,
+                    "end": 569,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 935,
+                    "end": 941,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1207,
+                    "end": 1213,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Another possibility to increase the sensitivity will be introduced in the following section where we propose a combined tip/surface enhanced Raman technique with femtosecond adaptive spectroscopic techniques for coherent anti-Stokes Raman scattering (FAST CARS) (1).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "To our best knowledge, tip-enhanced CARS has been demonstrated in the early 2000s (32). Stimulated by our success in detecting anthrax using FAST CARS (33) (Fig. 3) , we developed additional techniques for enhancing the sensitivity and resolution of coherent Raman spectroscopy. Specifically, we have developed additional vibrational spectroscopic techniques for nanoscale real-time molecular sensing having large signal enhancement, small background, short detection time, and high spectral resolution (34, 35) . On the other hand, other groups have pushed the surface-enhanced CARS to single-molecule sensitivity (36, 37) . Our time-resolved tip enhanced coherent anti-Stokes Raman spectroscopy is an exciting additional tool for virus research. Our early \"proof of principle\" research was used to detect hydrogen-bonded molecular complexes of pyridine with water in the near field of gold nanoparticles with large signal enhancement (34) . This yields an improved FAST CARS (1) approach which is aptly called FASTER CARS.",
+            "cite_spans": [
+                {
+                    "start": 503,
+                    "end": 507,
+                    "text": "(34,",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 508,
+                    "end": 511,
+                    "text": "35)",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 615,
+                    "end": 619,
+                    "text": "(36,",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 620,
+                    "end": 623,
+                    "text": "37)",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 936,
+                    "end": 940,
+                    "text": "(34)",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 156,
+                    "end": 164,
+                    "text": "(Fig. 3)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Instrumentation and Techniques"
+        },
+        {
+            "text": "Combining this technique with modern quantum molecular calculation is natural for studying complex biological systems. Fig. 4 shows a simplified experimental arrangement used in ref. 34 and Fig. 5 shows typical data.",
+            "cite_spans": [
+                {
+                    "start": 183,
+                    "end": 185,
+                    "text": "34",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 119,
+                    "end": 125,
+                    "text": "Fig. 4",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 190,
+                    "end": 196,
+                    "text": "Fig. 5",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Instrumentation and Techniques"
+        },
+        {
+            "text": "The review article of Lis and Cecchet (38) characterizes this technique nicely; they say \"Investigations demonstrated that the electronic background that derives from the water and the metal could also be reduced on such kind of solid substrates. Voronine et al. used timeresolved surface-enhanced CARS, which combines delayed laser pulses of different widths, to obtain a high spectral resolution with the suppression of the non-resonant back ground.\"",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Instrumentation and Techniques"
+        },
+        {
+            "text": "They go on to say that this technique yields \"astonishing sensitivity.\" Indeed, this improvement over our earlier FAST CARS anthrax detection scheme holds real promise for detection and identification of single virus particles such as SARS-CoV-2 virus which causes COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Instrumentation and Techniques"
+        },
+        {
+            "text": "We have shown that on one hand, the tip-enhanced Raman technique can be used to characterize and differentiate between influenza and picornavirus. On the other hand, surface-enhanced CARS results in \"astonishing\" enhancement in the sensitivity (38) . The FASTER CARS system, which combines nanometer spatial resolution and enhanced sensitivity, forged by both the tip and coherent Raman enhancement, provides exciting tools for viral research and detection, e.g., the SARS-CoV-2 virus.",
+            "cite_spans": [
+                {
+                    "start": 244,
+                    "end": 248,
+                    "text": "(38)",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Data Availability. All study data are included in this article.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "FAST CARS: Engineering a laser spectroscopic technique for rapid identification of bacterial spores",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Scully",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Sokolov",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Zubairy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Proc. Natl. Acad. Sci. U.S.A",
+            "volume": "99",
+            "issn": "",
+            "pages": "10994--11001",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Molecular diagnostics of infectious diseases",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Procop",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Persing",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Clin. Chem",
+            "volume": "43",
+            "issn": "",
+            "pages": "2021--2038",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Molecular diagnosis of influenza",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ellis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Zambon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Rev. Med. Virol",
+            "volume": "12",
+            "issn": "",
+            "pages": "375--389",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The possibilities and limitations of nucleic acid amplification technology in diagnostic microbiology",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Vaneechoutte",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Van Eldere",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "J. Med. Microbiol",
+            "volume": "46",
+            "issn": "",
+            "pages": "188--194",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Principles and applications of polymerase chain reaction in medical diagnostic fields: A review",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A A"
+                    ],
+                    "last": "Valones",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Braz. J. Microbiol",
+            "volume": "40",
+            "issn": "",
+            "pages": "1--11",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Real-time PCR in virology",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mackay",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Arden",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nitsche",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Nucleic Acids Res",
+            "volume": "30",
+            "issn": "",
+            "pages": "1292--1305",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Chemical mapping of a single molecule by plasmon-enhanced Raman scattering",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nature",
+            "volume": "498",
+            "issn": "",
+            "pages": "82--86",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Tracking of nanoscale structural variations on a single amyloid fibril with tip-enhanced Raman scattering",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Deckert-Gaudig",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "K\u00e4mmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Deckert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J. Biophot",
+            "volume": "5",
+            "issn": "",
+            "pages": "215--219",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Spatially resolved spectroscopic differentiation of hydrophilic and hydrophobic domains on individual insulin amyloid fibrils",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Deckert-Gaudig",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Sci. Rep",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Visualizing vibrational normal modes of a single molecule with atomically confined light",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Crampton",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Tallarida",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Apkarian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature",
+            "volume": "568",
+            "issn": "",
+            "pages": "78--82",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Tip-enhanced Raman spectroscopy-From early developments to recent advances",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Deckert-Gaudig",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Taguchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kawata",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Deckert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Chem. Soc. Rev",
+            "volume": "46",
+            "issn": "",
+            "pages": "4077--4110",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Nano-Raman scattering microscopy: Resolution and enhancement",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kawata",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ichimura",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Taguchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kumamoto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Chem. Rev",
+            "volume": "117",
+            "issn": "",
+            "pages": "4983--5001",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Mastering high resolution tipenhanced Raman spectroscopy: Towards a shift of perception",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Richard-Lacroix",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Deckert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Chem. Soc. Rev",
+            "volume": "46",
+            "issn": "",
+            "pages": "3922--3944",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Tip-enhanced Raman spectroscopy: Technique and recent advances",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Verma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Chem. Rev",
+            "volume": "117",
+            "issn": "",
+            "pages": "6447--6466",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Present and future of surface-enhanced Raman scattering",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Langer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "ACS Nano",
+            "volume": "14",
+            "issn": "",
+            "pages": "28--117",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Tip-enhanced Raman imaging of single-stranded DNA with single base resolution",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J. Am. Chem. Soc",
+            "volume": "141",
+            "issn": "",
+            "pages": "753--757",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Direct base-to-base transitions in ssDNA revealed by tip-enhanced Raman scattering",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1604.06598"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Exploring the nanoscale: Fifteen years of tipenhanced Raman spectroscopy",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Langel\u00fcddecke",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Deckert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Appl. Spectrosc",
+            "volume": "69",
+            "issn": "",
+            "pages": "1357--1371",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Tip-enhanced Raman spectra of picomole quantities of DNA nucleobases at Au(111)",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Domke",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Pettinger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Am. Chem. Soc",
+            "volume": "129",
+            "issn": "",
+            "pages": "6708--6709",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Surface-and tip-enhanced Raman spectroscopy of DNA",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hennemann",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Meixner",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Spectroscopy",
+            "volume": "24",
+            "issn": "",
+            "pages": "119--124",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Tip-enhanced Raman scattering",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Bailo",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Deckert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Chem. Soc. Rev",
+            "volume": "37",
+            "issn": "",
+            "pages": "921--930",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Evaluation of tip-enhanced Raman spectroscopy for characterizing different virus strains",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hermann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Analyst",
+            "volume": "136",
+            "issn": "",
+            "pages": "1148--1152",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Comparative study of far-field and near-field Raman spectra from silicon-based samples and biological nanostructures",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Fabian",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Naumann",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hermelink",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J. Phys. Chem. C",
+            "volume": "115",
+            "issn": "",
+            "pages": "24512--24520",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Raman to the limit: Tip-enhanced Raman spectroscopic investigations of a single tobacco mosaic virus",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Cialla",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J. Raman Spectrosc",
+            "volume": "40",
+            "issn": "",
+            "pages": "240--243",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "A manual and an automatic TERS based virus discrimination",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Olschewski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nanoscale",
+            "volume": "7",
+            "issn": "",
+            "pages": "4545--4552",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Towards a correlative approach for characterising single virus particles by transmission electron microscopy and nanoscale Raman spectroscopy",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hermelink",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Analyst",
+            "volume": "142",
+            "issn": "",
+            "pages": "1342--1349",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Organization of influenza A virus envelope at neutral and low pH",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Giocondi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J. Gen. Virol",
+            "volume": "91",
+            "issn": "",
+            "pages": "329--338",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Study on the morphology of influenza virus A by atomic force microscopy",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Chin. J. Virol",
+            "volume": "24",
+            "issn": "",
+            "pages": "106--110",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "The structure of coxsackie B3 at 3.5\u00c5 resolution",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Muckelbauer",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Structure",
+            "volume": "3",
+            "issn": "",
+            "pages": "653--667",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Single virus detection by means of atomic force microscopy in combination with advanced image analysis",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bocklitz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Struct. Biol",
+            "volume": "188",
+            "issn": "",
+            "pages": "30--38",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Gwyddion: An open-source software for SPM data analysis. Cent",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ne\u010das",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Klapetek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Eur. J. Phys",
+            "volume": "10",
+            "issn": "",
+            "pages": "181--188",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Application of tipenhanced microscopy for nonlinear Raman spectroscopy",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ichimura",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hayazawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hashimoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Inouye",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kawata",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Appl. Phys. Lett",
+            "volume": "84",
+            "issn": "",
+            "pages": "1768--1770",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Optimizing the laser-pulse configuration for coherent Raman spectroscopy",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Pestov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Science",
+            "volume": "316",
+            "issn": "",
+            "pages": "265--268",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Time-resolved surface-enhanced coherent sensing of nanoscale molecular complexes",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Voronine",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Sci. Rep",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Giant chemical surface enhancement of coherent Raman scattering on MoS 2",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Shutov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "ACS Photonics",
+            "volume": "5",
+            "issn": "",
+            "pages": "4960--4968",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Coherent anti-Stokes Raman scattering with single-molecule sensitivity using a plasmonic Fano resonance",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Nat. Commun",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Seeing a single molecule vibrate through time-resolved coherent anti-Stokes Raman scattering",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yampolsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Nat. Photon",
+            "volume": "8",
+            "issn": "",
+            "pages": "650--656",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Localized surface plasmon resonances in nanostructures to enhance nonlinear vibrational spectroscopies: Towards an astonishing molecular sensitivity",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Lis",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cecchet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Beilstein J. Nanotechnol",
+            "volume": "5",
+            "issn": "",
+            "pages": "2275--2292",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "(A) Schematics of the transmission TERS setup used in the experiments with the virus mixture spread on a slide and the laser illuminating the sample from below (\u03bbpump = 532 nm, P = 500 \u00b5W). In the model of an H1N1 virus protein spikes (cyan) protrude from the lipid bilayer (blue). In the model of a coxsackievirus B3 the protein lattice (cyan) is on the surface and the RNA strands (red) are inside the virus. (B) Selected TERS spectra recorded on a single H1N1 virus (measurement point distance 20 nm, acquisition time tacq = 10 s). (C) Selected TERS spectra recorded on a single coxsackievirus B3 (measurement point distance 4 nm, tacq = 10 s). In B and C, lipid marker bands (blue), protein marker bands (cyan), and RNA marker bands (red) are highlighted. See the text in Nanospectroscopic System for Differentiating between Influenza and Picornavirus for further explanation.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "TERS spectra acquired during two repetitive topography scans on a single CVB3 (Top) and a single H1N1 virus (Bottom), respectively. Measurement conditions for CVB3 scan are 20 \u00d7 20 nm, 128 \u00d7 128 pixels (px), scan rate 2 Hz, tacq = 5 s, 14 accumulations; those for H1N1 scan are 200 \u00d7 200 nm, 128 \u00d7 128 px, scan rate 1 Hz, tacq = 10 s, 14 accumulations. The shown three-dimensional topography images were generated with Gwyddion(31). The gray rectangles indicate the investigated areas on the particles.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "CARS (A and B) and FAST CARS (C and D) spectra for probe delay of 0 ps (A and B) and 1.5 ps (C and D). The pump wavelengths are 722 and 732 nm, as indicated. From ref. 33. Reprinted with permission from The American Association for the Advancement of Science.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "A schematic for the time-resolved surface-enhanced CARS spectroscopy. Femtosecond pump (green) and Stokes (orange) laser pulses excite coherent vibration of molecules, which scatter properly delayed sinc-shaped probe pulse coherently to generate the CARS signal. All these optical fields are enhanced in the near field of gold nanoparticles. Adapted from ref.34, which is licensed under CC BY-NC-ND 3.0.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "(A) Normalized spectra of pyridine with probe pulse delay of 1 ps and (B and C) temporal traces of peak intensity count with (red) and without (blue, green) gold nanoparticles (NPs). The 12-\u00b5m thick pyridine with NPs (red) generates the same order of magnitude of CARS signals as a 2-mm bulk (blue) under the same laser pulse conditions, while 12-\u00b5m thick pure pyridine (green) is not detectible. After a deconvolution from the probe pulse sinc shape, we can extract the ring breathing mode of the pyridine-water complex from the red trace in C. Adapted from ref.34, which is licensed under CC BY-NC-ND 3.0.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

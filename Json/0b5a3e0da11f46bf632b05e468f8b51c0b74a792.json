@@ -1,0 +1,4800 @@
+{
+    "paper_id": "0b5a3e0da11f46bf632b05e468f8b51c0b74a792",
+    "metadata": {
+        "title": "MINI REVIEW The Potential Role of SARS-COV-2 in the Pathogenesis of Parkinson's Disease",
+        "authors": [
+            {
+                "first": "Micaela",
+                "middle": [],
+                "last": "Morelli",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Pedro",
+                "middle": [],
+                "last": "Chan\u00e1-Cuevas",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "CETRAM",
+                    "location": {
+                        "region": "Santiago, Chile"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Philippe",
+                "middle": [],
+                "last": "Salles-G\u00e1ndara",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "CETRAM",
+                    "location": {
+                        "region": "Santiago, Chile"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alejandro",
+                "middle": [],
+                "last": "Rojas-Fernandez",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidad Austral de Chile",
+                    "location": {
+                        "settlement": "Valdivia",
+                        "country": "Chile"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Constanza",
+                "middle": [],
+                "last": "Salinas-Rebolledo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidad Austral de Chile",
+                    "location": {
+                        "settlement": "Valdivia",
+                        "country": "Chile"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Anna",
+                "middle": [],
+                "last": "Mil\u00e1n-Sol\u00e9",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Liga Chilena Contra la Epilepsia (LICHE)",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Santiago",
+                        "country": "Chile"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Parkinson's disease (PD) is the second most common and the most rapidly growing neurodegenerative disorder (1) . Its pathological hallmarks are loss of dopaminergic neurons in the substantia nigra (SN) pars compacta and accumulation of misfolded \u03b1-synuclein, which is found in intracytoplasmic inclusions called Lewy bodies (2) .",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 110,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 324,
+                    "end": 327,
+                    "text": "(2)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The current global burden of PD is about 6.2 million cases (3) , and it is expected that more than 12 million people worldwide will be affected by the year 2040 (1, 4) . This exponential growth worldwide may be attributed to several factors (5) , including infectious diseases. A recent analysis suggests that viral and bacterial infections might increase the risk of developing PD (6) .",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 62,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 161,
+                    "end": 164,
+                    "text": "(1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 165,
+                    "end": 167,
+                    "text": "4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 241,
+                    "end": 244,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 382,
+                    "end": 385,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The hypothesis of a viral trigger associated with the pathogenesis of PD emerged more than 100 years ago, due to the relation of lethargic encephalitis (Von Economo disease) and post-encephalitic parkinsonism that occurred after the 1918 type A H1N1 influenza pandemic (7) . Until now, influenza remains the main basis of the viral hypothesis, supported by its neurotrophic properties, with preferential targets in the SN and ventral tegmental area (8) ; and the finding of MxA protein in Lewy bodies, which is implicated in the defense against influenza (9) . In the last decades, additional viruses have been associated with both acute and chronic parkinsonism, including Epstein Barr virus, Coxsackie, Japanese encephalitis B, western equine encephalitis, West Nile virus, herpes viruses, and HIV (8, 10, 11) .",
+            "cite_spans": [
+                {
+                    "start": 269,
+                    "end": 272,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 449,
+                    "end": 452,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 555,
+                    "end": 558,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 800,
+                    "end": 803,
+                    "text": "(8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 804,
+                    "end": 807,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 808,
+                    "end": 811,
+                    "text": "11)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The contemporary pandemic, starting from December 2019 to date, of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) which is responsible for coronavirus disease , is now a worldwide health concern (10). With more than 16 million COVID-19 cases globally (July 28, 2020) 1 , our attention is now set on the hypothetical relations of this new coronavirus infection on PD pathogenesis, its potential as a trigger for the neurodegenerative process, and its consequent impact on the epidemiology of PD. One of the elements that set off this alarm was the report of anosmia in patients infected by SARS-CoV-2, but also the neuroinvasive potential of coronaviruses (CoVs) and a noticeable inflammatory reaction in severe COVID-19 cases. As we know, immune activation in the peripheral and central nervous system (CNS) is a common finding in cases of PD (12, 13) . Moreover, inflammation can trigger \u03b1-synuclein misfolding, aggregation, and propagation through the CNS (14) (15) (16) . \u03b1synuclein aggregation may activate microglia, favoring the proinflammatory response and cell damage signals, which ultimately leads to neuronal death. In this hypothetical scenario, older adults may represent a susceptible group to the development of neurodegenerative disorders, as aging might be associated with low-grade and chronic inflammation (\"inflammaging\") (16) , and the inability to control inflammation (17) .",
+            "cite_spans": [
+                {
+                    "start": 857,
+                    "end": 861,
+                    "text": "(12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 862,
+                    "end": 865,
+                    "text": "13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 972,
+                    "end": 976,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 977,
+                    "end": 981,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 982,
+                    "end": 986,
+                    "text": "(16)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1356,
+                    "end": 1360,
+                    "text": "(16)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1405,
+                    "end": 1409,
+                    "text": "(17)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Exploring the potential relationship of SARS-CoV-2 and PD is essential because of the epidemiological implications and the understanding of physio pathological aspects of both disorders. Our paper attempts to elucidate some of those hypothetical links and its possible consequences.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Most CoVs share a similar viral structure, infection route, and pathogenic mechanism. The penetration of the virus in host cells is mediated by the angiotensin-converting enzyme 2 (ACE2), and dipeptidyl peptidase 4 (DPP4) (18) . In addition to the severe acute respiratory syndrome, human CoV infections may manifest severe neurological complications including seizures, refractory status epilepticus, encephalitis, acute disseminated encephalomyelitis, cerebellitis, Guillan-Barr\u00e9 syndrome, leukoencephalopathy, and critical illness neuromyopathy (19) . 1 Available online at: https://covid19.who.int Not unexpectedly, evidence shows that neuroinvasion and neurotropism is one common feature of CoVs. Such neuroinvasive propensity has been documented for most \u03b2CoVs, including SARS-CoV, MERS-CoV, HCoV-229E, HCoV-OC43, mouse hepatitis virus (MHV), and porcine hemagglutinating encephalomyelitis coronavirus (HEV) (18) .",
+            "cite_spans": [
+                {
+                    "start": 222,
+                    "end": 226,
+                    "text": "(18)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 548,
+                    "end": 552,
+                    "text": "(19)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 555,
+                    "end": 556,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 914,
+                    "end": 918,
+                    "text": "(18)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Neuroinvasive Potential of SARS-CoV-2"
+        },
+        {
+            "text": "As an example of CNS invasion, following intranasal inoculation of susceptible mice, HCoV-OC43 infects the olfactory bulb and disseminates to the hippocampus and cortex, from which it appears to spread by the trans-neuronal route to the brainstem (20) . Meanwhile, Fishman et al., observed a strong tropism for the basal ganglia in the region of the subthalamic nucleus and SN in MHV-A59-infected C57BL/6 mice, with fewer signs of infection in other brain regions (21) . Alongside, Arbor et al. demonstrated the potential chronic persistence of HCoV-229E and HCoV-OC43 infection in human neuronal cell lines, specially oligodendrocytes, and possibly neurons (22) . Further, HCoV-OC43 RNA can be detected for over a year in the CNS of infected mice that survived the acute encephalitis (23) .",
+            "cite_spans": [
+                {
+                    "start": 247,
+                    "end": 251,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 464,
+                    "end": 468,
+                    "text": "(21)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 658,
+                    "end": 662,
+                    "text": "(22)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 785,
+                    "end": 789,
+                    "text": "(23)",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Neuroinvasive Potential of SARS-CoV-2"
+        },
+        {
+            "text": "CNS invasion was also demonstrated in humans. Gu et al. (24) reported a postmortem study of patients who died 14-62 days after the onset of SARS symptoms. Brain edema and scattered red degeneration of neurons affected the brains in 6 of 8 confirmed cases. Moreover, the presence of virus confined to the cytoplasm of numerous neurons in the hypothalamus and cortex was confirmed by light microscopy, electron microscopy, and real-time PCR (24) . The average time from symptom onset to hospital admission is 7 days, while the average time of admission to the intensive care unit is 8 days (25) . This latency may represent the \"window of time\" for the virus to enter the CNS (26) .",
+            "cite_spans": [
+                {
+                    "start": 56,
+                    "end": 60,
+                    "text": "(24)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 439,
+                    "end": 443,
+                    "text": "(24)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 588,
+                    "end": 592,
+                    "text": "(25)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 674,
+                    "end": 678,
+                    "text": "(26)",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Neuroinvasive Potential of SARS-CoV-2"
+        },
+        {
+            "text": "Similar to other CoVs, SARS-CoV-2 infects cells through the interaction between its spike protein (S) and ACE2. For this interaction, protein S must be cleaved by Transmembrane Serine Protease (TMPRSS2) (27, 28) . Cells expressing both ACE2 and TMPRSS2 are more susceptible to SARS-CoV-2 infection (29) . Recently, Chen et al. investigated ACE2 expression by analyzing data from brain transcriptome databases. The SARS-CoV-2 receptor was highly expressed in the SN and brain ventricles, and distributed in excitatory as well as inhibitory neurons, but also astrocytes and oligodendrocytes (30) .",
+            "cite_spans": [
+                {
+                    "start": 203,
+                    "end": 207,
+                    "text": "(27,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 208,
+                    "end": 211,
+                    "text": "28)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 298,
+                    "end": 302,
+                    "text": "(29)",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 589,
+                    "end": 593,
+                    "text": "(30)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Neuroinvasive Potential of SARS-CoV-2"
+        },
+        {
+            "text": "Although there is no evidence of strong co-expression of ACE2 + /TMPRSS2 + in the brain (29), Brann et al. showed that non-neuronal cells of the sensory olfactory epithelium (sustentacular cells, horizontal basal cells, microvillar cells, and Bowman's gland cells) express both ACE2 and TMPRSS2. Human sustentacular cells express both genes at levels comparable to those observed in lung cells. Thus, these cells could be the first to be infected with SARS-CoV-2 (27) . These non-neuronal cells support mature olfactory sensory neurons (OSNs) in the sensory epithelium. Supporting cells infected by SARS-CoV-2 could eventually spread the virus to OSNs through axonal transport (31) , later invading neurons within the olfactory bulb and then to the CNS causing inflammation (32) . The mechanism of viral penetration through the olfactory bulb into the brain has been previously proposed to play a role in neurodegenerative diseases, acting as a trigger for the spread of pathologically aggregated proteins in a prion-like manner (33) .",
+            "cite_spans": [
+                {
+                    "start": 463,
+                    "end": 467,
+                    "text": "(27)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 677,
+                    "end": 681,
+                    "text": "(31)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 774,
+                    "end": 778,
+                    "text": "(32)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1029,
+                    "end": 1033,
+                    "text": "(33)",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Neuroinvasive Potential of SARS-CoV-2"
+        },
+        {
+            "text": "In a retrospective analysis of patients hospitalized with COVID-19 in Wuhan, China, the authors found that of 214 cases, 78 had neurologic manifestations, including impaired consciousness and cerebrovascular diseases, with a higher prevalence in more severe cases (34, 35) . Also, anosmia and dysgeusia are commonly reported in COVID-19 patients (36) . Recently, cerebrospinal fluid (CSF) samples from patients with COVID-19 presenting meningitis and encephalitis were positive for SARS-CoV-2 (37) . The nasopharyngeal sample from one patient with meningitis was negative in the RT-PCR test for SARS-CoV-2, but a CSF sample resulted positive for the virus (38) . These findings support the hypothesis that SARS-CoV-2 like other CoVs has the potential to infect brain cells (39) .",
+            "cite_spans": [
+                {
+                    "start": 264,
+                    "end": 268,
+                    "text": "(34,",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 269,
+                    "end": 272,
+                    "text": "35)",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 346,
+                    "end": 350,
+                    "text": "(36)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 493,
+                    "end": 497,
+                    "text": "(37)",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 656,
+                    "end": 660,
+                    "text": "(38)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 773,
+                    "end": 777,
+                    "text": "(39)",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Neuroinvasive Potential of SARS-CoV-2"
+        },
+        {
+            "text": "Interestingly, SARS-CoV-2 RNA was also detected in the feces in \u223c50% of patients with COVID-19. Moreover, there is evidence of intestinal inflammation in these patients (40) . These findings recall the model of gut-driven inflammation in PD pathogenesis. In this model an initial infection, which directly or indirectly affects the GI system, triggers an inflammatory response, increasing the levels of \u03b1-synuclein in the gut and brain, which would initiate its aggregation (41) .",
+            "cite_spans": [
+                {
+                    "start": 169,
+                    "end": 173,
+                    "text": "(40)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 474,
+                    "end": 478,
+                    "text": "(41)",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Neuroinvasive Potential of SARS-CoV-2"
+        },
+        {
+            "text": "In our opinion, these findings support the neuroinvasive potential of SARS-CoV-2 similar to other coronaviruses. The ability of CoVs to remain for long periods in the CNS could perpetuate the central inflammatory response and the risk of neurodegeneration. The more or less selective invasion of the SN and basal ganglia could be partially explained by a high local expression of ACE2, resembling pathologically affected areas in PD. Finally, invasion through the olfactory bulb and evidence of intestinal inflammation in COVID-19 patients reflects on the Braak's hypothesis, and the model of gut-origin of PD.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Neuroinvasive Potential of SARS-CoV-2"
+        },
+        {
+            "text": "A fast and synchronized innate immune response is the first line of defense against viral infections. On the contrary, dysregulated and exaggerated immune reactions may cause immune damage to the human body (42) .",
+            "cite_spans": [
+                {
+                    "start": 207,
+                    "end": 211,
+                    "text": "(42)",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SARS-CoV-2 and the Inflammatory Response"
+        },
+        {
+            "text": "For example, in the SARS-CoV epidemic, cerebral involvement was related to the exaggerated viral immune response. A study reported a high ratio of monokine induced by IFN-\u03b3 (Mig), and IFN-\u03b3 inducible protein 10 (IP 10) in the blood of patients with SARS, and an increase in Mig but not IP-10 in brain tissue, which in turn seems to attract CD68+ macrophages and CD3+ lymphocytes to the sites of virus infection; contributing to brain damage (43) . This effect is mediated by NF-\u03baB. Its pharmacological inhibition markedly decreased Mig in the affected organs (44) . Drugs like Bortezomib and other proteasome inhibitors possess this inhibitory potential and could eventually regulate the inflammatory response (45) .",
+            "cite_spans": [
+                {
+                    "start": 441,
+                    "end": 445,
+                    "text": "(43)",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 559,
+                    "end": 563,
+                    "text": "(44)",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 710,
+                    "end": 714,
+                    "text": "(45)",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SARS-CoV-2 and the Inflammatory Response"
+        },
+        {
+            "text": "In COVID-19, high levels of IL-1B, IFN-\u03b3, IP-10, and monocyte chemoattractant protein 1 (MCP-1) have been detected. These cytokines may activate the T-helper type 1 (Th1) cell response, a key event in the activation of specific immunity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SARS-CoV-2 and the Inflammatory Response"
+        },
+        {
+            "text": "Nevertheless, contrasting to SARS cases, patients with COVID-19 also have elevated levels of Th2 cell-secreted cytokines (such as IL-4 and IL-10), which inhibit the inflammatory response (44, 45) .",
+            "cite_spans": [
+                {
+                    "start": 187,
+                    "end": 191,
+                    "text": "(44,",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 192,
+                    "end": 195,
+                    "text": "45)",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SARS-CoV-2 and the Inflammatory Response"
+        },
+        {
+            "text": "Current evidence indicates that some of the COVID-19 patients present characteristics similar to secondary adult hemophagocytic syndrome, including cytopenia (46, 47) and cytokine storm syndrome (48, 49) . This inflammatory cytokine storm is closely associated with the development of acute respiratory distress syndrome and extrapulmonary multipleorgan failure. Significantly high blood levels of cytokines and chemokines were detected in patients with severe cases of COVID-19 admitted to the intensive care unit, including IL2, IL7, IL10, GCSF, IP10, MCP1, MIP1\u03b1, and TNF\u03b1 which are believed to promote disease severity (47) . The cytokine serum levels, specially IL-2R and IL-6 in patients with COVID-19, positively correlate with mortality rate (46) . Ruan et al. conducted a retrospective study in 150 laboratory-confirmed Chinese patients with SARS-CoV-2. They observed elevated IL-6 levels in non-survivors compared to those with mild infection (50) . Moreover, a case of COVID-19-associated acute necrotizing hemorrhagic encephalopathy (ANE) was recently reported (51). This type of encephalopathy is a rare complication in other viral infections, associated with intracranial cytokine storm and a breakdown of the blood-brain barrier, rather than a direct viral invasion (52) . Previous studies showed that an exaggerated and dysregulated cytokine response leads to neuronal death (53) .",
+            "cite_spans": [
+                {
+                    "start": 158,
+                    "end": 162,
+                    "text": "(46,",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 163,
+                    "end": 166,
+                    "text": "47)",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 195,
+                    "end": 199,
+                    "text": "(48,",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 200,
+                    "end": 203,
+                    "text": "49)",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 623,
+                    "end": 627,
+                    "text": "(47)",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 750,
+                    "end": 754,
+                    "text": "(46)",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 953,
+                    "end": 957,
+                    "text": "(50)",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 1281,
+                    "end": 1285,
+                    "text": "(52)",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 1391,
+                    "end": 1395,
+                    "text": "(53)",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SARS-CoV-2 and the Inflammatory Response"
+        },
+        {
+            "text": "From our viewpoint, the importance of these findings lies in previous evidence indicating that exaggerated or prolonged systemic inflammation alone is sufficient to pathologically modify \u03b1-synuclein in the CNS. Moreover, peripheral inflammation may also increase \u03b1-synuclein uptake from the circulation into the brain by promoting disruption of the blood-brain barrier (54); the increased permeability of the bloodbrain barrier facilitates lymphocyte infiltration into the CNS, and microglial activation, which is a hallmark in neurodegenerative diseases (55) . Also, peripheral inflammation may exacerbate the central brain's ongoing damage in several neurodegenerative diseases (56) .",
+            "cite_spans": [
+                {
+                    "start": 555,
+                    "end": 559,
+                    "text": "(55)",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 680,
+                    "end": 684,
+                    "text": "(56)",
+                    "ref_id": "BIBREF55"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SARS-CoV-2 and the Inflammatory Response"
+        },
+        {
+            "text": "Certainly, immune activation is an important piece in the puzzle of PD physiopathology. CNS immune changes are characterized mainly by reactive microgliosis and high concentrations of pro-inflammatory cytokines. Similarly, an imbalance in lymphocyte populations favors a TH1-type peripheral system immune response.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Inmunologic Variations in Parkinson's Disease"
+        },
+        {
+            "text": "As we pointed out, brain autopsies of PD cases show microglial and oligodendroglial activation and upregulation of major histocompatibility class II (MHCII). Activated microglia in the putamen expressed TNF-alpha and IL-6, remarkably, these inflammatory cytokines may also have a neurotrophic role. The expression of these factors is concomitant with \u03b1synuclein accumulation and loss of dopaminergic cells in the SN (57) . Meanwhile, Mogi et al. reported higher concentrations of IL-1\u00df, IL-6, epidermal growth factor (EGF), and transforming growth factor-alpha (TGF-alpha) in striatal regions in the brain of PD cases compared with controls. IL-1\u00df, an immune responsegenerated cytokine, stimulates astrocyte proliferation, while IL-6 is a B-cell stimulating factor. At the same time, astrocytes as well as microglial cells secrete IL-1\u00df and IL-6 (58).",
+            "cite_spans": [
+                {
+                    "start": 416,
+                    "end": 420,
+                    "text": "(57)",
+                    "ref_id": "BIBREF56"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Inmunologic Variations in Parkinson's Disease"
+        },
+        {
+            "text": "Baba et al. analyzed T-lymphocyte populations in patients with PD. They found a characteristic predominant expression of CD8 + T cells, depletion of CD4 + CD25 + highcells , and a shift to a TH1-type peripheral immune system (13) . Also, Stevens et al., found a 15-25% reduction in TCR\u03b1\u03b2+, CD4+ (T helpers), and CD19+ (B) cells compared to controls (59) .",
+            "cite_spans": [
+                {
+                    "start": 225,
+                    "end": 229,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 349,
+                    "end": 353,
+                    "text": "(59)",
+                    "ref_id": "BIBREF58"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Inmunologic Variations in Parkinson's Disease"
+        },
+        {
+            "text": "A meta-analysis from 25 studies involving 1,547 patients with PD and 1,107 controls, was consistent with elevated peripheral concentrations of several inflammatory cytokines, including, IL-6, TNF, IL-1\u03b2, IL-2, IL-10, CRP, and RANTES in patients with PD (60) . These changes might be associated with the inflammatory process in the brain.",
+            "cite_spans": [
+                {
+                    "start": 253,
+                    "end": 257,
+                    "text": "(60)",
+                    "ref_id": "BIBREF59"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Inmunologic Variations in Parkinson's Disease"
+        },
+        {
+            "text": "Additionally, various genetic loci were identified in genomewide association studies as risk factors for PD, some within the HLA region, coding for immune genes including MHCII (61, 62) , particularly the rs3129882 single nucleotide polymorphism (SNP). The GG homozygosity of this SNP is associated with increased baseline and inducible MHC-II expression in APCs, favoring a more pro-inflammatory CD4+ T cell response (63) .",
+            "cite_spans": [
+                {
+                    "start": 177,
+                    "end": 181,
+                    "text": "(61,",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 182,
+                    "end": 185,
+                    "text": "62)",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 418,
+                    "end": 422,
+                    "text": "(63)",
+                    "ref_id": "BIBREF63"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Inmunologic Variations in Parkinson's Disease"
+        },
+        {
+            "text": "It is not clear if these changes in the immune system are the cause or consequence of an initial trigger for the neurodegenerative process: based on what was previously stated, the inflammatory insult associated with SARS-CoV-2 infection could be a predisposing factor, particularly in susceptible individuals. Moreover, immunologic variations in PD patients may affect their outcome after SARS-CoV-2 infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Inmunologic Variations in Parkinson's Disease"
+        },
+        {
+            "text": "The normal function of \u03b1-synuclein is partially understood. Part of its role involves the recycling of synaptic vesicles and synaptic transmission, as it is abundant in synaptic clefts (64, 65) . Consequently, the loss of its normal neuronal function could play a central role in PD pathophysiology.",
+            "cite_spans": [
+                {
+                    "start": 185,
+                    "end": 189,
+                    "text": "(64,",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 190,
+                    "end": 193,
+                    "text": "65)",
+                    "ref_id": "BIBREF65"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Neuroinflamatory Response and Synucleinopathy"
+        },
+        {
+            "text": "Current evidence suggests different pathogens as triggers of a cerebral chronic neuroinflammatory response (66, 67) ; \u03b1synuclein is involved in important aspects of immune activation, specifically with the innate immune response. It may have a regulatory role in the immune response of peripheric and central neurons (68) (69) (70) and could be involved in the canonic activation of inflammatory pathways (inflammation), as well as the chronic immune response and neurotoxicity (neurodegeneration) (71). This occurs due to the overexpression of Toll-like receptors (TLR) and Nuclear Factor (NF-\u03baB), activating, in turn, the cytokine response cascade. The presence of extracellular \u03b1synuclein is a marker of molecular damage (72) .",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 111,
+                    "text": "(66,",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 112,
+                    "end": 115,
+                    "text": "67)",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 317,
+                    "end": 321,
+                    "text": "(68)",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 322,
+                    "end": 326,
+                    "text": "(69)",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 327,
+                    "end": 331,
+                    "text": "(70)",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 724,
+                    "end": 728,
+                    "text": "(72)",
+                    "ref_id": "BIBREF72"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Neuroinflamatory Response and Synucleinopathy"
+        },
+        {
+            "text": "There is also evidence to suggest that \u03b1-synuclein plays a role in mechanisms of infection responses, with an increased expression of \u03b1-synuclein in viral processes such as in Nile Virus encephalitis (73) , and worse disease prognosis in \u03b1synuclein knockout mice (74) . During viral infections, \u03b1synuclein increases, acting as an inhibitor of viral growth in neurons in the CNS by acting as a restricting factor of viral RNA (75) . TLR are a group of transmembrane glycoproteins implicated in pathogen recognition and immune response, which are regulated by \u03b1-synuclein, as well as other immune mechanisms (76) . \u03b1-synuclein can function as an antigen associated with cellular damage and can be recognized by TLR 1 to 4, 7, and 8. The activation and potentiation of inflammatory responses are related to TLR 2 and 3, with a magnifying effect of Interferon \u03b3 (IFN-\u03b3) (72, 73, 77) , suggesting that the activation of the immune response, could lead to a chronic inflammatory process (76, 77) . Finally, one hypothesis debates that infectious processes may generate an autoimmune response against \u03b1synuclein (78) (Figure 1) .",
+            "cite_spans": [
+                {
+                    "start": 200,
+                    "end": 204,
+                    "text": "(73)",
+                    "ref_id": "BIBREF73"
+                },
+                {
+                    "start": 263,
+                    "end": 267,
+                    "text": "(74)",
+                    "ref_id": "BIBREF74"
+                },
+                {
+                    "start": 425,
+                    "end": 429,
+                    "text": "(75)",
+                    "ref_id": "BIBREF75"
+                },
+                {
+                    "start": 606,
+                    "end": 610,
+                    "text": "(76)",
+                    "ref_id": "BIBREF76"
+                },
+                {
+                    "start": 866,
+                    "end": 870,
+                    "text": "(72,",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 871,
+                    "end": 874,
+                    "text": "73,",
+                    "ref_id": "BIBREF73"
+                },
+                {
+                    "start": 875,
+                    "end": 878,
+                    "text": "77)",
+                    "ref_id": "BIBREF77"
+                },
+                {
+                    "start": 981,
+                    "end": 985,
+                    "text": "(76,",
+                    "ref_id": "BIBREF76"
+                },
+                {
+                    "start": 986,
+                    "end": 989,
+                    "text": "77)",
+                    "ref_id": "BIBREF77"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1110,
+                    "end": 1120,
+                    "text": "(Figure 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "The Neuroinflamatory Response and Synucleinopathy"
+        },
+        {
+            "text": "As we mentioned previously, proinflammatory events such as viral infections are proposed as predisposing factors for individuals to develop PD and long-term neuronal loss (79) . Special consideration regarding SARS-CoV-2 is its capacity to induce a marked systemic pro-inflammatory response. A prospective case-control study showed that men with higher plasma IL-6 concentrations had an increased risk of developing PD (80) . As stated above, this interleukin is highly elevated in COVID-19. Therefore, it is necessary to determine the persistence of high IL-6 levels in recovered COVID-19 patients.",
+            "cite_spans": [
+                {
+                    "start": 171,
+                    "end": 175,
+                    "text": "(79)",
+                    "ref_id": "BIBREF79"
+                },
+                {
+                    "start": 419,
+                    "end": 423,
+                    "text": "(80)",
+                    "ref_id": "BIBREF80"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Evidence of the Relation of SARS-CoV-2 and Parkinson's Disease"
+        },
+        {
+            "text": "As we know, SARS-CoV-2 infects cells through ACE2 and TMPRSS2. Interestingly, Li et al. found that TMPRSS2 is upregulated in rats treated with 6-hydroxydopamine (6-OHDA), a widely used tool to model PD, compared to control rats. This study showed that genes codifying for this protein are differentially regulated and may play an important role in the development of the disease (81) . Surprisingly, in the past CoVs were related to PD patients. Specifically, intrathecal antibodies for CoVs types MHV-JHM and MHV-A59 are elevated in PD patients compared to individuals with other neurological diseases (82) . However, the causal role of these viruses in PD is still unknown.",
+            "cite_spans": [
+                {
+                    "start": 379,
+                    "end": 383,
+                    "text": "(81)",
+                    "ref_id": "BIBREF81"
+                },
+                {
+                    "start": 603,
+                    "end": 607,
+                    "text": "(82)",
+                    "ref_id": "BIBREF82"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Evidence of the Relation of SARS-CoV-2 and Parkinson's Disease"
+        },
+        {
+            "text": "Although we are waiting for a longer follow-up period of recovered COVID-19 patients, some features in the acute phase of the disease are very striking. For example, anosmia and gastrointestinal symptoms are common early findings (34, 83) ; and a high prevalence of impaired consciousness was observed in more severe cases (34) . It was thought that its neurotropic affinity could be related to its ability to produce respiratory symptoms, with over 89% of patients in the intensive care units unable to generate spontaneous ventilation, putatively due to central dysfunction (18) . Hyposmia and gastrointestinal manifestations are also common non-motor symptoms in PD during the prodromal phase, a period during which neurodegeneration has begun (84) (85) (86) . According to Braak's hypothesis, these symptoms represent the first stage of PD which involves the deposition of \u03b1-synuclein in the anterior olfactory nucleus and dorsal motor Frontiers in Neurology | www.frontiersin.org FIGURE 1 | Triggering factors of the neuroinflammatory process. Aging, in addition to genetic and environmental factors, and infections of certain microorganisms, can trigger a neuroinflammatory response through microglial and oligodendroglial activation. Activated microglia adopt an M1 inflammatory phenotype, secreting proinflammatory cytokines, reactive oxygen species (ROS), and glutamate; factors that cause neuronal damage. In this context, astrocytes become reactive, and like microglia, they secrete proinflammatory cytokines. Many of these cytokines act on microglial cells, exacerbating microglial activation, and favoring neuronal damage. The release of TNF-alpha by microglia induces increased glutamate release by astrocytes: a detrimental event for neurons. In this context, degenerating and/or dead neurons are observed, which in turn trigger microglial activation. Protein accumulation (e.g., alpha-synuclein) is another triggering factor for microglial activation. Microglia degrades and presents components of dead cells and protein aggregates to CD4+ T lymphocytes. This, in conjunction with the release of cytokines, results in the infiltration of CD4 + T cells, which release more proinflammatory cytokines, leading to greater neurodegeneration. As a consequence of this neuroinflammation, the blood-brain barrier (BBB) becomes dysfunctional, leading to the entry of peripheral immune cells. In the periphery, gut microbiota can trigger inflammation mediated by innate immune cells. The SARS-CoV-2 virus generates a \"cytokine storm\" at the peripheral level, therefore, it could have a similar effect. Inflammatory cytokines from peripheral blood circulation could also contribute to BBB permeabilization. nucleus of the vagus (87). We could then presuppose an overlap in the anatomical distribution of the initial pathological process of both diseases.",
+            "cite_spans": [
+                {
+                    "start": 230,
+                    "end": 234,
+                    "text": "(34,",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 235,
+                    "end": 238,
+                    "text": "83)",
+                    "ref_id": "BIBREF83"
+                },
+                {
+                    "start": 323,
+                    "end": 327,
+                    "text": "(34)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 576,
+                    "end": 580,
+                    "text": "(18)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 747,
+                    "end": 751,
+                    "text": "(84)",
+                    "ref_id": "BIBREF84"
+                },
+                {
+                    "start": 752,
+                    "end": 756,
+                    "text": "(85)",
+                    "ref_id": "BIBREF85"
+                },
+                {
+                    "start": 757,
+                    "end": 761,
+                    "text": "(86)",
+                    "ref_id": "BIBREF86"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Evidence of the Relation of SARS-CoV-2 and Parkinson's Disease"
+        },
+        {
+            "text": "The ongoing COVID-19 pandemic is expected to affect a large amount of the world's population. Although we have more clarity about its acute behavior, the chronic effects of this virus are yet to be seen, since a comprehensive understanding of SARS-CoV-2 is still lacking. The systemic inflammatory response induced by SARS-CoV-2 seems enough to set off the alarms on its potential relation with neuroinflammation, but also cumulative evidence supports its neurotropic capacity. Neuroinflammation associated with COVID-19 may be involved in subsequent neurodegeneration. Alternative mechanisms by which this virus may putatively generate long term neuronal alterations could be related to an autoimmune response against \u03b1-synuclein, which seems to have a role in immune regulation and protection against viral infections. Taking into account all this information, we believe that there is a potential relation between SARS-CoV-2 and the pathogenesis of PD. Thus, a high degree of vigilance should be kept for the hypothetical role of this virus in neurodegenerative processes in recovered COVID-19 patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSION"
+        },
+        {
+            "text": "The authors declare contributed conception of the review. PC-C and PS-G wrote the first draft of the manuscript. All authors contributed to manuscript revision, read, and approved the submitted version.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "AUTHOR CONTRIBUTIONS"
+        },
+        {
+            "text": "This work was partial supported by Universidad de Santiago de Chile Dicyt (Grant C\u00f3digo 021601CHC_POSTDOC). This work was funded by FONIS EU-LAC T010047.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FUNDING"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The emerging evidence of the Parkinson pandemic",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Dorsey",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sherer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Okun",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bloemd",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Parkinsons Dis",
+            "volume": "8",
+            "issn": "",
+            "pages": "3--8",
+            "other_ids": {
+                "DOI": [
+                    "10.3233/JPD-181474"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Global, regional, and national burden of Parkinson's disease, 1990-2016: a systematic analysis for the global burden of disease study 2016",
+            "authors": [
+                {
+                    "first": "Ray",
+                    "middle": [],
+                    "last": "Dorsey",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Elbaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nichols",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Abd-Allah",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Abdelalim",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Adsuar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Lancet Neurol",
+            "volume": "17",
+            "issn": "18",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1474-4422(18)30499-X"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The Parkinson pandemic -a call to action",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Dorsey",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bloem",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "JAMA Neurol",
+            "volume": "75",
+            "issn": "",
+            "pages": "9--10",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamaneurol.2017.3299"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "What is a pandemic?",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Morens",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Folkers",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fauci",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Infect Dis",
+            "volume": "200",
+            "issn": "",
+            "pages": "1018--1039",
+            "other_ids": {
+                "DOI": [
+                    "10.1086/644537"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Impact of infection on risk of Parkinson's disease: a quantitative assessment of case-control and cohort studies",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Ji",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Neurovirol",
+            "volume": "25",
+            "issn": "",
+            "pages": "221--229",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s13365-018-0707-4"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Viral parkinsonism",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Boltz",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Webster",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Smeyne",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Biochim Biophys Acta Mol Basis Dis",
+            "volume": "1792",
+            "issn": "",
+            "pages": "714--735",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bbadis.2008.08.001"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "The substantia nigra is a major target for neurovirulent influenza A virus",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Takahashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yamada",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nakajima",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nakajima",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yamamoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Okada",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "J Exp Med",
+            "volume": "181",
+            "issn": "",
+            "pages": "2161--2170",
+            "other_ids": {
+                "DOI": [
+                    "10.1084/jem.181.6.2161"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Viral etiology of parkinson's disease: focus on influenza A virus",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yamada",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Park Relat Disord",
+            "volume": "2",
+            "issn": "",
+            "pages": "113--134",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/1353-8020(96)00006-5"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "A novel coronavirus outbreak of global health concern",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Horby",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hayden",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "30185--30194",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30185-9"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Infectious etiologies of parkinsonism: pathomechanisms and clinical implications",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Limphaibool",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Iwanowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mjv",
+                    "middle": [],
+                    "last": "Holstad",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kobylarek",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Kozubski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Front Neurol",
+            "volume": "10",
+            "issn": "",
+            "pages": "1--11",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fneur.2019.00652"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "microglial physiology: unique stimuli, specialized responses",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ransohoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Perry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Annu Rev Immunol",
+            "volume": "27",
+            "issn": "",
+            "pages": "119--164",
+            "other_ids": {
+                "DOI": [
+                    "10.1146/annurev.immunol.021908.132528"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Alterations of Tlymphocyte populations in Parkinson disease",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Baba",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kuroiwa",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Uitti",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wszolek",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yamada",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Park Relat Disord",
+            "volume": "11",
+            "issn": "",
+            "pages": "493--501",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.parkreldis.2005.07.005"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Role of neuroinflammation in neurodegenerative diseases (Review)",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Mol Med Rep",
+            "volume": "13",
+            "issn": "",
+            "pages": "3391--3397",
+            "other_ids": {
+                "DOI": [
+                    "10.3892/mmr.2016.4948"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Inflammation, infectious triggers, and Parkinson's disease",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Caggiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Arru",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hosseini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Niegowska",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sechi",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Pietro",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Zarbo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Front Neurol",
+            "volume": "10",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fneur.2019.00122"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Inflammaging: a new immune-metabolic viewpoint for age-related diseases",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Franceschi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Garagnani",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Parini",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Giuliani",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Santoro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nat Rev Endocrinol",
+            "volume": "14",
+            "issn": "",
+            "pages": "576--90",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41574-018-0059-4"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Age and age-related diseases: role of inflammation triggers and cytokines",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rea",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gibson",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Mcgilligan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Mcnerlan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Alexander",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ross",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Front Immunol",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fimmu.2018.00586"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The neuroinvasive potential of SARS-CoV2 may be at least partially responsible for the respiratory failure of COVID-19 patients",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Bai",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hashikawa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "2",
+            "issn": "",
+            "pages": "0--2",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25728"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Neurologic manifestations of severe respiratory viral contagions",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Robinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Busl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Crit Care Explor",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/CCE.0000000000000107"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Human coronaviruses and other respiratory viruses: underestimated opportunistic pathogens of the central nervous system? Viruses",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Desforges",
+                    "suffix": ""
+                },
+                {
+                    "first": "Le",
+                    "middle": [],
+                    "last": "Coupanec",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dubeau",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Bourgouin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lajoie",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Dub\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "12",
+            "issn": "",
+            "pages": "1--28",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/v12010014"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Infection of the basal ganglia by a murine coronavirus",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Fishman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gass",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Swoveland",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lavi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Highkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Weiss",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "Science",
+            "volume": "229",
+            "issn": "",
+            "pages": "877--886",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.2992088"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Acute and persistent infection of human neural cell lines by human coronavirus OC43",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Arbour",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "C\u00f4t\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lachance",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tardieu",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Cashman",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Talbot",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J Virol",
+            "volume": "73",
+            "issn": "",
+            "pages": "3338--50",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.73.4.3338-3350.1999"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Human coronaviruses: viral and cellular factors involved in neuroinvasiveness and neuropathogenesis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Desforges",
+                    "suffix": ""
+                },
+                {
+                    "first": "Le",
+                    "middle": [],
+                    "last": "Coupanec",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Stodola",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Meessen-Pinard",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Talbot",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Virus Res",
+            "volume": "194",
+            "issn": "",
+            "pages": "145--58",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.virusres.2014.09.011"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Multiple organ infection and the pathogenesis of SARS",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Exp Med",
+            "volume": "202",
+            "issn": "",
+            "pages": "415--439",
+            "other_ids": {
+                "DOI": [
+                    "10.1084/jem.20050828"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Clinical characteristics of 138 hospitalized patients with 2019. novel coronavirus-infected pneumonia in Wuhan",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. JAMA",
+            "volume": "323",
+            "issn": "",
+            "pages": "1061--1070",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.1585"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Neurotropic virus tracing suggests a membranous-coating-mediated mechanism for transsynaptic communication",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Bai",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hirano",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hayashida",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Taniguchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sugita",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Comp Neurol",
+            "volume": "521",
+            "issn": "",
+            "pages": "203--215",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/cne.23171"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Non-neuronal expression of SARS-CoV-2 entry genes in the olfactory system suggests mechanisms underlying COVID-19-associated anosmia",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Brann",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tsukahara",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Weinreb",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lipovsek",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Van Den Berge",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci Adv",
+            "volume": "6",
+            "issn": "",
+            "pages": "1--51",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.25.009084"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "SARS-CoV-2 cell entry depends on ACE2 and TMPRSS2 and is blocked by a clinically proven protease inhibitor",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kleine-Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schroeder",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kr\u00fcger",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Herrler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Erichsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "181",
+            "issn": "",
+            "pages": "271--80",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.02.052"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Single-cell atlas of a nonhuman primate reveals new pathogenic mechanisms of COVID-19. bioRxiv",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Volpe",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.10.022103"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "The spatial and cell-type distribution of SARS-CoV-2 receptor ACE2 in human and mouse brain. bioRxiv",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.07.030650"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Axonal transport enables neuron-to-neuron propagation of human coronavirus OC43",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dub\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "Le",
+                    "middle": [],
+                    "last": "Coupanec",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ahm",
+                    "middle": [],
+                    "last": "Rini",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Desforges",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Talbot",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "404--422",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.00404-18"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Neurologic alterations due to respiratory virus infections",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bohmwald",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nms",
+                    "middle": [],
+                    "last": "G\u00e1lvez",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "R\u00edos",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kalergis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Front Cell Neurosci",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fncel.2018.00386"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "The olfactory bulb as the entry site for prion-like propagation in neurodegenerative diseases",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rey",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wesson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Brundin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Neurobiol Dis",
+            "volume": "109",
+            "issn": "",
+            "pages": "226--274",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.nbd.2016.12.013"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Neurologic manifestations of hospitalized patients with coronavirus disease 2019 in Wuhan, China",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Neurol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamaneurol.2020.1127"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Neurological manifestations of hospitalized patients with COVID-19 in Wuhan, China: a retrospective case series study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Neurol",
+            "volume": "77",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.22.20026500"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Self-reported olfactory and taste disorders in patients with severe acute respiratory coronavirus 2 infection: a cross-sectional study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Giacomelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pezzati",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Conti",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bernacchia",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Siano",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Oreni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "53",
+            "issn": "",
+            "pages": "1689--99",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa330"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Response to commentary on: the neuroinvasive potential of SARS-CoV-2 may play a role in the respiratory failure of COVID-19 patients",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W-Z",
+                    "middle": [],
+                    "last": "Bai",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hashikawa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "707--716",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25824"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "A first case of meningitis/encephalitis associated with SARS-Coronavirus-2",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Moriguchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Harii",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Goto",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Harada",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sugawara",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Takamino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "94",
+            "issn": "",
+            "pages": "55--63",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2020.03.062"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Central nervous system manifestations of COVID-19: A systematic review",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Asadi-Pooya",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Simani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Neurol Sci",
+            "volume": "413",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jns.2020.116832"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Faecal calprotectin indicates intestinal inflammation in COVID-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Effenberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Grabherr",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mayr",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schwaerzler",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nairz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Seifert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gut",
+            "volume": "69",
+            "issn": "",
+            "pages": "1543--1547",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/gutjnl-2020-321388"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "The gut-brain axis: is intestinal inflammation a silent driver of Parkinson's disease pathogenesis? NPJ Park Dis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Houser",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Tansey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41531-016-0002-0"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Age-dependent dysregulation of innate immunity",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Shaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Goldstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Montgomery",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nat Rev Immunol",
+            "volume": "13",
+            "issn": "",
+            "pages": "875--87",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nri3547"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Detection of severe acute respiratory syndrome coronavirus in the brain: potential role of the chemokine Mig in pathogenesis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Clin Infect Dis",
+            "volume": "41",
+            "issn": "",
+            "pages": "1089--96",
+            "other_ids": {
+                "DOI": [
+                    "10.1086/444461"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Identification of the molecular mechanism by which TLR ligation and IFN-g synergize to induce Mig",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Powell",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Boodoo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Horton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Clin Dev Immunol",
+            "volume": "11",
+            "issn": "",
+            "pages": "77--85",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/10446670410001670535"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "A practical review of proteasome pharmacology",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Thibaudeau",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Pharmacol Rev",
+            "volume": "71",
+            "issn": "",
+            "pages": "170--97",
+            "other_ids": {
+                "DOI": [
+                    "10.1124/pr.117.015370"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "The pathogenesis and treatment of the 'cytokine storm' in COVID-19",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect",
+            "volume": "80",
+            "issn": "",
+            "pages": "607--620",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jinf.2020.03.037"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30183-5"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "COVID-19: consider cytokine storm syndromes and immunosuppression",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mehta",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Mcauley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sanchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tattersall",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Manson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1033--1037",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30628-0"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Adult haemophagocytic syndrome",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ramos-Casals",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Brito-Zer\u00f3n",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "L\u00f3pez-Guillermo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Khamashta",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Bosch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Lancet",
+            "volume": "383",
+            "issn": "13",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(13)61048-X"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Clinical predictors of mortality due to COVID-19 based on an analysis of data of 150 patients from Wuhan, China",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ruan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Intensive Care Med",
+            "volume": "46",
+            "issn": "",
+            "pages": "846--854",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00134-020-05991-x"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "COVID-19-associated acute hemorrhagic necrotizing encephalopathy: CT and MRI Features",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Poyiadji",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Shahin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Noujaim",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Stone",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Griffith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Radiology",
+            "volume": "296",
+            "issn": "",
+            "pages": "119--139",
+            "other_ids": {
+                "DOI": [
+                    "10.1148/radiol.2020201187"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Imaging of Acute disseminated encephalomyelitis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rossi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Neuroimaging Clin N Am",
+            "volume": "18",
+            "issn": "",
+            "pages": "149--61",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.nic.2007.12.007"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "SARS-CoV-2: a new virus but a familiar inflammation brain pattern",
+            "authors": [
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Santis",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Brain Behav Immun",
+            "volume": "87",
+            "issn": "",
+            "pages": "95--101",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bbi.2020.04.066"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Alpha synuclein is transported into and out of the brain by the blood-brain barrier",
+            "authors": [
+                {
+                    "first": "Y-T",
+                    "middle": [],
+                    "last": "Sui",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bullock",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Erickson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Banks",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Peptides",
+            "volume": "62",
+            "issn": "",
+            "pages": "197--202",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.peptides.2014.09.018"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Microglial activation and chronic neurodegeneration",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lull",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Block",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Neurotherapeutics",
+            "volume": "7",
+            "issn": "",
+            "pages": "354--65",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.nurt.2010.05.014"
+                ]
+            }
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Parkinson's disease and systemic inflammation",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ferrari",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tarelli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Parkinsons Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "2011--2012",
+            "other_ids": {
+                "DOI": [
+                    "10.4061/2011/436813"
+                ]
+            }
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Distribution of major histocompatibility complex class II-positive microglia and cytokine profile of Parkinson's disease brains",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Imamura",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hishikawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sawada",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nagatsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yoshida",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hashizume",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Acta Neuropathol",
+            "volume": "106",
+            "issn": "",
+            "pages": "518--544",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00401-003-0766-2"
+                ]
+            }
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Interleukin-1\u03b2, interleukin-6, epidermal growth factor and transforming growth factor-\u03b1 are elevated in the brain from parkinsonian patients",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mogi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Harada",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kondo",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Riederer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Inagaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Minami",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Neurosci Lett",
+            "volume": "180",
+            "issn": "",
+            "pages": "147--50",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/0304-3940(94)90508-8"
+                ]
+            }
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Reduced T helper and B lymphocytes in Parkinson's disease",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Stevens",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rowe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Morel-Kopp",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Orr",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Russell",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ranola",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Neuroimmunol",
+            "volume": "252",
+            "issn": "",
+            "pages": "95--104",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jneuroim.2012.07.015"
+                ]
+            }
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Aberrations in peripheral inflammatory cytokine levels in Parkinson disease: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Loh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "JAMA Neurol",
+            "volume": "73",
+            "issn": "",
+            "pages": "1316--1340",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamaneurol.2016.2742"
+                ]
+            }
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Pharmacological treatment of Parkinson's disease",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Zahoor",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shafi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Haq",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Parkinson's Disease: Pathogenesis and Clinical Aspects",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "The immunogenetics of neurological disease",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Misra",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Damotte",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hollenbach",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Immunology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/imm.12869"
+                ]
+            }
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Common genetic variant association with altered HLA expression, synergy with pyrethroid exposure, and risk for Parkinson's disease: an observational and case-control study",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Kannarkat",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cook",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chung",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sandy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "NPJ Parkinsons Dis",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/npjparkd.2015.2"
+                ]
+            }
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Cell biology and pathophysiology of \u03b1-synuclein",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Burr\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "S\u00fcdhof",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cold Spring Harb Perspect Med",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/cshperspect.a024091"
+                ]
+            }
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "The synaptic function of \u03b1-synuclein",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Burr\u00e9",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Parkinsons Dis",
+            "volume": "5",
+            "issn": "",
+            "pages": "699--713",
+            "other_ids": {
+                "DOI": [
+                    "10.3233/JPD-150642"
+                ]
+            }
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Viral mimetic priming enhances \u03b1-synuclein-induced degeneration: Implications for Parkinson's disease",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Olsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Cairns",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "\u00c5d\u00e9n",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Moriarty",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cabre",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Alamilla",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Almqvist",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Brain Behav Immun",
+            "volume": "80",
+            "issn": "",
+            "pages": "525--560",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bbi.2019.04.036"
+                ]
+            }
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "A role for viral infections in parkinson's etiology?",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Olsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Dowd",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Mckernan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Neuronal Signal",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1042/NS20170166"
+                ]
+            }
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "A role for neuronal alpha-synuclein in gastrointestinal immunity",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Stolzenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Berry",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kroemer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kaufman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Innate Immun",
+            "volume": "9",
+            "issn": "",
+            "pages": "456--63",
+            "other_ids": {
+                "DOI": [
+                    "10.1159/000477990"
+                ]
+            }
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Salivary biomarkers for Alzheimer's disease and related disorders",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ashton",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ide",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zetterberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Blennow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Neurol Ther",
+            "volume": "8",
+            "issn": "",
+            "pages": "83--94",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s40120-019-00168-1"
+                ]
+            }
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Alpha-Synuclein to the rescue: immune cell recruitment by alpha-synuclein during gastrointestinal infection",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Labrie",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Brundin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Innate Immun",
+            "volume": "9",
+            "issn": "",
+            "pages": "437--477",
+            "other_ids": {
+                "DOI": [
+                    "10.1159/000479653"
+                ]
+            }
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "alpha-Synuclein: a modulator during inflammatory CNS demyelination",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kuhbandner",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gonz\u00e1lez",
+                    "middle": [],
+                    "last": "Alvarado",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Seyler",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "B\u00e4uerle",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Winkler",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Mol Neurosci",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s12031-020-01498-8"
+                ]
+            }
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Interferon-\u03b3 potentiates \u03b1-synuclein-induced neurotoxicity linked to toll-like receptors 2 and 3 and tumor necrosis factor-\u03b1 in murine astrocytes",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Walston",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Leng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Mol Neurobiol",
+            "volume": "56",
+            "issn": "",
+            "pages": "7664--79",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s12035-019-1567-5"
+                ]
+            }
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Immunology of west nile virus infection and the role of alpha-synuclein as a viral restriction factor",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lesteberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Beckham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Viral Immunol",
+            "volume": "32",
+            "issn": "",
+            "pages": "38--47",
+            "other_ids": {
+                "DOI": [
+                    "10.1089/vim.2018.0075"
+                ]
+            }
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "Alpha-synuclein, a novel viral restriction factor hiding in plain sight",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Massey",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Beckham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "DNA Cell Biol",
+            "volume": "35",
+            "issn": "",
+            "pages": "643--648",
+            "other_ids": {
+                "DOI": [
+                    "10.1089/dna.2016.3488"
+                ]
+            }
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "Alpha-synuclein expression restricts RNA viral infections in the brain",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Beatman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Massey",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Shives",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Burrack",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chamanian",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Morrison",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Virol",
+            "volume": "90",
+            "issn": "",
+            "pages": "2767--82",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.02949-15"
+                ]
+            }
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "Alpha synuclein in hematopoiesis and immunity",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Pei",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Maitta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Heliyon",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.heliyon.2019.e02590"
+                ]
+            }
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "Alpha-synuclein oligomers impair memory through glial cell activation and via Toll-like receptor 2",
+            "authors": [
+                {
+                    "first": "La",
+                    "middle": [],
+                    "last": "Vitola",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Balducci",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Cerovic",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Santamaria",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Brandi",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Grandi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Brain Behav Immun",
+            "volume": "69",
+            "issn": "",
+            "pages": "591--602",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bbi.2018.02.012"
+                ]
+            }
+        },
+        "BIBREF78": {
+            "ref_id": "b78",
+            "title": "Humoral cross reactivity between \u03b1-synuclein and herpes simplex-1 epitope in Parkinson's disease, a triggering role in the disease?",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Caggiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Paulus",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Arru",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Piredda",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sechi",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Pietro",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sechi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Neuroimmunol",
+            "volume": "291",
+            "issn": "",
+            "pages": "110--114",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jneuroim.2016.01.007"
+                ]
+            }
+        },
+        "BIBREF79": {
+            "ref_id": "b79",
+            "title": "Neurodegenerative disease and the neuroimmune axis (Alzheimer's and Parkinson's disease, and viral infections)",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ringheim",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Conant",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Neuroimmunol",
+            "volume": "147",
+            "issn": "",
+            "pages": "43--52",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jneuroim.2003.10.013"
+                ]
+            }
+        },
+        "BIBREF80": {
+            "ref_id": "b80",
+            "title": "Peripheral inflammatory biomarkers and risk of Parkinson's disease",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "O&apos;reilly",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Schwarzschild",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ascherio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Am J Epidemiol",
+            "volume": "167",
+            "issn": "",
+            "pages": "90--95",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/aje/kwm260"
+                ]
+            }
+        },
+        "BIBREF81": {
+            "ref_id": "b81",
+            "title": "Transcriptome sequencing in a 6-hydroxydopamine rat model of Parkinson's disease",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Genes Genet Syst",
+            "volume": "94",
+            "issn": "",
+            "pages": "61--70",
+            "other_ids": {
+                "DOI": [
+                    "10.1266/ggs.18-00036"
+                ]
+            }
+        },
+        "BIBREF82": {
+            "ref_id": "b82",
+            "title": "Cerebrospinal fluid antibodies to coronavirus in patients with Parkinson's disease",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Fazzini",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fleming",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fahn",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "Mov Disord",
+            "volume": "7",
+            "issn": "",
+            "pages": "153--161",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/mds.870070210"
+                ]
+            }
+        },
+        "BIBREF83": {
+            "ref_id": "b83",
+            "title": "The covid-19 pandemic and otolaryngology: what it comes down to?",
+            "authors": [
+                {
+                    "first": "J-C",
+                    "middle": [],
+                    "last": "L\u00fcers",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Klu\u00dfmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Guntinas-Lichius",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Laryngorhinootologie",
+            "volume": "99",
+            "issn": "",
+            "pages": "287--91",
+            "other_ids": {
+                "DOI": [
+                    "10.1055/a-1095-2344"
+                ]
+            }
+        },
+        "BIBREF84": {
+            "ref_id": "b84",
+            "title": "COVID-19: gastrointestinal manifestations and potential fecal-oral transmission",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gastroenterology",
+            "volume": "158",
+            "issn": "",
+            "pages": "1518--1527",
+            "other_ids": {
+                "DOI": [
+                    "10.1053/j.gastro.2020.02.054"
+                ]
+            }
+        },
+        "BIBREF85": {
+            "ref_id": "b85",
+            "title": "Gut microbiota are related to Parkinson's disease and clinical phenotype",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Scheperjans",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Aho",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pab",
+                    "middle": [],
+                    "last": "Pereira",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Koskinen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Paulin",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Pekkonen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Mov Disord",
+            "volume": "30",
+            "issn": "",
+            "pages": "350--358",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/mds.26069"
+                ]
+            }
+        },
+        "BIBREF86": {
+            "ref_id": "b86",
+            "title": "Anosmia and ageusia in Parkinson's disease",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tarakad",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jankovic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Int Rev Neurobiol",
+            "volume": "133",
+            "issn": "",
+            "pages": "541--56",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/bs.irn.2017.05.028"
+                ]
+            }
+        },
+        "BIBREF87": {
+            "ref_id": "b87",
+            "title": "Identifying prodromal parkinson's disease: pre-motor disorders in Parkinson's disease",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Postuma",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Aarsland",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Barone",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Burn",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hawkes",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Oertel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Mov Disord",
+            "volume": "27",
+            "issn": "",
+            "pages": "617--643",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/mds.24996"
+                ]
+            }
+        }
+    },
+    "ref_entries": {},
+    "back_matter": [
+        {
+            "text": "We would like to acknowledge the contributions of specific colleagues, institutions, or agencies that aided the efforts of the authors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGMENTS"
+        },
+        {
+            "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.Copyright \u00a9 2020 Chan\u00e1-Cuevas, Salles-G\u00e1ndara, Rojas-Fernandez, Salinas-Rebolledo and Mil\u00e1n-Sol\u00e9. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of Interest:"
+        }
+    ]
+}

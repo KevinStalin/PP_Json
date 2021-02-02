@@ -1,0 +1,890 @@
+{
+    "paper_id": "0a5328441fd989c92588693ab4efe67430eb42d3",
+    "metadata": {
+        "title": "LETTERS Respiratory Mechanics and Gas Exchange in COVID-19-associated Respiratory Failure",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "The coronavirus disease (COVID-19) pandemic has dramatically increased the number of patients requiring mechanical ventilation for respiratory failure. Several case series with data on ventilator variables from small cohorts have been reported (1-4). However, differences in respiratory mechanics between those with early mortality and successful extubation have not been explored. In this study, we report physiologic and clinical information from a large group of patients with COVID-19 during the first week of mechanical ventilation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "This single center cohort study of patients with COVID-19, with a positive RT-PCR for severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), treated with mechanical ventilation was performed at New York Presbyterian Hospital-Weill Cornell Medicine from March 1st, 2020 through April 20th, 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Care of the patients was at the discretion of the treating intensivists. Daily briefings were held with critical care leadership to inform best practices as patient load increased. Volumecontrolled ventilation was suggested as first choice with a target tidal volume of 6-8 cc/kg of ideal body weight and a plateau pressure <30 cm H 2 O (5). Positive end-expiratory pressure (PEEP) was selected by the treating physicians. Neuromuscular blockade was suggested for patients with severe hypoxemia or ongoing ventilator dyssynchrony. Prone positioning was suggested if the partial pressure of O 2 :fraction of inspired O 2 (P:F) ratio remained under 150 despite optimization of ventilator settings over the first 48 hours. Pressure-targeted ventilation was considered if patients experienced dyssynchrony when sedation was weaned.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "We extracted demographic and chest X-ray findings at baseline. Data were extracted from the electronic medical record from Days 1, 3, and 7 of mechanical ventilation. Set fraction of inspired oxygen, plateau pressure, extrinsic PEEP, set tidal volume, and minute ventilation were recorded. In patients treated with pressure-targeted ventilation, the distending pressure was used to estimate a plateau pressure. Volumetric capnography was not available; therefore, a surrogate of dead space, called the ventilatory ratio, was used (6) . The ventilatory ratio is an independent predictor of survival in acute respiratory distress syndrome (ARDS) (6, 7) . We compared the distributions of each individual parameter at Days 1 and 3 between those who remained intubated, those successfully extubated, and those who died. We also examined changes over the three time points across the total cohort. We compared the distributions of each individual variable using nonparametric Kruskal-Wallis tests, with a false discovery rate correction for multiple testing. All analyses were performed using R (version 3.6.3; R Foundation for Statistical Computing, https://www.R-project.org/). The study was approved by the Institutional Review Board at Weill Cornell Medicine with a waiver of informed consent (no. 20-04021909). Data are presented as median (interquartile range). Table 1 summarizes demographics, comorbidities, and intensive care unit treatments for this cohort. A total of 267 patients had ventilator data available. The median age was 66 (54-74) years, and men made up 72% of the cohort. Bilateral infiltrates were present on the first available chest film in 86% of patients. A total of 108 (40%) patients was treated with prone positioning, and 161 (60%) patients were treated with neuromuscular blockade during the course of mechanical ventilation. During the observed time period, 77 patients were successfully extubated and 49 died. Among the 140 remaining intubated, the median duration of mechanical ventilation was 18 (14-24) days.",
+            "cite_spans": [
+                {
+                    "start": 530,
+                    "end": 533,
+                    "text": "(6)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 644,
+                    "end": 647,
+                    "text": "(6,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 648,
+                    "end": 650,
+                    "text": "7)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1363,
+                    "end": 1370,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Methods"
+        },
+        {
+            "text": "Ventilator variables for the cohort are summarized in Table 2 . On Day 1, the median P:F ratio was 103 (82-134). This increased modestly over the first 7 days. The median plateau pressure was 25 (21-29) cm/H 2 O on Day 1 and remained constant. The median tidal volumes were 7.01 (6.13, 8.10) ml/kg of ideal body weight on Day 1, and decreased over the observed period. The median driving pressure was 14.0 (11.0-17.2) cm/H 2 O, and decreased. The median extrinsic PEEP was 10 (8-12) cm/H 2 O, and increased. The median static compliance was 28 (23-38) ml/cm H 2 O, and remained constant. The median ventilatory ratio was 1.79 (1.47-2.27), and increased over the observed period. Table 3 displays differences in ventilator variables between those who remained intubated, those successfully extubated, and those who died. There were no differences in any ventilator variables observed on Day 1 in any group. However, on Day 3, the minute ventilation was higher in those who died compared with the other groups (corrected q , 0.001). On Day 3 there was a trend for higher ventilator ratio (corrected q = 0.086) and a lower P:F ratio (corrected q = 0.086) in those who died compared with those who remain intubated or were extubated.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 54,
+                    "end": 61,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 679,
+                    "end": 686,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "This study of 267 patients demonstrates that respiratory failure related to COVID-19 meets the criteria for moderate to severe ARDS, given the initial median P:F ratio of 103. These data compliment other early reports (1, 4, 8) . There was also a high use of rescue therapies, such as prone positioning and a prolonged duration of mechanical ventilation. This severe morbidity occurred despite the use of a lung-protective ventilation strategy, as evidenced by the median plateau pressures and tidal volume.",
+            "cite_spans": [
+                {
+                    "start": 222,
+                    "end": 224,
+                    "text": "4,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 225,
+                    "end": 227,
+                    "text": "8)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "An important question is whether or not COVID-19 is a distinct form of ARDS that requires a different treatment strategy (9) . Importantly, ARDS is not a single disease. Rather, patients with ARDS have diverse pathology, and the syndrome's definition is used to identify eligibility for therapeutic trials. In this cohort, the baseline extrinsic PEEP, driving pressure, and static compliance were similar to ARDS Network trials, and the recent worldwide observational study, LUNGSAFE (Large observational study to UNderstand the Global impact of Severe Acute respiratory FailurE) (10) (11) (12) . However, the variability of the respiratory compliance is considerable, as 25% of patients have a compliance greater than 38 ml/cm H 2 O, which suggests significant heterogeneity. The duration of mechanical ventilation was prolonged in those that remained intubated, which is longer than in other studies of ARDS (10). Surprisingly, there were no observed differences between those with early mortality compared with those that remained intubated or were successfully extubated in this cohort. However, on Day 3, increasing minute ventilation and ventilatory ratio were seen in those who died, along with a P:F ratio that failed to improve. These findings suggest the potential for differential patient trajectories within this disease.",
+            "cite_spans": [
+                {
+                    "start": 121,
+                    "end": 124,
+                    "text": "(9)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 580,
+                    "end": 584,
+                    "text": "(10)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 585,
+                    "end": 589,
+                    "text": "(11)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 590,
+                    "end": 594,
+                    "text": "(12)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "There are a number of limitations of our study. First, the three time points of our study are only snapshots of the dynamic nature of COVID-19 respiratory failure. Moreover, the majority of patients in this cohort were still receiving mechanical ventilation at the time of this analysis. A more definitive comparison of COVID-19 respiratory failure with other forms of ARDS would require rigorous comparison with a contemporary control group. Our analysis of respiratory system compliance does not account for the effects of PEEP titration. Moreover, we lack volumetric capnography, and therefore cannot assess the effects of metabolic rate on gas exchange. We would expect that metabolic rate would vary greatly during fever and neuromuscular blockade (13) . A more complete characterization of gas exchange in COVID-19 would require direct measurement of the dead space and shunt fraction. Another limitation of our study is the incomplete standardization of ventilator practice without the use of a formal PEEP titration table.",
+            "cite_spans": [
+                {
+                    "start": 753,
+                    "end": 757,
+                    "text": "(13)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Conclusions. Patients in this cohort of COVID-19 respiratory failure meet criteria for moderate to severe ARDS, and had baseline respiratory mechanics that were comparable to those in patients enrolled in prior therapeutic trials and observational studies of ARDS. Baseline respiratory mechanics were not different between those who died and those extubated or who remained intubated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Differences in these groups developed over time, suggesting differential trajectories of COVID-19-associated respiratory failure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Author disclosures are available with the text of this letter at www.atsjournals.org. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Ventilatory ratio in hypercapnic mechanically ventilated patients with COVID-19-associated acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "201",
+            "issn": "",
+            "pages": "1297--1299",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "COVID-19 does not lead to a \"typical\" acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gattinoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Coppola",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cressoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Busana",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rossi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Chiumello",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "201",
+            "issn": "",
+            "pages": "1299--1300",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Respiratory pathophysiology of mechanically ventilated patients with COVID-19: a cohort study",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Ziehr",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Alladina",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Petri",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Maley",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Moskowitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Medoff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1164/rccm.202004-1163LE"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Fifty years of research in ARDS: respiratory mechanics in acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Henderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mbp",
+                    "middle": [],
+                    "last": "Amato",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Brochard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "196",
+            "issn": "",
+            "pages": "822--833",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Ventilatory ratio: a simple bedside measure of ventilation",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sinha",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Fauvel",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Soni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Br J Anaesth",
+            "volume": "102",
+            "issn": "",
+            "pages": "692--697",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Physiologic analysis and clinical performance of the ventilatory ratio in acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sinha",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Calfee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Beitler",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Soni",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Matthay",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "199",
+            "issn": "",
+            "pages": "333--341",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "COVID-19 Lombardy ICU Network. Baseline characteristics and outcomes of 1591 patients infected with SARS-CoV-2 admitted to ICUs of the Lombardy Region",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Grasselli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zangrillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zanella",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Antonelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cabrini",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Castelli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "",
+            "pages": "1574--1581",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Management of COVID-19 respiratory distress",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Marini",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gattinoni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "LUNG SAFE Investigators; ESICM Trials Group. Epidemiology, patterns of care, and mortality for patients with acute respiratory distress syndrome in intensive care units in 50 countries",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bellani",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Laffey",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Pham",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fan",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Brochard",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Esteban",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "JAMA",
+            "volume": "315",
+            "issn": "",
+            "pages": "788--800",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "National Heart, Lung, and Blood Institute PETAL Clinical Trials Network. Early neuromuscular blockade in the acute respiratory distress syndrome: reply",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Moss",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ulysse",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Angus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "381",
+            "issn": "",
+            "pages": "787--788",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Acute Respiratory Distress Syndrome Network. Ventilation with lower tidal volumes as compared with traditional tidal volumes for acute lung injury and the acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Brower",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Matthay",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Morris",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Schoenfeld",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wheeler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "N Engl J Med",
+            "volume": "342",
+            "issn": "",
+            "pages": "1301--1308",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The effect of mechanical ventilation on oxygen consumption in critically ill patients",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Manthous",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kushner",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Schmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Russo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Wood",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "151",
+            "issn": "",
+            "pages": "210--214",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "yr, mean (SD)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Driving pressure cm H 2 O, median (IQR)",
+            "authors": [],
+            "year": null,
+            "venue": "PEEP",
+            "volume": "",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Pa O 2 /FI O 2 , mm Hg, mean (SD)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Compliance, ml/cm H 2 O, mean (SD) 48.96 (24.45) Severity CT, %, median (IQR) 62.5 (50-75) Nonfocal morphology, n (%)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "30--78",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Definition of abbreviations: CT = computed tomography",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "FI O 2 = fraction of inspired oxygen",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Pa O 2 = arterial oxygen tension",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "PEEP = positive end-expiratory pressure",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "SD = standard deviation",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "This article is open access and distributed under the terms of the Creative Commons Attribution Non-Commercial No Derivatives License",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Definition of abbreviations: BMI = body mass index; CAD = coronary artery disease; CVA = cerebral vascular accident; DM = diabetes mellitus; ED = emergency department; HTN = hypertension; ICU = intensive care unit; IQR = interquartile range; IVIG = intravenous immunoglubulin; NSAID = nonsteroidal antiinflammatory drug. This article is open access and distributed under the terms of the Creative Commons Attribution Non-Commercial No Derivatives License 4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/). For commercial usage and reprints please contact Diane Gern (dgern@thoracic.org). Supported in part by U.S. National Institutes of Health (NIH) grant UL1 TR000457, and by NIH/National Center for Advancing Translational Sciences grant KL2-TR-002385 (J.C.). Author Contributions: Concept and design-E.J.S., F.J.M., and D.A.B. Analysis and interpretation-E.J.S., K.H., P.G., and J.C. Drafting of the manuscript-E.J.S., P.G., J.C., L.T., K.R., C.W.T., N.I., F.J.M., and D.A.B.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "1.79 (1.47-2.27) 1.91 (1.55-2.39) 2.08 (1.71-2.52) ,0.001 ,0.001 Definition of abbreviations: FI O 2 = fraction of inspired oxygen; Pa O 2 = arterial oxygen pressure; PCO 2 = partial pressure of carbon dioxide; PEEP = positive endexpiratory pressure. *Data presented as median (interquartile range). \u2020 Statistical test: Kruskal-Wallis. \u2021 False discovery rate correction for multiple testing.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Patient characteristics at hospital presentation (n = 267)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Respiratory variables on Days 1, 3, and 7 of mechanical ventilation",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Respiratory variables on Days 1 and 3 between those who remain intubated, those extubated, and those who died Definition of abbreviations: FI O 2 = fraction of inspired oxygen; Pa CO 2 = arterial carbon dioxide pressure; Pa O 2 = arterial oxygen pressure; PEEP = positive endexpiratory pressure. *Statistical test: Kruskal-Wallis. \u2020 False discovery rate correction for multiple testing. \u2021 Data presented as median (interquartile range).",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors thank all of the nurses, respiratory therapists, and physicians who courageously expanded their roles during this surge. This work was made possible through data provided by the ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgment:"
+        },
+        {
+            "text": "To the Editor:Guidance on the best provision of care for patients with coronavirus disease (COVID-19) is urgently needed. Recently a strong argument in defense of an evidence-based approach was made in AnnalsATS (1), and we fully support the given line of reasoning. Most patients in the intensive care unit (ICU) with severe COVID-19 meet the criteria for acute respiratory distress syndrome (ARDS), and proven therapies for ARDS not related to COVID-19 are likely effective in these patients as well. However, ARDS is known to be a heterogeneous syndrome. Over the past decade, several biological, physiological, and morphological subphenotypes have been identified that may predict treatment effects and can be used as treatable traits (2) . For example, patients with a focal lung morphology seem to respond better to prone positioning, but their lungs are not as recruitable as those of patients with a nonfocal lung morphology (3).It has been postulated that patients with COVID-19-related ARDS can develop typical ARDS (recently called \"H type,\" characterized by high elastance, high shunt, and high lung weight) or have an atypical presentation (recently called \"L type,\" characterized by low elastance, low shunt, and low lung weight) (4). As with the abovementioned morphological subphenotypes, some investigators have speculated that these subphenotypes require different ventilator strategies. Patients with H-type ARDS may benefit from lower tidal volumes and higher positive end-expiratory pressure (PEEP), and patients with L-type ARDS may benefit from higher tidal volumes and lower PEEP (5) .Several steps have to be taken before subphenotypedirected treatment can be implemented in clinical practice (6) . The ultimate test would be a head-to-head comparison of subphenotype-directed treatment with standard of care in a randomized controlled trial. But before this step can be considered, it is important to validate the basic assumptions underlying the subclassification of patients. We hypothesized that patients with a low elastance (i.e., with a high respiratory system ",
+            "cite_spans": [
+                {
+                    "start": 739,
+                    "end": 742,
+                    "text": "(2)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1604,
+                    "end": 1607,
+                    "text": "(5)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1718,
+                    "end": 1721,
+                    "text": "(6)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Subphenotyping Acute Respiratory Distress Syndrome in Patients with COVID-19: Consequences for Ventilator Management"
+        }
+    ]
+}

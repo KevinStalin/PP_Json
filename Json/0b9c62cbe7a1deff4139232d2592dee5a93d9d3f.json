@@ -1,0 +1,414 @@
+{
+    "paper_id": "0b9c62cbe7a1deff4139232d2592dee5a93d9d3f",
+    "metadata": {
+        "title": "Research and repair: expanding exceptions to patent infringement in response to a pandemic",
+        "authors": [
+            {
+                "first": "Jorge",
+                "middle": [
+                    "L"
+                ],
+                "last": "Contreras",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Utah",
+                    "location": {}
+                },
+                "email": "correspondingauthor.e-mail:jorge.contreras@law.utah.edu"
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "criticisms of the system. 2 This essay does not attempt to address every patent law issue raised by the coronavirus pandemic, of which there are many. Rather, it focuses on two discrete areas of patent law through the lens of the current crisis and considers how we might adjust existing doctrine knowing what we know today.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The doctrinal areas on which this essay focuses are two long-standing but narrow exemptions from patent infringement: one that permits scientific research and one that permits the owner of a patented device to repair it. Though distinct at first glance, both of these doctrines permit activity that would otherwise be considered patent infringement. They are exceptions to the exclusivity that the law grants to patent holders-particularly the right to 'make' a patented article and, to a lesser degree, to 'use' it-and for this reason they are particularly salient when patents may impact critical lifesaving technologies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "This essay recommends broadening the scope of the research exemption to cover a larger range of research activities conducted prior to the release of a commercial product and recognizing the right of an owner of a patented product to make, or have made, replacement parts for that product, even if those parts may be covered by the claims of a patent or cross the line of 'reconstruction' under current law. The implementation of these adjustments, conceived in light of the current coronavirus pandemic, could facilitate increased research, development, and the use of patented technologies and better prepare the United States to deal with the next great public health crisis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In the United States, the so-called research exemption to patent infringement (sometimes referred to as the experimental use defense 3 ) originated in the venerable 1813 case Whittemore v. Cutter, 4 in which Justice Joseph Story, sitting by designation, wrote that a patent on a machine is not infringed by someone who constructs the machine 'merely for philosophical experiments or for the purpose of ascertaining the sufficiency of the machine to produce its described effects.' In effect, Justice Story evokes the gentleman tinkerer-the enlightenment natural philosopher who, rather than hunting or riding, amuses himself with homemade scientific experiments and sometimes chances upon an important discovery. 5",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "THE RESEARCH EXEMPTION"
+        },
+        {
+            "text": "Over the years, the scope of this exemption has waxed and waned, often reaching well beyond the idea of the gentleman tinkerer to encompass much experimental activity conducted by universities and nonprofit research institutions. 6 By the end of the twentieth century, there was a general understanding that most academic research, unless expressly conducted under contract for a commercial entity, would be immunized from patent infringement under the research exemption.",
+            "cite_spans": [
+                {
+                    "start": 230,
+                    "end": 231,
+                    "text": "6",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "THE RESEARCH EXEMPTION"
+        },
+        {
+            "text": "But in 2002, the research exemption in the United States experienced a significant contraction. In Madey v. Duke, 7 Duke University continued to use experimental laser equipment developed by Dr. John Madey, a former Duke researcher who held patents covering the equipment. 8 Dr. Madey sued Duke for infringement, but the district court granted summary judgment in favor of Duke. In so doing, it held that Madey failed to raise any genuine issue of material fact that would tend to refute the application of the research exemption to Duke, an institution whose 'primary purpose is to teach, research and expand knowledge.' 9 Madey's burden, in the view of the district court, was to prove that Duke's use of the patented equipment 'had definite, cognizable, and not insubstantial commercial purposes.' 10 The Federal Circuit disagreed on appeal. First, it held that the burden of proof in the case of the research exemption was not the patent holder's but the alleged infringer's. In order to be excused from infringement under the research exemption, Duke had to show that its activities were conducted 'solely for amusement, to satisfy idle curiosity, or for strictly philosophical inquiry.' 11 Under this standard, most research projects at Duke would not qualify for the research exemption, as they 'unmistakably further the institution's legitimate business objectives, including educating and enlightening students and faculty participating in these projects [,] increase the status of the institution and lure lucrative research grants, students and faculty.' 12 Accordingly, few, if any, research activities conducted at universities today, even if they are not specifically funded by the private sector, would qualify for this exemption from patent infringement. 13 And by extension, it is probably safe to say that virtually no research conducted in the private sector would have the benefit of this exemption.",
+            "cite_spans": [
+                {
+                    "start": 801,
+                    "end": 803,
+                    "text": "10",
+                    "ref_id": null
+                },
+                {
+                    "start": 1464,
+                    "end": 1467,
+                    "text": "[,]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1771,
+                    "end": 1773,
+                    "text": "13",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "THE RESEARCH EXEMPTION"
+        },
+        {
+            "text": "A second US research exemption, however, arises under the 1984 Drug Price Competition and Patent Term Restoration Act (commonly known as the Hatch-Waxman Act), 14 which provides mechanisms for the introduction of generic drug competition once the patents on an FDA-approved drug have expired. In particular, \u00a7 271(e)(1) of the Act provides that: It shall not be an act of infringement to make, use, offer to sell, or sell within the United States or import into the United States a patented invention . . . solely for uses reasonably related to the development and submission of information under a Federal law which regulates the manufacture, use, or sale of drugs or veterinary biological products. 15 This provision creates a safe harbor for research and experimentation with drugs (including medical devices) conducted in anticipation of an application for FDA approval. The provision was created in order to allow generic drug manufacturers to begin testing their products during the last years of a drug patent's life without infringing that patent, but it has been expanded through judicial interpretation to encompass a wide variety of drug-related R&D activity. Thus, in Merck v. Integra, 16 the Supreme Court indicated that, in addition to clinical trials, preclinical testing of drug candidates-even candidates that are eventually rejected-may be protected under the \u00a7 271(e)(1) safe harbor. Justice Scalia, writing for the Court, explained that the statute gives 'wide berth for the use of patented drugs in activities related to the federal regulatory process.' 17 What does this mean for coronavirus and other urgent biomedical research? First, the Hatch-Waxman safe harbor under \u00a7 271(e)(1) could protect a significant swath of R&D relating to diagnostics, vaccines, and therapeutics, so long as the resulting information might eventually be submitted to the FDA. Second, to the extent that FDA approval is not required for the manufacture or sale of certain technologies (eg drugs and devices that have already received FDA approval, 18 laboratory-developed diagnostic tests, 19 mobile software apps, 20 etc.), this may be an opportunity for the courts, and the Federal Circuit in particular, to rethink the narrow formulation of the research exemption as currently stated in Madey v. Duke along the lines of the Supreme Court's more expansive interpretation of \u00a7 271(e)(1). 21 That is, research activities should be immunized from patent infringement to the extent that they do not involve the manufacture of products for commercial sale or their use in a commercial setting. 15 ",
+            "cite_spans": [
+                {
+                    "start": 701,
+                    "end": 703,
+                    "text": "15",
+                    "ref_id": null
+                },
+                {
+                    "start": 1575,
+                    "end": 1577,
+                    "text": "17",
+                    "ref_id": null
+                },
+                {
+                    "start": 2391,
+                    "end": 2393,
+                    "text": "21",
+                    "ref_id": null
+                },
+                {
+                    "start": 2593,
+                    "end": 2595,
+                    "text": "15",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "THE RESEARCH EXEMPTION"
+        },
+        {
+            "text": "In March, 2020, two engineers in Brescia, Italy, used a desktop 3D printer to fabricate replacement valves for more than 100 ventilator machines being used to treat coronavirus patients at a local hospital. 23 There is some debate about what happened next, but early news reports indicated that a parts manufacturer threatened to sue the engineers for infringing patents on the replacement valve. 24 While the existence of the threat and the patents themselves remains murky, the incident sparked a flurry of legal commentary regarding the risk that volunteers fabricating parts for lifesaving devices, and the hospitals that use them could be liable for patent infringement. 25 Under US law, the owner of a patented device has the right to repair that device so as to preserve its useful life. 26 The recognition of this 'right to repair' can be traced to the 1850 Supreme Court decision in Wilson v. Simpson, 27 in which the Court 'distinguished the right of a purchaser of a patented planing machine to replace the machine's cutting-knives when they became dull or broken, from the patentee's sole right to make or renew the entire machine.' 28 The right to repair concept has been recognized in numerous recent cases, including some relating to medical devices. 29 However, the right to repair does not permit the owner of a patented device to 'reconstruct' that device in whole or in substantial part. 30 Reconstruction, as opposed to mere repair, represents a 'second creation of the patented entity' and thus infringes 22 One ancillary result of expanding the research exemption in this manner could be the reduction of so-called reach-through royalties imposed by the holders of patents covering research tools. That is, if researchers are not required to enter into patent license agreements in order to practice certain research techniques (eg PCR, CRISPR, etc.), then the holders of patents on those techniques will lack a contractual vehicle with which to impose royalties on revenue generated by downstream users of discoveries made using such research tools. the exclusive right of the patent holder to 'make' the device. 31 In distinguishing between permitted repair and prohibited reconstruction, courts weigh 'the remaining useful capacity of the article, and the nature and role of the replaced parts in achieving that useful capacity.' 32 Thus, if the owner of a patented device creates new patented parts to extend the life of the device beyond its anticipated life span, this would likely constitute impermissible reconstruction, whereas if the owner simply fixes a defect in an existing part or replaces it with an unpatented part, during the normal lifetime of the device, this would likely constitute permissible repair.",
+            "cite_spans": [
+                {
+                    "start": 207,
+                    "end": 209,
+                    "text": "23",
+                    "ref_id": null
+                },
+                {
+                    "start": 397,
+                    "end": 399,
+                    "text": "24",
+                    "ref_id": null
+                },
+                {
+                    "start": 676,
+                    "end": 678,
+                    "text": "25",
+                    "ref_id": null
+                },
+                {
+                    "start": 795,
+                    "end": 797,
+                    "text": "26",
+                    "ref_id": null
+                },
+                {
+                    "start": 1266,
+                    "end": 1268,
+                    "text": "29",
+                    "ref_id": null
+                },
+                {
+                    "start": 1407,
+                    "end": 1409,
+                    "text": "30",
+                    "ref_id": null
+                },
+                {
+                    "start": 2136,
+                    "end": 2138,
+                    "text": "31",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 2355,
+                    "end": 2357,
+                    "text": "32",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RIGHT TO REPAIR"
+        },
+        {
+            "text": "What, then, about 3D printed replacement valves for ventilator devices? 3D printing technology gives consumers an inexpensive way to fabricate replacement parts for complex mechanical devices that were previously available only from specialized manufacturers. 33 Should it matter that a particular ventilator is past the end of its normal product life span or that the design of the valve in question is covered by the claims of a patent? The implications of 3D printing technology on the patent law right of repair have been recognized in the literature for some time. 34 Yet these discussions have been largely hypothetical. With the emergence of coronavirus and the sudden surge in global demand for ventilators and other medical equipment, the doctrine is likely to receive renewed attention. This is particularly the case if replacement parts made using 3D printing technology are themselves covered by patent claims (as may have been the case with the Italian ventilator parts discussed above).",
+            "cite_spans": [
+                {
+                    "start": 260,
+                    "end": 262,
+                    "text": "33",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 570,
+                    "end": 572,
+                    "text": "34",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RIGHT TO REPAIR"
+        },
+        {
+            "text": "In an effort to reduce household waste, in 2019 the European Union adopted 'right to repair' regulations for a number of appliances including televisions, washing machines, dishwashers, and refrigerators. 35 The regulations require that manufacturers make spare parts for these appliances available for installation by independent service providers for at least 10 years following the date of purchase. The EU has recently considered expanding this regulation to smartphones and other electronic equipment. 36 Similar legislation has recently been proposed in the US state of Maryland. 37 But like the EU rules, these do not address the patent law issues arising from the fabrication of new parts by 3D printing or otherwise.",
+            "cite_spans": [
+                {
+                    "start": 205,
+                    "end": 207,
+                    "text": "35",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 507,
+                    "end": 509,
+                    "text": "36",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 586,
+                    "end": 588,
+                    "text": "37",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RIGHT TO REPAIR"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Convertible Top Replacement Co",
+            "authors": [
+                {
+                    "first": "Aro Manufacturing",
+                    "middle": [],
+                    "last": "Co",
+                    "suffix": ""
+                }
+            ],
+            "year": 1961,
+            "venue": "",
+            "volume": "336",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Jazz Photo, 264 F.3d",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "News reports claim that the ventilator valves fabricated in Italy for a cost of about 1 Euro each were previously sold by the manufacturer for 10,000 Euro each. Peters, supra note 25",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The Challenges Of 3D Printing to the Repair-Reconstruction Doctrine In Patent Law",
+            "authors": [
+                {
+                    "first": "Kelsey",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "See",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wilbanks",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Marc D. Mimler, 3D printing and patent law-a UK perspective: apt and ready? in 3D Printing and Beyond-Intellectual Property and Regulation",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tesh",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Dagne &amp; Gosia Piasecka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "14 Canadian J. L. & Tech",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Regulation laying down ecodesign requirements",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Eur",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Comm&apos;n",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "EU brings in 'right to repair' rules for appliances",
+            "authors": [
+                {
+                    "first": "See",
+                    "middle": [],
+                    "last": "Roger Harrabin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Maryland Suddenly Looks Like it Might Break John Deere's Repair Monopoly, Vice.com",
+            "authors": [
+                {
+                    "first": "Matthew",
+                    "middle": [],
+                    "last": "Gault",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "35 U.S.C. \u00a7 271(e)(1). 16 Merck KGAA v. Integra Lifesciences I, Ltd., 545 U.S. 193 (2005). 17 Id. at x. For a good discussion, see Alicia A. Russo & Jason Johnson, Research Use Exemptions to Patent Infringement for Drug Discovery and Development in the United States, 2015 Cold Spring Harbor Perspectives in Med. 5:a020933 (2015). 18 U.S. Food & Drug Admin., Enforcement Policy for Ventilators and Accessories and Other Respiratory Devices During the Coronavirus Disease 2019 (COVID-19) Public Health Emergency-Guidance for Industry and Food and Drug Administration Staff (Mar. 2020). 19 See Jonathan R Genzen, Regulation of Laboratory-Developed Tests: A Clinical Laboratory Perspective, 152 Am. J. Clinical Pathology 122 (2019). 20 U.S. Food & Drug Admin., Policy for Device Software Functions and Mobile Medical Applications-Guidance for Industry and Food and Drug Administration Staff (Sept. 2019). 21 Another route to expansion of the research exemption might be statutory. See Noonan, supra note 14(proposing an amendment to the Bayh-Dole Act to permit academic researchers to experiment with patented inventions made using federal funding).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "See, eg Kendall Co. v. Progressive Med. Tech., Inc., 85 F.3d 1570 (Fed. Cir. 1996) (permitting replacement of pressure sleeve in a patented medical device as 'repair'). 30 See Sandvik Aktiebolag v. E.J. Co., 121 F.3d 669 (Fed. Cir. 1997) (making a new drill bit to replace a patented bit that could no longer be sharpened and reused constituted an infringing reconstruction of the patented article); Lummus Indus., Inc. v. D.M. E. Corp., 862 F.2d 267 (Fed. Cir. 1988) (finding that fabrication of new cutter wheels that formed a material part of the patented invention was reconstruction).",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Expanding exceptions to patent infringement in response to a pandemic \u2022 7 Two Canadian authors, anticipating some of these issues, have argued for an expansion of the repair right under Canadian patent law (which is similar in this respect to US law), proposing that: a consumer should be granted an all-encompassing legal right to repair and modify patentprotected items given three conditions: (1) the consumer legally purchased the original good; (2) the consumer uses the repaired or modified item for private purposes; and (3) the consumer gains no financial benefit from posting the repair or modification online for others. 38 This proposal is sweeping in scope, permitting all consumers to repair and modify patented articles for their personal use, no matter how extensive those repairs or modifications might be. 39 Whatever the merits of this proposal, addressing the issues raised by coronavirus need not go so far. Thus, an alternative, more modest, proposal might be to expand the patent law right to repair to permit the fabrication of replacement parts for patented articles to address pressing public health needs. Consideration of public health needs in fashioning an exemption from patent infringement resonates with the 'public interest' factor that is considered by courts when deciding whether to issue a permanent injunction against a patent infringer. 40 The expansion of the repair right proposed in this essay would stop short of eliminating a patent holder's ability to enforce its rights against all consumers but would at least permit the owners and users of patented equipment (including hospitals, suppliers, first responders, relief organizations, and volunteers) to eliminate this threat during a crisis.",
+            "cite_spans": [
+                {
+                    "start": 631,
+                    "end": 633,
+                    "text": "38",
+                    "ref_id": null
+                },
+                {
+                    "start": 823,
+                    "end": 825,
+                    "text": "39",
+                    "ref_id": null
+                },
+                {
+                    "start": 1376,
+                    "end": 1378,
+                    "text": "40",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "annex"
+        },
+        {
+            "text": "The two exceptions to patent infringement discussed in this essay-the research exemption and the right to repair-are each implicated in the coronavirus pandemic. Expanding these timeworn doctrines to address the urgent needs of the healthcare and biomedical sectors today could contribute to ending the current crisis and preparing for the next such crisis to emerge. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSION"
+        }
+    ]
+}

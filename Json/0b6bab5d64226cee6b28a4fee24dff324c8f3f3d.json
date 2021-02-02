@@ -1,0 +1,3703 @@
+{
+    "paper_id": "0b6bab5d64226cee6b28a4fee24dff324c8f3f3d",
+    "metadata": {
+        "title": "History of coronary heart disease increases the mortality rate of COVID-19 patients: a nested case-control study",
+        "authors": [
+            {
+                "first": "Tian",
+                "middle": [
+                    ";"
+                ],
+                "last": "Gu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Zhang-Sheng",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yu",
+                "middle": [
+                    ";"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Shanghai",
+                "middle": [],
+                "last": "Jiao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tian",
+                "middle": [],
+                "last": "Gu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Qiao",
+                "middle": [],
+                "last": "Chu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yu",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Botao",
+                "middle": [],
+                "last": "Fa",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shanghai Jiao Tong University",
+                    "location": {
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Anqi",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shanghai Jiao Tong University",
+                    "location": {
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lei",
+                "middle": [],
+                "last": "Xu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shanghai Jiao Tong University",
+                    "location": {
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ruijun",
+                "middle": [],
+                "last": "Wu",
+                "suffix": "",
+                "affiliation": {},
+                "email": "rjwu@re.ecnu.edu.cn."
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Affiliations",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [
+                    "Ruijun"
+                ],
+                "last": "Wu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Objective: Evaluate the risk of pre-existing comorbidities on COVID-19 mortality, and provide clinical suggestions accordingly. Setting: Confirmed cases reports released from news or national/provincial health/municipal commission of China Participants: Patients with confirmed SARS-CoV-2 infection in mainland China outside of Hubei Province. Outcome measures: Patient demographics, survival time and status, and history of comorbidities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Method: This study used a nested case-control design. A total of 94 publicly reported deaths were included as cases. Each case was matched with up to three controls, based on gender and age 1 year old (94 cases and 181 controls). Survival time was from symptom onset to \u00b1 death/end of study. The inverse probability weighted Cox proportional hazard model was used to evaluate the mortality risk of pre-existing comorbidities associated with survival time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results: History of comorbidities significantly increased the death risk of COVID-19: one additional pre-existing comorbidity led to an estimated 40% higher risk of death (p<0.001). The estimated mortality risk in patients with CHD was three times of those without CHD (p<0.001).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The estimated 30-day survival probability for a profile patient with pre-existing CHD (65-yearold female with no other comorbidities) was 0.53 (95% CI [0.34-0.82]), while it was 0.85 (95% CI [0.79-0.91]) for those without CHD. Older age was also associated with increased death risk: every 5-year increase in age was associated with a 20% increased risk of mortality (p<0.001).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Conclusion: Extra care and early medical intervention are needed for patients with pre-existing comorbidities, especially CHD.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Strengths: (i) The study used data outside of the epicenter of the outbreak in mainland China, which avoided the competing death risk caused by insufficient health care resources and revealed the true underlying impact of pre-existing comorbidities on mortality; (ii) we accounted for the confounding effects of death risk during analysis to provide accurate esimation, which were in general not considered in the existing literature; and (iii) the survival-time-related statistical results can help guide the early clinical intervention to reduce the mortality.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": ". Similarly, by conducting logistic regression on odds of in-hospital death among 54 diseased patients and 137 recovered patients in Wuhan City, Hubei Province, Zhou et al. [16] found that older age, higher Sequential Organ Failure Assessment (SOFA) score and d-dimer greater than 1ug/ml at hospital admission were associated with increased odds of in-hospital death. found that pre-existing hypertension and other cardiovascular complications were more common among diseased patients than recovered patients (unpublished data).",
+            "cite_spans": [
+                {
+                    "start": 173,
+                    "end": 177,
+                    "text": "[16]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "However, several gaps remain in the understanding of risk factors for mortality of COVID-19. First, most current research on pre-existing comorbidities of COVID-19 was based on univariate comparison, which did not account for important confounders such as age and gender [17] [18] [19] [20] . likely different inside and outside of Hubei Province, since current research has found that the clinical symptom severity [5] and the fatality-case rate [9, 21] to be higher in Hubei Province (the center of outbreak) than cities outside of Hubei Province in China. Fourth, no studies thus far have taken into account the pandemic stage when evaluating mortality risk factors. It has been found that average daily attack rate in China was different before and after January 11 th 2020, since non-pharmaceutical interventions were taken by the government before this date [22] . The change of pandemic stage may also influence the risk factors for fatality associated with COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 271,
+                    "end": 275,
+                    "text": "[17]",
+                    "ref_id": null
+                },
+                {
+                    "start": 276,
+                    "end": 280,
+                    "text": "[18]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 281,
+                    "end": 285,
+                    "text": "[19]",
+                    "ref_id": null
+                },
+                {
+                    "start": 286,
+                    "end": 290,
+                    "text": "[20]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 416,
+                    "end": 419,
+                    "text": "[5]",
+                    "ref_id": null
+                },
+                {
+                    "start": 447,
+                    "end": 450,
+                    "text": "[9,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 451,
+                    "end": 454,
+                    "text": "21]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 864,
+                    "end": 868,
+                    "text": "[22]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "To fill the above research gaps in the existing literature about the morality risk factors for COVID-19, the present study conducted a nested case-control (NCC) study, aiming to evaluate the risk of the common pre-existing comorbidities (hypertension, coronary heart disease, diabetes and etc.) for mortality associated with COVID-19 in mainland China outside of Hubei",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Province. NCC, also called risk set sampling, has been widely used in studying the fatal disease [23] [24] [25] [26] [27] [28] and risk prediction in pandemic influenza A (H1N1) 2009 (pH1N1) [29] . NCC is cost-effective in data collection, and is especially suitable for research on the death risk of diseases such as COVID-19, where the number of event-free people largely exceeds those who experienced events [30] . To attain this goal, we employed survival analysis on 275 publicly reported confirmed cases, adjusting for age, gender and the change in the pandemic stage in China (i.e., before and after January 11 th , 2020).",
+            "cite_spans": [
+                {
+                    "start": 97,
+                    "end": 101,
+                    "text": "[23]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 102,
+                    "end": 106,
+                    "text": "[24]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 107,
+                    "end": 111,
+                    "text": "[25]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 112,
+                    "end": 116,
+                    "text": "[26]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 117,
+                    "end": 121,
+                    "text": "[27]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 122,
+                    "end": 126,
+                    "text": "[28]",
+                    "ref_id": null
+                },
+                {
+                    "start": 191,
+                    "end": 195,
+                    "text": "[29]",
+                    "ref_id": null
+                },
+                {
+                    "start": 411,
+                    "end": 415,
+                    "text": "[30]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "This study performed survival analysis under a nested case-control (NCC) design to assess the roles of common comorbidities (cardiocerebrovascular, endocrine and respiratory disease, etc.) in predicting mortality for COVID-19, among patients in mainland China outside of Hubei Province. The study period was from December 18 th , 2019, when the first laboratoryconfirmed case was announced in China, till March 8 th , 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Method Study Design and Rationale"
+        },
+        {
+            "text": "The study cohort was defined as all the publicly reported confirmed COVID-19 patients outside of Hubei Province in mainland China between the study period. During this period, 112 deaths outside of Hubei Province were reported by the National Health Committee of China, and 18 were excluded from the present study due to missingness of important clinical information. A total of 408 publicly reported laboratory-confirmed COVID-19 cases (94 deaths and 314 survivors) were initially collected. The data collection procedure was blinded to patient comorbidity information. All deaths were included as cases, and each case was matched with up to three controls on gender and age 1 year old (94 cases and 181 controls). The sample \u00b1 distribution across all 32 province-level regions in mainland China is presented in Supplementary Table S1 . As illustrated in Figure 1 , the inclusion criterion was publicly reported COVID-19 patients who had complete information on basic demographics (age, gender and region), disease onset date--the first time a patient became symptomatic, and history of comorbidities (include but not limited to hypertension, cardiovascular disease, diabetes and respiratory diseases) were included in the analysis. Asymptomatic patients were not included in this study. In addition, we defined \"comorbidity-free patients\" as those who were specifically described as \"no pre-existing medical condition/comorbidity\" on the national/provincial/municipal health commission websites.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 813,
+                    "end": 835,
+                    "text": "Supplementary Table S1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 856,
+                    "end": 864,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "Method Study Design and Rationale"
+        },
+        {
+            "text": "In the following three steps, we used the No. 261 patient in the sample as an example to introduce the dynamic tracking method we used to identify any missing dates:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Collection Procedure"
+        },
+        {
+            "text": "Step 1. Conducting an internet search on confirmed cases on baidu.com, the largest search engine in China, using keywords \"confirmed COVID-19 cases report\" and \"pre-existing comorbidities.\" A search result pertained to one confirmed case reported on the website of Municipal Health Commission of Binzhou (Shandong Province) on February 17 th , described as \"the 15 th confirmed case: 30-year-old male without pre-existing morbidities, who lives in the neighborhood of Xincun Village. This patient was diagnosed positive on February 16 th and is being treated with precaution in Bincheng hospital.\" We recorded age, gender, region and comorbidity-free for this patient.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Collection Procedure"
+        },
+        {
+            "text": "Step 2. We then determined the onset date of this patient based on another announcement on the same website. In this announcement titled \"Possible exposure locations and times of the 15 th confirmed case,\" it says, \"the patient was symptomatic on February 14 th .\"",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Collection Procedure"
+        },
+        {
+            "text": "Step 3. Finally, we confirmed the event status of this patient as discharged on March 3 rd , by following the updates on this website.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Collection Procedure"
+        },
+        {
+            "text": "Analyses were performed in R 3.6.2 (R Foundation for Statistical Computing). Baseline clinical characteristics were shown as mean (SD), median (range), or number (%), with a comparison of characteristics in subjects stratified by case and control via t-test for continuous variables and chi-squared or Fisher's exact test for binary variables. In order to utilize the time-to-event information under the NCC design, the inverse probability weighting Cox proportional hazard regression model was employed [32] . The matching between cases and controls, and relative weights were simultaneously obtained via KMprob function in multipleNCC R package [31] , by specifying the Kaplan-Meier type weights with additional matching on gender and age 1 year old. Only survivors were assigned weights, \u00b1 since all cases (deaths) were included as designed with a weight of one. Those survivors with sampling probabilities of zero were considered as \"fail to match\" and excluded from the study.",
+            "cite_spans": [
+                {
+                    "start": 504,
+                    "end": 508,
+                    "text": "[32]",
+                    "ref_id": null
+                },
+                {
+                    "start": 647,
+                    "end": 651,
+                    "text": "[31]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "The total number of comorbidities was defined as the summation of comorbidities, ranging from zero to four or above. Kaplan-Meier curve was plotted to check the proportional hazard assumption and the Pearson correlation test was used to rule out the multicollinearity concern before fitting any model. Univariate weighted Cox models were performed for each comorbidity. The multivariate weighted Cox model was used to determine if pre-existing comorbidity yielded prognostic hazard information. We included those comorbidities that were marginally significant (p<0.1) in the univariate analysis to the multivariate model. Other than the common risk factors (age and gender), the multivariate model also adjusted for early period of pandemic (after vs. before January 11 th , 2020 when no-intervention was taken by the government) [22] . Although matching was based on age and gender, we adjusted for the matching covariates, since the matching was broken with inverse probability weighting Bold: statistically significant using threshold p<0.05.",
+            "cite_spans": [
+                {
+                    "start": 830,
+                    "end": 834,
+                    "text": "[22]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "Results of the Pearson correlation test showed no significant correlations among the presence of comorbidities of interest, and the assumption of the proportional hazard was not violated. year-old female without other comorbidities), the estimated median survival times for those with CHD was 34 days, while it was over 70 days for those without CHD (p<0.001). Third, older age was associated with increased death risk. Specifically, every 5-year increase in age was associated with a 20% increased risk of mortality (p<0.001).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Results"
+        },
+        {
+            "text": "To our best knowledge, the present study is the first to provide substantial statistical evidence to show the effect of CHD in predicting mortality for COVID-19. This result is consistent with previous studies that found higher case-fatality rate among patients with cardiovascular disease [9, 15] . It is worth pointing out that the existing studies [9, 16] that investigate prognostic factors for death used chi-square tests or univariate logistic regression that does not control for potential confounders. In contrast, by conducting weighted Cox proportional hazard regression models, our study used time-to-event outcomes, which offers more survival- 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 From the clinical point of view, early evaluation of patient medical history is necessary to implement early medical interventions and decrease the mortality risk. We suggest monitoring the dynamic heart rate for patients with pre-existing CHD. For those severe-symptomatic patients who had pre-existing heart ischemia and abnormal heart function, early medical intervention may be needed [41] . Furthermore, our results indicated that the hazard of COVID-19 death was significantly higher in patients at older ages. Adjusting for others, every 5-year increase in age was associated with a 22% increased risk of death, similarly to what was found in previous studies [8, 9, 16] . Alongside the evidence of prognostic risk in CHD, we suggest that extra care is needed for those with CHD, especially for elderly patients. One limitation of the present study lies in the nature of publicly reported data.",
+            "cite_spans": [
+                {
+                    "start": 290,
+                    "end": 293,
+                    "text": "[9,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 294,
+                    "end": 297,
+                    "text": "15]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 351,
+                    "end": 354,
+                    "text": "[9,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 355,
+                    "end": 358,
+                    "text": "16]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1271,
+                    "end": 1275,
+                    "text": "[41]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 1549,
+                    "end": 1552,
+                    "text": "[8,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1553,
+                    "end": 1555,
+                    "text": "9,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1556,
+                    "end": 1559,
+                    "text": "16]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 656,
+                    "end": 881,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Model Results"
+        },
+        {
+            "text": "Researchers have pointed out that severe cases may be over-represented in publicly reported data [45] . Nevertheless, we have managed to reduce the potential bias caused by severe case overrepresentation, through the appropriate matching between cases and controls in NCC design. The RW collected, pre-processed and managed data, and conducted preliminary data analysis. YH guided and supervised the research process, and provided funding support. All authors critically revised the manuscript for intellectual content, approved the final draft, and agree to accountability for all aspects of the work.",
+            "cite_spans": [
+                {
+                    "start": 97,
+                    "end": 101,
+                    "text": "[45]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Model Results"
+        },
+        {
+            "text": "The authors have no affiliations with or involvement in any organization or entity with any financial or non-financial interest in the subject matter or materials discussed in this manuscript. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of Interest"
+        },
+        {
+            "text": "The study was approved by Shanghai Jiao Tong University Public Health and Nursing",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethics Approval"
+        },
+        {
+            "text": "Medical Research Ethics Committee (SJUPN-202001).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethics Approval"
+        },
+        {
+            "text": "This study used publicly reported patient-level data. All data were available online to the public. No patient recruitment was involved in the study design, and no personal information can be identified from the data. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient and Public Involvement"
+        },
+        {
+            "text": "Raw data is available at https://github.com/GuTian-TianGu/COVID-19_NCCstudy.git. 43 Results: Of the 94 cases, the median age was 72.5 years old (IQR=16), and 59.6% were male, 44 while in the control group the median age was 67 years old (IQR=22) and 64.6% were male.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data sharing statement"
+        },
+        {
+            "text": "45 Adjusting for age, gender, and early period of outbreak, poor health conditions were associated 46 with a higher risk of COVID-19 mortality (HR of comorbidity score, 1.31 [95% CI: 1.11-1.54]; 47 p=0.001). The estimated mortality risk in patients with pre-existing CHD was three times of 48 those without CHD (p<0.001). The estimated 30-day survival probability for a profile patient 49 with pre-existing CHD (65-year-old female with no other comorbidities) was 0.53 (95% CI, 50 0.34-0.82), while it was 0.85 (95% CI, 0.79-0.91) for those without CHD. Older age was also 51 associated with increased death risk: every 1-year increase in age was associated with a 4% 52 increased risk of mortality (p<0.001). 89 Studies have indicated that severe cases tend to be older in age [6] , [8] and are more 90 likely to have had pre-existing medical conditions, including but not limited to hypertension [3], 91 [6] , [8] , diabetes [6] [8], cardiovascular diseases [3], [6] , [8] , [10] [11] [12] , cerebrovascular diseases 92 [6] , chronic obstructive pulmonary disease (COPD) [3], [8] , cancer [13] , and digestive diseases 93 [14] , in comparison to non-severe cases [3], [6] , [8] [9] [10] [11] [12] [13] [14] [15] . 166 patients were not included in this study. In addition, we defined \"comorbidity-free patients\" as 167 those who were specifically described as \"no pre-existing medical condition/comorbidity\" on the 168 national/provincial/municipal health commission websites.",
+            "cite_spans": [
+                {
+                    "start": 778,
+                    "end": 781,
+                    "text": "[6]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 784,
+                    "end": 787,
+                    "text": "[8]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 906,
+                    "end": 909,
+                    "text": "[6]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 912,
+                    "end": 915,
+                    "text": "[8]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 927,
+                    "end": 930,
+                    "text": "[6]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 965,
+                    "end": 968,
+                    "text": "[6]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 971,
+                    "end": 974,
+                    "text": "[8]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 977,
+                    "end": 981,
+                    "text": "[10]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 982,
+                    "end": 986,
+                    "text": "[11]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 987,
+                    "end": 991,
+                    "text": "[12]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1022,
+                    "end": 1025,
+                    "text": "[6]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1078,
+                    "end": 1081,
+                    "text": "[8]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1091,
+                    "end": 1095,
+                    "text": "[13]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1124,
+                    "end": 1128,
+                    "text": "[14]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1170,
+                    "end": 1173,
+                    "text": "[6]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1176,
+                    "end": 1179,
+                    "text": "[8]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1180,
+                    "end": 1183,
+                    "text": "[9]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1184,
+                    "end": 1188,
+                    "text": "[10]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1189,
+                    "end": 1193,
+                    "text": "[11]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1194,
+                    "end": 1198,
+                    "text": "[12]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1199,
+                    "end": 1203,
+                    "text": "[13]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1204,
+                    "end": 1208,
+                    "text": "[14]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1209,
+                    "end": 1213,
+                    "text": "[15]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Word"
+        },
+        {
+            "text": "In the following three steps, we used the No. 213 patient in the sample as an example to 170 introduce the dynamic tracking method we used to identify any missing dates:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "169"
+        },
+        {
+            "text": "Step 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1.0-1.1) <0.001  1.0 (1.0-1.1) <0.001 1.0 (1.0-1.1) <0.001 1.04 (1.02-1.06) 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 OR=odds ratio; CHD=coronary heart disease; COPD=chronic obstructive pulmonary disease.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 5,
+                    "end": 230,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 231,
+                    "end": 306,
+                    "text": "1.0-1.1) <0.001  1.0 (1.0-1.1) <0.001 1.0 (1.0-1.1) <0.001 1.04 (1.02-1.06)",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 307,
+                    "end": 532,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 533,
+                    "end": 758,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 759,
+                    "end": 984,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 985,
+                    "end": 1210,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1211,
+                    "end": 1436,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "171"
+        },
+        {
+            "text": "Bold: statistically significant using threshold p<0.05 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 55,
+                    "end": 280,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "171"
+        },
+        {
+            "text": "As illustrated in Figure 1 , the inclusion criteria were publicly reported COVID-19",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 18,
+                    "end": 26,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "173"
+        },
+        {
+            "text": "174 patients who had complete information on basic demographics (age, gender, and region), 175 disease onset date (the first time they became symptomatic), and the history of comorbidities 176 (including hypertension, coronary heart disease (CHD), cardiac failure, cerebral infarction, 177 diabetes, chronic bronchitis, COPD, renal failure, and history of surgery). Asymptomatic 178 patients were not included in this study. In addition, we defined \"comorbidity-free patients\"",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "173"
+        },
+        {
+            "text": "179 as those who were specifically described as \"no pre-existing medical condition/comorbidity\" 180 on the national/provincial/municipal health commission websites.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "173"
+        },
+        {
+            "text": "In the following three steps, we used patientno. 213 in the sample as an example to 182 introduce the dynamic tracking method we used to identify any missing dates.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "181"
+        },
+        {
+            "text": "Step 1. We conducted an internet search on confirmed cases on baidu.com, the largest 184 search engine in China, using the keywords \"confirmed COVID-19 cases report\" and 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 Before 01/11/2020 1.7 (0.9-3.1) 0.09 1.6 (0.9-2.9) 0.12 1.7 (0.9-3.1) 0.09 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60 ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 170,
+                    "end": 395,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 396,
+                    "end": 621,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 622,
+                    "end": 847,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 848,
+                    "end": 1073,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1074,
+                    "end": 1299,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1300,
+                    "end": 1525,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1526,
+                    "end": 1751,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1752,
+                    "end": 1977,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1978,
+                    "end": 2203,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 2204,
+                    "end": 2429,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 2430,
+                    "end": 2655,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 2731,
+                    "end": 2960,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "183"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "507--520",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Clinical findings in a group of patients infected with the 2019 novel coronavirus (SARS-Cov-2) outside of Wuhan, China: retrospective case series",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "368",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus-infected pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "",
+            "pages": "1061--1069",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Clinical characteristics of 140 patients infected with SARS-CoV-2 in Wuhan, China",
+            "authors": [
+                {
+                    "first": "J-J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-Y",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Allergy",
+            "volume": "00",
+            "issn": "",
+            "pages": "1--12",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Clinical characteristics of coronavirus disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Characteristics of and important lessons from the coronavirus disease 2019 (COVID-19) Outbreak in China: summary of a report of 72314 cases from the Chinese Center for Disease Control and Prevention",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcgoogan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Clinical predictors of mortality due to COVID-19 based on an analysis of data of 150 patients from Wuhan, China. Intensive Care Med 2020",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ruan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Association of Cardiac Injury with Mortality in Hospitalized Patients With COVID-19 in Wuhan, China",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Shen",
+                    "middle": [],
+                    "last": "Bo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Cardiol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Exploring the Law of Development and Prognostic Factors of Common and Severe COVID-19: A Retrospective Case-Control Study in 122 Patients with Complete Course of Disease",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Cancer patients in SARS-CoV-2 infection: a nationwide analysis in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet Oncology",
+            "volume": "21",
+            "issn": "",
+            "pages": "335--342",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Implications of COVID-19 for patients with pre-existing digestive diseases. The lancet Gastroenterology & hepatology 2020",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Characteristics of and public health responses to the coronavirus disease 2019 outbreak in China",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Peng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Med",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Gender and the diagnosis, management, and surveillance of chronic obstructive pulmonary disease",
+            "authors": [
+                {
+                    "first": "P G",
+                    "middle": [],
+                    "last": "Camp",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Goring",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Ann AmThorac Soc",
+            "volume": "4",
+            "issn": "",
+            "pages": "686--691",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Aging, cell senescence, and chronic disease: emerging therapeutic strategies",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tchkonia",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kirkland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "JAMA",
+            "volume": "320",
+            "issn": "",
+            "pages": "1319--1339",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Age-associated chronic diseases require age-old medicine: Role of chronic inflammation",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Prasad",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Sung",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Aggarwal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Prev Med",
+            "volume": "54",
+            "issn": "",
+            "pages": "29--37",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Chinese COVID-19 Outbreak Distribution System",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Evolving Epidemiology and Impact of Non-pharmaceutical Interventions on the Outbreak of Coronavirus Disease",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Hao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "https:/www.medrxiv.org/content/10.1101/2020.03.03.20030593v1"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Metformin and Incidence of Prostate Cancer in Patients with Type 2 Diabetes",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Azoulay",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dell&apos;aniello",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gagnon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Cancer Epidemiol Biomarkers Prev",
+            "volume": "20",
+            "issn": "",
+            "pages": "337--344",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Statins and the risk of pneumonia: a populationbased, nested case-control study",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Schlienger",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fedson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Jick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Pharmacotherapy",
+            "volume": "27",
+            "issn": "",
+            "pages": "325--332",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Antipsychotic drugs and the risk of hyperglycemia in older adults without diabetes: a population-based observational study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Lipscombe",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Levesque",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gruneir",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Am J Geriatr Psychiatry",
+            "volume": "19",
+            "issn": "",
+            "pages": "1026--1033",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Thiazolidinediones and cardiovascular outcomes in older patients with diabetes",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Lipscombe",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Gomes",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Levesque",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Am Med Assoc",
+            "volume": "298",
+            "issn": "",
+            "pages": "2634--2643",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "The risk for myocardial infarction with cyclooxygenase-2 inhibitors: a population study of elderly adults",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Levesque",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Brophy",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Ann Intern Med",
+            "volume": "142",
+            "issn": "",
+            "pages": "481--489",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "PhD 2",
+            "authors": [
+                {
+                    "first": "Qiao",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "PhD 3 ; Botao Fa",
+            "authors": [
+                {
+                    "first": "Zhangsheng",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "MS",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "School of Public Health",
+            "authors": [
+                {
+                    "first": "Ruijun",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Yaping He: College of Public Health",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Prof",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Since the first report of Coronavirus Disease",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "China, the novel virus infection has rapidly spread to other cities in",
+            "authors": [
+                {
+                    "first": "Hubei",
+                    "middle": [],
+                    "last": "Wuhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Province",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "On March 73 11 th , 2020, the World Health Organization declared COVID-19 a pandemic, and has called for",
+            "authors": [],
+            "year": null,
+            "venue": "186 countries and locations internationally",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "According to the COVID-19 situation reports of WHO, as of",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Participants: Patients with confirmed SARS-CoV-2 infection, excluding asymptomatic 40 patients",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Outcome measures: Patient demographics, survival time and status, and history of",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Results: Of the 94 cases, the median age was 72.5 years old (IQR=16), and 59.6% were male",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Adjusting for age, gender, and the early period of the outbreak, poor health conditions were",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Since we used data outside of the epicenter of the outbreak in mainland China, we of age, gender, and the early period of the 70 pandemic, which were, in general",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Since the first report of coronavirus disease 2019 (COVID-19",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "China, the novel virus infection has rapidly spread to other cities in",
+            "authors": [
+                {
+                    "first": "Hubei",
+                    "middle": [],
+                    "last": "Wuhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Province",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "the World Health Organization (WHO) declared , dry cough",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "According to the COVID-19 situation reports of WHO, as of",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "97 are more likely to have had pre-existing medical conditions",
+            "authors": [],
+            "year": null,
+            "venue": "Studies have",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Recently, scholarly attention has focused on identifying the risk factors for death from who have pre-existing cardiovascular disease, diabetes, and/or hypertension",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Similarly, by conducting logistic regression on odds of in-hospital deaths among 54 diseased 108 patients and 137 recovered patients in Wuhan City",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "However, several gaps remain in the understanding of risk factors for mortality of",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "COVID-19. First, most current research on pre-existing comorbidities of COVID-19 was",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "To fill the above research gaps in the existing literature about the mortality risk 132 factors for COVID-19, the present study was conducted using a nested case-control (NCC) 133 study, which aimed to evaluate the risk of the common pre-existing comorbidities 134 (hypertension, CHD, diabetes, etc.) for mortality associated with COVID-19 in mainland",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "China outside of Hubei Province. NCC, also called risk set sampling, has been widely used in confirmed cases, adjusting for age, gender, and the change in the pandemic stage in",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "This study performed survival analysis under an NCC design to assess the roles of 146 common comorbidities (cardiocerebrovascular, endocrine, and respiratory disease, etc",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "when the first laboratory-149 confirmed case was announced in China",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Analyses were performed in R 3.6.2 (R Foundation for Statistical Computing) through",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Baseline clinical characteristics 202 were shown as mean (SD), median (range), or number",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "201",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "The comorbidity score, ranging from zero to nine, was defined as the summation of",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "CHD, hypertension, cardiac failure, cerebral infarction, chronic bronchitis, COPD, diabetes, 221 renal failure, and history of surgery). The Kaplan-Meier curve was plotted to check the",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "TG conducted the analysis, interpreted the data, drafted the article, and rechecked the the National Natural Science Foundation of China",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Coronavirus disease 2019",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Genomic characterisation and 442 epidemiology of 2019 novel coronavirus: implications for virus origins and receptor 443 binding",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "30251--30259",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20"
+                ]
+            }
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Clinical features of patients infected 445 with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {
+                "DOI": [
+                    "44610.1016/S0140-6736(20)30183-5"
+                ]
+            }
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Epidemiological and clinical 448 characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a 449 descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "507--520",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30211-7"
+                ]
+            }
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Clinical findings in a group of patients infected with the 2019 novel 453 coronavirus (SARS-Cov-2) outside of Wuhan, China: retrospective case series",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Lian",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "BMJ",
+            "volume": "454",
+            "issn": "2020",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.m606"
+                ]
+            }
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Clinical characteristics of 138 hospitalized patients with 2019 457 novel coronavirus-infected pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "",
+            "pages": "1061--1070",
+            "other_ids": {
+                "DOI": [
+                    "45810.1001/jama.2020.1585"
+                ]
+            }
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Clinical characteristics of 140 patients infected with 461 SARS-CoV-2 in Wuhan, China",
+            "authors": [
+                {
+                    "first": "J-J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-Y",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Allergy",
+            "volume": "75",
+            "issn": "",
+            "pages": "1730--1771",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/all.14238"
+                ]
+            }
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Clinical characteristics of 464 coronavirus disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Ou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J",
+            "volume": "382",
+            "issn": "",
+            "pages": "1708--1720",
+            "other_ids": {
+                "DOI": [
+                    "46510.1056/NEJMoa2002032"
+                ]
+            }
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Characteristics of and important lessons from the coronavirus 468 disease 2019 (COVID-19) Outbreak in China: summary of a report of 72314 cases from 469 the Chinese Center for Disease Control and Prevention",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcgoogan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.2648"
+                ]
+            }
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Clinical predictors of mortality due to 473 COVID-19 based on an analysis of data of 150 patients from Wuhan, China. Intensive 474",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ruan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Care Med",
+            "volume": "46",
+            "issn": "",
+            "pages": "846--854",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00134-020-05991-x475"
+                ]
+            }
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Association of Cardiac Injury with Mortality in 477 Hospitalized Patients With COVID-19 in Wuhan, China",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bo",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Cardiol",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamacardio.2020.0950"
+                ]
+            }
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Exploring the 481 Law of Development and Prognostic Factors of Common and Severe COVID-19: A 482 Retrospective Case-Control Study in 122 Patients with Complete Course of Disease",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Cancer patients in SARS-CoV-2 486 infection: a nationwide analysis in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet Oncology",
+            "volume": "21",
+            "issn": "",
+            "pages": "30096--30102",
+            "other_ids": {
+                "DOI": [
+                    "48710.1016/S1470-2045(20"
+                ]
+            }
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Implications of COVID-19 for 490 patients with pre-existing digestive diseases",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ghosh",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "The lancet Gastroenterology & hepatology",
+            "volume": "491",
+            "issn": "2020",
+            "pages": "425--432",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2468-1253(20)30076-5"
+                ]
+            }
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Characteristics of and public health responses to the coronavirus 494 disease 2019 outbreak in China",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Peng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/jcm9020575"
+                ]
+            }
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "Clinical course and risk factors for 497 mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort 498 study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30566-3"
+                ]
+            }
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "Sex differences in stroke epidemiology: a systematic 501 review",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Appelros",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Stegmayr",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Terent",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Stroke",
+            "volume": "40",
+            "issn": "",
+            "pages": "1082--90",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/STROKEAHA.108.540781"
+                ]
+            }
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "Gender and the diagnosis, management, and surveillance of 504 chronic obstructive pulmonary disease",
+            "authors": [
+                {
+                    "first": "P G",
+                    "middle": [],
+                    "last": "Camp",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Goring",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Ann AmThorac",
+            "volume": "4",
+            "issn": "",
+            "pages": "686--691",
+            "other_ids": {
+                "DOI": [
+                    "50510.1513/pats.200706-081SD"
+                ]
+            }
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "Aging, cell senescence, and chronic disease: emerging 508 therapeutic strategies",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tchkonia",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kirkland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "JAMA",
+            "volume": "320",
+            "issn": "",
+            "pages": "1319--1339",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2018.12440"
+                ]
+            }
+        },
+        "BIBREF78": {
+            "ref_id": "b78",
+            "title": "Age-associated chronic diseases require age-old 511 medicine: Role of chronic inflammation",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Prasad",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Sung",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Aggarwal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Prev Med",
+            "volume": "54",
+            "issn": "",
+            "pages": "29--37",
+            "other_ids": {
+                "DOI": [
+                    "51210.1016/j.ypmed.2011.11.011"
+                ]
+            }
+        },
+        "BIBREF79": {
+            "ref_id": "b79",
+            "title": "Chinese COVID-19 Outbreak Distribution System",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF80": {
+            "ref_id": "b80",
+            "title": "Association of public health interventions with the 519 epidemiology of the COVID-19 outbreak in Wuhan, China",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "",
+            "pages": "1915--520",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.6130"
+                ]
+            }
+        },
+        "BIBREF81": {
+            "ref_id": "b81",
+            "title": "Metformin and Incidence of Prostate Cancer 523 in Patients with Type 2 Diabetes",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Azoulay",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dell&apos;aniello",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gagnon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Cancer Epidemiol Biomarkers Prev",
+            "volume": "20",
+            "issn": "",
+            "pages": "337--344",
+            "other_ids": {
+                "DOI": [
+                    "10.1158/1055-9965"
+                ]
+            }
+        },
+        "BIBREF82": {
+            "ref_id": "b82",
+            "title": "Statins and the risk of pneumonia: 527 a population-based, nested case-control study",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Schlienger",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fedson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Jick",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jick",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Meier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Pharmacotherapy",
+            "volume": "27",
+            "issn": "",
+            "pages": "325--357",
+            "other_ids": {
+                "DOI": [
+                    "10.1592/phco.27.3.325"
+                ]
+            }
+        },
+        "BIBREF83": {
+            "ref_id": "b83",
+            "title": "Antipsychotic drugs and the risk of 531 hyperglycemia in older adults without diabetes: a population-based observational 532 study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Lipscombe",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Levesque",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gruneir",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Am J Geriatr Psychiatry",
+            "volume": "19",
+            "issn": "",
+            "pages": "1026--1059",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/JGP.0b013e318209dd24"
+                ]
+            }
+        },
+        "BIBREF84": {
+            "ref_id": "b84",
+            "title": "Thiazolidinediones and cardiovascular 535 outcomes in older patients with diabetes",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Lipscombe",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Gomes",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Levesque",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Am Med Assoc",
+            "volume": "298",
+            "issn": "",
+            "pages": "2634--2677",
+            "other_ids": {
+                "DOI": [
+                    "53610.1001/jama.298.22.2634"
+                ]
+            }
+        },
+        "BIBREF85": {
+            "ref_id": "b85",
+            "title": "The risk for myocardial infarction with 539 cyclooxygenase-2 inhibitors: a population study of elderly adults",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Levesque",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Brophy",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Ann Intern 540 Med",
+            "volume": "142",
+            "issn": "",
+            "pages": "481--490",
+            "other_ids": {
+                "DOI": [
+                    "10.7326/0003-4819-142-7-200504050-00113"
+                ]
+            }
+        },
+        "BIBREF86": {
+            "ref_id": "b86",
+            "title": "Survival and outcomes of pulmonary resection for non-small 543 cell lung cancer in the elderly: A nested case-control study",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cerfolio",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Bryant",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Ann Thorac Surg",
+            "volume": "544",
+            "issn": "",
+            "pages": "424--454",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.athoracsur.2006.02.085"
+                ]
+            }
+        },
+        "BIBREF87": {
+            "ref_id": "b87",
+            "title": "Nosocomial vs community-acquired 547 pandemic influenza A (H1N1) 2009: a nested case-control study",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Khandaker",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Rashid",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zurynski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Hosp Infect",
+            "volume": "548",
+            "issn": "",
+            "pages": "94--100",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jhin.2012.07.006"
+                ]
+            }
+        },
+        "BIBREF88": {
+            "ref_id": "b88",
+            "title": "Sampling Strategies in Nested Case-Control 551 Studies",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Langholz",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Clayton",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Environ Health",
+            "volume": "102",
+            "issn": "",
+            "pages": "47--51",
+            "other_ids": {
+                "DOI": [
+                    "10.1289/ehp.94102s847"
+                ]
+            }
+        },
+        "BIBREF89": {
+            "ref_id": "b89",
+            "title": "Inverse probability weighting in nested case-control studies 554 with additional matching -a simulation study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Stoer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Samuelsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Stat",
+            "volume": "32",
+            "issn": "",
+            "pages": "5328--5367",
+            "other_ids": {
+                "DOI": [
+                    "55510.1002/sim.6019"
+                ]
+            }
+        },
+        "BIBREF90": {
+            "ref_id": "b90",
+            "title": "Weighted Cox-Regression for Nested Case-558 Control Data",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Stoer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Samuelsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Multiplencc",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF91": {
+            "ref_id": "b91",
+            "title": "Survival analysis and regression models",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "George",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Seals",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Aban",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J",
+            "volume": "563",
+            "issn": "",
+            "pages": "686--94",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s12350-014-9908-2"
+                ]
+            }
+        },
+        "BIBREF92": {
+            "ref_id": "b92",
+            "title": "Efficiency of the logistic regression and Cox 566 proportional hazards models in longitudinal studies",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Annesi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Moreau",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lellouch",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "Stat Med",
+            "volume": "8",
+            "issn": "",
+            "pages": "1515--1536",
+            "other_ids": {
+                "DOI": [
+                    "56710.1002/sim.4780081211"
+                ]
+            }
+        },
+        "BIBREF93": {
+            "ref_id": "b93",
+            "title": "Cardiovascular Events After Community-Acquired Pneumonia: A 570 Global Perspective with Systematic Review and Meta-Analysis of Observational Studies, 571",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tralh\u00e3o",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "P\u00f3voa",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J Clin Med",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/jcm9020414"
+                ]
+            }
+        },
+        "BIBREF94": {
+            "ref_id": "b94",
+            "title": "ESC Guidelines for the 575 management of atrial fibrillation developedin collaboration with EACTS",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kirchhof",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Benussi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kotecha",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ahlsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Atar",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Casadei",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Castella",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Diener",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Heidbuchel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hendriks",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Eur. Heart",
+            "volume": "576",
+            "issn": "",
+            "pages": "2893--962",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/eurheartj/ehw210"
+                ]
+            }
+        },
+        "BIBREF95": {
+            "ref_id": "b95",
+            "title": "Mechanisms of Acute Coronary Syndromes and Their Implications for 579 Therapy",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Libby",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "N. Engl. J. Med",
+            "volume": "368",
+            "issn": "",
+            "pages": "2004--2017",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMra1216063"
+                ]
+            }
+        },
+        "BIBREF96": {
+            "ref_id": "b96",
+            "title": "Systemic 582 infections cause exaggeratedlocal inflammation in atherosclerotic coronary arteries: 583 Clues to the triggering effect of acute infections onacute coronary syndromes. Tex. Heart 584 Inst",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Madjid",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Vela",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Khalili-Tabrizi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Casscells",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Litovsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J",
+            "volume": "34",
+            "issn": "",
+            "pages": "11--19",
+            "other_ids": {}
+        },
+        "BIBREF97": {
+            "ref_id": "b97",
+            "title": "Diffuse and Active Inflammation Occurs in Both Vulnerable and 588 Stable Plaques of the Entire Coronary Tree A Histopathologic Study of Patients Dying",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mauriello",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sangiorgi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fratoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Palmieri",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Bonanno",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Anemona",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Spagnoli",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF99": {
+            "ref_id": "b99",
+            "title": "Atrial fibrillation is an independent risk factor 593 for hospital-acquired pneumonia",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "PLoS ONE",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "59410.1371/journal.pone.0131782"
+                ]
+            }
+        },
+        "BIBREF100": {
+            "ref_id": "b100",
+            "title": "Risk factors for severity and mortality in adult COVID-19 597 inpatients in Wuhan",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Allergy Clin Immunol",
+            "volume": "146",
+            "issn": "",
+            "pages": "110--118",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jaci.2020.04.006"
+                ]
+            }
+        },
+        "BIBREF101": {
+            "ref_id": "b101",
+            "title": "Community mitigation guidelines to prevent 602 pandemic influenza -United States",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Qualls",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Levitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kanade",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "MMWR Recomm Rep",
+            "volume": "66",
+            "issn": "",
+            "pages": "1--34",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Second, no studies have investigated the hazard of the identified risk factors over time, or the probability of survival at a given time. Under the rapidly changing pandemic situation, it is crucial to provide timely survival-time guidance for implementing the targeted treatment to the high-risk patients in clinical practice. Third, most existing studies on mortality risk factors were focused on patients diagnosed in Wuhan, Hubei Province, with little understanding about the mortality risk factors outside of Hubei Province. The risk factors are",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "We routinely searched for daily news and public health reports on confirmed COVID-19 cases in all areas in mainland China outside of Hubei Province. Patients' clinical and comorbidity characteristics were recorded and doubly confirmed by national/provincial/municipal health commission websites, the official COVID-19 data reporting websites in China. Follow-up time was defined as the duration from the date of disease onset till the end of observation on March 8 th or when the participant died, whichever came first. For each",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": ", we followed local reports to update their survival status until the end of followup time.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "the analysis, interpreted the data, drafted the article and rechecked the transcribed manuscript. QC conducted literature review and drafted the article. ZY guided and supervised the statistical analysis. BF helped with data analysis.AL helped data collection, management, and quality check. LX provided clinical support and interpretation of the results.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "This project was funded by the National Natural Science Foundation of China (No. 71874111), Shanghai Municipal Health Bureau Foundation (No. 201740116) and Shanghai Jiao Tong University Scientific and Technological Innovation Funds (YG2020YQ01, YG2020YQ06).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Patient flow diagram detailing included subjects and exclusion criteria",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "the inclusion criterion was publicly reported COVID-19 patients 162 who had complete information on basic demographics (age, gender and region), disease onset 163 date--the first time a patient became symptomatic, and history of comorbidities (include 164 hypertension, CHD, cardiac failure, cerebral infarction, diabetes, chronic bronchitis, COPD, 165 renal failure, hepatic and history of surgery) were included in the analysis. Asymptomatic",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "266 shows the estimated survival probability over 70 days for an example patient profile with and 267 without CHD (65-year-old female with no other comorbidities). For such patient profile, having 268 pre-existing CHD led to a significantly shorter survival probability over time, compared to those 269 without CHD (p<0.001). For those with CHD, the estimated 30-day survival probability was",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Patient flow diagram detailing included subjects and exclusion criteria 627 Estimated survival probability over time from the adjusted Cox proportional hazard 629 model for an example patient profile (65-year-old female without CHD [dashed line] or with 630 CHD [solid line], who had no other comorbidities). The estimated 30-day survival probability 631 was 0.53 (95% CI [0.34-0.82]) for patients with pre-existing CHD, while 0.85 (95% CI [review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Final sample (n=275): For each case, up to three controls were matched (n=181 controls and n=94 cases) Upon March 8 th , a total of 12,973 laboratory-confirmed COVID-19 patients was reported in 31 province-level regions in mainland China outside of Hubei Province, according to the National Health Commission of the People's Republic of China. of 133 survivors were not matched with cases, by matching on gender and age \u00b1 1 years old Patient flow diagram detailing included subjects and exclusion criteriaPage 24 of 26 For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Estimated survival probability over time from the adjusted Cox proportional hazard model for an example patient profile (65-year-old female without CHD [dashed line] or with CHD [solid line], who had no other comorbidities). The estimated 30-day survival probability was 0.53 (95% CI [0.34-0.82]) for patients with pre-existing CHD, while 0.85 (95% CI [0.79-0.91]) for those without (p<0.001). CHD=coronary heart disease. review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": "Patient flow diagram detailing included subjects and exclusion criteria 634 Estimated survival probability over time from the adjusted Cox proportional hazard 636 model for an example patient profile (65-year-old female without CHD [dashed line] or with 637 CHD [solid line], who had no other comorbidities). The estimated 30-day survival probability 638 was 0.53 (95% CI [0.34-0.82]) for patients with pre-existing CHD, while 0.85 (95% CI [review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "Final sample (n=275): For each case, up to three controls were matched (n=181 controls and n=94 cases) Upon March 8 th , a total of 12,973 laboratory-confirmed COVID-19 patients was reported in 31 province-level regions in mainland China outside of Hubei Province, according to the National Health Commission of the People's Republic of China. of 133 survivors were not matched with cases, by matching on gender and age \u00b1 1 years old Patient flow diagram detailing included subjects and exclusion criteriaPage 24 of 26 For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF17": {
+            "text": "Estimated survival probability over time from the adjusted Cox proportional hazard model for a sample patient profile (65-year-old female without CHD [dashed line] or with CHD [solid line], who had no other comorbidities). The estimated 30-day survival probability was 0.53 (95% CI [0.34-0.82]) for patients with pre-existing CHD, while 0.85 (95% CI [0.79-0.91]) for those without (p<0.001). CHD=coronary heart disease.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF18": {
+            "text": "review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "limitations:Publicly reported data does not contain patient clinical test results, which restricted further investigation on the association between comorbidity-related clinical index and mortality.factors for COVID-19. For example, a study based on 72,314 cases in China indicated that the case-fatality rate (CFR) tends to be higher among those with older age, and having pre-existing cardiovascular disease, diabetes, and hypertension compared to all the patients",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "[32]. A separate multivariate model was built by using the total number of pre-existing comorbidities as an ordinal predictor, adjusting for the same covariates. Hazard ratios (HRs) from the weighted Cox model were reported along with 95% confidence intervals (CIs) and p-values. Sensitivity analysis was performed using multivariate logistic regression to provide estimated odds ratio (ORs), which includes the same covariates as the multivariate weighted Cox model.Weighted Cox model-based survival estimates were plotted for an example patient profile (65-year-old female with no other comorbidities) to compare the survival probability over time with and without CHD. The log-rank test was used to compare the median survival difference. compared to those in the control group. A majority of the total sample had at least one pre-existing comorbidity (67.6%), specifically around 25% had one, 22% had two, 11% had three, and 10% had four or more. Compared to the control group, more patients in the case group had pre-existing comorbidities (p=0.02), especially those who had four or more comorbidities (p<0.001). Patient Characteristics, stratified by survival status* COPD: chronic obstructive pulmonary disease.*Mean (standard deviation) is reported for the continuous variables and the counts (%) for categorical variables. p values were calculated by t test, \u03c72 test, or Fisher's exact test, as appropriate.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "presents the results of univariate and multivariate weighted Cox models. Older age was associated with significantly higher death risk with similar magnitude in univariate and multivariate models. In the adjusted model, every 5-year increase in age was associated with an estimated 20% higher risk of death (p<0.001). No significant hazard difference was found between male and female patients. Disease infection during the early no-intervention period was associated with a higher risk of death, although not statistically significant. Univariate and multivariate model result from weighted Cox proportional hazard regression The increasing number of cumulative comorbidities was associated with higher mortality risk in both unadjusted and adjusted models (p<0.001). Moreover, one additional pre-existing comorbidity was associated with a 40% increased risk in mortality of COVID-19. All pre-DiscussionIn this paper, we used survival analysis to estimate the fatal risk of pre-existing comorbidities in COVID-19, based on publicly reported confirmed cases and adjusted for the confounding effect of age, gender, and early period of the pandemic when no-intervention was taken. There were three major findings: First, a history of comorbidities significantly increased the death risk of COVID-19: one additional pre-existing comorbidity led to an estimated 40% increase of death risk (p<0.001). Second, after adjusting for confounders, CHD was the only significant risk factor for COVID-19 mortality. Patients with CHD had a 200% higher risk of mortality in COVID-19, compared to patients without CHD (p<0.001). For a patient profile (65-",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "The design of excluding patients from Hubei Province was based on the concerns of",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF8": {
+            "text": "From Publicly Reported Confirmed Cases: Estimation and Application. Ann Intern Med 2020. [Epub ahead of print].",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF9": {
+            "text": "41 controls). The inverse probability-weighted Cox proportional hazard model was performed, 42 controlling for age, gender, and early period of the outbreak.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF10": {
+            "text": "Extra care and early medical interventions are needed for patients with pre-existing 54 comorbidities, especially CHD. For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml 59 Strengths and limitations of this study 60 (i) Using data outside of the epicenter of the outbreak in mainland China avoided the competing 61 death risk caused by insufficient health care resources; (ii) the study controlled for the 62 confounding effects of age, gender and early period of pandemic, which were in general not 63 considered in the existing literatures; (iii) the survival-time-related statistical results can help 64 guide the early clinical intervention to reduce the mortality; (iv) Lacking medical test results in",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF11": {
+            "text": "94Recently, scholarly attention focuses on identifying the risk factors for death from 95 COVID-19. Some evidence suggests that pre-existing medical conditions are likely death risk 96 factors for COVID-19. For example, a study based on 72,314 cases in China indicated that the 97 case-fatality rate (CFR) tends to be higher among those with older age, and having pre-existing 98 cardiovascular disease, diabetes, and hypertension compared to all the patients [9]. Similarly, by 99 conducting logistic regression on odds of in-hospital death among 54 diseased patients and 137 100 recovered patients in Wuhan City, Hubei Province, Zhou et al. [16] found that older age, higher 101 Sequential Organ Failure Assessment (SOFA) score and d-dimer greater than 1ug/ml at hospital 102 admission were associated with increased odds of in-hospital death. Chen et al. (2020) found that 103 pre-existing hypertension and other cardiovascular complications were more common among 104 diseased patients than recovered patients (unpublished data). 105 However, several gaps remain in the understanding of risk factors for mortality of 106 COVID-19. First, most current research on pre-existing comorbidities of COVID-19 was based 107 on univariate comparison, which did not account for important confounders such as age and 108 gender [17]-[20]. Second, no studies have investigated the hazard of the identified risk factors 109 over time, or the probability of survival at a given time. Under the rapidly changing pandemic 110 situation, it is crucial to provide timely survival-time guidance for implementing the targeted 111 treatment to the high-risk patients in clinical practice. Third, most existing studies on mortality 112 risk factors were focused on patients diagnosed in Wuhan, Hubei Province, with little 113 understanding about the mortality risk factors outside of Hubei Province. The risk factors are 114 likely different inside and outside of Hubei Province, since current research has found that the 115 clinical symptom severity [5] and the fatality-case rate [9], [21] to be higher in Hubei Province 116 (the center of outbreak) than cities outside of Hubei Province in China. Fourth, no studies thus 117 far have taken into account the pandemic stage when evaluating mortality risk factors. It has 118 been found that average daily attack rate in China was different before and after January 22 nd 119 2020, since non-pharmaceutical interventions were taken by the government before this date For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml 120 [22]. The change of pandemic stage may also influence the risk factors for fatality associated 121 with COVID-19. 122 To fill the above research gaps in the existing literature about the mortality risk factors 123 for COVID-19, the present study conducted a nested case-control (NCC) study, aiming to 124 evaluate the risk of the common pre-existing comorbidities (hypertension, coronary heart 125 disease, diabetes and etc.) for mortality associated with COVID-19 in mainland China outside of 126 Hubei Province. NCC, also called risk set sampling, has been widely used in studying the fatal 127 disease risk effect in large pharmacoepidemiologic studies [23]-[28] and risk prediction 128 in pandemic influenza A (H1N1) 2009 (pH1N1) [29]. NCC is cost-effective in data collection, 129 and is especially suitable for research on the death risk of diseases such as COVID-19, where the 130 number of event-free people largely exceeds those who experienced events [30]. To attain this 131 goal, we employed survival analysis on 275 publicly reported confirmed cases, adjusting for age, 132 gender and the change in the pandemic stage in China (i.e., before and after January 11 th , 2020). 133 Method 134 Study Design and Rationale 135 This study performed survival analysis under a nested case-control (NCC) design to 136 assess the roles of common comorbidities (cardiocerebrovascular, endocrine and respiratory 137 disease, etc.) in predicting mortality for COVID-19, among patients in mainland China outside of 138 Hubei Province. The study period was from December 18 th , 2019, when the first laboratory-139 confirmed case was announced in China, till March 8 th , 2020. 140 The study cohort was defined as all the publicly reported confirmed COVID-19 patients 141 outside of Hubei Province in mainland China between the study period. During this period, 112 142 deaths outside of Hubei Province were reported by the National Health Committee of China, and 143 18 were excluded from the present study due to missingness of important clinical information. A 144 total of 448 publicly reported laboratory-confirmed COVID-19 cases (94 deaths and 354 145 survivors) were initially collected. To avoid selection bias due to intentionally collecting patient 146 with certain pre-existing comorbidities, two authors independently collected, compared and 147 reviewed the full text of each case report. Following the typical NCC design setting where all 148 events are included and a certain numbers of control are matched with replacement, all deaths 149 were included as cases, and each case was matched with up to three controls on gender and age For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml year old (94 cases and 181 controls). The sample distribution across all 32 province-level \u00b1 151 regions in mainland China is presented in Supplementary Table S1. 152 Data Collection Procedure 153 We routinely searched for daily news and public health reports on confirmed COVID-19 154 cases in all areas in mainland China outside of Hubei Province. Patients' clinical and 155 comorbidity characteristics were recorded and doubly confirmed by 156 national/provincial/municipal health commission websites, the official COVID-19 data reporting 157 websites in China. Follow-up time was defined as the duration from the date of disease onset till 158 the end of observation on March 8 th or when the participant died, whichever came first. For each 159 eligible patient, we followed local reports to update their survival status until the end of follow-160 up time. Pre-existing comorbidities were recorded based on the description of case reports.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF12": {
+            "text": "1. Conducting an internet search on confirmed cases on baidu.com, the largest search 172 engine in China, using keywords \"confirmed COVID-19 cases report\" and \"pre-existing 173 comorbidities.\" A search result pertained to one confirmed case reported on the website of 174 Municipal Health Commission of Binzhou (Shandong Province) on February 17 th , 175 described as \"the 15 th confirmed case: 30-year-old male without pre-existing morbidities, 176 who lives in the neighborhood of Xincun Village. This patient was diagnosed positive on 177 February 16 th and is being treated with precaution in Bincheng hospital.\" We recorded 178 age, gender, region and comorbidity-free for this patient. For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml We then determined the onset date of this patient based on another announcement 180 on the same website. In this announcement titled \"Possible exposure locations and times of 181 the 15 th confirmed case,\" it says, \"the patient was symptomatic on February 14 th .\"182Step 3. Finally, we confirmed the event status of this patient as discharged on March 3 rd , In order to utilize the time-to-event information under the NCC design, the inverse 193 probability weighting Cox proportional hazard regression model was employed[32]. The 194 matching between cases and controls, and relative weights were simultaneously obtained via year-old female with no other comorbidities) to compare the survival probability over time 224 with and without CHD. The log-rank test was used to compare the median survival difference.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF13": {
+            "text": "22% increased risk of death, similarly to what was found in previous studies[8][9],[16].315 Alongside the evidence of prognostic risk in CHD, we suggest that extra care is needed for those 316 with CHD, especially for elderly patients. In the current study, gender was not a significant mortality risk 321 factor for COVID-19. It calls more future research to further our understanding of gender 322 difference in the outcome of COVID-19 and the underlying mechanism. 331 period, modes of viral transmission and effective treatment. Whether our findings can be 332 generalized to later epidemic phases warrant future research.333One limitation of the present study lies in the nature of publicly reported data.342 of treatment in the health reports published by the local health commission websites, we did not 343 include treatment information into analysis, which may produce confounding effects. It calls for 344 future research to investigate the mortality risk effect of pre-existing comorbidities by adding 345 treatment as a covariate in the model. Lastly, we were not able to verify the missing at random364 TG conducted the analysis, interpreted the data, drafted the article and rechecked the transcribed 365 manuscript. QC conducted literature review and drafted the article. ZY guided and supervised 366 the statistical analysis. BF helped with data analysis. AL helped data collection, management, 367 and quality check. LX provided clinical support and interpretation of the results. RW collected, 374 The authors have no affiliations with or involvement in any organization or entity with any 375 financial or non-financial interest in the subject matter or materials discussed in this manuscript. 378 The data published in news reports and websites were open to the public and free of identifiers. 383 This study used publicly reported patient-level data. All data were available online to the public. 393 Raw data is available at GitHub https://github.com/GuTian-TianGu/COVID-19_NCCstudy.git. The Submitting Author accepts and understands that any supply made under these terms is made 407 by BMJ to the Submitting Author unless you are acting as an employee on behalf of your 408 employer or a postgraduate student of an affiliated institution which is paying any applicable 409 article publishing charge (\"APC\") for Open Access articles. Where the Submitting Author 410 wishes to make the Work available on an Open Access basis (and intends to pay the relevant 411 APC), the terms of reuse of such Open Access shall be governed by a Creative Commons licence 412 -details of these licences and which Creative Commons licence will apply to this Work are set 413 out in our licence referred to above. Lu R, Zhao X, Li J, Niu P, Yang B, Wu H et al. Huang C, Wang Y, Li X, Ren L, Zhao J, Hu Y et al. Clinical features of patients infected Chen N, Zhou M, Dong X, Qu J, Gong F, Han Y et al. Xu Xiao-Wei, Wu Xiao-Xin, JiangXian-Gao, Xu Kai-Jin, Ying Ling-Jun, Ma Chun-Lian et 441 al. Clinical findings in a group of patients infected with the 2019 novel coronavirus (SARS-442 Cov-2) outside of Wuhan, China: retrospective case series. BMJ 2020; 368: m606. 443 444 [6] Wang D, Hu B, Hu C et al. Clinical characteristics of 138 hospitalized patients with 2019 Guan WJ, Ni ZY, Hu Y, Liang WH, Ou CQ, He JX et al. Clinical characteristics of 451 coronavirus disease 2019 in China. N Engl J Med 2020. [Epub ahead of print]. 452 453 [9] Wu Z, McGoogan JM. Characteristics of and important lessons from the coronavirus Ruan Q Yang K Wang W Jiang L Song J. Clinical predictors of mortality due to COVID-19 458 based on an analysis of data of 150 patients from Wuhan, China. For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml 461 [11]Shi, S., Qin, M., Shen, Bo. et al. Association of Cardiac Injury with Mortality in Liu, J. , Tu, C. , Zhu, M. , Wang, J. , Yang, C. , Liu, W. and Xiong, B.Mao R, Liang J, Shen J, Ghosh S, Zhu LR, Yang H et al. Deng SQ, Peng HJ. Characteristics of and public health responses to the coronavirus disease 478 2019 outbreak in China.J Clin Med 2020; 9: 575. 479 480 [16]Zhou F, Yu T, Du R, Fan G, Liu Y, Liu Z, et al. Clinical course and risk factors for Camp P G , Goring S M . Gender and the diagnosis, management, and surveillance of Schlienger RG, Fedson DS, Jick SS, Jick H, Meier CR. Statins and the risk of pneumonia: a Cerfolio RJ, Bryant AS. Survival and outcomes of pulmonary resection for non-small cell 520 lung cancer in the elderly: A nested case-control study. Ann Thorac Surg 2006; 82: 424-430. 521 522 [29]Khandaker G, Rashid H, Zurynski Y, et al. Nosocomial vs community-acquired pandemic Stoer, N. and Samuelsen, S. multipleNCC. Weighted Cox-Regression for Nested Case-George B, Seals S, Aban I. Survival analysis and regression models. For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml 541 [35]Chen N, Zhou M, Dong X, Qu J, Gong F, Han Y, et al. Libby, P. Mechanisms of Acute Coronary Syndromes and Their Implications for Therapy. Madjid, M., Vela, D., Khalili-Tabrizi, H., Casscells, S.W., Litovsky, S. Systemic infections 558 cause exaggeratedlocal inflammation in atherosclerotic coronary arteries: Clues to the 559 triggering effect of acute infections on acute coronary syndromes. Tex. Mauriello, A., Sangiorgi, G., Fratoni, S., Palmieri, G., Bonanno, E., Anemona, L.Zhu J., Zhang X., Shi G., Yi K., Tan X. Atrial fibrillation is an independent risk factor for 568 hospital-acquired pneumonia. PLoS ONE. 2015; 10: e0131782. 569 570 [42]Li X, Xu S, Yu M, et al. Risk factors for severity and mortality in adult COVID-19 Zhou F, Yu T, Du R, Fan G, Liu Y, Liu Z, et al. Clinical course and risk factors for mortality Ruan Q, Yang K, Wang W, Jiang L, Song J. Clinical predictors of mortality due to COVID-579 19 based on an analysis of data of 150 patients from Wuhan, China. Intensive Care Med.For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml 582 [45]Qualls, N., Levitt, A., Kanade, N., et al. Community mitigation guidelines to prevent Ji, Y., Ma, Z., Peppelenbosch, MP., Pan Q. Potential association between COVID-19 Lauer SA, Grantz KH, Bi Q, Jones FK, Zheng Q, Meredith HR, et al. Address offprint requests to Dr. Wu at School of Social Development, East China Normal 595 University, 500 Dongchuan Rd., Shanghai 200241, China (rjwu@re.ecnu.edu.cn), or Dr. He at 596 College of Public Health, Shanghai Jiao Tong University School of Medicine, South Chongqing 597 Rd., No. 227, Shanghai 200025, China (hypcyr@sina.com), respectively. For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml Patient Characteristics, stratified by survival status*",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF16": {
+            "text": "Supplementary Table S1. Sample distribution across all 32 province-level in mainland China",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF17": {
+            "text": "Results from unweighted logistic regression",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF19": {
+            "text": "161 controls). The sampledistributionacross all 32 province-level regions in mainland China is 162 presented inSupplementary Table S1.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF20": {
+            "text": "266 difference was found between male and female patients. Disease infection during the early 267 no-intervention period was associated with a higher risk of death but was not statistically 268 significant.269   In a separate model using the comorbidity score as a predictor, we observed that a 270 higher comorbidity score was associated with a higher mortality risk in both unadjusted and 271 adjusted models (p=0.009 and p=0.03, respectively). All pre-existing comorbidities had an 272 HR over 1 in the univariate model, of which CHD had the largest HR of 4.2 (p<0.001), 276 p=0.55), but not all were statistically significant. After adjusting for age, gender, and the 277 early period of the pandemic in China, CHD was the only comorbidity that yielded a 278 significant mortality risk: COVID-19 patients with pre-existing CHD had an estimated 2.9279 times higher risk of death than those without CHD. In addition, cerebral infarction, COPD, 280 and renal failure all had an estimated HR of around 2.0. Similar results were observed by 281 using unweighted logistic regression in a sensitivity analysis(Supplementary Table S2).282The overall median follow-up was 40 days, during which 94 deaths were observed.283Figure 2shows the estimated survival probability over 70 days for a sample patient profile 284 with and without CHD (65-year-old female with no other comorbidities). For such a patient 285 profile, having pre-existing CHD led to a significantly shorter survival probability over time 286 compared to those without CHD (p<0.001). For those with CHD, the estimated 30-day 287 survival probability was 0.53 (95% confidence interval [CI] [0.34-0.82]); on the other hand, 288 this number was 0.85 (95% CI [0.79-0.91]) for those without CHD. 290 In our research, based on publicly reported confirmed cases and adjusted for the 291 confounding effect of age, gender, and the early period of the pandemic when no intervention 292 was taken, we used survival analysis to estimate the fatality risk of pre-existing comorbidities 293 in COVID-19. There were three major findings: First, poor health condition was associated 294 with higher mortality risk of COVID-19. Second, after adjusting for confounders, CHD was 295 the only significant risk factor for COVID-19 mortality. Patients with pre-existing CHD were 296 3.11 times more likely to die than those without CHD (p<0.001). For one patient profile (65-297 year-old female without other comorbidities), we saw an estimated 30-day survival 298 probability of 0.85 (p<0.001). However, for those with CHD, the 30-day survival probability For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF21": {
+            "text": "Third, older age was associated with an increased risk of death. Specifically, every 300 1-year increase in age was associated with a 4% increased risk of mortality (p<0.001).301To the best of our knowledge, the present study is the first to provide substantial 302 statistical evidence showing the effect of CHD in predicting mortality for COVID-19. This 303 result is consistent with previous studies that found higher CFR among patients with 304 cardiovascular disease[9],[15]. It is worth pointing out that the existing studies[9],[16] that 305 investigate prognostic factors for death used chi-square tests or univariate logistic regression 306 that does not control for potential confounders. In contrast, by conducting weighted Cox 307 proportional hazard regression models, our study used time-to-event outcomes, which offer 308 more survival-time-related information to help guide the clinical intervention and more 309 statistical power to detect risk factors [33][34]. 310 Previous studies have indicated that cardiovascular events following pneumonia may 311 increase the risk of mortality [4], [35]-[[40], which explained our findings from the viewpoint 312 of pathophysiological mechanisms. One potential mechanism underlying the association 313 between pneumonia and cardiovascular events is inflammation [37]. Specifically, the 314 inflammatory reaction following pneumonia can result in plaque instability and damage in 315 the blood vessels. Evidence of elevated local inflammation in the atherosclerotic coronary 316 arteries following acute systemic infections has been shown in many studies [37][39]. Thus, 317 infections may result in heightened loading that is imposed on cardiomyocytes and lead to 318 sympathetic hyperactivity or ischemia, which may increase the risk of arrhythmia and heart 319 failure in COVID-19 patients with pre-existing CHD [36]. 320 Given the limited understanding of the prognostic factors for COVID-19, more 321 research, including potentially prospective studies, is needed to investigate the mechanism by 322 which pre-existing CHD may influence the survival probability of patients with COVID-19. 323 From the clinical point of view, early evaluation of a patient's medical history is necessary to 324 implement early medical interventions and decrease the mortality risk. We suggest 325 monitoring the dynamic heart rate for patients with pre-existing CHD. For those severe 326 symptomatic patients who had pre-existing heart ischemia and abnormal heart function, early 327 medical intervention may be needed [40]. 328 Furthermore, our results indicated that the risk of death from COVID-19 was 329 significantly higher in older patients. Adjusting for others, every 1-year increase in age was 330 associated with a 4% increased risk of death, which is similar to what was found in previous 331 studies [8][9], [16]. Alongside the evidence of prognostic risk in CHD, we suggest that extra 332 care is needed for those with CHD, especially for elderly patients. For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF22": {
+            "text": "Previous studies yielded mixed results regarding gender differences in mortality risk 334 of COVID-19. Some studies found male sex was associated with a higher risk of death from 335 COVID-19[41], whereas other studies did not find gender to be a significant factor 336 predicting the mortality risk of COVID-19[10],[16]. In the current study, gender was not a 337 significant mortality risk factor for COVID-19. More research is needed to further our 338 understanding of gender differences in the outcome of COVID-19 and underlying 339 mechanisms.340Thedesign of excluding patients from Hubei Province was based on the concerns of 341 unknown confounders caused by insufficient medical resources in the epicenter. CDC's 342 report has pointed out that the rapidly increasing number of infections could easily crash the 343 health care system by exceeding its maximum capacity [42]. Therefore, analyzing patient 344 data outside of Hubei Province avoided the competing mortality risk caused by insufficient 345 health care resources and revealed the true underlying impact of pre-existing comorbidities 346 on COVID-19 mortality [43]. 347 This study has several limitations. It is worth noting that the data were collected when 348 COVID-19 was spreading rapidly in China and the health authorities and researchers had 349 limited understanding of the incubation period, modes of viral transmission, and effective 350 treatment. Whether our findings can be generalized to later epidemic phases warrants future 351 research. One limitation of the present study lies in the nature of publicly reported data. 352 Researchers have pointed out that severe cases may be overrepresented in publicly reported 353 data [44]. Nevertheless, we have managed to reduce the potential bias caused by severe case 354 overrepresentation by appropriately matching the cases and controls in the NCC design.355 Following the NCC design, we allowed the controls to be matched with cases on age 1 \u00b1 356 year old instead of the exact matching, which caused the significant age difference between 357 two groups(Table 1). Thus, we adjusted for the matching covariates in all the models to 358 address this[31]. The auto-matching procedure via the statistical program also prevented the 359 possibility of tendentiously selecting survivors with comorbidity-free history during data 360 collection. In addition, NCC design is favored in our situation where the risk factor data and 361 event of interest can be identified opportunistically from publicly reported confirmed cases 362[30]. Therefore, NCC was the optimal choice, given the restricted availability of public data. 363 Moreover, due to the lack of information of treatment in the health reports published by the 364 local health commission websites, we did not include treatment information into analysis, 365 which may produce confounding effects. It calls for future research to investigate the 366 mortality risk effect of pre-existing comorbidities by adding treatment as a covariate in thePage 12 of 26 For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF23": {
+            "text": "12 367 model. Lastly, we were not able to verify the missing at random assumption of the 18 missing 368 deaths (four from Heilongjiang, five from Henan, five from Beijing, two from Hunan, one 369 from Liaoning and one from Yunnan) as well as the survivors.370In conclusion, our findings provided preliminary yet strong evidence supporting the 371 association between pre-existing CHD and mortality risk for patients with COVID-19. Based 372 on our findings, close monitoring, extra care, and early medical intervention are needed for 373 patients with pre-existing CHD to reduce the mortality risk associated with COVID-19. For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml 405 Jiao Tong University Scientific and Technological Innovation Funds (YG2020YQ01, For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml Page 18 of 26 For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF24": {
+            "text": "18 doi:10.15585/mmwr.rr6601a1 604 Page 19 of 26 For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF25": {
+            "text": "605 [43]Ji, Y., Ma, Z., Peppelenbosch, MP., Pan Q. Potential association between COVID-19 606 mortality and health-care resource availability. Lancet Glob Health. 2020; 8 :e480. 607 doi:10.1016/S2214-109X(20)30068-1 608 609 [44]Lauer SA, Grantz KH, Bi Q, Jones FK, Zheng Q, Meredith HR, et al. The Incubation 610 Period of Coronavirus Disease 2019 (COVID-19) From Publicly Reported Confirmed 611 Cases: Estimation and Application. Ann Intern Med 2020; 172:577-82. Correspondence 616 Address offprint requests to Dr. Wu at School of Social Development, East China Normal 617 University, 500 Dongchuan Rd., Shanghai 200241, China (rjwu@re.ecnu.edu.cn), or Dr. He 618 at College of Public Health, Shanghai Jiao Tong University School of Medicine, South 619 Chongqing Rd., No. 227, Shanghai 200025, China (hypcyr@sina.com), respectively. Page 20 of 26 For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF26": {
+            "text": "Tables and FiguresPatient Characteristics, stratified by survival status* CHD: coronary heart disease; COPD: chronic obstructive pulmonary disease. *Mean (standard deviation) is reported for the continuous variables and the counts (%) for categorical variables. p values were calculated by the Mann-Whitney U test, \u03c72 test, or Fisher's exact test, as appropriate. For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml Univariate and multivariate model result from weighted Cox proportional hazard regression For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF27": {
+            "text": "Supplementary Table S1. Sample distribution across all 32 province-level in mainland ChinaFor peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF28": {
+            "text": "Results from unweighted logistic regression",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF29": {
+            "text": "OR=odds ratio; CHD=coronary heart disease; COPD=chronic obstructive pulmonary disease.Bold: statistically significant using threshold p<0.05For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,1040 @@
+{
+    "paper_id": "0adf5cce70fdb0099bc766e587cefe80e0400d7b",
+    "metadata": {
+        "title": "Impact of Nasopharyngeal Specimen Quality on SARS-CoV-2 Test Sensitivity 2 ABBREVIATED TITLE 3 Specimen Quality and SARS-CoV-2 Ct 4 AUTHORS 5",
+        "authors": [
+            {
+                "first": "Melissa",
+                "middle": [],
+                "last": "Richard-Greenblatt",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Matthew",
+                "middle": [
+                    "J"
+                ],
+                "last": "Ziegler",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "addrLine": "12",
+                        "settlement": "Philadelphia",
+                        "region": "PA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Valerie",
+                "middle": [],
+                "last": "Bromberg",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "addrLine": "12",
+                        "settlement": "Philadelphia",
+                        "region": "PA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Elizabeth",
+                "middle": [],
+                "last": "Huang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "addrLine": "12",
+                        "settlement": "Philadelphia",
+                        "region": "PA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": ")",
+                "middle": [
+                    ";"
+                ],
+                "last": "Hatem",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "addrLine": "12",
+                        "settlement": "Philadelphia",
+                        "region": "PA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Abdallah",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Pam",
+                "middle": [],
+                "last": "Tolomeo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "addrLine": "12",
+                        "settlement": "Philadelphia",
+                        "region": "PA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ebbing",
+                "middle": [],
+                "last": "Lautenbach",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Mph",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "addrLine": "12",
+                        "settlement": "Philadelphia",
+                        "region": "PA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Laurel",
+                "middle": [],
+                "last": "Glaser",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Brendan",
+                "middle": [
+                    "J"
+                ],
+                "last": "Kelly",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "addrLine": "12",
+                        "settlement": "Philadelphia",
+                        "region": "PA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The copyright holder for this this version posted December 11, 2020. ; https://doi.org/10.1101/2020.12.09.20246520 doi: medRxiv preprint 4 Introduction:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "As the COVID-19 pandemic continues to drive morbidity and mortality around the world, interest 72 has grown in using SARS-CoV-2 reverse-transcription polymerase chain reaction (RT-PCR) 73 cycle of threshold (Ct) values as a means of quantifying viral load (1, 2). It has been proposed 74 that SARS-CoV-2 Ct values may correspond with viral burden and infectivity, and that SARS-",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "71"
+        },
+        {
+            "text": "CoV-2 values may be used to predict disease severity and guide isolation precautions for 76 individuals with COVID-19 (3-7). SARS-CoV-2 Ct values have been shown to correspond with 77 community COVID-19 burden, and it has also been proposed that community Ct values may 78 help to guide non-pharmaceutical interventions to control COVID-19 (8).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "75"
+        },
+        {
+            "text": "We sought to understand the impact of nasopharyngeal (NP) specimen swab quality on the 80 measurement of SARS-CoV-2 Ct and the sensitivity of virus detection. To collect an NP swab 81 for SARS-CoV-2 testing, healthcare workers are instructed to advance a synthetic fiber swab 82 with plastic or wire shaft through the nostril until contacting the posterior nasopharynx at a depth 83 equal to the distance from the nostril to the opening of the ear, then to rub and roll the swab, 84 leaving the swab in place for several seconds to collect secretions, before rotating the swab 85 further as it is removed from the nostril (9). Variability in practice and patient tolerance of the 86 procedure has been observed, and may impact the sensitivity of SARS-CoV-2 detection, as well 87 as the cycle threshold (Ct) value observed when SARS-CoV-2 is detected (10-12).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "79"
+        },
+        {
+            "text": "To measure variability in the quality of NP swab collection, we performed amplification of a 89 human gene target (\u03b2-actin) in parallel with RT-PCR targeting the SARS-CoV-2 ORF1ab gene.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "88"
+        },
+        {
+            "text": "High \u03b2-actin Ct values have been previously validated as a marker of poor NP swab quality (2, 91 13). Below we report the relationship between quality of NP swab collection, sensitivity of 92 SARS-CoV-2 detection, and the range of impact we expect sub-standard NP swab collection 93 may exert on SARS-CoV-2 Ct values. We also examine the possibility of confounding by 94 COVID-19 disease severity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "90"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "95"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "119"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 11, 2020. ; https://doi.org/10.1101/2020.12.09.20246520 doi: medRxiv preprint 6 2 testing. Per Centers for Disease Control and Prevention (CDC) guidelines(14), we considered 120 room-air oxygen saturation < 94% indicative of severe respiratory illness. Radiology reports for 121 CT imaging that described parenchymal lung disease, including \"infiltrates\", \"pneumonia\", 122 \"groundglass\", or other \"opacities\", were considered indicative of severe respiratory illness. The ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "119"
+        },
+        {
+            "text": "Healthcare providers obtained samples using CDC guidelines for NP samples collection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "128"
+        },
+        {
+            "text": "Samples were transported to the laboratory at ambient temperature and stored at 4\u2070C if not run 130 immediately. Exk TNA2 extraction reagent kits (Becton Dickinson) for the BD MAX open system 131 reagent suite were used for the lab-developed SARS-CoV-2 assay based on a previously 132 described assay (15, 16). The BD MAX system was set to run type 1 workflow. PCR conditions 133 consisted of a reverse transcriptase step (600s at 58\u2070C, 1 cycle), denaturation step (60s at 134 98\u2070C, 1 cycle) and extension steps (10s at 98\u2070C followed by 40s at 63\u2070C, 40 cycles). Two 135 different sets of primer/probe master mix were prepared and 12.5 \u00b5l was aliquoted into BD MAX 136 0.3 mL snap-in conical tubes for storage at -70\u2070C prior to use. The LUNA Universal Probe One-",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "129"
+        },
+        {
+            "text": "Step RT-qPCR kit (New England Biolabs) was used to prepare the master mix according to is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "137"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 11, 2020. ; https://doi.org/10.1101/2020.12.09.20246520 doi: medRxiv preprint 8 of 10% more subjects to allow for a margin of error in that estimate, and we exceeded our CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "137"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 11, 2020. ; https://doi.org/10.1101/2020.12.09.20246520 doi: medRxiv preprint SARS-CoV-2 detection as \u03b2-actin Ct increases. We found that a 4-Ct increase in \u03b2-actin, from ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review) preprint"
+        },
+        {
+            "text": "In this study, we found that higher \u03b2-actin Ct values, which have been previously validated as a 215 marker of low NP swab quality (2, 13), were associated with reduced probability of SARS-CoV-2 216 detection (odds ratio 0.654, 95%CI 0.523 to 0.802) and with higher SARS-CoV-2 Ct values 217 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "214"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 11, 2020. ; https://doi.org/10.1101/2020.12.09.20246520 doi: medRxiv preprint (linear regression slope 0.169, 95%CI 0.092 to 0.247). In our cohort, we observed 10.5% of 218 tested NP specimens had detectable SARS-CoV-2. Based on the observed impact of NP 219 specimen quality, we estimate that the reduction of quality NP specimen collection that results in 220 \u03b2-actin Ct increasing from 28 to 32 (roughly 25% to 75% percentile) decreases the absolute 221 probability of SARS-CoV-2 detection by 5.4% (95%CI 2.7% to 8.2%). This finding has several 222 important implications. First, the correlation between \u03b2-actin Ct and SARS-CoV-2 suggests that 223 quantitative interpretation of SARS-CoV-2 human specimens may be enhanced by adjusting for 224 the \u03b2-actin Ct. Second, the data support the concern that poor specimen collection may 225 contribute to false-negative results. The concern of false-negative NP SARS-CoV-2 testing has 226 led to the recommendation to retest patients with moderate to high clinical suspicion of COVID-227 19 (29, 30). Reporting the \u03b2-actin Ct, or a \u03b2-actin-adjusted SARS-CoV-2 Ct may allow clinicians 228 to better interpret specimen quality when considering retesting.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review) preprint"
+        },
+        {
+            "text": "We considered the possibility that the observed relationship between SARS-CoV-2 and \u03b2-actin",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "229"
+        },
+        {
+            "text": "Ct values might be confounded by respiratory disease severity, but we found no significant 231 association between independent markers of severe respiratory disease and lower \u03b2-actin Ct 232 values. However, several limitations of our analysis must be acknowledged. Oxygen saturation 233 data and chest CT radiography reports were only available for a small percentage (32.6% and 234 8.5%, respectively) of our subjects. Subject demographics and medical comorbidities could not 235 be ascertained for subjects, so unmeasured confounders may contribute to the observed 236 association.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "230"
+        },
+        {
+            "text": "Nevertheless, we believe that the observed association between NP specimen quality and 238 SARS-CoV-2 RT-PCR sensitivity is an important finding. From 1311 NP specimens submitted 239 for SARS-CoV-2 testing, we have quantified the variation in specimen quality measured by \u03b2- ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "237"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "242"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "263"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "284"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 11, 2020. ; https://doi.org/10.1101/2020.12.09.20246520 doi: medRxiv preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "284"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "308"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 11, 2020. ; https://doi.org/10.1101/2020.12.09.20246520 doi: medRxiv preprint of Statistical Software, Articles 80:1-28. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "308"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "352"
+        },
+        {
+            "text": "The copyright holder for this this version posted December 11, 2020. ; https://doi.org/10.1101/2020.12.09.20246520 doi: medRxiv preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "352"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Interpreting diagnostic tests for SARS-CoV-2. 309 JAMA: the journal of the",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sethuraman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Jeremiah",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ryo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "American Medical Association",
+            "volume": "323",
+            "issn": "",
+            "pages": "2249--2251",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Sensitivity of chest CT for 311 COVID-19: Comparison to RT-PCR",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ying",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Pang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ji",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Radiology",
+            "volume": "296",
+            "issn": "",
+            "pages": "115--117",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "SARS-CoV-2 nasopharyngeal swab Testing-False-313",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Higgins",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ting",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Negative results from a pervasive anatomical misconception",
+            "authors": [],
+            "year": null,
+            "venue": "JAMA otolaryngology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamaoto.2020.2946"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Development and evaluation of a flocked nasal 317 midturbinate swab for self-collection in respiratory virus infection diagnostic testing",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chernesky",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Savarese",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Triva",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Journal of 318 clinical microbiology",
+            "volume": "48",
+            "issn": "",
+            "pages": "3340--3342",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Discontinuation of Transmission-Based precautions and disposition of patients 320 with COVID-19 in healthcare settings",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Comparison of copan ESwab and FLOQSwab for COVID-19 diagnosis: Working 332 around a supply shortage",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Katz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of clinical microbiology",
+            "volume": "58",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "An 334 internally controlled, one-step, real-time RT-PCR assay for norovirus detection and 335 genogrouping",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rolfe",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Parmar",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mururi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wreghitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jalal",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Curran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Journal of clinical virology: the official publication of the Pan American Society for 336 Clinical Virology",
+            "volume": "39",
+            "issn": "",
+            "pages": "318--321",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Utility of the housekeeping 338 genes 18S rRNA, beta-actin and glyceraldehyde-3-phosphate-dehydrogenase for normalization 339 in real-time quantitative reverse transcriptase-polymerase chain reaction analysis of gene 340 expression in human T lymphocytes",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bas",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Forsberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hammarstr\u00f6m",
+                    "suffix": ""
+                },
+                {
+                    "first": "M-L",
+                    "middle": [],
+                    "last": "Hammarstr\u00f6m",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Scandinavian journal of immunology",
+            "volume": "59",
+            "issn": "",
+            "pages": "566--573",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "R: A language and environment for statistical computing. R Foundation 342 for Statistical Computing",
+            "authors": [],
+            "year": 2018,
+            "venue": "Core Team",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Ggplot2: Elegant graphics for data analysis1st ed",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wickham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Corr",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Stan: A probabilistic programming language",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Riddell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Journal of statistical software",
+            "volume": "347",
+            "issn": "",
+            "pages": "1--32",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Brms: An R package for bayesian multilevel models using stan",
+            "authors": [
+                {
+                    "first": "P-C",
+                    "middle": [],
+                    "last": "B\u00fcrkner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gabry",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Simpson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vehtari",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Betancourt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gelman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Journal of the Royal Statistical Society Series A",
+            "volume": "24",
+            "issn": "",
+            "pages": "389--402",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Planning study size based on precision rather than power",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rothman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Greenland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Epidemiology",
+            "volume": "357",
+            "issn": "",
+            "pages": "599--603",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Type S error rates for classical and bayesian single and 359 multiple comparison procedures",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gelman",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Tuerlinckx",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Computational statistics",
+            "volume": "15",
+            "issn": "",
+            "pages": "373--390",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Beyond power calculations: Assessing type S (sign) and type M 361 (magnitude) errors. Perspectives on psychological science: a journal of the Association for",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gelman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Carlin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Psychological Science",
+            "volume": "362",
+            "issn": "",
+            "pages": "641--651",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Repeat COVID-19 molecular testing: Correlation of SARS-CoV-2 culture with molecular 366 assays and cycle thresholds",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Armstrong",
+                    "middle": [
+                        "Dt"
+                    ],
+                    "last": "Herrera",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Reifsnyder",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sevdali",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Carroll",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Pekosz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mostafa",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Clinical infectious diseases: an official publication of the Infectious",
+            "volume": "365",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Infectious diseases society of america guidelines on the diagnosis of the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint The copyright holder for this this version posted",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mustafa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.12.09.20246520"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "sensitivity of clinical SARS-CoV-2 assays. If unrecognized, low quality NP specimens, which are 66 characterized by a low level of amplifiable human DNA target, may limit the application of 67 SARS-CoV-2 Ct values to direct infection control and public health interventions.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Models: We hypothesized that \u03b2-actin and SARS-CoV-2 Ct values are related because 107 poor NP specimen collection technique results in reduced capture of NP epithelial cells and 108 SARS-CoV-2 alike. \u03b2-actin is a commonly used endogenous reference gene, used as an 109 internal control for PCR reactions involving human specimens. This gene has been previously 110 validated as a marker for the presence of nasal epithelial cells, and prior research has 111 supported its use to assess the quality of self-collected midturbinate swabs (2, 13). We 112 additionally considered the possibility of confounding by COVID-19 severity of illness. It is 113 possible that those with more severe infection may have greater NP epithelial cell damage, 114 resulting in greater detection of both PCR targets, irrespective of sampling technique.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Data Collection: To evaluate the possibility of confounding by disease severity, we 116 measured two independent markers of respiratory illness: (1) the minimum room-air oxygen 117 saturation recorded within 2 days of SARS-CoV-2 testing, and (2) whether infiltrates were 118 observed chest computerized tomography (CT) imaging performed within 7 days of SARS-CoV-",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "123presence of lung nodules, lung masses, chronic airway disease including bronchiectasis, 124 emphysematous changes, or pleural effusions in the absence of parenchymal disease as 125 described above, were not considered indicative of severe acute respiratory illness.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Collection, Processing, and RT-PCR Assay: Specimens were collected during 127 routine clinical practice using a nylon flocked mini-tip swab collected in VTM or saline.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "138 manufacturer guidelines with modified primer and probe concentrations. Master mix 1 was 139 composed of the SARS-CoV-2 orf1ab target (0.6 \u00b5M primers and 0.2 \u00b5M probe, sequences: 140 unpublished data), and the internal processing control MS2 bacteriophage (0.1 \u00b5M primers and 141 probe, sequences) (17). Master mix 2 contained the \u03b2-actin primers (0.6 \u00b5M) and probe (0.2 142 \u00b5M) (18). Samples were prepared by adding 200\u00b5l of NP specimen and 20 \u00b5l of specimen 143 processing control (5x106 pfu/mL MS2 Phage; Zeptometrix) to an Exk TNA2 sample buffer respectively, on the test strip prior to loading the rack onto the BD MAX system. All NP 148 samples for which the specimen processing control target (MS2) was detected were included in 149 the study (n=1311). Ct values for all three targets (\u03b2-actin, MS2 and SARS-CoV-2) were 150 recorded.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Definition of Exposures and Outcomes: The primary exposure of interest was the \u03b2-actin Ct 152 value, a surrogate for the quality of NP swab collection. The primary outcome of interest was 153 SARS-CoV-2 Ct value.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Methods: Data were organized using R statistical software version 3.6.1 (19), and 155 plots generated using the \"ggplot2\" package (20). Where \u03b2-actin and SARS-CoV-2 were not 156 detected, Ct values were imputed as 40 cycles. We examined (1) the linear relationship 157 between \u03b2-actin and SARS-CoV-2 Ct values, as well as (2) the impact of \u03b2-actin Ct on SARS-158 CoV-2 detection using Bayesian linear and generalized-linear mixed effects models, which were 159 fit using Stan Hamiltonian Monte Carlo (HMC) version 2.21, via the \"brms\" package with default 160 weakly-informative priors (21, 22). Prior predictive modeling was performed, and models were fit 161 with 4 chains of 1000 iterations, confirmed with HMC diagnostics (no divergent iterations, Rhat 162 statistic < 1.1 for all parameters, and E-BFMI > 0.2) (23-25). We examined parameter 163 distributions at 50%, 80%, and 95% posterior credible intervals to understand the relationship 164 between exposure and outcome variables.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Power and Sample Size:We estimated the necessary cohort size based on the anticipated 166 effect of poor NP swab quantity (26). We anticipated that approximately 800 subjects would 167 detect a 10% reduction in sensitivity of SARS-CoV-2 detection related to a \u03b2-actin Ct increase of 168 10, with credible intervals precision ensuring type S error < 5% (27, 28). We targeted enrollment",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Data: Data, analysis scripts, and model code are available at github.com/bjklab. CoV-2 Detection and Cycle of Threshold Range: Of 1311 tested specimens, 138 were 175 found to have detectable SARS-CoV-2 within 40 cycles of PCR. Among these specimens, 176 median SARS-CoV-2 Ct was 28.15 (IQR 20.5 to 32.98). No secular trend was observed 177 between calendar time from local onset of COVID-19 cases and SARS-CoV-2 Ct values during 178 the study period (Pearson correlation 0.18). Figure 1 depicts the distribution of SARS-CoV-2 Ct 179 values.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Relationship between \u03b2-Actin and SARS-CoV-2 Cycle of Threshold:We evaluated the 181 relationship between NP specimen quality, meaured by \u03b2-actin Ct value, and SARS-CoV-2 test 182 sensitivity with logistic regression, and we found that increasing \u03b2-actin is significantly 183 associated with reduced detection of SARS-CoV-2 (odds ratio 0.654, 95%CI 0.523 to 0.802).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "depicts the relationship between \u03b2-actin and SARS-CoV-2 detection probability. We 185 further evaluated the linear relationship between \u03b2-actin and SARS-CoV-2 Ct values with linear 186 regression, and we found that SARS-CoV-2 Ct increases significantly with \u03b2-actin Ct (slope 187 0.169, 95%CI 0.092 to 0.247). A linear model restricted to include only the 134 specimens 188 within which both SARS-CoV-2 and \u03b2-actin were detectable (i.e., Ct < 40) also found that 189 SARS-CoV-2 Ct increased with \u03b2-actin, but this relationship did not have high posterior certainty 190 (slope 0.254, 95%CI -0.23 to 0.73), and linear model fit was poor.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "Impact of Poor NP SpecimenQuality on SARS-CoV-2 Detection Sensitivity: To understand 192 the potential impact of poor NP specimen quality, we evaluated the change in probability of 193 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "of Disease Severity on Relationship Between \u03b2-Actin and SARS-CoV-2 Cycle of 198 Threshold: Considering the possibility that the observed association between SARS-CoV-2 and 199 \u03b2-actin Ct values is confounded by respiratory illness severity, we evaluated the relationship 200 between \u03b2-actin Ct and independent markers of respiratory illness. Oxygen saturation data were 201available for 428 (32.6%) subjects; chest CT imaging was available for 111 (8.5%) subjects.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": "Linear regression relating \u03b2-actin Ct values to oxygen saturation revealed no significant 203 association, and the point estimate of association ran counter to concern for confounding by204 disease severity. Lower oxygen saturation was in fact associated with higher \u03b2-actin Ct values 205 (less \u03b2-actin amplicon), with linear regression slope -0.04 (95%CI -0.273 to 0.182). Similarly, we 206 found that the presence of parenchymal lung disease on chest CT radiography reports had no 207 significant association with \u03b2-actin Ct values, and that the point estimate of association actually 208 suggests lung parenchymal infiltrates are associated with higher \u03b2-actin Ct values (less \u03b2-actin 209 Ct amplicon) with linear regression slope 0.428 (95%CI -0.655 to 1.61). These analyses of 210 independent markers of severe respiratory disease suggest that it is NP specimen quality, not 211 disease severity, that drives the association between SARS-CoV-2 and \u03b2-actin Ct values.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "Ct value, and we have defined the impact of the observed variation on test sensitivity and 241 SARS-CoV-2 Ct values.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF17": {
+            "text": "may exert large effects on observed SARS-CoV-2 Ct values, limiting these 245 useful applications. As testing efforts expand, infrastructure to ensure quality sample collection 246 must expand as well (9). Concurrent measurement of a \u03b2-actin human gene target may provide 247 a means to recognize and adjust for variability in NP specimen quality. Distribution and relationships of Ct values for SARS-CoV-2, \u03b2-actin, and MS2 257 DNA positive control. A matrix plot depicting the observed cycle of threshold values for SARS-258 CoV-2 RT-PCR, with MS2 DNA positive control and \u03b2-actin specimen quality control over 1311 259 consecutive clinical assays run between March 26 and July 4, 2020. Panels on the diagonal 260 present the distribution of each target's Ct values. Panels off the diagonal present the261 relationship between Ct values for each pair of targets. Ct for specimens without detectable 262 SARS-CoV-2 or \u03b2-actin were imputed at 40 cycles.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF18": {
+            "text": "Relationship between \u03b2-actin and SARS-CoV-2 detection probability. Binomial 265 logistic regression relating SARS-CoV-2 detection to \u03b2-actin Ct value reveals a negative 266 association, with high \u03b2-actin Ct (i.e., low quality) NP specimens less likely to detect SARS-267 CoV-2. The absolute probabiity of SARS-CoV-2 detection is presented in relation to the 268 observed range of \u03b2-actin Ct values. He X, Lau EHY, Wu P, Deng X, Wang J, Hao X, Lau YC, Wong JY, Guan Y, Tan X, Mo X, 277 Chen Y, Liao B, Chen W, Hu F, Zhang Q, Zhong M, Wu Y, Zhao L, Zhang F, Cowling BJ, Li F, 278 Leung GM. 2020. Temporal dynamics in viral shedding and transmissibility of COVID-19. Nature 279 medicine 26:672-675.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF19": {
+            "text": "R. 2020. Duration of infectiousness and correlation with RT-PCR cycle threshold 282 values in cases of COVID-19, england, january to may 2020. Euro surveillance: bulletin 283 Europeen sur les maladies transmissibles = European communicable disease bulletin 25.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF20": {
+            "text": "and without cancer who are hospitalized with COVID-19. Cancer cell 38:661-288 671.e2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF21": {
+            "text": "Rhee C, Kanjilal S, Baker M, Klompas M. 2020. Duration of severe acute respiratory 290 syndrome coronavirus 2 (SARS-CoV-2) infectivity: When is it safe to discontinue isolation? 291 Clinical infectious diseases: an official publication of the Infectious Diseases Society of America 292 https://doi.org/10.1093/cid/ciaa1249.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF22": {
+            "text": "Tom MR, Mina MJ. 2020. To interpret the SARS-CoV-2 test, consider the cycle threshold 294 value. Clinical infectious diseases: an official publication of the Infectious Diseases Society of 295 America 71:2252-2254.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF23": {
+            "text": "Alteri C, Cento V, Vecchi M, Colagrossi L, Fanti D, Vismara C, Puoti M, Perno CF, SCOVA 297 Study Group. 2020. Nasopharyngeal SARS-CoV-2 load at hospital admission as predictor of 298 mortality. Clinical infectious diseases: an official publication of the Infectious Diseases Society of 299 America https://doi.org/10.1093/cid/ciaa956.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF24": {
+            "text": "Binnicker MJ. 2020. Challenges and controversies to testing for COVID-19. Journal of clinical 301 microbiology 58.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF25": {
+            "text": "Hay JA, Kennedy-Shaffer L, Kanjilal S, Lipsitch M, Mina MJ. 2020. Estimating epidemiologic 303 dynamics from single cross-sectional viral load distributions. medrxiv;2020.10.08.20204222v1.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF27": {
+            "text": "Procop GW, Shrestha NK, Vogel S, Van Sickle K, Harrington S, Rhoads DD, Rubin BP, 306 Terpeluk P. 2020. A direct comparison of enhanced saliva to nasopharyngeal swab for the 307 detection of SARS-CoV-2 in symptomatic patients. Journal of clinical microbiology 58.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF28": {
+            "text": "McElreath R. 2016. Statistical rethinking: A bayesian course with examples in R and stan1 351 edition. CRC Press/Taylor & Francis Group.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Materials and Methods: Study Design, Setting, and Population: We performed a retrospective cohort study, capturing consecutive SARS-CoV-2 RT-PCR tests performed at the Clinical Microbiology Laboratory of the Hospital of the University of Pennsylvania between March 26 and July 4, 2020. We included 100 all SARS-CoV-2 RT-PCR results performed on NP specimens via the BD Max SARS-CoV-2 assay (Becton Dickinson) for which a positive PCR control analyte (MS2 phage DNA) was 102 detected. A total of 1311 NP specimens were included. All specimens were assayed for \u03b2-actin 103 and MS2 phage DNA in parallel with SARS-CoV-2. A waiver of informed consent was granted 104 by the University of Pennsylvania Institutional Review Board (IRB protocols #843085 &",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprintThe copyright holder for this this version posted December 11, 2020. ; https://doi.org/10.1101/2020.12.09.20246520 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "330"
+        }
+    ]
+}

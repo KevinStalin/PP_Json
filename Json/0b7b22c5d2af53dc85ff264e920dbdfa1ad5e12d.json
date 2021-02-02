@@ -1,0 +1,4279 @@
+{
+    "paper_id": "0b7b22c5d2af53dc85ff264e920dbdfa1ad5e12d",
+    "metadata": {
+        "title": "Journal Pre-proof Artificial intelligence in drug discovery and development Artificial intelligence in drug discovery and development",
+        "authors": [
+            {
+                "first": "Debleena",
+                "middle": [],
+                "last": "Paul",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "An Institute of National Importance",
+                    "location": {
+                        "addrLine": "Opp. Air Force Station",
+                        "postCode": "Gandhinagar-382355",
+                        "settlement": "Palaj, Gujarat",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gaurav",
+                "middle": [],
+                "last": "Sanap",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "An Institute of National Importance",
+                    "location": {
+                        "addrLine": "Opp. Air Force Station",
+                        "postCode": "Gandhinagar-382355",
+                        "settlement": "Palaj, Gujarat",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Snehal",
+                "middle": [],
+                "last": "Shenoy",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "An Institute of National Importance",
+                    "location": {
+                        "addrLine": "Opp. Air Force Station",
+                        "postCode": "Gandhinagar-382355",
+                        "settlement": "Palaj, Gujarat",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Dnyaneshwar",
+                "middle": [],
+                "last": "Kalyane",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "An Institute of National Importance",
+                    "location": {
+                        "addrLine": "Opp. Air Force Station",
+                        "postCode": "Gandhinagar-382355",
+                        "settlement": "Palaj, Gujarat",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kiran",
+                "middle": [],
+                "last": "Kalia",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "An Institute of National Importance",
+                    "location": {
+                        "addrLine": "Opp. Air Force Station",
+                        "postCode": "Gandhinagar-382355",
+                        "settlement": "Palaj, Gujarat",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rakesh",
+                "middle": [
+                    "K"
+                ],
+                "last": "Tekade",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "An Institute of National Importance",
+                    "location": {
+                        "addrLine": "Opp. Air Force Station",
+                        "postCode": "Gandhinagar-382355",
+                        "settlement": "Palaj, Gujarat",
+                        "country": "India"
+                    }
+                },
+                "email": "r.k.rakeshtekade@gmail.com"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "\uf0b7 Artificial Intelligence (AI) has revolutionized many aspects of the pharmaceuticals \uf0b7 AI assistance to pharma industries helps to improve overall life cycle of product \uf0b7 AI can be implemented in pharma ranging from drug discovery to product management \uf0b7 Future challenges related to AI and their respective solutions have been expounded Abstract:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Artificial Intelligence (AI) has recently started to gear-up its application in various sectors of the society with the pharmaceutical industry as a front-runner beneficiary. This review highlights the impactful use of AI in diverse areas of the pharmaceutical sectors viz., drug discovery and development, drug repurposing, improving pharmaceutical productivity, clinical trials, etc. to name a few, thus reducing the human workload as well as achieving targets in a short period. Crosstalk on the tools and techniques utilized in enforcing AI, ongoing challenges, and ways to overcome them, along with the future of AI in the pharmaceutical industry, is also discussed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Keywords: artificial intelligence; machine learning; drug discovery; drug repurposing. Teaser: Artificial intelligence-integrated drug discovery and development has accelerated the growth of the pharmaceutical sector, leading to a revolutionary change in the pharma industry. Here, we discuss areas of integration, tools, and techniques utilized in enforcing AI, ongoing challenges, and ways to overcome them.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The use of artificial intelligence (AI) has been increasing in various sectors of society, particularly the pharmaceutical industry. In this review, we highlight the use of AI in diverse sectors of the pharmaceutical industry, including drug discovery and development, drug repurposing, improving pharmaceutical productivity, and clinical trials, among others; such use reduces the human workload as well as achieving targets in a short period of time. We also discuss crosstalk between the tools and techniques utilized in AI, ongoing challenges, and ways to overcome them, along with the future of AI in the pharmaceutical industry.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Over the past few years, there has been a drastic increase in data digitalization in the pharmaceutical sector. However, this digitalization comes with the challenge of acquiring, scrutinizing, and applying that knowledge to solve complex clinical problems [1]. This motivates the use of AI, because it can handle large volumes of data with enhanced automation [2] . AI is a technology-based system involving various advanced tools and networks that can mimic human intelligence. At the same time, it does not threaten to replace human physical presence [3, 4] completely. AI utilizes systems and software that can interpret and learn from the input data to make independent decisions for accomplishing specific objectives. Its applications are continuously being extended in the pharmaceutical field, as described in this review. According to the McKinsey Global Institute, the rapid advances in AI-guided automation will be likely to completely change the work culture of society [5, 6] .",
+            "cite_spans": [
+                {
+                    "start": 361,
+                    "end": 364,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 554,
+                    "end": 557,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 558,
+                    "end": 560,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 982,
+                    "end": 985,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 986,
+                    "end": 988,
+                    "text": "6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f AI: networks and tools AI involves several method domains, such as reasoning, knowledge representation, solution search, and, among them, a fundamental paradigm of machine learning (ML). ML uses algorithms that can recognize patterns within a set of data that has been further classified. A subfield of the ML is deep learning (DL), which engages artificial neural networks (ANNs). These comprise a set of interconnected sophisticated computing elements involving 'perceptons' analogous to human biological neurons, mimicking the transmission of electrical impulses in the human brain [7] . ANNs constitute a set of nodes, each receiving a separate input, ultimately converting them to output, either singly or multi-linked using algorithms to solve problems [8] . ANNs involve various types, including multilayer perceptron (MLP) networks, recurrent neural networks (RNNs), and convolutional neural networks (CNNs), which utilize either supervised or unsupervised training procedures [9, 10] .",
+            "cite_spans": [
+                {
+                    "start": 616,
+                    "end": 619,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 790,
+                    "end": 793,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1016,
+                    "end": 1019,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1020,
+                    "end": 1023,
+                    "text": "10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The MLP network has applications including pattern recognition, optimization aids, process identification, and controls, are usually trained by supervised training procedures operating in a single direction only, and can be used as universal pattern classifiers [11] . RNNs are networks with a closed-loop, having the capability to memorize and store information, such as Boltzmann constants and Hopfield networks [11, 12] . CNNs are a series of dynamic systems with local connections, characterized by its topology, and have use in image and video processing, biological system modeling, processing complex brain functions, pattern recognition, and sophisticated signal processing [13] . The more complex forms include Kohonen networks, RBF networks, LVQ networks, counter-propagation networks, and ADALINE networks [9, 11] . Examples of method domains of AI are summarized in Figure 1 .",
+            "cite_spans": [
+                {
+                    "start": 262,
+                    "end": 266,
+                    "text": "[11]",
+                    "ref_id": null
+                },
+                {
+                    "start": 414,
+                    "end": 418,
+                    "text": "[11,",
+                    "ref_id": null
+                },
+                {
+                    "start": 419,
+                    "end": 422,
+                    "text": "12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 682,
+                    "end": 686,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 817,
+                    "end": 820,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 821,
+                    "end": 824,
+                    "text": "11]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 878,
+                    "end": 886,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Abstract"
+        },
+        {
+            "text": "Several tools have been developed based on the networks that form the core architecture of AI systems. One such tool developed using AI technology is the International Business Machine (IBM) Watson supercomputer (IBM, New York, USA). It was designed to assist in the analysis of a patient's medical information and its correlation with a vast database, resulting in suggesting treatment strategies for cancer. This system can also be used for the rapid detection of diseases. This was demonstrated by its ability to detect breast cancer in only 60 s [14, 15] . AI in the lifecycle of pharmaceutical products J o u r n a l P r e -p r o o f Debleena Paul Debleena Paul Debleena Paul received a BSc in pharmacy from Maulana Abul Kalam Azad University of Technology and is currently pursuing her MS Pharm at NIPER-Ahmedabad under the guidance Rakesh K. Tekade. Her research focuses on the development of in situ gelling dusting powder for wound dressing applications. J o u r n a l P r e -p r o o f Kiran Kalia Kiran Kalia",
+            "cite_spans": [
+                {
+                    "start": 550,
+                    "end": 554,
+                    "text": "[14,",
+                    "ref_id": null
+                },
+                {
+                    "start": 555,
+                    "end": 558,
+                    "text": "15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Kiran Kalia is a professor of pharmacology and Director of NIPER, Ahmedabad; she is also a professor in lien in the Department of Biosciences, Sardar Patel University. She has research experience spanning over 35 years and has mentored several MSc and PhD students. She was an awardee of the Indian National Science Academy (INSA) Research fellowship and has received several CSIR Fellowships. Professor Kiran is an editorial board and review committee member of several international journals. Her research interests encompass proteomic markers for diabetic nephropathy from urine, genomic markers of the susceptibility of diabetic retinopathy, genomic alterations in oral cancer, and environmental biotechnology & toxicology studies. J o u r n a l P r e -p r o o f",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Involvement of AI in the development of a pharmaceutical product from the bench to the bedside can be imagined given that it can aid rational drug design [16] ; assist in decision making; determine the right therapy for a patient, including personalized medicines; and manage the clinical data generated and use it for future drug development [17] . E-VAI is an analytical and decision-making AI platform developed by Eularis, which uses ML algorithms along with an easy-to-use user interface to create analytical roadmaps based on competitors, key stakeholders, and currently held market share to predict key drivers in sales of pharmaceuticals [18] , thus helping marketing executives to allocate resources for maximum market share gain, reversing poor sales and enabled them to anticipate where to make investments. Different applications of AI in drug discovery and development are summarized in Figure 2 .",
+            "cite_spans": [
+                {
+                    "start": 154,
+                    "end": 158,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 343,
+                    "end": 347,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 646,
+                    "end": 650,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 900,
+                    "end": 908,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "The vast chemical space, comprising >10 60 molecules, fosters the development of a large number of drug molecules [19] . However, the lack of advanced technologies limits the drug development process, making it a time-consuming and expensive task, which can be addressed by using AI [15] . AI can recognize hit and lead compounds, and provide a quicker validation of the drug target and optimization of the drug structure design [19, 20] . Different applications of AI in drug discovery are depicted in Figure 3 .",
+            "cite_spans": [
+                {
+                    "start": 114,
+                    "end": 118,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 283,
+                    "end": 287,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 429,
+                    "end": 433,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 434,
+                    "end": 437,
+                    "text": "20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 503,
+                    "end": 511,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "AI in drug discovery"
+        },
+        {
+            "text": "Despite its advantages, AI faces some significant data challenges, such as the scale, growth, diversity, and uncertainty of the data. The data sets available for drug development in pharmaceutical companies can involve millions of compounds, and traditional ML tools might not be able to deal with these types of data. Quantitative structure-activity relationship (QSAR)-based computational model can quickly predict large numbers of compounds or simple physicochemical parameters, such as log P or log D. However, these models are some way from the predictions of complex biological properties, such as the efficacy and adverse effects of compounds. In addition, QSARbased models also face problems such as small training sets, experimental data error in training sets, and lack of experimental validations. To overcome these challenges, recently developed AI approaches, such as DL and relevant modeling studies, can be implemented for safety and efficacy evaluations of drug molecules based on big data modeling and analysis. In 2012, Merck supported a QSAR ML challenge to observe the advantages of DL in the drug discovery process in the pharmaceutical industry. DL models showed significant predictivity compared with traditional ML approaches for 15 absorption, distribution, metabolism, excretion, and toxicity (ADMET) data sets of drug candidates [21, 22] .",
+            "cite_spans": [
+                {
+                    "start": 1356,
+                    "end": 1360,
+                    "text": "[21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1361,
+                    "end": 1364,
+                    "text": "22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in drug discovery"
+        },
+        {
+            "text": "The virtual chemical space is enormous and suggests a geographical map of molecules by illustrating the distributions of molecules and their properties. The idea behind the illustration of chemical space is to collect positional information about molecules within the space to search for bioactive compounds and, thus, virtual screening (VS) helps to select appropriate molecules for further testing. Several chemical spaces are open access, including PubChem, ChemBank, DrugBank, and ChemDB.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "AI in drug discovery"
+        },
+        {
+            "text": "Numerous in silico methods to virtual screen compounds from virtual chemical spaces along with structure and ligand-based approaches, provide a better profile analysis, faster elimination of nonlead compounds and selection of drug molecules, with reduced expenditure [19] . Drug design algorithms, such as coulomb matrices and molecular fingerprint recognition, consider the physical, chemical, and toxicological profiles to select a lead compound [23] .",
+            "cite_spans": [
+                {
+                    "start": 267,
+                    "end": 271,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 448,
+                    "end": 452,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in drug discovery"
+        },
+        {
+            "text": "Various parameters, such as predictive models, the similarity of molecules, the molecule generation process, and the application of in silico approaches can be used to predict the desired chemical structure of a compound [20, 24] . Pereira et al. presented a new system, DeepVS, for the docking of 40 receptors and 2950 ligands, which showed exceptional performance when 95 000 decoys were tested against these receptors [25] . Another approach applied a multiobjective automated replacement algorithm to optimize the potency profile of a cyclin-dependent kinase-2 inhibitor by assessing its shape similarity, biochemical activity, and physicochemical properties [26] .",
+            "cite_spans": [
+                {
+                    "start": 221,
+                    "end": 225,
+                    "text": "[20,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 226,
+                    "end": 229,
+                    "text": "24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 421,
+                    "end": 425,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 663,
+                    "end": 667,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "QSAR modeling tools have been utilized for the identification of potential drug candidates and have evolved into AI-based QSAR approaches, such as linear discriminant analysis (LDA), support vector machines (SVMs), random forest (RF) and decision trees, which can be applied to speed up QSAR analysis [27] [28] [29] . King et al. found a negligible statistical difference when the ability of six AI algorithms to rank anonymous compounds in terms of biological activity was compared with that of traditional approaches [30] .",
+            "cite_spans": [
+                {
+                    "start": 301,
+                    "end": 305,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 306,
+                    "end": 310,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 311,
+                    "end": 315,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 519,
+                    "end": 523,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "The process of discovering and developing a drug can take over a decade and costs US$2.8 billion on average. Even then, nine out of ten therapeutic molecules fail Phase II clinical trials and regulatory approval [31, 32] . Algorithms, such as Nearest-Neighbour classifiers, RF, extreme learning machines, SVMs, and deep neural networks (DNNs), are used for VS based on synthesis feasibility and can also predict in vivo activity and toxicity [31, 33] . Several biopharmaceutical companies, such as Bayer, Roche, and Pfizer, have teamed up with IT companies to develop a platform for the discovery of therapies in areas such as immuno-oncology and cardiovascular diseases [19] . The aspects of VS to which AI has been applied are discussed below. Prediction of the physicochemical properties Physicochemical properties, such as solubility, partition coefficient (logP), degree of ionization, and intrinsic permeability of the drug, indirectly affect its pharmacokinetics properties and its target receptor family and, hence, must be considered when designing a new drug [34] . Different AI-based tools can be used to predict physicochemical properties. For example, ML uses large data sets produced during compound optimization done previously to train the program [35] . Algorithms for drug design include molecular descriptors, such as SMILES strings, potential energy measurements, electron density around the molecule, and coordinates of atoms in 3D, to generate feasible molecules via DNN and thereby predict its properties [36] .",
+            "cite_spans": [
+                {
+                    "start": 212,
+                    "end": 216,
+                    "text": "[31,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 217,
+                    "end": 220,
+                    "text": "32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 442,
+                    "end": 446,
+                    "text": "[31,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 447,
+                    "end": 450,
+                    "text": "33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 671,
+                    "end": 675,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1069,
+                    "end": 1073,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 1264,
+                    "end": 1268,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1528,
+                    "end": 1532,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in drug screening"
+        },
+        {
+            "text": "Zang et al. created a quantitative structure-property relationship (QSPR) workflow to determine the six physicochemical properties of environmental chemicals obtained from the Environmental Protection Agency (EPA) called the Estimation Program Interface (EPI) Suite [35] . Neural networks based on the ADMET predictor and ALGOPS program have been used to predict the lipophilicity and solubility of various compounds [37] . DL methods, such as undirected graph recursive neural networks and graph-based convolutional neural networks (CVNN), have been used to predict the solubility of molecules [38] .",
+            "cite_spans": [
+                {
+                    "start": 266,
+                    "end": 270,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 417,
+                    "end": 421,
+                    "text": "[37]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 595,
+                    "end": 599,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in drug screening"
+        },
+        {
+            "text": "In several instances, ANN-based models, graph kernels, and kernel ridge-based models were developed to predict the acid dissociation constant of compounds [35, 39] . Similarly, cell lines, such as Madin-Darby canine kidney cells and human colon adenocarcinoma (Caco-2) cells have been utilized to generate cellular permeability data of a diverse class of molecules, which are subsequently fed to AI-assisted predictors [34] .",
+            "cite_spans": [
+                {
+                    "start": 155,
+                    "end": 159,
+                    "text": "[35,",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 160,
+                    "end": 163,
+                    "text": "39]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 419,
+                    "end": 423,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in drug screening"
+        },
+        {
+            "text": "Kumar et al. developed six predictive models [SVMs, ANNs, k-nearest neighbor algorithms, LDAs, probabilistic neural network algorithms, and partial least square (PLS)] utilizing 745 compounds for training; these were used later on 497 compounds to predict their intestinal absorptivity based on parameters including molecular surface area, molecular mass, total hydrogen count, molecular refractivity, molecular volume, logP, total polar surface area, the sum of E-states indices, solubility index (log S), and rotatable bonds [40] . On similar lines, RF and DNN-based in silico models were developed to determine human intestinal absorption of a variety of chemical compounds [41] . Thus, AI has a significant role in the development of a drug, to predict not only its desired physicochemical properties, but also the desired bioactivity. Prediction of bioactivity The efficacy of drug molecules depends on their affinity for the target protein or receptor. Drug molecules that do not show any interaction or affinity towards the targeted protein will not be able to deliver the therapeutic response. In some instances, it might also be possible that developed drug molecules interact with unintended proteins or receptors, leading to toxicity. Hence, drug target binding affinity (DTBA) is vital to predict drug-target interactions. AI-based methods can measure the binding affinity of a drug by considering either the features or similarities of the drug and its target. Feature-based interactions recognize the chemical moieties of the drug and that of the target to determine the feature vectors. By contrast, in similarity-based interaction, the similarity between drug and target is considered, and it is assumed that similar drugs will interact with the same targets [42] .",
+            "cite_spans": [
+                {
+                    "start": 527,
+                    "end": 531,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 677,
+                    "end": 681,
+                    "text": "[41]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1775,
+                    "end": 1779,
+                    "text": "[42]",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in drug screening"
+        },
+        {
+            "text": "Web applications, such as ChemMapper and the similarity ensemble approach (SEA), are available for predicting drug-target interactions [43] . Many strategies involving ML and DL have been used to determine DTBA, such as KronRLS, SimBoost, DeepDTA, and PADME. ML-based approaches, such as Kronecker-regularized least squares (KronRLS), evaluate the similarity between drugs and protein molecules to determine DTBA. Similarly, SimBoost utilized regression trees to predict DTBA, and considers both feature-based and similarity-based interactions. Drug features from SMILES, ligand maximum common substructure (LMCS), extended connectivity fingerprint, or a combination thereof can also be considered [42] .",
+            "cite_spans": [
+                {
+                    "start": 135,
+                    "end": 139,
+                    "text": "[43]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 698,
+                    "end": 702,
+                    "text": "[42]",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in drug screening"
+        },
+        {
+            "text": "DL approaches have shown improved performance compared with ML because they apply network-based methods that do not depend on the availability of the 3D protein structure [43] . DeepDTA, PADME, WideDTA, and DeepAffinity are some DL methods used to measure DTBA. DeepDTA accepts drug data in the form of SMILES, whereby, the amino acid sequence is entered for protein input data and for the 1D representation of the drug structure [44] . WideDTA is CVNN DL method that incorporates ligand SMILES (LS), amino acid sequences, LMCS, and protein domains and motifs as input data for assessing the binding affinity [45] .",
+            "cite_spans": [
+                {
+                    "start": 171,
+                    "end": 175,
+                    "text": "[43]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 430,
+                    "end": 434,
+                    "text": "[44]",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 609,
+                    "end": 613,
+                    "text": "[45]",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in drug screening"
+        },
+        {
+            "text": "DeepAffinity and Protein And Drug Molecule interaction prEdiction (PADME) are similar to the approaches described earlier [46] . DeepAffinity is an interpretable DL model that uses both RNN and CNN and both unlabeled and labeled data. It takes into account the compound in the SMILES format and protein sequences in the structural and physicochemical properties [47] . PADME is a DL-based platform that utilizes feed-forward neural networks for predicting drug target interactions (DTIs). It considers the combination of the features of the drug and target protein as input data and forecasts the interaction strength between the two. For the drug and the target, the SMILES representation and the protein sequence composition (PSC) are used for illustration, respectively [46] . Unsupervised ML techniques, such as MANTRA and PREDICT, can be used to forecast the therapeutic efficacy of drugs and target proteins of known and unknown pharmaceuticals, which can also be extrapolated to the application of drug repurposing and interpreting the molecular mechanism of the therapeutics. MANTRA groups compound based on similar gene expression profiles using a CMap data set and clusters those compounds predicted to have a common mechanism of action and common biological pathway [43] . The bioactivity of a drug also includes ADME data. AIbased tools, such as XenoSite, FAME, and SMARTCyp, are involved in determining the sites of metabolism of the drug. In addition, software such as CypRules, MetaSite, MetaPred, SMARTCyp, and WhichCyp were used to identify specific isoforms of CYP450 that mediate a particular drug metabolism. The clearance pathway of 141 approved drugs was done by SVM-based predictors with high accuracy [48] . Prediction of toxicity The prediction of the toxicity of any drug molecule is vital to avoid toxic effects. Cell-based in vitro assays are often used as preliminary studies, followed by animal studies to identify the toxicity of a compound, increasing the expense of drug discovery. Several web-based tools, such as LimTox, pkCSM, admetSAR, and Toxtree, are available to help reduce the cost [35] . Advanced AI-based approaches look for similarities among compounds or project the toxicity of the compound based on input features. The Tox21 Data Challenge organized by the National Institutes of Health, Environmental Protection Agency (EPA), and US Food and Drug Administration (FDA) was an initiative to evaluate several computational techniques to forecast the toxicity of 12 707 environmental compounds and drugs [35] ; an ML algorithm named DeepTox outperformed all methods by identifying static and dynamic features within the chemical descriptors of the molecules, such as molecular weight (MW) and Van der Waals volume, and could efficiently predict the toxicity of a molecule based on predefined 2500 toxicophore features. [49] . The different AI tools used in drug discovery are listed in Table 1 .",
+            "cite_spans": [
+                {
+                    "start": 122,
+                    "end": 126,
+                    "text": "[46]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 362,
+                    "end": 366,
+                    "text": "[47]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 773,
+                    "end": 777,
+                    "text": "[46]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1277,
+                    "end": 1281,
+                    "text": "[43]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 1725,
+                    "end": 1729,
+                    "text": "[48]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 2124,
+                    "end": 2128,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 2549,
+                    "end": 2553,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 2864,
+                    "end": 2868,
+                    "text": "[49]",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 2931,
+                    "end": 2938,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "AI in drug screening"
+        },
+        {
+            "text": "SEA was used to evaluate the safety target prediction of 656 marketed drugs against 73 unintended targets that might produce adverse effects [43] . Developed using an ML-based approach, eToxPred was applied to estimate the toxicity and synthesis feasibility of small organic molecules and showed accuracy as high as 72% [48] . Similarly, open-source tools, such as TargeTox and PrOCTOR, are also used in toxicity prediction [50] . TargeTox is biological network target-based drug toxicity risk prediction method that uses the guilt-by-association principle whereby entities that have similar functional properties share similarities in biological networks [51] . It can produce protein network data and unite pharmacological and functional properties in a ML classifier to predict drug toxicity [52] . PrOCTOR was trained using a RF model and took into account drug-likeliness properties, molecular features, targetbased features, and properties of the protein targets to generate a 'PrOCTOR score', which forecasted whether a drug would fail in clinical trials owing to its toxicity. It also recognized FDA-approved drugs that later reported adverse drug events [53] . In another approach, Tox_(R)CNN involving a deep CVNN method evaluated the cytotoxicity of drugs that had been exposed to DAPI-stained cells [54] .",
+            "cite_spans": [
+                {
+                    "start": 141,
+                    "end": 145,
+                    "text": "[43]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 320,
+                    "end": 324,
+                    "text": "[48]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 424,
+                    "end": 428,
+                    "text": "[50]",
+                    "ref_id": null
+                },
+                {
+                    "start": 656,
+                    "end": 660,
+                    "text": "[51]",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 795,
+                    "end": 799,
+                    "text": "[52]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 1163,
+                    "end": 1167,
+                    "text": "[53]",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 1311,
+                    "end": 1315,
+                    "text": "[54]",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in drug screening"
+        },
+        {
+            "text": "Prediction of the target protein structure While developing a drug molecule, it is essential to assign the correct target for successful treatment. Numerous proteins are involved in the development of the disease and, in some cases, they are overexpressed. Hence, for selective targeting of disease, it is vital to predict the structure of the target protein to design the drug molecule. AI can assist in structure-based drug discovery by predicting the 3D protein structure because the design is in accordance with the chemical environment of the target protein site, thus helping to predict the effect of a compound on the target along with safety considerations before their synthesis or production [55] . The AI tool, AlphaFold, which is based on DNNs, was used to analyze the distance between the adjacent amino acids and the corresponding angles of the peptide bonds to predict the 3D target protein structure and demonstrated excellent results by correctly predicting 25 out of 43 structures.",
+            "cite_spans": [
+                {
+                    "start": 702,
+                    "end": 706,
+                    "text": "[55]",
+                    "ref_id": "BIBREF53"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in designing drug molecules"
+        },
+        {
+            "text": "In a study by AlQurashi, RNN was used to predict the protein structure. The author considered three stages (i.e., computation, geometry, and assessment) termed a recurrent geometric network (RGN). Here, the primary protein sequence was encoded, and the torsional angles for a given residue and a partially completed backbone obtained from the geometric unit upstream of this were then considered as input and provided a new backbone as output. The final unit produced the 3D structure as the output. Assessment of the deviation of predicted and experimental structures was done using the distance-based root mean square deviation (dRMSD) metric. The parameters in RGN were optimized to keep the dRMSD low between the experimental and predicted structures [56] . AlQurashi predicted that his AI method would be quicker than AlphaFold in terms of the time taken to predict the protein structure. However,",
+            "cite_spans": [
+                {
+                    "start": 755,
+                    "end": 759,
+                    "text": "[56]",
+                    "ref_id": "BIBREF54"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in designing drug molecules"
+        },
+        {
+            "text": "AlphaFold is likely to have better accuracy in predicting protein structures with sequences similar to the reference structures [57] .",
+            "cite_spans": [
+                {
+                    "start": 128,
+                    "end": 132,
+                    "text": "[57]",
+                    "ref_id": "BIBREF55"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "A study was conducted to predict the 2D structure of a protein using MATLAB assisted by a nonlinear threelayered NN toolbox based on a feed-forward supervised learning and backpropagation error algorithm. MATLAB was used to train input and output data sets, and the NNs were learning algorithms and performance evaluators. The accuracy in predicting the 2D structure was 62.72% [58] . Predicting drug-protein interactions Drug-protein interactions have a vital role in the success of a therapy. The prediction of the interaction of a drug with a receptor or protein is essential to understand its efficacy and effectiveness, allows the repurposing of drugs, and prevents polypharmacology [55] . Various AI methods have been useful in the accurate prediction of ligand-protein interactions, ensuring better therapeutic efficacy [55, 59] . Wang et al. reported a model using the SVM approach, trained on 15 000 protein-ligand interactions, which were developed based on primary protein sequences and structural characteristics of small molecules to discover nine new compounds and their interaction with four crucial targets [60] .",
+            "cite_spans": [
+                {
+                    "start": 378,
+                    "end": 382,
+                    "text": "[58]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 688,
+                    "end": 692,
+                    "text": "[55]",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 827,
+                    "end": 831,
+                    "text": "[55,",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 832,
+                    "end": 835,
+                    "text": "59]",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 1123,
+                    "end": 1127,
+                    "text": "[60]",
+                    "ref_id": "BIBREF58"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Yu et al. exploited two RF models to predict possible drug-protein interactions by the integration of pharmacological and chemical data and validating them against known platforms, such as SVM, with high sensitivity and specificity. Also, these modes were capable of predicting drug-target associations that could be further extended to target-disease and target-target associations, thereby speeding up the drug discovery process [61] . Xiao et al. adopted the Synthetic Minority Over-Sampling Technique and the Neighborhood Cleaning Rule to obtain optimized data for the subsequent development of iDrugTarget. This is a combination of four subpredictors (iDrug-GPCR, iDrug-Chl, iDrug-Enz, and iDrug-NR) for identifying interactions between a drug and G-protein-coupled receptors (GPCRs), ion channels, enzymes, and nuclear receptors (NR) respectively. When this predictor was compared with existing predictors through target-jackknife tests, the former surpassed the latter in terms of both prediction accuracy and consistency [62] .",
+            "cite_spans": [
+                {
+                    "start": 431,
+                    "end": 435,
+                    "text": "[61]",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 1029,
+                    "end": 1033,
+                    "text": "[62]",
+                    "ref_id": "BIBREF60"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "The ability of AI to predict drug-target interactions was also used to assist the repurposing of existing drugs and avoiding polypharmacology. Repurposing an existing drug qualifies it directly for Phase II clinical trials [19] . This also reduces expenditure because relaunching an existing drug costs ~US$8.4 million compared with the launch of a new drug entity (~US$41.3 million) [63] . The 'Guilt by association' approach can be utilized to forecast the innovative association of a drug and disease, which is either a knowledge-based or computationally driven network [64] . In a computationally driven network, the ML approach is widely used, which utilizes techniques such as SVM, NN, logistic regression, and DL. Logistic regression platforms, such as PREDICT, SPACE, and other ML approaches, consider drug-drug, disease-disease similarity, the similarity between target molecules, chemical structure, and gene expression profiles while repurposing a drug [65] .",
+            "cite_spans": [
+                {
+                    "start": 223,
+                    "end": 227,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 384,
+                    "end": 388,
+                    "text": "[63]",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 573,
+                    "end": 577,
+                    "text": "[64]",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 964,
+                    "end": 968,
+                    "text": "[65]",
+                    "ref_id": "BIBREF63"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Cellular network-based deep learning technology (deepDTnet) has been explored to predict the therapeutic use of topotecan, currently used as a topoisomerase inhibitor. It can also be used for the therapy of multiple sclerosis by inhibiting human retinoic acid receptor-related orphan receptor-gamma t (ROR-\u03b3t) [66] . This platform is currently under a provisional US patent. Self-organizing maps (SOMs) are in the unsupervised category of ML and are used in drug repurposing. They use a ligand-based approach to search novel off-targets for a set of drug molecules by training the system on a defined number of compounds with recognized biological activities, which is later used for the analysis of different compounds [67] . In a recent study, DNN was used to repurpose existing drugs with proven activity against SARS-CoV, HIV, influenza virus, and drugs that are 3C-like protease inhibitors. In this, extended connectivity fingerprint (ECFP), functional-class fingerprints (FCFPs), and an octanol-water partition coefficient (ALogP_count) were considered to train the AI platform. From the results, it was concluded that 13 of the screened drugs could be carried toward further development based on their cytotoxicity and viral inhibition [68] .",
+            "cite_spans": [
+                {
+                    "start": 310,
+                    "end": 314,
+                    "text": "[66]",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 720,
+                    "end": 724,
+                    "text": "[67]",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 1243,
+                    "end": 1247,
+                    "text": "[68]",
+                    "ref_id": "BIBREF66"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Drug-protein interactions can also predict the chances of polypharmacology, which is the tendency of a drug molecule to interact with multiple receptors producing off-target adverse effects [69] . AI can design a new molecule based on the rationale of polypharmacology and aid in the generation of safer drug molecules [70] . AI platforms such as SOM, along with the vast databases available, can be used to link several compounds to numerous targets and offtargets. Bayesian classifiers and SEA algorithms can be used to establish links between the pharmacological profiles of drugs and their possible targets [67] .",
+            "cite_spans": [
+                {
+                    "start": 190,
+                    "end": 194,
+                    "text": "[69]",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 319,
+                    "end": 323,
+                    "text": "[70]",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 611,
+                    "end": 615,
+                    "text": "[67]",
+                    "ref_id": "BIBREF65"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Li et al. demonstrated the use of KinomeX, an AI-based online medium using DNNs for the detection of polypharmacology of kinases based on their chemical structures. This platform uses DNN trained with ~14 000 bioactivity data points developed based on >300 kinases. Thus, it has practical application in studying the overall selectivity of a drug towards the kinase family and particular subfamilies of kinases, thus helping to design novel chemical modifiers. This study used NVP-BHG712 as a model compound to predict its primary targets and also its off-targets with reasonable accuracy [71] . One prominent instance is Cyclica's cloud-based proteome-screening AI platform, Ligand Express, which is used to find receptors that can interact with a particular small molecule (the molecular description of which is in SMILE string) and produce on and off-target interactions. This helps in understanding the possible adverse effects of the drug [72] . AI in de novo drug design Over the past few years, the de novo drug design approach has been widely used to design drug molecules. The traditional method of de novo drug design is being replaced by evolving DL methods, the former having shortcomings of complicated synthesis routes and difficult prediction of the bioactivity of the novel molecule [36] . Computer-aided synthesis planning can also suggest millions of structures that can be synthesized and also predicts several different synthesis routes for them [73] . [74] , now renamed Synthia, which has the ability to encode a set of rules into the machine and propose possible synthesizing routes for eight medicinally essential targets. This program has proven to be efficient both in terms of improving the yield and reducing expenses. It is also capable of providing alternate synthesizing strategies for patented products and is said to be helpful in the synthesis of compounds that have not yet been synthesized. Similarly, DNN focuses on rules of organic chemistry and retrosynthesis, which, with the aid of Monte-Carlo tree searches and symbolic AI, help in reaction prediction and the process of drug discovery and design, which is much faster than traditional methods [75, 76] .",
+            "cite_spans": [
+                {
+                    "start": 589,
+                    "end": 593,
+                    "text": "[71]",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 944,
+                    "end": 948,
+                    "text": "[72]",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 1299,
+                    "end": 1303,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1466,
+                    "end": 1470,
+                    "text": "[73]",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 1473,
+                    "end": 1477,
+                    "text": "[74]",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 2186,
+                    "end": 2190,
+                    "text": "[75,",
+                    "ref_id": "BIBREF73"
+                },
+                {
+                    "start": 2191,
+                    "end": 2194,
+                    "text": "76]",
+                    "ref_id": "BIBREF74"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Coley et al. developed a framework in which a rigid forward reaction template was applied to a group of reactants to synthesize chemically feasible products with a significant rate of reaction. ML was used to determine the dominant product based on a score given by the NNs [23] . Putin et al. explored a DNN architecture called the reinforced adversarial neural computer (RANC) based on RL for de novo design of small organic molecules. This platform was trained with molecules represented as SMILES strings. It then generated molecules with predefined chemical descriptors in terms of MW, logP, and topological polar surface area (TPSA). RANC was compared with another platform, ORGANIC, where the former outperformed in generating unique structures without sufficient loss of their structure length [77] .",
+            "cite_spans": [
+                {
+                    "start": 274,
+                    "end": 278,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 802,
+                    "end": 806,
+                    "text": "[77]",
+                    "ref_id": "BIBREF75"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Even RNN was based on the long short-term memory (LSTM) relating to molecules obtained from the ChEMBL database and fed as SMILES strings. This was used to generate a diverse library of molecules for VS. This approach was extended to procure novel molecules toward a particular target, such as targets for the 5-HT2A receptor, Staphylococcus aureus, and Plasmodium falciparum [78] .",
+            "cite_spans": [
+                {
+                    "start": 376,
+                    "end": 380,
+                    "text": "[78]",
+                    "ref_id": "BIBREF76"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Popova et al. developed the Reinforcement Learning for Structural Evolution strategy for de novo drug synthesis, which involves generative and predictive DNNs to develop new compounds. In this, the generative model produces more unique molecules in terms of SMILE strings based on a stack memory, whereas the predictive models are used to forecast the properties of the developed compound [79] . Merk et al. also exploited the generative AI model to design retinoid X and PPAR agonist molecules, with desired therapeutic effects without requiring complex rules. The authors successfully designed five molecules, four out of which have shown good modulatory activity in cell assays, thereby emphasizing the use of generative AI in new molecule synthesis [80] . The involvement of AI in the de novo design of molecules can be beneficial to the pharmaceutical sector because of its various advantages, such as providing online learning and simultaneous optimization of the already-learned data as well as suggesting possible synthesis routes for compounds leading to swift lead design and development [78, 81] .",
+            "cite_spans": [
+                {
+                    "start": 389,
+                    "end": 393,
+                    "text": "[79]",
+                    "ref_id": "BIBREF77"
+                },
+                {
+                    "start": 753,
+                    "end": 757,
+                    "text": "[80]",
+                    "ref_id": "BIBREF78"
+                },
+                {
+                    "start": 1098,
+                    "end": 1102,
+                    "text": "[78,",
+                    "ref_id": "BIBREF76"
+                },
+                {
+                    "start": 1103,
+                    "end": 1106,
+                    "text": "81]",
+                    "ref_id": "BIBREF79"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "The discovery of a novel drug molecule requires its subsequent incorporation in a suitable dosage form with desired delivery characteristics. In this area, AI can replace the older trial and error approach [82] . Various computational tools can resolve problems encountered in the formulation design area, such as stability issues, dissolution, porosity, and so on, with the help of QSPR [83] . Decision-support tools use rule-based systems to select the type, nature, and quantity of the excipients depending on the physicochemical attributes of the drug and operate through a feedback mechanism to monitor the entire process and intermittently modify it [84] .",
+            "cite_spans": [
+                {
+                    "start": 206,
+                    "end": 210,
+                    "text": "[82]",
+                    "ref_id": "BIBREF80"
+                },
+                {
+                    "start": 388,
+                    "end": 392,
+                    "text": "[83]",
+                    "ref_id": "BIBREF81"
+                },
+                {
+                    "start": 656,
+                    "end": 660,
+                    "text": "[84]",
+                    "ref_id": "BIBREF82"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in advancing pharmaceutical product development"
+        },
+        {
+            "text": "Guo et al. integrated Expert Systems (ES) and ANN to create a hybrid system for the development of direct-filling hard gelatin capsules of piroxicam in accordance with the specifications of its dissolution profile. The MODEL EXPERT SYSTEM (MES) makes decisions and recommendations for formulation development based on the input parameters. By contrast, ANN uses backpropagation learning to link formulation parameters to the desired response, jointly controlled by the control module, to ensure hassle-free formulation development [82] .",
+            "cite_spans": [
+                {
+                    "start": 531,
+                    "end": 535,
+                    "text": "[82]",
+                    "ref_id": "BIBREF80"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in advancing pharmaceutical product development"
+        },
+        {
+            "text": "Various mathematical tools, such as computational fluid dynamics (CFD), discrete element modeling (DEM), and the Finite Element Method have been used to examine the influence of the flow property of the powder on the diefilling and process of tablet compression [85, 86] . CFD can also be utilized to study the impact of tablet geometry on its dissolution profile [87] . The combination of these mathematical models with AI could prove to be of immense help in the rapid production of pharmaceutical products.",
+            "cite_spans": [
+                {
+                    "start": 262,
+                    "end": 266,
+                    "text": "[85,",
+                    "ref_id": "BIBREF83"
+                },
+                {
+                    "start": 267,
+                    "end": 270,
+                    "text": "86]",
+                    "ref_id": "BIBREF84"
+                },
+                {
+                    "start": 364,
+                    "end": 368,
+                    "text": "[87]",
+                    "ref_id": "BIBREF85"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in advancing pharmaceutical product development"
+        },
+        {
+            "text": "With the increasing complexities of manufacturing processes along with increasing demand for efficiency and better product quality, modern manufacturing systems are trying to confer human knowledge to machines, continuously changing the manufacturing practice [88] . The incorporation of AI in manufacturing can prove to be a boost for the pharmaceutical industry. Tools, such as CFD, uses Reynolds-Averaged Navier-Stokes solvers technology that studies the impact of agitation and stress levels in different equipment (e.g., stirred tanks), exploiting the automation of many pharmaceutical operations. Similar systems, such as direct numerical simulations and large eddy simulations, involve advanced approaches to solve complicated flow problems in manufacturing [85] .",
+            "cite_spans": [
+                {
+                    "start": 260,
+                    "end": 264,
+                    "text": "[88]",
+                    "ref_id": "BIBREF86"
+                },
+                {
+                    "start": 765,
+                    "end": 769,
+                    "text": "[85]",
+                    "ref_id": "BIBREF83"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in pharmaceutical manufacturing"
+        },
+        {
+            "text": "The novel Chemputer platform helps digital automation for the synthesis and manufacturing of molecules, incorporating various chemical codes and operating by using a scripting language known as Chemical Assembly [23] . It has been successfully used for the synthesis and manufacture of sildenafil, diphenhydramine hydrochloride, and rufinamide, with the yield and purity significantly similar to manual synthesis [89] . The estimated completion of granulation in granulators of capacities ranging from 25 to 600 l can be done efficiently by AI technologies [90] . The technology and neuro-fuzzy logic correlated critical variables to their responses. They derived a polynomial equation for the prediction of the proportion of the granulation fluid to be added, required speed, and the diameter of the impeller in both geometrically similar and dissimilar granulators [91] .",
+            "cite_spans": [
+                {
+                    "start": 212,
+                    "end": 216,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 413,
+                    "end": 417,
+                    "text": "[89]",
+                    "ref_id": "BIBREF87"
+                },
+                {
+                    "start": 557,
+                    "end": 561,
+                    "text": "[90]",
+                    "ref_id": "BIBREF88"
+                },
+                {
+                    "start": 867,
+                    "end": 871,
+                    "text": "[91]",
+                    "ref_id": "BIBREF89"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in pharmaceutical manufacturing"
+        },
+        {
+            "text": "DEM has been widely utilized in the pharmaceutical industry, such as in studying the segregation of powders in a binary mixture, the effects of varying blade speed and shape, predicting the possible path of the tablets in the coating process, along with analysis of time spent by tablets under the spray zone [85] . ANNs, along with fuzzy models, studied the correlation between machine settings and the problem of capping to reduce tablet capping on the manufacturing line [92] .",
+            "cite_spans": [
+                {
+                    "start": 309,
+                    "end": 313,
+                    "text": "[85]",
+                    "ref_id": "BIBREF83"
+                },
+                {
+                    "start": 474,
+                    "end": 478,
+                    "text": "[92]",
+                    "ref_id": "BIBREF90"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in pharmaceutical manufacturing"
+        },
+        {
+            "text": "Meta-classifier and tablet-classifier are AI tools that help to govern the quality standard of the final product, indicating a possible error in the manufacturing of the tablet [93] . A patent has been filed, demonstrating a system capable of determining the most exquisite combination of drug and dosage regimen for each patient, using a processor receiving patient information, and designs the desired transdermal patch accordingly [94] .",
+            "cite_spans": [
+                {
+                    "start": 177,
+                    "end": 181,
+                    "text": "[93]",
+                    "ref_id": "BIBREF91"
+                },
+                {
+                    "start": 434,
+                    "end": 438,
+                    "text": "[94]",
+                    "ref_id": "BIBREF92"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in pharmaceutical manufacturing"
+        },
+        {
+            "text": "Manufacturing of the desired product from the raw materials includes a balance of various parameters [93] . Quality control tests on the products, as well as maintenance of batch-to-batch consistency, require manual interference. This might not be the best approach in each case, showcasing the need for AI implementation at this stage [85] . The FDA amended the Current Good Manufacturing Practices (cGMP) by introducing a 'Quality by Design' approach to understand the critical operation and specific criteria that govern the final quality of the pharmaceutical product [95] .",
+            "cite_spans": [
+                {
+                    "start": 101,
+                    "end": 105,
+                    "text": "[93]",
+                    "ref_id": "BIBREF91"
+                },
+                {
+                    "start": 336,
+                    "end": 340,
+                    "text": "[85]",
+                    "ref_id": "BIBREF83"
+                },
+                {
+                    "start": 572,
+                    "end": 576,
+                    "text": "[95]",
+                    "ref_id": "BIBREF93"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in quality control and quality assurance"
+        },
+        {
+            "text": "Gams et al. used a combination of human efforts and AI, wherein preliminary data from production batches were analyzed and decision trees developed. These were further translated into rules and analyzed by the operators to guide the production cycle in the future [93] . Goh et al. studied the dissolution profile, an indicator of batch-to-batch consistency of theophylline pellets with the aid of ANN, which correctly predicted the dissolution of the tested formulation with an error of <8% [96] .",
+            "cite_spans": [
+                {
+                    "start": 264,
+                    "end": 268,
+                    "text": "[93]",
+                    "ref_id": "BIBREF91"
+                },
+                {
+                    "start": 492,
+                    "end": 496,
+                    "text": "[96]",
+                    "ref_id": "BIBREF94"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in quality control and quality assurance"
+        },
+        {
+            "text": "AI can also be implemented for the regulation of in-line manufacturing processes to achieve the desired standard of the product [95] . ANN-based monitoring of the freeze-drying process is used, which applies a combination of selfadaptive evolution along with local search and backpropagation algorithms. This can be used to predict the temperature and desiccated-cake thickness at a future time point (t + \u0394t) for a particular set of operating conditions, eventually helping to keep a check on the final product quality [97] .",
+            "cite_spans": [
+                {
+                    "start": 128,
+                    "end": 132,
+                    "text": "[95]",
+                    "ref_id": "BIBREF93"
+                },
+                {
+                    "start": 520,
+                    "end": 524,
+                    "text": "[97]",
+                    "ref_id": "BIBREF95"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in quality control and quality assurance"
+        },
+        {
+            "text": "An automated data entry platform, such as an Electronic Lab Notebook, along with sophisticated, intelligent techniques, can ensure the quality assurance of the product [98] . Also, data mining and various knowledge discovery techniques in the Total Quality Management expert system can be used as valuable approaches in making complex decisions, creating new technologies for intelligent quality control [99] .",
+            "cite_spans": [
+                {
+                    "start": 168,
+                    "end": 172,
+                    "text": "[98]",
+                    "ref_id": "BIBREF96"
+                },
+                {
+                    "start": 404,
+                    "end": 408,
+                    "text": "[99]",
+                    "ref_id": "BIBREF97"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in quality control and quality assurance"
+        },
+        {
+            "text": "Clinical trials are directed toward establishing the safety and efficacy of a drug product in humans for a particular disease condition and require 6-7 years along with a substantial financial investment. However, only one out of ten molecules entering these trials gain successful clearance, which is a massive loss for the industry [100] . These failures can result from inappropriate patient selection, shortage of technical requirements, and poor infrastructure. However, with the vast digital medical data available, these failures can be reduced with the implementation of AI [101] .",
+            "cite_spans": [
+                {
+                    "start": 334,
+                    "end": 339,
+                    "text": "[100]",
+                    "ref_id": "BIBREF98"
+                },
+                {
+                    "start": 582,
+                    "end": 587,
+                    "text": "[101]",
+                    "ref_id": "BIBREF99"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in clinical trial design"
+        },
+        {
+            "text": "The enrolment of patients takes one-third of the clinical trial timeline. The success of a clinical trial can be ensured by the recruitment of suitable patients, which otherwise leads to ~86% of failure cases [102] . AI can assist in selecting only a specific diseased population for recruitment in Phase II and III of clinical trials by using patient-specific genome-exposome profile analysis, which can help in early prediction of the available drug targets in the patients selected [19, 101] . Preclinical discovery of molecules as well as predicting lead compounds before the start of clinical trials by using other aspects of AI, such as predictive ML and other reasoning techniques, help in the early prediction of lead molecules that would pass clinical trials with consideration of the selected patient population [101] .",
+            "cite_spans": [
+                {
+                    "start": 209,
+                    "end": 214,
+                    "text": "[102]",
+                    "ref_id": "BIBREF100"
+                },
+                {
+                    "start": 485,
+                    "end": 489,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 490,
+                    "end": 494,
+                    "text": "101]",
+                    "ref_id": "BIBREF99"
+                },
+                {
+                    "start": 822,
+                    "end": 827,
+                    "text": "[101]",
+                    "ref_id": "BIBREF99"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in clinical trial design"
+        },
+        {
+            "text": "Drop out of patients from clinical trials accounts for the failure of 30% of the clinical trials, creating additional recruiting requirements for the completion of the trial, leading to a wastage of time and money. This can be avoided by close monitoring of the patients and helping them follow the desired protocol of the clinical trial [102] . Mobile software was developed by AiCure that monitored regular medication intake by patients with schizophrenia in a Phase II trial, which increased the adherence rate of patients by 25%, ensuring successful completion of the clinical trial [19] .",
+            "cite_spans": [
+                {
+                    "start": 338,
+                    "end": 343,
+                    "text": "[102]",
+                    "ref_id": "BIBREF100"
+                },
+                {
+                    "start": 587,
+                    "end": 591,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in clinical trial design"
+        },
+        {
+            "text": "Market positioning is the process of creating an identity of the product in the market to attract consumers to buy them, making it an essential element in almost all business strategies for companies to establish their own unique identity [103, 104] . This approach was used in the marketing of pioneer brand Viagra, where the company targeted it not only for the treatment of men's erectile dysfunction, but also for other problems affecting quality of life [105] .",
+            "cite_spans": [
+                {
+                    "start": 239,
+                    "end": 244,
+                    "text": "[103,",
+                    "ref_id": "BIBREF101"
+                },
+                {
+                    "start": 245,
+                    "end": 249,
+                    "text": "104]",
+                    "ref_id": "BIBREF102"
+                },
+                {
+                    "start": 459,
+                    "end": 464,
+                    "text": "[105]",
+                    "ref_id": "BIBREF103"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in market positioning"
+        },
+        {
+            "text": "With the help of technology and e-commerce as a platform, it has become easier for companies to get a natural recognition of their brand in the public domain. Companies exploit search engines as one of the technological platforms to occupy a prominent position in online marketing and help in the positioning of the product in the market, as also confirmed by the Internet Advertising Bureau. Companies continuously try to rank their websites higher than those of other companies, giving recognition to their brand in a short period [106] .",
+            "cite_spans": [
+                {
+                    "start": 533,
+                    "end": 538,
+                    "text": "[106]",
+                    "ref_id": "BIBREF104"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in market positioning"
+        },
+        {
+            "text": "Other techniques, such as statistical analysis methods, particle swarm optimization algorithms (proposed by Eberhart and Kennedy in 1995) in combination with NNs, provided a better idea about markets. They can help decide the marketing strategy for the product based on accurate consumer-demand prediction [107] .",
+            "cite_spans": [
+                {
+                    "start": 306,
+                    "end": 311,
+                    "text": "[107]",
+                    "ref_id": "BIBREF105"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "The success of a company lies in the continuous development and growth of its business. Even with access to substantial funds, R&D output in the pharmaceutical industry is falling because of the failure of companies to adopt new marketing technologies [108] . The advances in digital technologies, referred to as the 'Fourth industrial revolution', is helping innovative digitalized marketing via a multicriteria decision-making approach, which collects and analyzes statistical and mathematical data and implements human inferences to make AI-based decisionmaking models explore new marketing methodology [109] .",
+            "cite_spans": [
+                {
+                    "start": 252,
+                    "end": 257,
+                    "text": "[108]",
+                    "ref_id": "BIBREF106"
+                },
+                {
+                    "start": 606,
+                    "end": 611,
+                    "text": "[109]",
+                    "ref_id": "BIBREF107"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in market prediction and analysis"
+        },
+        {
+            "text": "AI also helped in a comprehensive analysis of the fundamental requirements of a product from the customer's point of view as well as understanding the need of the market, which aid in decision-making using prediction tools. It can also forecast sales and analyze the market. AI-based software engages consumers and creates awareness among physicians by displaying advertisements directing them to the product site by just a click [110] . In addition, these methods use natural language-processing tools to analyze keywords entered by customers and relate them to the probability of purchasing the product [111, 112] .",
+            "cite_spans": [
+                {
+                    "start": 430,
+                    "end": 435,
+                    "text": "[110]",
+                    "ref_id": "BIBREF108"
+                },
+                {
+                    "start": 605,
+                    "end": 610,
+                    "text": "[111,",
+                    "ref_id": "BIBREF109"
+                },
+                {
+                    "start": 611,
+                    "end": 615,
+                    "text": "112]",
+                    "ref_id": "BIBREF110"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in market prediction and analysis"
+        },
+        {
+            "text": "Several businesses to business (B2B) companies have announced self-service technologies that allow free browsing of health products, easily found by giving its specification, place orders, and track their shipping. Pharmaceutical companies are also introducing their online applications such as 1 mg, Medline, Netmeds, and Ask Apollo, to fulfill the unmet needs of the patients [109] . Prediction of the market is also essential for various pharmaceutical distribution companies, which can implement AI in the field, such as 'Business intelligent Smart Sales Prediction Analysis', which uses a combination of time series forecasting and real-time application. This helps pharmaceutical companies to predict the sale of products in advance to prevent costs of excess stock or prevent customer loss because of shortages [113] .",
+            "cite_spans": [
+                {
+                    "start": 378,
+                    "end": 383,
+                    "text": "[109]",
+                    "ref_id": "BIBREF107"
+                },
+                {
+                    "start": 818,
+                    "end": 823,
+                    "text": "[113]",
+                    "ref_id": "BIBREF111"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in market prediction and analysis"
+        },
+        {
+            "text": "Based on the market analysis and cost incurred in the development of the pharmaceutical product, the company determines the final price of the product. The critical concept in applying AI to determine this price is harnessing its ability to mimic the thinking of a human expert to assess the factors that control the pricing of a product after its manufacture [114] . Factors, such as expenditure during research and development of the drug, strict price regulatory schemes in the concerned country, length of the exclusivity period, market share of the innovated drug after a year before are patent expiry, price of the reference product, and price-fixing policies determine the price of branded and generic drugs [115] .",
+            "cite_spans": [
+                {
+                    "start": 360,
+                    "end": 365,
+                    "text": "[114]",
+                    "ref_id": "BIBREF112"
+                },
+                {
+                    "start": 715,
+                    "end": 720,
+                    "text": "[115]",
+                    "ref_id": "BIBREF113"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in product cost"
+        },
+        {
+            "text": "In ML, large sets of statistical data, such as product development cost, product demand in the market, inventory cost, manufacturing cost, and competitors' product price, are analyzed by the software, subsequently developing algorithms for predicting the product price. AI platforms, such as In competitor, launched by Intelligence Node (founded in the year 2012), is a complete retail competitive intelligence platform that analyzes the competitor pricing data and helps retailers and brands to monitor the competition. Wise Athena and Navetti PricePoint enable the user to determine the pricing of their product, suggesting that pharmaceutical companies can adopt the same to assist product costing [116] .",
+            "cite_spans": [
+                {
+                    "start": 701,
+                    "end": 706,
+                    "text": "[116]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in product cost"
+        },
+        {
+            "text": "Nanorobots comprise mainly integrated circuits, sensors, power supply, and secure backup of data, which are maintained via computational technologies, such as AI [117, 118] . They are programmed to avoid the collision, target identification, detect and attach, and finally excretion from the body. Advances in nano/microrobots give them the ability to navigate to the targeted site based on physiological conditions, such as pH, thus improving the efficacy and reducing systemic adverse effects [118] . Development of implantable nanorobots developed for controlled delivery of drugs and genes requires consideration of parameters such as dose adjustment, sustained release, and control release, and the release of the drugs requires automation controlled by AI tools, such as NNs, fuzzy logic, and integrators [119] . Microchip implants are used for programmed release as well as to detect the location of the implant in the body.",
+            "cite_spans": [
+                {
+                    "start": 162,
+                    "end": 167,
+                    "text": "[117,",
+                    "ref_id": "BIBREF115"
+                },
+                {
+                    "start": 168,
+                    "end": 172,
+                    "text": "118]",
+                    "ref_id": "BIBREF116"
+                },
+                {
+                    "start": 495,
+                    "end": 500,
+                    "text": "[118]",
+                    "ref_id": "BIBREF116"
+                },
+                {
+                    "start": 811,
+                    "end": 816,
+                    "text": "[119]",
+                    "ref_id": "BIBREF117"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI-based nanorobots for drug delivery"
+        },
+        {
+            "text": "Several combinations of drugs are approved and marketed to treat complex diseases, such as TB and cancer, because they can provide a synergistic effect for quick recovery [120, 121] . The selection of precise and potential drugs for combination requires high-throughput screening of a considerable number of drugs, making the process tedious; for example, cancer therapy requires six or seven drugs as a combination therapy. ANNs, logistic regression, and network-based modeling can screen drug combinations and improve overall dose regimen [120, 122] . Rashid et al. developed a quadratic phenotype optimization platform for the detection of optimal combination therapy for the treatment of bortezomib-resistant multiple myeloma using a collection of 114 FDA-approved drugs. This model recommended the combination of decitabine (Dec) and mitomycin C (MitoC) as the best two-drug combination and Dec, MitoC, and mechlorethamine as the superior three-drug combination [121] .",
+            "cite_spans": [
+                {
+                    "start": 171,
+                    "end": 176,
+                    "text": "[120,",
+                    "ref_id": "BIBREF118"
+                },
+                {
+                    "start": 177,
+                    "end": 181,
+                    "text": "121]",
+                    "ref_id": "BIBREF119"
+                },
+                {
+                    "start": 541,
+                    "end": 546,
+                    "text": "[120,",
+                    "ref_id": "BIBREF118"
+                },
+                {
+                    "start": 547,
+                    "end": 551,
+                    "text": "122]",
+                    "ref_id": "BIBREF120"
+                },
+                {
+                    "start": 967,
+                    "end": 972,
+                    "text": "[121]",
+                    "ref_id": "BIBREF119"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in combination drug delivery and synergism/antagonism prediction"
+        },
+        {
+            "text": "Combination drug delivery can be more efficient if backed up by data on the synergism or antagonism of drugs administered together. The Master Regulator Inference Algorithm used 'Mater regulator genes' to efficiently predict 56% synergism. Other methods, such as Network-based Laplacian regularized least square synergistic drug combination, and RF, can also be used for the same [122] .",
+            "cite_spans": [
+                {
+                    "start": 380,
+                    "end": 385,
+                    "text": "[122]",
+                    "ref_id": "BIBREF120"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in combination drug delivery and synergism/antagonism prediction"
+        },
+        {
+            "text": "Li et al. developed a synergistic drug combination model using RF for the prediction of synergistic anticancer drug combinations. This model was formed based on gene expression profiles and various networks, and the authors successfully predicted 28 synergistic anticancer combinations. They have reported three such combinations, although the remainder might also prove to be important [123] . Similarly, Mason et al. applied an ML approach, called the Combination Synergy Estimation, to predict potential synergistic antimalarial combinations based on a data set of 1540 antimalarial drug compounds [124] .",
+            "cite_spans": [
+                {
+                    "start": 387,
+                    "end": 392,
+                    "text": "[123]",
+                    "ref_id": "BIBREF121"
+                },
+                {
+                    "start": 601,
+                    "end": 606,
+                    "text": "[124]",
+                    "ref_id": "BIBREF122"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI in combination drug delivery and synergism/antagonism prediction"
+        },
+        {
+            "text": "Nanomedicines use nanotechnology and medicines for the diagnosis, treatment, and monitoring of complex diseases, such as HIV, cancer, malaria, asthma, and various inflammatory diseases. In recent years, nanoparticle-modified drug delivery has become important in the field of therapeutics and diagnostics because they have enhanced efficacy and treatment [121, 125] . A combination of nanotechnology and AI could provide solutions to many problems in formulation development [126] .",
+            "cite_spans": [
+                {
+                    "start": 355,
+                    "end": 360,
+                    "text": "[121,",
+                    "ref_id": "BIBREF119"
+                },
+                {
+                    "start": 361,
+                    "end": 365,
+                    "text": "125]",
+                    "ref_id": "BIBREF123"
+                },
+                {
+                    "start": 475,
+                    "end": 480,
+                    "text": "[126]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI emergence in nanomedicine"
+        },
+        {
+            "text": "A methotrexate nanosuspension was computationally formulated by studying the energy generated on the interaction between the drug molecules, monitoring the conditions that could lead to the aggregation of the formulation [83] . Coarse-grained simulation, along with chemical calculation, can aid the determination of drugdendrimer interactions and evaluation of drug encapsulation within the dendrimer. In addition, software such as LAMMPS and GROMACS 4 can be used to examine the impact of surface chemistry on the internalization of nanoparticles into cells [83] .",
+            "cite_spans": [
+                {
+                    "start": 221,
+                    "end": 225,
+                    "text": "[83]",
+                    "ref_id": "BIBREF81"
+                },
+                {
+                    "start": 560,
+                    "end": 564,
+                    "text": "[83]",
+                    "ref_id": "BIBREF81"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI emergence in nanomedicine"
+        },
+        {
+            "text": "AI assisted the preparation of silicasomes, which is a combination of iRGD, a tumor-penetrating peptide, and irinotecan-loaded multifunctional mesoporous silica nanoparticles. This increased the uptake of silicasomes threefourfold because iRGD improves the transcytosis of silicasomes, with improved treatment outcome and enhanced overall survival [125] .",
+            "cite_spans": [
+                {
+                    "start": 348,
+                    "end": 353,
+                    "text": "[125]",
+                    "ref_id": "BIBREF123"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI emergence in nanomedicine"
+        },
+        {
+            "text": "To decrease the financial cost and chances of failures that accompany VS, pharmaceutical companies are shifting towards AI. There was an increase in the AI market from US$200 million in 2015 to US$700 million in 2018, and is expected to increase to $5 billion by 2024 [127] . A 40% projected growth from 2017 to 2024 indicates that AI will likely revolutionize the pharmaceutical and medical sectors. Various pharmaceutical companies have made and are continuing to invest in AI and have collaborated with AI companies to developed essential healthcare tools. The collaboration of DeepMind Technologies, a subsidiary of Google, with the Royal Free London NHS Foundation Trust for the assistance of acute kidney injury, is an example of this. Major pharmaceutical companies and AI players are detailed in Figure 4 [19] .",
+            "cite_spans": [
+                {
+                    "start": 268,
+                    "end": 273,
+                    "text": "[127]",
+                    "ref_id": "BIBREF125"
+                },
+                {
+                    "start": 813,
+                    "end": 817,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 804,
+                    "end": 812,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Pharmaceutical market of AI"
+        },
+        {
+            "text": "The entire success of AI depends on the availability of a substantial amount of data because these data are used for the subsequent training provided to the system. Access to data from various database providers can incur extra costs to a company, and the data should also be reliable and high quality to ensure accurate result prediction. Other challenges that prevent full-fledged adoption of AI in the pharmaceutical industry include the lack of skilled personnel to operate AI-based platforms, limited budget for small organizations, apprehension of replacing humans leading to job loss, skepticism about the data generated by AI, and the black box phenomenon (i.e., how the conclusions are reached by the AI platform) [6] .",
+            "cite_spans": [
+                {
+                    "start": 723,
+                    "end": 726,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Ongoing challenges in adopting AI: leads on ways to overcome"
+        },
+        {
+            "text": "Automation of certain tasks in drug development, manufacturing, and supply chains, clinical trials, and sales will take place with time, but these all fall under the category of 'narrow AI'; where AI has to be trained using a large volume of data and, thus, makes it suitable for a particular task. Therefore, human intervention is mandatory for the successful implementation, development, and operation of the AI platform. However, the fear of unemployment could be a myth given that AI is currently is taking over repetitive jobs, while leaving scope for human intelligence to be used for developing more complicated insights and creativity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ongoing challenges in adopting AI: leads on ways to overcome"
+        },
+        {
+            "text": "Nevertheless, AI has been adopted by several pharmaceutical companies, and it is expected that a revenue of US$2.199 billion will be created by 2022 through AI-based solutions in the pharmaceutical sector, with an investment exceeding US$7.20 billion across 300+ deals between 2013 and 2018 by the pharmaceutical industry [128] . Pharmaceutical organizations need clarity about the potential of AI technology in finding solutions to problems once it has been implemented, along with understanding the reasonable goals that can be achieved. Skilled data scientists, software engineers with a sound knowledge of AI technology, and a clear understanding of the company business target and its R&D goal can be developed to utilize the full potential of the AI platform.",
+            "cite_spans": [
+                {
+                    "start": 322,
+                    "end": 327,
+                    "text": "[128]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Ongoing challenges in adopting AI: leads on ways to overcome"
+        },
+        {
+            "text": "The advancement of AI, along with its remarkable tools, continuously aims to reduce challenges faced by pharmaceutical companies, impacting the drug development process along with the overall lifecycle of the product, which could explain the increase in the number of start-ups in this sector [23] . The current healthcare sector is facing several complex challenges, such as the increased cost of drugs and therapies, and society needs specific significant changes in this area. With the inclusion of AI in the manufacturing of pharmaceutical products, personalized medications with the desired dose, release parameters, and other required aspects can be manufactured according to individual patient need [85] . Using the latest AI-based technologies will not only speed up the time needed for the products to come to the market, but will also improve the quality of products and the overall safety of the production process, and provide better utilization of available resources along with being cost-effective, thereby increasing the importance of automation [129] .",
+            "cite_spans": [
+                {
+                    "start": 293,
+                    "end": 297,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 706,
+                    "end": 710,
+                    "text": "[85]",
+                    "ref_id": "BIBREF83"
+                },
+                {
+                    "start": 1062,
+                    "end": 1067,
+                    "text": "[129]",
+                    "ref_id": "BIBREF126"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Concluding remarks and prospects"
+        },
+        {
+            "text": "The most significant worry regarding the incorporation of these technologies is the job losses that would follow and the strict regulations needed for the implementation of AI. However, these systems are intended only to make work easier and not to completely replace humans [130] . AI can not only aid quick and hassle-free hit compound identification, but also contribute to suggestions of synthesis routes of these molecules along with the prediction of the desired chemical structure and an understanding of drug-target interactions and its SAR.",
+            "cite_spans": [
+                {
+                    "start": 275,
+                    "end": 280,
+                    "text": "[130]",
+                    "ref_id": "BIBREF127"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Concluding remarks and prospects"
+        },
+        {
+            "text": "AI can also make major contributions to the further incorporation of the developed drug in its correct dosage form as well as its optimization, in addition to aiding quick decision-making, leading to faster manufacturing of betterquality products along with assurance of batch-to-batch consistency. AI can also contribute to establishing the safety and efficacy of the product in clinical trials, as well as ensuring proper positioning and costing in the market through comprehensive market analysis and prediction. Although there are no drugs currently on the market developed with AI-based approaches and specific challenges remain with regards to the implementation of this technology, it is likely that AI will become an invaluable tool in the pharmaceutical industry in the near future. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Concluding remarks and prospects"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Artificial intelligence in medicine",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ramesh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Annals of the Royal College of Surgeons of England",
+            "volume": "86",
+            "issn": "",
+            "pages": "334--338",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The potential application of artificial intelligence in transport",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Miles",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Walker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "IEE Proceedings-Intelligent Transport Systems",
+            "volume": "153",
+            "issn": "",
+            "pages": "183--198",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A Qualitative Research on Marketing and Sales in the Artificial Intelligence Age",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Siau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Artificial intelligence and the public sector-applications and challenges",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wirtz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "International Journal Public Administration",
+            "volume": "42",
+            "issn": "",
+            "pages": "596--615",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The road ahead for knowledge management: an AI perspective",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Farquhar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "AI Magazine",
+            "volume": "21",
+            "issn": "",
+            "pages": "17--17",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "A study on the application and use of artificial intelligence to support drug development",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lamberti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Clinical Therapeutics",
+            "volume": "41",
+            "issn": "",
+            "pages": "1414--1426",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Artificial intelligence and collusion",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Beneke",
+                    "suffix": ""
+                },
+                {
+                    "first": "M-O",
+                    "middle": [],
+                    "last": "Mackenrodt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "IIC International Review of Intellectual Property and Competition Law",
+            "volume": "50",
+            "issn": "",
+            "pages": "109--134",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "The Artificial Life Route to Artificial Intelligence: Building Embodied, Situated Agents",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Steels",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Brooks",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Foundations of artificial neural networks",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bielecki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Models of Neurons and Perceptrons: Selected Problems and Challenges",
+            "volume": "",
+            "issn": "",
+            "pages": "15--28",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Artificial intelligence in the pharmaceutical sector: current scene and future prospect",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kalyane",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Future of Pharmaceutical Product Development and Research",
+            "volume": "",
+            "issn": "",
+            "pages": "73--107",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Recurrent Neural Networks: Design and Applications",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Medsker",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Jain",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Cellular Neural Networks: Analysis, Design and Optimization",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "H\u00e4nggi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Moschytz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Artificial intelligence: the beginning of a new era in pharmacy profession",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Vyas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Asian Journal of Pharmaceutics",
+            "volume": "12",
+            "issn": "",
+            "pages": "72--76",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Artificial intelligence approaches for rational drug design and discovery",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Duch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Current Pharmaceutical Design",
+            "volume": "13",
+            "issn": "",
+            "pages": "1497--1508",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "CURATE. AI: optimizing personalized medicine with artificial intelligence",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Blasiak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "SLAS Technol",
+            "volume": "25",
+            "issn": "",
+            "pages": "95--105",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Overview of methods for overcoming hindrance to drug delivery to tumors, with special attention to tumor interstitial fluid",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Baronzio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Frontiers in Oncology",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Artificial intelligence in drug development: present status and future prospects",
+            "authors": [
+                {
+                    "first": "K-K",
+                    "middle": [],
+                    "last": "Mak",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Pichika",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Drug Discov. Today",
+            "volume": "24",
+            "issn": "",
+            "pages": "773--780",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Artificial intelligence in drug discovery",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sellwood",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Future Sci. ZZ",
+            "volume": "",
+            "issn": "",
+            "pages": "2025--2028",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Big data and artificial intelligence modeling for drug discovery",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Annual Review of Pharmacology and Toxicology",
+            "volume": "60",
+            "issn": "",
+            "pages": "573--589",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Advancing computational toxicology in the big data era by artificial intelligence: data-driven and mechanism-driven modeling for chemical toxicity",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ciallella",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Chemical Research in Toxicology",
+            "volume": "32",
+            "issn": "",
+            "pages": "536--547",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Advancing drug discovery via artificial intelligence",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Trends in Pharmacological Sciences",
+            "volume": "40",
+            "issn": "8",
+            "pages": "592--604",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Silico Medicinal Chemistry: Computational Methods to Support Drug Design",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Boosting docking-based virtual screening with deep learning",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Pereira",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Journal of Chemical Information and Modeling",
+            "volume": "56",
+            "issn": "",
+            "pages": "2495--2506",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "MOARF, an integrated workflow for multiobjective optimization: implementation, synthesis, and biological evaluation",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Firth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Journal of Chemical Information and Modeling",
+            "volume": "55",
+            "issn": "",
+            "pages": "1169--1180",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "From machine learning to deep learning: progress in machine intelligence for rational drug discovery",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Drug Discovery Today",
+            "volume": "22",
+            "issn": "",
+            "pages": "1680--1685",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "In silico de novo design of novel NNRTIs: a bio-molecular modelling approach",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Jain",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "RSC Advances",
+            "volume": "5",
+            "issn": "",
+            "pages": "14814--14827",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "A comparative study of family-specific protein-ligand complex affinity prediction based on random forest approach",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Journal of Computer-Aided Molecular Design",
+            "volume": "29",
+            "issn": "",
+            "pages": "349--360",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Comparison of artificial intelligence methods for modeling pharmaceutical QSARS",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Applied Artificial Intelligence",
+            "volume": "9",
+            "issn": "",
+            "pages": "213--233",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Using artificial intelligence methods to speed up drug discovery",
+            "authors": [
+                {
+                    "first": "\u00d3",
+                    "middle": [],
+                    "last": "\u00c1lvarez-Machancoses",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Fern\u00e1ndez-Mart\u00ednez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Expert Opinion Drug Discovery",
+            "volume": "14",
+            "issn": "",
+            "pages": "769--777",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "How artificial intelligence is changing drug discovery",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Fleming",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nature",
+            "volume": "557",
+            "issn": "",
+            "pages": "55--55",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Deep learning in drug discovery and medicine; scratching the surface",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dana",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Molecules",
+            "volume": "23",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "In silico prediction of physicochemical properties of environmental chemicals using molecular fingerprints and machine learning",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Journal Chemical Information Modeling",
+            "volume": "57",
+            "issn": "",
+            "pages": "36--49",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Concepts of artificial intelligence for computer-assisted drug discovery",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Chemical Reviews",
+            "volume": "119",
+            "issn": "",
+            "pages": "10520--10594",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Artificial intelligence in drug design",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hessler",
+                    "suffix": ""
+                },
+                {
+                    "first": "K-H",
+                    "middle": [],
+                    "last": "Baringhaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Molecules",
+            "volume": "23",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Deep architectures and deep learning in chemoinformatics: the prediction of aqueous solubility for drug-like molecules",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lusci",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Journal Chemical Information Modeling",
+            "volume": "53",
+            "issn": "",
+            "pages": "1563--1575",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Prediction of human intestinal absorption of compounds using artificial intelligence techniques",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Current Drug Discovery Technologies",
+            "volume": "14",
+            "issn": "",
+            "pages": "244--254",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Estimation of acid dissociation constants using graph kernels",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rupp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Molecular Informatics",
+            "volume": "29",
+            "issn": "",
+            "pages": "731--740",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "A grand product design model for crystallization solvent design",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Computers & Chemical Engineering",
+            "volume": "135",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Comparison study of computational prediction tools for drug-target binding affinities",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Thafar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Frontiers Chemistry",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "DeepDTA: deep drug-target binding affinity prediction",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "\u00d6zt\u00fcrk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Bioinformatics",
+            "volume": "34",
+            "issn": "",
+            "pages": "821--829",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Large-scale prediction and testing of drug activity on side-effect targets",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lounkine",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Nature",
+            "volume": "486",
+            "issn": "",
+            "pages": "361--367",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "iDTi-CSsmoteB: identification of drug-target interaction based on drug chemical structure and protein sequence using XGBoost with over-sampling technique SMOTE",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mahmud",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "IEEE Access",
+            "volume": "7",
+            "issn": "",
+            "pages": "48699--48714",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Interpretable drug target prediction using deep neural representation",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Proceedings of the Twenty-Seventh International Joint Conference on Artificial Intelligence",
+            "volume": "",
+            "issn": "",
+            "pages": "3371--3377",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Padme: a deep learning-based framework for drug-target interaction prediction",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1807.09741"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "DeepAffinity: interpretable deep learning of compound-protein affinity through unified recurrent and convolutional neural networks",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Karimi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Bioinformatics",
+            "volume": "35",
+            "issn": "18",
+            "pages": "3329--3338",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "eToxPred: a machine learning-based approach to estimate the toxicity of drug candidates",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "BMC Pharmacology and Toxicology",
+            "volume": "20",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "DeepTox: toxicity prediction using deep learning",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mayr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Frontiers in Environmental Science",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "An integrative machine learning approach for prediction of toxicity-related drug safety",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lysenko",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Life Science Alliance",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Artificial intelligence for drug toxicity and safety",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Basile",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Trends in Pharmacological Sciences",
+            "volume": "40",
+            "issn": "",
+            "pages": "624--635",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "A data-driven approach to predicting successes and failures of clinical trials",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gayvert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Cell Chemical Biology",
+            "volume": "23",
+            "issn": "",
+            "pages": "1294--1301",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Tox_(R) CNN: deep learning-based nuclei profiling tool for drug toxicity screening",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Jimenez-Carretero",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "PLoS Computational Biology",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Deep learning with feature embedding for compound-protein interaction prediction",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "End-to-end differentiable learning of protein structure",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Alquraishi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Cell Systems",
+            "volume": "8",
+            "issn": "",
+            "pages": "292--301",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "AI protein-folding algorithms solve structures faster than ever",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hutson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature XX",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Artificial intelligence in prediction of secondary protein structure using CB513 database",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Avdagic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Summit on Translational Bioinformatics",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Boosting compound-protein interaction prediction by deep learning",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Methods",
+            "volume": "110",
+            "issn": "",
+            "pages": "64--72",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Computational screening for active compounds targeting protein sequences: methodology and experimental validation",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Journal of Chemical Information and Modeling",
+            "volume": "51",
+            "issn": "",
+            "pages": "2821--2828",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "A systematic prediction of multiple drug-target interactions from chemical, genomic, and pharmacological data",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS ONE",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "iDrug-Target: predicting the interactions between drug compounds and target proteins in cellular networking via benchmark dataset optimization approach",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "33",
+            "issn": "",
+            "pages": "2221--2233",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "The benefits of drug repositioning",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Persidis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Drug Discov World",
+            "volume": "12",
+            "issn": "",
+            "pages": "9--12",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Rethinking drug repositioning and development with artificial intelligence, machine learning, and omics",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Koromina",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Omics",
+            "volume": "23",
+            "issn": "",
+            "pages": "539--548",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "A review of computational drug repurposing",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Translational and Clinical Pharmacology",
+            "volume": "27",
+            "issn": "",
+            "pages": "59--63",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Target identification among known drugs by deep learning from heterogeneous networks",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chemical Science",
+            "volume": "11",
+            "issn": "",
+            "pages": "1775--1797",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Computational tools for polypharmacology and repurposing",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Achenbach",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Future Medicinal Chemistry",
+            "volume": "3",
+            "issn": "",
+            "pages": "961--968",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Artificial intelligence approach fighting COVID-19 with repurposing drugs",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yi-Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Biomedical Journal XX",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Prediction of synergistic anticancer drug combinations based on drug target network and drug induced gene expression profiles",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Artif Intell Med",
+            "volume": "83",
+            "issn": "",
+            "pages": "35--43",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Polypharmacology: drug discovery for the future",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Reddy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Expert Review of Clinical Pharmacology",
+            "volume": "6",
+            "issn": "",
+            "pages": "41--47",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "KinomeX: a web application for predicting kinome-wide polypharmacology effect of small molecules",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Bioinformatics",
+            "volume": "35",
+            "issn": "",
+            "pages": "5354--5356",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Cyclica Launches Ligand Express\u2122, a Disruptive Cloud-Based Platform to Revolutionize Drug Discovery",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cyclica",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Computer-assisted design of complex organic syntheses",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Corey",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wipke",
+                    "suffix": ""
+                }
+            ],
+            "year": 1969,
+            "venue": "Science",
+            "volume": "166",
+            "issn": "",
+            "pages": "178--192",
+            "other_ids": {}
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Chematica: a story of computer code that started to think like a chemist",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Grzybowski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "4",
+            "issn": "",
+            "pages": "390--398",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Efficient syntheses of diverse, medicinally relevant targets planned by computer and executed in the laboratory",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Klucznik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Chem",
+            "volume": "4",
+            "issn": "",
+            "pages": "522--532",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "Planning chemical syntheses with deep neural networks and symbolic AI",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Segler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nature",
+            "volume": "555",
+            "issn": "",
+            "pages": "604--610",
+            "other_ids": {}
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "Reinforced adversarial neural computer for de novo molecular design",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Putin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Journal of Chemical Information and Modeling",
+            "volume": "58",
+            "issn": "",
+            "pages": "1194--1204",
+            "other_ids": {}
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "Generating focused molecule libraries for drug discovery with recurrent neural networks",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Segler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "ACS Central Science",
+            "volume": "4",
+            "issn": "",
+            "pages": "120--131",
+            "other_ids": {}
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "Deep reinforcement learning for de novo drug design",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Popova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Science Advances",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF78": {
+            "ref_id": "b78",
+            "title": "De novo design of bioactive small molecules by artificial intelligence",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Merk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Molecular Informatics",
+            "volume": "37",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF79": {
+            "ref_id": "b79",
+            "title": "Automated de novo drug design: are we nearly there yet?",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Schneider",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Clark",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Angewandte Chemie",
+            "volume": "131",
+            "issn": "",
+            "pages": "10906--10917",
+            "other_ids": {}
+        },
+        "BIBREF80": {
+            "ref_id": "b80",
+            "title": "A prototype intelligent hybrid system for hard gelatin capsule formulation development",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Pharmaceutical Technology XX",
+            "volume": "",
+            "issn": "",
+            "pages": "44--52",
+            "other_ids": {}
+        },
+        "BIBREF81": {
+            "ref_id": "b81",
+            "title": "Computational modeling for formulation design",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mehta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Drug Discovery Today",
+            "volume": "24",
+            "issn": "",
+            "pages": "781--788",
+            "other_ids": {}
+        },
+        "BIBREF82": {
+            "ref_id": "b82",
+            "title": "Toward intelligent decision support for pharmaceutical product development",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Journal of Pharmaceutical Innovation",
+            "volume": "1",
+            "issn": "",
+            "pages": "23--35",
+            "other_ids": {}
+        },
+        "BIBREF83": {
+            "ref_id": "b83",
+            "title": "The future of pharmaceutical manufacturing sciences",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rantanen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Khinast",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Journal of Pharmaceutical Sciences",
+            "volume": "104",
+            "issn": "",
+            "pages": "3612--3638",
+            "other_ids": {}
+        },
+        "BIBREF84": {
+            "ref_id": "b84",
+            "title": "Process modeling in the pharmaceutical industry using the discrete element method",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Ketterhagen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Journal of Pharmaceutical Sciences",
+            "volume": "98",
+            "issn": "",
+            "pages": "442--470",
+            "other_ids": {}
+        },
+        "BIBREF85": {
+            "ref_id": "b85",
+            "title": "Mathematical model-based accelerated development of extended-release metformin hydrochloride tablet formulation",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "AAPS PharmSciTech",
+            "volume": "17",
+            "issn": "",
+            "pages": "1007--1013",
+            "other_ids": {}
+        },
+        "BIBREF86": {
+            "ref_id": "b86",
+            "title": "Intelligent systems in manufacturing: current developments and future prospects",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Meziane",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Integrated Manufacturing Systems",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF87": {
+            "ref_id": "b87",
+            "title": "Organic synthesis in a modular robotic system driven by a chemical programming language",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Steiner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Science",
+            "volume": "363",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF88": {
+            "ref_id": "b88",
+            "title": "Process control and scale-up of pharmaceutical wet granulation processes: a review",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Faure",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "European Journal of Pharmaceutics and Biopharmaceutics",
+            "volume": "52",
+            "issn": "",
+            "pages": "269--277",
+            "other_ids": {}
+        },
+        "BIBREF89": {
+            "ref_id": "b89",
+            "title": "Artificial intelligence tools for scaling up of high shear wet granulation process",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Landin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Journal of Pharmaceutical Sciences",
+            "volume": "106",
+            "issn": "",
+            "pages": "273--277",
+            "other_ids": {}
+        },
+        "BIBREF90": {
+            "ref_id": "b90",
+            "title": "ANN in pharmaceutical product and process development",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Das",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Chakraborty",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Artificial Neural Network for Drug Design, Delivery and Disposition",
+            "volume": "",
+            "issn": "",
+            "pages": "277--293",
+            "other_ids": {}
+        },
+        "BIBREF91": {
+            "ref_id": "b91",
+            "title": "Integrating artificial and human intelligence into tablet production process",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gams",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "AAPS PharmSciTech",
+            "volume": "15",
+            "issn": "",
+            "pages": "1447--1453",
+            "other_ids": {}
+        },
+        "BIBREF92": {
+            "ref_id": "b92",
+            "title": "System and methods for the production of personalized drug products",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kraft",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "20120041778--1",
+            "other_ids": {}
+        },
+        "BIBREF93": {
+            "ref_id": "b93",
+            "title": "A quality by design approach using artificial intelligence techniques to control the critical quality attributes of ramipril tablets manufactured by wet granulation",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Aksu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Pharmaceutical Development and Technology",
+            "volume": "18",
+            "issn": "",
+            "pages": "236--245",
+            "other_ids": {}
+        },
+        "BIBREF94": {
+            "ref_id": "b94",
+            "title": "Application of a recurrent neural network to prediction of drug dissolution profiles",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Goh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Neural Computing Applications",
+            "volume": "10",
+            "issn": "",
+            "pages": "311--317",
+            "other_ids": {}
+        },
+        "BIBREF95": {
+            "ref_id": "b95",
+            "title": "On the use of artificial neural networks to monitor a pharmaceutical freeze-drying process",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Dr\u0103goi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Drying Technology",
+            "volume": "31",
+            "issn": "",
+            "pages": "72--81",
+            "other_ids": {}
+        },
+        "BIBREF96": {
+            "ref_id": "b96",
+            "title": "Towards Intelligent Decision Support for Pharmaceutical Product Development",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Reklaitis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF97": {
+            "ref_id": "b97",
+            "title": "Intelligent quality management using knowledge discovery in databases",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "2009 International Conference on Computational Intelligence and Software Engineering",
+            "volume": "",
+            "issn": "",
+            "pages": "1--4",
+            "other_ids": {}
+        },
+        "BIBREF98": {
+            "ref_id": "b98",
+            "title": "Clinical development success rates for investigational drugs",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hay",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Nature Biotechnology",
+            "volume": "32",
+            "issn": "",
+            "pages": "40--51",
+            "other_ids": {}
+        },
+        "BIBREF99": {
+            "ref_id": "b99",
+            "title": "Artificial intelligence for clinical trial design",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Harrer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Trends Pharmacological Sciences",
+            "volume": "40",
+            "issn": "",
+            "pages": "577--591",
+            "other_ids": {}
+        },
+        "BIBREF100": {
+            "ref_id": "b100",
+            "title": "Factors associated with clinical trials that fail and opportunities for improving the likelihood of success: a review",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Fogel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Contemporary Clinical Trials Communications",
+            "volume": "11",
+            "issn": "",
+            "pages": "156--164",
+            "other_ids": {}
+        },
+        "BIBREF101": {
+            "ref_id": "b101",
+            "title": "Positioning strategies in business markets",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Kalafatis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Journal Business Industrial Marketing XX",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF102": {
+            "ref_id": "b102",
+            "title": "Brand positioning strategies for industrial firms providing customer solutions",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Jalkala",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ker\u00e4nen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Journal Business Industrial Marketing XX",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF103": {
+            "ref_id": "b103",
+            "title": "Innovation and Marketing in the Pharmaceutical Industry",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ding",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF104": {
+            "ref_id": "b104",
+            "title": "Brand positioning strategy using search engine marketing",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Dou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Mis Quarterly",
+            "volume": "",
+            "issn": "",
+            "pages": "261--279",
+            "other_ids": {}
+        },
+        "BIBREF105": {
+            "ref_id": "b105",
+            "title": "An intelligent market segmentation system using k-means and particle swarm optimization",
+            "authors": [
+                {
+                    "first": "C-Y",
+                    "middle": [],
+                    "last": "Chiu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Expert Systems with Applications",
+            "volume": "36",
+            "issn": "",
+            "pages": "4558--4565",
+            "other_ids": {}
+        },
+        "BIBREF106": {
+            "ref_id": "b106",
+            "title": "A decision model for pharmaceutical marketing and a case study in Turkey",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Toker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Ekonomska Istra\u017eivanja",
+            "volume": "26",
+            "issn": "",
+            "pages": "101--114",
+            "other_ids": {}
+        },
+        "BIBREF107": {
+            "ref_id": "b107",
+            "title": "Sales profession and professionals in the age of digitization and artificial intelligence technologies: concepts, priorities, and questions",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Journal Personal Selling Sales Management",
+            "volume": "39",
+            "issn": "",
+            "pages": "2--22",
+            "other_ids": {}
+        },
+        "BIBREF108": {
+            "ref_id": "b108",
+            "title": "How Artificial Intelligence and Machine Learning Can Impact Market Design",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Milgrom",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tadelis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF109": {
+            "ref_id": "b109",
+            "title": "How artificial intelligence will change the future of marketing",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Davenport",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal Academy Marketing Science",
+            "volume": "48",
+            "issn": "",
+            "pages": "24--42",
+            "other_ids": {}
+        },
+        "BIBREF110": {
+            "ref_id": "b110",
+            "title": "Waiting for a sales renaissance in the fourth industrial revolution: machine learning and artificial intelligence in sales research and practice",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Syam",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Industrial Marketing Management",
+            "volume": "69",
+            "issn": "",
+            "pages": "135--146",
+            "other_ids": {}
+        },
+        "BIBREF111": {
+            "ref_id": "b111",
+            "title": "Business intelligent smart sales prediction analysis for pharmaceutical distribution and proposed generic model",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Mahajan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "International Journal of Computer Science and Information Technologies",
+            "volume": "8",
+            "issn": "",
+            "pages": "407--412",
+            "other_ids": {}
+        },
+        "BIBREF112": {
+            "ref_id": "b112",
+            "title": "Neural networks for cost estimation of shell and tube heat exchangers",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Duran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Expert Systems Applications",
+            "volume": "36",
+            "issn": "",
+            "pages": "7435--7440",
+            "other_ids": {}
+        },
+        "BIBREF113": {
+            "ref_id": "b113",
+            "title": "A literature review of factors affecting price and competition in the global pharmaceutical market",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Value in Health",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF114": {
+            "ref_id": "b114",
+            "title": "AI for Pricing -Comparing 5 Current Applications",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jesus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF115": {
+            "ref_id": "b115",
+            "title": "The significance of artificial intelligence in drug delivery system design",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hassanzadeh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Advanced Drug Delivery Reviews",
+            "volume": "151",
+            "issn": "",
+            "pages": "169--190",
+            "other_ids": {}
+        },
+        "BIBREF116": {
+            "ref_id": "b116",
+            "title": "Micro-/nanorobots at work in active drug delivery",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Advanced Functional Materials",
+            "volume": "28",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF117": {
+            "ref_id": "b117",
+            "title": "Controlled drug release by a nanorobot",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Nature Biotechnology",
+            "volume": "30",
+            "issn": "",
+            "pages": "407--408",
+            "other_ids": {}
+        },
+        "BIBREF118": {
+            "ref_id": "b118",
+            "title": "Search algorithms as a framework for the optimization of drug combinations",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Calzolari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "PLoS Computational Biology",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF119": {
+            "ref_id": "b119",
+            "title": "Artificial intelligence and related technologies enabled nanomedicine for advanced cancer treatment",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Km",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Future Medicine XX",
+            "volume": "",
+            "issn": "",
+            "pages": "433--435",
+            "other_ids": {}
+        },
+        "BIBREF120": {
+            "ref_id": "b120",
+            "title": "Artificial intelligence in drug combination therapy",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Tsigelny",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Briefings in Bioinformatics",
+            "volume": "20",
+            "issn": "",
+            "pages": "1434--1448",
+            "other_ids": {}
+        },
+        "BIBREF121": {
+            "ref_id": "b121",
+            "title": "Prediction of synergistic anticancer drug combinations based on drug target network and drug induced gene expression profiles",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Artificial Intelligence in Medicine",
+            "volume": "83",
+            "issn": "",
+            "pages": "35--43",
+            "other_ids": {}
+        },
+        "BIBREF122": {
+            "ref_id": "b122",
+            "title": "Using machine learning to predict synergistic antimalarial compound combinations with novel structures",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mason",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Frontiers in Pharmacology",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF123": {
+            "ref_id": "b123",
+            "title": "Artificial intelligence in nanomedicine",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nanoscale Horizons",
+            "volume": "4",
+            "issn": "",
+            "pages": "365--377",
+            "other_ids": {}
+        },
+        "BIBREF125": {
+            "ref_id": "b125",
+            "title": "Year) Governance in the EU Member States in the Era of Big Data, Publisher 128 Research and Markets (2019) Global Growth Insight -Role of AI in the Pharmaceutical",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Pellat",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Anghelache",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Exploring Key Investment Trends, Companies-to-Action, and Growth Opportunities for AI in the Pharmaceutical Industry",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF126": {
+            "ref_id": "b126",
+            "title": "Future trends in process automation",
+            "authors": [
+                {
+                    "first": "S-L",
+                    "middle": [],
+                    "last": "J\u00e4ms\u00e4-Jounela",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Annual Reviews in Control",
+            "volume": "31",
+            "issn": "",
+            "pages": "211--220",
+            "other_ids": {}
+        },
+        "BIBREF127": {
+            "ref_id": "b127",
+            "title": "Artificial intelligence for the real world",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Davenport",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ronanki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Harvard Business Review",
+            "volume": "96",
+            "issn": "",
+            "pages": "108--116",
+            "other_ids": {}
+        },
+        "BIBREF128": {
+            "ref_id": "b128",
+            "title": "Dr Tekade's research group investigates the design, development, and characterization of targeted nanotechnology-based products for the site-specific delivery of therapeutic drugs, siRNA, miRNA, and so on, for the treatment of cancer, diabetes, arthritis, and neurological disorders. He has coauthored >100 peer-reviewed publications in international journals, contributed >50 international reference book chapters, five invited editorial articles, and four patent applications",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Rakesh",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Tekade",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "currently an associate professor in NIPER, Ahmedabad, is an academic-researcher with >10 years of teaching and research experience",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Grzybowski et al. developed the Chematica program",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Method domains of artificial intelligence (AI). This figure shows different AI method domains along with their subfields that can be implemented in different fields drug discovery and development.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Applications of artificial intelligence (AI) in different subfields of the pharmaceutical industry, from drug discovery to pharmaceutical product management.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Role of artificial intelligence (AI) in drug discovery. AI can be used effectively in different parts of drug discovery, including drug design, chemical synthesis, drug screening, polypharmacology, and drug repurposing.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}

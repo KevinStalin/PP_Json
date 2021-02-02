@@ -1,0 +1,1901 @@
+{
+    "paper_id": "0b4d6fb1a481a71bb5032e0a1b7c057f6109f652",
+    "metadata": {
+        "title": "COVID-19 pandemic in India: a mathematical model study",
+        "authors": [
+            {
+                "first": "Sudhanshu",
+                "middle": [],
+                "last": "Kumar",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Biswas",
+                "middle": [
+                    "\u00b7"
+                ],
+                "last": "Jayanta",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Kumar",
+                "middle": [],
+                "last": "Ghosh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Susmita",
+                "middle": [],
+                "last": "Sarkar",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The present novel coronavirus (SARS-CoV-2) infection has created a global emergency situation by spreading all over the world in a large scale within very short time period.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The novel coronavirus disease (COVID-19) is a worldwide infectious disease in the current time [1] [2] [3] [4] [5] .",
+            "cite_spans": [
+                {
+                    "start": 95,
+                    "end": 98,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 99,
+                    "end": 102,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 103,
+                    "end": 106,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 107,
+                    "end": 110,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 111,
+                    "end": 114,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Including this year pandemic, world faces severe attack by coronavirus several times, and some of those are SARS-CoV [6] , MERS-CoV [7] [8] [9] [10] and SARS-CoV-2 [11] . The symptom of all coronavirus patients is same; they suffer with respiratory problem, fever, dry cough, etc., but COVID-19 is more infectious compare to predecessors [11] . Most of the countries throughout the world are affected by this disease and its harmfulness is increasing day to day. The disease is spreading among different countries mainly through air-travel mode as large number of people is travelling from one country to another [12] [13] [14] . To control the disease spreading, WHO provided an advisory to all the counties regard-ing screening of people at both ends: exit and the entry of country [2, 15] .",
+            "cite_spans": [
+                {
+                    "start": 117,
+                    "end": 120,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 132,
+                    "end": 135,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 136,
+                    "end": 139,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 140,
+                    "end": 143,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 144,
+                    "end": 148,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 164,
+                    "end": 168,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 338,
+                    "end": 342,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 613,
+                    "end": 617,
+                    "text": "[12]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 618,
+                    "end": 622,
+                    "text": "[13]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 623,
+                    "end": 627,
+                    "text": "[14]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 784,
+                    "end": 787,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 788,
+                    "end": 791,
+                    "text": "15]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "After 5 April 2020, every countries have been suffering seriously due to the corona infection. A large number of people is confirmed as COVID-19 positive as well as a large number of people is in quarantine and also in asymptomatic stage. The exposed and the asymptomatic persons are more harmful as a result a large number of people is being infected every day. The exposed class are being infectious at any time as its incubation period is 2-14 days [16] . On the other hand, the asymptomatic class is most dangerous compared to any other class because the asymptomatic period is on an average three days [13] , because the asymptomatic persons are not showing the symptoms of the disease as a result the people interacting with them are not taking any care about the disease so COVID-19 is spreading rapidly among the people.",
+            "cite_spans": [
+                {
+                    "start": 452,
+                    "end": 456,
+                    "text": "[16]",
+                    "ref_id": null
+                },
+                {
+                    "start": 607,
+                    "end": 611,
+                    "text": "[13]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "On the other hand due to large number of infected cases and limited medical capacity in maximum countries, the diagnosis test of the exposed, asymptomatic and quarantined classes for confirmation of COVID-19 infection is low. This fact also promotes the number of the infected population [17] . The harmfulness of COVID-19 is so high that upto 11 May 2020, nearly forty two lakh people have been infected; among them, 2,87,131 are dead [16] . As the disease is spreading through interaction and no proper medicine is available till now, so minimizing the social distance and interaction among the people is only way to minimize the spreading of disease. To maintain social distancing, the China Government adopted the lockdown policy and is able to control the spreading of the disease [17, 18] . Following this policy, every country is adopting this policy except some countries.",
+            "cite_spans": [
+                {
+                    "start": 288,
+                    "end": 292,
+                    "text": "[17]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 436,
+                    "end": 440,
+                    "text": "[16]",
+                    "ref_id": null
+                },
+                {
+                    "start": 786,
+                    "end": 790,
+                    "text": "[17,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 791,
+                    "end": 794,
+                    "text": "18]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In highly populated countries like India, Bangladesh, etc., a large number of people move from one place to another place due to job, also a large number of population came in these countries from the highly infected countries. So these countries have high chance of spreading this disease. To control and stop the movement of the population, the Government of India adopted lockdown policy for twenty one days in the first phase, which starts from 25 March 2020, and it also extended upto 17 May 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The COVID-19 is highly infectious worldwide spreading life-threatening disease. But there is no particular vaccine, medicine or anti-viral therapy to protect or recover from this infection. So the present impor-tant issue throughout the World is protecting the human society from this infection. In this context, some preventive measures such as maintaining social distance, wearing masks, frequently washing the hands with soap and water, etc., can be employed to protect human from this infection. Among the COVID-19 preventives, maintaining social distance plays an crucial role to protect from the infection. Social distancing means keeping a safe space among the peoples who are not their house hold [19] . The measurement of this social distance should be at least six feet [19] . In real field, a portion of the population always maintain social distance to avoid infection in the endemic period due to their awareness. In order to study the impact of this important factor (social distance) on the disease dynamics, we have incorporated it in our model.",
+            "cite_spans": [
+                {
+                    "start": 705,
+                    "end": 709,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 780,
+                    "end": 784,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Our main goal of this work is to study the disease dynamics of COVID-2019 by studying a deterministic compartmental model for Indian scenario and access the preventive measures to control COVID-19 outbreak in India. Using the daily reported cases of India, we have estimated the model parameters, estimated the effective reproduction number and make some prediction about the prevalence of the disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Organization of the paper is as follows: In Sect. 2, we have formulated the model. Basic properties and the basic reproduction number are given in Sects. 3 and 4, respectively. In Sect. 5, we study the steady state analysis of the disease-free equilibrium point. Model fitting, parameter estimation, model validation and prediction are done in Sect. 6. Study of sensitivity analysis is done in Sect. 7. Computation of basic reproduction number from initial growth rate and effective reproduction number are described in Sect. 8. Some preventive measures are presented in Sect. 9. Finally, the concluding remarks are given in Sect. 10.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In this work, we shall study the transmission mechanism of COVID-19 using a deterministic compartmental model. In order to formulate the model mathematically, we have divided total population N (t) into seven mutually exclusive compartments on the basis of their disease status namely: susceptible (S (t)), exposed (E (t)), asymptomatic infected (A (t)), symptomatic infected but not quarantined (I (t)), symptomatic and quarantined infected (Q (t)), hospitalised and isolated infected (H (t)) and recovered (R (t)) population, so at any time t total population N (t) =",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model formulation"
+        },
+        {
+            "text": "A susceptible person may be infected by the close contact with a infected person. In general, the quarantined and isolated persons are unable to transmit the virus to other susceptible person, but practically we observe that many staffs of quarantine and isolation centres such as doctor, nurse and health staff have been infected by such persons. Let proportions q 1 and q 2 of quarantine and isolation individuals, respectively, obey the rules of quarantine and isolation centre properly. So that a proportions (1 \u2212 q 1 ) and (1 \u2212 q 2 ) of quarantine and isolation individuals, respectively, does not obey the rules of such centre properly and they are responsible to transmit the virus among the staff of such centre. So, after getting infection due to a individual from S-class with interaction of any individuals of classes A, I, Q, H move to the exposed class. Here, we consider the force of infection in the form \u03bb (S, E, A, I, Q, H,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model formulation"
+        },
+        {
+            "text": ", \u03b2 is the transmission rate of COVID-19 from symptomatic people and \u03c1 is the ratio of the transmission rate of asymptomatic and symptomatic infected individuals. A proportion d of susceptible population maintains a safe distance from one another due to lockdown, personal awareness and different awareness programmes. We have considered the constant recruitment rate \u03c0 in susceptible class and the natural death rate \u03bc. Exposed individuals move to three different compartments: asymptomatic, symptomatic and quarantined symptomatic class separately at the rate \u03c3 a , \u03c3 i , \u03c3 q , respectively. Infected and quarantined infected individuals have been detected and hospitalised at the rate \u03b7 i , \u03b7 q , respectively. Asymptomatic, symptomatic, quarantined, hospitalised individuals recover from the infection at a rate \u03b3 a , \u03b3 i , \u03b3 q and \u03b3 h , respectively, and COVID-19-induced mortality rate is \u03b4. Under the above conditions, the flow diagram of the COVID-19 transmission is given in Fig. 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 984,
+                    "end": 990,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Model formulation"
+        },
+        {
+            "text": "Under the above conditions and flow diagram ( Fig.  1) , the transmission of the virus is governed by the following system of nonlinear ODE:",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 46,
+                    "end": 54,
+                    "text": "Fig.  1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Model formulation"
+        },
+        {
+            "text": "\u2265 0 and description of the state variables and the parameters used in the model are presented in Table 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 97,
+                    "end": 104,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Model formulation"
+        },
+        {
+            "text": "In this section, we shall study the basic properties of the COVID-19 model (1). The model will be biologically meaningful if all the variables are non-negative for t \u2265 0 in other words solution with non-negative initial conditions will remain non-negative for all time, which we shall study in the next lemma. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Positivity and boundedness of solutions"
+        },
+        {
+            "text": "Similarly, it can be established that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Positivity and boundedness of solutions"
+        },
+        {
+            "text": "The dynamical nature of the COVID-19 model (1) shall be studied in the feasible closed region:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Positivity and boundedness of solutions"
+        },
+        {
+            "text": "It will be established that the closed region is a positively invariant and an attractor of all positive solutions of the COVID-19 model (1).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Positivity and boundedness of solutions"
+        },
+        {
+            "text": "The closed region is a positively invariant set for the COVID-19 model (1) with non-negative initial conditions in R + 7 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 2"
+        },
+        {
+            "text": "Proof Adding all the seven component equations of the model (1) and using the relation N = S + E + A +",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 2"
+        },
+        {
+            "text": "Using standard comparison theorem from [20] , the following inequality can be solved as,",
+            "cite_spans": [
+                {
+                    "start": 39,
+                    "end": 43,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Lemma 2"
+        },
+        {
+            "text": "It is clear from",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 2"
+        },
+        {
+            "text": "That is is a positively invariant set under the flow presented in the COVID-19 model (1). Further, if N (0) \u2265 \u03c0 \u03bc , then N (t) again approaches to \u03c0 \u03bc and the number of infected population E, A, I, Q and H approach to zero for larger t. So all solutions in R + 7 of the model (1) eventually enters in that is it is an attracting set.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 2"
+        },
+        {
+            "text": "Thus, the COVID-19 model (1) is well-posed biologically and mathematically in the invariant set [21] .",
+            "cite_spans": [
+                {
+                    "start": 96,
+                    "end": 100,
+                    "text": "[21]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Lemma 2"
+        },
+        {
+            "text": "The basic reproduction number plays important role in controlling and spreading the disease. It is defined as the number of secondary infection, i.e. the number of new infection spread by a single infected person. Analytically, it can be found easily only when the disease-free equilibrium of the system exists. Hetchote [21] , Diekmann et al. [22] and van den Rate of conversion from exposed to A, I and Q, respectively \u03b7 i , \u03b7 q Rates of hospitalisation from symptomatic and quarantined infected populations, respectively \u03b3 a , \u03b3 i , \u03b3 q , \u03b3 h Recovery rates from asymptomatic, symptomatic, quarantined and hospitalised infected populations, respectively \u03c0 Recruitment rate of human \u03bc, \u03b4 Normal and disease-induced death rate of human, respectively Driessehe and Watmough [23] proposed a generalized approach to determine the basic reproduction number which is known as the next generation matrix approach. For the system (1), the disease-free equilibrium point is E 0 ( \u03c0 \u03bc , 0, 0, 0, 0, 0, 0) and hence basic reproduction number of the proposed problem exists.",
+            "cite_spans": [
+                {
+                    "start": 321,
+                    "end": 325,
+                    "text": "[21]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 344,
+                    "end": 348,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 774,
+                    "end": 778,
+                    "text": "[23]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Basic reproduction number"
+        },
+        {
+            "text": "Here, we decompose the right hand side of the system (1) corresponding to the infected compart-",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Basic reproduction number"
+        },
+        {
+            "text": "for x j = E, A, I, Q, H . Since the basic reproduction number is the spectral radius of the next generation matrix F V \u22121 . Hence, we have the basic reproduction number for the considered model is",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Basic reproduction number"
+        },
+        {
+            "text": "where R 0 A , R 0I , R 0Q and R 0H are the parts of basic reproduction number contributed by asymptomatic infected class, symptomatic but non-quarantined infected class, symptomatic and quarantined infected class and hospitalised infected class, respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Basic reproduction number"
+        },
+        {
+            "text": "In this section, we shall study the stability analysis of the disease-free equilibrium point E 0 ( \u03c0 \u03bc , 0, 0, 0, 0, 0, 0) whose stability has been investigated in the next theorem.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Basic reproduction number"
+        },
+        {
+            "text": "Proof : The variational matrix corresponding to the system (1) at DFE E 0 (\u03c0/\u03bc, 0, 0, 0, 0, 0, 0) is",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Basic reproduction number"
+        },
+        {
+            "text": "are the roots of the following equation:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Basic reproduction number"
+        },
+        {
+            "text": "Then, P(0) = R 0 \u2212 1. There are two cases. Case I Suppose R 0 > 1. Then, P(0) > 0. Again, P(\u03bb) tends to \u22121 as \u03bb tends to \u221e. Since P(\u03bb) is a continuous function of \u03bb, hence the Bolzano theorem on continuous function implies that P(\u03bb i ) = 0 for some \u03bb i > 0. Thus, at least one eigenvalue of the variational matrix must be positive. Therefore, in this case the DFE E 0 is unstable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Basic reproduction number"
+        },
+        {
+            "text": "If possible let us assume that P(\u03bb) = 0 has a root of the form x + iy, where x, y \u2208 R and x \u2265 0. Then,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Basic reproduction number"
+        },
+        {
+            "text": "= R 0 < 1, which implies that 1 < 1. This is clearly a contradiction. Hence, all the roots of the equation P(\u03bb) = 0 have the form x + iy, where x, y \u2208 R and x < 0. Thus, in this case the DFE is stable. Hence, the theorem is proved.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Basic reproduction number"
+        },
+        {
+            "text": "In this section, we shall estimate the model parameters using COVID-19 reported real data. It has been spread all over the World at a high alarming rate. So the control of the transmission of this virus as early as possible is very essential for the existence of human civilization. On the other hand, the natural history and dynamics of the novel coronavirus is unknown till date. In this context, parameter estimation is an important task to study its dynamics.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model fitting-parameter estimation and model validation"
+        },
+        {
+            "text": "We have estimated the key model parameters connected to COVID-2019 by fitting the reported cases of the ongoing COVID-19 pandemic in India. Although this data set is incomplete as the pandemic is ongoing, but we shall use it for controlling this pandemic after studying its early dynamics. Actually, the COVID-19 outbreak starts in India from 1 March 2020, as from that date the new infected cases are reported continuously. On the other hand, a major preventive measure was taken by the Government of India by implementing a countrywide lockdown from 25 March 2020 and which has been continuing upto 17 May 2020 and may continue further if necessary. So we consider two sets of data: first one (set-1) is the collection of the cases reported during the period 1 March to 24 April of 2020. But before the implementation of lockdown (25 March 2020) many, exposed, symptomatic as well as asymptomatic infected person come in India from other COVID-19 pandemic countries, who are neither detected nor reported properly. So there remain uncertainty among the data reported during the period 1 March to 24 March 2020. Thus, we consider the second set (set-2) of data reported during the period 25 March to 24 April 2020 by avoiding the data reported in above said period. We have fitted the model to both the sets of data. The fitting to the first set is presented in Fig. 2a , b, and the estimated parameters are summarised in Table  2 , whereas the fitting of the second set is presented in Fig. 3a , b, and the corresponding parameters are put in Table 3 . The results show that the second one is best fit and we shall use this set for model prediction.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1363,
+                    "end": 1370,
+                    "text": "Fig. 2a",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1423,
+                    "end": 1431,
+                    "text": "Table  2",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 1488,
+                    "end": 1495,
+                    "text": "Fig. 3a",
+                    "ref_id": null
+                },
+                {
+                    "start": 1545,
+                    "end": 1552,
+                    "text": "Table 3",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Model fitting and parameter estimation"
+        },
+        {
+            "text": "We have fitted the model to cumulative cases of India, which are obtained from [16] . Our model predicted cumulative new infected cases (q(t)) satisfy the following equation:",
+            "cite_spans": [
+                {
+                    "start": 79,
+                    "end": 83,
+                    "text": "[16]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Model fitting and parameter estimation"
+        },
+        {
+            "text": "We solve the model equations numerically and use the solutions to determine the best-fit model parameters by using a nonlinear least squares regression technique which minimizes the sum of the squared residuals:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model fitting and parameter estimation"
+        },
+        {
+            "text": "is a set of model parameters to be estimated. q t j ( ) and q t j are cumulative number of infected population accordingly by model prediction and by reported data, respectively. Here, n denotes the total number of data points available for the fitting process.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model fitting and parameter estimation"
+        },
+        {
+            "text": "In order to fit the model with the reported cases of India, we have total population in India is 1 For the first data set initially that is on the 1 March 2020 the reported cumulative infected cases were 3, which number of cases has been considered as initial hospitalise cases and initial cumulative cases that is H (0) = 3 and q(0) = 3. There are no available information about the initial number of exposed, asymptomatic infected and symptomatic but non-quarantined (that is non-reported) infected which are estimated that is E(0), A(0), I (0) are estimated for the both data set and assume that q 1 = 0.94, q 2 = 0.90. Using the above initial conditions, recruitment rate and normal death rate, we have fitted our model (Fig. 2a) with the reported data [16] whose corresponding residuals are presented in Fig. 2b , and we have estimated all other key parameters including the basic reproduction number. According to our estimation, E(0) = 111, A(0) = 16, I (0) = 10 and the value of the basic reproduction is R 0 = 2.397448679 among which the contribution of the asymptomatic infected class is R 0 A = 1.317554127. Similarly, the contribution of the symptomatic but non-quarantined infected class, 2a, b and 3a, b, we have presented the cumulative number of real cases and the model predicted case and residual plot for the data set-1 and set-2, respectively. The randomness in the residue for both cases suggest that the fitness is good for each case.",
+            "cite_spans": [
+                {
+                    "start": 97,
+                    "end": 98,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 757,
+                    "end": 761,
+                    "text": "[16]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 724,
+                    "end": 733,
+                    "text": "(Fig. 2a)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 809,
+                    "end": 816,
+                    "text": "Fig. 2b",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Model fitting and parameter estimation"
+        },
+        {
+            "text": "In this part, we validate the model by comparing the model predictions with the reported data which are not used for fitting process using both sets of parameters.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model validation and prediction"
+        },
+        {
+            "text": "We have compared the model predicted daily cases with the reported daily cases with the help of a bar diagram of daily cases reported in India from 25 April to 10 May 2020 with the model predicted daily cases. The model predicted cases estimated from first set of parameters are given in Fig. 4a , whereas the prediction estimated from second set of parameters is given in Fig.  4b . Here, the blue colour bar denotes predicted daily new cases and red colour bar denotes reported cases. From Fig. 4a and b , it is clear that the second one gives more perfect estimation compared to the first one.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 288,
+                    "end": 295,
+                    "text": "Fig. 4a",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 373,
+                    "end": 381,
+                    "text": "Fig.  4b",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 492,
+                    "end": 505,
+                    "text": "Fig. 4a and b",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Model validation and prediction"
+        },
+        {
+            "text": "The best estimator also can be justified from the standard error of the two cases. The standard error corresponding to the model fitting to the first set of parameters is 2.8264954 \u00d7 10 7 , and the error for the fitting to the second set is 1.630582 \u00d7 10 7 . So the second set is the best fitting compared to the first set. Secondly, many exposed, asymptomatic infected, symptomatic infected persons came to India before on 25 March 2020 (before the lockdown) from other COVID-19 affected countries which are not detected properly. So there is uncertainty in reported data before 25 March 2020. So, we are not considering the data which reported before on that date. Thirdly from Fig. 4a and b , it is clear that the prediction based on second set of parameters is more perfect compared to the first one. For the above said reason, we shall choose the second set of parametric values which are estimated from the data reported from 25 March to 24 April 2020 to study the future trend of the outbreak and for model prediction.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 680,
+                    "end": 693,
+                    "text": "Fig. 4a and b",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Model validation and prediction"
+        },
+        {
+            "text": "In order to study the future trend of outbreak and predict from the model, we find the time series for the cumulative infected number of population in Fig. 5a and for different infected classes in Fig. 5b using the same initial conditions used in data fitting process and estimated parameter values for one year that is for 365 days from 25 March 2020. From Fig. 5a , it is clear that at that time total number of infected population will be 6.345 \u00d7 10 8 . Fig. 5b indicates that the number of symptomatic infected population will be maximum on around 146th day starting from 25 March 2020, i.e. on around 17 August 2020, the hospitalised case will be maximum on around 23 August 2020 and the asymptomatic case will be maximum on 27 August 2020. The model also predicts that the disease will be fully controlled after 365 days.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 151,
+                    "end": 158,
+                    "text": "Fig. 5a",
+                    "ref_id": null
+                },
+                {
+                    "start": 197,
+                    "end": 204,
+                    "text": "Fig. 5b",
+                    "ref_id": null
+                },
+                {
+                    "start": 353,
+                    "end": 365,
+                    "text": "From Fig. 5a",
+                    "ref_id": null
+                },
+                {
+                    "start": 457,
+                    "end": 464,
+                    "text": "Fig. 5b",
+                    "ref_id": null
+                }
+            ],
+            "section": "Model validation and prediction"
+        },
+        {
+            "text": "Novel coronavirus has been spreading globally at a high alarming rate, and it is a threat for human civilization. So prevention and control of this viral disease is very important task at this moment. In this context, first of all we have to identify and quantify the influential model parameters. In order to determine such parameters, we shall estimate sensitivity index of the basic reproduc-tion number with respect to different parameters. Using the normalized forward sensitivity method [25, 26] , we",
+            "cite_spans": [
+                {
+                    "start": 493,
+                    "end": 497,
+                    "text": "[25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 498,
+                    "end": 501,
+                    "text": "26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Sensitivity analysis"
+        },
+        {
+            "text": "is the characteristic parameter whose sensitivity on R 0 has to be determined. The calculated sensitivity indices with respect to each of the model parameters using both sets of parametric values have been presented in the last column of Tables 2 and 3, respectively. The significance of this index is that the index with higher in magnitude is more sensitive parameter on R 0 . The significance of the positive (or negative) sign of the sensitivity index is that R 0 increases (or decreases) as the parameter \u03b1 increases. Our findings show that the most influential parameters are lockdown factor (d), virus transmission rate (\u03b2), ratio of the virus transmission rate of asymptomatic and symptomatic infected population (\u03c1), recovery rate from asymptomatic infection class (\u03b3 a ), disease-induced death rate (\u03b4), transmission rate from exposed to asymptomatic infection class (\u03c3 a ) and recovery rate from hospitalised infected class (\u03b3 h ). Such indices can be guided to identify and quantify the effective control and prevention strategies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sensitivity analysis"
+        },
+        {
+            "text": "In this section, we shall estimate the basic reproduction number from the actual data and study the effective basic reproduction number for the outbreak in India.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Basic reproduction number of the COVID-19 outbreak in India"
+        },
+        {
+            "text": "There are several mathematical as well as statistical techniques to compute the basic reproduction number (R 0 ) for infectious diseases from the actual pandemic data [27] . In this section, we estimate the basic reproduction number R 0 from initial growth phase of the COVID-19 epidemic in India [28] . We assume that at the early stage of pandemic the cumulative number of cases q(t) varies as exp( t) [29] , i.e. q(t) \u221d exp( t) where is the force of infection. Similarly, the number of exposed, asymptomatic, symptomatic but non-quarantined, symptomatic and quarantined, hospitalised infected population varies with exp( t). So we have",
+            "cite_spans": [
+                {
+                    "start": 167,
+                    "end": 171,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 297,
+                    "end": 301,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 404,
+                    "end": 408,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Estimation of R 0 from actual data of COVID-19 outbreak in India"
+        },
+        {
+            "text": "where E 0 , A 0 , I 0 , Q 0 and H 0 are constant. Again, we assume that the number of non-susceptible population for COVID-19 in India be negligible, i.e. S(t) = \u03c0/\u03bc. Now, substituting (6) into the model equation (1), we have:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation of R 0 from actual data of COVID-19 outbreak in India"
+        },
+        {
+            "text": "Using the Eq. (7) in the expression R 0 given in (4), we have the following relation between the basic reproduction number (R 0 ) and the force of infection ( )",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation of R 0 from actual data of COVID-19 outbreak in India"
+        },
+        {
+            "text": "In order to estimate the basic reproduction number R 0 from the expression (8), we have to estimate the force of infection and the estimated others parameter are given in Table 2 . According to [29] , the daily number of new cases and the number of cumulative cases q(t) connected by the relation: the daily number of new cases \u223c q(t). So we estimate by plotting the number of daily new cases verses the number of cumulative cases q(t), the phase of exponential growth of the cumulative number of cases is evidenced by a linear growth of the curve the slope of which is the force of infection ( ). This linear growth of the curve computes by a least-square linear fit [29] . For the reported data from 1 March to 24 April 2020, COVID-19 outbreak in India presents in Fig. 6a . Now, on the basis of the slope of the line presents in Fig. 6b we have = 0.069929435282024\u00b10.007427261807510 day \u22121 . Using the expression (7) along with the above estimated and other parameter presented in Table 2 , we have the estimateR 0 = 2.095744073 with lower and upper values are 1.990274890 and 2.200561243, respectively.",
+            "cite_spans": [
+                {
+                    "start": 194,
+                    "end": 198,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 668,
+                    "end": 672,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 171,
+                    "end": 178,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 767,
+                    "end": 774,
+                    "text": "Fig. 6a",
+                    "ref_id": null
+                },
+                {
+                    "start": 832,
+                    "end": 839,
+                    "text": "Fig. 6b",
+                    "ref_id": null
+                },
+                {
+                    "start": 984,
+                    "end": 991,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Estimation of R 0 from actual data of COVID-19 outbreak in India"
+        },
+        {
+            "text": "We know that the basic reproduction number plays important role in controlling the disease spreading. It is the average number of secondary infection during the infection period. Since when R 0 < 1, then the average In this section, we shall describe the effective reproduction number is denoted by R(t) and defined as the number of secondary infections affected by a single primary infection at the tth day. Then, the quantity R(t) will give the information about the necessary steps to control the COVID-19 in India. The estimation of R(t) can be done using the following renewal equation [30] [31] [32] ",
+            "cite_spans": [
+                {
+                    "start": 591,
+                    "end": 595,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 596,
+                    "end": 600,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 601,
+                    "end": 605,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Effective reproduction number"
+        },
+        {
+            "text": "is the number of new cases at tth day and h(\u03c4 ) is the generation interval distribution for the COVID-19 disease. It is the probability distribution function of time from infection of a person to the secondary infection case by that person. Let the leaving rate of the infected class from the corresponding compartments are m 1 = \u03c3 a + \u03c3 i + \u03c3 q + \u03bc, Fig. 7 . It is clear from the figure that the effective reproduction number oscillate, but its value is above two upto the considered date except one day. To control the disease, we have to decrease its value lower than one.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 351,
+                    "end": 357,
+                    "text": "Fig. 7",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Effective reproduction number"
+        },
+        {
+            "text": "In this part, we shall explore the model prediction in Indian aspect and seek the preventive measure to control COVID-19 in India. The model parameter d denotes the proportion of population who maintain the social distance from other (or stay at home in safe). According to our estimation, 67.38% of the population maintain the social distance from other people in the lockdown period.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model prediction and some preventive measures"
+        },
+        {
+            "text": "In Fig. 8 , we presented the model predicted total out break size and the peak prevalence during the pandemic varying the value of d for the entire time period of prevalence. It is clear from the figures that if 80% people follow the lockdown Model effect, the disease is easy to control. Thus, to control the disease the administration should be strict to impose the lockdown properly. Since, as per our model prediction only 20% or less people does not follow the lockdown then disease may be controlled. So only the administrative, food and medicine supply persons may go outside breaking the lockdown.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 9,
+                    "text": "Fig. 8",
+                    "ref_id": null
+                }
+            ],
+            "section": "Model prediction and some preventive measures"
+        },
+        {
+            "text": "9.1 Programme for maintain safe distance among human and successful lockdown (i) A part of population maintain social distance or safe distance from each other to protect the virus transmission. In the model, this part or fraction is denoted by the parameter d. In order to find the possible impact of the parameter d on the total outbreak and peak prevalence, we have plotted total outbreak with respect to d in Fig. 8a and the peak prevalence with respect to d in Fig. 8b . According to our model, the total outbreak size (q(t, )) is given in the relation 5.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 413,
+                    "end": 420,
+                    "text": "Fig. 8a",
+                    "ref_id": null
+                },
+                {
+                    "start": 466,
+                    "end": 473,
+                    "text": "Fig. 8b",
+                    "ref_id": null
+                }
+            ],
+            "section": "Model prediction and some preventive measures"
+        },
+        {
+            "text": "Our finding shows that due to increasing of d (proportion of population who maintain social distance) upto 0.77 the total outbreak size reduces from 100% to 13% (Fig. 8a ) and the peak prevalence reduces from 37.77 to 0.28%, i.e. at a negligible level (Fig. 8b) . The parameter d can be increased by awareness programme through public media like T.V. programme, mobile message or broadcasting through any local media. The information regarding the infection like number of infected population number of COVID-19related death in the local area should be provide in proper time regularly and repeatedly. Such information will increase the consciousness of the people in the affected area and they maintained the social distance from each other and increased the value of d. On the other hand, the wrong information can misguide the people and they do not maintain the safe distance from each other as a result d will be decreased.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 161,
+                    "end": 169,
+                    "text": "(Fig. 8a",
+                    "ref_id": null
+                },
+                {
+                    "start": 252,
+                    "end": 261,
+                    "text": "(Fig. 8b)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Model prediction and some preventive measures"
+        },
+        {
+            "text": "India is a high population density country. Many people gather in market, ration shop to collect different food item, and they do not maintain minimum distance from each other as a result d decreases. In order to solve this problem, self-help group can be used for home delivery of different food item and other necessary requirements instead of cost or without cost (for poor citizen). Formation of self-help group and their instant training in each local area can be done with the help of local government like as panchayat, municipality corporation, etc. In this way, the supply of necessary requirements can be done in a systematic way and the parameter d can be decreased in a significant amount even after lockdown period.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model prediction and some preventive measures"
+        },
+        {
+            "text": "Another notable factor is that a major portion Indian use the public vehicles like train, bus and air transport. It is impossible to maintain safe distance among such vehicles passengers and the parameter d will decrease. A susceptible man may be infected by an infectious person when they travel using same vehicle without maintaining the safe distance. In this way, the virus infection spread from infected area to uninfected area. So our proposal is that the pub- ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model prediction and some preventive measures"
+        },
+        {
+            "text": "Due to high population density, in general human to human contact rate is high in India. On the other hand, an asymptomatic infected human has no symptom, but he/ she is able to transmit the virus to other susceptible human. So susceptible person will not take or take in late (after diagnostic test) prevention measure to protect from the virus transmission from an asymptomatic infected person. In this context, our finding shows that approximately 45% of the infected population are asymptomatic. The time series of different infected populations (see Fig.  5b ) show that the number of daily asymptomatic infected population is larger than other infected population. The contribution on basic reproduction number of asymptomatic infected class is larger than other compartment. So protection of the virus transmission from asymptomatic infected class is a challenging problem for India like highly populated country.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 555,
+                    "end": 563,
+                    "text": "Fig.  5b",
+                    "ref_id": null
+                }
+            ],
+            "section": "Prevention measure on asymptomatic class"
+        },
+        {
+            "text": "In order to solve this problem, we propose a prevention policy that reduces contact rate between asymptomatic infected human and susceptible human. In this context, first of all we have to identify the asymptomatic infected human among the population and then keep them in quarantine. To identify asymptomatic infected human, we have to focus on the diagnostic test among major portion of population, specially in the affected area and quarantine them.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prevention measure on asymptomatic class"
+        },
+        {
+            "text": "Let p with 0 \u2264 p \u2264 1 be an effectiveness of this prevention policy ( that is the reduction in contact rate among asymptomatic infected human and susceptible human ), applying such policy causes the following transformation in the model: \u03c1 \u2192 (1 \u2212 p)\u03c1. The impact of such prevention ( p) on total outbreak size presents in Fig. 9a , and impact on peak prevalence presents in Fig. 9b . Our finding suggests that enhancing p by at least 72% the total outbreak size will be reduced from 94.65% to nearly 2.772%, whereas the peak prevalence reduces by 18%.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 321,
+                    "end": 328,
+                    "text": "Fig. 9a",
+                    "ref_id": null
+                },
+                {
+                    "start": 373,
+                    "end": 380,
+                    "text": "Fig. 9b",
+                    "ref_id": null
+                }
+            ],
+            "section": "Prevention measure on asymptomatic class"
+        },
+        {
+            "text": "In the real field of Indian scenario, we have observed that many staffs of quarantine and isolation centre (hospital) are infected by the quarantined and isolated infected person. In the model, q 1 and q 2 represent the effectiveness of quarantine and isolation, respectively. For perfect quarantine and isolation, q 1 = 1 and q 2 = 1 but real information suggests that q 1 < 1, q 2 < 1. So we have to focus on perfect quarantine and isolation and our model suggests that by increasing q 1 from 0.94 to 1.0 and q 2 from 0.9 to 1.0 simultaneously the total outbreak size reduces by 2.19% and this fact is presented graphically in Fig. 10a . Our another observation is that according to our estimation the rate of hospitalisation from non-quarantine infected (\u03b7 i ) and quarantine infected classes \u03b7 q are 0.26 and 0.40, respectively. We have to increase these rate to control the COVID-19 outbreak. If we increase these rates up to 0.5 and 1.0, respectively, then the total num- ber of infected population will be decreased by 2% whose graphical presentation is given in Fig. 10b . By both the above said preventions, the outbreak can also be delayed.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 629,
+                    "end": 637,
+                    "text": "Fig. 10a",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1070,
+                    "end": 1078,
+                    "text": "Fig. 10b",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Prevention programme quarantined, isolation and rapid hospitalisation"
+        },
+        {
+            "text": "In order to control this outbreak, we have to apply above said prevention programmes simultaneously. In this case, we increase the values of parameters d, p, q 1 , q 2 , \u03b7 i and \u03b7 q from the estimated values (Table  3) to the values d = 0.2, p = 0.5, q 1 = 1, q 2 = 1, \u03b7 i = 0.5, \u03b7 q = 1 and the other parameters remain same (Table 3) . Now, using the above changed parametric values we continue the time series of cumulative number of infected population with the previous series from 24 April 2020 for the next 311 days in Fig. 11a . In Figure, red solid line denotes the real scenario (generates for the estimated parameter values) for the time period 25 March to 24 April 2020 and the dash blue line presents the proposed time series generated due to control. Under the above control, the number of cumulative infected population will be 4.194 \u00d7 10 4 and the disease will be dead after a short-time period. The effect of the above said control on the various infected classes is presented in Fig. 11b ; here, solid line denotes the time series for the estimated parameter for the first 31 days after implement of lockdown, and then, we apply the control and the corresponding time series is denoted by dash line. Under the above control, the prevalence will be maximum around on 27 April 2020 and the disease will be dead around on 31 August 2020.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 208,
+                    "end": 218,
+                    "text": "(Table  3)",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 325,
+                    "end": 334,
+                    "text": "(Table 3)",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 525,
+                    "end": 533,
+                    "text": "Fig. 11a",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 539,
+                    "end": 546,
+                    "text": "Figure,",
+                    "ref_id": null
+                },
+                {
+                    "start": 996,
+                    "end": 1004,
+                    "text": "Fig. 11b",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Prevention programme quarantined, isolation and rapid hospitalisation"
+        },
+        {
+            "text": "In this work, we have formulated a deterministic compartmental model to study the dynamics and future trend of COVID-19 outbreak in India and to give prediction on the future outbreak. First, we study the basic properties of the model and find the expression of the basic reproduction number and different contributory part contributed by different infected classes. We investigate the local stability of the disease-free equilibrium point, which is locally asymptotically stable for R 0 < 1 and unstable for R 0 > 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "To fit the proposed model to the reported cumulative data of COVID-19 outbreak in India, we have estimated the model parameters. In this connection, we consider two sets of data. The first set contains the cases reported during the period 1 March to 24 April 2020. On the other hand before the implementation of lockdown (25 March 2020), many symptomatic as well as asymptomatic infected person came into India from other COVID-19 pandemic country which are neither detected nor reported properly. So there remain uncertainty among the data reported during the period 1 March to 24 March 2020. Thus, we consider the second set of data reported during the period 25 March to 24 April 2020 by avoiding the data reported in above said period. We have fitted the model to the both sets of data and estimate two sets of parameters. Using the estimated parameter (from set-2), we compute the average basic reproduction number which is R 0 = 2.414190966 among which the contributions of asymptomatic, symptomatic, quarantine, hospitalise infected classes are R 0 A = 1.842473415, R 0I = 0.3910030945, R 0Q = 0.01860012179, R 0H = 0.162 1143316, respectively. According to our sensitivity analysis, the virus transmission rate (\u03b2), lockdown effect (d), proportion of infection rate of asymptomatic class in compare to symptomatic class (\u03c1), recovery rate from asymptomatic class (\u03b3 a ) are the most influential parameter. The basic reproduction number calculated from actual data lies between 1.99 and 2.10. The study of the effective basic reproduction number shows that it declines from 6.91 to 1.995. Our findings show that the outbreak size and peak prevalence can be reduced from 100 to 13% and from 37.77 to 0.28%, respectively, by increasing the proportion of the people who maintain the safe distance from each other (d) by 0.77. The findings show that increasing the proportion of asymptomatic infected population detected and isolated ( p) by at least 72% the total outbreak size will be reduced from 94.65% to nearly 2.772%, whereas the peak prevalence reduces by 18%.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Our findings suggest that the dramatical reduction in total outbreak size and peak prevalence is possible by increasing d (the proportion of number of population who maintain safe distance from each other) in a certain level and p (the proportion of number of asymptomatic population who are detected and isolated from the other susceptible population) in a certain level. We also have to increase the detection (on the basis of diagnostic test)and hospitalize rate (\u03b7 i , \u03b7 q ) to a certain level.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "World Health Organization: Pneumonia of unknown cause-China",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "World Health Organization: Updated WHO advice for international traffic in relation to the outbreak of the COVID-19",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "World Health Organization: Clinical management of severe acute respiratory infection when infection is suspected",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Event Horizon -COVID-19: Coronavirus COVID=19 global risk assessment",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N. Engl. J. Med",
+            "volume": "382",
+            "issn": "13",
+            "pages": "1199--1207",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "SARS outbreak in Ontario, Hong Kong and Singapore: the role of diagnosis and isolation as a control mechanism",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chowell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Fenimore",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Castillo-Garsow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Los Alamos Unclassified Report LA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "An Introduction to Mathematical Epidemiology",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Martcheva",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Mathematical Models in Population Biology and Epidemiology",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Brauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Castillo-Chavez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Texts in Applied Math",
+            "volume": "40",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Dynamical Modeling and Anaylsis of Epidemics",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "World Health Organization: Middle East respiratory syndrome coronavirus",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health-the latest 2019 Novel coronavirus outbreak in Wuhan",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Azhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Madani",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ntoumi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kock",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Dar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "China. Int. J. Infect. Dis",
+            "volume": "91",
+            "issn": "",
+            "pages": "264--266",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "COVID-19 pandemic in India: a mathematical model study",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Nowcasting and fore casting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "689--697",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Pneumonia of unknown etiology in Wuhan, China: potential for international spread via commercial air travel",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Bogoch",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Watts",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Thomas-Bachli",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huber",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "U G"
+                    ],
+                    "last": "Kraemer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Travel Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2002032"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "National Centre for Disease Control",
+            "authors": [],
+            "year": 2020,
+            "venue": "Travel Advisory",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "A conceptual model for the coronavirus disease 2019 (COVID-19) outbreak in Wuhan, China with individual reaction and governmental action",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Infect. Dis",
+            "volume": "93",
+            "issn": "",
+            "pages": "211--216",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Social distancing, Quarantine, and isolation-CDC",
+            "authors": [],
+            "year": 2020,
+            "venue": "www.cdc.gov. Accessed",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Stability Analysis of Nonlinear System",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Lakshmikantham",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Leela",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Martynyuk",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "The mathematics of infectious diseases",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Hethcote",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "SIAM Rev",
+            "volume": "42",
+            "issn": "4",
+            "pages": "599--653",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "On the definition and the computation of the basic reproduction ratio R 0 in the models for infectious disease in heterogeneous populations",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Diekmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A P"
+                    ],
+                    "last": "Heesterbeek",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A J"
+                    ],
+                    "last": "Metz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "J. Math. Biol",
+            "volume": "28",
+            "issn": "",
+            "pages": "365--382",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Reproduction numbers and sub-threshold endemic equilibria for compartmental models of disease transmission",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Van Den Driessche",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Watmough",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "SOUTH ASIA::INDIA\".CIA.gov, Central Intelligence Agency",
+            "volume": "180",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Determining important parameters in the spread of malaria through the sensitivity analysis of a mathematical model",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chitnis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hyman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Cushing",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Bull. Math. Biol",
+            "volume": "70",
+            "issn": "5",
+            "pages": "1272--1296",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Mathematical model of zika virus dynamics with vector control and sensitivity analysis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Biswas",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Ghosh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sarkar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Infect. Dis. Model",
+            "volume": "5",
+            "issn": "",
+            "pages": "23--41",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Estimation of R 0 from the initial phase of an outbreak of a vector-borne infection",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Massad",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A B"
+                    ],
+                    "last": "Coutinho",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Burattini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Amaku",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Trop. Med. Int. Health",
+            "volume": "15",
+            "issn": "1",
+            "pages": "120--146",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "The risk of yellow fever in a dengue-infested area",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Massad",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A B"
+                    ],
+                    "last": "Coutinho",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Burattini",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Lopez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Trans. R. Soc. Trop. Med. Hyg",
+            "volume": "95",
+            "issn": "",
+            "pages": "370--374",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Early determination of the reproductive number of vector-borne diseases: the case of dengue in Brazil",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Favier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Trop. Med. Int. Health",
+            "volume": "11",
+            "issn": "",
+            "pages": "332--340",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "How generation intervals shape the relationship between growth rates and reproductive numbers",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wallinga",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lipsitch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Proc. R. Soc. B",
+            "volume": "274",
+            "issn": "",
+            "pages": "599--604",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Modelling the dynamics of dengue real epidemics",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pinho",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ferreira",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Esteva",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Barreto",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Silva",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Philos. Trans. R. Soc. A",
+            "volume": "368",
+            "issn": "",
+            "pages": "5679--92",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "A generic model for a single strain mosquitotransmitted disease with memory on the host and the vector",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sardar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rana",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bhattacharya",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Khaled",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chattopadhyay",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Math. Biosci",
+            "volume": "263",
+            "issn": "",
+            "pages": "18--36",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Let us suppose F(t) = (S, E, A, I, Q, H, R) along with the initial conditions F(0) \u2265 0 then the solution F(t) of the COVID-19 model (1) are nonnegative for all t \u2265 0. Proof Suppose t 1 = sup {t > 0, F(t) > 0}, which is a positive quantity. Now, multiplying the first equation of (1) by its integrating factor exp \u03bct + t 0 \u03bb(\u03c4 )d\u03c4 and arranging the equation, we get d dt S(t) exp \u03bct + t 0 \u03bb(\u03c4 )d\u03c4 = \u03c0 exp \u03bct + t 0 \u03bb(\u03c4 )d\u03c4",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Flow",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Fig. 2 a Model simulation to the cumulative reported cases from 1 March to 24 April 2020 in India, the red dots denote the reported infected cases and blue line presents the model predicted infected cases b Residuals of the corresponding data fitting",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "quarantined infected class and hospitalised infected class are R 0I = 0.7658798290, R 0Q = 0.02241962187, R 0H = 0.2915951005, respectively. As the contribution of the asymptomatic infected class (R 0 A ) is larger in comparison with the other part, so we have to focus on the reduction in R 0 A in a prevention strategies, which will be discussed in detail in prevention section.For the second data set initially that is on date25 March, cumulative number of infected population q(0) = 657, H (0) = 657, S(0) = 1352642280 and we assume Q(0) = 647, the other initial conditions, i.e. E(0), A(0), I (0) are estimated. Under the above initial condition, the model fitting with the second set of data is presented in Fig. 3a and the corresponding residuals are presented in Fig. 3b. According to our estimation, E(0) = 1131, A(0) = 506, I (0) = 482 and the basic reproduction is R 0 = 2.414190966 among which the contributions of different infected classes are R 0 A = 1.842473415, R 0I = 0.3910030945, R 0Q = 0.01860012179, R 0H = 0.1621143316. In both Figs.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Bar",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "secondary infection in the infection period is less than one and consequently the disease is easy to control. But as the number of secondary infection is changing time to time for COVID-19 infection persons. As a result to control number of secondary infection consequently the reproduction number for each day.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "the function will be combination of the five exponential functions m 1 e \u2212m 1 t , m 2 e \u2212m 2 t , m 3 e \u2212m 3 t , m 4 e \u2212m 4 t and m 5 e \u2212m 5 t in the following form h(t) = 5 i=1 m 1 m 2 m 3 m 4 m 5 e \u2212m i t 5 j=1 j =i (m j \u2212 m i ) with mean of the distribution is T = 1 m 1 + 1 m 2 + 1 m 3 + 1 m 4 + 1 m 5 and \u03c4 > 0. The above relation is valid when the Effective reproduction number force of infection \u03b6 > min {\u2212m 1 , \u2212m 2 , \u2212m 3 , \u2212m 4 , \u2212m 5 }. Using the model estimated parameters, we have calculated the effective reproduction numbers and presented them in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Fig. 8 a Total outbreak size and b Peak prevalence during the pandemic predicted by the model for the prevention programs on reducing proportion of social distance among human",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "should be closed in entire pandemic period.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Time series for a cumulative number of infected population due to control apply from 25 April 2020 (blue dash line) b time series of infected classes due to control apply from 25 April 2020 (dash line)",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Interpretations of the model parameters",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": ",352,642,280 [24] considered as susceptible for COVID-19 that the initial number of susceptible S(0) = 1,352,642,280.The birth rate is 18.2/1000 per year [24]. So the daily recruitment rate in India is 67,446.82. The average life span of India is 69.7 [24] years, and hence, the death rate is 0.000039074.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors would like to thank the anonymous reviewers and the Honourable editor for their careful reading, useful comments and constructive suggestions for the improvement of the manuscript of the present research work.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "Conflict of interest The authors declare that there are no conflict of interests with publication of this work and no financial support from any agency.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with ethical standards"
+        }
+    ]
+}

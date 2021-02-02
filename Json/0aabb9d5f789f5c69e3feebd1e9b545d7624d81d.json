@@ -1,0 +1,531 @@
+{
+    "paper_id": "0aabb9d5f789f5c69e3feebd1e9b545d7624d81d",
+    "metadata": {
+        "title": "Functional profiling of COVID-19 respiratory tract microbiomes 2",
+        "authors": [
+            {
+                "first": "Niina",
+                "middle": [],
+                "last": "Haiminen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "IBM T. J. Watson Research Center",
+                    "location": {
+                        "settlement": "Yorktown Heights",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Filippo",
+                "middle": [],
+                "last": "Utro",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "IBM T. J. Watson Research Center",
+                    "location": {
+                        "settlement": "Yorktown Heights",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ed",
+                "middle": [],
+                "last": "Seabolt",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "IBM Almaden Research Center",
+                    "location": {
+                        "settlement": "San Jose",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Laxmi",
+                "middle": [],
+                "last": "Parida",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "IBM T. J. Watson Research Center",
+                    "location": {
+                        "settlement": "Yorktown Heights",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": "5*parida@us.ibm.com"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "In response to the ongoing global pandemic, progress has been made in understanding the molecular-level host interactions 9 of the new coronavirus SARS-CoV-2 responsible for COVID-19. However, when the virus enters the body it interacts not 10 only with the host but also with the micro-organisms already inhabiting the host. Understanding the virus-host-microbiome 11 interactions can yield additional insights into the biological processes perturbed by viral invasion. With this aim we carry out a 12 functional analysis of previously published RNA sequencing data of bronchoalveolar lavage fluid from eight COVID-19 patients, 13 twenty-five community-acquired pneumonia patients, and twenty healthy controls. The resulting microbiome functional profiles 14 and their top differentiating features clearly separate the cohorts. By examining the functional features in connection with their 15 associated metabolic pathways, differentially abundant pathways are indicated, compared to both the community-acquired 16 pneumonia and healthy cohorts. From this analysis, distinguishing signatures in COVID-19 respiratory tract microbiomes are 17 identified, including decreased lipid and glycan metabolism pathways, and increased carbohydrate metabolism pathways. Here 18 we present a framework for comparative functional analysis of microbiomes, the results from which can lead to new hypotheses 19 on the host-microbiome interactions in healthy versus afflicted cohorts. The findings from this analysis call for further research 20 on microbial functions and host-microbiome interactions during SARS-CoV-2 infection. 21 Introduction 22 An impressive number of scientific studies have rapidly been published on the genomics and molecular-level host interactions 23 of the new coronavirus SARS-Cov-2 1 of reported bat origin, 2 responsible for the COVID-19 disease pandemic. Additionally, 24 understanding changes in the microenvironment within the host can yield insights into related biological processes perturbed 25 by the virus. An increase in opportunistic organisms and an enhanced capacity for nucleotide and amino acid biosynthesis 26",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "and carbohydrate metabolism has been associated with increased SARS-CoV-2 presence in fecal microbiomes. 3 It has been 27 suggested that gut microbiota could contribute to the pathology of the gut-lung axis during The respiratory 28 1 microbiome members during the respiratory virus SARS-CoV-2 infection have also been studied. 1, [5][6][7] Previous studies on 29 the respiratory tract microbiome during other pathogen infections have examined its predictivity of clinical outcomes, and 30 associated potential probiotic interventions. 8-12 31 To better understand the role of the respiratory microbiome in COVID-19, we introduce a functional analysis, as opposed to 32 taxonomic naming, of recently published metatranscriptomes 5 from bronchoalveolar lavage fluid (BALF) of COVID-19 patients, 33 healthy subjects, and community-acquired pneumonia (CAP) cases. While Shen et al. 5 focused on the SARS-Cov-2 genomes 34 and taxonomic profiling of the microbiomes, here we perform global functional profiling to characterize altered biological 35 processes the respiratory tract microbiomes. Our protein domain focused amino acid matching approach supports the profiling 36 of functions performed by known and potentially unknown organisms yet to be characterized. 13 The robust comparative 37 analysis presented here was designed to highlight consistent differences in COVID-19 patient microbiomes compared to both 38 community-acquired pneumonia and healthy control samples.",
+            "cite_spans": [
+                {
+                    "start": 328,
+                    "end": 330,
+                    "text": "1,",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "39",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Functional profiling framework 41 The overall analysis workflow is depicted in Fig. 1A . The total RNA sequencing reads were first trimmed and filtered, followed 42 by translation and functional classification with PRROMenade 14 against a vast amino acid sequence collection of 21 million 43 bacterial and viral protein domains from the IBM Functional Genomics Platform, 15 annotated with KEGG enzyme codes 44 (EC) from a corresponding functional hierarchy 16 (see Supplementary Fig. S1 for filtering results). Post-processing and robust 45 rank-based RoDEO 17 projection onto a unified scale was performed to make the resulting functional profiles comparable. 46 Microbiome functional profiles cluster by cohort 47",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 79,
+                    "end": 86,
+                    "text": "Fig. 1A",
+                    "ref_id": null
+                }
+            ],
+            "section": "Abstract"
+        },
+        {
+            "text": "for COVID-19 versus the other cohorts, we extracted 30 top-ranked features from the COVID vs. CAP comparison and from 60 the COVID vs. healthy controls comparison. We then considered the union of the feature sets, resulting in 44 EC features.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "When clustering the samples using the top differentiating features, the COVID-19 samples are grouped together and separate 62 from the other cohorts, except for sample 4 (Fig. 2) . While the examined 44 features were selected as those differentiating 63 COVID-19 from CAP and healthy controls, they also separate the healthy control samples from all others; the healthy controls 64 cluster tightly together. The results also demonstrate that the samples do not merely cluster by the total number of input reads or 65 the fraction of functionally annotated microbial reads, since those measures vary within cohorts (Supplementary Fig. S1 ). The 66 CAP patient samples were collected from different hospital sources, prior to the current pandemic, and represent pneumonia 67 cases with various viruses detected in the sequencing data 5 (e.g. enterovirus, influenza virus, rhinovirus), possibly contributing 68 93 suggested. 24 94 Among the pathways higher in COVID-19 are several related to carbohydrate metabolism, e.g. glycolysis/gluconeogenesis 95 (Table 1) . Enhanced microbial capacity for carbohydrate metabolism (glycolysis II from fructose-6-phosphate) has previously 96 been indicated in fecal samples with a signature of high SARS-Cov-2 infectivity, along with decreased abundance of short-chain 97 fatty acid producing bacteria. 3 98 Discussion 99 Analyzing COVID-19 respiratory tract metatranscriptomes from a functional perspective offers an additional view into their 100 differences from healthy controls and from subjects with community-acquired pneumonia (CAP). The comparative approach 101 taken here aims to mitigate possible experimental variation and resulting biases within individual samples, by focusing on 102 detecting robust and consistent differences in the detected microbial functions. The framework presented here includes 103 read filtering, functional annotation with a protein domain database and enzyme hierachy, feature abundance projection to 104 a comparable scale, and finally metabolic pathway scoring to indicate differentially abundant functionalities in COVID-19 105 microbiomes compared to healthy and CAP samples. As a result, we identified both enzyme code features and metabolic 106 pathways that differentiate COVID-19 respiratory tract microbiomes. The resulting functional profiles distinguish COVID-19 107 samples from others, similarly to the original taxonomy-based analysis of the community members. 5 108",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 170,
+                    "end": 178,
+                    "text": "(Fig. 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 614,
+                    "end": 636,
+                    "text": "(Supplementary Fig. S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1049,
+                    "end": 1058,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Abstract"
+        },
+        {
+            "text": "The differentially abundant functions and pathways identified here match findings from previous reports, relating to 109 decreased lipid and glycan metabolism, 21 increased carbohydrate metabolism, 3 and other characteristics of the microbiome 110 linked to The remaining findings can suggest novel host-microbiome interactions to be examined further.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "While the individual functional profiles vary, a robust comparative analysis reveals specific functions that are consistently Multi-dimensional scaling of pairwise Spearman distances between the samples separates the COVID-19 cohort, while CAP 52 samples are located between healthy and COVID-19 samples (Fig. 1B) . A significant difference between the functional profiles 53 was observed between the COVID-19, CAP, and healthy control cohorts according to the PERMANOVA test (p \u2264 0.0001).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 304,
+                    "end": 313,
+                    "text": "(Fig. 1B)",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Functional profiling separated the cohorts with a similar score as taxonomic profiling (functional profiling R 2 = 0.06 vs. Differentially abundant features distinguish COVID-19 samples 57 The RNA sequencing data had varying total number of reads and human content per sample ( Supplementary Fig. S1 ). Therefore In order to systematically examine the detected features against functional pathways, all the EC features were considered 77 against their corresponding pathways from the KEGG metabolic pathway mapping. 16 Pathway scores (mean abundance change 78 in COVID-19) were computed using all the detected EC features per pathway, see Fig. 3 . To identify outlying pathway scores 79 (high or low compared to the observed distribution), median absolute deviation (MAD), 20 a robust measure of dispersion was 80 utilized. The most differential pathways are shown in Table 1 .",
+            "cite_spans": [
+                {
+                    "start": 186,
+                    "end": 188,
+                    "text": "57",
+                    "ref_id": null
+                },
+                {
+                    "start": 516,
+                    "end": 518,
+                    "text": "16",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 278,
+                    "end": 299,
+                    "text": "Supplementary Fig. S1",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 639,
+                    "end": 645,
+                    "text": "Fig. 3",
+                    "ref_id": "FIGREF11"
+                },
+                {
+                    "start": 868,
+                    "end": 875,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "54"
+        },
+        {
+            "text": "Among the pathways that were lower in COVID-19 (Table 1) Table 1 : glycosphingolipid biosynth. -globo and isoglobo series, sphingolipid 86 metabolism, and glycerolipid metabolism. It has recently been hypothesized that dysbacteriosis observed in COVID-19 patients 87 is linked to the reduction in the microbiota of alpha-gal containing commensal bacteria, or alternatively individuals with higher 88 alpha-gal content in the microbiota may be less susceptible to COVID-19, supported by detected negative correlation between 89 anti-alpha-gal antibody titers and COVID-19 disease severity. 22 Elsewhere, raising anti-alpha-gal titers in the population by 90 immunizing against inactivated harmless bacteria that harbor alpha-gal epitopes has been suggested. 23 Here we additionally 91 identify glycosaminoglycan degradation as decreased in COVID-19 samples (Fig. 3) , while a connection between decreased 92 presence of host glycosaminoglycan heparan sulfate modifying bacteria and increased COVID-19 susceptibility has been",
+            "cite_spans": [
+                {
+                    "start": 589,
+                    "end": 591,
+                    "text": "22",
+                    "ref_id": null
+                },
+                {
+                    "start": 654,
+                    "end": 656,
+                    "text": "90",
+                    "ref_id": null
+                },
+                {
+                    "start": 757,
+                    "end": 759,
+                    "text": "23",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 47,
+                    "end": 56,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 57,
+                    "end": 64,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 856,
+                    "end": 864,
+                    "text": "(Fig. 3)",
+                    "ref_id": "FIGREF11"
+                }
+            ],
+            "section": "81"
+        },
+        {
+            "text": "The KEGG 16 .., f s EC j (k) } was computed using the set of features, EC j , that map to the pathway j 152 (considering only pathways with k \u2265 2). The pathway score distribution was normalized to have mean zero for visualization. pathway score distribution (isoutlier in Matlab with the parameter median). With the default parameters, an outlier is defined as 155 a value that is more than three scaled median absolute deviations away from the median.",
+            "cite_spans": [
+                {
+                    "start": 9,
+                    "end": 11,
+                    "text": "16",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "81"
+        },
+        {
+            "text": "manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "81"
+        },
+        {
+            "text": "The PRROMenade methodology is associated with patent applications currently pending review at the USPTO. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests 214"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "",
+            "pages": "270--273",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "KEGG: new perspectives on genomes, pathways, 21. Shen, B. et al. Proteomic and Metabolomic Characterization of COVID-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kanehisa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Furumichi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tanabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sato",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Morishima",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Patient Sera. Cell",
+            "volume": "182",
+            "issn": "",
+            "pages": "59--72",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The antibody response to the glycan \u03b1-Gal correlates with COVID-19 disease symptoms",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Urra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "file:/localhost/opt/grobid/grobid-home/tmp/10.1101/2020.07.14.201954"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Harnessing the natural anti-glycan immune response to limit the transmission 198 of enveloped viruses such as SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Breiman",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ruv\u00ebn-Clouet",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Le Pendu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PLOS Pathog",
+            "volume": "16",
+            "issn": "",
+            "pages": "1--4",
+            "other_ids": {
+                "DOI": [
+                    "file:/localhost/opt/grobid/grobid-home/tmp/10.1371/journal.ppat.1008556"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Bacterial modification of the host glycosaminoglycan heparan sulfate modulates SARS-CoV-2 infectivity",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Martino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "file:/localhost/opt/grobid/grobid-home/tmp/10.1101/2020.08.17.238444"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Fathom Toolbox for MATLAB: software for multivariate ecological and oceanographic data analysis",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Transcriptome characterization and differentially expressed genes under flooding and drought stress in the 208 biomass grasses Phalaris arundinacea and Dactylis glomerata",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Klaas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Annals Bot",
+            "volume": "124",
+            "issn": "",
+            "pages": "717--730",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "IBM Functional Genomics Platform. N. H. and L.P. conceived the study and analyzed the results. All authors reviewed the",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "48 altered between cohorts (Supplementary File S1 shows a Krona 18 visualization of each sample). The read counts assigned at 49 various functional hierarchy levels (Supplementary Fig. S2) were pushed down to the leaf level, and very low abundant features 50 were removed for subsequent analyses (see Methods).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "55 taxonomic profiling by Shen et al 5 R 2 = 0.07).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "58 we used RoDEO 17 to project the functional profiles onto a robust uniform scale. To examine the most differentiating features 59 to the greater variability between their microbiome functional profiles. 69 The COVID-19 samples have more abundant EC features including (see bottom left feature cluster in Fig. dehydrogenase\", 3.6.3.25 \"Sulfate-transporting ATPase\", and 4.2.3.5 \"Chorismate synthase\", linked to 72 various amino acid, carbohydrate, energy, and nucleotide metabolism pathways. EC 4.1.1.20 was also detected as increased in a 73 metaproteome study of COVID-19 respiratory microbiomes. 19 Supplementary Fig. S3 includes a scatter plot of the average 74 change per EC in COVID-19 compared to CAP and healthy cohorts, highlighting outliers.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Altered lung microbiome pathways indicated in COVID-1976",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "several are related to glycan biosynthesis and metabolism 82 (e.g. other glycan degradation) and lipid metabolism (e.g. sphingolipid metabolism). Sphingolipids are important components 83 of biomembranes, mediating signal transduction and immune activation processes, and they have been shown to decrease 84 in COVID-19 patient sera. 21 The feature 3.2.1.22 alpha-galactosidase (alpha-gal) is lower in COVID-19 and is linked to 85 several of the lower abundance pathways in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "metabolic pathway maps were utilized to link functions with pathways, and the pathways were analyzed for 148 changes between COVID-19 and CAP, HC. The pathways were evaluated for average abundance change as follows. Let a i 149 be the mean RoDEO abundance of EC feature i for COVID-19 samples, b i for CAP samples, and c i for HC samples. The 150 feature score is defined as f s i = ((a i \u2212 b i ) + (a i \u2212 c i ))/2, positive values indicating higher abundance in COVID-19. Pathway 151 score ps j = mean{ f s EC j (1) , f s EC j (2) , .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "\u2265 3) are marked with *. The direction of the change in COVID-19 (+/-), the number of associated EC features per pathway detected from functional profiling (#EC), and the pathway type are also shown.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Overall analysis workflow and two-dimensional projection of functional profiles. A. Each microbiome sequencing sample is annotated with PRROMenade, utilizing labeled reference data from the IBM Functional Genomic Platform. The resulting functional profiles are visualized and compared in downstream analyses. B. Multidimensional scaling of the functional profiles using the Spearman distance. Each sample is represented by a marker colored by cohort and labeled by the sample number within that cohort.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Clustering with top differentiating functional features. RoDEO processed EC abundance values (10 denotes highest possible value), for 44 features differentiating COVID-19 from community-acquired pneumonia and healthy controls. Columns and rows are ordered independently by hierarchical clustering of features and samples. The colors attached to the dendrogram on top reflect the cohort labels: red = COVID-19, blue = CAP, green = healthy control.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Pathway changes in COVID-19 samples. For each pathway (row), there are as many entries as there are detected EC features. The color of the entries indicate the average of COVID-19 vs. CAP and COVID-19 vs. HC changes. The entries on each row are ordered from low to high values. The background value (dark blue) indicates no data; some pathways have more detected features than others (only pathways with at least two EC features detected are considered). The rightmost column indicates the pathway score, the pathways are ordered accordingly from top (higher in COVID-19) to bottom (lower in COVID-19).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Pathway score distribution. The histogram of observed pathway scores is shown. The score thresholds for determining outliers according to median absolute deviation (MAD) is also marked (red dashed lines, three scaled median deviations away from the median).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Altered pathways in COVID-19 The most differential pathways in COVID-19 (with dist. \u2265 2) are shown in the table. Here dist. denotes the pathway score's distance from the median, divided by the scaled median absolute deviation. Pathways that are determined outliers (dist.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

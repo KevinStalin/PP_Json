@@ -1,0 +1,1363 @@
+{
+    "paper_id": "0ae65a58a2f89861530ea3dffdad6995df523dc1",
+    "metadata": {
+        "title": "Identification of phytochemicals as potential therapeutic agents that binds to Nsp15 protein target of coronavirus (SARS-CoV-2) that are capable of inhibiting virus replication",
+        "authors": [
+            {
+                "first": "Suresh",
+                "middle": [],
+                "last": "Kumar",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Priya",
+                "middle": [],
+                "last": "Kashyap",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Suman",
+                "middle": [],
+                "last": "Chowdhury",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Shivani",
+                "middle": [],
+                "last": "Kumar",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Anil",
+                "middle": [],
+                "last": "Panwar",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ashok",
+                "middle": [],
+                "last": "Kumar",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Phytochemicals; Non-structural protein 15 (Nsp15); Molecular Docking; Sarsasapogenin; SARS-CoV-2; Coronavirus disease 2019 (COVID-19).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Keywords"
+        },
+        {
+            "text": "Human coronavirus is an RNA virus that belongs to the family of coronaviruses that can infect both humans and animals, which causes severe acute respiratory syndrome coronavirus (SARS-CoV). It has created difficult pandemic situations across the globe by causing severe respiratory syndrome-associated with cough, sore throat, fever, headache, body ache, and Various plants and herbs are necessary for maintaining good health, nutrition, and have medicinal values as they are part of many home remedies for many common illnesses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Phytochemicals present in these plants and herbs are generally non-toxic and have the potential for preventing chronic disorders. Therefore, the present study focusses on the role of these medicinally useful phytochemicals against Nsp15, the RNA-processing enzymes in Structural analysis (RMSD, RMSF, and radius of gyration) was performed and their 3D graphs were generated with xm grace (Graphing, Advanced Computation, and Exploration program).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The active site of SARS-CoV-2 is located in a shallow groove between two anti-parallel \u03b2sheets with six primary catalytic residues-His235, His250, Lys290, Ser294, Thr341, and Tyr343. Where His235, His250, and Lys290, which are proposed to form a catalytic triad of the protein. As evident from the table, the phytochemicals interacted with the main catalytic site residues with strong binding energies indicating irreversible protein inhibition. Table 1 shows the binding energies obtained with phytochemicals along with interacting residues and bond length of molecular interaction.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 446,
+                    "end": 453,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Molecular docking of phytochemicals using Autodock"
+        },
+        {
+            "text": "Amongst all studied phytochemicals, promising strong inhibitions could be observed with sarsasapogenin, ursonic acid, ajmalicine, novobiocin, silymarin, and aranotin ( Figure 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 168,
+                    "end": 176,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Molecular docking of phytochemicals using Autodock"
+        },
+        {
+            "text": "Sarsasapogenin interacted with catalytic triad residue Lys290 with a strong single hydrogen bond of such low binding energy of -8.5, which made sarsasapogenin a potential inhibitor with the highest binding energy of -8.5. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Molecular docking of phytochemicals using Autodock"
+        },
+        {
+            "text": "ADMET studies of phytoconstituents showed that sarsasapogenin, ursonic acid, ajmalicine, silymarin, and aranotin are the phytochemicals with strong interactions and decent ADMET profile as they obey the Lipinski's rule of five (Table 2) . DruLito software was used to carry out ADMET analysis (www.niper website) for studying the ideal pharmacokinetics profile of the phytochemicals for drug designing. Lipinski's rule was used to screen the phytochemicals. According to the Lipinski rule, the weight of an ideal drug molecule should be below 500g/mol, groups donating hydrogen bond should be less than or equal to 5 and groups accepting hydrogen bond should be less than or equal to 10 along with a partition coefficient of 5 or less. Bioavailability was analyzed based on TPSA (total polar surface area)",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 227,
+                    "end": 236,
+                    "text": "(Table 2)",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Predicted Pharmacokinetics analysis"
+        },
+        {
+            "text": "of the drug molecule. Veber's rule states that the TPSA less than or equal to 140\u00c5 indicates good oral bioavailability Hydroxychloroquine and chloroquine were used as a standard drug against NSP-15 with deltaG value of -9.27 and 8.71kcal/mol, respectively. Chloroquine, a known anti-malaria, and the anti-inflammatory drug showed deltaG -7.43Kcal/mol and full fitness score of -3382.6494. In the case of hydroxychloroquine, a total of three hydrogen bonds are observed, two with Glu192 and one with Gln310, whereas, in the case of chloroquine, one hydrogen was observed with Met105 amino acid ( Figure 2 ). All the phytochemicals exhibited one hydrogen bond, whereas zingerone demonstrated two hydrogen bonds. Furthermore, piperine, gingerol, alpha terpinyl acetate, menthol, ajoene, and rosmarinic acid were found with a better FF score in comparison to hydroxychloroquine and chloroquine.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 595,
+                    "end": 603,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Predicted Pharmacokinetics analysis"
+        },
+        {
+            "text": "13 ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Predicted Pharmacokinetics analysis"
+        },
+        {
+            "text": "Sarsasapogenin and ursonic acid protein complexes were solvated and made electro neutral by adding 12 sodium ions in each system using genion. The volume and density of both systems were observed with values 954.784 nm3 and 1007.86 (g/l), respectively. After NVT and NPT ensemble, proteins were at a dynamic state at 300K ( (Figures 3a and 4a ) and",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 324,
+                    "end": 342,
+                    "text": "(Figures 3a and 4a",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Molecular Dynamics analysis"
+        },
+        {
+            "text": "constant pressure (Figures 3b and 4b) . The potential energy graph revealed a sudden drop in potential energy of the system in the first few ps but reached a constant value thereafter.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 18,
+                    "end": 37,
+                    "text": "(Figures 3b and 4b)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Molecular Dynamics analysis"
+        },
+        {
+            "text": "Potential energy minimization of the ursonic acid system achieved at 980 EM steps as compared to 1460 EM steps of sarsasapogenin, indicating that the structure ursonic acid equilibrated more quickly than sarsasapogenin (Figure 3c and 4c) . To study the degree of compactness of protein during simulation, the radius of gyration was calculated. Over a span of 1000ps, a variation of the only 0.05nm was observed, stating that proteins have folded in its stable form. Lesser value of Radius of gyration for ursonic acid system shows its compactness over sarsasapogenin (Figure 3d and 4d) . Further, RMSD value was calculated to determine the fluctuations in 3D structure of proteins with time. Changes in the order of 1-3",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 219,
+                    "end": 237,
+                    "text": "(Figure 3c and 4c)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 567,
+                    "end": 585,
+                    "text": "(Figure 3d and 4d)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Molecular Dynamics analysis"
+        },
+        {
+            "text": "Cuminaldehyde Cinnamaldehyde \u00c5 are acceptable, and higher values indicate misbehaviour of protein during the simulation. It was seen that protein under simulation undergoes minute changes resulting in a slight increase of RMSD. The blackline with red dots represents the protein backbone during simulation, which remained under acceptable value with reference to crystal structure. Ursonic acid equilibrated system shows little more deviation to its crystal structure as compared to the sarsasapogenin system (Figure 3e and 4e) . The density of systems during the course varied from 1012 to 1020 kg/m^3, but the average was close to value 1017 kg/m^3.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 509,
+                    "end": 527,
+                    "text": "(Figure 3e and 4e)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Menthol Zingerone"
+        },
+        {
+            "text": "Density of both the systems was found stable over time, indicating that systems were wellequilibrated with respect to pressure and density (Figures 3f and 4f) . ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 139,
+                    "end": 158,
+                    "text": "(Figures 3f and 4f)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Menthol Zingerone"
+        },
+        {
+            "text": "In conclusion, the present study successfully demonstrated the binding of phytochemicals such as sarsasapogenin, ursonic acid, curcumin, ajmalicine, novobiocin, silymarin and aranotin, piperine, gingerol, rosmarinic acid, and alpha terpinyl acetate to Nsp15 viral protein and they might play a key role in inhibiting SARS-CoV-2 replication. Among the phytochemicals, sarsasapogenin and ursonic acid can be considered as the lead phytochemicals. Further, in vivo and in vitro assay are required in the BSL 3 category lab to confirm the above finding. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Nil Table 1 . Phytochemicals with binding energy score and interacting residue wit Nsp15 protein target. Table 2 . Pharmacokinetics ADMET prediction by Drulito against Lipinski rule of five and blood-brain-barrier filter. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 4,
+                    "end": 11,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 105,
+                    "end": 112,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Funding source"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Natural piperine as a new alternative against influenza viruses",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Couceiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Da Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ribeiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "De Lima",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Virus Reviews & Research",
+            "volume": "10",
+            "issn": "",
+            "pages": "27--32",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "An investigation into the identification of potential inhibitors of SARS-CoV-2 main protease using molecular docking study",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Das",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sarmah",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lyndem",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Singha Roy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--18",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "An -Old\u2016 protein with a new story: Coronavirus endoribonuclease is important for evading host antiviral defenses",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Baker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Virology",
+            "volume": "517",
+            "issn": "",
+            "pages": "157--163",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Coronavirus nonstructural protein 15 mediates evasion of dsRNA sensors and limits apoptosis in macrophages",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "114",
+            "issn": "",
+            "pages": "4251--4260",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "A SARS-CoV-2-Human Protein-Protein Interaction Map Reveals Drug Targets and Potential Drug-Repurposing",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gordon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Jang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bouhaddou",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Krogan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "295",
+            "issn": "",
+            "pages": "4773--4779",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "SwissDock, a protein-small molecule docking web service based on EADock DSS",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Grosdidier",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Zoete",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Michielin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Nucleic acids research",
+            "volume": "39",
+            "issn": "",
+            "pages": "270--277",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "CHARMM36m: an improved force field for folded and intrinsically disordered proteins",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rauscher",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Nawrocki",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ran",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Feig",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "De Groot",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Grubm\u00fcller",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Mackerell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nature Methods",
+            "volume": "14",
+            "issn": "",
+            "pages": "71--73",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Crystal structure of Nsp15 endoribonuclease NendoU from SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jedrzejczak",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Maltseva",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Endres",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Godzik",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Michalska",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Joachimiak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Protein Science",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Early endonuclease-mediated evasion of RNA sensing ensures efficient coronavirus replication",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kindler",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gil-Cruz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Spanier",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wilhelm",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Rabouw",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Z\u00fcst",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hwang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "V&apos;kovski",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Stalder",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Marti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS pathogens",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "COVID-19 Docking Server: An interactive server for docking small molecules, peptides and antibodies against potential targets of COVID-19",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kong",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Xue",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2003.00163"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Antiviral properties of phytochemicals",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Du",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Dietary phytochemicals and microbes",
+            "volume": "",
+            "issn": "",
+            "pages": "93--126",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "AutoDock4 and AutoDockTools4: Automated docking with selective receptor flexibility",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Morris",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Huey",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lindstrom",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Sanner",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Belew",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Goodsell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Olson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Journal of computational chemistry",
+            "volume": "30",
+            "issn": "",
+            "pages": "2785--2791",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Curcumin inhibits Zika and chikungunya virus infection by inhibiting cell binding",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mounce",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Cesaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Carrau",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Vallet",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Vignuzzi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Antiviral research",
+            "volume": "142",
+            "issn": "",
+            "pages": "148--157",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Antiviral activity of phytochemicals: a comprehensive review",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Naithani",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Huma",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Holland",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Shukla",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mccormick",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Mehta",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Moriarty",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Mini reviews in medicinal chemistry",
+            "volume": "8",
+            "issn": "",
+            "pages": "1106--1133",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "UCSF Chimera-a visualization system for exploratory research and analysis",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Pettersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Goddard",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Couch",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Greenblatt",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ferrin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Journal of computational chemistry",
+            "volume": "25",
+            "issn": "",
+            "pages": "1605--1612",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "PRODRG: a tool for high-throughput crystallography of protein-ligand complexes",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Sch\u00fcttelkopf",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Van Aalten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Acta Crystallographica Section D: Biological Crystallography",
+            "volume": "60",
+            "issn": "",
+            "pages": "1355--1363",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Ursonic acid: A novel antiviral compound inhibiting rotavirus infection in vitro",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Tohm\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Gim\u00e9nez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Peralta",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Colombo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Delgui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "International journal of antimicrobial agents",
+            "volume": "54",
+            "issn": "",
+            "pages": "601--609",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "2020. tomatidine, a natural steroidal alkaloid shows antiviral activity towards the chikungunya virus in vitro",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Troost",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mulder",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Diosa-Toro",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Van De Pol",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rodenhuis-Zybert",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Smit",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Scientific reports",
+            "volume": "10",
+            "issn": "",
+            "pages": "1--12",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Identification of new anti-nCoV drug chemical compounds from Indian spices exploiting SARS-CoV-2 main protease as target",
+            "authors": [
+                {
+                    "first": "Kundu",
+                    "middle": [],
+                    "last": "Umesh",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Selvaraj",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Dubey",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Coronavirus pathogenesis and the emerging pathogen severe acute respiratory syndrome coronavirus",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Weiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Navas-Martin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Microbiology and molecular biology reviews",
+            "volume": "69",
+            "issn": "",
+            "pages": "635--664",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Analysis of therapeutic targets for SARS-CoV-2 and discovery of potential drugs by computational methods",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Acta Pharmaceutica Sinica B",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "621 confirmed cases were detected (WHO). Healthcare facilities are on the verge of breakdown in many countries. To date, no specific drug or vaccine is available to treat this infectious disease. Scientists across the world are looking for novel diagnostic, preventive, and therapeutic interventions. The COVID-19 virus infects the host by binding to host cells, gain entry into the cells than multiply by replication and transcription of viral genome achieved by assembling a multisubunit RNA-synthesis complex of viral non-structural proteins (Nsp). Based on genome sequence published in RCSB, several proteins were identified that includes spike (S) proteins, envelope (E) protein, membrane (M) protein, nucleocapsid (N) proteins, and a nonstructural protein (Nsp) that can be used as suitable drug targets (Gordan et al., 2020). Nsps (such as Nsp12, Nsp13, Nsp14 and Nsp15 are the product of the cleavage of polyproteins by the main protease (Mpro), which gathers into a replicase-transcriptase complex (RTC) (Kong et al., 2020). Nsp 15, also called uridylate-specific endoribonuclease preferentially cleaves 3' end of uridines. It is encoded by the coronaviruses as RNA-processing enzymes and hence, identified to play is essential for viral replication in the host cells. Studies have shown that inhibition of Nsp15 can slow viral replication (Deng and Baker, 2018). This emphasizes on Nsp15 as a drug target for the development of a potential inhibitor of COVID-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Molecular interaction of SARS-CoV-2 Nsp15 with (A) Sarsasapogenin; (B) Ursonic acid; (C) Ajmalicine; (D) Silymarin; (E) Novobiocin and (F) Aranotin.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Molecular interaction of different phytochemicals with Nsp 15 viral protein using Swissdock software.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "MD followed this for a total of 1000ps. RMSF per residue was calculated, which shows fluctuation over all residues of the protein. Peak shows the protein area undergoing maximum fluctuation over the simulation. Lesser RMSF of the ursonic acid system shows its stability over sarsasapogenin during simulations (Figure 5). (a) Temperature graph after temperature minimization for 100 picoseconds (b) Pressure of the system accounted after pressure minimization (c) Potential Energy of system (d) Radius of gyration of system Molecular dynamic analysis of sarsasapogenin system (a) Temperature graph after temperature minimization for 100 picoseconds, (b) Pressure of the system accounted after pressure minimization, (c) Potential Energy of system, (d) Radius of gyration of system, (e)Crystal Backbone (black) and Equilibrated Backbone (red) system RMSD, and (",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Molecular dynamic analysis of ursonic acid system (a) Temperature graph after temperature minimization for 100 picoseconds, (b) Pressure of the system accounted after pressure minimization, (c) Potential Energy of system, (d) Radius of gyration of system, (e) Crystal Backbone (black) and Equilibrated Backbone (red) system RMSD, and (f) System density.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Comparative RMSF of sarsasapogenin system (black), and ursonic acid system (red).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "COVID-19 caused by the deadly coronavirus SARS-CoV-2 is responsible for pandemic across the world and at present has caused thousands of deaths as per WHO report (WHO website). The identification of novel coronavirus led to the sequence of the viral genome, which revealed several genes that are encoding the protein and are responsible for the virulence of this virus strain (Wu et al., 2019). Major proteins responsible for virulence are spike (S) proteins, envelope (E) protein, membrane (M) protein, and nucleocapsid (N) proteins, which play a crucial role in DNA replication. These proteins, when enters into a human cel, binds to human angiotensin-converting enzyme 2 (ACE2) receptor (Gordan et al., 2020",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "(SK): Conceptualization, Supervision, visualisation, writing original draft, review and editing. PK (Priya Kashyap), SC (Suman Chowdhury), (SKu) Shivani Kumar, AP (Anil Panwar), AK (Ashok Kumar): Methodology, Software, conducted experiments, Curation of data. Ashok Kumar (AK): Software, Validation, Supervision of MD studies. All authors contributed to Writing of manuscript.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Molecular interaction of SARS-CoV-2 Nsp15 with (A) Sarsasapogenin; (B) Ursonic acid; (C) Ajmalicine; (D) Silymarin; (E) Novobiocin and (F) Aranotin.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Molecular interaction of different phytochemicals with Nsp 15 viral protein using Swissdock software.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Molecular dynamic analysis of sarsasapogenin system (a) Temperature graph after temperature minimization for 100 picoseconds, (b) Pressure of the system accounted after pressure minimization, (c) Potential Energy of system, (d) Radius of gyration of system, (e) Crystal Backbone (black) and Equilibrated Backbone (red) system RMSD, and (f) System density.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Molecular dynamic analysis of ursonic acid system (a) Temperature graph after temperature minimization for 100 picoseconds, (b) Pressure of the system accounted after pressure minimization, (c) Potential Energy of system, (d) Radius of gyration of system, (e) Crystal Backbone (black) and Equilibrated Backbone (red) system RMSD, and (f) System density.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Comparative RMSF of sarsasapogenin system (black), and ursonic acid system (red).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "SwissDock server was used to perform the in-silico docking, whereas UCSF chimera was used for visualization and analysis of docking results. In the SwissDock server, the target protein and ligands (phytochemicals) were submitted. The result obtained in .zip files were viewed in UCSF chimera analysis different docking poses.Molecular interactions of the phytochemicals with anti-viral activity were studied usingAutodock 4.2, to obtain their potential protease activity against Nsp15 of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) endonuclease replication. Nsp15 plays a vital role in viral replication and is responsible for interference with the innate immune response (Kindler et al., 2017). The dimer structure of Nsp15 of novel SARS-CoV-2 (6VWW) was processed using PyMol to prepare protein for docking. Three-dimensional structures of phytochemicals and suspected inhibitors (nelfinavir, hydroxychloroquine) were downloaded from the PubChem Database. Ligand processing was performed using PyMol, and hydrogen was added to the structures. Docking protocol was developed with a grid dimension of -90.6*22.12*-31.68 and validated by performing blind docking with inhibitors in the active site, and the docking maps were generated. Post validation of the docking protocol, bioactive phytochemicals were individually docked with target receptor protein in the study. Molecular interactions, ligand conformation,s and binding energies were obtained.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Phytochemicals with binding energy score and interacting residue wit Nsp15 protein target.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Pharmacokinetics ADMET prediction by Drulito against Lipinski rule of five and blood-brain-barrier filter.The structure used for COVID-19 endonuclease with nsp-15 had PDB ID 6VWW(Kim et al. 2020). The Nsp15 protein and phytochemicals were docked with Swissdock using default parameters. Docking results were observed using offline with UCSF-Chimera. The values were obtained in terms of energy full fitness and deltaG Kcal/mol. Different docking poses were screened based on deltaG Kcal/mol value; the appropriateness of the docked pose means lowest deltaG Kcal/mol energy. The best deltaG Kcal/mol was found with apigenin,",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Docking result of phytochemicals in terms of full fitness, and estimated deltaG values predicted by SwissDock.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "). Therefore, these viral proteins can be used as a drug target to inhibit tiral replication.coronaviruses, arteriviruses and, toroviruses. Recently, NendoU activity of Nsp15 is found responsible for the protein interference with the innate immune response(Deng et al., 2017). Therefore, Nsp15 is essential in coronavirus biology. Because of this, the Nsp15 protein was chosen for the molecular docking study with phytochemicals that were reviewed from the literature. Natural phytochemicals are known for their non-toxicity and possess anti-viral activity(Naithani et al., 2008). The benefits of using phytochemicals are immense, as these are less toxic than synthetic drugs. They also provide health benefits by playing a synergetic rolewithinn the human body. They are eco-friendly molecules which can have therapeutic value. Several phytochemicals such as alkaloids, terpenoids, saponins ,and polyphenols arereported to possess antiviral activity (Liu and Du., 2012). The previous study by Umesh et al., 2020 showed carnosol, rosmanol, and arjunglucoside-I, natural phytochemicals as potential inhibitors of SARS-CoV main protease using molecular docking approach. Similarly, Das et al., 2020 showed rutin with the highest inhibition efficiency for SARS-CoV main protease, among other phytochemicals. Phytochemical piperine and curcumin also showed anti-viral property against influenza, chikungunya, and zika viruses (Couceiro et al., 2005; Mounce et al., 2017). The present study demonstrated sarsasapogenin, ursonic acid, apigenin, curcumin, ajmalicine, novobiocin, silymarin, and aranotin are strongly binding to Nsp15 target and could be used as promising strong inhibitors. Sarsasapogenin interacted with catalytic triad residue Lys290 with a strong single hydrogen bond of such low binding energy of -8.5, which made sarsasapogenin a lead potential inhibitor. Other phytochemical ursonic acid showed low binding energy of -8.4 with Nsp 15 protein. However, an MD study based on PEM, Equilibrated NVT-NPT, radius of gyration, RMSD and RMSF revealed that ursonic acid complex is more stable than sarsasapogenin complex, making ursonic acid a more potent inhibitor of Nsp15 when compared with sarsasapogenin. Previous studies have also shown anti-viral property of sarsasapogenin and ursonic acid against chikungunya viruses and rotavirus, respectively (Troost et al., 2020; Tohme et al., 2019). This study thus showed the significance of phytochemicals based drug discovery to find novel coronavirus drugs.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Docking result of phytochemicals in terms of full fitness, and estimated deltaG values predicted by SwissDock.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

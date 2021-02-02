@@ -1,0 +1,1435 @@
+{
+    "paper_id": "0b4b2932a63bdfde9325df819c79508357a0c9dc",
+    "metadata": {
+        "title": "Risk factors for redetectable positivity in recovered COVID-19 children",
+        "authors": [
+            {
+                "first": "Denggao",
+                "middle": [],
+                "last": "Peng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Third People's Hospital of Shenzhen",
+                    "location": {
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jing",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Third People's Hospital of Shenzhen",
+                    "location": {
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "|",
+                "middle": [],
+                "last": "Yiling",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ji",
+                "middle": [],
+                "last": "Bd",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Third People's Hospital of Shenzhen",
+                    "location": {
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Dongming",
+                "middle": [],
+                "last": "Pan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Third People's Hospital of Shenzhen",
+                    "location": {
+                        "postCode": "518112",
+                        "settlement": "Shenzhen, Shenzhen",
+                        "country": "China, China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Objective: To identify the risk factors for redetectable positivity (RP), and to provide a basis for prevention and control of coronavirus disease-2019 (COVID-19) in children.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Methods: A retrospective study was performed on all pediatric patients diagnosed with COVID-19. RP was defined as the positive result of real-time reverse transcriptase polymerase chain reaction (RT-PCR) for severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) after symptom resolution and discharge.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Children were defined as being less than 18 years old.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results: Fourteen out of 38 (36.8%) pediatric patients exhibited RP. Compared with the non-RP group (n = 24), the RP group (n = 14) had more family cluster infections, relatively higher white blood cell (WBC) count and longer plasma prothrombin time (PT), while age and gender were insignificant. T lymphocyte subclassification was observed at five-time points: the first test after admission, 2 weeks, and 1, 2, and 3 months after discharge. The RP group had a higher percentage and count of CD8+ T lymphocytes and lower CD4+/CD8+ ratio at 2 weeks, while a lower percentage and count of CD4+ T lymphocytes and lower CD4+/CD8+ ratio at 2 months. The positive rate of nasopharyngeal swabs by RT-PCR was higher during the onset, while that of anal swabs was higher during the recovery of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Conclusions: Family cluster infection, higher WBC count, and longer PT are the early risk factors for RP in recovered COVID-19 children. The dynamic changes in number and ratio of CD4+ and CD8+ T lymphocytes may be involved in prolonged SARS-CoV-2 clearance. Nasopharyngeal swabs sampling during the onset and anal swabs sampling during the recovery may improve the positivity rate of RT-PCR.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "patients has been reported. 4 Our hospital also reported that 38 of the 262 discharged patients were found to have RP during the convalescence phase. Among them, patients younger than 14 years old exhibited more commonly RP compared with those between the ages of 14 and 60 years. 5 In the long-term follow-up, we also observed that a large proportion of pediatric patients showed RP (nasopharyngeal and/or anal swabs) after discharge, even repeated RP and several readmissions. Theoretically, RP means that SARS-CoV-2 in the patient's body may not been completely cleared or is experiencing reinfection. It undoubtedly has a serious impact on the formulation and implementation of prevention and control measures.",
+            "cite_spans": [
+                {
+                    "start": 28,
+                    "end": 29,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 281,
+                    "end": 282,
+                    "text": "5",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Despite great advances in rapid detection, diagnosis, and treatment in SARS-CoV-2 infection, little is known about the risk factors for RP.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In particular, data on convalescent children as a special population have not been reported. We aimed to identify the risk factors for RP, and to provide a basis for prevention and control of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "This investigation involving human participants were reviewed and approved by the Ethics Committee of The Third People's Hospital of Shenzhen (approval number: 2020-139). Written informed consent from the patients was not required to participate in this study in accordance with the national legislation and the institutional requirements. Patients' personal information will be strictly protected.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| MATERIALS AND METHODS"
+        },
+        {
+            "text": "RP was defined as the positive result of RT-PCR of the patient's specimen for SARS-CoV-2 after symptom resolution and hospital discharge. Children were defined as being less than 18 years old. We followed the guidelines on the diagnosis and treatment of SARS-CoV-2-induced pneumonia (the sixth edition draft) issued by the National Health Commission of China. 6 RT-PCR was used to detect SARS-CoV-2 positive in nasopharyngeal swab samples to confirm the diagnosis. Because of the need for epidemic prevention and control, all weakly and dubious positive RT-PCR results were regarded as positive. All diagnosed children were admitted to the designated hospital (the Third People's Hospital of Shenzhen) for isolation and treatment, and relevant examinations were completed as routine procedures. Fever was recognized when body temperature is higher than or equal to 37.3\u2103. Respiratory symptoms included nasal congestion, runny nose, sneezing, sore throat, cough, expectoration, chest pain, and dyspnea. Digestive symptoms included nausea, vomiting, abdominal pain, and diarrhea. All chest computed tomography (CT) images were reviewed by two experienced pediatric radiologists.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Clinical definition and classification"
+        },
+        {
+            "text": "If unilateral or bilateral lung fields had any of the following features: Discharge criteria: All clinical symptoms of the COVID-19 children resolved, absorption of lung lesions improved, and two consecutive nasopharyngeal and/or anal swabs specimen of RT-PCR for SARS-CoV-2 were negative at least 24 h apart.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Clinical definition and classification"
+        },
+        {
+            "text": "Follow-up procedure after discharge: All discharged COVID-19 children were isolated and observed at home for 2 weeks. Follow-ups occurred every 2 weeks for at least once after isolation. All individuals with RP were readmitted to the Third People's Hospital of Shenzhen for further medical observation. Close contacts of individuals with RP were also isolated and observed at home for 2 weeks. The rest of the recovered individuals without RP were closely followed-up in designated hospital outpatient clinics.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Clinical definition and classification"
+        },
+        {
+            "text": "RT-PCR monitoring procedure for SARS-CoV-2: During the hospitalization and readmission of COVID-19, RT-PCR detection of nasopharyngeal and/or anal swabs specimen were performed every 3 or 4 days. During the follow-up period, it was done at each followup outpatient clinic. During the home isolation period of pediatric patients after discharge and close contacts of RP, community health workers visited the house twice weekly to collect nasopharyngeal and/or anal swabs. Inclusion criteria: all confirmed pediatric cases. Exclusion criteria: lost follow-up cases. [13] [14] [15] [16] [17] [18] [19] [20] [21] vs. 16 [12-22.5] ), and coinfection (7.1% vs. 8.3%) were not statistically significant. There was no patient who was severely ill.",
+            "cite_spans": [
+                {
+                    "start": 564,
+                    "end": 568,
+                    "text": "[13]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 569,
+                    "end": 573,
+                    "text": "[14]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 574,
+                    "end": 578,
+                    "text": "[15]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 579,
+                    "end": 583,
+                    "text": "[16]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 584,
+                    "end": 588,
+                    "text": "[17]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 589,
+                    "end": 593,
+                    "text": "[18]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 594,
+                    "end": 598,
+                    "text": "[19]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 599,
+                    "end": 603,
+                    "text": "[20]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 604,
+                    "end": 608,
+                    "text": "[21]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 616,
+                    "end": 625,
+                    "text": "[12-22.5]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "| Clinical definition and classification"
+        },
+        {
+            "text": "Eight (33.3%) out of 24 cases in the control group and four (28.6%) out of 14 cases in the RP group were asymptomatic, 11 (45.8%) and three (21.4%) presented with fever, 12 (50%) and 10 (71.4%) presented with respiratory symptoms, one (4.2%) and three (21.4%) presented with digestive symptoms, seven (29.2%) and three (21.4%) presented with fever and respiratory symptoms, and one (4.2%) and three (21.4%) presented with respiratory and digestive symptoms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Statistical analysis"
+        },
+        {
+            "text": "There was no statistical difference between the two groups. Twenty (83.3%) out of 24 cases in the control group and 12 (85.7%) out of 14 cases had positive CT findings, of which 10 (41.7%) and eight (57.1%) were bilateral, 10 (41.7%) and four (28.6%) were unilateral, seven (29.2%) and nine (64.3%) presented with ground-glass opacities, seven (29.2%) and one (7.1%) presented with consolidations, three (12.5%) and one (7.1%) presented with ground-glass opacities and nodules, two (8.3%) and one (7.1%) presented with consolidations and nodules, and one (4.2%) and zero (0%) presented with consolidations and small pleural effusion. Fibrous cord or linear opacities and lymphadenopathy were not observed in any of the patients. There were two (8.3%) cases with respiratory syncytial virus coinfection in the control group, and one (7.1%) case with influenza B coinfection in the RP group ( Table 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 891,
+                    "end": 898,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Statistical analysis"
+        },
+        {
+            "text": "The RP group had a relatively higher WBC count (7. (Tables 2 and S1 ). In addition, there were no statistically significant differences in indicators related to liver and kidney function, Troponin I (Table S1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 51,
+                    "end": 67,
+                    "text": "(Tables 2 and S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 199,
+                    "end": 208,
+                    "text": "(Table S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Statistical analysis"
+        },
+        {
+            "text": "Twelve (50%) out of 24 in the control group and 10 (71.4%) out of 14 in the RP group had humoral immune function tested. There were no statistical differences in IgG, IgA, IgM, C3c, and C4 between the two groups (Table S2) with nodules, and one (7.1%) presented with fibrous linear opacities.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 212,
+                    "end": 222,
+                    "text": "(Table S2)",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Statistical analysis"
+        },
+        {
+            "text": "Pleural effusion and lymphadenopathy were not observed (Table S3) . Figure 1E ). The WBC counts were as follows: 14 (100%), 13",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 55,
+                    "end": 65,
+                    "text": "(Table S3)",
+                    "ref_id": null
+                },
+                {
+                    "start": 68,
+                    "end": 77,
+                    "text": "Figure 1E",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "| Statistical analysis"
+        },
+        {
+            "text": "(92.9%), 11 (78.6%), 7 (50%), and 6 (42.9%) out of 14 in the RP group and 24 (100%), 9 (37.5%), 11 (45.8%), 9 (37.5%), and 4 (16.7%) out of 24 in the control group (Table S5 ). In the first 2 months after discharge, the WBC count in the RP group was always higher than that in the control group, and it continued to decline, reaching the lowest point at 2 months, but there were no statistically significant differences between the two groups ( Figure 1F) . ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 164,
+                    "end": 173,
+                    "text": "(Table S5",
+                    "ref_id": null
+                },
+                {
+                    "start": 445,
+                    "end": 455,
+                    "text": "Figure 1F)",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "| Statistical analysis"
+        },
+        {
+            "text": "Among 38 pediatric patients, we observed, most of them had mild symptoms or were asymptomatic, and none of them were severely ill, which was consistent with the report by Zachariah et al. 9 Our study found that children have a higher percentage of RP compared with adults. Compared with the control group, the RP group had a higher proportion of family cluster infections. Family cluster infection indicates that SARS-CoV-2 may be very infectious and has the ability of sustained person-to-person transmission. 10, 11 According to our Abbreviations: APTT, activated partial thromboplastin time; hs-CRP, high sensitivity C-reactive protein; IL-6, interleukin-6; PCT, procalcitonin; PT, prothrombin time; RP, redetectable positivity; WBC, white blood cell.",
+            "cite_spans": [
+                {
+                    "start": 188,
+                    "end": 189,
+                    "text": "9",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 511,
+                    "end": 514,
+                    "text": "10,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 515,
+                    "end": 517,
+                    "text": "11",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| DISCUSSION"
+        },
+        {
+            "text": "observation, close contacts of individuals with RP generally had their clinical symptoms resolved first, and whose SARS-CoV-2 nucleic acid also turned negative first. Also, they did not exhibit the onset of reinfection or RP during the follow-up period. Furthermore, recovered patients had to be isolated at home for 2 weeks after discharge and almost had no contact with the outside world. Therefore, the possibility that individuals exhibiting RP were reinfected by other patients is very low. RP is more likely to mean that the previously infected SARS-CoV-2 was not completely cleared, which has complicated decision-making around discontinuing isolation or home quarantine. 9 He et al. 12 observed the highest viral load in throat swabs at the time of symptom onset and inferred that infectivity peaked on or before symptom onset. These observations indicate that early droplet isolation and disinfection of the home environment may be the top priority for cutting off SARS-CoV-2 transmission in households and reducing RP. 13 The underlying viral clearance mechanism in children is still not completely understood. 14 CD4+ T lymphocytes are the center of the months. As far as we know, there is still no accurate answer to why the WBC in the RP group is higher than the control group. However, PCT, hs-CRP, and IL-6 are within the normal range and there is no difference between the two groups, suggesting that the impact of coinfection is negligible. We speculate that this may be related to the weak response of the innate immune system and the reduction of WBC depletion.",
+            "cite_spans": [
+                {
+                    "start": 679,
+                    "end": 680,
+                    "text": "9",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 691,
+                    "end": 693,
+                    "text": "12",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1029,
+                    "end": 1031,
+                    "text": "13",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| DISCUSSION"
+        },
+        {
+            "text": "The coagulation cascade is activated during viral infections. This response may be part of the host's defense system to limit the spread of a pathogen. 22 However, excessive activation of the coagulation cascade can be deleterious. Tissue factor appears to be the major activator during viral infection. 23 Tang et al. 23 found that nonsurvivors of COVID-19 showed significantly higher levels of D-dimer, longer PT, and APTT. 23 We also observed a similar change. Compared with the control group, the PT and APTT of the RP group were 27 It has recently been reported that SARS-CoV-2 may exist in the gastrointestinal tract for a longer time than the respiratory system, and viral RNA remains positive in stools of pediatric patients for longer than 4 weeks. 26 These studies suggest an urgent There are several limitations in our retrospective cohort study. First,",
+            "cite_spans": [
+                {
+                    "start": 152,
+                    "end": 154,
+                    "text": "22",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 304,
+                    "end": 306,
+                    "text": "23",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 319,
+                    "end": 321,
+                    "text": "23",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 426,
+                    "end": 428,
+                    "text": "23",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 534,
+                    "end": 536,
+                    "text": "27",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 758,
+                    "end": 760,
+                    "text": "26",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| DISCUSSION"
+        },
+        {
+            "text": "due to the small sample size of the single-center research hospital, logistic regression analysis cannot be used to control confounding factors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| DISCUSSION"
+        },
+        {
+            "text": "Second, the patients may be in different stages of COVID-19 when they are admitted to the hospital. Third, some children's lymphocyte subclassification data is missing at certain time points, which may not reflect the true difference. Therefore, these results should be carefully interpreted owing to potential selection bias and residual confounding. Larger cohort studies from other cities in China and other countries may also be needed to provide further data support. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| DISCUSSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "13",
+            "pages": "1199--1207",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Epidemiological characteristics of 2143 pediatric patients with 2019 coronavirus disease in China",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Mo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pediatrics",
+            "volume": "145",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1542/peds.2020-0702"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Positive RT-PCR test results in patients recovered from COVID-19",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Clinical characteristics of the recovered COVID-19 patients with re-detectable positive RNA test",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "An",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liao",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.26.20044222"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The guidelines for diagnosis and treatment of 2019-nCoV infected pneumonia (the sixth edition draft) issued by the National Health Commission of China",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Clinical and CT features in pediatric patients with COVID-19 infection: different points from adults",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pediatr Pulmonol",
+            "volume": "55",
+            "issn": "5",
+            "pages": "1169--1174",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/ppul.24718"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "CT features of novel coronavirus pneumonia (COVID-19) in children",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Duan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur Radiol",
+            "volume": "30",
+            "issn": "8",
+            "pages": "4427--4433",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00330-020-06860-3"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Epidemiology, clinical features,and disease severity in patients with coronavirus disease 2019 (COVID-19) in a children's hospital in New York City",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zachariah",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Halabi",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "A Familial cluster of infection associated with the 2019 novel coronavirus indicating possible person-to-person transmission during the incubation period",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect Dis",
+            "volume": "221",
+            "issn": "11",
+            "pages": "1757--1761",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/infdis/jiaa077"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+            "authors": [
+                {
+                    "first": "Jfw",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kok",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "30154--30163",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30154-9"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Temporal dynamics in viral shedding and transmissibility of COVID-19",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ehy",
+                    "middle": [],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Med",
+            "volume": "26",
+            "issn": "5",
+            "pages": "672--675",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41591-020-0869-5"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "What does the coronavirus disease 2019 (COVID-19) mean for families?",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rasmussen",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Pathogenic human coronavirus infections: causes and consequences of cytokine storm and immunopathology",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Channappanavar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Perlman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Semin Immunopathol",
+            "volume": "39",
+            "issn": "5",
+            "pages": "529--539",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Middle East respiratory syndrome coronavirus efficiently infects human primary T lymphocytes and activates the extrinsic and intrinsic apoptosis pathways",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bhy",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Infect Dis",
+            "volume": "213",
+            "issn": "6",
+            "pages": "904--914",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "CD8+ T cells and macrophages regulate pathogenesis in a mouse model of Middle East respiratory syndrome",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Coleman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sisk",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Halasz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Virol",
+            "volume": "91",
+            "issn": "1",
+            "pages": "1825--1841",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Multiple organ infection and the pathogenesis of SARS",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Exp Med",
+            "volume": "202",
+            "issn": "3",
+            "pages": "415--424",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Significant changes of peripheral T lymphocyte subsets in patients with severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Infect Dis",
+            "volume": "189",
+            "issn": "4",
+            "pages": "648--651",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "SARS-CoV-2, SARS-CoV, and MERS-COV: a comparative overview",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rabaan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Al-Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Haque",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Infez Med",
+            "volume": "28",
+            "issn": "2",
+            "pages": "174--184",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "SARS-CoV-2 infection in children: Understanding the immune responses and controlling the pandemic",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "-Kin",
+                    "middle": [],
+                    "last": "Wing",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Risk factors associated with acute respiratory distress syndrome and death in patients with coronavirus disease 2019 pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Multiple roles of the coagulation protease cascade during virus infection",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Antoniak",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Mackman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Blood",
+            "volume": "123",
+            "issn": "17",
+            "pages": "2605--2613",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Abnormal coagulation parameters are associated with poor prognosis in patients with novel coronavirus pneumonia",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Thromb Haemost",
+            "volume": "18",
+            "issn": "4",
+            "pages": "844--847",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "565--574",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Stability issues of RT-PCR testing of SARS-CoV-2 for hospitalized patients clinically diagnosed with COVID-19",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "92",
+            "issn": "7",
+            "pages": "903--908",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Prolonged presence of SARS-CoV-2 in feces of pediatric patients during the convalescent phase",
+            "authors": [
+                {
+                    "first": "Y-H",
+                    "middle": [],
+                    "last": "Xing",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.11.20033159"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Virological assessment of hospitalized patients with COVID-2019",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "W\u00f6lfel",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guggemos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "581",
+            "issn": "7809",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Risk factors for redetectable positivity in recovered COVID-19 children",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ji",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pediatric Pulmonology",
+            "volume": "55",
+            "issn": "",
+            "pages": "3602--3609",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "(a) ground-glass opacities; (b) consolidations with or without surrounding halo sign; (c) nodules; (d) fibrous cord or linear opacities; (e) lymphadenopathy; and (f) pleural effusion, the result was defined as positive CT findings of viral pneumonia.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "For all confirmed pediatric cases, we retrieved electronic medical records and conducted a retrospective study. The clinical and laboratory data of all COVID-19 children during hospitalization and follow-up were collected and reviewed. Based on the RT-PCR results for SARS-CoV-2 during follow-up, all included COVID-19 pediatric cases were divided into two groups: an RP group and a non-RP (control) group. T lymphocyte subclassification by flow cytometry and white blood cell (WBC) count was observed at five-time points: the first test after COVID-19 admission, 2 weeks, and 1, 2, and 3 months after symptom resolution and hospital discharge. We also retrospectively calculated and compared the differences of RT-PCR positivity rate of anal and nasopharyngeal swabs for SARS-CoV-2 during the onset and recovery of COVID-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "All analyses were conducted by using of IBM Statistical Product and Service Solutions software Version 24 (SPSS Inc.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "; p = .023), while the percentage and count of neutrophil and lymphocyte, hemoglobin, and platelet count, erythrocyte sedimentation rate, high sensitivity C-reactive protein (hs-CRP), interleukin-6 (IL-6), procalcitonin (PCT), activated partial thromboplastin time (APTT; [37.5 \u00b1 4.6] vs. [34.2 \u00b1 5.1]; p = .057), fibrinogen (FIB), antithrombin III (ATIII), and D-dimer showed no statistical difference",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "At five time points, 14 (100%), 11 (78.6%), 7 (50%), 7 (50%), and 4 (28.6%) out of 14 in the RP group and 10 (41.7%), 6 (25%), 13 (54.2%), 7 (29.2%), and 4 (16.7%) out of 24 in the control group had T lymphocyte subclassification respectively tested (",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "total of 401 swabs (average 10.6 times per patient) during disease onset and 286 swabs (average 7.5 times per patient) during recovery were tested for SARS-CoV-2 by RT-PCR. During disease onset nasopharyngeal swab positivity was 168 out of 307 (54.7%) and anal swab positivity was 14 out of 94 (14.9%), while during recovery nasopharyngeal swab positivity was 27 out of 155 (17.4%) and anal swab positivity was 39 out of 131 (29.8%) (Table 3). Simultaneous RT-PCR tests of both anal and nasopharyngeal swabs were performed during the disease onset (total 77, average 2 times per patient) and during the recovery (111, average 3 times per patient). During disease onset, the number of single positive nasopharyngeal swabs was 25 (32.5%) while the number of single positive anal swabs was four (5.2%). During recovery, the number of single positive nasopharyngeal swabs was eight (7.2%) while the number of single positive anal swabs was 28 (25.2%). The number of doublepositive for nasopharyngeal and anal swabs were eight (10.4%) during disease onset versus five (9.9%) during recovery, while the number of double negative swabs were 40 (51.9%) during disease onset versus 64 (57.7%) during recovery. There were significant differences in the positivity rate of RT-PCR based on the sample collection method and disease phase. There was no statistically significant difference in the double positivity or double negativity of nasopharyngeal and anal swabs respective of the disease phase (",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Five time points: 1 for the first result after COVID-19 admission; 2, 3, 4, and 5 for 2 weeks, 1 month, 2 months, and 3 months after hospital discharge, respectively. Points on the line chart represent mean (A, C, E, and F) or median (B and D), n = 4-24 per condition for non-RP (control) group, and n = 4-14 per condition for the RP group. COVID-19, coronavirus disease-2019; RP, redetectable positivity [Color figure can be viewed at wileyonlinelibrary.com] immune system, helping in the production of antibodies. CD8+ T lymphocytes mediate cellular immunity and play a vital role in the immune response to viral infections. Chu et al. 15 demonstrated that Middle East respiratory syndrome coronavirus (MERS-CoV) infection can induce T lymphocytes apoptosis through the activation of external and intrinsic apoptotic pathways. Coleman et al.16 found that the depletion of CD4+, CD8+ T lymphocytes, or macrophages had no effect on the replication of MERS-CoV in the infected lungs of mice. Earlier studies had demonstrated that SARS-CoV, which shares the same cell entry receptors with MERS-CoV, could infect immune cells including T lymphocytes, monocytes, and macrophages. CD4+ and CD8+ T lymphocytes decreased at the onset of illness.17,18 These studies indicate that the reduction of T lymphocytes may contribute to the continuous replication of SARS-CoV-2 and RP. However, our investigation did not observe a similar change, and no significant differences were detected between the two groups at the first test after admission. This discrepancy may present for the following reasons: first, the pathogenicity of SARS-CoV-2 may be weaker than other coronaviruses.19,20 The sampling time point may be in the early stage of COVID-19. Children's immune response is different from adults', relatively slower and weaker.20 This may also explain why children's COVID-19 is more asymptomatic or mild.3,5,9 Second, the sample size is small, and there are many missing values in the control group, which may be different from the true level. But interestingly, the dynamic changes of CD4+ and CD8+ T lymphocytes in the recovery period showed obvious differences between groups and time asynchrony. CD8+ T lymphocytes of the control group declined very early and reached the lowest point at 2 weeks, then gradually increased, while that of the RP group did not decline significantly over this interval. On the contrary, CD4+ T lymphocytes of the RP group declined slowly and reached the lowest point at 2 months, while that of the control group rose at this time. In summary, CD8+ T lymphocytes of the control group at 2 weeks and CD4+ T lymphocytes of the RP group at 2 months were most significantly depleted. Our data suggest that the first 2 months of the recovery of COVID-19 in children may be a critical period for SARS-CoV-2 clearance, and immunomodulatory targeting CD4+ and CD8+ T lymphocytes may be a promising treatment. The average WBC count of pediatric patients in our investigation was generally within the normal reference range, consistent with related reports.21 But the WBC count was significantly higher in the RP group than the control group at the first test after admission. After hospital discharge, the WBC count of both groups continued to decline synchronously and reached their lowest point at 2",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "prolonged, but there was no significant difference in FIB, ATIII, and Ddimer. This suggests that the activation of the exogenous coagulation pathway with tissue factor as the starting point may be involved in the process of immune clearance of SARS-CoV-2 in children. At present, there is still too much unknown, and the specific role and mechanism of the activation of the coagulation cascade in SARS-CoV-2 clearance needs to be further explored.The RT-PCR based on spike gene and N gene were widely used for detecting SARS-CoV-2, and are considered a gold standard for confirmed COVID-19. However, this method had its limitations, such as false positive or false negative results, faulty sampling, and",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "need for standardized sampling from different anatomic sites according to the course of COVID-19 to improve the accuracy and positive rate of RT-PCR. We also observed inconsistencies in RT-PCR positivity of nasopharyngeal and anal swabs. During the onset, the positive rate of nasopharyngeal swabs was higher, and only a few specimens of anal swabs showed positive later this period. During the recovery, the positive rate of anal swabs was significantly higher than that of nasopharyngeal swabs. Our data indicate that nasopharyngeal swab sampling during the onset and anal swabs sampling during the recovery may improve the positive rate of RT-PCR.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "cluster infection, higher WBC count, and longer PT are the early risk factors for RP in recovered COVID-19 children. Early activation of coagulation and WBC may be involved in SARS-CoV-2 clearance. The dynamic changes in the number and ratio of CD4+ and CD8+ T lymphocytes during the convalescence phase may be involved in prolonged SARS-CoV-2 clearance. Nasopharyngeal swabs sampling during the onset and anal swabs sampling during the recovery may improve the positivity rate of RT-PCR.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "). Continuous variables were summarized as the median with interquartile ranges (IQRs) or mean with standard deviations (SDs), median [IQR] or [mean \u00b1 SD], depending on whether their distributions were normal or not. Comparisons of categorical variables were performed using the Pearson's \u03c7 2 test or Fisher exact test. Odds ratios (ORs) and 95% confidence intervals (CIs) were calculated for statistically significant variables. The parametric tests (independent sample Student's t-test) or nonparametric tests (Mann-Whitney U test) were used to analyze variables. p < .05 was considered as statistically significant in all tests if applied. The median hospital stay of all included pediatric cases was approximately 15 days. Compared with the control group, the RP group tage of male gender (35.7% vs. 45.8%), hospital length of stay (14",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Nine (64.3%), three (21.4%), and two (14.3%) out of 14 pediatric patients with RP were readmitted to the hospital once, twice, and three times, respectively. During the first readmission, no case had a T A B L E 1 Clinical data between the control and RP groups during the onset of COVID-19Abbreviations: CI, confidence interval; COVID-19, coronavirus disease-2019; CT, computerized tomography; OR, odds ratio; RP, redetectable positivity. fever, two (14.3%) cases had digestive symptoms, five (35.7%) cases had respiratory symptoms, and seven (50%) cases were asymptomatic. There were 10 (71.4%) cases with positive CT findings, of",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Abbreviations: CI, confidence interval; COVID-19, coronavirus disease-2019; OR, odds ratio; RT-PCR, real-time reverse transcriptase polymerase chain reaction. *Anal versus nasopharyngeal. **Onset versus recovery.T A B L E 4 Distribution of positive results in simultaneous RT-PCR testing of anal and nasopharyngeal swabs during the onset and recovery of COVID-19 Abbreviations: COVID-19, coronavirus disease-2019; RT-PCR, real-time reverse transcriptase polymerase chain reaction.inconsistencies in positivity.24 In addition to viral reinfection and latent infection, the RP during the convalescence phase has the following possibility: (a) the previous negative at the time of hospital discharge may be a false negative.25 (b) Faulty sampling can occur, due insufficient viral load and uneven distribution of different anatomic sites.12,26 (c) There may be false results or inconsistencies in positivity caused by contamination of specimens, virus residues and intermittent release. Li et al.25 found that the false-negative rate of RT-PCR might be very high, and the test results of pharyngeal swab specimens were variable and potentially unstable. Virological assessment also showed that pharyngeal virus shedding was very high during the first week of the onset of COVID-19 and peaked on the fourth day.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors thank Professor Raymond F. Regan, Department of Emergency Medicine, University of Maryland School of Medicine, USA, and Cindy Acon Chen, USA, for reviewing this manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGMENTS"
+        },
+        {
+            "text": "All authors have no financial relationships relevant to this article to disclose. Writing-review and editing: Denggao Peng.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONFLICT OF INTEREST"
+        },
+        {
+            "text": "http://orcid.org/0000-0002-1926-4474",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Denggao Peng"
+        }
+    ]
+}

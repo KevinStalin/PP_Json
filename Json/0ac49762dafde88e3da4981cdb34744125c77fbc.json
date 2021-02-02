@@ -1,0 +1,2496 @@
+{
+    "paper_id": "0ac49762dafde88e3da4981cdb34744125c77fbc",
+    "metadata": {
+        "title": "Journal Pre-proof WHICH LEGAL PROCEDURE AFFECTS BUSINESS INVESTMENT MOST, AND WHICH COMPANIES ARE MOST SENSITIVE? EVIDENCE FROM MICRODATA WHICH LEGAL PROCEDURE AFFECTS BUSINESS INVESTMENT MOST, AND WHICH COMPANIES ARE MOST SENSITIVE? EVIDENCE FROM MICRODATA Economic Modelling. Revised version (4 rd round). September 2020",
+        "authors": [
+            {
+                "first": "Daniel",
+                "middle": [],
+                "last": "Dejuan-Bitria",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Juan",
+                "middle": [
+                    "S"
+                ],
+                "last": "Mora-Sanguinetti",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The negative impact of judicial inefficiency on investment decisions has been examined theoretically, supported by aggregate empirical studies at the country level. Whether this effect is observed at the firm level, however -and under what circumstances and through what channels it occurs-has yet to be determined. This paper fills the gap by analyzing the problem empirically for the period 2002-2016 using information from 650,000 firms (3.5 million observations). Our approach is novel, because it shows that the impact is greater in large companies than small ones, that it occurs more strongly in industrial companies, and that the civil (private) jurisdiction is the crucial factor in achieving efficiency improvements. These findings are important for aggregate productivity growth. JEL Classification: D25, E22, K41, K12. J o u r n a l P r e -p r o o f 2 These studies, among others, make use of proxies for the functioning of justice based on subjective indicators (such as surveys of professionals for the Doing Business indicators of the World Bank), which have a more limited scope. 3 See, among others, Garc\u00eda-Posada (2018) and Gulen and Ion (2016) for recent reviews of the heterogeneous effects of financial frictions and uncertainty on investment by firms' size and maturity. J o u r n a l P r e -p r o o f",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The rest of the paper is structured as follows. In Section 2, we present the firm-level data used in the analysis and show how we build our judicial efficacy measures using judicial data. In Section 3 we explain our estimation strategy. Section 4 discusses the results and channels. Section 5 provides a discussion of the heterogeneous effects of judicial congestion based on the different degrees of vertical integration (and, again, the transmission channels). Section 6 concludes. J o u r n a l P r e -p r o o f J o u r n a l P r e -p r o o f J o u r n a l P r e -p r o o f J o u r n a l P r e -p r o o f Abstract The negative impact of judicial inefficiency on investment decisions has been examined theoretically, supported by aggregate empirical studies at the country level. Whether this effect is observed at the firm level, however -and under what circumstances and through what channels it occurs",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "-has yet to be determined. This paper fills the gap by analyzing the problem empirically for the period 2002-2016 using information from 650,000 firms (3.5 million observations). Our approach is novel, because it shows that the impact is greater in large companies than small ones, that it occurs more strongly in industrial companies, and that the civil (private) jurisdiction is the crucial factor in achieving efficiency improvements. These findings are important for aggregate productivity growth.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Institutions matter for economic efficiency (e.g., North, 1990 North, , 1994 Hall and Jones, 1999; Helpman, 2008) . One reason for this is that a lower quality of institutional framework, which includes the judicial system, distorts the incentive structure for investment and its dynamics (Knack and Keefer, 1995; Nawaz, 2015; Eslamloueyan and Jafari, 2019) . This, in turn, implies lower investment rates. A critical feature of the general channel that connects justice and investment is that an ineffective judicial system generates insecurity and distrust. On the private contracting side, this is because firms expect that the judicial system will resolve more slowly (or less confidently) disputes arising from the specificity of investments. That is, the parties to a contract fear getting involved with opportunistic companies (i.e., a hold-up problem) in an investment relationship (Klein et al., 1978; Levchenko, 2007) . In addition, an ineffective judicial system is a weaker barrier to expropriation by the public sector, which in turn discourages investment. Therefore, faced with an ineffective judicial system, companies would avoid making an investment that depends on unknown companies; this effectively serves as a barrier to entry for new providers. Such companies may also look for internal solutions outside the market (such as becoming vertically integrated with providers or customers), and as a result would invest less (Klein et al., 1978; Johnson et al., 2002; Nunn, 2007) .",
+            "cite_spans": [
+                {
+                    "start": 51,
+                    "end": 62,
+                    "text": "North, 1990",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 63,
+                    "end": 76,
+                    "text": "North, , 1994",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 77,
+                    "end": 98,
+                    "text": "Hall and Jones, 1999;",
+                    "ref_id": null
+                },
+                {
+                    "start": 99,
+                    "end": 113,
+                    "text": "Helpman, 2008)",
+                    "ref_id": null
+                },
+                {
+                    "start": 289,
+                    "end": 313,
+                    "text": "(Knack and Keefer, 1995;",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 314,
+                    "end": 326,
+                    "text": "Nawaz, 2015;",
+                    "ref_id": null
+                },
+                {
+                    "start": 327,
+                    "end": 357,
+                    "text": "Eslamloueyan and Jafari, 2019)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 890,
+                    "end": 910,
+                    "text": "(Klein et al., 1978;",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 911,
+                    "end": 927,
+                    "text": "Levchenko, 2007)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1443,
+                    "end": 1463,
+                    "text": "(Klein et al., 1978;",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1464,
+                    "end": 1485,
+                    "text": "Johnson et al., 2002;",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1486,
+                    "end": 1497,
+                    "text": "Nunn, 2007)",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "On the private contracting side, several studies have delineated the channel that connects an ineffective justice system with less investment. Klein et al. (1978) , for instance, document the problems associated with commissioning a printing press for a factory. Many similar cases could be discussed, such as attempts to purchase laboratory equipment and elevators, because this type of equipment is usually ordered with a series of adaptations -which, in turn, reduces their external market value. Therefore, the contract not only generates a state of dependency for the buyer, but potentially also for the seller.",
+            "cite_spans": [
+                {
+                    "start": 143,
+                    "end": 162,
+                    "text": "Klein et al. (1978)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Investment decisions are sensitive to enforcement institutions because of their irreversibility and specificity (which, as noted above, renders them sensitive to opportunism and hold-up problems). A theoretical solution to the problem could be drafting a 'complete' contract (Grossman and Hart, 1986) 1 . However, contracts are subject to the risk of noncompliance, and therefore a stable framework for the relationship between enterprises requires external mechanisms, such as the judicial system, to oversee their enforcement. That is, the company that considers itself harmed must be able to bring the matter before the relevant court.",
+            "cite_spans": [
+                {
+                    "start": 275,
+                    "end": 300,
+                    "text": "(Grossman and Hart, 1986)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The literature has not moved beyond general discussion of this connection, however, to identify which jurisdictions and legal procedures within the judicial system most affect business investment and which firms are the most sensitive; this is due to a lack of disaggregated judicial data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Understanding these differences is important in terms of economic policy, because they assist in improving the judicial system to render it more favorable to economic development. Likewise, knowing which types of companies are more sensitive helps to advance understanding of transmission channels and improve the design of the judicial system. For example, the sensitivity of investment depending on the degree of vertical integration of the firm has been extensively hypothesized in the literature, yet empirical evidence is scarce (Klein et al., 1978; Johnson et al., 2002) . This paper addresses these questions and discusses specific transmission channels based on two rich databases that cover investment decisions for more than 650,000 Spanish firms (3.5 million observations) (CBI -Integrated CBSO-Central de Balances Integrada of the Banco de Espa\u00f1a) and information on the functioning of the judicial system at the local level over the period 2002 . In contrast to other studies (see, among others, Mauro, 1995, and Shah and Shah, 2016) 2 , our data reflect objective and real information on the operation of the system.",
+            "cite_spans": [
+                {
+                    "start": 534,
+                    "end": 554,
+                    "text": "(Klein et al., 1978;",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 555,
+                    "end": 576,
+                    "text": "Johnson et al., 2002)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 953,
+                    "end": 957,
+                    "text": "2002",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1009,
+                    "end": 1025,
+                    "text": "Mauro, 1995, and",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1026,
+                    "end": 1034,
+                    "text": "Shah and",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1035,
+                    "end": 1046,
+                    "text": "Shah, 2016)",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Examination of the effects of the functioning of the Spanish judicial system is particularly salient because Spain has higher litigation rates than almost all other developed countries (i.e., more disputes end up in the courts). Notably, Spain is one of the top four OECD economies based on litigation rates, regardless of whether the data are corrected by population or GDP (in PPP). Also, the overall performance of the judicial system is lower than in many comparable economies (Palumbo et al., 2013; CEPEJ, 2016; Mora-Sanguinetti et al., 2017) .",
+            "cite_spans": [
+                {
+                    "start": 481,
+                    "end": 503,
+                    "text": "(Palumbo et al., 2013;",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 504,
+                    "end": 516,
+                    "text": "CEPEJ, 2016;",
+                    "ref_id": null
+                },
+                {
+                    "start": 517,
+                    "end": 547,
+                    "text": "Mora-Sanguinetti et al., 2017)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "To model the relationship between investment and judicial inefficacy at the firm level, we construct a fixed-effects model of investment in the spirit of Gulen and Ion (2016) and Baker et al. (2016) . We find that judicial inefficacy has a negative and significant impact on business investment, which is consistent with the general channels outlined above. More specifically, we find that the civil (private) jurisdiction -that is, with jurisdiction over contracting disputes between private companies-has five times the impact of the administrative jurisdiction. The latter is more focused on the defense of property rights which therefore serve as a barrier to expropriation by the public sector. Within the civil jurisdiction, declaratory proceedings have 10 times the impact of executions.",
+            "cite_spans": [
+                {
+                    "start": 154,
+                    "end": 174,
+                    "text": "Gulen and Ion (2016)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 179,
+                    "end": 198,
+                    "text": "Baker et al. (2016)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "On the firms' side, the impact of judicial inefficacy is three times larger for big companies than small ones. Interestingly, large and mature firms are typically considered to be less vulnerable to most investment obstacles, such as financial frictions or uncertainty 3 . Our paper is novel in documenting an obstacle to investment that more severely affects this type of firm. We also examine the differential effect by sector of activity, and find that the negative effect of judicial inefficacy is more pronounced in the industrial sector. Finally, regarding the relationship between vertical integration and the impact of judicial inefficacy, we find that firms that are less dependent on intermediate inputs are less affected by the congestion rate. This finding is in line with previous theoretical work by Klein et al. (1978) and Johnson et al. (2002) . The specific channels that explain these differences are, on the one hand, the greater importance of the private contractual channel in a developed economy (which is the one regulated by the civil jurisdiction) and, on the other hand, the greater intensity and frequency of investments in larger companies relative to smaller ones.",
+            "cite_spans": [
+                {
+                    "start": 814,
+                    "end": 833,
+                    "text": "Klein et al. (1978)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 838,
+                    "end": 859,
+                    "text": "Johnson et al. (2002)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "These conclusions have important consequences in terms of aggregate economic efficiency. For instance, the literature shows that the small size of Spanish companies has a negative impact on the economy's productivity, which is also low (Dolado et al., 2016; Mora-Sanguinetti and P\u00e9rez-Valls, 2020) . Likewise, the bias toward non-industrial productive sectors, which could be implied by judicial inefficacy, also has an effect on long-term economic growth (Mora-Sanguinetti and Spruk, 2018) . Data",
+            "cite_spans": [
+                {
+                    "start": 236,
+                    "end": 257,
+                    "text": "(Dolado et al., 2016;",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 258,
+                    "end": 297,
+                    "text": "Mora-Sanguinetti and P\u00e9rez-Valls, 2020)",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 456,
+                    "end": 490,
+                    "text": "(Mora-Sanguinetti and Spruk, 2018)",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In this section we describe the data used in the empirical exercise. Section 2.1 presents the firm-level data, highlighting the sample coverage and the definition of the main variables. Section 2.2 provides detailed information about our measures of judicial efficacy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We use firm-level information from the Integrated Central Balance Sheet Data Office Survey (CBI) of the Bank of Spain. This database is based on filings coming from the CBA Annual Survey by nonfinancial firms and from the mercantile registries. Firm data is available at annual frequency and represents a significant coverage of the Spanish non-financial sector 4 . More specifically, we select firms which are listed in the database at least two years in the period 1997-2016 and apply standard cleaning procedures to the considered variables. Because our measures of judicial efficacy cover the years 2002-2016, we further restrict our sample to this particular period 5 . The final sample that we use in the estimates has more than 3.5 million observations for a total of 653,289 firms. Since we identify their location, we are able to cross them with local judicial efficacy data. . Our main variable of interest is the investment rate of firms. As a measure of investment, we compute the gross investment ratio at the firm level. This is the sum between the gross formation of tangible fixed capital and the gross formation of intangible fixed capital, divided by the sum of the total capital stock. Notably, our measure captures both the extensive (decision to invest) and intensive (magnitude) margins of investment decisions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Firm-level data"
+        },
+        {
+            "text": "Second, we consider a set of variables that are classic firm determinants of corporate investment. In particular, we include variables to capture the financial position of the firm, as measured by the debt rate (outstanding net debt over assets) and debt burden (interest payments and financial costs over earnings), the profitability as measured by ROA, and proxies of future growth opportunities (firm level sales growth). Finally, we follow the European Commission (2003/361/CE) standard to classify firms as large (more than 250 employees), medium (between 50 and 250 employees and turnover between 10 and 50 million or assets between 10 and 43 million) and small (less than 50 employees and turnover or assets bellow 10 million). Two aspects are worth highlighting regarding the size composition of our sample. First, the statistics clearly reflect the important presence of SMEs in the Spanish economy, as approximately 98% of firms in our sample are small and medium enterprises.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Firm-level data"
+        },
+        {
+            "text": "Second, as it is well documented in other studies, the size composition of firms is heterogenous across provinces (Garc\u00eda-Posada and . For example, larger and more mature firms are more concentrated in the province of Madrid and Barcelona, which are also the provinces with higher level of economic activity in Spain. The granular and detailed information of firm's characteristics that we exploit will allow us to control for province level heterogeneity in terms of, for example, average profitability, the sectorial composition and the average size of companies. 4 Namely, our sample represents around 50% of Spanish non-financial corporations in the year 2015. See the work of Dejuan and Ghirelli (2018) for a detailed appendix about this sample and its coverage. We closely follow this paper both in the cleaning procedure of the database and in the definition of the variables. ",
+            "cite_spans": [
+                {
+                    "start": 681,
+                    "end": 707,
+                    "text": "Dejuan and Ghirelli (2018)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Firm-level data"
+        },
+        {
+            "text": "In this paper we approximate the efficacy of the functioning of the judicial system computing \"congestion rates\" (see Garc\u00eda-Posada and Mora-Sanguinetti, 2015, among others). These rates are calculated using information on the volume of conflicts accumulated without resolution and the number of resolved conflicts that reach a specific judicial body in a specific jurisdiction. The results are aggregated at the province level (p). A congestion rate could be considered a proxy of the resolution time. The higher the congestion rate, the worse the efficacy of the system (and potentially the higher the length or the cost expected by firms to see their conflicts resolved by the system).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measuring judicial efficacy"
+        },
+        {
+            "text": "More specifically, a congestion rate is calculated as the ratio of the sum of pending cases (measured at the beginning of the year, t), plus the new cases measured in a specific year divided by the resolved cases in the same year. The data used in this paper is actual data on the functioning of the Spanish judicial system provided by the General Council of the Judiciary (CGPJ) of Spain.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measuring judicial efficacy"
+        },
+        {
+            "text": "In Appendix B we use an alternative measure of the functioning of the judicial system: a litigation rate. The results are consistent with those presented in the main text.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measuring judicial efficacy"
+        },
+        {
+            "text": "The judicial system is complex. Therefore, it is necessary to define \"where\" to measure its efficacy in order to get meaningful information related to firms' investment decisions. We aim to identify the jurisdiction related to the protection of companies against contractual risks and against the risk of expropriation by the public sector. Both perspectives were discussed by Acemoglu and Johnson (2005) . As shown in Figure 2 , conflicts that reach the Figure 1 : Outline of the Spanish judicial system Note: Figure 1 outlines the basic structure of the Spanish judicial system, relating the different jurisdictions with the nature of the conflict experienced by private entities. Our measures of judicial efficacy are based on both conflicts reaching the Civil jurisdiction and the Administrative jurisdiction.",
+            "cite_spans": [
+                {
+                    "start": 377,
+                    "end": 404,
+                    "text": "Acemoglu and Johnson (2005)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 419,
+                    "end": 427,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 455,
+                    "end": 463,
+                    "text": "Figure 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 511,
+                    "end": 519,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Measuring judicial efficacy"
+        },
+        {
+            "text": "In the former jurisdiction, we further distinguish between judicial efficacy in the declarative stage and the execution stage.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measuring judicial efficacy"
+        },
+        {
+            "text": "More specifically, civil conflicts are those that occur between private companies or citizens, for example, as a result of a misinterpretation of a contract or a breach of an obligation agreed in a contract (for instance, an investment contract). These conflicts are resolved using the specific rules of the Civil Procedural Law. 7 Entry into the system is done through the \"courts of first instance\" (if the city is large enough) or the \"courts of first instance and instruction\" (in smaller cities) and take a specific form that, partially, depends on the amount in conflict. Thus, generally, if the conflict has an amount exceeding 6,000 euros, the \"ordinary judgment\" will be used. 8 This judgment is classified as \"declarative\" because the judge will \"declare\" which company is right and will set out the obligations to be fulfilled.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CIVIL JUSTICE EFFICACY"
+        },
+        {
+            "text": "7 The procedural regulations in Spain, such as the CPL, are common to the whole territory and do not vary by region or province. Formally, the procedures are the same in all provinces. The basic regulation of the entire judicial system (the Organic Law of the Judiciary) is unique for the whole country. It may happen that, in spite of the sentence (in the \"declarative\" judgment), the condemned company (the debtor) decides not to comply with the provisions of the judgment. In this case it would be necessary to return to the court to proceed with the \"execution\". The judge, in that case, could, for example, forcibly access the accounts of the debtor.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CIVIL JUSTICE EFFICACY"
+        },
+        {
+            "text": "In this paper, we measure the efficacy of the civil jurisdiction in these two \"stages\" (the declaration and the execution). We compute the measures for the whole of the \"first instance\" and \"first instance and instruction\" courts of a province. 9 The congestion rate will be computed annually, for the period It must be highlighted that the \"declarative\" civil congestion measure is computed for the whole set of civil conflicts which reach the civil courts, including the different types of contentious procedures and very diverse matters, such as family and \"no family\" conflicts. This is important because the conflicts related to investment decisions do not have preference to be judged in the Spanish courts. Therefore, an enterprise is affected by the congestion of the civil jurisdiction in general (as a result of business conflicts but also family conflicts) and will make its decisions accordingly. 11 Figure 3 shows the time variation of the congestion rate in the civil jurisdiction when solving a \"declarative\" judgment) for the whole economy (as a simple average across provinces over time): on average, the congestion rate was higher during the economic crisis and we only observe a slight reduction in the last observation (2016) already in the expansion period. This suggests that inefficacy in the Spanish judicial system may be countercyclical. Already, Ginsburg and Hoetker (2006) and Palumbo et al. (2013) found international evidence in this regard. Mora-Sanguinetti et al. (2017) discussed the Spanish case. This countercyclicality could result from companies having more problems to fulfill their contracts in a crisis context, so that the courts\u00b4 workload could be higher.",
+            "cite_spans": [
+                {
+                    "start": 245,
+                    "end": 246,
+                    "text": "9",
+                    "ref_id": null
+                },
+                {
+                    "start": 1373,
+                    "end": 1400,
+                    "text": "Ginsburg and Hoetker (2006)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1405,
+                    "end": 1426,
+                    "text": "Palumbo et al. (2013)",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 1472,
+                    "end": 1502,
+                    "text": "Mora-Sanguinetti et al. (2017)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 912,
+                    "end": 920,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "CIVIL JUSTICE EFFICACY"
+        },
+        {
+            "text": "However, important differences can be observed among regions, as will be discussed below.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CIVIL JUSTICE EFFICACY"
+        },
+        {
+            "text": "9 No separate information is available for Ceuta or for Melilla. 10 The old and new civil judicial data sets cannot be connected as the new CPL changed the types of procedures available and reduced the \"formalism\" (in the sense of Djankov et al. (2003) . See Mora-Sanguinetti (2010) . 11 Although it is not technically correct, we have computed an estimation test including only the \"ordinary\" conflicts arriving to the Civil courts and excluding family conflicts. Therefore, we have run the estimation selecting only a set of conflicts that will more likely contain \"investment\" conflicts. The results are similar to those shown in this paper. The correlation between the two civil measures is in fact 0.8.",
+            "cite_spans": [
+                {
+                    "start": 231,
+                    "end": 252,
+                    "text": "Djankov et al. (2003)",
+                    "ref_id": null
+                },
+                {
+                    "start": 259,
+                    "end": 282,
+                    "text": "Mora-Sanguinetti (2010)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "CIVIL JUSTICE EFFICACY"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f In addition, the congestion rate in the Basque country (which is known to be below the average) steadily increases since 2010 while the congestion rate in Catalonia is rather decreasing since 2008, although with an uneven pattern. In our analysis we exploit both time variation and across-province variation to identify the average effect of the congestion rate on the gross investment to capital ratio.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CIVIL JUSTICE EFFICACY"
+        },
+        {
+            "text": "12 Appendix E includes some additional figures.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CIVIL JUSTICE EFFICACY"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f Note: Figure 5 presents a map of Spain with its 50 provinces, depicting the volatility (over-time variation) of congestion rate in the civil jurisdiction (declarative stage) within each province, during the period 2002-2016. Darker blue colors imply a higher volatility of the congestion rate. The measure is constructed using CGPJ data.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 37,
+                    "end": 45,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "CIVIL JUSTICE EFFICACY"
+        },
+        {
+            "text": "In parallel to the risks involved in unsafe private contracting (which should be disciplined by the civil jurisdiction), investment may also be sensitive to a risk which does not depend on contracts between private parties: the risk of expropriation by politicians and elites (Acemoglu and Johnson, 2005) .",
+            "cite_spans": [
+                {
+                    "start": 276,
+                    "end": 304,
+                    "text": "(Acemoglu and Johnson, 2005)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "ADMINISTRATIVE JURISDICTION EFFICACY"
+        },
+        {
+            "text": "According to Acemoglu and Johnson (2005) , institutions related to the defense of property rights would have a significant effect on investment, while institutions related to better contracting would have a much more limited impact. More specifically, countries with greater restrictions on their politicians and elites and greater protection against expropriation on their part would enjoy higher J o u r n a l P r e -p r o o f investment rates. Moreover, at the country level, the quality of \"contract\" institutions would have no effect on the investment to GDP ratio if the relationship is controlled by the quality of institutions which defend the property rights.",
+            "cite_spans": [
+                {
+                    "start": 13,
+                    "end": 40,
+                    "text": "Acemoglu and Johnson (2005)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "ADMINISTRATIVE JURISDICTION EFFICACY"
+        },
+        {
+            "text": "It is difficult to think of a significant case of \"classic\" expropriation in Spain today (that is, the unjustified and direct expropriation of private assets by the public administration). However, we could think of alternative forms of \"expropriation\" that could still take place nowadays: such as the favoritism of the government towards some business groups or, in general, the making of non-neutral public decisions that could affect investment. Firms harmed by these problems could resort to the help of the judicial system (so that it invalidates the decisions of the public administration).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ADMINISTRATIVE JURISDICTION EFFICACY"
+        },
+        {
+            "text": "The analysis of the \"expropriation\" channel must be approached with a different judicial database.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ADMINISTRATIVE JURISDICTION EFFICACY"
+        },
+        {
+            "text": "Expropriation risks by the public sector are dealt by the administrative jurisdiction. More specifically, that jurisdiction controls the decisions of the public administrations and it would resolve a conflict between a private company and the local, regional or national administrations (unlike the civil jurisdiction, which resolves conflicts between private companies or citizens).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ADMINISTRATIVE JURISDICTION EFFICACY"
+        },
+        {
+            "text": "The procedural rules that govern this jurisdiction are different (Law regulating the Contentious-Administrative Jurisdiction) and, therefore, we can extend the years for which we compute the measure of congestion to 2000-2016. The congestion measure in this jurisdiction is based on the workload of the administrative courts (juzgados contencioso-administrativos).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ADMINISTRATIVE JURISDICTION EFFICACY"
+        },
+        {
+            "text": "The Civil jurisdiction is focused on the study of the effects of uncertainty in private contracting. The On the other hand, the civil jurisdiction is much more widely used than the labor jurisdiction in terms of the number of disputes resolved and its procedural rules are considered supplementary to those of other jurisdictions. Finally, the option of integrating the database with civil and labor data does not seem adequate insofar as, as has been said, the procedural regulation of the two jurisdictions is different in Spain. A specific analysis of the impacts of labor jurisdiction on business investment (with its problems and its own channels) will be part of our future research agenda.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FURTHER CLARIFICATIONS (LABOR JURISDICTION AND ADR)"
+        },
+        {
+            "text": "In another vein, as pointed out by the OECD Civil Justice Project (Palumbo et al., 2013), litigation (and therefore the efficacy of justice) can be influenced by the use of Alternative Dispute Resolution mechanisms (ADR) (mediation, arbitration, conciliation). Information on the prevalence of these mechanisms is very scarce because they are managed mainly from the private sector. The OECD was only able to collect (partial) information of its use (%) to resolve commercial disputes through arbitration and conciliation in 10 countries among which Spain was not available. As a result, we do not have enough statistical information to incorporate the ADRs into the estimates. However, the J o u r n a l P r e -p r o o f reading of the results remains useful insofar as it analyzes the functioning of the judicial system and this is the enforcement mechanism that also covers conflicts related to the ADRs (it is the judicial system which, ultimately, would also resolve a conflict related to the use of the ADRs).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FURTHER CLARIFICATIONS (LABOR JURISDICTION AND ADR)"
+        },
+        {
+            "text": "To estimate the effect of judicial efficacy on corporate investment, we augment a classical static investment equation as in Gulen and Ion (2016) and Baker et al. (2016) , to include our proxy of judicial inefficacy 13 . Thus, we rely on a firm fixed-effects model regressing gross investment to capital ratio on relevant time-varying firm characteristics and a measure of civil or administrative judicial efficacy that varies over time and across provinces, controlling for time (year) fixed effects.",
+            "cite_spans": [
+                {
+                    "start": 125,
+                    "end": 145,
+                    "text": "Gulen and Ion (2016)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 150,
+                    "end": 169,
+                    "text": "Baker et al. (2016)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Estimation strategy"
+        },
+        {
+            "text": "Proper identification entails several challenges which we next discuss in detail.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation strategy"
+        },
+        {
+            "text": "We estimate the following equation at the firm level ( ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation strategy"
+        },
+        {
+            "text": "The dependent variable \u202b\u072d/\u072b(\u202c ,,\u0be7 ) is the gross investment ratio, which is defined as gross fixed capital formation over total capital stock. C t,p is the congestion rate of the civil jurisdiction (in one of the two stages: ordinary judgments or executions inside the civil jurisdiction) or the administrative jurisdiction and X is a vector that contains firm level characteristics. Finally, M refers to time varying province specific controls while \u07dd ,,\u0be7 is the error term, which we cluster at the firm and at the year level in order to allow for serial correlation and cross-sectional correlation (Petersen, 2009) 15 . To minimize endogeneity concerns regarding plausible reverse causality between the realized investment rate and both firm's characteristics and external determinants, we lag all explanatory variables by one",
+            "cite_spans": [
+                {
+                    "start": 600,
+                    "end": 616,
+                    "text": "(Petersen, 2009)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 617,
+                    "end": 619,
+                    "text": "15",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Estimation strategy"
+        },
+        {
+            "text": "year 16 . The working hypothesis, as it was explained in section 1, is that the judicial efficacy faced by firms in year t has a negative impact on investment decisions in t+1.",
+            "cite_spans": [
+                {
+                    "start": 5,
+                    "end": 7,
+                    "text": "16",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Estimation strategy"
+        },
+        {
+            "text": "The fixed effects model allows to control for all time-invariant characteristics that may determine investment: for instance, differences in business practices across companies, location characteristics that are constant over time, or time invariant differences in the economic or demographic structure across provinces. Along with them, time fixed effects control for all aggregate variables that change over time but not across firms: for instance, macroeconomic conditions, national policies or policy uncertainty that may affect corporate investment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation strategy"
+        },
+        {
+            "text": "Following the existing literature, we explicitly control for firm time-varying variables that may affect investment, such as the profitability of a firm and its financial position. Notice that, while the profile of a specific firm and its decisions may not cause congestion, as long as a correlation exists, their omission would contaminate the estimation of the effect of judicial efficacy on investment. The main channel through which firm's characteristics may be correlated with judicial congestion is through 13 An alternative to our approach is the estimation of a dynamic investment model. Either if employing difference-GMM (Arellano and Bond, 1991) or system-GMM (Arellano and Bover, 1995; Blundell and Bond, 1998) , appropriate empirical identification relies on having valid instrumental variables (i.e. assumptions should be assessed in a case-by-case basis). An important concern of the difference-GMM is that, for highly persistent controls, the lagged values of the variables in level may be weak instruments for their first difference transformation. In our case, some of our firm controls are very persistent (for example, the debt rate has a serial correlation coefficient of 0.9). On the other hand, system-GMM uses lagged differenced variables as instruments in the level equation relying on the assumption that the controls are mean stationary. Arguably, the presence of the Great Recession (structural break) and observed trends in some of our controls invalidates this assumption. For these reasons, we follow the static alternative approach of Gulen and Ion (2016) and Baker et al. (2016) . 14 The information about congestion was obtained for the first time in 2002. But since we use a lag, the period remains at t = 2003-2016. 15 In appendix C, we show that our results are robust to clustering at the province and year level. 16 Our results are robust to the use of two-and three-year lags for firm investment determinants and aggregate controls. While considering longer lags may reduce further the reverse causality concern, it decreases the relevance of investment determinants and their role as controls for unobserved factors. We, thus, perform our analysis considering one-year lagged controls. economic conditions. Introducing profitability variables attempts to control for firm's investment opportunities, which is an unobservable determinant. Despite many authors rely on the use of the Tobin's q measure, the nature of our data (with a high proportion of SMEs) implies considering alternative proxies for investment opportunities. Namely, we control for the return on assets and sales growth. On the other hand, we control for the financial position of the firm which may also influence investment decisions through the credit channel. Namely, we control for the debt to asset ratio, the debt burden and cash-flows. Note that by controlling for this battery of firms' characteristics, we are (to our best possible) controlling for the cost of capital and the firm-specific interest rate that a company may face to finance investment.",
+            "cite_spans": [
+                {
+                    "start": 632,
+                    "end": 657,
+                    "text": "(Arellano and Bond, 1991)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 672,
+                    "end": 698,
+                    "text": "(Arellano and Bover, 1995;",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 699,
+                    "end": 723,
+                    "text": "Blundell and Bond, 1998)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1568,
+                    "end": 1588,
+                    "text": "Gulen and Ion (2016)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1593,
+                    "end": 1612,
+                    "text": "Baker et al. (2016)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1742,
+                    "end": 1755,
+                    "text": "2003-2016. 15",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Estimation strategy"
+        },
+        {
+            "text": "Our regressor of interest is the measure of judicial efficacy which varies across provinces and over time. Since we control for time fixed effects, we are already taking into account any aggregate time varying factor that affects all the cross-section. Hence, to estimate the effect of the congestion rate on corporate investment we exploit the time variation of judicial efficacy within each province and across provinces.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation strategy"
+        },
+        {
+            "text": "Our identification challenge is threefold. First, notice that judicial congestion is measured at the province level. Since we want to estimate the effect that a higher congestion rate may have on firms' investment decisions, mobility of firms across provinces to resolve conflicts would virtually kill our identification. Arguably, firms would litigate their conflicts in those provinces where the judicial system works more efficiently. In other words, as it was discussed by Mora-Sanguinetti et al. (2017), a possible source of concern for the validity of the analysis could be that conflicts of companies located in a province \"p\" could be solved in any other province \"no p\". Fortunately, this is limited by Law: the CPL (Articles 50 and 51) establishes that the competent court to resolve a conflict will be, by default, that of the domicile of the defendant, both in the case of natural and legal persons.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation strategy"
+        },
+        {
+            "text": "We must recognize, however, that there are exceptions to these rules: the Law allows the parties to agree to choose another place to resolve a conflict (Article 55) and there is also a certain choice for the plaintiff while can also sue a businessman (defendant) in the place where he does business (in disputes arising from his business or professional activity). Still, we believe that these exceptions should not be a relevant problem for our estimates. On the one hand, we observe that the provinces are an important \"frontier\" to economic activity in Spain: workers tend to move only within the province limits (Jimeno et al. 2015) . According to the Labor Force Survey, workers commuting to a province other than their province of residence amounted to 4.6% during the period 2005-2013 and firms changing province amount to just around 0.1% each year. 17 On the other, in the extreme and unrealistic event that firms actually self-selected provinces for litigation, our estimate of the average effect of judicial congestion on investment would be a lower bound of the true effect. Judicial congestion at province \"p\" would be irrelevant to investment for all firms located in \"p\" that litigate in \"no p\". This would induce an attenuation bias in our estimate and we would be hence estimating a lower bound for the true effect, which may still be of interest.",
+            "cite_spans": [
+                {
+                    "start": 616,
+                    "end": 636,
+                    "text": "(Jimeno et al. 2015)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Estimation strategy"
+        },
+        {
+            "text": "Another threat to our identification strategy is the possibility of reverse causality. In this scenario, judicial efficacy would be endogenous to the economic structure, and in particular to firms' investment plans. While we argued that judicial efficacy may have an impact on investment (see Section 1), we cannot sustain that investment decisions (and the conflicts derived from them) 17 As an additional argument, if all firms could move to the most efficient provinces, this would increase local congestion rates.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation strategy"
+        },
+        {
+            "text": "In equilibrium, congestion rates would be the same across all provinces. This is not what it is observed in the data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation strategy"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f influence in a remarkable way the measures of judicial efficacy we compute. This is due to the Spanish judicial structure. We construct our measures of efficacy based on the performance of first instance (and first instance and instruction) courts (on the side of the civil jurisdiction). None of these judicial bodies are specialized in investment decisions nor deal exclusively with business disputes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation strategy"
+        },
+        {
+            "text": "The mentioned civil courts resolve, in addition to conflicts arising from an investment decision, other cases such as evictions or inheritance conflicts (see Garc\u00eda-Posada and Mora-Sanguinetti, 2015) .",
+            "cite_spans": [
+                {
+                    "start": 158,
+                    "end": 199,
+                    "text": "Garc\u00eda-Posada and Mora-Sanguinetti, 2015)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Estimation strategy"
+        },
+        {
+            "text": "Therefore, an increase in litigation related to investment decisions could only be transferred to congestion rates indirectly. The creation of non-specialized courts could, in addition, be based on factors much broader than the litigation derived from investment decisions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation strategy"
+        },
+        {
+            "text": "Regarding this same issue (reverse causality) but with respect to the administrative courts, we should point out that these courts are not specialized in investment decisions nor deal exclusively with business disputes as they also solve immigration (extranjer\u00eda) or electoral conflicts, among others.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation strategy"
+        },
+        {
+            "text": "Therefore, an increase in litigation related to investment decisions could only be transferred to congestion rates indirectly.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation strategy"
+        },
+        {
+            "text": "Last but not least, our estimation could be biased due to the fact that the congestion rate is expected to be counter-cyclical and the economic cycle clearly affects firms' investment opportunities and expected demand, which are relevant investment determinants. Periods of high economic growth will be associated with positive firm\u00b4s performance and a low probability of breach of contract while the opposite may occur in periods of recession. Thus, not controlling for the business cycle would introduce an omitted variable bias in our estimation. We alleviate this concern by explicitly controlling for the business cycle in two main ways. First, we introduce time fixed effects so that we are controlling for everything that may vary along time at the aggregate level, such as the national business cycle and the credit cycle. Second, we additionally introduce different variables at the province level in order to control for time varying factors that may vary differently across provinces.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation strategy"
+        },
+        {
+            "text": "In particular, we control for the province business-cycle (GDP growth or unemployment rate), the province evolution of total credit over GDP (as well as delinquent credit over GDP) and the population growth. The next section presents and discusses our main results.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation strategy"
+        },
+        {
+            "text": "In this section we present the average effect of judicial congestion on investment rate. On the side of the analysis of civil jurisdiction, we consider two potentially relevant proxies for the congestion rate according to \"where\" we measure the efficacy of the judicial system: the congestion rate at the declarative stage (congestion declarative) and at the execution stage (congestion execution). We expect to observe a negative effect of a higher congestion rate on investment as suggested by the negative relationship between the averages of the variables for each province (see figure 1 ). Following the specification presented in section 3, our empirical exercise will allow us to establish a causal claim on such relationship by controlling for other firm-specific and aggregate determinants of investment and to investigate potential heterogeneous effects. Our result is robust to the inclusion of controls at the province level. Arguably, our estimation could be affected by potential confounders. For example, for a given number of courts in a province, population and firm density could be important determinants of judicial congestion rates and could plausibly be related to investment behavior of firms. In column 3 we introduce a block of controls to alleviate concerns of such potential confounders. In particular, we control for the number of lawyers in each province (as suggested by Mora-Sanguinetti and Garoupa (2015), as this variable is related to litigation), the ratio of total number of civil courts in a province over the sum of total population plus number of firms and the population growth. These two last variables allow us to safely disentangle the effect of judicial inefficacy from population density pressure.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 583,
+                    "end": 591,
+                    "text": "figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Baseline results and discussion"
+        },
+        {
+            "text": "Finally, we control for the local business cycle in columns 4 to 6. In the case there is variation among regions in terms of their economic performance, the local business cycle could be potentially correlated with both the congestion measure and firms' investment decisions. Both credit to GDP ratio, regional GDP growth and the unemployment rate are significant and affect investment in the expected direction. Notably, once we control for the local business cycle, the effect of congestion rate remains significant although smaller in magnitude. Hence, while the evolution of congestion may be correlated with the economic performance of each province, the estimated effect on investment does not disappear once we control for aggregate and local economic shocks. Our preferred specification is the model presented in column (6). We choose the most conservative specification (notice that in this case judicial congestion is only significant at the 5% level) in order to asses heterogenous effects across firms (see the next section).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Baseline results and discussion"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f Table 2 : Effects of the efficacy of the civil jurisdiction (when solving declarative judgments) on investment Note: Table 2 reports the estimated effect of the congestion rate in the civil jurisdiction (declarative stage) on the investment rate of firms, as specified in the equation presented in section 3. The dependent variable is the investment rate. We account for firm fixed effects by means of the within transformation. We also account for year fixed effects. Standard errors are two-way clustered at both the firm and year level. Column 1 presents a classical investment regression model where only firmlevel variables are included. Column 2 augments the model by including our main regressor of interest, judicial congestion at the declarative stage, measured at the province level. Columns 3 to 5 introduce further controls at the province level. All variables are lagged by one year. The considered sample covers the period 2002-2016. Table 3 considers the effect of judicial congestion when we focus on the execution stage. Recall that this stage is only reached when, after the \"declarative\" judgment, the condemned company decides not to comply with the provisions of the judgment and it is necessary to return to the court to proceed with the \"execution\". Following the same structure of Table 2 , we first introduce our measure of judicial congestion while only controlling for firm specific variables and we then control for regional specific trends. In all specifications we find a significant negative effect of judicial congestion on the 0.0094*** 0.0094*** 0.0094*** 0.0094*** 0.0094*** 0.0094*** (0.0008) (0.0008) (0.0008) (0.0008) (0.0008) (0.0008) Number of Lawyers -6.4405 -5.9436 -5.4008 3.2392 (8.7060) (8.9947) (9.7568) (12.2518) Regional: #Courts/(population + firms) 2.0527*** 2.0463*** 1.9790*** 1.5603*** (0.2287) (0.2356) (0.2302) (0.2940) Regional: Population growth -0.2155** -0.1864** -0.1949** -0.2504*** (0.0764) (0.0754) (0.0770) (0.0707) Regional: Credit/GDP 0.0130*** 0.0126*** 0.0127*** (0.0032) (0.0032) (0.0032) Regional: GDP growth 0.0637** (0.0258) Regional: Unemployment -0.0009*** (0.0003)",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 31,
+                    "end": 38,
+                    "text": "Table 2",
+                    "ref_id": "TABREF6"
+                },
+                {
+                    "start": 148,
+                    "end": 155,
+                    "text": "Table 2",
+                    "ref_id": "TABREF6"
+                },
+                {
+                    "start": 979,
+                    "end": 986,
+                    "text": "Table 3",
+                    "ref_id": "TABREF8"
+                },
+                {
+                    "start": 1336,
+                    "end": 1343,
+                    "text": "Table 2",
+                    "ref_id": "TABREF6"
+                }
+            ],
+            "section": "Baseline results and discussion"
+        },
+        {
+            "text": "Year J o u r n a l P r e -p r o o f investment rate. Namely, a 10-percentage point decrease in the congestion rate (which would for example entail a change from 120 unresolved cases per 100 resolved ones to 110 unresolved per 100 resolved ones) increases, on average, the investment rate by roughly 0.01 percentage points, caeteris paribus.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Baseline results and discussion"
+        },
+        {
+            "text": "Notice that, despite the direction of the effect is the same in both the declarative and the execution stage, we find significant differences in terms of the magnitude of the estimate. In particular, the impact of congestion on investment at the declarative stage is ten times bigger than the effect observed at the execution stage. Arguably, the lower relevance of congestion at the execution stage could be related with the fact that less firms do actually reach this second stage and thus the overall sensitivity to judicial efficacy is lower. This circumstance also indicates that companies have some confidence in the effectiveness of the judicial system once, unfortunately, a conflict has occurred (usually there would be no need to carry out forced execution). Table 3 reports the estimated effect of the congestion rate in the civil jurisdiction (execution stage) on the investment rate of firms, as specified in the equation presented in section 3. The dependent variable is the investment rate. We account for firm fixed effects by means of the within transformation. We also account for year fixed effects. Standard errors are two-way clustered at both the firm and year level. Column 1 presents a classical investment regression model where only firmlevel variables are included. Column 2 augments the model by including our main regressor of interest, judicial congestion at the execution stage, measured at the province level. Columns 3 to 6 introduce further controls at the province level. All variables are lagged by one year. The considered sample covers the period 2002-2016.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 769,
+                    "end": 776,
+                    "text": "Table 3",
+                    "ref_id": "TABREF8"
+                }
+            ],
+            "section": "Baseline results and discussion"
+        },
+        {
+            "text": "(1)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Baseline results and discussion"
+        },
+        {
+            "text": "(2) (3) (4) (5) In Appendix C we carry out a robustness test in where we exclude Madrid and Barcelona. These provinces maintain the headquarters of the largest companies. The results of the experiment are confirmed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Baseline results and discussion"
+        },
+        {
+            "text": "Regarding the analysis of administrative jurisdiction, Table 4 shows the effects of the efficacy of the administrative jurisdiction on investment. The effect is negative and only significant at the 5% level when we introduce our baseline controls at the province level. Table 4 reports the estimated effect of the congestion rate in the administrative jurisdiction on the investment rate of firms, as specified in the equation presented in section 3. The dependent variable is the investment rate. We account for firm fixed effects by means of the within transformation. We also account for year fixed effects. Standard errors are two-way clustered at both the firm and year level. In all regressions, the firm-level controls are cash flows, EBIT/assets, debt burden, Debt/assets, and sales growth. Columns 1 includes our main regressor of interest, the congestion rate in the administrative jurisdiction. Columns 2 and 3 introduce further controls at the province level. All variables are lagged by one year. The considered sample covers the period 2002-2016. Table 5 shows the effects of the efficacy in the administrative jurisdiction when also the efficacy of the civil jurisdiction is considered. This experiment seems nearer to the one proposed by Acemoglu and Johnson (2005) . Once we introduce the whole sale of controls as in our baseline specification, we find that congestion at the administrative level has a negative impact on the investment rate. The impact is significant at the 5% confidence level and five times smaller in magnitude compared to the impact of judicial inefficacy at the declarative stage.",
+            "cite_spans": [
+                {
+                    "start": 1254,
+                    "end": 1281,
+                    "text": "Acemoglu and Johnson (2005)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 55,
+                    "end": 62,
+                    "text": "Table 4",
+                    "ref_id": "TABREF10"
+                },
+                {
+                    "start": 270,
+                    "end": 277,
+                    "text": "Table 4",
+                    "ref_id": "TABREF10"
+                },
+                {
+                    "start": 1061,
+                    "end": 1068,
+                    "text": "Table 5",
+                    "ref_id": "TABREF20"
+                }
+            ],
+            "section": "Baseline results and discussion"
+        },
+        {
+            "text": "(1)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Baseline results and discussion"
+        },
+        {
+            "text": "(2) Table 5 : Effects of the efficacy of the administrative jurisdiction on investment when civil justice efficacy is also considered Note: This table reports the estimated effect of the congestion rate in the administrative jurisdiction on the investment rate of firms, after further controlling for the congestion rate in the civil jurisdiction (declarative stage). The dependent variable is the investment rate. We account for firm fixed effects by means of the within transformation. We also account for year fixed effects. Standard errors are two-way clustered at both the firm and year level. In all regressions the firm-level controls are cash flows, EBIT/assets, debt burden, Debt/assets, and sales growth. Columns 1 includes our two measures of congestion. Columns 2 and 3 introduce additional controls at the province level. All variables are lagged by one year. The considered sample covers the period 2002-2016.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 4,
+                    "end": 11,
+                    "text": "Table 5",
+                    "ref_id": "TABREF20"
+                }
+            ],
+            "section": "Baseline results and discussion"
+        },
+        {
+            "text": "As a summary, we found that the civil (private) jurisdiction has five times the impact of the administrative jurisdiction. Interestingly, this result seems not to coincide with Acemoglu and Johnson's (2005) intuition. According to their work, as indicated above, the essential barrier to legal uncertainty has to do with defending property rights against government action, an element that in Spain would be carried out mainly by the administrative jurisdiction. In our work, even after taking into account various controls of the economic context, the channel of defense of private contracts (carried out by the civil jurisdiction) is shown to be more important. The hypothesis of Acemoglu and Johnson (2005) has also been challenged by another country-level analysis (in that case for India) (Chemin, 2012) . For his part, Nunn (2007) has already focused his research on the study of the quality of contract enforcement.",
+            "cite_spans": [
+                {
+                    "start": 177,
+                    "end": 206,
+                    "text": "Acemoglu and Johnson's (2005)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 682,
+                    "end": 709,
+                    "text": "Acemoglu and Johnson (2005)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 794,
+                    "end": 808,
+                    "text": "(Chemin, 2012)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 825,
+                    "end": 836,
+                    "text": "Nunn (2007)",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Baseline results and discussion"
+        },
+        {
+            "text": "(1) This difference in results for the case of Spain can be rationalized in the sense that Acemoglu and Johnson compare more or less developed economies. In a poorly developed economy, the risks of expropriation could be high. Spain is, instead, a developed economy where the risk of expropriation by the public sector is lower. In addition, Acemoglu and Johnson argue that the contractual channel may not be as important because agents may alter the terms of formal and informal contracts to avoid the poor quality of that part of the institutional framework. Although this \"avoidance\" process could occur in Spain, it seems not to be the most frequent case: the high level of litigation in civil jurisdiction (in the OECD top 4 as already indicated) suggests a high dependence of economic agents on judicial decisions. In other words, companies and citizens very often choose to litigate within the formality of the judicial system to resolve their disputes in Spain.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Baseline results and discussion"
+        },
+        {
+            "text": "The importance of the civil jurisdiction over the administrative jurisdiction in a context of a developed economy seems evident when comparing the frequency of conflicts of one type or another.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Baseline results and discussion"
+        },
+        {
+            "text": "Courts of \"first instance\" and \"first instance and instruction\" had 1176384 new conflicts (this does not include conflicts related to family law) in 2017 in Spain. The administrative courts had 123112 conflicts admitted (120771 initiated). Therefore a much lower number of conflicts. The imbalance is also evident in the number of courts (1724 civil courts 18 versus 229 administrative courts).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Baseline results and discussion"
+        },
+        {
+            "text": "The specifications in the following sections focus on understanding the heterogeneous effects (at the enterprise level) of civil jurisdiction.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Baseline results and discussion"
+        },
+        {
+            "text": "18 Adding the courts of first instance and the courts of first instance and instruction.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Baseline results and discussion"
+        },
+        {
+            "text": "We augment our baseline specification (as for the analysis of the civil jurisdiction) by introducing interaction terms of judicial congestion and firm's characteristics. Our aim in this section is to study whether judicial inefficacy has differential effects for certain types of firms. We first explore the role of size, firm maturity and the sector to which a firm belongs. The two first characteristics have been largely considered in the literature to classify the profile of firms and their investment behavior. For the case of Spain and using a very similar sample to ours, Herranz and Martinez-Carrascal (2016) and document that small firms invest less on average than larger firms and with a lower frequency. Together with this, smaller and younger firms are typically considered to be more vulnerable to information frictions and thus, to suffer more from credit constraints and uncertainty (Garc\u00eda-Posada, 2018 and Gulen and Ion, 2016) . In a second exercise, we consider possible heterogenous effects of congestion on investment by intermediate input's use. This analysis relates to the prediction by Klein et al., (1978) which suggests a positive relationship between judicial inefficiency and vertical integration.",
+            "cite_spans": [
+                {
+                    "start": 580,
+                    "end": 617,
+                    "text": "Herranz and Martinez-Carrascal (2016)",
+                    "ref_id": null
+                },
+                {
+                    "start": 900,
+                    "end": 924,
+                    "text": "(Garc\u00eda-Posada, 2018 and",
+                    "ref_id": null
+                },
+                {
+                    "start": 925,
+                    "end": 934,
+                    "text": "Gulen and",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 935,
+                    "end": 945,
+                    "text": "Ion, 2016)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1112,
+                    "end": 1132,
+                    "text": "Klein et al., (1978)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Heterogeneous effects"
+        },
+        {
+            "text": "Our specification can be now rewritten as:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Heterogeneous effects"
+        },
+        {
+            "text": "where the Z accounts for firm level variables for which we compute the heterogenous effects by interacting them with our judicial congestion measure. To facilitate the interpretation of the interaction terms, all Z variables are categorical so that we can interpret the differential effect of judicial congestion with respect the omitted baseline category of Z 19 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Heterogeneous effects"
+        },
+        {
+            "text": "We first consider the differential effect of judicial congestion by sector. Investment behavior in terms of intensity, the proportion devoted to tangible vs intangible investment, lumpiness etc. may vary across economic activities. Table 6 presents our main results. Relative to the effect of judicial congestion for firms in our baseline category, namely the \"energy\" sector, we observe a significant and larger effect in firms belonging to the industrial sector and, to a less extent, for firms belonging to the \"trade & hotels\" sector. Both in terms of magnitude and significance, the effects are more robust when measuring congestion at the declarative stage.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 232,
+                    "end": 239,
+                    "text": "Table 6",
+                    "ref_id": "TABREF13"
+                }
+            ],
+            "section": "Sector, size and maturity"
+        },
+        {
+            "text": "One of the implications of the literature discussed in the introduction (see Klein et al., 1978; Levchenko, 2007; Mora-Sanguinetti and Spruk, 2018 , among others) is that sectors within an economy should not be reacting the same to the efficacy of enforcement. This is because sectors differ noticeably in their dependence on complex investment decisions requiring long-term interactions. The median knowledge (or intangible) capital intensity (OECD, 2017; Corrado et al., 2009 ) was above in manufacturing with respect to any other sector (ranging from agriculture to \"other services\"), with the only exception of trade and finance 20 . Although our results should be read with caution (as the breakdown by sector analysed is limited), this paper provides evidence that, indeed, 19 Note that, despite the fact that the effect of constant or almost-constant firm-specific characteristics are absorbed by company fixed-effects, we are still able to properly identify the corresponding heterogeneous effects of judicial congestion along these dimensions. This stems from the fact that we are interacting the variables with our measure of congestion, which exhibits time variation (Wooldridge et al., 2001, Ch. 10.5) . 20 The study was conducted by aggregating information from Spain and 13 other European countries (OECD 2015) . sectors such as industry or trade suffer more in a context of legal uncertainty, which implies less investment.",
+            "cite_spans": [
+                {
+                    "start": 77,
+                    "end": 96,
+                    "text": "Klein et al., 1978;",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 97,
+                    "end": 113,
+                    "text": "Levchenko, 2007;",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 114,
+                    "end": 146,
+                    "text": "Mora-Sanguinetti and Spruk, 2018",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 444,
+                    "end": 456,
+                    "text": "(OECD, 2017;",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 457,
+                    "end": 477,
+                    "text": "Corrado et al., 2009",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1178,
+                    "end": 1213,
+                    "text": "(Wooldridge et al., 2001, Ch. 10.5)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1313,
+                    "end": 1324,
+                    "text": "(OECD 2015)",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Sector, size and maturity"
+        },
+        {
+            "text": "On the other hand, Table 7 presents the results from interacting judicial congestion both at the declarative and execution stage with size and maturity of a firm 21 . Panel A focuses on the role of firm size. We find robust heterogenous effects in this dimension when considering congestion at the declarative stage. Namely, the effect is close to the average effect for the case of small firms, our baseline category and significant at the 5% confidence level (as expected, as small firm represent 96% of our sample) but doubles in magnitude and triples in magnitude when considering medium and large firms, respectively. Furthermore, for medium and large firms, the effect is always found to be significant at the 1% significance level. This finding is robust when considering alternative modelling specifications (see Appendix C). On the other hand, panel B presents the differential effects of judicial inefficacy for firms with different ages. Once again, significant effects are only found for the case of congestion at the declarative stage. We observe that mature firms are more affected by judicial congestion in a relevant order of magnitude. Table 6 reports the estimated effect of the congestion rate in the civil jurisdiction on the investment rate of firms, considering potential heterogenous effects across sectors (see the equation presented in section 5). The dependent variable is the investment rate. We account for firm fixed effects by means of the within transformation. We also account for year fixed effects. Standard errors are two-way clustered at both the firm and year level. In all regressions the firm-level controls are cash flows, EBIT/assets, debt burden, Debt/assets, and sales growth. Furthermore, we include province level controls: the number of lawyers, the number of courts over the total population, population growth, credit over GDP and the unemployment rate. Columns 1 refers to the effect of congestion in the civil jurisdiction at the declarative stage. Columns 2 replicates the analysis for the case of congestion in the civil jurisdiction at the execution stage. All variables are lagged by one year. The considered sample covers the period 2002-2016.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 19,
+                    "end": 26,
+                    "text": "Table 7",
+                    "ref_id": "TABREF15"
+                },
+                {
+                    "start": 1153,
+                    "end": 1160,
+                    "text": "Table 6",
+                    "ref_id": "TABREF13"
+                }
+            ],
+            "section": "Sector, size and maturity"
+        },
+        {
+            "text": "Our finding suggests that bigger and more mature firms are more affected by judicial congestion.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sector, size and maturity"
+        },
+        {
+            "text": "Notably, it is this less vulnerable group of firms to other potential frictions (such as credit frictions and uncertainty) the group that is most sensitive to inefficacy in the judicial sector. Why may larger and more mature firms be more affected by judicial congestion? Different channels could be present. J o u r n a l P r e -p r o o f Despite proper identification of each possible channel is beyond our present goal, we provide anecdotical evidence of the different forces that may be in place.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sector, size and maturity"
+        },
+        {
+            "text": "The first channel we propose is the investment intensity channel. Arguably, the larger the size of investment in place (in absolute and relative terms), the more sensible investment decisions may be to judicial congestion. The intuition is that larger planned investment may make companies more reluctant to invest if litigation is inefficient. Consequently, firms that engage in larger investment decisions may be more sensitive to judicial congestion. Notably, firms of bigger size present a higher investment rate, unconditionally and conditional on other determinants (see . In Appendix D we provide an exploration of this channel. Namely, we consider a quantile regression model where we study the impact on judicial inefficacy at different conditional quantiles of the investment rate distribution. We find that upper conditional quantiles of the investment distribution are more severely affected by judicial inefficacy. However, this result must be cautiously interpreted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sector, size and maturity"
+        },
+        {
+            "text": "Note that we are not controlling for firm fixed effects. Also, our standard errors are clustered at the firm level rather than at the firm and year level. Hence, we consider this evidence as a suggestive correlation hinting a possible channel between investment, judicial inefficacy and larger and more mature firms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sector, size and maturity"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f Table 7 reports the estimated effect of the congestion rate in the civil jurisdiction on the investment rate of firms, considering potential heterogenous effects across firm size, in panel A, and firm maturity, in panel B (see the equation presented in section 5). The dependent variable is the investment rate. We account for firm fixed effects by means of the within transformation. We also account for year fixed effects. Standard errors are two-way clustered at both the firm and year level. In all regressions the firm-level controls are cash flows, EBIT/assets, debt burden, Debt/assets, and sales growth. Furthermore, we include province level controls: number of lawyers, the number of courts over the total population, population growth, credit over GDP and unemployment rate. Columns 1 refers to the effect of congestion in the civil jurisdiction at the declarative stage. Columns 2 replicates the analysis for the case of congestion in the civil jurisdiction at the execution stage. All variables are lagged by one year. The considered sample covers the period 2002-2016.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 31,
+                    "end": 38,
+                    "text": "Table 7",
+                    "ref_id": "TABREF15"
+                }
+            ],
+            "section": "Sector, size and maturity"
+        },
+        {
+            "text": "A second possible channel relates to information frictions. Despite general statistics about judicial congestion are publicly available, the particular costs and knowledge about the functioning of the judicial system and of the market as a whole may largely depend on firm experience. Hence, we expect that larger and more mature firms have a better knowledge of the judicial system and react more to congestion. Notice that no direct measure exists about the degree of information a firm has about the current state and costs related to judicial congestion. Still, we construct a proxy for this (1)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sector, size and maturity"
+        },
+        {
+            "text": "(2) Congestion declarative stage Congestion execution stage J o u r n a l P r e -p r o o f variable by looking at the number of advisors that a given company reports to have, as documented in the Amadeus-Orbis database. Advisors include banks, consulting companies and auditors. Our hypothesis is that, conditional on other characteristics, the more advisors a company has (signaling a better understanding of the general ecosystem of the company, including the judicial environment), the more we expect investment to react to lagged congestion rate. We merge the information of Amadeus-Orbis with our database, ending up with a sub-sample of 45000 firms, out of which more than two thirds of the firms are medium and large firms. Hence, we conduct our exercise on a very particular composition of our sample which makes comparison to previous results difficult. Appendix D presents our main findings, which we interpret as a suggestive correlation with no causal implications. We observe that the congestion rate affects more severely firms that rely more on external advisors, in line with the channel we were exploring. The effect is significant for specifications in where we do not include firm-fixed effects but vanishes-out once we control for firm unobserved heterogeneity. Arguably, the impact we see in our estimates after controlling for firm fixed effects may suggest that information frictions are well controlled by fixed-effects that largely absorb the possible channel in place.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sector, size and maturity"
+        },
+        {
+            "text": "As a result of higher judicial inefficacy, it may be argued that we could observe more cases of vertical integration between firms (Klein et al., 1978) . This means that firms would prefer obtaining the inputs (or the services) from an internal provider than getting them through a contract with an external supplier. In the case of an \"internal\" problem, the firm could just ignore the judicial system and enforce the internal agreement by its own means. In other words, highly vertically integrated firms may be less harmed by judicial inefficacy (Johnson et al. 2002) .",
+            "cite_spans": [
+                {
+                    "start": 131,
+                    "end": 151,
+                    "text": "(Klein et al., 1978)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 549,
+                    "end": 570,
+                    "text": "(Johnson et al. 2002)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Vertical integration"
+        },
+        {
+            "text": "This section aims to test if investment decisions of vertically integrated are less affected by judicial congestion. In order to do so, we first construct a variable (\"Dependency\") to capture how much does a firm use intermediate inputs with respect to its creation of value-added. The variable \"intermediate inputs\" proxy external purchases. The information is obtained, as before, from the CBI database (Banco de Espa\u00f1a). The variable is defined as the (lagged) ratio between intermediate inputs and total value added. To test the hypothesis, we create a set of dummies referring to different levels of dependence of intermediate inputs (as a proxy for vertical integration). In particular, we look at those firms with a dependency rate below the 25 and 50 percentiles of the distribution. We interact those dummies with the congestion rate to look for heterogenous effects.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Vertical integration"
+        },
+        {
+            "text": "Results are presented in Table 8 . They suggest that no differential effects can be found when analyzing congestion rates at the declarative stage for which we were finding larger overall effects of congestion. In this case, the effect of vertical integration suggested by the literature seems to not be present in our sample. Nonetheless, we do find a significant differential effect at the execution stage: those firms that are less dependent on intermediate inputs appear to be less affected by judicial inefficacy.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 25,
+                    "end": 32,
+                    "text": "Table 8",
+                    "ref_id": "TABREF17"
+                }
+            ],
+            "section": "Vertical integration"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f Table 8 reports the estimated effect of the congestion rate in the civil jurisdiction on the investment rate of firms, considering potential heterogenous effects depending on intermediate input use by firms (see the equation presented in section 5). The dependent variable is the investment rate. We account for firm fixed effects by means of the within transformation. We also account for year fixed effects. Standard errors are two-way clustered at both the firm and year level. In all regressions the firm-level controls are cash flows, EBIT/assets, debt burden, Debt/assets, and sales growth. We also control for province level determinants of investment. Panel A refers to the effect of congestion at the civil jurisdiction in the declarative stage. Panel B replicates the analysis for the case of congestion at the civil jurisdiction in the execution stage. In Column 1 we interact the measure of congestion with a dummy variable taking a value equal to 1 if the intermediate input dependency of a firm is below the percentile 25 of the distribution. In Column 2 we interact the measure of congestion with a dummy variable taking a value equal to 1 if the intermediate input dependency of a firm is below the median of the distribution. All variables are lagged by one year. The considered sample covers the period 2002-2016.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 31,
+                    "end": 38,
+                    "text": "Table 8",
+                    "ref_id": "TABREF17"
+                }
+            ],
+            "section": "Vertical integration"
+        },
+        {
+            "text": "(1)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Vertical integration"
+        },
+        {
+            "text": "(2) ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Vertical integration"
+        },
+        {
+            "text": "The literature has found that a lower quality of the institutional framework and, as part of it, an ineffective judicial system, distorts the incentive structure for investment and its dynamics implying lower investment rates. The wide-ranging channel that connects justice and investment is that an ineffective judicial system generates insecurity and distrust. However, previous research has not yet identified which specific jurisdictions and legal procedures within the judicial system most affects business investment and which firms are the most sensitive. This is due to the lack of disaggregated judicial data so far.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "This study finds that the inefficacy of the judicial system has a negative and significant impact on business investment. Furthermore, we find that the civil (private) jurisdiction, has five times the impact of the administrative jurisdiction. This result indicates that efficacy in the jurisdiction that disciplines contracting between private companies (civil jurisdiction) is more critical to investment decisions than efficacy in the administrative jurisdiction, which is more focused on the defense of property rights and acts as a barrier to expropriation by the public sector. Within the civil jurisdiction, declaratory proceedings have ten times the impact of the executions. On the firms' side, the impact of judicial inefficacy is three times larger on big companies than on small ones. This research also observes that the negative effect of judicial inefficacy is more pronounced in the industrial sector.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Finally, regarding the relationship between vertical integration and the impact of judicial inefficacy, we find that those firms that are less dependent on intermediate inputs are less affected by the congestion rate. The specific channels that explain these differences are, on the one hand, the greater importance of the private contractual channel (there are in fact more than 7 times more civil courts in Spain than administrative courts) and, on the other hand, the greater intensity and frequency of investments in larger companies with respect to smaller ones.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The results of this research indicate that efforts to improve the business investment environment should focus on securing contracting between private companies. This is preferable to addressing the potential risks or expropriation by the public sector. Thus, resources should focus on improving civil jurisdiction and not so much administrative jurisdiction. The improvement of civil jurisdiction seems critical, moreover, for conjunctural reasons: judicial congestion as a whole (and in some highly populated regions specifically) seems sensitive to the economic cycle and spikes during recessions, such as that which could be imposed by the COVID-19 pandemic (Mora-Sanguinetti, 2020). Improvements in legal certainty are also critical for making progress on an important problem of the Spanish economy: the small size of its companies compared to those of the other large European economies (Mora-Sanguinetti and P\u00e9rez-Valls, 2020). This research finds that the impact of judicial inefficacy is 3 times larger on big companies than on small ones. Firm size matters for the productivity growth trend. For instance, L\u00f3pez-Garc\u00eda and Montero (2012) found that small companies were related to smaller probabilities to innovate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Finally, our results point to sectors such as industry or trade suffering more in a context of legal uncertainty, which implies less investment. Again, the result has broader economic efficiency implications: development and sectoral specialization may be linked (Mora-Sanguinetti and Spruk, 2018) . In Spain, the regions less specialized in industrial activities show below-average economic development.",
+            "cite_spans": [
+                {
+                    "start": 263,
+                    "end": 297,
+                    "text": "(Mora-Sanguinetti and Spruk, 2018)",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "We define the following variables. (1) between 50 and 250 employees, (2) total assets between 10 and 43 million or turnover between 10 and 50 million. A small firm must have (1) less than 50 employees, (2) total assets bellow 10 million or turnover bellow 10 million.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Age: number of years since the foundation of the company.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u2022"
+        },
+        {
+            "text": "In this Appendix we measure the impact of a litigation rate (as an alternative to the congestion rate explained in section 2.2) on investment decisions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u2022"
+        },
+        {
+            "text": "The litigation rate is defined as the number of new conflicts that have reached the judicial system in a",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u2022"
+        },
+        {
+            "text": "year t (and province, p) divided by the population of the province in that year. We calculate the rate for the new cases which enter the declarative stage in the Civil jurisdiction.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u2022"
+        },
+        {
+            "text": "This measure is of interest, while the literature reminds us that litigation is very significantly related to judicial slowness (Palumbo et al., 2013) . Therefore, this rate could be considered a predictor of judicial efficacy. Also, as it was mentioned in the introduction, Spain is a country characterized by a very high civil litigation rate, above most of the OECD economies. J o u r n a l P r e -p r o o f Table B .1 presents the effect of the litigation rate on investment when controlling for firm specific characteristics, regional controls, firm fixed effects and time fixed effects. We observe that an increase in the litigation rate has a negative impact on investment. In particular, a 1 pp increase in the litigation rate entails a decrease of investment by 0.8 pp.",
+            "cite_spans": [
+                {
+                    "start": 128,
+                    "end": 150,
+                    "text": "(Palumbo et al., 2013)",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 411,
+                    "end": 418,
+                    "text": "Table B",
+                    "ref_id": "TABREF20"
+                }
+            ],
+            "section": "\u2022"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f Appendix C. Robustness checks",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u2022"
+        },
+        {
+            "text": "In table C.1, we present our baseline specification when we exclude Madrid and Barcelona. Arguably, it would be reasonable to think that these two provinces may have an important role in explaining the how judicial inefficacy affects investment in our particular sample. (1) Madrid and Barcelona are the two most populated provinces in Spain, with special concentration of large and mature firms (which we have shown that are the most affected by judicial congestion).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C.1 EXCLUDING MADRID AND BARCELONA"
+        },
+        {
+            "text": "(2) These are the provinces with higher level of economic activity in Spain. (3) The biggest law firms and the main banks have been traditionally located in Spain and Barcelona (the financial sector has been very much litigious during the crisis in Spain). We observe that, despite excluding these two provinces notably affects the precision of our estimates at the execution stage, we still find unchanged significant coefficients at the declarative stage signaling that our findings are not uniquely driven by the important role of these two provinces. J o u r n a l P r e -p r o o f",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C.1 EXCLUDING MADRID AND BARCELONA"
+        },
+        {
+            "text": "As argued in section 3, one of the possible endogeneity concerns in our analysis relates to possible omitted variables (at the province level and that vary over time) that correlate with both congestion and investment decisions. In the baseline specification, we tackle this concern by introducing different controls such as measures of population and firm density per region, GDP growth and unemployment rate. In column (1) of Table C .2 we further saturate our model with province-year fixed effects which allows us to control for all observed and unobserved province trends. Note that introducing province-year fixed effects entails that we can no longer identify the effect of congestion rate (neither the effect of any other control at the province level), because they will be colinear with the fixed effects. Still, we can identify the interaction between the congestion rate and firm-specific level variables 22 . Notably, the coefficients of the interaction terms remain of similar magnitude and significance to the ones shown in table 5. On the other hand, in column (2) of table C.2 we allow for clustering at the province and year level. Allowing for intra-province correlation among observations and over time implies a much more conservative inference standard of our estimated coefficients. At the same time, the specification may suffer from insufficient number of clusters to rely on asymptotic theory. We see that the main effects of our interaction terms remain unchanged after allowing for this alternative clustering strategy.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 428,
+                    "end": 435,
+                    "text": "Table C",
+                    "ref_id": "TABREF20"
+                }
+            ],
+            "section": "LEVEL"
+        },
+        {
+            "text": "22 However, we cannot longer estimate the total effect of congestion. The total effect of judicial inefficacy for the group that is interacted with our measure would be the sum of the differential effects (the coefficients of the interactions) and the effect of the congestion rate for the baseline group (the coefficient of judicial congestion itself). The latter is absorbed by the provinceyear fixed effects. Note: This table reports the estimated effect of the congestion rate in the civil jurisdiction at the declarative stage on the investment rate of firms, considering heterogenous effects by firm size and maturity. The dependent variable is the investment rate. We account for firm fixed and year fixed effects. Firm-level controls include cash flows, EBIT/assets, debt burden, Debt/assets, and sales growth. Province-level controls include number of lawyers, the number courts over the total population, population growth, credit over GDP and unemployment rate. In column 1 we include province-time level fixed effects, absorbing controls with variation at the province level. In column 2 we allow for two-way double clustering at the province-year level. All variables are lagged by one year. The considered sample covers the period 2002-2016.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "LEVEL"
+        },
+        {
+            "text": "(1) J o u r n a l P r e -p r o o f Appendix D: Potential channels between firm size and investment sensitivity to congestion D.1 QUANTILE REGRESSION Using our whole sample, we estimate a quantile regression to study the correlation between judicial inefficacy and different percentiles of the investment rate distribution. We consider the impact on the median, the 75 percentile and the 90 percentiles. Notably, the distribution of investment rate in our sample, as documented in , is significantly right skewed, with the 25 th percentile very close to zero investment. We follow a simplified specification of Koc and Sahin (2016) 23 , namely:",
+            "cite_spans": [
+                {
+                    "start": 610,
+                    "end": 630,
+                    "text": "Koc and Sahin (2016)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 631,
+                    "end": 633,
+                    "text": "23",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "LEVEL"
+        },
+        {
+            "text": "\u0733 \u202b\u072d/\u072b(\u202c ,,\u0be7 ) = \u07d9 + \u07da \u0b35 \u202b\u0725\u202c ,\u0be7\u0b3f\u0b35 + \u07da \u0b36 \u073a ,,\u0be7\u0b3f\u0b35 + \u07da \u0b37 \u202b\u072f\u202c ,\u0be7\u0b3f\u0b35 + \u0740 \u0be7 + \u07dd ,,\u0be7",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "LEVEL"
+        },
+        {
+            "text": "with \u202b\u074d\u202c = 0.50, 0.75, 0.90 Note: This table reports the correlation between judicial inefficacy and different percentiles of the investment rate distribution, based on a quantile regression. The dependent variable is the investment rate. We account for year and province fixed effects. Firm-level controls include cash flows, EBIT/assets, debt burden, Debt/assets, and sales growth. Province-level controls include number of lawyers, the number courts over the total population, population growth, credit over GDP and unemployment rate. In column 1 we study the correlation between judicial inefficacy and the median investment rate. In column 2 we focus on the effect of congestion on the 75 percentile of the investment rate while column 3 considers the 90 percentile. All variables are lagged by one year. The considered sample covers the period 2002-2016.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "LEVEL"
+        },
+        {
+            "text": "23 While Koc and Sahin (2016) fully exploit the panel data structure by including firms' and time fixed effects, we only include province and time fixed effects. We cluster our standard errors that the firm level.",
+            "cite_spans": [
+                {
+                    "start": 9,
+                    "end": 29,
+                    "text": "Koc and Sahin (2016)",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "LEVEL"
+        },
+        {
+            "text": "(1) J o u r n a l P r e -p r o o f ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "LEVEL"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Unbundling Institutions",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Acemoglu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Johnson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Journal of Political Economy",
+            "volume": "113",
+            "issn": "5",
+            "pages": "949--995",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Some Tests of Specification for Panel Data: Monte Carlo Evidence and an Application to Employment Equations",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Arellano",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bond",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Review of Economic Studies",
+            "volume": "58",
+            "issn": "2",
+            "pages": "277--297",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Another look at the instrumental variable estimation of error-components models",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Arellano",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Bover",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Journal of Econometrics",
+            "volume": "68",
+            "issn": "1",
+            "pages": "29--51",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Measuring economic policy uncertainty",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bloom",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Davis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "The Quarterly Journal of Economics",
+            "volume": "131",
+            "issn": "4",
+            "pages": "1593--1636",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Initial conditions and moment restrictions in dynamic panel data models",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Blundell",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bond",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Journal of Econometrics",
+            "volume": "87",
+            "issn": "1",
+            "pages": "115--143",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "European judicial systems. Efficiency and quality of justice",
+            "authors": [],
+            "year": 2014,
+            "venue": "CEPEJ STUDIES",
+            "volume": "",
+            "issn": "23",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Intangible capital and US economic growth",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Corrado",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hulten",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sichel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Review of Income and Wealth",
+            "volume": "55",
+            "issn": "",
+            "pages": "661--685",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Does court speed shape economic activity? Evidence from a court reform in India",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chemin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Journal of Law Economics and Organization",
+            "volume": "28",
+            "issn": "3",
+            "pages": "460--485",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Policy uncertainty and investment in Spain",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dejuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ghirelli",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Investment and financing of Spanish non-financial corporations: an analysis using firm-level data",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dejuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Menendez",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mulino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Analytical Articles",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Does dual employment protection affect TFP? Evidence from Spanish manufacturing firms",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dolado",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ortigueira",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Stucchi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "SERIEs: Journal of the Spanish Economic Association",
+            "volume": "7",
+            "issn": "4",
+            "pages": "421--459",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Do better institutions offset the adverse effect of a financial crisis on investment? Evidence from East Asia",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Eslamloueyan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jafari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Economic Modelling",
+            "volume": "79",
+            "issn": "",
+            "pages": "154--172",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Credit constraints, firm investment and employment: evidence from survey data",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Garc\u00eda-Posada",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Journal of Banking and Finance",
+            "volume": "99",
+            "issn": "",
+            "pages": "121--141",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Does (average) size matter? Court enforcement, business demography and firm growth",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Garc\u00eda-Posada",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mora-Sanguinetti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Small Business Economics",
+            "volume": "44",
+            "issn": "3",
+            "pages": "639--669",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The unreluctant litigant? An empirical analysis of Japan's turn to litigation",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ginsburg",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hoetker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Journal of Legal Studies",
+            "volume": "35",
+            "issn": "",
+            "pages": "31--59",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "The costs and Benefits of Ownership: A Theory of Vertical and Lateral Integration",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Grossman",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hart",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Journal of Political Economy",
+            "volume": "94",
+            "issn": "4",
+            "pages": "691--719",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Policy uncertainty and corporate investment",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gulen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ion",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "The Review of Financial Studies",
+            "volume": "29",
+            "issn": "3",
+            "pages": "523--564",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "The impact of firms' financial position on fixed investment and employment. An analysis for Spain",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Herranz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Martinez-Carrascal",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Employment Protection Legislation and Labor Courts' Activity in Spain",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Jimeno",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mart\u00ednez-Matute",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mora-Sanguinetti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Courts and relational contracts",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mcmillan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Woodruff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Journal of Law Economics & Organization",
+            "volume": "18",
+            "issn": "1",
+            "pages": "221--277",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Vertical Integration, Appropriable Rents, and the Competitive Contracting Process",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Klein",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Crawford",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alchian",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "Journal of Law & Economics",
+            "volume": "21",
+            "issn": "2",
+            "pages": "297--326",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Institutions and economic performance: cross-country tests using alternative institutional measures",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Knack",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Keefer",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Economics & Politics",
+            "volume": "7",
+            "issn": "3",
+            "pages": "207--227",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Cash-flow and investment: A panel quantile approach",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Koc",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sahin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "MPRA Paper",
+            "volume": "77437",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Institutional Quality and International Trade",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Levchenko",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "The Review of Economic Studies",
+            "volume": "74",
+            "issn": "3",
+            "pages": "791--819",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Spillovers and absorptive capacity in the decision to innovate of Spanish firms: The role of human capital",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "L\u00f3pez-Garc\u00eda",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Montero",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Economics of Innovation and New Technology",
+            "volume": "21",
+            "issn": "7",
+            "pages": "589--612",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Corruption and Growth",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mauro",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "The Quarterly Journal of Economics",
+            "volume": "110",
+            "issn": "3",
+            "pages": "681--712",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "A Characterization of the Judicial System in Spain: Analysis with Formalism Indices",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mora-Sanguinetti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Economic Analysis of Law Review",
+            "volume": "1",
+            "issn": "2",
+            "pages": "210--240",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "La litigaci\u00f3n: externalidades e instrumentos para su racionalizaci\u00f3n",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mora-Sanguinetti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "915",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Do lawyers induce litigation? Evidence from Spain",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mora-Sanguinetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Garoupa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "International Review of Law and Economics",
+            "volume": "44",
+            "issn": "",
+            "pages": "29--41",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Credit, crisis and contract enforcement: evidence for the Spanish loan market",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mora-Sanguinetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mart\u00ednez-Matute",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Garc\u00eda-Posada",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "European Journal of Law and Economics",
+            "volume": "44",
+            "issn": "2",
+            "pages": "361--383",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Industry vs services: do enforcement institutions matter for specialization patterns? Disaggregated evidence from Spain",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mora-Sanguinetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Spruk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "How does regulatory complexity affect business demography? Evidence from Spain",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mora-Sanguinetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "P\u00e9rez-Valls",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "European Journal of Law & Economics. DOI",
+            "volume": "45",
+            "issn": "",
+            "pages": "118--126",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10657-020-09650-wNAWAZ"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Institutions, institutional change and economic performance",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "North",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "The American Economic Review",
+            "volume": "84",
+            "issn": "",
+            "pages": "359--368",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Relationship-Specificity, Incomplete Contracts and the Pattern of Trade",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Nunn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "The Quarterly Journal of Economics",
+            "volume": "122",
+            "issn": "2",
+            "pages": "569--600",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "OECD Science, Technology and Industry Scoreboard 2015: Innovation for growth and society",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Oecd",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "OECD Science, Technology and Industry Scoreboard 2017: The digital transformation",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Oecd ; Paris",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Palumbo",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Giupponi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Nunziata",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mora-Sanguinetti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "The Economics of Civil Justice: New Cross-Country Data and Empirics",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Estimating Standard Errors in Finance Panel Data Sets: Comparing Approaches",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Petersen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "The Review of Financial Studies",
+            "volume": "22",
+            "issn": "1",
+            "pages": "435--480",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "The relationship between judicial efficiency and corporate cash holdings: An international study",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Economic Modelling",
+            "volume": "59",
+            "issn": "",
+            "pages": "448--462",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Econometric Analysis of Cross Section and Panel Data",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wooldridge",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Congestion rate in the civil jurisdiction (declarative procedures) over time Note:Figure 2depicts the annual evolution of the average congestion rate in the civil jurisdiction (measured at the declarative stage) in Spain, during the period 2002-2016. The measure is constructed using CGPJ data.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "12 below shows the time variation of province congestion rates averaged across specific regions (Comunidades Aut\u00f3nomas). In particular, we consider four regions: Andalusia (in the south), Catalonia (containing Barcelona), Madrid and the Basque Country (in the north). Andalusia, Catalonia and Madrid are the most populated regions. Such disaggregation reveals different patterns across regions. While Andalusia and Madrid display a spike in the average congestion rate in 2009, judicial efficacy in Catalonia and the Basque country seems to be less sensitive to the business cycle.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Evolution of the congestion rate (declarative procedures) for some regions Note:Figure 3depicts the annual evolution of the average congestion rate in the civil jurisdiction (at the declarative stage) during the period 2002-2016 for the case of four Comunidades Aut\u00f3nomas in Spain: Andaluc\u00eda, Catalu\u00f1a, Madrid and Pa\u00eds Vasco. The measure is constructed using CGPJ data.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "and 6 show a lower level of disaggregation (the provincial level), which is the one used in the empirical model.Figure 5shows the time-average of the congestion rate for each province. This shows the across-province variation of the index. Spain shows a high variability in the efficacy of justice at the provincial level. Consistent with figure 4, the provinces belonging to Andalusia, Catalonia and Madrid show a relatively darker color than many other areas. In general, all the Mediterranean provinces and Madrid (which concentrate the bulk of the Spanish population) show worse behavior.Figure 6shows instead the standard deviation of the congestion rate computed over the period for each province. This shows the time-variation of the index: the time variation of the index is greater the darker the color of the province.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Average a map of Spain with its 50 provinces, depicting the average congestion rate in the civil jurisdiction (declarative stage) in each province, during the period 2002-2016. Darker blue colors imply a higher average congestion rate. The measure is constructed using CGPJ data.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Time variation (2002Time variation ( -2016 of the congestion rate (declarative procedures) for each province in Spain",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "nearest jurisdiction would be the labor jurisdiction, but it deals only with some specific types of conflicts (such as dismissals in private companies) and not the generality of matters related to private contracting. Several other reasons make us opt for the analysis of civil jurisdiction and not for the labor one (see alsoMora-Sanguinetti and Garoupa, 2015) when analyzing private contracting: in Spain, civil and labor jurisdictions are separate and use different procedural rules. The economic impacts of the civil jurisdiction have been covered much more widely by the literature (both for Spain and internationally)(Palumbo et al., 2013), which guarantees a certain comparability of the results.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "i), for the period (year, t) (t = 2003-2016 for the Civil jurisdiction 14 and 2001-2016 for the Administrative jurisdiction) through a linear model including fixed effects at the firm (i) level (\u03b1 i ), time (year) (d t ) and province (d p ):",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Average judicial congestion and investment across Spanish provinces(2002)(2003)(2004)(2005)(2006)(2007)(2008)(2009)(2010)(2011)(2012)(2013)(2014)(2015)(2016) Note:Figure 6presents a scatterplot at the province level, relating the average congestion rate (civil jurisdiction at the declarative stage) in each province and the average investment rates of firms during the period 2002-20016. In red, we fit the linear relationship between the average investment rate and the congestion rate in each province. The figure combines both information from CGPJ data and firmlevel data for investment coming from the Integrated Central Balance Sheet Data Office Survey (CBI) of the Bank of Spain.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "which proxy the financial position of a firm, appear to negatively affect the level of investment while the cash to asset ratio has a positive effect on investment. Both findings are consistent with the role of financial frictions in the access to credit and investment. Classical investment determinants remain significant and affecting the investment rate in the expected direction. The judicial congestion rate measured at the declaration stage has a negative effect on the investment rate, even after controlling for firm specific characteristics and time fixed effects. Controlling for aggregate shocks ensures that our estimators are not contaminated by the impact that the business cycle may have on both the investment rate and judicial congestion. In particular, we find that a 10-percentage point decrease in the congestion rate would increase on average the investment rate by roughly 0.1 percentage points, caeteris paribus. In order to have a better sense of the relevance of this magnitude an example may be helpful. In year 2010, Alicante was one of the provinces with higher levels of judicial congestion (220 unresolved cases per 100 resolved ones), while Alava exhibited one of the lowest level of congestion (140 unresolved cases per 100 resolved ones). If Alicante had the judicial efficacy observed in Alava, investment in Alicante would increase by \u0394 \u202b\u074a\u0745\u0750\u074f\u0741\u0743\u074a\u0725\u202c \u202b\u0741\u0750\u073d\u0734\u202c * \u07da \u0b36 = \u202b08\u202c * 0.01 = 0.8 \u202b,\u202c which is a magnitude similar to the effect that a 10-pp increase in cash flows has on average on the level of investment.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "below presents the firm level characteristics that we have used in the analysis together with basic descriptive statistics for the period 2002-2016",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "5 Our judicial efficacy measures of civil (private) jurisdiction cover the period 2002-2016. The sample can be extended to the period 2000-2016 for the case of administrative judicial efficacy, at the cost of not being able to control for unemployment at the province level, for which we start to have information in the year 2002. To enhance comparability of results between the different judicial efficacy measures, we fix our sample of firms for the period 2002-2016. Results for the case of administrative judicial efficacy measures are robust to extending the sample back to year 2000. 6 See Appendix A for an exact definition of the considered variables.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Descriptive statistics Note: Table 1 presents the basic summary statistics of firm-level variables that we use in the analysis. The sample comes from the Integrated Central Balance Sheet Data Office Survey (CBI) of the Bank of Spain, for the years 2002-2016.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Spanish judicial system may be resolved by four different jurisdictions(civil, criminal, labor and administrative). Each jurisdiction has a certain degree of specialization. Threats against the public interest (regulated as crimes in the Penal Code and processed through the Law of Criminal Procedure) are dealt by the Criminal jurisdiction. Labor disputes within a company (for example, related to the dismissal of a worker) are analyzed by the labor jurisdiction. Conflicts between companies related to the enforcement of private contracts are resolved by the civil jurisdiction and conflicts with the public administration are resolved by the contentious administrative jurisdiction (or \"administrative jurisdiction\"). It should be noted that in Spain, civil and labor jurisdictions are separated and served by specialized judges (unlike the connections between both jurisdictions that may exist in other countries, such as Italy). We thus focus both on the Civil jurisdiction and the Administrative jurisdiction.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Article 249 of the Civil Procedural Law.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "presents our baseline results for the case of the judicial congestion rate at the declarative stage. In all regressions, we control for firm specific unobservable heterogeneity, time fixed effects and firm specific controls. In column 1 we can see the results when we estimate a classic investment model. Proxies of economic performance such as the return on assets and the growth of sales have a positive effect on the investment rate. Together with this, a higher debt to asset ratio and debt burden,",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "Robust standard errors in parentheses *** p<0.01, ** p<0.05, * p<0.1",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF8": {
+            "text": "Effects of the efficacy of civil executions on investmentNote:",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF10": {
+            "text": "Effects of the efficacy of the administrative jurisdiction on investment Note:",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF13": {
+            "text": "Heterogenous effects: Sector of activity Note:",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF15": {
+            "text": "Heterogenous effects: Size and maturity Note:",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF17": {
+            "text": "Heterogeneous effects and intermediate inputs dependency (declarative and execution stage)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF19": {
+            "text": "\u2022Debt burden: interest payments plus financial costs divided by gross operating revenue plus gross financial revenue. \u2022 EBIT/Assets (ROA): sum of gross operating revenue plus gross financial revenue minus financial costs and interest payments, divided by total assets. \u2022 Debt ratio: Total outstanding debt less cash and its equivalents divided by total assets. \u2022 Cash flows: change in the cash holdings relative to the previous year divided by total assets. \u2022 Total capital stock: sum of fixed tangible capital stock (including real estate investment) and fixed intangible capital stock. \u2022 Gross investment rate: the sum of gross fixed tangible and intangible capital formation, divided by the total capital stock. \u2022 Sales growth rate: It is computed with respect to previous year. The variable takes value zero if firm sales are zero in two subsequent years. \u2022 Size dummy: equal to one if the firm is small, equal to two if the firm is medium size and equal to 3 if the firm is large. Our definition is based on the definition of the European Commission (2003/361/CE). Namely, large firms are required to have more than 250 employees. A medium size firms must have",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF20": {
+            "text": ".1. Effects of the litigation rate on investment Note: This table reports the estimated effect of the litigation rate on the investment rate of firms. The dependent variable is the investment rate. We account for firm fixed effects and year fixed effects. Standard errors are two-way clustered at both the firm and year level. Column 1 presents a classical investment regression model where only firm-level variables and the litigation rate are included. Column 2 and 3 augments the model by including province-level controls. All variables are lagged by one year. The considered sample covers the period 2002-2016. Robust standard errors in parentheses *** p<0.01, ** p<0.05, * p<0.1",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF21": {
+            "text": ".1. Effects on investment when Madrid and Barcelona are excluded Note: This table reports the estimated effect of the congestion rate in the civil jurisdiction (declarative stage and execution stage) on the investment rate of firms, when the provinces Madrid and Barcelona are excluded. The dependent variable is the investment rate. We account for firm fixed and year fixed effects. Standard errors are two-way clustered at both the firm and year level. Column 1 to 3 for the case of congestion at the declarative stage and 4 to 6 for congestion at the execution stage, introducing different province level controls. All variables are lagged by one year. The considered sample covers the period 2002-2016. Robust standard errors in parentheses *** p<0.01, ** p<0.05, * p<0.1",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF22": {
+            "text": "2. Heterogenous effects when introducing province-time fixed effects and province clusters",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF23": {
+            "text": "Robust standard errors in parentheses *** p<0.01, ** p<0.05, * p<0.1",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF24": {
+            "text": "1. Quantile regression: Effect of congestion on different quantiles of investment rate",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF25": {
+            "text": "Standard errors in parentheses *** p<0.01, ** p<0.05, * p<0.1",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF26": {
+            "text": ".1: Aggregate variables at the provincial level Note:Table 1presents the basic summary statistics of province level variables that we use in the analysis. Congestion measures and judicial related controls are based on CGPJ data. Population growth, credit to GDP, GDP growth and the unemployment rate come from INE (Spanish Statistical Office). The sample covers the years 2002-2016.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We investigate the effect of the number of advisors that a firm reports to have on the differential impact of judicial inefficacy on firm's investment rate. In this exercise we merge our database with information coming from Amadeus-Orbis database. Advisors include banks, consultancy firms and auditors. Notably, this exercise relies on a subsample of mostly medium and large firms (see table D.2a below). Table D .2b presents the correlation of judicial inefficacy on investment when looking at the group of firms with no advisors, firms with between 1 and 5 advisors, and firms that have more than 5 different advisors. We document a negative (weak) correlation that disappears once we include firm fixed effects. In the specification we control for our usual province level controls and we cluster standard errors at the firm and year level. J o u r n a l P r e -p r o o f (*) The views expressed are those of the authors and should not be attributed to the Banco de Espa\u00f1a or the Eurosystem. We would like to thank the editor and the referees of this journal for their valuable comments and suggestions. We are also grateful to Corinna Ghirelli for her useful comments and participation in the first stages of development of this paper. We also wish to thank Taneem Saeed and seminar participants at the EALE 35th annual conference (Universit\u00e0 di Milano-Bicocca), the AEDE IX annual conference (Universitat de Lleida), the 43rd Simposio of the Spanish Economic Association (SAEE) (Universidad Carlos III de Madrid), and the research seminar of the Banco de Espa\u00f1a for their comments and insights. Any remaining errors are our own. The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 407,
+                    "end": 414,
+                    "text": "Table D",
+                    "ref_id": null
+                }
+            ],
+            "section": "annex"
+        }
+    ]
+}

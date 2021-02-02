@@ -1,0 +1,750 @@
+{
+    "paper_id": "0ab4497473f6907e222b3e4bced7ef6be88abf35",
+    "metadata": {
+        "title": "Heterocyclic inhibitors of viroporins in the design of antiviral compounds REVIEWS",
+        "authors": [
+            {
+                "first": "Vadim",
+                "middle": [
+                    "A"
+                ],
+                "last": "Shiryaev",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Samara State Technical University",
+                    "location": {
+                        "addrLine": "244 Molodogvardeiskaya St",
+                        "postCode": "443100",
+                        "settlement": "Samara",
+                        "country": "Russia"
+                    }
+                },
+                "email": "shiryaev.va@samgtu.ru"
+            },
+            {
+                "first": "Yuri",
+                "middle": [
+                    "N"
+                ],
+                "last": "Klimochkin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Samara State Technical University",
+                    "location": {
+                        "addrLine": "244 Molodogvardeiskaya St",
+                        "postCode": "443100",
+                        "settlement": "Samara",
+                        "country": "Russia"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Ion channels of viruses (viroporins) represent a common type of protein targets for drugs. The relative simplicity of channel architecture allows convenient computational modeling and enables virtual search for new inhibitors. In this review, we analyze the data published over the last 10 years on known ion channels of viruses that cause socially significant diseases. The effectiveness of inhibition by various types of heterocyclic compounds of the viroporins of influenza virus, hepatitis \u0421 virus, human immunodeficiency virus, human papillomaviruses, coronaviruses, and respiratory syncytial virus is discussed. The presented material highlights the promise held by the search for heterocyclic antiviral compounds that act by inhibition of viroporins.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The majority of biomolecules contain heterocyclic fragments in their structures. Synthetic heterocyclic compounds can imitate their natural analogs and interact with biological targets, exhibiting a broad spectrum of biological activity, therefore heterocyclic compounds have a broad range of applications as pharmaceutical agents. As many as 98% of synthetic drugs contain cyclic structural motifs in their molecules, while 87% of synthetic drugs represent heterocyclic derivatives. 1 Recently, major medicinal chemistry efforts have been motivated by the search for new antiviral drugs. Until this year, in all 93 antiviral drugs have been approved for clinical use. These drugs are used to treat only 9 types of viral infections -those that are caused by the human immunodeficiency virus (HIV), hepatitis \u0412 virus, hepatitis \u0421 virus, herpes virus, influenza virus, cytomegalovirus, varicella-zoster virus, respiratory syncytial virus, and human papillomavirus. 2 Among the antiviral drugs, 79 molecules contain a heterocyclic moiety. For the majority of viral diseases, there have been no drugs approved, thus an active search is continuing for drug lead compounds that could be developed into new pharmaceutical agents. 2b,3 For example, 105 antiviral compounds were at various stages of clinical trials in 2018, of which only 5 were approved for clinical use in the years 2018-2019. 2b-d The development of new antiviral drugs is complicated by the great genetic diversity of viruses and, consequently, the wide variety of molecular targets for antiviral therapy. The reproductive cycle of many viruses involves a group of proteins having the common function of increasing the membrane permeability. These proteins are known as viroporins. A typical characteristic of viroporins is their small size, usually up to 120 amino acid residues, the presence of one or several hydrophobic sequences and the ability of self-oligomerization with the formation of transmembrane channels that can transport small ions. 4 Viroporins have a key role in the process of viral replication: alteration or removal of the gene coding the respective viral protein results in a decrease or complete absence of virulence. 4e In recent years, viroporins have been gaining importance as drug targets, offering potentially new mechanisms for inhibiting the viral reproduction. The interest of researchers has been attracted by their small size, enabling the study of these proteins both by experimental methods of structural characterization and through the computational approaches available to medicinal chemists. Molecular dynamics calculations provide a relatively fast structural modeling of such small proteins, as well as their complexes with small molecule ligands. Virtual design is especially widely applied to the development of new inhibitors for the \u041c2 ion channels of the influenza virus and \u04407 channels of hepatitis C virus (HCV p7), since their three-dimensional models have been determined, along with the mechanism of their action and details of interaction with small molecules (Fig. 1) . 5 Currently, there are only 29 viruses known that rely on ion channels in their reproductive cycle and simultaneously present risk to human health. The most dangerous of these viruses, requiring a focused search for therapeutic agents according to the current data from WHO (the World Health Organization), are the Ebola virus, the SARS and MERS coronaviruses, and the novel 2019-nCoV coronavirus. 5m Genomic analysis of the latter has revealed that it also contains genes encoding the viroporins characteristic for other coronaviruses. However, detailed studies have been performed only with regard to 8 viruses, for which ion channel inhibitors have been found ( Table 1) .",
+            "cite_spans": [
+                {
+                    "start": 484,
+                    "end": 485,
+                    "text": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1387,
+                    "end": 1391,
+                    "text": "2b-d",
+                    "ref_id": null
+                },
+                {
+                    "start": 2012,
+                    "end": 2013,
+                    "text": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 3087,
+                    "end": 3088,
+                    "text": "5",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 3076,
+                    "end": 3084,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 3752,
+                    "end": 3760,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "One of the first small molecule antiviral drugs with specific action was amantadine, which was approved as a medication for the prevention of influenza in 1966. 31 The efforts to characterize its mode of action led to the discovery of \u041c2 ion channel in the influenza \u0410 virus. 32 Further studies led to the definition of a detailed mechanism for the operation of this channel and allowed to identify principles for its inhibition. It is currently believed that the \u041c2 protein is essential to the influenza virus for the purpose of removing the capsid shell after entering the cell. The function of the channel is to transport protons into the virus particle, leading to a decrease in pH in the interior and a change in capsid protein conformation. This process results in a disruption of the capsid shell and release of viral RNA. 33 The structure of \u041c2 protein consists of 97 amino acid residues and is divided into 3 segments: the extracellular domain (amino acid residues 1-23), intracellular domain (amino acid residues 47-97), and the transmembrane domain (amino acid residues . Four molecules of this protein are associated in a tetrameric channel. 34 The amino acid residues most important for the operation of the channel are histidine 37 and tryptophan 41, which form a \"gate\" controlling the channel. Upon protonation of the histidine 37 residue, the internal cavity of the channel expands due to electrostatic repulsion between neighboring amino acid residues, resulting in a proton flow through the channel (Fig. 2) . 35 The mechanism of blocking the channels formed of \u041c2 protein subunits involves the entry of inhibitor molecule into the channel cavity and physical obstruction of the cavity. 36 According to the data of WHO, all influenza virus strains that have been identified by year 2011 showed resistance to amantadine, 37 therefore an active search for M2 ion channel inhibitors is ongoing, most often focused on heterocyclic compounds. The loss of effectiveness observed for small cage-like amine molecules has been explained by the absence of the wild type \u041c2 ion channel (M2-WT) in the structure of the viral strains currently circulating in the population. The most common mutant type \u041c2 ion channels are S31N, V27A, and L26F. 38 Nevertheless, the M2-WT ion channel is still used as a convenient laboratory model for preliminary assessment of antiviral activity. A series of compounds exhibiting strong inhibitory activity against the M2-WT ion channel are presented in Table 2 . Among nonaromatic structures, high activity was observed for five-and six-membered saturated heterocycles, which in most cases contained nitrogen atoms. Thus, half maximal inhibition was observed at microand submicromolar concentrations of pyrrolidines 1-5 and piperidines 6-8 fused to an adamantane moiety. The related pyrrolidin-2-ones 9-10 and piperidin-2-one 11 also exhibited a strong inhibitory activity. Compounds with strong inhibitory effects were also found among azapropellanes 12-21 containing a pyrrolidine ring. The spiro-fused pyrrolidine 22, piperidines 23, 24, piperazine 25, 1,3-dithiane 26, and thiazolidine 27 had half maximal inhibitory concentrations in the micromolar range, while in the case of thiazoline derivative 28 -in the nanomolar range. 3-Oxabicyclo[3.3.1]non-6-ene derivatives 29-31 showed a pronounced inhibitory activity against the \u041c2 channel.",
+            "cite_spans": [
+                {
+                    "start": 161,
+                    "end": 163,
+                    "text": "31",
+                    "ref_id": null
+                },
+                {
+                    "start": 276,
+                    "end": 278,
+                    "text": "32",
+                    "ref_id": null
+                },
+                {
+                    "start": 830,
+                    "end": 832,
+                    "text": "33",
+                    "ref_id": null
+                },
+                {
+                    "start": 1154,
+                    "end": 1156,
+                    "text": "34",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1529,
+                    "end": 1531,
+                    "text": "35",
+                    "ref_id": null
+                },
+                {
+                    "start": 1706,
+                    "end": 1708,
+                    "text": "36",
+                    "ref_id": null
+                },
+                {
+                    "start": 2251,
+                    "end": 2253,
+                    "text": "38",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1518,
+                    "end": 1526,
+                    "text": "(Fig. 2)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 2494,
+                    "end": 2501,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "New research efforts aimed at finding ion channel inhibitors among aromatic heterocyclic compounds were started in year 2013. As a result, a range of structures were discovered, which contained an isoxazole ring (compounds 33, 34), imidazole ring (compound 35), or a pyrimidine ring (compound 37). These compounds showed inhibitory activity in the micromolar concentration range. Further structural optimization on the basis of studying the structure-activity relationships allowed to obtain a series of five-membered heterocyclic compounds 38-51 that showed inhibitory activity at submicromolar concentration range. Sufficiently active compounds were also identified among pyrazole derivatives (compound 52), thiophene derivatives (compound 53), selenophene derivatives (compound 54), and thiazole derivatives (compound 55). Two substituted tetrazoles 56, 57 exhibited antiviral activity in the micromolar concentration range. Among six-membered aromatic heterocycles, inhibitory activity against the \u041c2 ion channel was observed in the case of pyridine derivatives (compounds 58, 64) and pyrimidine derivatives (compounds 59, 60) . Other examples of compounds with inhibitory activity against the \u041c2 ion channel included New inhibitors of the \u041c2 ionic channel have been historically developed on the basis of structural similarity with adamantane derivatives. It was assumed that effective binding to the channel requires the presence of a lipophilic molecular framework along with a basic functional group. Many of the compounds shown in Table 1 (compounds 1-26) were discovered according to this approach, however, new types of heterocyclic molecules with activity against the influenza virus have been discovered via screening of natural compounds and libraries of synthetic compounds (compounds 29-37), as well as molecular docking simulations (compounds 38-58) . Many of these discovered compounds interact not only with the \u041c2 ion channel of the wild type influenza virus, but also with the channels of mutant strains. The highest activity was observed in the case of compounds 18 and 44-51, the half maximal inhibitory concentration of which was in the submicromolar range. The difference between the \u041c2 ion channels in the mutant strains from those of the wild type virus was in the considerable weakening of the hydrophobic packing between the N-terminal ends of the transmembrane helices, providing a less rigid, more dynamic tetramer structure. The less constrained packing prevented binding of the inhibitor due to weakening of the hydrophobic contacts inside the pore. For this reason, the affinity of new ligands can be improved by adding new types of contacts (electrostatic interactions and hydrogen bonds, as well as \u03c0-\u03c0 stacking and hydrophobic interactions) between the amino acid residues on the inside of the pore and the heterocyclic moieties of the inhibitors (Fig. 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1112,
+                    "end": 1130,
+                    "text": "(compounds 59, 60)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1540,
+                    "end": 1547,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1849,
+                    "end": 1866,
+                    "text": "(compounds 38-58)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 2884,
+                    "end": 2892,
+                    "text": "(Fig. 3)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Few inhibitors are known for other virus channels, compared to the \u041c2 ion channel of influenza virus. Among them, there is relatively more information available about the p7 ion channel of hepatitis C virus, for which computersimulated models have been constructed. Molecular docking studies have revealed a series of compounds (hexamethyleneamiloride 37, BIT-225 70, benzimidazolin-2-imine 71, indolin-2-one 72, 4,5-dihydropyrazin-2-one 73, piperidine 74, imidazole 75, pyrrolidine 76, and tetrazole 77, Table 3) , which have been shown to effectively block its functions, inhibiting viral replication. The ion channels of other viruses have been considerably less studied, therefore the search for their inhibitors relies on screening of compound libraries. The scarcity of literature published regarding these studies prevents us from evaluating the structure-activity relationships for ion channels of other viruses, taking into account their substantially different molecular architecture. 54 Hexamethyleneamiloride 37 has been characterized with strong activity against the \u0415 ion channel of coronaviruses and moderate activity against the Vpu ion channel of HIV. Pyrazole derivative 70 (BIT-225) has shown strong activity against the Vpu ion channel of HIV. Some flavonoids exhibit noticeable activity against the ORF3a ion channel of coronaviruses, with the highest activity determined in the case of juglanin 78. Analogs 79 and 80 of the alkaloid lycorine showed strong inhibitory activity against the 2K ion channel of the Dengue virus. A range of alkylated iminosaccharides 81, 82 can effectively block the reproduction of human papillomavirus via binding to its ion channel \u04155. Pyronin B (83) can quite effectively disrupt the function of SH ion channel of the respiratory syncytial virus (Table 3) .",
+            "cite_spans": [
+                {
+                    "start": 995,
+                    "end": 997,
+                    "text": "54",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 505,
+                    "end": 513,
+                    "text": "Table 3)",
+                    "ref_id": "TABREF6"
+                },
+                {
+                    "start": 1800,
+                    "end": 1809,
+                    "text": "(Table 3)",
+                    "ref_id": "TABREF6"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Thus, heterocyclic fragments, known as the most common pharmacophores, can strongly bind to proteins, including viroporins, effectively blocking their functions. Even though this review article covers only compounds with proven activity against the ion channels of viruses, other compounds with pronounced antiviral activity but unknown mechanisms of action can probably act as ligands for these targets. At the same time, viroporins are small proteins with relatively simple molecular architecture. Their structures can be relatively easily determined both by experimental and computational methods, enabling effective virtual search for new lead compounds in drug development. The genome of a wide array of dangerous viruses encodes proteins that function as ion channels, for which effective inhibitors remain unknown. Obviously, the ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "d) New Drug Therapy Aprovals",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "De Clercq",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chaudhuri",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Symons",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "29",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Electrophysiology of Unconventional Channels",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Nieva",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Madan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Carrasco",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Scott",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Gen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hyser",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Nieto-Torres",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Verdia-Baguena",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Castano-Rodriguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Aguilella",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Proc. Natl. Acad. Sci",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Pinto",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A J"
+                    ],
+                    "last": "Lamb",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Biol",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Chem",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.-S",
+                    "middle": [],
+                    "last": "Jeong",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Dyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Thomaston",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Polizzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Degrado",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Watkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M J"
+                    ],
+                    "last": "Swanson",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Degrado",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Voth",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mandala",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Loftis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Shcherbakov",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Pentelute",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Thomaston",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Woldeyes",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nakane",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Yamashita",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tanaka",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Koiwai",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Brewster",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Barad",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Lemmin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Uervirojnangkoorn",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Arima",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kobayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Masuda",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sugahara",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Sauter",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tanaka",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Nureki",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tono",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Joti",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Nango",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Iwata",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Yumoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Fraser",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "139",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Computer models of \u041c2 (left side) and HCV \u04407 (right side) ion channels, constructed via molecular dynamics simulations. 5f,h",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "certain derivatives of thiophene (compounds 61, 63, 65-67), furan (compound 62), indole (compound 68), and pyrrolidine (compound 69).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "The operating mechanism of \u041c2 ion channel in the influenza virus. The top drawing shows a general view of open (left side) and closed (right side) ion channel. The bottom drawing shows only two opposite subunits of open and closed channels, with distances given in \u00c5. 35b",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "a) The structure of a complex formed between the S31N \u041c2 mutant ion channel of influenza virus with compound 44 and b) the main interactions between the inhibitor molecule and the amino acid residues of ion channel.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "Viruses and the respective viroporins (the proteins for which small heterocyclic molecules have been identified as inhibitors are marked in bold)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Heterocyclic inhibitors of \u041c2 ion channel (concentrations reported for the wild type (WT) ion channel)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Ion channel inhibitors for hepatitis C virus, HIV, coronaviruses, human papillomavirus, and respiratory syncytial virus search for such inhibitors is highly important in the interests of medicinal chemistry, as well as opens new opportunities for the chemistry of heterocyclic molecules. review article was prepared with financial support from the Ministry of Science and Higher Education of the Russian Federation, within the framework of State Assignment No. 0778-2020-0005 and from the Russian Foundation for Basic Research (grant 19-03-00973).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}
